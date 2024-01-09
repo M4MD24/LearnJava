@@ -1,15 +1,15 @@
 # Learn Java
 
-## Tips for search important comments:
+- Recommended using Intellij IDEA
 
-Default shortcut for search in:
+### Tips for search important comments:
 
-- Intellij IDEA: `CTRL + Shift + F`
+- For Search in Intellij IDEA `CTRL + Shift + F`
 
-1. Search `! */` for **Advices and Tips**
-2. Search `/* ↓` for **Examples**
-3. Search `/* √` for **Similar Concepts**
-4. Search `/* ■` for **Tables**
+    1. Search `! */` for **Advices and Tips**
+    2. Search `/* ↓` for **Examples**
+    3. Search `/* √` for **Similar Concepts**
+    4. Search `/* ■` for **Tables**
 
 ### Topics and Concepts
 
