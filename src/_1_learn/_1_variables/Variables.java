@@ -1,4 +1,4 @@
-package _1_variables;
+package _1_learn._1_variables;
 
 public class Variables {
     public static void main(String[] args) {

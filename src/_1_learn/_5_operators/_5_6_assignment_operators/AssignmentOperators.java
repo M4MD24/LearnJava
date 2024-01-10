@@ -1,4 +1,4 @@
-package _5_operators._5_6_assignment_operators;
+package _1_learn._5_operators._5_6_assignment_operators;
 
 public class AssignmentOperators {
     public static void main(String[] args) {

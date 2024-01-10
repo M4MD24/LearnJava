@@ -1,4 +1,4 @@
-package _5_operators._5_1_arithmetic_operators;
+package _1_learn._5_operators._5_1_arithmetic_operators;
 
 public class ArithmeticOperators {
     public static void main(String[] args) {

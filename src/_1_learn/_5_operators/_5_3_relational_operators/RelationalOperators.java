@@ -1,4 +1,4 @@
-package _5_operators._5_3_relational_operators;
+package _1_learn._5_operators._5_3_relational_operators;
 
 public class RelationalOperators {
     public static void main(String[] args) {

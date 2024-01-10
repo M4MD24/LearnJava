@@ -1,4 +1,4 @@
-# Learn Java
+# Learn Programming by Java
 
 - Recommended using Intellij IDEA
 
@@ -19,7 +19,7 @@
 2. **Data Types**
 3. **Literal**
 4. **Type Conversion, Casting and Type Promotion**
-5. **Operators (**
+5. **Operators**
     1. Arithmetic Operators
     2. Bitwise Operators
     3. Relational Operators
@@ -27,4 +27,14 @@
     5. Unary Operators
     6. Assignment Operators
 
-   **)**
+6. **Input and Output**
+
+7. **Flow Control**
+    1. If Statement
+        1. If and Else
+        2. Ternary Operator
+
+    2. Switch
+    3. Loops
+        1. Do and While
+        2. For

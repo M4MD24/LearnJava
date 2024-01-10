@@ -1,4 +1,4 @@
-package _5_operators._5_5_unary_operators;
+package _1_learn._5_operators._5_5_unary_operators;
 
 public class UnaryOperators {
     public static void main(String[] args) {

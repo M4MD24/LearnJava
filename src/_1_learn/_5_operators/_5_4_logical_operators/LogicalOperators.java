@@ -1,4 +1,4 @@
-package _5_operators._5_4_logical_operators;
+package _1_learn._5_operators._5_4_logical_operators;
 
 public class LogicalOperators {
     public static void main(String[] args) {

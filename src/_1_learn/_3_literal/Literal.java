@@ -1,4 +1,4 @@
-package _3_literal;
+package _1_learn._3_literal;
 
 public class Literal {
     public static void main(String[] args) {

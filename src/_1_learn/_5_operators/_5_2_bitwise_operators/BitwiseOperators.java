@@ -1,4 +1,4 @@
-package _5_operators._5_2_bitwise_operators;
+package _1_learn._5_operators._5_2_bitwise_operators;
 
 public class BitwiseOperators {
     public static void main(String[] args) {

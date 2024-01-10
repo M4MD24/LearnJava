@@ -1,15 +1,15 @@
-package _2_data_types;
+package _1_learn._2_data_types;
 
 import java.io.UnsupportedEncodingException;
+
 import static java.nio.charset.StandardCharsets.*;
+
 import java.util.Arrays;
 
 public class DataTypes {
     public static void main(String[] args) throws UnsupportedEncodingException {
         /* Data Types And Sizes! */
-        /*
-         *
-         * Integer -> byte (1 byte),
+        /* Integer -> byte (1 byte),
          *            short (2 bytes),
          *            int (4 bytes),
          *            long (8 bytes)
@@ -62,7 +62,6 @@ public class DataTypes {
         String stringVariable = "A";
 
 /*        String Converting
-
         byte[] utf_8_Bytes = stringVariable.getBytes(UTF_8);
         String utf_8_BytesConvertedString = new String(utf_8_Bytes, UTF_8);
         System.out.println("Original String: " + stringVariable);
@@ -107,7 +106,6 @@ public class DataTypes {
 */
 
 /*        String types bytes
-
         byte[] utf_8_Bytes = stringVariable.getBytes(UTF_8);
         int sizeInBytesUTF_8 = utf_8_Bytes.length;
         System.out.println("The size of the string (UTF-8) is " + sizeInBytesUTF_8 + " bytes.");

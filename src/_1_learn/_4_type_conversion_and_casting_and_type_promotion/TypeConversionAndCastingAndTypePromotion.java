@@ -1,4 +1,4 @@
-package _4_type_conversion_and_casting_and_type_promotion;
+package _1_learn._4_type_conversion_and_casting_and_type_promotion;
 
 public class TypeConversionAndCastingAndTypePromotion {
     public static void main(String[] args) {
