@@ -6,7 +6,7 @@
 
 - For Search in Intellij IDEA `CTRL + Shift + F`
 
-    1. Search `! */` for **Advices and Tips**
+    1. Search `! */` for **Advices, Tips and Errors**
     2. Search `. */` for **Definitions**
     3. Search `/* -` for **The Difference Between**
     4. Search `/* ↓` for **Examples**
@@ -60,3 +60,14 @@
 6. **InstanceOf**
 7. **Inheritance**
 8. **Array of Object**
+9. **Polymorphism**
+10. **Encapsulation**
+11. **Data Hiding**
+12. **Nested and Inner Class**
+13. **Anonymous Class**
+14. **Singleton**
+15. **Enum**
+16. **Enum Constructor**
+
+- **Keywords:**
+    1. Abstract, Override and Super

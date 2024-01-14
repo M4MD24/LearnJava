@@ -41,7 +41,7 @@ public class ArrayOfObject {
         programmers[3] = ahmed;
         programmers[4] = mahmoud;
 
-        for (Programmer item : programmers) {
+        for (Programmer item : programmers) { /* (foreach) at this moment is enhanced loop than normal (for loop)! */
             System.out.println("Id: " + counter);
             System.out.println("Name: " + item.name);
             System.out.println("Age: " + item.age);
