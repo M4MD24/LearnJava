@@ -72,14 +72,13 @@ public class LinkedHashMapExample {
         });
         System.out.println(".compute() after         : " + countries);
 
-        countries.putIfAbsent("SA", "Saudi Arabia");
-        System.out.println(".computeIfAbsent() after : " + countries);
+        System.out.println(".computeIfAbsent() after : " + countries.computeIfAbsent("SA", (key) -> "SAUDI ARABIA"));
 
         countries.computeIfPresent("KW", (key, value) -> "{" + value + "}");
         System.out.println(".computeIfPresent() after: " + countries);
 
-        System.out.println(".computeIfPresent()      : " + countries.merge("EG", "EGYPT", (key, value) -> "Egypt"));
-        System.out.println(".computeIfPresent() after: " + countries);
+        System.out.println(".merge()                : " + countries.merge("AF", "Afghanistan", (key, value) -> value));
+        System.out.println(".merge()                : " + countries);
 
         System.out.println(".containsKey() after     : " + countries.containsKey("EG"));
 

@@ -130,6 +130,21 @@ public class DataTypes {
         System.out.println("(" + stringVariable + ") .intern()             : " + stringVariable.intern());
         System.out.println("(" + stringVariable + ") .contentEquals()      : " + stringVariable.contentEquals("AA aa"));
         System.out.println("(" + stringVariable + ") .hashCode()           : " + stringVariable.hashCode());
-        System.out.println("(" + stringVariable + ") .subSequence()        : " + stringVariable.subSequence(1, 4));
+        System.out.println("(" + stringVariable + ") .subSequence()        : " + stringVariable.subSequence(1, 4) + "\n");
+
+        var intVar = 100; // int
+        System.out.println("intVar                        : " + intVar);
+
+        var doubleVar = 1.90; // double
+        System.out.println("doubleVar                     : " + doubleVar);
+
+        var charVar = 'a'; // char
+        System.out.println("charVar                       : " + charVar);
+
+        var stringVar = "Aa"; // string
+        System.out.println("stringVar                     : " + stringVar);
+
+        var booleanVar = true; // boolean
+        System.out.println("booleanVar                    : " + booleanVar);
     }
 }

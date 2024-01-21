@@ -74,8 +74,7 @@ public class EnumMapExample {
         });
         System.out.println(".compute() after         : " + countries);
 
-        countries.putIfAbsent(Countries.SA, "Saudi Arabia");
-        System.out.println(".computeIfAbsent() after : " + countries);
+        System.out.println(".computeIfAbsent()       : " + countries.computeIfAbsent(Countries.valueOf("IL"), key -> "Unknown"));
 
         countries.computeIfPresent(Countries.KW, (key, value) -> "{" + value + "}");
         System.out.println(".computeIfPresent() after: " + countries);
