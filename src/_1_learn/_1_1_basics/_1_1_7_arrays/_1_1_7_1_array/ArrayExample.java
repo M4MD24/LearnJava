@@ -1,9 +1,8 @@
 package _1_learn._1_1_basics._1_1_7_arrays._1_1_7_1_array;
 
-public class Array {
+public class ArrayExample {
     public static void main(String[] args) {
 //        1D Dimensional Array
-
         byte[] byteArrayVariable = {10, 20, 30, 40, 50, 60, 70, 80, 90};
         System.out.println("byte Array Variable = " + byteArrayVariable[0]);
         byte[] byteArrayVariable2 = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};

@@ -4,7 +4,7 @@ public class MultidimensionalArray {
     public static void main(String[] args) {
         /* You can create endless arrays! */
 
-//        3D Dimensional Array
+//        3D Dimensional ArrayExample
         byte[][][] array3D = {
                 {
                         {10, 20, 30, 40, 50},
@@ -29,9 +29,9 @@ public class MultidimensionalArray {
         for (byte[][] array2D : array3D)
             for (byte[] array1D : array2D)
                 for (byte item : array1D)
-                    System.out.println("3D Dimensional Array" + item);
+                    System.out.println("3D Dimensional ArrayExample" + item);
 
-//        2D Dimensional Array
+//        2D Dimensional ArrayExample
         byte[][] array2D = {
                 {10, 20, 30, 40, 50},
                 {10, 20, 30, 40, 50},
@@ -41,6 +41,6 @@ public class MultidimensionalArray {
 
         for (byte[] array1D : array2D)
             for (byte item : array1D)
-                System.out.println("2D Dimensional Array" + item);
+                System.out.println("2D Dimensional ArrayExample" + item);
     }
 }

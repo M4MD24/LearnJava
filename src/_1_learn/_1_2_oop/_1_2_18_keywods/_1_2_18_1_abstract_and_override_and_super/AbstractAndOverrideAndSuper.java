@@ -1,4 +1,4 @@
-package _1_learn._1_2_oop._1_2_infinity_keywods._1_2_infinity_1_abstract_and_override_and_super;
+package _1_learn._1_2_oop._1_2_18_keywods._1_2_18_1_abstract_and_override_and_super;
 
 /* abstract: abstract classes are created to be the superclass of other classes. And, if a class contains an abstract method, it is mandatory to override it! */
 abstract class Persons { // Superclass

@@ -2,6 +2,8 @@
 
 - Recommended using Intellij IDEA
 
+---
+
 ### Tips for search important comments:
 
 - For Search in Intellij IDEA `CTRL + Shift + F`
@@ -13,6 +15,9 @@
     5. Search `/* √` for **Similar Concepts**
     6. Search `/* ■` for **Tables**
     7. Search `? */` for **Problems Solved**
+    8. Search `// •` for **Important Things**
+
+---
 
 - ### Topics and Concepts
 
@@ -68,6 +73,42 @@
 14. **Singleton**
 15. **Enum**
 16. **Enum Constructor**
-
-- **Keywords:**
+17. **Reflection**
+18. **Keywords:**
     1. Abstract, Override and Super
+
+#### 3. Exception Handling:
+
+1. Try, Catch, Finally, throw and throws
+2. Annotation
+3. Logging
+4. Assertion
+
+#### 4. Data Structures:
+
+1. **List**
+    1. List
+    2. List with Others
+2. **ArrayList**
+3. **LinkedList**
+4. **Vector**
+5. **Stack**
+6. **Queue**
+7. **PriorityQueue**
+8. **Deque**
+9. **ArrayDeque**
+10. **BlockingQueue with Others**
+11. **ArrayBlockingQueue**
+12. **LinkedBlockingQueue**
+13. **BlockingDeque with Others**
+14. **LinkedBlockingDeque**
+15. **Map with Others**
+16. **HashMap**
+17. **LinkedHashMap**
+18. **WeakHashMap**
+19. **EnumMap**
+20. **SortedMap with Others**
+21. **Navigable with Others**
+22. **TreeMap**
+
+---
