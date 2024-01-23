@@ -1,4 +1,4 @@
-package _1_learn._1_1_basics._1_1_8_flow_control._1_1_8_2_switch;
+package _1_learn._1_1_basics._1_1_8_flow_control._1_8_2_switch;
 
 public class Switch {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package _1_learn._1_1_basics._1_1_8_flow_control._1_1_8_1_if_statement._1_1_8_1_1_if_and_else;
+package _1_learn._1_1_basics._1_1_8_flow_control._1_8_1_if_statement._1_8_1_1_if_and_else;
 
 public class IfAndElse {
     public static void main(String[] args) {

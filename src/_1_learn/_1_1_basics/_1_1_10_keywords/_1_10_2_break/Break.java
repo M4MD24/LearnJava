@@ -1,4 +1,4 @@
-package _1_learn._1_1_basics._1_1_9_keywords._1_1_9_2_break;
+package _1_learn._1_1_basics._1_1_10_keywords._1_10_2_break;
 
 public class Break {
     public static void main(String[] args) {

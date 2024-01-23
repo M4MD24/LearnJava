@@ -64,10 +64,10 @@ import java.util.TreeMap;
  */
 public class NavigableMapExample {
     public static void main(String[] args) {
-        navigableMap();
+        navigableMapTreeMap();
     }
 
-    private static void navigableMap() {
+    private static void navigableMapTreeMap() {
         NavigableMap<String, String> countries = new TreeMap<>();
         countries.put("EG", "Egypt");
         countries.put("KW", "Kuwait");

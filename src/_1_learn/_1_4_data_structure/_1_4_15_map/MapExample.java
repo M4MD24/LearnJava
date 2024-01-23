@@ -75,6 +75,8 @@ public class MapExample {
         countries.put("EG", "Egypt");
         countries.put("KW", "Kuwait");
         countries.put("JP", "Japan");
+
+        /* All Map is arranged alphabetically automatically ! */
         System.out.println(".put() after             : " + countries);
 
         Map<String, String> additionalCountries = new HashMap<>();

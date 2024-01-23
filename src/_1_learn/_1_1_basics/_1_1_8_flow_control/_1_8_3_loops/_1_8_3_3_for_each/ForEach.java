@@ -1,4 +1,4 @@
-package _1_learn._1_1_basics._1_1_8_flow_control._1_1_8_3_loops._1_1_8_3_3_for_each;
+package _1_learn._1_1_basics._1_1_8_flow_control._1_8_3_loops._1_8_3_3_for_each;
 
 public class ForEach {
     public static void main(String[] args) {

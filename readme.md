@@ -48,12 +48,13 @@
         1. Do and While
         2. For
         3. For Each
-9. **keywords:**
+9. **Timestamp**
+10. **keywords:**
     1. Final
     2. Break
     3. Continue
 
-#### 2. OOP (Object Oriented Programming):
+#### 2. Object-Oriented Programming (OOP):
 
 1. **Class**
 2. **Methods:**
@@ -79,10 +80,10 @@
 
 #### 3. Exception Handling:
 
-1. Try, Catch, Finally, throw and throws
-2. Annotation
-3. Logging
-4. Assertion
+1. **Try, Catch, Finally, throw and throws**
+2. **Annotation**
+3. **Logging**
+4. **Assertion**
 
 #### 4. Data Structures:
 
@@ -112,5 +113,22 @@
 22. **TreeMap**
 23. **ConCurrentMap**
 24. **ConCurrentHashMap**
+25. **Set with Others**
+26. **HashSet**
+27. **LinkedHashSet**
+28. **EnumSet**
+29. **TreeSet**
+30. **SortedSet with Others**
+31. **Navigable with Others**
+32. **Iterator**
+33. **ListIterator**
+
+#### 5. Algorithms:
+
+1. **Sorting**
+2. **Shuffling**
+3. **Routine Data Manipulation**
+4. **Searching**
+5. **Finding Extreme Values**
 
 ---
