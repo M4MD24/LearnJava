@@ -165,3 +165,4 @@
 
 1. **Add Two Numbers**
 2. **Count Words**
+3. **Calculate Sum Of Array Elements**
