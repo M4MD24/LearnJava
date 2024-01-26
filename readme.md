@@ -4,7 +4,7 @@
 
 ---
 
-### Tips for search important comments:
+## Tips for search important comments:
 
 - For Search in Intellij IDEA `CTRL + Shift + F`
 
@@ -19,47 +19,50 @@
 
 ---
 
-- ### Topics and Concepts
+## _1. Learning:_
 
-#### 1. Basics:
+### 1. Basics:
 
 1. **Variables**
 2. **Data Types**
 3. **Literal**
 4. **Type Conversion, Casting and Type Promotion**
 5. **Operators:**
-    1. Arithmetic Operators
-    2. Bitwise Operators
-    3. Relational Operators
-    4. Logical Operators
-    5. Unary Operators
-    6. Assignment Operators
-6. **Input and Output**
+    1. **Arithmetic Operators**
+    2. **Bitwise Operators**
+    3. **Relational Operators**
+    4. **Logical Operators**
+    5. **Unary Operators**
+    6. **Assignment Operators**
+6. **Scanner and Print**
 7. **Arrays:**
-    1. Array
-    2. Multidimensional Array
-    3. Copy Array
+    1. **Array**
+    2. **Multidimensional Array**
+    3. **Copy Array**
 8. **Flow Control:**
     1. **If Statement:**
-        1. If and Else
-        2. Ternary Operator
+        1. **If and Else**
+        2. **Ternary Operator**
     2. **Switch**
     3. **Loops:**
-        1. Do and While
-        2. For
-        3. For Each
+        1. **Do and While**
+        2. **For**
+        3. **For Each**
 9. **Timestamp**
 10. **keywords:**
-    1. Final
-    2. Break
-    3. Continue
+    1. **Final**
+    2. **Break**
+    3. **Continue**
+11. **Lambda Expressions:**
+    1. **Lambda Expressions**
+    2. **regular Expressions**
 
-#### 2. Object-Oriented Programming (OOP):
+### 2. Object-Oriented Programming (OOP):
 
 1. **Class**
 2. **Methods:**
-    1. Method
-    2. Overloading Method
+    1. **Method**
+    2. **Overloading Method**
 3. **Constructor**
 4. **Getter and Setter**
 5. **Recursion**
@@ -76,20 +79,43 @@
 16. **Enum Constructor**
 17. **Reflection**
 18. **Keywords:**
-    1. Abstract, Override and Super
+    1. **Abstract, Override and Super**
+19. **Generics**
+20. **Wrapper Classes**
 
-#### 3. Exception Handling:
+### 3. Handling:
 
-1. **Try, Catch, Finally, throw and throws**
-2. **Annotation**
-3. **Logging**
-4. **Assertion**
+1. **Exceptions Handing:**
+    1. **Try, Catch, Finally, throw and throws**
+    2. **Annotation**
+    3. **Logging**
+    4. **Assertion**
 
-#### 4. Data Structures:
+2. **File Handling:**
+    1. **Input and output Streams (I/O Streams):**
+        1. **Input and Output**
+        2. **(Input/Output) Stream**
+        3. **File (Input/Output) Stream**
+        4. **Byte Array (Input/Output) Stream**
+        5. **Object (Input/Output) Stream**
+        6. **Buffered (Input/Output) Stream**
+        7. **Print Stream**
 
-1. **List**
-    1. List
-    2. List with Others
+    2. **Reader and Writer:**
+        1. **(Reader/Writer)**
+        2. **(Input/Output) Stream (Reader/Writer)**
+        3. **File (Reader/Writer)**
+        4. **Buffered (Reader/Writer)**
+        5. **String (Reader/Writer)**
+        6. **Print Writer**
+
+    3. **File**
+
+### 4. Data Structures:
+
+1. **List:**
+    1. **List**
+    2. **List with Others**
 2. **ArrayList**
 3. **LinkedList**
 4. **Vector**
@@ -123,7 +149,7 @@
 32. **Iterator**
 33. **ListIterator**
 
-#### 5. Algorithms:
+### 5. Algorithms:
 
 1. **Sorting**
 2. **Shuffling**
@@ -132,3 +158,10 @@
 5. **Finding Extreme Values**
 
 ---
+
+## _2. Problem Solving_
+
+### **W3Schools:**
+
+1. **Add Two Numbers**
+2. **Count Words**
