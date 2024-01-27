@@ -131,6 +131,7 @@ public class DataTypes {
         System.out.println("(" + stringVariable + ") .contentEquals()      : " + stringVariable.contentEquals("AA aa"));
         System.out.println("(" + stringVariable + ") .hashCode()           : " + stringVariable.hashCode());
         System.out.println("(" + stringVariable + ") .subSequence()        : " + stringVariable.subSequence(1, 4) + "\n");
+        System.out.println("(" + stringVariable + ") .concat()             : " + stringVariable.concat("Aa") + "\n");
 
         var intVar = 100; // int
         System.out.println("intVar                        : " + intVar);

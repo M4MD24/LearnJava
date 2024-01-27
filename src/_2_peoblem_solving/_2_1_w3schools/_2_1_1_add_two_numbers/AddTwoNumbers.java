@@ -1,4 +1,4 @@
-package _2_peoblem_solving._2_1_w3schools._1_add_two_numbers;
+package _2_peoblem_solving._2_1_w3schools._2_1_1_add_two_numbers;
 
 import java.util.Scanner;
 

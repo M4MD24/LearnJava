@@ -37,6 +37,11 @@ public class InheritanceWithClass extends Apple {
 
     }
 
+    /* (Final/Private) classes shouldn't be inherited by other classes! */
+    final class FinalClass {
+
+    }
+
     private class PrivateClass {
 
     }

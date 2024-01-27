@@ -157,6 +157,8 @@
 4. **Searching**
 5. **Finding Extreme Values**
 
+### 6. Testing
+
 ---
 
 ## _2. Problem Solving_
@@ -166,3 +168,4 @@
 1. **Add Two Numbers**
 2. **Count Words**
 3. **Calculate Sum Of Array Elements**
+4. **Calculate Area of Rectangle**
