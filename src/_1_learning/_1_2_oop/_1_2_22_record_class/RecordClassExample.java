@@ -1,0 +1,16 @@
+package _1_learning._1_2_oop._1_2_22_record_class;
+
+record Person(int id, String name) {
+    public Person() {
+        this(0, "");
+    }
+}
+
+public class RecordClassExample {
+    public static void main(String[] args) {
+        String[] names = {"Abd-Allah", "Abd-ElRahman", "Mohamed", "Ahmed"};
+        for (int index = 0; index < names.length; index++) System.out.println(new Person(index, names[index]));
+
+        System.out.print("\n" + new Person());
+    }
+}

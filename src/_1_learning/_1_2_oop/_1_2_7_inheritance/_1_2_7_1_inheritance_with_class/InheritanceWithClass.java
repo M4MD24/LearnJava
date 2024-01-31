@@ -61,7 +61,6 @@ public class InheritanceWithClass extends Apple {
         Fuji.name = "Fuji";
         Fuji.color = "Red";
         Fuji.displayName();
-        Fuji.displayColor();
-        new InheritanceWithClass().displayOrigin("Japanese");
+        Fuji.displayColor(); // Dynamic Method Dispatch
     }
 }

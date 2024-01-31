@@ -22,7 +22,7 @@ class Anonymous {
             public void display() {
                 System.out.println("Inside an Anonymous class");
             }
-        };
+        }; // Anonymous Inner Class
         polygonClass.display();
     }
 

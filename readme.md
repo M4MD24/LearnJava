@@ -55,7 +55,11 @@
     3. **Continue**
 11. **Lambda Expressions:**
     1. **Lambda Expressions**
-    2. **regular Expressions**
+    2. **Regular Expressions**
+12. **Threads**
+13. **Math**
+14. **String Buffer**
+15. **String Builder**
 
 ### 2. Object-Oriented Programming (OOP):
 
@@ -80,8 +84,12 @@
 17. **Reflection**
 18. **Keywords:**
     1. **Abstract, Override and Super**
+    2. **Static**
 19. **Generics**
 20. **Wrapper Classes**
+21. **Association**
+22. **Record Class**
+23. **Sealed Class And Interface**
 
 ### 3. Handling:
 
@@ -148,6 +156,7 @@
 31. **Navigable with Others**
 32. **Iterator**
 33. **ListIterator**
+34. **Graph**
 
 ### 5. Algorithms:
 
@@ -169,3 +178,4 @@
 2. **Count Words**
 3. **Calculate Sum Of Array Elements**
 4. **Calculate Area of Rectangle**
+5. **Print Odd And Even Number**
