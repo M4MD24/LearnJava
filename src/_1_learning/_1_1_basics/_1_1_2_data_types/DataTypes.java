@@ -21,7 +21,7 @@ public class DataTypes {
          *      (UTF-16LE)   2 bytes,
          *      (UTF-16BE)   2 bytes,
          *      (UTF-16)     4 bytes,
-         *      (UTF-32)     4 bytes,
+         *      (UTF-32)     4 bytes
          * )
          */
 
