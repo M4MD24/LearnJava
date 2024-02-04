@@ -36,7 +36,7 @@ public class InputAndOutputStreamExample {
 
     private static void inputStream() throws IOException {
         byte[] array = new byte[Byte.MAX_VALUE];
-        InputStream file = new FileInputStream("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_1_input_and_output_streams/_1_3_2_1_2_input_and_output_stream/InputAndOutputStream.txt");
+        InputStream file = new FileInputStream("src/_1_learning/_1_3_handling/_1_3_2_file_handling/_1_3_2_1_input_and_output_streams/_1_3_2_1_2_input_and_output_stream/InputAndOutputStream.txt");
 
         System.out.println(".available()    : " + file.available());
 
@@ -65,7 +65,7 @@ public class InputAndOutputStreamExample {
     private static void outputStream() throws IOException {
         String data = "Input And Output Stream";
 
-        OutputStream file = new FileOutputStream("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_1_input_and_output_streams/_1_3_2_1_2_input_and_output_stream/InputAndOutputStream.txt");
+        OutputStream file = new FileOutputStream("src/_1_learning/_1_3_handling/_1_3_2_file_handling/_1_3_2_1_input_and_output_streams/_1_3_2_1_2_input_and_output_stream/InputAndOutputStream.txt");
         byte[] dataBytes = data.getBytes();
 
         file.write(dataBytes);

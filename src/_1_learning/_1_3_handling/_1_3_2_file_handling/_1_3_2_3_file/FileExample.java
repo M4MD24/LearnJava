@@ -50,7 +50,7 @@ public class FileExample {
 
     private static void file() throws IOException {
         char[] array = new char[Character.MAX_VALUE];
-        File file = new File("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_3_file/File.txt");
+        File file = new File("src/_1_learning/_1_3_handling/_1_3_2_file_handling/_1_3_2_3_file/File.txt");
 
         System.out.println(".createNewFile()         : " + file.createNewFile());
 

@@ -43,7 +43,7 @@ public class BufferedInputAndOutputStreamExample {
     }
 
     private static void bufferedInputStream() throws IOException {
-        FileInputStream file = new FileInputStream("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_1_input_and_output_streams/_1_3_2_1_6_buffered_input_and_output_stream/BufferedInputAndOutputStream.txt");
+        FileInputStream file = new FileInputStream("src/_1_learning/_1_3_handling/_1_3_2_file_handling/_1_3_2_1_input_and_output_streams/_1_3_2_1_6_buffered_input_and_output_stream/BufferedInputAndOutputStream.txt");
         BufferedInputStream input = new BufferedInputStream(file);
 
         int index = input.read();
@@ -59,7 +59,7 @@ public class BufferedInputAndOutputStreamExample {
 
     private static void bufferedOutputStream() throws IOException {
         String data = "Buffered Input And Output Stream";
-        FileOutputStream file = new FileOutputStream("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_1_input_and_output_streams/_1_3_2_1_6_buffered_input_and_output_stream/BufferedInputAndOutputStream.txt");
+        FileOutputStream file = new FileOutputStream("src/_1_learning/_1_3_handling/_1_3_2_file_handling/_1_3_2_1_input_and_output_streams/_1_3_2_1_6_buffered_input_and_output_stream/BufferedInputAndOutputStream.txt");
         BufferedOutputStream output = new BufferedOutputStream(file);
         byte[] array = data.getBytes();
 

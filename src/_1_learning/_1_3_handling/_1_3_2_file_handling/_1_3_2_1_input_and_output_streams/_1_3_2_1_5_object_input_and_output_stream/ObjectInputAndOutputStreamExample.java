@@ -49,7 +49,7 @@ public class ObjectInputAndOutputStreamExample {
     }
 
     private static void objectInputStream() throws IOException, ClassNotFoundException {
-        FileInputStream fileStream = new FileInputStream("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_1_input_and_output_streams/_1_3_2_1_5_object_input_and_output_stream/ObjectInputAndOutputStream.txt");
+        FileInputStream fileStream = new FileInputStream("src/_1_learning/_1_3_handling/_1_3_2_file_handling/_1_3_2_1_input_and_output_streams/_1_3_2_1_5_object_input_and_output_stream/ObjectInputAndOutputStream.txt");
         ObjectInputStream objStream = new ObjectInputStream(fileStream);
 
         System.out.println("Integer data: " + objStream.readInt());
@@ -66,7 +66,7 @@ public class ObjectInputAndOutputStreamExample {
         boolean booleanData = true;
         char charData = 'A';
 
-        FileOutputStream file = new FileOutputStream("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_1_input_and_output_streams/_1_3_2_1_5_object_input_and_output_stream/ObjectInputAndOutputStream.txt");
+        FileOutputStream file = new FileOutputStream("src/_1_learning/_1_3_handling/_1_3_2_file_handling/_1_3_2_1_input_and_output_streams/_1_3_2_1_5_object_input_and_output_stream/ObjectInputAndOutputStream.txt");
         ObjectOutputStream output = new ObjectOutputStream(file);
 
         output.writeInt(intData);

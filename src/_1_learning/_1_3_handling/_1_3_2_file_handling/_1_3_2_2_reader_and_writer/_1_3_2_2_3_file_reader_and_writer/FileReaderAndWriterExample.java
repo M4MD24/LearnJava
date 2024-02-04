@@ -49,7 +49,7 @@ public class FileReaderAndWriterExample {
 
     private static void fileReader() throws IOException {
         char[] array = new char[Character.MAX_VALUE];
-        FileReader input = new FileReader("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_3_file_reader_and_writer/FileReaderAndWriter.txt");
+        FileReader input = new FileReader("src/_1_learning/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_3_file_reader_and_writer/FileReaderAndWriter.txt");
 
         input.read(array);
         System.out.print(".read(): ");
@@ -60,7 +60,7 @@ public class FileReaderAndWriterExample {
 
     private static void fileWriter() throws IOException {
         String data = "File Reader And Writer";
-        FileWriter file = new FileWriter("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_3_file_reader_and_writer/FileReaderAndWriter.txt");
+        FileWriter file = new FileWriter("src/_1_learning/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_3_file_reader_and_writer/FileReaderAndWriter.txt");
 
         file.write(data);
 

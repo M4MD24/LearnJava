@@ -34,7 +34,7 @@ public class PrintWriterExample {
 
     private static void printWriter() throws IOException {
         String data = "Print Writer";
-        PrintWriter out = new PrintWriter("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_6_pint_writer/PrintWriter.txt");
+        PrintWriter out = new PrintWriter("src/_1_learning/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_6_pint_writer/PrintWriter.txt");
 
         out.print(data);
 

@@ -35,7 +35,7 @@ public class ReaderAndWriter {
 
     private static void reader() throws IOException {
         char[] array = new char[Character.MAX_VALUE];
-        Reader input = new FileReader("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_1_reader_and_writer/ReaderAndWriter.txt");
+        Reader input = new FileReader("src/_1_learning/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_1_reader_and_writer/ReaderAndWriter.txt");
 
         System.out.println(".ready(): " + input.ready());
 
@@ -48,7 +48,7 @@ public class ReaderAndWriter {
 
     private static void writer() throws IOException {
         String data = "Reader And Writer";
-        Writer output = new FileWriter("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_1_reader_and_writer/ReaderAndWriter.txt");
+        Writer output = new FileWriter("src/_1_learning/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_1_reader_and_writer/ReaderAndWriter.txt");
 
         output.write(data);
 

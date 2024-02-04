@@ -173,11 +173,6 @@
 
 ## _2. Problem Solving_
 
-### **W3Schools:**
+### 1. W3Schools:
 
-1. **Add Two Numbers**
-2. **Count Words**
-3. **Calculate Sum Of Array Elements**
-4. **Calculate Area of Rectangle**
-5. **Print Odd And Even Number**
-6. **Print Difference Between Two Numbers**
+### 2. W3Resource:
