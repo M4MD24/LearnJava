@@ -1,9 +1,12 @@
 package _1_learning._1_1_basics._1_1_9_date_and_time;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
+import java.util.TimeZone;
 
 /**
  * <ul>
@@ -19,6 +22,7 @@ public class DateAndTimeExample {
         time();
         dateAndTime();
         formattingDateAndTime();
+        sampleDateFormat();
     }
 
     private static void date() {
@@ -67,8 +71,15 @@ public class DateAndTimeExample {
 
         System.out.println("Before Formatting: " + dateAndTimeNow);
 
-        DateTimeFormatter formattingDateAndTime = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        DateTimeFormatter formattingDateAndTime = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
         String formattedDateAndTime = dateAndTimeNow.format(formattingDateAndTime);
-        System.out.println("After Formatting: " + formattedDateAndTime);
+        System.out.println("After Formatting: " + formattedDateAndTime + "\n");
+    }
+
+    private static void sampleDateFormat() {
+        System.out.println("■ Simple Date Format:\n");
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss.SSS");
+        simpleDateFormat.setCalendar(Calendar.getInstance(TimeZone.getTimeZone("GMT+2")));
+        System.out.println(simpleDateFormat.format(System.currentTimeMillis()));
     }
 }
