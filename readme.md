@@ -173,6 +173,6 @@
 
 ## _2. Problem Solving_
 
-### 1. W3Schools: (6)
+### 1. W3Schools: (6 Questions)
 
-### 2. W3Resource: (46)
+### 2. W3Resource: (56 Questions)

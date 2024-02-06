@@ -6,7 +6,7 @@ import java.io.File;
  * <h1>Question:</h1>
  * <h2>Write a Java program that accepts an integer (n) and computes the value of n+nn+nnn.</h2>
  * <br/>
- * <h1>Input Data:</h1>
+ * <h1>Excepted Output:</h1>
  * <h2>
  * /home/students/abc.txt  : 0 bytes
  * <br/>

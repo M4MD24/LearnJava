@@ -9,7 +9,7 @@ import java.util.TimeZone;
  * <h1>Question:</h1>
  * <h2>Write a Java program to display system time.</h2>
  * <br/>
- * <h1>Input Data:</h1>
+ * <h1>Excepted Output:</h1>
  * <h2>Current Date time: Tue Feb 16 2:20:20 GMT+02:00 2024</h2>
  */
 
