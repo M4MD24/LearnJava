@@ -60,6 +60,7 @@
 13. **Math**
 14. **String Buffer**
 15. **String Builder**
+16. **Escape Sequences**
 
 ### 2. Object-Oriented Programming (OOP):
 
@@ -175,4 +176,4 @@
 
 ### 1. W3Schools: (6 Questions)
 
-### 2. W3Resource: (56 Questions)
+### 2. W3Resource: (71 Questions)

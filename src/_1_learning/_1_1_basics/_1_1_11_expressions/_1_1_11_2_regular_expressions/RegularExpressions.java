@@ -26,6 +26,7 @@ public class RegularExpressions {
         String zeroOrMoreWhiteSpace = "\\s*"; // Matches zero or more whitespace
         String tabCharacter = "\\t"; // Matches the Tab character
         String newLines = "\\n"; // Matches Newline
+        String wordBoundary = "\\b"; // Matches a Word Boundary
 
         System.out.println("whiteSpaces = " + words.split(whiteSpaces).length);
 
@@ -35,7 +36,9 @@ public class RegularExpressions {
 
         System.out.println("tabCharacter = " + words.split(tabCharacter).length);
 
-        System.out.println("newLines = " + words.split(newLines).length + "\n");
+        System.out.println("newLines = " + words.split(newLines).length);
+
+        System.out.println("backSpaces = " + words.split(wordBoundary).length + "\n");
     }
 
     private static void regularExpressionsWithCaseInsensitive() {
