@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.concurrent.LinkedBlockingQueue;
 
 // • Methods of LinkedBlockingQueue
+
 /**
  * <h1>Methods of LinkedBlockingQueue</h1>
  * <p>The LinkedBlockingQueue class of the Java Collections framework provides the blocking queue implementation using a linked list.</p>

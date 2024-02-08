@@ -3,6 +3,7 @@ package _1_learning._1_4_data_structures._1_4_6_queue;
 import java.util.*;
 
 // • Methods of Queues
+
 /**
  * <h1>Methods of Queues</h1>
  * <p>The Queue interface includes all the methods of the Collection interface. It is because Collection is the super interface of Queue.</p>

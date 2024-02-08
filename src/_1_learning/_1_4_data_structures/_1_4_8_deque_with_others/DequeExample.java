@@ -5,6 +5,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 // • Methods of Deque
+
 /**
  * <h1>Methods of Deque</h1>
  * <p>Since Deque extends the Queue interface, it inherits all the methods of the Queue interface.</p>

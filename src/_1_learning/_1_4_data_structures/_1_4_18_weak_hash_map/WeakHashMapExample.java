@@ -3,6 +3,7 @@ package _1_learning._1_4_data_structures._1_4_18_weak_hash_map;
 import java.util.WeakHashMap;
 
 // • Methods of WeakHashMap
+
 /**
  * <h1>Methods of WeakHashMap</h1>
  * <li><b>clear()</b> - removes all mappings from the HashMap.</li>

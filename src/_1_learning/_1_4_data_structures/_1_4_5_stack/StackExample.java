@@ -3,6 +3,7 @@ package _1_learning._1_4_data_structures._1_4_5_stack;
 import java.util.Stack;
 
 // • Methods of Stack
+
 /**
  * <h1>Methods of Stack</h1>
  * <p>Since Stack extends the Vector class, it inherits all the methods Vector. To learn about different Vector methods.</p>

@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.concurrent.ArrayBlockingQueue;
 
 // • Methods of ArrayBlockingQueue
+
 /**
  * <h1>Methods of ArrayBlockingQueue</h1>
  * <p>The ArrayBlockingQueue class of the Java Collections framework provides the blocking queue implementation using an array.</p>

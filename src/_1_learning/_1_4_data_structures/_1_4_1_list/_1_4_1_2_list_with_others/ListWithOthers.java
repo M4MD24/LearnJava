@@ -3,6 +3,7 @@ package _1_learning._1_4_data_structures._1_4_1_list._1_4_1_2_list_with_others;
 import java.util.*;
 
 // • Methods of Lists
+
 /**
  * <h1>Methods of Lists</h1>
  * <p>The List interface includes all the methods of the Collection interface. Its because Collection is a super interface of List.</p>

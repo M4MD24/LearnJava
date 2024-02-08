@@ -4,6 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 // • Methods of ArrayQueue
+
 /**
  * <h1>Methods of ArrayQueue</h1>
  * <p>Since Deque extends the Queue interface, it inherits all the methods of the Queue interface.</p>

@@ -3,6 +3,7 @@ package _1_learning._1_4_data_structures._1_4_4_vector;
 import java.util.*;
 
 // • Methods of Vectors
+
 /**
  * <h1>Methods of Vector</h1>
  * <p>The Vector class is an implementation of the List interface that allows us to create resizable-arrays similar to the ArrayList class.</p>

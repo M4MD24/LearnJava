@@ -5,6 +5,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 // • Methods of BlockingQueue
+
 /**
  * <h1>Methods of BlockingQueue</h1>
  * <p>The BlockingQueue interface of the Java Collections framework extends the Queue interface. It allows any operation to wait until it can be successfully performed.</p>

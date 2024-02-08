@@ -14,8 +14,7 @@
     4. Search `/* ↓` for **Examples**
     5. Search `/* √` for **Similar Concepts**
     6. Search `/* ■` for **Tables**
-    7. Search `? */` for **Problems Solved**
-    8. Search `// •` for **Important Things**
+    7. Search `// •` for **Important Things**
 
 ---
 
@@ -176,4 +175,4 @@
 
 ### 1. W3Schools: (6 Questions)
 
-### 2. W3Resource: (71 Questions)
+### 2. W3Resource: (86 Questions)
