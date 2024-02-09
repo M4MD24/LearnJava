@@ -21,7 +21,7 @@ public class Question86 {
                 number = number * 3 + 1;
             }
         }
-        System.out.print(number);
+        System.out.print("Number = " + number);
         input.close();
     }
 }
