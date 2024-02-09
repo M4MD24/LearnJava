@@ -175,4 +175,4 @@
 
 ### 1. W3Schools: (6 Questions)
 
-### 2. W3Resource: (92 Questions)
+### 2. W3Resource: (94 Questions)
