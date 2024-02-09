@@ -16,19 +16,14 @@ import java.util.Scanner;
 public class Question68 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         while (true) {
-            try {
-                System.out.print("Input text: ");
-                final String text = input.nextLine(),
-                        last3Character = text.substring(text.length() - 3);
-                if (text.length() > 2) {
-                    System.out.print(text + last3Character.repeat(3));
-                    break;
-                }
-            } catch (Exception exception) {
-                System.out.println("\nThe text length must be 3 and above!");
-            }
+            System.out.print("Input text: ");
+            final String text = input.nextLine();
+            if (text.length() > 2) {
+                String last3Character = text.substring(text.length() - 3);
+                System.out.print(text + last3Character.repeat(3));
+                break;
+            } else System.out.println("\nThe text length must be 3 and above!");
         }
     }
 }
