@@ -15,6 +15,7 @@
     5. Search `/* √` for **Similar Concepts**
     6. Search `/* ■` for **Tables**
     7. Search `// •` for **Important Things**
+    8. Search `// >` for **Another Solution**
 
 ---
 
@@ -173,6 +174,6 @@
 
 ## _2. Problem Solving_
 
-### 1. W3Schools: (6 Questions)
+### 1. [W3Schools](https://www.w3schools.com/java): (6 Questions)
 
-### 2. W3Resource: (96 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises): (109 Questions)
