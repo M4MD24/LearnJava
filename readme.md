@@ -15,7 +15,8 @@
     5. Search `/* √` for **Similar Concepts**
     6. Search `/* ■` for **Tables**
     7. Search `// •` for **Important Things**
-    8. Search `// >` for **Another Solution**
+    8. Search `<h1>Question` for **Questions**
+    9. Search `// >` for **Another Solution**
 
 ---
 
@@ -176,4 +177,4 @@
 
 ### 1. [W3Schools](https://www.w3schools.com/java): (6 Questions)
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises): (109 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises): (110 Questions)
