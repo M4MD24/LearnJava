@@ -18,8 +18,8 @@ import java.util.Scanner;
  */
 
 class Solution1 {
-    static int reverseNumbers(int number) {
-        int reverse = 0;
+    static long reverseNumbers(long number) {
+        long reverse = 0;
         while (number != 0) {
             reverse *= 10;
             reverse += number % 10;
@@ -30,15 +30,15 @@ class Solution1 {
 }
 
 class Solution2 {
-    static int reverseNumbers(char[] numbers) {
+    static long reverseNumbers(char[] numbers) {
         int length = numbers.length;
-        int[] reversedNumbers = new int[length];
+        long[] reversedNumbers = new long[length];
         for (int index1 = 0, index2 = length - 1; index1 < length; index1++, index2--) reversedNumbers[index2] = numbers[index1] - '0';
 
         StringBuilder reversedNumber = new StringBuilder();
-        for (int number : reversedNumbers) reversedNumber.append(number);
+        for (long number : reversedNumbers) reversedNumber.append(number);
 
-        return Integer.parseInt(String.valueOf(reversedNumber));
+        return Long.parseLong(String.valueOf(reversedNumber));
     }
 }
 
@@ -46,20 +46,20 @@ public class Question115 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Input a positive integer: ");
-        final int NUMBER = input.nextInt();
+        final long NUMBER = input.nextLong();
 
         solution1(NUMBER);
         solution2(NUMBER);
     }
 
-    private static void solution1(final int NUMBER) {
-        final int REVERSED_NUMBER = Solution1.reverseNumbers(NUMBER);
+    private static void solution1(final long NUMBER) {
+        final long REVERSED_NUMBER = Solution1.reverseNumbers(NUMBER);
         final boolean IS_PALINDROME = NUMBER == REVERSED_NUMBER;
         System.out.printf("Is %d a palindrome number? \n%b\n\n", NUMBER, IS_PALINDROME);
     }
 
-    private static void solution2(final int NUMBER) {
-        final int REVERSED_NUMBER = Solution2.reverseNumbers(String.valueOf(NUMBER).toCharArray());
+    private static void solution2(final long NUMBER) {
+        final long REVERSED_NUMBER = Solution2.reverseNumbers(String.valueOf(NUMBER).toCharArray());
         final boolean IS_PALINDROME = NUMBER == REVERSED_NUMBER;
         System.out.printf("Is %d a palindrome number? \n%b", NUMBER, IS_PALINDROME);
     }

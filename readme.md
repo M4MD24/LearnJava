@@ -177,4 +177,4 @@
 
 ### 1. [W3Schools](https://www.w3schools.com/java): (6 Questions)
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises): (110 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises): (115 Questions)
