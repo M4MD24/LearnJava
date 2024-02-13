@@ -1,115 +1,32 @@
 package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_120_question_120;
 
-import java.util.LinkedList;
-
 /**
  * <h1>Question:</h1>
- * <h2>Write a Java program to reverse a linked list. Example: For linked list 20->40->60->80, the reversed linked list is 80->60->40->20</h2>
+ * <h2>Write a Java program that searches for a value in an m x n matrix.</h2>
  */
 
-enum SolutionsHeader {
-    Solution1,
-    Solution2;
-
-    String getSolutionHeader() {
-        return switch (this) {
-            case Solution1 -> "Solution1:";
-            case Solution2 -> "\n\nSolution2:";
-        };
-    }
-}
-
-class Solution1 {
-    static Node head;
-
-    static class Node {
-        int data;
-        Node next_node;
-
-        Node(int d) {
-            data = d;
-            next_node = null;
-        }
-    }
-
-    public static void mainMethod() {
-        System.out.println(SolutionsHeader.Solution1.getSolutionHeader());
-
-        head = new Node(20);
-        head.next_node = new Node(40);
-        head.next_node.next_node = new Node(60);
-        head.next_node.next_node.next_node = new Node(80);
-
-        System.out.println("Original Linked list:");
-        printList(head);
-
-        System.out.println("\nReversed Linked list:");
-        head = reverse(head);
-        printList(head);
-    }
-
-    static Node reverse(Node node) {
-        Node prev_node = null,
-                current_node = node,
-                next_node = null;
-        while (current_node != null) {
-            next_node = current_node.next_node;
-            current_node.next_node = prev_node;
-            prev_node = current_node;
-            current_node = next_node;
-        }
-        node = prev_node;
-        return node;
-    }
-
-    static void printList(Node node) {
-        while (node != null) {
-            System.out.print(node.data);
-            node = node.next_node;
-            if (node != null) System.out.print(" ");
-        }
-    }
-}
-
-class Solution2 {
-    static LinkedList<Integer> elements = new LinkedList<>();
-
-    static void mainMethod() {
-        System.out.println(SolutionsHeader.Solution2.getSolutionHeader());
-        addData();
-        displayOriginalLinkedList();
-        System.out.println();
-        displayReversedLinkedList();
-    }
-
-    private static void addData() {
-        elements.offer(20);
-        elements.offer(40);
-        elements.offer(60);
-        elements.offer(80);
-    }
-
-    private static void displayOriginalLinkedList() {
-        System.out.println("Original Linked list:");
-        for (int index = 0; index < elements.size(); index++) {
-            System.out.print(elements.get(index));
-            if (index == elements.size()) System.out.println();
-            else System.out.print(" ");
-        }
-    }
-
-    private static void displayReversedLinkedList() {
-        System.out.println("Reversed Linked list:");
-        for (int index = elements.size() - 1; index > -1; index--) {
-            System.out.print(elements.get(index));
-            if (index != 0) System.out.print(" ");
-        }
-    }
-}
-
 public class Question120 {
+    private static final int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+    };
+
     public static void main(String[] args) {
-        Solution1.mainMethod();
-        Solution2.mainMethod();
+        displayMatrix();
+
+
+    }
+
+    private static void displayMatrix() {
+        for (int index1dimension = 0; index1dimension < matrix.length; index1dimension++) {
+            for (int index2dimension = 0; index2dimension < matrix[index1dimension].length; index2dimension++) {
+                System.out.print(matrix[index1dimension][index2dimension]);
+                if (index2dimension != matrix[index1dimension].length - 1) System.out.print(" ");
+                else System.out.println();
+            }
+        }
     }
 }
+// Write a Java program
+// that searches for a value in an m x n matrix.
