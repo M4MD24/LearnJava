@@ -1,6 +1,7 @@
 package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_122_question_122;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * <h1>Question:</h1>
@@ -12,8 +13,9 @@ import java.util.Arrays;
  */
 
 public class Question122 {
-    static final int[] ARRAY = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-    static int ARRAY_LENGTH = ARRAY.length;
+    static final Scanner input = new Scanner(System.in);
+    static int ARRAY_LENGTH = arrayLength();
+    static final int[] ARRAY = new int[ARRAY_LENGTH];
     static int index = 0,
             from = 0,
             to = 0,
@@ -21,8 +23,24 @@ public class Question122 {
             sum = 0;
 
     public static void main(String[] args) {
+        inputIndexesValuesArray();
         System.out.println("Array: " + Arrays.toString(ARRAY));
+        calculateLargesSumContiguousSubArray();
+    }
 
+    private static int arrayLength() {
+        System.out.print("Enter array length: ");
+        return input.nextInt();
+    }
+
+    private static void inputIndexesValuesArray() {
+        for (int index = 0; index < ARRAY_LENGTH; index++) {
+            System.out.print("Input index value of " + index + ": ");
+            ARRAY[index] = input.nextInt();
+        }
+    }
+
+    private static void calculateLargesSumContiguousSubArray() {
         for (int endAt = 2; endAt < ARRAY_LENGTH; endAt++) {
             for (int startAt = 0; startAt < ARRAY_LENGTH; startAt++) {
                 for (index = startAt; index <= endAt; index++) lastSum += ARRAY[index];
