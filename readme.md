@@ -63,7 +63,7 @@
 15. **String Builder**
 16. **Escape Sequences**
 
-### 2. Object-Oriented Programming (OOP):
+### 2. OOP (Object-Oriented Programming):
 
 1. **Class**
 2. **Methods:**
@@ -122,7 +122,9 @@
 
     3. **File**
 
-### 4. Data Structures:
+### 4. Testing
+
+### 5. Data Structures:
 
 1. **List:**
     1. **List**
@@ -159,17 +161,25 @@
 31. **Navigable with Others**
 32. **Iterator**
 33. **ListIterator**
-34. **Graph**
 
-### 5. Algorithms:
+### ~~6. Algorithms:~~
 
-1. **Sorting**
-2. **Shuffling**
-3. **Routine Data Manipulation**
-4. **Searching**
-5. **Finding Extreme Values**
+1. **~~Sorting~~**
+2. **~~Shuffling~~**
+3. **~~Routine Data Manipulation~~**
+4. **~~Searching~~**
+5. **~~Finding Extreme Values~~**
 
-### 6. Testing
+### ~~7. DSA (Data Structures and Algorithms):~~
+
+1. **~~Nodes~~**
+2. **~~Graph~~**
+
+### ~~8. OOD (Object Oriented Design)~~
+
+### ~~9. Design Patterns~~
+
+### ~~10. Best Practices~~
 
 ---
 
@@ -177,4 +187,4 @@
 
 ### 1. [W3Schools](https://www.w3schools.com/java): (6 Questions)
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises): (115 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises): (123 Questions)

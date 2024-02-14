@@ -14,35 +14,45 @@ import java.util.Scanner;
 
 public class Question122 {
     static final Scanner input = new Scanner(System.in);
-    static int ARRAY_LENGTH = arrayLength();
-    static final int[] ARRAY = new int[ARRAY_LENGTH];
-    static int index = 0,
-            from = 0,
-            to = 0,
-            lastSum = 0,
-            sum = 0;
+    static int[] ARRAY;
+    static int ARRAY_LENGTH,
+            index = 0,
+            from,
+            to,
+            lastSum,
+            sum,
+            startAt,
+            endAt;
 
     public static void main(String[] args) {
+        arrayLength();
         inputIndexesValuesArray();
         System.out.println("Array: " + Arrays.toString(ARRAY));
         calculateLargesSumContiguousSubArray();
     }
 
-    private static int arrayLength() {
-        System.out.print("Enter array length: ");
-        return input.nextInt();
+    private static void arrayLength() {
+        System.out.print("Enter array length (Minimum array length 2): ");
+        int arrayLength = input.nextInt();
+        if (arrayLength > 1) {
+            ARRAY_LENGTH = arrayLength;
+            ARRAY = new int[ARRAY_LENGTH];
+        } else arrayLength();
     }
 
     private static void inputIndexesValuesArray() {
-        for (int index = 0; index < ARRAY_LENGTH; index++) {
+        for (index = 0; index < ARRAY_LENGTH; index++) {
             System.out.print("Input index value of " + index + ": ");
             ARRAY[index] = input.nextInt();
         }
+        sum = ARRAY[0] + ARRAY[1];
+        from = 0;
+        to = 1;
     }
 
     private static void calculateLargesSumContiguousSubArray() {
-        for (int endAt = (ARRAY_LENGTH > 2) ? 2 : 1; endAt < ARRAY_LENGTH; endAt++) {
-            for (int startAt = 0; startAt <= ARRAY_LENGTH - endAt; startAt++) {
+        for (endAt = 2; endAt < ARRAY_LENGTH; endAt++) {
+            for (startAt = 0; startAt <= ARRAY_LENGTH - endAt; startAt++) {
                 for (index = startAt; index <= endAt; index++) lastSum += ARRAY[index];
                 if (lastSum > sum) {
                     from = startAt;

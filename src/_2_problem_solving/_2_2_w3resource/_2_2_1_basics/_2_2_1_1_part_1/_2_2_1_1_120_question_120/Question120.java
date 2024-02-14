@@ -12,21 +12,32 @@ public class Question120 {
             {7, 8, 9}
     };
 
+    private static final int elementTarget = 0;
+
+    private static boolean status = false;
+
     public static void main(String[] args) {
         displayMatrix();
+        System.out.print(searchElement(elementTarget));
+    }
 
-
+    private static boolean searchElement(int elementTarget) {
+        for (int[] array : matrix)
+            for (int element : array)
+                if (element == elementTarget) {
+                    status = true;
+                    break;
+                }
+        return status;
     }
 
     private static void displayMatrix() {
-        for (int index1dimension = 0; index1dimension < matrix.length; index1dimension++) {
-            for (int index2dimension = 0; index2dimension < matrix[index1dimension].length; index2dimension++) {
-                System.out.print(matrix[index1dimension][index2dimension]);
-                if (index2dimension != matrix[index1dimension].length - 1) System.out.print(" ");
+        for (int[] array : matrix) {
+            for (int index2dimension = 0; index2dimension < array.length; index2dimension++) {
+                System.out.print(array[index2dimension]);
+                if (index2dimension != array.length - 1) System.out.print(" ");
                 else System.out.println();
             }
         }
     }
 }
-// Write a Java program
-// that searches for a value in an m x n matrix.

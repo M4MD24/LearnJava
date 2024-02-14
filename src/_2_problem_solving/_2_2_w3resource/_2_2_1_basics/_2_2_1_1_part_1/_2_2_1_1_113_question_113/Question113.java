@@ -21,7 +21,7 @@ public class Question113 {
         final int[] FIRST_ARRAY = {4, 8, 3, 0, 67, 20},
                 SECOND_ARRAY = {2, 2, 7, 100, 5},
                 MERGED_ARRAY = mergeArray(FIRST_ARRAY, SECOND_ARRAY),
-                SORTED_ARRAY = bubbleSortArray(MERGED_ARRAY);
+                SORTED_ARRAY = insertionSortArray(MERGED_ARRAY);
         System.out.printf("""
                         First array            = %s
                         Second array           = %s
@@ -43,7 +43,7 @@ public class Question113 {
         return MERGED_ARRAY;
     }
 
-    private static int[] bubbleSortArray(int[] array) {
+    private static int[] insertionSortArray(int[] array) {
         int number = array.length;
         for (int index = 1; index < number; ++index) {
             int cursor = array[index],
