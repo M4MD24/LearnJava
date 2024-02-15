@@ -1,4 +1,4 @@
-package _2_problem_solving._2_1_w3schools._2_1_5_print_odd_and_even_number;
+package _2_problem_solving._2_1_w3schools._2_1_1_how_to._2_1_1_5_print_odd_and_even_number;
 
 import java.util.Scanner;
 

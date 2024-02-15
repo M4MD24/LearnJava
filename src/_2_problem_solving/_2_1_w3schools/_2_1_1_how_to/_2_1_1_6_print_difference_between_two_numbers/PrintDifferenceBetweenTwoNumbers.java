@@ -1,4 +1,4 @@
-package _2_problem_solving._2_1_w3schools._2_1_6_print_difference_between_two_numbers;
+package _2_problem_solving._2_1_w3schools._2_1_1_how_to._2_1_1_6_print_difference_between_two_numbers;
 
 import java.util.Scanner;
 

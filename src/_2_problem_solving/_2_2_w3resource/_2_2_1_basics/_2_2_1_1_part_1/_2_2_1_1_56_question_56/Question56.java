@@ -6,8 +6,12 @@ import java.util.Scanner;
  * <h1>Question:</h1>
  * <h2>Write a Java program to find the number of values in a given range divisible by a given value.</h2>
  * <br/>
- * <h1>For Example:</h1>
- * <h2>For example x = 5, y=20 and p =3, find the number of integers within the range x..y and that are divisible by p i.e. { i :x ≤ i ≤ y, i mod p = 0 }</h2>
+ * <h1>Example:</h1>
+ * <h2>
+ * x = 5, y=20 and p =3,
+ * <br/>
+ * find the number of integers within the range x..y and that are divisible by p i.e. { i :x ≤ i ≤ y, i mod p = 0 }
+ * </h2>
  * <br/>
  * <h1>Expected Output:</h1>
  * <h2>5</h2>

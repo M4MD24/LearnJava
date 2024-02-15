@@ -1,4 +1,4 @@
-package _2_problem_solving._2_1_w3schools._2_1_4_area_of_rectangle;
+package _2_problem_solving._2_1_w3schools._2_1_1_how_to._2_1_1_4_area_of_rectangle;
 
 import java.util.Scanner;
 

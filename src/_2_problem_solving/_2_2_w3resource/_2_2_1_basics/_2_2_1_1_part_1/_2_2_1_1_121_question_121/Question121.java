@@ -4,7 +4,13 @@ import java.util.LinkedList;
 
 /**
  * <h1>Question:</h1>
- * <h2>Write a Java program to reverse a linked list. Example: For linked list 20->40->60->80, the reversed linked list is 80->60->40->20</h2>
+ * <h2>Write a Java program to reverse a linked list.</h2>
+ * <h1>Example:</h1>
+ * <h2>
+ * For linked list 20->40->60->80,
+ * <br/>
+ * The reversed linked list is 80->60->40->20
+ * </h2>
  */
 
 enum SolutionsHeader {
