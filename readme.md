@@ -174,7 +174,7 @@
     4. **Quick Sorting**
     5. **Merge Sorting**
 
-### ~~7. DSA (Data Structures and Algorithms):~~
+### 7. DSA (Data Structures and Algorithms):
 
 1. **Nodes**
 2. **LinkedList**
