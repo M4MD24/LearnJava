@@ -162,29 +162,33 @@
 32. **Iterator**
 33. **ListIterator**
 
-### ~~6. Algorithms:~~
+### 6. Algorithms:
 
-1. **~~Sorting~~**
-2. **~~Shuffling~~**
-3. **~~Routine Data Manipulation~~**
-4. **~~Searching~~**
-5. **~~Finding Extreme Values~~**
+1. **Searching:**
+    1. **Linear Search**
+    2. **Binary Search**
+2. **Sorting:**
+    1. **Bubble Sorting**
+    2. **Selection Sorting**
+    3. **Insertion Sorting**
+    4. **Quick Sorting**
+    5. **Merge Sorting**
 
 ### ~~7. DSA (Data Structures and Algorithms):~~
 
-1. **~~Nodes~~**
-2. **~~LinkedList~~**
+1. **Nodes**
+2. **LinkedList**
 3. **~~Graph~~**
 
 ### ~~8. OOD (Object Oriented Design)~~
 
-### ~~9. Design Patterns~~
+### ~~9. Design Patterns:~~
 
-### ~~10. Best Practices~~
+### ~~10. Best Practices:~~
 
 ---
 
-## _2. Problem Solving_
+## _2. Problem Solving:_
 
 ### 1. [W3Schools](https://www.w3schools.com/java): (6 Questions)
 
@@ -192,15 +196,15 @@
 
 ### 2. [W3Resource](https://www.w3resource.com/java-exercises): (124 Question)
 
-1. **[Java-Exercises](https://www.w3resource.com/java-exercises): (? Question)**
-    1. **Basics: (1-272 Questions), (272 Question)**
-        1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php): (1-150 Question), (150 Question)**
-        2. ~~**[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php): (151-249 Question), (99 Question)**~~
-        3. ~~**[Methods](https://www.w3resource.com/java-exercises/method/index.php): (250-272 Question), (23 Question)**~~
+1. **Basics: (1-272 Questions), (272 Question)**
+    1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php): (1-150 Question), (150 Question)**
+    2. ~~**[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php): (151-249 Question), (99 Question)**~~
+    3. ~~**[Methods](https://www.w3resource.com/java-exercises/method/index.php): (250-272 Question), (23 Question)**~~
 
-### ~~3. [Codeforces](https://codeforces.com): (0 Questions)~~
+### 3. [Codeforces](https://codeforces.com): (2 Questions)
 
-1. ~~**[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (0 Questions)**~~
+1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (2 Questions)**
+
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
 ### ~~4. [LeetCode](https://leetcode.com/problemset): (0 Questions)~~
