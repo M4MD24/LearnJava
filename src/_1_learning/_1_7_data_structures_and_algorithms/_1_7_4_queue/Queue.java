@@ -13,9 +13,8 @@ public class Queue<Type> {
     }
 
     public void deQueue() {
-        --size;
         Type[] newQueue = (Type[]) new Object[size];
-        System.arraycopy(queue, 1, newQueue, 0, size);
+        System.arraycopy(queue, 1, newQueue, 0, size - 1);
         queue = newQueue;
     }
 
