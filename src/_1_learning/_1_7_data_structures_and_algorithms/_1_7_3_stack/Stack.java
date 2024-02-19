@@ -2,16 +2,21 @@ package _1_learning._1_7_data_structures_and_algorithms._1_7_3_stack;
 
 public class Stack<Type> {
     private static int top = 0;
-    int capacity;
-    Type[] stack;
-
-    public Stack(int capacity) {
-        this.capacity = capacity;
-        stack = (Type[]) new Object[capacity];
-    }
+    private static int capacity = top;
+    Type[] stack = (Type[]) new Object[capacity];
 
     public int size() {
         return top;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int length) {
+        Type[] newStack = (Type[]) new Object[capacity = length];
+        System.arraycopy(stack, 0, newStack, 0, size());
+        stack = newStack;
     }
 
     public boolean isEmpty() {
@@ -19,10 +24,15 @@ public class Stack<Type> {
     }
 
     public void push(Type data) {
-        if (top != capacity) {
-            stack[top] = data;
-            top++;
-        } else System.out.print("Stack is full");
+        if (capacity == size()) expand();
+        stack[top] = data;
+        top++;
+    }
+
+    private void expand() {
+        Type[] newStack = (Type[]) new Object[++capacity];
+        System.arraycopy(stack, 0, newStack, 0, size());
+        stack = newStack;
     }
 
     public Type pop() {
@@ -33,6 +43,12 @@ public class Stack<Type> {
             top--;
         } else System.out.print("Stack is empty");
         return popped;
+    }
+
+    public void shrink() {
+        Type[] newStack = (Type[]) new Object[capacity = top];
+        System.arraycopy(stack, 0, newStack, 0, size());
+        stack = newStack;
     }
 
     public Type peek() {

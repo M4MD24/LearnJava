@@ -9,6 +9,14 @@ public class Main {
         enQueueTest();
 
         deQueueTest();
+
+        getSizeTest();
+
+        isEmptyTest();
+
+        isFullTest();
+
+        showElementsTest();
     }
 
     private static void showAllTest() {
@@ -35,6 +43,32 @@ public class Main {
         System.out.println("■ deQueue() Test");
         queue.deQueue();
         queue.deQueue();
+        showAll();
+    }
+
+    private static void getSizeTest() {
+        System.out.println("■ getSize() Test");
+        System.out.println("size: " + queue.getSize());
+        showAll();
+    }
+
+    private static void isEmptyTest() {
+        System.out.println("■ isEmpty() Test");
+        System.out.println("isEmpty: " + queue.isEmpty());
+        showAll();
+    }
+
+    private static void isFullTest() {
+        System.out.println("■ isFull() Test");
+        System.out.println("isFull: " + queue.isFull());
+        showAll();
+    }
+
+    private static void showElementsTest() {
+        System.out.println("■ showElements() Test");
+        System.out.print("elements: ");
+        queue.showElements();
+        System.out.println();
         queue.showAll();
     }
 }

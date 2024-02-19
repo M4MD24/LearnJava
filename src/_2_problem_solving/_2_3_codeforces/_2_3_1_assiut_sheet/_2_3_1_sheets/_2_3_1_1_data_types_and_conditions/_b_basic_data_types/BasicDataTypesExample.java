@@ -14,6 +14,9 @@ import java.util.Scanner;
  * output standard output
  * </h2>
  * <br/>
+ * <h1>Question:</h1>
+ * <h2>Only one line containing the following space-separated values: int, long long, char, float and double respectively.</h2>
+ * <br/>
  * <h1>Input:</h1>
  * <h2>3 12345678912345 a 334.23 14049.30493</h2>
  * <h1>Output:</h1>

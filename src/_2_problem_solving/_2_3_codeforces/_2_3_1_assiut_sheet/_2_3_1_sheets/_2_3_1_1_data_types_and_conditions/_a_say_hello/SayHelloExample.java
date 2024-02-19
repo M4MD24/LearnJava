@@ -14,6 +14,9 @@ import java.util.Scanner;
  * output standard output
  * </h2>
  * <br/>
+ * <h1>Question:</h1>
+ * <h2>Given a name S. Print "Hello, (name)" without parentheses.</h2>
+ * <br/>
  * <h1>Input:</h1>
  * <h2>programmer</h2>
  * <h1>Output:</h1>

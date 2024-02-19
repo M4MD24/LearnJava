@@ -14,6 +14,13 @@ import java.util.Scanner;
  * output standard output
  * </h2>
  * <br/>
+ * <h1>Question:</h1>
+ * <h2>
+ * Given four numbers A, B, C and D. Print the result of the following equation:
+ * <br/>
+ * X = ( A * B ) - ( C * D )
+ * </h2>
+ * <br/>
  * <h1>Input:</h1>
  * <h2>1 2 3 4</h2>
  * <h1>Output:</h1>

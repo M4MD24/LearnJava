@@ -1,45 +1,61 @@
 package _1_learning._1_7_data_structures_and_algorithms._1_7_4_queue;
 
 public class Queue<Type> {
-    private static int size = 0,
+    private int capacity = 0,
             rear = 0;
-    private Type[] queue = (Type[]) new Object[size];
+    private final int FRONT = 0;
+    Type temporary;
+    private Type[] queue = (Type[]) new Object[capacity];
 
     public void enQueue(Type data) {
-        if (size == rear) ++size;
-        Type[] newQueue = (Type[]) new Object[getSize()];
-        newQueue[rear] = data;
-        System.arraycopy(queue, 0, newQueue, 0, getSize() - 1);
-        queue = newQueue;
+        if (rear == capacity) {
+            ++capacity;
+            Type[] newQueue = (Type[]) new Object[capacity];
+            System.arraycopy(queue, 0, newQueue, 0, capacity - 1);
+            newQueue[rear] = data;
+            queue = newQueue;
+        } else if (rear < capacity) queue[rear] = data;
         rear++;
     }
 
     public void deQueue() {
-        Type[] newQueue = (Type[]) new Object[getSize()];
-        System.arraycopy(queue, 1, newQueue, 0, getSize() - 1);
-        queue = newQueue;
-        --rear;
+        if (rear == 0) System.out.print("Nothing to deQueue!");
+        else {
+            queue[FRONT] = null;
+            for (int index = 0; index < capacity - 1; index++) {
+                temporary = queue[index];
+                queue[index] = queue[index + 1];
+                queue[index + 1] = temporary;
+            }
+            rear--;
+        }
+    }
+
+    public void showElements() {
+        for (int index = 0; index < rear; index++) {
+            System.out.print(queue[index]);
+            if (index != capacity - 1) System.out.print(" ");
+        }
     }
 
     public void showAll() {
-        if (getSize() != 0) {
-            for (int index = 0; index < getSize(); index++) {
+        if (rear != 0) {
+            for (int index = 0; index < capacity; index++) {
                 System.out.print(queue[index]);
-                if (index < size - 1) System.out.print(" ");
+                if (index < capacity - 1) System.out.print(" ");
             }
-        } else System.out.print("Nothing to show");
+        } else System.out.print("Nothing to show!");
     }
 
     public int getSize() {
-        return size;
+        return rear;
     }
 
     public boolean isEmpty() {
-        return getSize() == 0;
+        return queue[FRONT] == null;
     }
 
     public boolean isFull() {
-        return queue[getSize() - 1] != null;
+        return queue[capacity - 1] != null;
     }
-
 }

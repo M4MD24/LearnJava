@@ -179,7 +179,9 @@
 1. **Nodes**
 2. **LinkedList**
 3. **Stack**
-4. **~~Graph~~**
+4. **Queue**
+5. **~~Tree~~**
+6. **~~Graph~~**
 
 ### ~~8. OOD (Object Oriented Design)~~
 
@@ -202,9 +204,9 @@
     2. ~~**[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php): (151-249 Question), (99 Question)**~~
     3. ~~**[Methods](https://www.w3resource.com/java-exercises/method/index.php): (250-272 Question), (23 Question)**~~
 
-### 3. [Codeforces](https://codeforces.com): (5 Questions)
+### 3. [Codeforces](https://codeforces.com): (15 Questions)
 
-1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (5 Questions)**
+1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (8 Questions)**
 
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 

@@ -35,36 +35,23 @@ import java.util.regex.Pattern;
 
 public class CalculatorExample {
     private static final Scanner INPUT = new Scanner(System.in);
-    private static String TEXT;
-    private static long NUMBER_1,
-            NUMBER_2;
+    private static final String TEXT = INPUT.nextLine();
+    private static final String[] ARRAY_TEXT = TEXT.split("[+\\-*/]");
+    private static final boolean IS_PLUS = Pattern.compile("\\+").matcher(TEXT).find(),
+            IS_MINUS = Pattern.compile("-").matcher(TEXT).find(),
+            IS_MULTIPLICATION = Pattern.compile("\\*").matcher(TEXT).find(),
+            IS_DIVISION = Pattern.compile("/").matcher(TEXT).find();
+    private static final long NUMBER_1 = Long.parseLong(ARRAY_TEXT[0]),
+            NUMBER_2 = Long.parseLong(ARRAY_TEXT[1]);
 
     public static void main(String[] args) {
-        enterInput();
+        result();
     }
 
-    private static void enterInput() {
-        TEXT = INPUT.nextLine();
-        String[] ARRAY_TEXT = TEXT.split("[+\\-*/]");
-        if (ARRAY_TEXT.length == 1) {
-            System.out.println("Enter valid data!");
-            enterInput();
-        } else {
-            NUMBER_1 = Long.parseLong(ARRAY_TEXT[0]);
-            NUMBER_2 = Long.parseLong(ARRAY_TEXT[1]);
-            System.out.print(result());
-        }
-    }
-
-    private static long result() {
-        boolean IS_PLUS = Pattern.compile("\\+").matcher(TEXT).find(),
-                IS_MINUS = Pattern.compile("-").matcher(TEXT).find(),
-                IS_MULTIPLICATION = Pattern.compile("\\*").matcher(TEXT).find(),
-                IS_DIVISION = Pattern.compile("/").matcher(TEXT).find();
-        if (IS_PLUS) return NUMBER_1 + NUMBER_2;
-        else if (IS_MINUS) return NUMBER_1 - NUMBER_2;
-        else if (IS_MULTIPLICATION) return NUMBER_1 * NUMBER_2;
-        else if (IS_DIVISION) return NUMBER_1 / NUMBER_2;
-        else throw new Error("Enter valid operator [ +, -, *, / ]");
+    private static void result() {
+        if (IS_PLUS) System.out.printf("%d", NUMBER_1 + NUMBER_2);
+        else if (IS_MINUS) System.out.printf("%d", NUMBER_1 - NUMBER_2);
+        else if (IS_MULTIPLICATION) System.out.printf("%d", NUMBER_1 * NUMBER_2);
+        else if (IS_DIVISION) System.out.printf("%d", NUMBER_1 / NUMBER_2);
     }
 }
