@@ -10,11 +10,11 @@ public class Main {
 
         deQueueTest();
 
-        getSizeTest();
+//        getSizeTest();
 
-        isEmptyTest();
+//        isEmptyTest();
 
-        isFullTest();
+//        isFullTest();
 
         showElementsTest();
     }
@@ -25,6 +25,8 @@ public class Main {
     }
 
     private static void showAll() {
+        queue.showElements();
+        System.out.println();
         queue.showAll();
         System.out.println();
         System.out.println();
@@ -46,29 +48,26 @@ public class Main {
         showAll();
     }
 
-    private static void getSizeTest() {
-        System.out.println("■ getSize() Test");
-        System.out.println("size: " + queue.getSize());
-        showAll();
-    }
+//    private static void getSizeTest() {
+//        System.out.println("■ getSize() Test");
+//        System.out.println("size: " + queue.getSize());
+//        showAll();
+//    }
 
-    private static void isEmptyTest() {
-        System.out.println("■ isEmpty() Test");
-        System.out.println("isEmpty: " + queue.isEmpty());
-        showAll();
-    }
+//    private static void isEmptyTest() {
+//        System.out.println("■ isEmpty() Test");
+//        System.out.println("isEmpty: " + queue.isEmpty());
+//        showAll();
+//    }
 
-    private static void isFullTest() {
-        System.out.println("■ isFull() Test");
-        System.out.println("isFull: " + queue.isFull());
-        showAll();
-    }
+//    private static void isFullTest() {
+//        System.out.println("■ isFull() Test");
+//        System.out.println("isFull: " + queue.isFull());
+//        showAll();
+//    }
 
     private static void showElementsTest() {
         System.out.println("■ showElements() Test");
-        System.out.print("elements: ");
-        queue.showElements();
-        System.out.println();
-        queue.showAll();
+        showAll();
     }
 }
