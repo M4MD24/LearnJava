@@ -179,8 +179,8 @@
 ### 7. DSA (Data Structures and Algorithms):
 
 1. **Nodes**
-2. **Dynamic Array**
-3. **LinkedList**
+2. **LinkedList**
+3. **Dynamic Array**
 4. **Stack**
 5. **Queue**
 6. **Tree**
