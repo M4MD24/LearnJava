@@ -26,7 +26,6 @@ public class Main {
         deleteAllTest();
     }
 
-
     private static void displayAll() {
         linkedList.showAll();
         System.out.println();
