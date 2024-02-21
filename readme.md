@@ -63,7 +63,9 @@
 15. **String Builder**
 16. **Escape Sequences**
 
-### 2. OOP (Object-Oriented Programming):
+### 2. Testing
+
+### 3. OOP (Object-Oriented Programming):
 
 1. **Class**
 2. **Methods:**
@@ -94,7 +96,7 @@
 22. **Record Class**
 23. **Sealed Class And Interface**
 
-### 3. Handling:
+### 4. Handling:
 
 1. **Exceptions Handing:**
     1. **Try, Catch, Finally, throw and throws**
@@ -121,8 +123,6 @@
         6. **Print Writer**
 
     3. **File**
-
-### 4. Testing
 
 ### 5. Data Structures:
 
@@ -161,12 +161,14 @@
 31. **Navigable with Others**
 32. **Iterator**
 33. **ListIterator**
+34. **HashTable**
 
 ### 6. Algorithms:
 
 1. **Searching:**
     1. **Linear Search**
     2. **Binary Search**
+    3. **Interpolation Search**
 2. **Sorting:**
     1. **Bubble Sorting**
     2. **Selection Sorting**
@@ -178,10 +180,14 @@
 
 1. **Nodes**
 2. **LinkedList**
-3. **Stack**
-4. **Queue**
-5. **~~Tree~~**
-6. **~~Graph~~**
+3. **Dynamic Array**
+4. **Stack**
+5. **Queue**
+6. **Tree**
+    1. **Binary Tree**
+7. **Graph**
+    1. **Adjacency Matrix**
+    2. ~~**Adjacency List**~~
 
 ### ~~8. OOD (Object Oriented Design)~~
 

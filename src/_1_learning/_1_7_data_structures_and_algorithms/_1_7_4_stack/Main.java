@@ -1,4 +1,4 @@
-package _1_learning._1_7_data_structures_and_algorithms._1_7_3_stack;
+package _1_learning._1_7_data_structures_and_algorithms._1_7_4_stack;
 
 public class Main {
     private static final Stack<Integer> STACK = new Stack<>();

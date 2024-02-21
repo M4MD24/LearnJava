@@ -33,10 +33,16 @@ public class LinkedListExample {
 
     private static void linkedList() {
         LinkedList<Integer> number = new LinkedList<>();
+
         number.add(1);
         number.add(2);
         number.add(3);
         System.out.println(".add()                       : " + number);
+
+        number.push(4);
+        number.push(5);
+        number.push(6);
+        System.out.println(".push()                      : " + number);
 
         List<Integer> additionalNumber = new ArrayList<>();
         additionalNumber.add(4);
