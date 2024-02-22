@@ -1,23 +1,12 @@
 package _1_learning._1_7_data_structures_and_algorithms._1_7_6_tree._1_7_6_1_binary_tree;
 
 public class Main {
-        private static final BinaryTree<Character> BINARY_TREE = new BinaryTree<>();
+    private static final BinaryTree<Character> BINARY_TREE = new BinaryTree<>();
+
     public static void main(String[] args) {
         insertTest();
         inorderTest();
         preorderTest();
-    }
-
-    private static void preorderTest() {
-        System.out.print("■ Preorder: ");
-        BINARY_TREE.preorder();
-        System.out.println();
-    }
-
-    private static void inorderTest() {
-        System.out.print("■ Inorder : ");
-        BINARY_TREE.inorder();
-        System.out.println();
     }
 
     private static void insertTest() {
@@ -29,15 +18,25 @@ public class Main {
         BINARY_TREE.insert('F');
         BINARY_TREE.insert('Z');
     }
+
+    private static void inorderTest() {
+        System.out.print("■ Inorder : ");
+        BINARY_TREE.inorder();
+    }
+
+    private static void preorderTest() {
+        System.out.print("\n■ Preorder: ");
+        BINARY_TREE.preorder();
+    }
 }
 /*
-         a
+         A
           \
-           d
+           D
           / \
-         b   e
+         B   E
           \   \
-           c   f
+           C   F
                 \
-                 z
+                 Z
 type: Unbalanced binary tree*/

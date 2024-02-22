@@ -13,8 +13,10 @@ public class Graph {
     }
 
     public void addEdge(int source, int destination) {
-        Node destinationNode = linkedListArrayList.get(destination).getFirst();
-        linkedListArrayList.get(source).add(destinationNode);
+        if (source != destination) {
+            Node destinationNode = linkedListArrayList.get(destination).getFirst();
+            linkedListArrayList.get(source).add(destinationNode);
+        }
     }
 
     public boolean checkEdge(int source, int destination) {
@@ -22,6 +24,13 @@ public class Graph {
         for (Node nodeLinkedList : linkedListArrayList.get(source))
             if (nodeLinkedList == destinationNode) return true;
         return false;
+    }
+
+    public void showAll() {
+        for (int index = 0; index < linkedListArrayList.size(); index++) {
+            System.out.print(linkedListArrayList.get(index).getFirst().data);
+            if (index != linkedListArrayList.size() - 1) System.out.print(", ");
+        }
     }
 
     public void showDrawing() {

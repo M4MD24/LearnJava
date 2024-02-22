@@ -3,8 +3,8 @@ package _1_learning._1_7_data_structures_and_algorithms._1_7_7_graph._1_7_7_1_ad
 import java.util.ArrayList;
 
 public class Graph {
-    private final int[][] MATRIX_ARRAY;
-    private final ArrayList<Node> NODES;
+    public final int[][] MATRIX_ARRAY;
+    public final ArrayList<Node> NODES;
 
     public Graph(int size) {
         this.MATRIX_ARRAY = new int[size][size];
@@ -20,7 +20,7 @@ public class Graph {
     }
 
     public void addEdge(int source, int destination) {
-        MATRIX_ARRAY[source][destination] = 1;
+        if (source != destination) MATRIX_ARRAY[source][destination] = 1;
     }
 
     public boolean checkEdge(int source, int destination) {
