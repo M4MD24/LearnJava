@@ -30,13 +30,13 @@ public class Main {
     }
 }
 /*
-         A
+         a
           \
-           D
+           d
           / \
-         B   E
+         b   e
           \   \
-           C   F
+           c   f
                 \
-                 Z
+                 z
 type: Unbalanced binary tree*/
