@@ -7,6 +7,9 @@ public class Main {
         insertTest();
         inorderTest();
         preorderTest();
+        postorderTest();
+        MaximumDepthTest();
+        MinimumDepthTest();
     }
 
     private static void insertTest() {
@@ -20,13 +23,26 @@ public class Main {
     }
 
     private static void inorderTest() {
-        System.out.print("■ Inorder : ");
+        System.out.print("■ Inorder  : ");
         BINARY_TREE.inorder();
     }
 
     private static void preorderTest() {
-        System.out.print("\n■ Preorder: ");
+        System.out.print("\n■ Preorder : ");
         BINARY_TREE.preorder();
+    }
+
+    private static void postorderTest() {
+        System.out.print("\n■ Postorder: ");
+        BINARY_TREE.postorder();
+    }
+
+    private static void MaximumDepthTest() {
+        System.out.println("\n\n■ Maximum Depth: " + BINARY_TREE.maximumDepth());
+    }
+
+    private static void MinimumDepthTest() {
+        System.out.println("\n■ Minimum Depth: " + BINARY_TREE.minimumDepth());
     }
 }
 /*

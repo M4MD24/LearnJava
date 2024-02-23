@@ -1,7 +1,7 @@
 package _1_learning._1_7_data_structures_and_algorithms._1_7_6_tree._1_7_6_1_binary_tree;
 
 public class BinaryTree<Type extends Comparable<Type>> {
-    Node<Type> root;
+    private Node<Type> root;
 
     public void insert(Type data) {
         root = insertRecursion(root, data);
@@ -36,5 +36,39 @@ public class BinaryTree<Type extends Comparable<Type>> {
             preorderRecursion(root.left);
             preorderRecursion(root.right);
         }
+    }
+
+    public void postorder() {
+        postorderRecursion(root);
+    }
+
+    private void postorderRecursion(Node<Type> root) {
+        if (root != null) {
+            postorderRecursion(root.left);
+            postorderRecursion(root.right);
+            System.out.print(root.data + " ");
+        }
+    }
+
+    public int maximumDepth() {
+        return maximumDepthRecursion(root);
+    }
+
+    private int maximumDepthRecursion(Node<Type> root) {
+        if (root == null) return 0;
+        int leftDepth = maximumDepthRecursion(root.left),
+                rightDepth = maximumDepthRecursion(root.right);
+        return Math.max(leftDepth, rightDepth) + 1;
+    }
+
+    public int minimumDepth() {
+        return minimumDepthRecursion(root);
+    }
+
+    private int minimumDepthRecursion(Node<Type> root) {
+        if (root == null) return 0;
+        int leftDepth = maximumDepthRecursion(root.left),
+                rightDepth = maximumDepthRecursion(root.right);
+        return Math.min(leftDepth, rightDepth) + 1;
     }
 }
