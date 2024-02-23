@@ -1,17 +1,16 @@
-package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_125_question_125;
+package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_130_question_130;
 
 /**
  * <h1>Question:</h1>
- * <h2>Write a Java program to get the preorder traversal of the values of the nodes in a binary tree.?</h2>
- * <h1>Excepted Output:</h1>
- * <h2>
- * Preorder traversal of binary tree is:
+ * <h2>Write a Java program to find the maximum depth of a given binary tree.
+ * Sample Output: The Maximum depth of the binary tree is: 3</h2>
  * <br/>
- * 55 21 9 29 80 76 91
- * </h2>
+ * <h1>Excepted Output:</h1>
+ * <h2>The Maximum depth of the binary tree is: 3</h2>
  * <br/>
  * <h1>Example:</h1>
  */
+
 /*
         55
      /      \
@@ -44,30 +43,24 @@ class BinaryTree<Type extends Comparable<Type>> {
         return root;
     }
 
-    public void preorder() {
-        preorderRecursion(root);
+    public int maximumDepth() {
+        return maximumDepthRecursion(root);
     }
 
-    private void preorderRecursion(Node<Type> root) {
-        if (root != null) {
-            System.out.print(root.data + " ");
-            preorderRecursion(root.left);
-            preorderRecursion(root.right);
-        }
+    private int maximumDepthRecursion(Node<Type> root) {
+        if (root == null) return 0;
+        int leftDepth = maximumDepthRecursion(root.left);
+        int rightDepth = maximumDepthRecursion(root.right);
+        return Math.max(leftDepth, rightDepth) + 1;
     }
 }
 
-public class Question125 {
+public class Question130 {
     private static final BinaryTree<Integer> BINARY_TREE = new BinaryTree<>();
 
     public static void main(String[] args) {
         insert();
-        preorder();
-    }
-
-    private static void preorder() {
-        System.out.print("Preorder traversal of binary tree is:\n");
-        BINARY_TREE.preorder();
+        System.out.print("The Maximum depth of the binary tree is: " + BINARY_TREE.maximumDepth());
     }
 
     private static void insert() {
