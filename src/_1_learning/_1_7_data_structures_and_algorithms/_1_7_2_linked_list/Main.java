@@ -23,6 +23,10 @@ public class Main {
 
         swapBetweenIndexesTest();
 
+        checkLinkedListIsSortedTest();
+
+        removeDuplicatesFromSortedLinkedListTest();
+
         deleteAllTest();
     }
 
@@ -83,6 +87,24 @@ public class Main {
     private static void swapBetweenIndexesTest() {
         System.out.println("■ swapBetweenIndexes() Test");
         linkedList.swapBetweenIndexes(0, 1);
+        displayAll();
+    }
+
+    private static void checkLinkedListIsSortedTest() {
+        linkedList.insertFirst(1);
+        linkedList.insertLast(2);
+        System.out.println("■ checkLinkedListIsSorted() Test");
+        System.out.println("Is sorted: " + linkedList.checkLinkedListIsSorted());
+        displayAll();
+    }
+
+    private static void removeDuplicatesFromSortedLinkedListTest() {
+        System.out.println("■ removeDuplicatesFromSortedLinkedList() Test");
+        System.out.print("Before: ");
+        linkedList.showAll();
+        System.out.println();
+        System.out.print("After : ");
+        linkedList.removeDuplicatesFromSortedLinkedList();
         displayAll();
     }
 

@@ -1,6 +1,6 @@
 package _1_learning._1_7_data_structures_and_algorithms._1_7_2_linked_list;
 
-public class LinkedList<Type> {
+public class LinkedList<Type extends Comparable<Type>> {
     Node<Type> head;
 
     public void insertFirst(Type data) {
@@ -93,5 +93,28 @@ public class LinkedList<Type> {
 
     public void deleteAll() {
         head = null;
+    }
+
+    public boolean checkLinkedListIsSorted() {
+        Node<Type> currentNode = head;
+        while (currentNode.next != null) {
+            Node<Type> node1 = currentNode,
+                    node2 = currentNode.next;
+            if (node1.data.compareTo(node2.data) <= 0) currentNode = currentNode.next;
+            else return false;
+        }
+        return true;
+    }
+
+    public void removeDuplicatesFromSortedLinkedList() {
+        if (checkLinkedListIsSorted()) {
+            Node<Type> currentNode = head;
+            while (currentNode != null && currentNode.next != null) {
+                Type node1 = currentNode.data,
+                        node2 = currentNode.next.data;
+                if (node1 == node2) currentNode.next = currentNode.next.next;
+                else currentNode = currentNode.next;
+            }
+        } else System.out.println("LinkedList not sorted");
     }
 }
