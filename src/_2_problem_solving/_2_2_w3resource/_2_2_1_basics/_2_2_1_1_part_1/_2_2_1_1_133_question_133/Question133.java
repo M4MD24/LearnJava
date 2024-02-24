@@ -12,86 +12,32 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  */
 
 public class Question133 {
+    public static String minimumPathSum(final int[][] GRID) {
+        if (GRID == null || GRID.length == 0 || GRID[0] == null || GRID[0].length == 0) return "Nothing";
+        final int HEIGHT = GRID.length,
+                WIDTH = GRID[0].length;
+        int[][] temporary = new int[HEIGHT][WIDTH];
+
+        for (int index = 0; index < HEIGHT; index++) {
+            for (int index2 = 0; index2 < WIDTH; index2++) {
+                if (index == 0 && index2 == 0) {
+                    temporary[index][index2] = GRID[index][index2];
+                    continue;
+                }
+                final int FROM_UP = index == 0 ? Integer.MAX_VALUE : temporary[index - 1][index2],
+                        FROM_LEFT = index2 == 0 ? Integer.MAX_VALUE : temporary[index][index2 - 1];
+                temporary[index][index2] = Math.min(FROM_UP, FROM_LEFT) + GRID[index][index2];
+            }
+        }
+        return String.valueOf(temporary[HEIGHT - 1][WIDTH - 1]);
+    }
+
     public static void main(String[] args) {
-        final int[][] ORIGINAL_ARRAY = {
+        final int[][] GRID = new int[][]{
                 {7, 4, 2},
                 {0, 5, 6},
                 {3, 1, 2}
         };
-        System.out.print("Sum of all numbers along its path: " + minimizesSumOfAllNumbersAlongPath(ORIGINAL_ARRAY));
-    }
-
-    private static String minimizesSumOfAllNumbersAlongPath(final int[][] ORIGINAL_ARRAY) {
-        String minimizesSum = null;
-        int sumFirstPath = ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[0][1] + ORIGINAL_ARRAY[0][2] + ORIGINAL_ARRAY[1][2] + ORIGINAL_ARRAY[2][2],
-                sumSecondPath = ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[0][1] + ORIGINAL_ARRAY[1][1] + ORIGINAL_ARRAY[1][2] + ORIGINAL_ARRAY[2][2],
-                sumThirdPath = ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[0][1] + ORIGINAL_ARRAY[1][1] + ORIGINAL_ARRAY[2][1] + ORIGINAL_ARRAY[2][2],
-                sumFourthPath = ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[1][0] + ORIGINAL_ARRAY[1][1] + ORIGINAL_ARRAY[1][2] + ORIGINAL_ARRAY[2][2],
-                sumFifthPath = ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[1][0] + ORIGINAL_ARRAY[1][1] + ORIGINAL_ARRAY[2][1] + ORIGINAL_ARRAY[2][2],
-                sumSixthPath = ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[1][0] + ORIGINAL_ARRAY[2][0] + ORIGINAL_ARRAY[2][1] + ORIGINAL_ARRAY[2][2];
-        boolean sumFirstPathCondition = (sumFirstPath <= sumSecondPath &&
-                sumFirstPath <= sumThirdPath &&
-                sumFirstPath <= sumFourthPath &&
-                sumFirstPath <= sumFifthPath &&
-                sumFirstPath <= sumSixthPath),
-                sumSecondPathCondition = (sumSecondPath <= sumFirstPath &&
-                        sumSecondPath <= sumThirdPath &&
-                        sumSecondPath <= sumFourthPath &&
-                        sumSecondPath <= sumFifthPath &&
-                        sumSecondPath <= sumSixthPath),
-                sumThirdPathCondition = (sumThirdPath <= sumFirstPath &&
-                        sumThirdPath <= sumSecondPath &&
-                        sumThirdPath <= sumFourthPath &&
-                        sumThirdPath <= sumFifthPath &&
-                        sumThirdPath <= sumSixthPath),
-                sumFourthPathCondition = (sumFourthPath <= sumFirstPath &&
-                        sumFourthPath <= sumSecondPath &&
-                        sumFourthPath <= sumThirdPath &&
-                        sumFourthPath <= sumFifthPath &&
-                        sumFourthPath <= sumSixthPath),
-                sumFifthPathCondition = (sumFifthPath <= sumFirstPath &&
-                        sumFifthPath <= sumSecondPath &&
-                        sumFifthPath <= sumThirdPath &&
-                        sumFifthPath <= sumFourthPath &&
-                        sumFifthPath <= sumSixthPath),
-                sumSixthPathCondition = (sumSixthPath <= sumFirstPath &&
-                        sumSixthPath <= sumSecondPath &&
-                        sumSixthPath <= sumThirdPath &&
-                        sumSixthPath <= sumFourthPath &&
-                        sumSixthPath <= sumFifthPath);
-        if (sumFirstPathCondition) minimizesSum = String.valueOf(sumFirstPath);
-        else if (sumSecondPathCondition) minimizesSum = String.valueOf(sumSecondPath);
-        else if (sumThirdPathCondition) minimizesSum = String.valueOf(sumThirdPath);
-        else if (sumFourthPathCondition) minimizesSum = String.valueOf(sumFourthPath);
-        else if (sumFifthPathCondition) minimizesSum = String.valueOf(sumFifthPath);
-        else if (sumSixthPathCondition) minimizesSum = String.valueOf(sumSixthPath);
-
-        return (minimizesSum == null) ? "Nothing" : minimizesSum;
+        System.out.println("Sum of all numbers along its path: " + minimumPathSum(GRID));
     }
 }
-/*
-0 - {0, 1, 2}
-1 - {-, -, 2}
-2 - {-, -, 2}
-------------- (0,0),(0,1),(0,2),(1,2),(2,2)
-0 - {0, 1, -}
-1 - {-, 1, 2}
-2 - {-, -, 2}
-------------- (0,0),(0,1),(1,1),(1,2),(2,2)
-0 - {0, 1, -}
-1 - {-, 1, -}
-2 - {-, 1, 2}
-------------- (0,0),(0,1),(1,1),(2,1),(2,2)
-0 - {0, -, -}
-1 - {0, 1, 2}
-2 - {-, -, 2}
-------------- (0,0),(1,0),(1,1),(1,2),(2,2)
-0 - {0, -, -}
-1 - {0, 1, -}
-2 - {-, 2, 2}
-------------- (0,0),(1,0),(1,1),(2,1),(2,2)
-0 - {0, -, -}
-1 - {0, -, -}
-2 - {0, 1, 2}
-------------- (0,0),(1,0),(2,0),(2,1),(2,2)
-*/
