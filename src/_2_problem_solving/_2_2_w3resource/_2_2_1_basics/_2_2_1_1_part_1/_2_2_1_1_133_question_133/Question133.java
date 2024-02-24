@@ -23,12 +23,12 @@ public class Question133 {
 
     private static String minimizesSumOfAllNumbersAlongPath(final int[][] ORIGINAL_ARRAY) {
         String minimizesSum = null;
-        int sumFirstPath = ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[0][1] + ORIGINAL_ARRAY[0][2] + ORIGINAL_ARRAY[1][2] + ORIGINAL_ARRAY[2][2],
-                sumSecondPath = ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[0][1] + ORIGINAL_ARRAY[1][1] + ORIGINAL_ARRAY[1][2] + ORIGINAL_ARRAY[2][2],
-                sumThirdPath = ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[0][1] + ORIGINAL_ARRAY[1][1] + ORIGINAL_ARRAY[2][1] + ORIGINAL_ARRAY[2][2],
-                sumFourthPath = ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[1][0] + ORIGINAL_ARRAY[1][1] + ORIGINAL_ARRAY[1][2] + ORIGINAL_ARRAY[2][2],
-                sumFifthPath = ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[1][0] + ORIGINAL_ARRAY[1][1] + ORIGINAL_ARRAY[2][1] + ORIGINAL_ARRAY[2][2],
-                sumSixthPath = ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[1][0] + ORIGINAL_ARRAY[2][0] + ORIGINAL_ARRAY[2][1] + ORIGINAL_ARRAY[2][2];
+        int sumFirstPath = ORIGINAL_ARRAY[0][1] + ORIGINAL_ARRAY[0][2] + ORIGINAL_ARRAY[1][2],
+                sumSecondPath = ORIGINAL_ARRAY[0][1] + ORIGINAL_ARRAY[1][1] + ORIGINAL_ARRAY[1][2],
+                sumThirdPath = ORIGINAL_ARRAY[0][1] + ORIGINAL_ARRAY[1][1] + ORIGINAL_ARRAY[2][1],
+                sumFourthPath = ORIGINAL_ARRAY[1][0] + ORIGINAL_ARRAY[1][1] + ORIGINAL_ARRAY[1][2],
+                sumFifthPath = ORIGINAL_ARRAY[1][0] + ORIGINAL_ARRAY[1][1] + ORIGINAL_ARRAY[2][1],
+                sumSixthPath = ORIGINAL_ARRAY[1][0] + ORIGINAL_ARRAY[2][0] + ORIGINAL_ARRAY[2][1];
         boolean sumFirstPathCondition = (sumFirstPath <= sumSecondPath &&
                 sumFirstPath <= sumThirdPath &&
                 sumFirstPath <= sumFourthPath &&
@@ -59,6 +59,7 @@ public class Question133 {
                         sumSixthPath <= sumThirdPath &&
                         sumSixthPath <= sumFourthPath &&
                         sumSixthPath <= sumFifthPath);
+
         if (sumFirstPathCondition) minimizesSum = String.valueOf(sumFirstPath);
         else if (sumSecondPathCondition) minimizesSum = String.valueOf(sumSecondPath);
         else if (sumThirdPathCondition) minimizesSum = String.valueOf(sumThirdPath);
@@ -66,7 +67,7 @@ public class Question133 {
         else if (sumFifthPathCondition) minimizesSum = String.valueOf(sumFifthPath);
         else if (sumSixthPathCondition) minimizesSum = String.valueOf(sumSixthPath);
 
-        return (minimizesSum == null) ? "Nothing" : minimizesSum;
+        return (minimizesSum == null) ? "Nothing" : String.valueOf((Integer.parseInt(minimizesSum) + ORIGINAL_ARRAY[0][0] + ORIGINAL_ARRAY[2][2]));
     }
 }
 /*
