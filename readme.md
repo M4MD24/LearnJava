@@ -205,7 +205,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (1-6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises): (135 Question)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises): (136 Question)
 
 1. **Basics: (1-272 Questions), (272 Question)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php): (1-150 Question), (150 Question)**
