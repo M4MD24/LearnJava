@@ -28,6 +28,14 @@ public class Main {
         removeDuplicatesFromSortedLinkedListTest();
 
         deleteAllTest();
+
+        showSizeTest();
+
+        showIsSortedTest();
+
+        bubbleSortTest();
+
+        mergeTest();
     }
 
     private static void displayAll() {
@@ -36,7 +44,7 @@ public class Main {
         System.out.println();
     }
 
-    private static void insertLastTest(){
+    private static void insertLastTest() {
         System.out.println("■ insertLast() Test");
         insertionLast();
         displayAll();
@@ -111,6 +119,37 @@ public class Main {
     private static void deleteAllTest() {
         System.out.println("■ deleteAll() Test");
         linkedList.deleteAll();
-        linkedList.showAll();
+        displayAll();
+    }
+
+    private static void showSizeTest() {
+        System.out.println("■ size() Test");
+        System.out.println("Size: " + linkedList.size());
+        displayAll();
+    }
+
+    private static void showIsSortedTest() {
+        linkedList.insertLast(6);
+        linkedList.insertLast(2);
+        linkedList.insertLast(4);
+        System.out.println("■ isSorted() Test");
+        System.out.println("Is Sorted: " + linkedList.isSorted());
+        displayAll();
+    }
+
+    private static void bubbleSortTest() {
+        System.out.println("■ bubbleSort() Test");
+        linkedList.bubbleSort();
+        displayAll();
+    }
+
+    private static void mergeTest() {
+        System.out.println("■ merge() Test");
+        LinkedList<Integer> linkedList2 = new LinkedList<>();
+        linkedList2.insertLast(5);
+        linkedList2.insertLast(1);
+        linkedList2.insertLast(3);
+        linkedList.merge(linkedList2);
+        displayAll();
     }
 }

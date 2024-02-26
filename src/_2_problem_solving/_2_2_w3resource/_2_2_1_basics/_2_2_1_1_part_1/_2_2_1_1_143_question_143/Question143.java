@@ -5,7 +5,13 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  * <h2>Write a Java program to merge the two sorted linked list.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>
- * <h2>Merge Two Sorted Lists: 1 2 3 7 9 13 40</h2>
+ * <h2>
+ * Linked list 1: 7 1 13 9 3
+ * <br/>
+ * Linked list 2: 50 30 2 40
+ * <br/>
+ * After merge two Linked lists: 1 2 3 7 9 13 30 40 50
+ * </h2>
  */
 
 class Node {
@@ -34,33 +40,23 @@ class LinkedList {
             while (node.next != null) node = node.next;
             node.next = LinkedList2.head;
         }
-        if (doSort) sort();
+        if (doSort) bubbleSort();
     }
 
-    public void sort() {
-        Node node = head;
-        int size = countSize(),
-                currentData = node.data,
-                anotherData;
+    public void bubbleSort() {
+        final int size = countSize();
         if (size > 1 && !isSorted()) {
-            for (int round = 0; round < size; round++) {
-                for (int indexCurrentData = 0; indexCurrentData < round; indexCurrentData++) {
-                    node = node.next;
-                    currentData = node.data;
-                }
-                node = node.next;
-                for (int indexAnotherData = round + 1; indexAnotherData < size; indexAnotherData++) {
-                    anotherData = node.data;
-                    System.out.println(currentData + " | " + anotherData);
-                    if (currentData < anotherData) {
-                        final int TEMP = currentData;
-                        currentData = anotherData;
-                        anotherData = TEMP;
+            for (int round = 0; round < size - 1; round++) {
+                Node current = head;
+                for (int index = 0; index < size - round - 1; index++) {
+                    Node next = current.next;
+                    if (current.data > next.data) {
+                        int temp = current.data;
+                        current.data = next.data;
+                        next.data = temp;
                     }
-                    node = node.next;
+                    current = current.next;
                 }
-                node = head;
-                System.out.println("done");
             }
         }
     }
@@ -109,18 +105,39 @@ public class Question143 {
 
     public static void main(String[] args) {
         addition();
-        LINKED_LIST_1.merge(LINKED_LIST_2, false);
-        LINKED_LIST_1.sort();
-        LINKED_LIST_1.showAll();
+        showLinkedList1();
+        showLinkedList2();
+        showAfterMergeAndSort();
     }
 
     private static void addition() {
-        LINKED_LIST_1.add(6);
-        LINKED_LIST_1.add(2);
-        LINKED_LIST_1.add(4);
+        LINKED_LIST_1.add(7);
+        LINKED_LIST_1.add(1);
+        LINKED_LIST_1.add(13);
+        LINKED_LIST_1.add(9);
+        LINKED_LIST_1.add(3);
 
-        LINKED_LIST_2.add(3);
-        LINKED_LIST_2.add(1);
-        LINKED_LIST_2.add(5);
+        LINKED_LIST_2.add(50);
+        LINKED_LIST_2.add(30);
+        LINKED_LIST_2.add(2);
+        LINKED_LIST_2.add(40);
+    }
+
+    private static void showLinkedList1() {
+        System.out.print("Linked list 1: ");
+        LINKED_LIST_1.showAll();
+        System.out.println();
+    }
+
+    private static void showLinkedList2() {
+        System.out.print("Linked list 2: ");
+        LINKED_LIST_2.showAll();
+        System.out.println();
+    }
+
+    private static void showAfterMergeAndSort() {
+        System.out.print("After merge and sort: ");
+        LINKED_LIST_1.merge(LINKED_LIST_2, true);
+        LINKED_LIST_1.showAll();
     }
 }
