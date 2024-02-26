@@ -117,4 +117,56 @@ public class LinkedList<Type extends Comparable<Type>> {
             }
         } else System.out.println("LinkedList not sorted");
     }
+
+    public void merge(LinkedList<Type> LinkedList2) {
+        Node<Type> node = head;
+        if (node != null) {
+            while (node.next != null) node = node.next;
+            node.next = LinkedList2.head;
+        }
+    }
+
+    public void bubbleSort() {
+        final int size = size();
+        if (size > 1 && !isSorted()) {
+            for (int round = 0; round < size - 1; round++) {
+                Node<Type> current = head;
+                for (int index = 0; index < size - round - 1; index++) {
+                    Node<Type> next = current.next;
+                    if (next.data.compareTo(current.data) < 0) {
+                        Type temp = current.data;
+                        current.data = next.data;
+                        next.data = temp;
+                    }
+                    current = current.next;
+                }
+            }
+        }
+    }
+
+    public boolean isSorted() {
+        Node<Type> node = head;
+        int size = size();
+        if (node.next != null) {
+            for (int index = 0; index < size; index++) {
+                Type data1 = node.data,
+                        data2 = node.next.data;
+                if (data1.compareTo(data2) < 0) node = node.next;
+                else return false;
+            }
+        }
+        return true;
+    }
+
+    public int size() {
+        Node<Type> node = head;
+        int maxSize = 1;
+        if (node != null) {
+            while (node.next != null) {
+                node = node.next;
+                maxSize++;
+            }
+        } else maxSize = 0;
+        return maxSize;
+    }
 }
