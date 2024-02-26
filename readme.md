@@ -18,7 +18,6 @@
     8. Search `<h1>Question` for **Questions**
     9. Search `// >` for **Another Solution**
     10. Search `:?</h1>` for **Questions not Answered**
-        - W3Resource (1 Question)
 
 ---
 
