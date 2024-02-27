@@ -36,6 +36,8 @@ public class Main {
         bubbleSortTest();
 
         mergeTest();
+
+        remove2ndFromTheEndTest();
     }
 
     private static void displayAll() {
@@ -150,6 +152,12 @@ public class Main {
         linkedList2.insertLast(1);
         linkedList2.insertLast(3);
         linkedList.merge(linkedList2);
+        displayAll();
+    }
+
+    private static void remove2ndFromTheEndTest() {
+        System.out.println("■ remove2ndFromTheEnd() Test");
+        linkedList.remove2ndFromTheEnd();
         displayAll();
     }
 }
