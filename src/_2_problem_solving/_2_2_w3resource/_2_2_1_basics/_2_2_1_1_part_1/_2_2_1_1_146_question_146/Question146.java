@@ -24,82 +24,93 @@ class Node {
     int data;
     Node left,
             right;
+
+    public Node(int data) {
+        this.data = data;
+    }
 }
 
 class BinaryTree {
-    private Node root;
+    Node root;
+
+    public void addAllOfSortedArray(final int[] SORTED_ARRAY) {
+        int middleLength = SORTED_ARRAY.length / 2,
+                index = (middleLength % 2 == 0) ? middleLength - 1 : middleLength,
+                oldIndex = index,
+                isMax = 0;
+        while (isMax != 2) {
+            if (index == SORTED_ARRAY.length - 1 || (isMax == 1 && index == oldIndex)) {
+                isMax++;
+                if (isMax != 2) add(SORTED_ARRAY[index]);
+                index = 0;
+            }
+            if (isMax != 2) add(SORTED_ARRAY[index]);
+            index++;
+        }
+    }
+
+    public void add(int data) {
+        root = addRecursion(root, data);
+    }
+
+    private Node addRecursion(Node root, int data) {
+        if (root == null) root = new Node(data);
+        else if (data < root.data) root.left = addRecursion(root.left, data);
+        else if (data > root.data) root.right = addRecursion(root.right, data);
+        return root;
+    }
+
+    public static void printTreePostOrder(Node root, String prefix, boolean isLeft) {
+        if (root != null) {
+            System.out.println(prefix + (isLeft ? "├─── " : "└─── ") + root.data);
+            printTreePostOrder(root.left, prefix + (isLeft ? "│    " : "     "), true);
+            printTreePostOrder(root.right, prefix + (isLeft ? "│    " : "     "), false);
+        }
+    }
+
+    public void postorder() {
+        postorderRecursion(root);
+    }
+
+    private void postorderRecursion(Node root) {
+        if (root != null) {
+            postorderRecursion(root.left);
+            postorderRecursion(root.right);
+            System.out.println(root.data);
+        }
+    }
 }
 
 public class Question146 {
+    private static final BinaryTree BINARY_TREE = new BinaryTree();
+
     public static void main(String[] args) {
-        // Define an array of sorted integers
-        int[] arr = {1, 2, 3, 4, 5, 6, 7};
-
-        // Convert the sorted array to a balanced binary search tree (BST)
-        TreeNode root = sortedArrayToBST(arr);
-
-        // Traverse the BST and print the values
-        traverseTree(root);
-
-        printTree(root, "", true);
-
-    }
-
-    private static void printTree(TreeNode root, String prefix, boolean isLeft) {
-        if (root != null) {
-            System.out.println(prefix + (isLeft ? "├── " : "└── ") + root.val);
-            printTree(root.left, prefix + (isLeft ? "│   " : "    "), true);
-            printTree(root.right, prefix + (isLeft ? "│   " : "    "), false);
-        }
-    }
-
-    public static TreeNode sortedArrayToBST(int[] arr) {
-        if (arr.length == 0) return null;
-
-        // Call the recursive function for creating the BST
-        return creation(arr, 0, arr.length - 1);
-    }
-
-    private static TreeNode creation(int[] arr, int start, int end) {
-        TreeNode node = new TreeNode(0);
-
-        if (start == end - 1) {
-            // If the range contains two elements, create the nodes accordingly
-            node = new TreeNode(arr[start]);
-            node.right = new TreeNode(arr[end]);
-        } else if (start == end) {
-            // If the range contains a single element, create a node
-            return new TreeNode(arr[start]);
-        } else {
-            // Calculate the middle index of the range
-            int mid = (start + end) / 2;
-
-            // Set the value of the current node to the middle element
-            node.val = arr[mid];
-
-            // Recursively create left and right subtrees
-            node.left = creation(arr, start, mid - 1);
-            node.right = creation(arr, mid + 1, end);
-        }
-        return node;
-    }
-
-    private static void traverseTree(TreeNode root) {
-        // Post-order traversal of the BST (left, right, root)
-        if (root != null) {
-            traverseTree(root.left);
-            traverseTree(root.right);
-            System.out.println(root.val);
-        }
+        final int[] SORTED_ARRAY = {1, 2, 3, 4, 5, 6, 7};
+        BINARY_TREE.addAllOfSortedArray(SORTED_ARRAY);
+        BINARY_TREE.postorder();
+        BinaryTree.printTreePostOrder(BINARY_TREE.root, "", true);
     }
 }
-
-class TreeNode {
-    public int val;
-    public TreeNode left, right;
-
-    public TreeNode(int val) {
-        this.val = val;
-        this.left = this.right = null;
-    }
-}
+/*
+1
+3
+2
+5
+7
+6
+4
+├─── 4
+│    ├─── 2
+│    │    ├─── 1
+│    │    └─── 3
+│    └─── 6
+│        ├─── 5
+│        └─── 7
+4
+2
+1
+3
+6
+5
+7
+*/
