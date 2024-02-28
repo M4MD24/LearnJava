@@ -21,8 +21,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  */
 
 class Node {
-    int data;
-    Node left,
+    public int data;
+    public Node left,
             right;
 
     public Node(int data) {
@@ -30,42 +30,28 @@ class Node {
     }
 }
 
-class BinaryTree {
+class BinarySearchTree {
     Node root;
 
-    public void addAllOfSortedArray(final int[] SORTED_ARRAY) {
-        int middleLength = SORTED_ARRAY.length / 2,
-                index = (middleLength % 2 == 0) ? middleLength - 1 : middleLength,
-                oldIndex = index,
-                isMax = 0;
-        while (isMax != 2) {
-            if (index == SORTED_ARRAY.length - 1 || (isMax == 1 && index == oldIndex)) {
-                isMax++;
-                if (isMax != 2) add(SORTED_ARRAY[index]);
-                index = 0;
-            }
-            if (isMax != 2) add(SORTED_ARRAY[index]);
-            index++;
+    public void sortedArrayToBinarySearchTree(int[] arr) {
+        if (arr.length == 0) return;
+        root = sortedArrayToBinarySearchTreeRecursion(arr, 0, arr.length - 1);
+    }
+
+    private Node sortedArrayToBinarySearchTreeRecursion(int[] arr, int start, int end) {
+        Node node = new Node(0);
+
+        if (start == end - 1) {
+            node = new Node(arr[start]);
+            node.right = new Node(arr[end]);
+        } else if (start == end) return new Node(arr[start]);
+        else {
+            int mid = (start + end) / 2;
+            node.data = arr[mid];
+            node.left = sortedArrayToBinarySearchTreeRecursion(arr, start, mid - 1);
+            node.right = sortedArrayToBinarySearchTreeRecursion(arr, mid + 1, end);
         }
-    }
-
-    public void add(int data) {
-        root = addRecursion(root, data);
-    }
-
-    private Node addRecursion(Node root, int data) {
-        if (root == null) root = new Node(data);
-        else if (data < root.data) root.left = addRecursion(root.left, data);
-        else if (data > root.data) root.right = addRecursion(root.right, data);
-        return root;
-    }
-
-    public static void printTreePostOrder(Node root, String prefix, boolean isLeft) {
-        if (root != null) {
-            System.out.println(prefix + (isLeft ? "├─── " : "└─── ") + root.data);
-            printTreePostOrder(root.left, prefix + (isLeft ? "│    " : "     "), true);
-            printTreePostOrder(root.right, prefix + (isLeft ? "│    " : "     "), false);
-        }
+        return node;
     }
 
     public void postorder() {
@@ -79,38 +65,28 @@ class BinaryTree {
             System.out.println(root.data);
         }
     }
+
+    public void printTreePreOrder(String prefix, boolean isLeft) {
+        printTreePreorderRecursion(root, prefix, isLeft);
+    }
+
+    private void printTreePreorderRecursion(Node root, String prefix, boolean isLeft) {
+        if (root != null) {
+            System.out.println(prefix + (isLeft ? "├── " : "└── ") + root.data);
+            printTreePreorderRecursion(root.left, prefix + (isLeft ? "│   " : "    "), true);
+            printTreePreorderRecursion(root.right, prefix + (isLeft ? "│   " : "    "), false);
+        }
+    }
 }
 
 public class Question146 {
-    private static final BinaryTree BINARY_TREE = new BinaryTree();
+    private static final BinarySearchTree BINARY_SEARCH_TREE = new BinarySearchTree();
 
     public static void main(String[] args) {
-        final int[] SORTED_ARRAY = {1, 2, 3, 4, 5, 6, 7};
-        BINARY_TREE.addAllOfSortedArray(SORTED_ARRAY);
-        BINARY_TREE.postorder();
-        BinaryTree.printTreePostOrder(BINARY_TREE.root, "", true);
+        final int[] ARRAY = {1, 2, 3, 4, 5, 6, 7};
+        BINARY_SEARCH_TREE.sortedArrayToBinarySearchTree(ARRAY);
+        BINARY_SEARCH_TREE.postorder();
+        System.out.println();
+        BINARY_SEARCH_TREE.printTreePreOrder("", false);
     }
 }
-/*
-1
-3
-2
-5
-7
-6
-4
-├─── 4
-│    ├─── 2
-│    │    ├─── 1
-│    │    └─── 3
-│    └─── 6
-│        ├─── 5
-│        └─── 7
-4
-2
-1
-3
-6
-5
-7
-*/

@@ -1,10 +1,10 @@
 # Learn Programming by Java
 
-- Recommended using Intellij IDEA
+- **Recommended using Intellij IDEA**
 
 ---
 
-## Tips for search important comments:
+## Tips for search important comments
 
 - For Search in Intellij IDEA `CTRL + Shift + F`
 
@@ -222,3 +222,26 @@
 ### ~~4. [LeetCode](https://leetcode.com/problemset): (0 Questions)~~
 
 1. ~~**[Problem-Set](https://leetcode.com/problemset) (0 Questions)**~~
+
+---
+
+## About the Project Owner:
+
+- Name: `Mohamed Sadawy Thabet`
+- Field: `Software Engineer and Native Android Developer`
+- Telegram: [M3MD69](https://t.me/M3MD69)
+- Telegram Channel: [Nullexia For Programming](https://t.me/Nullexia)
+
+---
+
+## Resources
+
+### Concepts:
+
+#### Websites:
+
+- [GeeksForGeeks](https://www.geeksforgeeks.org)
+- [Programmiz](https://www.programiz.com)
+- [Youtube](https://www.youtube.com)
+
+---

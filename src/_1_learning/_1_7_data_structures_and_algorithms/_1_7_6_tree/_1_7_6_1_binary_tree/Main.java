@@ -8,8 +8,9 @@ public class Main {
         inorderTest();
         preorderTest();
         postorderTest();
-        MaximumDepthTest();
-        MinimumDepthTest();
+        maximumDepthTest();
+        minimumDepthTest();
+        printTreePreorderTest();
     }
 
     private static void insertTest() {
@@ -37,15 +38,20 @@ public class Main {
         BINARY_TREE.postorder();
     }
 
-    private static void MaximumDepthTest() {
+    private static void maximumDepthTest() {
         System.out.println("\n\n■ Maximum Depth: " + BINARY_TREE.maximumDepth());
     }
 
-    private static void MinimumDepthTest() {
+    private static void minimumDepthTest() {
         System.out.println("\n■ Minimum Depth: " + BINARY_TREE.minimumDepth());
     }
+
+    private static void printTreePreorderTest() {
+        System.out.println("\n■ Print Tree Preorder:");
+        BINARY_TREE.printTreePreorder("", false);
+    }
 }
-/*
+/* Note:
          a
           \
            d
@@ -55,4 +61,4 @@ public class Main {
            c   f
                 \
                  z
-type: Unbalanced binary tree*/
+type: Unbalanced binary tree! */
