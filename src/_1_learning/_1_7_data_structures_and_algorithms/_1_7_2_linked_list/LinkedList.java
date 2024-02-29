@@ -169,4 +169,20 @@ public class LinkedList<Type extends Comparable<Type>> {
         } else maxSize = 0;
         return maxSize;
     }
+
+    public void remove2ndFromTheEnd() {
+        Node<Type> node = head,
+                anotherNode = null;
+        if (node.next != null) {
+            while (node.next != null) {
+                if (node.next.next == null) {
+                    anotherNode = node.next;
+                    break;
+                } else node = node.next;
+            }
+            assert anotherNode != null;
+            node.data = anotherNode.data;
+            node.next = null;
+        } else head = null;
+    }
 }

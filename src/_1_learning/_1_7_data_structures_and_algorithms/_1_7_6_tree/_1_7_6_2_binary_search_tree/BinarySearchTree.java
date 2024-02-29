@@ -1,6 +1,6 @@
-package _1_learning._1_7_data_structures_and_algorithms._1_7_6_tree._1_7_6_1_binary_tree;
+package _1_learning._1_7_data_structures_and_algorithms._1_7_6_tree._1_7_6_2_binary_search_tree;
 
-public class BinaryTree<Type extends Comparable<Type>> {
+public class BinarySearchTree<Type extends Comparable<Type>> {
     private Node<Type> root;
 
     public void insert(Type data) {
@@ -50,28 +50,6 @@ public class BinaryTree<Type extends Comparable<Type>> {
         }
     }
 
-    public int maximumDepth() {
-        return maximumDepthRecursion(root);
-    }
-
-    private int maximumDepthRecursion(Node<Type> root) {
-        if (root == null) return 0;
-        int leftDepth = maximumDepthRecursion(root.left),
-                rightDepth = maximumDepthRecursion(root.right);
-        return Math.max(leftDepth, rightDepth) + 1;
-    }
-
-    public int minimumDepth() {
-        return minimumDepthRecursion(root);
-    }
-
-    private int minimumDepthRecursion(Node<Type> root) {
-        if (root == null) return 0;
-        int leftDepth = maximumDepthRecursion(root.left),
-                rightDepth = maximumDepthRecursion(root.right);
-        return Math.min(leftDepth, rightDepth) + 1;
-    }
-
     public void printTreePreorder(String prefix, boolean isLeft) {
         printTreePreorderRecursion(root, prefix, isLeft);
     }
@@ -84,28 +62,24 @@ public class BinaryTree<Type extends Comparable<Type>> {
         }
     }
 
-    public boolean areSameTrees(BinaryTree<Type> anotherTree) {
-        return areSameTreesRecursion(root, anotherTree.root);
+    public void sortedArrayToBinaryTree(Type[] arr) {
+        if (arr.length == 0) return;
+        root = sortedArrayToBinaryTreeRecursion(arr, 0, arr.length - 1);
     }
 
-    private boolean areSameTreesRecursion(Node<Type> current, Node<Type> another) {
-        if (current == null && another == null) return true;
+    private Node<Type> sortedArrayToBinaryTreeRecursion(Type[] arr, int start, int end) {
+        Node<Type> node = new Node<>(null);
 
-        if (current != null && another != null)
-            return (current.data == another.data)
-                    && areSameTreesRecursion(current.left, another.left)
-                    && areSameTreesRecursion(current.right, another.right);
-
-        return false;
-    }
-
-    public boolean isSubTree(BinaryTree<Type> sub) {
-        return isSubTree(root, sub.root);
-    }
-
-    private boolean isSubTree(Node<Type> current, Node<Type> sub) {
-        if (sub == null) return false;
-        if (areSameTreesRecursion(current, sub)) return true;
-        return isSubTree(current, sub.left) || isSubTree(current, sub.right);
+        if (start == end - 1) {
+            node = new Node<>(arr[start]);
+            node.right = new Node<>(arr[end]);
+        } else if (start == end) return new Node<>(arr[start]);
+        else {
+            int mid = (start + end) / 2;
+            node.data = arr[mid];
+            node.left = sortedArrayToBinaryTreeRecursion(arr, start, mid - 1);
+            node.right = sortedArrayToBinaryTreeRecursion(arr, mid + 1, end);
+        }
+        return node;
     }
 }

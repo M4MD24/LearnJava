@@ -1,10 +1,10 @@
 # Learn Programming by Java
 
-- Recommended using Intellij IDEA
+- **Recommended using Intellij IDEA**
 
 ---
 
-## Tips for search important comments:
+## Tips for search important comments
 
 - For Search in Intellij IDEA `CTRL + Shift + F`
 
@@ -188,6 +188,7 @@
 5. **Queue**
 6. **Tree**
     1. **Binary Tree**
+    2. **Binary Search Tree**
 7. **Graph**
     1. **Adjacency Matrix**
     2. **Adjacency List**
@@ -206,7 +207,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises): (143 Question)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises): (150 Question)
 
 1. **Basics: (272 Question)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php): (150 Question)**
@@ -222,3 +223,27 @@
 ### ~~4. [LeetCode](https://leetcode.com/problemset): (0 Questions)~~
 
 1. ~~**[Problem-Set](https://leetcode.com/problemset) (0 Questions)**~~
+
+---
+
+## About the Project Owner:
+
+- **Name:** `Mohamed Sadawy Thabet`
+- **Field:** `Software Engineer and Native Android Developer`
+- **Telegram:** [@M3MD69](https://t.me/M3MD69)
+- **Telegram Channel:** [@Nullexia](https://t.me/Nullexia)
+
+---
+
+## Resources
+
+### Concepts:
+
+#### Websites:
+
+- [GeeksForGeeks](https://www.geeksforgeeks.org)
+- [Programiz](https://www.programiz.com)
+- [W3Schools](https://www.w3schools.com)
+- [Youtube](https://www.youtube.com)
+
+---
