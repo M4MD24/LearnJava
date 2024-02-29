@@ -10,7 +10,7 @@
 
     1. Search `! */` for **Advices, Tips and Errors**
     2. Search `. */` for **Definitions**
-    3. Search `/* -` for **The Difference Between**
+    3. Search `/* ~` for **The Difference Between**
     4. Search `/* ↓` for **Examples**
     5. Search `/* √` for **Similar Concepts**
     6. Search `/* ■` for **Tables**
@@ -211,7 +211,7 @@
 
 1. **Basics: (272 Question)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php): (150 Question)**
-    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php): (99 Question)**
+    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php): (2 Question)**
     3. ~~**[Methods](https://www.w3resource.com/java-exercises/method/index.php): (23 Question)**~~
 
 ### 3. [Codeforces](https://codeforces.com): (18 Questions)
@@ -220,7 +220,11 @@
 
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
-### ~~4. [LeetCode](https://leetcode.com/problemset): (0 Questions)~~
+### 4. [Satr](https://satr.codes) (1 Project)
+
+1. **[Java 101](https://satr.codes/courses/DcFViVITbo/view) (1 Project)**
+
+### ~~5. [LeetCode](https://leetcode.com/problemset): (0 Questions)~~
 
 1. ~~**[Problem-Set](https://leetcode.com/problemset) (0 Questions)**~~
 
@@ -245,3 +249,4 @@
 - [Programiz](https://www.programiz.com)
 - [W3Schools](https://www.w3schools.com)
 - [Youtube](https://www.youtube.com)
+- [Satr](https://satr.codes/)

@@ -33,7 +33,7 @@ class AnotherClass implements Interface1 { // Implementing Single Interface
     }
 }
 
-/* - The Difference Between (Class) and (Interface)
+/* ~ The Difference Between (Class) and (Interface)
  *  You can't inherit multiple class, But Interface can
  * */
 public class InheritanceWithInterface extends AnotherClass implements Interface1, Interface2 { // Implementing Class And Multiple Interfaces

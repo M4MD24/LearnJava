@@ -27,6 +27,8 @@ package _1_learning._1_1_basics._1_1_16_escape_sequences;
  * <p>Used to escape the special meaning of the backslash in text strings.</p>
  */
 
+/* √ Escape Sequences = Escape Characters */
+
 public class EscapeSequencesExample {
     public static void main(String[] args) {
         String normalText = "Native Android Developer";
