@@ -10,7 +10,7 @@ public class BinarySearchTree<Type extends Comparable<Type>> {
     private Node<Type> insertRecursion(Node<Type> root, Type data) {
         if (root == null) root = new Node<>(data);
         else if (data.compareTo(root.data) < 0) root.left = insertRecursion(root.left, data);
-        else if (data.compareTo(root.data) > 0) root.right = insertRecursion(root.right, data);
+        else if (data.compareTo(root.data) >= 0) root.right = insertRecursion(root.right, data);
         return root;
     }
 

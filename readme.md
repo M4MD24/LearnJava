@@ -207,7 +207,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises): (149 Question)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises): (150 Question)
 
 1. **Basics: (272 Question)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php): (150 Question)**
@@ -242,7 +242,7 @@
 #### Websites:
 
 - [GeeksForGeeks](https://www.geeksforgeeks.org)
-- [Programmiz](https://www.programiz.com)
+- [Programiz](https://www.programiz.com)
 - [W3Schools](https://www.w3schools.com)
 - [Youtube](https://www.youtube.com)
 

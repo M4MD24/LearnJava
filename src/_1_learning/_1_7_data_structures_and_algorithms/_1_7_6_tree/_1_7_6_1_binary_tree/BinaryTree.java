@@ -10,7 +10,7 @@ public class BinaryTree<Type extends Comparable<Type>> {
     private Node<Type> insertRecursion(Node<Type> root, Type data) {
         if (root == null) root = new Node<>(data);
         else if (data.compareTo(root.data) < 0) root.left = insertRecursion(root.left, data);
-        else if (data.compareTo(root.data) > 0) root.right = insertRecursion(root.right, data);
+        else if (data.compareTo(root.data) >= 0) root.right = insertRecursion(root.right, data);
         return root;
     }
 
@@ -82,5 +82,30 @@ public class BinaryTree<Type extends Comparable<Type>> {
             printTreePreorderRecursion(root.left, prefix + (isLeft ? "│    " : "     "), true);
             printTreePreorderRecursion(root.right, prefix + (isLeft ? "│    " : "     "), false);
         }
+    }
+
+    public boolean areSameTrees(BinaryTree<Type> anotherTree) {
+        return areSameTreesRecursion(root, anotherTree.root);
+    }
+
+    private boolean areSameTreesRecursion(Node<Type> current, Node<Type> another) {
+        if (current == null && another == null) return true;
+
+        if (current != null && another != null)
+            return (current.data == another.data)
+                    && areSameTreesRecursion(current.left, another.left)
+                    && areSameTreesRecursion(current.right, another.right);
+
+        return false;
+    }
+
+    public boolean isSubTree(BinaryTree<Type> sub) {
+        return isSubTree(root, sub.root);
+    }
+
+    private boolean isSubTree(Node<Type> current, Node<Type> sub) {
+        if (sub == null) return false;
+        if (areSameTreesRecursion(current, sub)) return true;
+        return isSubTree(current, sub.left) || isSubTree(current, sub.right);
     }
 }
