@@ -207,11 +207,11 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises): (150 Question)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises): (152 Question)
 
 1. **Basics: (272 Question)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php): (150 Question)**
-    2. ~~**[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php): (99 Question)**~~
+    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php): (99 Question)**
     3. ~~**[Methods](https://www.w3resource.com/java-exercises/method/index.php): (23 Question)**~~
 
 ### 3. [Codeforces](https://codeforces.com): (18 Questions)
@@ -229,7 +229,7 @@
 ## About the Project Owner:
 
 - **Name:** `Mohamed Sadawy Thabet`
-- **Field:** `Software Engineer and Native Android Developer`
+- **Field:** `Software Engineer / Native Android Developer`
 - **Telegram:** [@M3MD69](https://t.me/M3MD69)
 - **Telegram Channel:** [@Nullexia](https://t.me/Nullexia)
 
@@ -245,5 +245,3 @@
 - [Programiz](https://www.programiz.com)
 - [W3Schools](https://www.w3schools.com)
 - [Youtube](https://www.youtube.com)
-
----
