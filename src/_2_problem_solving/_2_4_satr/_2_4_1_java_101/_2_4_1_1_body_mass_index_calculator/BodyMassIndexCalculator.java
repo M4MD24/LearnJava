@@ -2,7 +2,7 @@ package _2_problem_solving._2_4_satr._2_4_1_java_101._2_4_1_1_body_mass_index_ca
 
 import java.util.Scanner;
 
-public class BMICalculator {
+public class BodyMassIndexCalculator {
     private static final Scanner INPUT = new Scanner(System.in);
 
     public static void main(String[] args) {
