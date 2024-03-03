@@ -20,9 +20,9 @@ class Apple extends Fruit { // Apple Inherit Fruit
 }
 
 public class InheritanceWithClass extends Apple {
-    /* ■ Access Modifiers
+/* ■ Access Modifiers
     |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    |  Public Access Modifier                                  |  Private Access Modifier                                     |  Protected Access Modifier                                                                          |  Package Private Access Modifier                                                                                |
+    |  Public Access Modifier                                  |  Private Access Modifier                                     |  Protected Access Modifier                                                                          |  Package Private Access Modifier                                                                        |
     |----------------------------------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
     |  Applicable for both top-level classes and interfaces.   |  Not applicable for both top-level classes and interfaces.   |  Not applicable for both top-level classes and interfaces.                                          |  Applicable for both top-level classes and interfaces.                                                  |
     |  Accessible from the child class of the same package.    |  Not accessible from the child class of the same package.    |  Accessible anywhere from the same package and by child classes outside the package.                |  Accessible from the child class of the same package.                                                   |
