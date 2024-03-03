@@ -1,7 +1,7 @@
 package _1_learning._1_2_object_oriented_programming._1_2_2_methods._1_2_2_1_method;
 
 public class Method {
-    /* - The difference between (method) and (function)
+    /* ~ The difference between (method) and (function)
      * Just about where the function is defined, where I am the function. If you define it alone (not inside a class), it is called a Function, or if you define it inside a class, it is called a Method */
 
     /* static: it can be accessed without creating objects. */

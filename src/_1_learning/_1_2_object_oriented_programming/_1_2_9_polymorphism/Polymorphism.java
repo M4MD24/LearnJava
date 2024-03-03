@@ -4,19 +4,19 @@ package _1_learning._1_2_object_oriented_programming._1_2_9_polymorphism;
 /* The print() method is also an example of polymorphism, Because used to print values of different types like char, int, string, etc! */
 
 // Polymorphism
-class Polygon {
+class Shape {
     public void render() {
-        System.out.println("Polygon");
+        System.out.println("Shape");
     }
 }
 
-class Square extends Polygon {
+class Square extends Shape {
     public void render() {
         System.out.println("Square");
     }
 }
 
-class Circle extends Polygon {
+class Circle extends Shape {
     public void render() {
         System.out.println("Circle");
     }
@@ -25,23 +25,16 @@ class Circle extends Polygon {
 public class Polymorphism {
     public static void main(String[] args) {
 //        Polymorphism
-        Square square = new Square();
+        Shape shape = new Shape();
+        shape.render();
+        Shape square = new Square();
         square.render();
-        Circle circle = new Circle();
+        Shape circle = new Circle();
         circle.render();
 
 //        Polymorphism with Overloading Method
         new Polymorphism().method('a');
         new Polymorphism().method("Aa");
-
-//        Polymorphism with Variable
-        Polygon polygon;
-        polygon = new Polygon();
-        polygon.render();
-        polygon = new Square();
-        polygon.render();
-        polygon = new Circle();
-        polygon.render();
     }
 
     void method(char charVariable) {

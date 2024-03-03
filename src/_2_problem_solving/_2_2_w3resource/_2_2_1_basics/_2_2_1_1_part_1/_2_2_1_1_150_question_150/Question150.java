@@ -4,17 +4,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  * <h1>Question:</h1>
  * <h2>Write a Java program to test if a binary tree is a subtree of another binary tree.</h2>
  * <br/>
- * <h1>Input Data:</h1>
- * <h2>
- * Input first text: xxyz
- * <br/>
- * Input second text: yxzx
- * </h2>
- * <br/>
  * <h1>Excepted Output:</h1>
  * <h2>
- * Original strings: xxyz yxzx
- * <br/>
  * true
  * </h2>
  */

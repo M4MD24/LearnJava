@@ -1,4 +1,4 @@
-# Learn Programming by Java
+# Learn Java Programming Language
 
 - **Recommended using Intellij IDEA**
 
@@ -10,7 +10,7 @@
 
     1. Search `! */` for **Advices, Tips and Errors**
     2. Search `. */` for **Definitions**
-    3. Search `/* -` for **The Difference Between**
+    3. Search `/* ~` for **The Difference Between**
     4. Search `/* ↓` for **Examples**
     5. Search `/* √` for **Similar Concepts**
     6. Search `/* ■` for **Tables**
@@ -66,7 +66,7 @@
 
 ### 2. Testing
 
-### 3. OOP (Object-Oriented Programming):
+### 3. OOP (Object Oriented Programming):
 
 1. **Class**
 2. **Methods:**
@@ -207,12 +207,11 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises): (150 Question)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises): (152 Question)
 
 1. **Basics: (272 Question)**
-    1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php): (150 Question)**
-    2. ~~**[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php): (99 Question)**~~
-    3. ~~**[Methods](https://www.w3resource.com/java-exercises/method/index.php): (23 Question)**~~
+    1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
+    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (2 Question)**
 
 ### 3. [Codeforces](https://codeforces.com): (18 Questions)
 
@@ -220,7 +219,19 @@
 
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
-### ~~4. [LeetCode](https://leetcode.com/problemset): (0 Questions)~~
+### 4. [Satr](https://satr.codes) (3 Project)
+
+1. **[Java 101](https://satr.codes/courses/DcFViVITbo/view) (1 Project)**
+2. **[Java 102](https://satr.codes/courses/45726dac-2437-4d3e-91b2-ada6f599e982/view) (1 Project)**
+3. **[Java 103](https://satr.codes/courses/aiZMoXpIya/view) (1 Project)**
+
+### 5. [CoderHub](https://coderhub.sa) : (0 Questions)
+
+1. ~~**[Easy](https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY) (0 Questions)**~~
+2. ~~**[Medium](https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM) (0 Questions)**~~
+3. ~~**[Hard](https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD) (0 Questions)**~~
+
+### ~~6. [LeetCode](https://leetcode.com): (0 Questions)~~
 
 1. ~~**[Problem-Set](https://leetcode.com/problemset) (0 Questions)**~~
 
@@ -229,7 +240,7 @@
 ## About the Project Owner:
 
 - **Name:** `Mohamed Sadawy Thabet`
-- **Field:** `Software Engineer and Native Android Developer`
+- **Field:** `Software Engineer / Native Android Developer`
 - **Telegram:** [@M3MD69](https://t.me/M3MD69)
 - **Telegram Channel:** [@Nullexia](https://t.me/Nullexia)
 
@@ -245,5 +256,15 @@
 - [Programiz](https://www.programiz.com)
 - [W3Schools](https://www.w3schools.com)
 - [Youtube](https://www.youtube.com)
+- [Satr](https://satr.codes)
 
----
+### Problem Solving:
+
+#### Websites:
+
+- [W3Schools](https://www.w3schools.com)
+- [W3Resource](https://www.w3resource.com)
+- [Codeforces](https://codeforces.com)
+- [Satr](https://satr.codes)
+- [CoderHub](https://coderhub.sa)
+- [LeetCode](https://leetcode.com)

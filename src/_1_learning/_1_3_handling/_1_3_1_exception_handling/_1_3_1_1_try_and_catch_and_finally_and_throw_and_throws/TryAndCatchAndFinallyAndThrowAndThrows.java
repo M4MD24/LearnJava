@@ -46,7 +46,7 @@ public class TryAndCatchAndFinallyAndThrowAndThrows {
     }
 
     static void fetchPathFile() throws IOException {
-        File newFile = new File("D:\\PROJECTS\\Learning\\ConsoleApp\\Java\\Learn-Java\\src\\_1_learn\\_1_3_exception_handling\\_1_3_2_throw_and_throws\\example.txt");
+        File newFile = new File("src/_1_learning/_1_3_handling/_1_3_1_exception_handling/_1_3_1_1_try_and_catch_and_finally_and_throw_and_throws/example.txt");
         FileInputStream stream = new FileInputStream(newFile);
     }
 }
