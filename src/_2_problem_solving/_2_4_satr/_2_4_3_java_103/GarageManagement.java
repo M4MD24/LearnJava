@@ -32,12 +32,22 @@ public class GarageManagement {
         System.out.println("Done delete (" + model + ")!\n");
     }
 
+    public Vehicle searchByIndex(int index) {
+        return vehicles.get(index);
+    }
+
+    public Vehicle searchByModel(String model) {
+        for (Vehicle vehicle : vehicles)
+            if (vehicle.getModel().equals(model)) return vehicle;
+        return null;
+    }
+
     public void displayAllVehicles() {
         if (vehicles.isEmpty()) System.out.println("Nothing to show!");
         else {
             for (int index = 0; index < vehicles.size(); index++) {
                 System.out.print(index + ", ");
-                vehicles.get(index).displayInfo();
+                vehicles.get(index).displayInformation();
             }
         }
     }
