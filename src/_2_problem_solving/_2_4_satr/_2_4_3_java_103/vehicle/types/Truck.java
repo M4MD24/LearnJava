@@ -18,7 +18,7 @@ public class Truck extends Vehicle {
     }
 
     @Override
-    public void displayInfo() {
+    public void displayInformation() {
         System.out.println(getType() + ", " + getModel() + ", " + getYear() + ", " + getCountry() + ", Capacity: " + getCapacity());
     }
 }

@@ -38,5 +38,5 @@ public abstract class Vehicle {
         this.country = country;
     }
 
-    public abstract void displayInfo();
+    public abstract void displayInformation();
 }
