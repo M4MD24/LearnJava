@@ -214,7 +214,7 @@
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
     2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (2 Question)**
 
-### 3. [Codeforces](https://codeforces.com): (35 Questions)
+### 3. [Codeforces](https://codeforces.com): (32 Questions)
 
 1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (32 Questions)**
     1. **[Sheet 1](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
