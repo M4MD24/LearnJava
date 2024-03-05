@@ -1,6 +1,7 @@
 # Learn Java Programming Language
 
 - **Recommended using Intellij IDEA**
+- **Language: _English_, and some images _Arabic_**
 
 ---
 
@@ -209,17 +210,19 @@
 
 ### 2. [W3Resource](https://www.w3resource.com/java-exercises): (152 Question)
 
-1. **Basics: (272 Question)**
+1. **Basics: (152 Question)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
     2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (2 Question)**
 
-### 3. [Codeforces](https://codeforces.com): (18 Questions)
+### 3. [Codeforces](https://codeforces.com): (35 Questions)
 
-1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (18 Questions)**
+1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (32 Questions)**
+    1. **[Sheet 1](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
+    2. **[Contest 1](https://codeforces.com/group/MWSDmqGsZm/contest/326175) (6 Questions)**
 
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
-### 4. [Satr](https://satr.codes) (3 Project)
+### 4. [Satr](https://satr.codes) (3 Projects)
 
 1. **[Java 101](https://satr.codes/courses/DcFViVITbo/view) (1 Project)**
 2. **[Java 102](https://satr.codes/courses/45726dac-2437-4d3e-91b2-ada6f599e982/view) (1 Project)**
