@@ -22,7 +22,6 @@ import java.util.Scanner;
  *     <li>One eye, one mouth, and one body.</li>
  * </ul>
  * <h2>If the prince has n eyes, m mouths and k bodies, what is the largest number of Matryoshka he can make?</h2>
- * </h2>
  * <br/>
  * <h1>Input:</h1>
  * <h2>1 2 3</h2>
