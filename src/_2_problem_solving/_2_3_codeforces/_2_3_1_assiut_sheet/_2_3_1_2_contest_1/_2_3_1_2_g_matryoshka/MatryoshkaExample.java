@@ -41,44 +41,23 @@ import java.util.Scanner;
  */
 
 public class MatryoshkaExample {
-    private static final Scanner INPUT = new Scanner(System.in);
-
     public static void main(String[] args) {
-        final long EYES = INPUT.nextLong(),
+        final Scanner INPUT = new Scanner(System.in);
+        long EYES = INPUT.nextLong(),
                 MOUTHS = INPUT.nextLong(),
                 BODIES = INPUT.nextLong(),
-                MAKE_MATRYOSHKA_WITH_TWO_EYES_AND_ONE_BODY = makeMatryoshkaWithTwoEyesAndOneBody(EYES, BODIES),
-                MAKE_MATRYOSHKA_WITH_TWO_EYES_AND_ONE_MOUTH_AND_ONE_BODY = makeMatryoshkaWithTwoEyesAndOneMouthAndOneBody(EYES, MOUTHS, BODIES),
-                MAKE_MATRYOSHKA_WITH_ONE_EYE_AND_ONE_MOUTH_AND_ONE_BODY = makeMatryoshkaWithOneEyeAndOneMouthAndOneBody(EYES, MOUTHS, BODIES),
-                LARGEST_NUMBER_OF_MATRYOSHKA = largestNumberOfMatryoshka(MAKE_MATRYOSHKA_WITH_TWO_EYES_AND_ONE_BODY,
-                        MAKE_MATRYOSHKA_WITH_TWO_EYES_AND_ONE_MOUTH_AND_ONE_BODY,
-                        MAKE_MATRYOSHKA_WITH_ONE_EYE_AND_ONE_MOUTH_AND_ONE_BODY);
-        System.out.print(LARGEST_NUMBER_OF_MATRYOSHKA);
+                largestNumberOfMatryoshka = minimumNumberOfMatryoshkaPiece(EYES, MOUTHS, BODIES);
+        EYES -= largestNumberOfMatryoshka;
+        BODIES -= largestNumberOfMatryoshka;
+        largestNumberOfMatryoshka += Math.min(EYES / 2, BODIES);
+        System.out.print(largestNumberOfMatryoshka);
     }
 
-    private static long makeMatryoshkaWithTwoEyesAndOneBody(final long EYES, final long BODIES) {
-        long sum = 0;
-        for (long eyes = EYES, bodies = BODIES; eyes > 0 && bodies > 0; eyes -= 2, bodies--) sum++;
-        return sum;
-    }
-
-    private static long makeMatryoshkaWithTwoEyesAndOneMouthAndOneBody(final long EYES, final long MOUTHS, final long BODIES) {
-        long sum = 0;
-        for (long eyes = EYES, mouths = MOUTHS, bodies = BODIES; eyes > 0 && mouths > 0 && bodies > 0; eyes -= 2, mouths--, bodies--) sum++;
-        return sum;
-    }
-
-    private static long makeMatryoshkaWithOneEyeAndOneMouthAndOneBody(final long EYES, final long MOUTHS, final long BODIES) {
-        long sum = 0;
-        for (long eyes = EYES, mouths = MOUTHS, bodies = BODIES; eyes > 0 && mouths > 0 && bodies > 0; eyes--, mouths--, bodies--) sum++;
-        return sum;
-    }
-
-    private static long largestNumberOfMatryoshka(final long WITH_TWO_EYES_AND_ONE_BODY, final long WITH_TWO_EYES_AND_ONE_MOUTH_AND_ONE_BODY, final long WITH_ONE_EYE_AND_ONE_MOUTH_AND_ONE_BODY) {
-        if ((WITH_TWO_EYES_AND_ONE_BODY >= WITH_TWO_EYES_AND_ONE_MOUTH_AND_ONE_BODY) &&
-                (WITH_TWO_EYES_AND_ONE_BODY >= WITH_ONE_EYE_AND_ONE_MOUTH_AND_ONE_BODY)) return WITH_TWO_EYES_AND_ONE_BODY;
-        else if ((WITH_TWO_EYES_AND_ONE_MOUTH_AND_ONE_BODY >= WITH_TWO_EYES_AND_ONE_BODY) &&
-                (WITH_TWO_EYES_AND_ONE_MOUTH_AND_ONE_BODY >= WITH_ONE_EYE_AND_ONE_MOUTH_AND_ONE_BODY)) return WITH_TWO_EYES_AND_ONE_MOUTH_AND_ONE_BODY;
-        else return WITH_ONE_EYE_AND_ONE_MOUTH_AND_ONE_BODY;
+    private static long minimumNumberOfMatryoshkaPiece(final long EYES, final long MOUTHS, final long BODIES) {
+        if ((EYES <= MOUTHS) &&
+                (EYES <= BODIES)) return EYES;
+        else if ((MOUTHS <= EYES) &&
+                (MOUTHS <= BODIES)) return MOUTHS;
+        else return BODIES;
     }
 }
