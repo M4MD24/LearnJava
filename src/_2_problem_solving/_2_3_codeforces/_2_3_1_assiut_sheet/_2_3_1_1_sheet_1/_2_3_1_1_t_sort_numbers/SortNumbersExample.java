@@ -28,7 +28,6 @@ import java.util.Scanner;
  * <br/>
  * 3
  * <br/>
- * <br/>
  * 3
  * <br/>
  * -2
@@ -45,7 +44,6 @@ import java.util.Scanner;
  * 0
  * <br/>
  * 10
- * <br/>
  * <br/>
  * -2
  * <br/>
