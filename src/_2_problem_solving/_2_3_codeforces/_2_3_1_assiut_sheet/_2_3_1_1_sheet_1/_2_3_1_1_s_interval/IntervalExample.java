@@ -35,7 +35,6 @@ import java.util.Scanner;
  * <br/>
  * The symbol ']' represents smaller than or equal.
  * <br/>
- * <br/>
  * For example:
  * <br/>
  * [0,25] indicates numbers between 0 and 25.0000, including both.

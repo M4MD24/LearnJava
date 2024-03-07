@@ -18,7 +18,6 @@ import java.util.Scanner;
  * <h2>
  * Memo and Momo are playing a game. Memo will choose a positive number a, and Momo will choose a positive number b
  * <br/>
- * <br/>
  * Your task is to tell them who will win according to the following rules:
  * <br/>
  * <ul>

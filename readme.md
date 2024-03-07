@@ -214,12 +214,12 @@
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
     2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (2 Question)**
 
-### 3. [Codeforces](https://codeforces.com): (35 Questions)
+### 3. [Codeforces](https://codeforces.com): (56 Questions)
 
-1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (35 Questions)**
+1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (56 Questions)**
     1. **[Sheet 1 "Data type - Conditions"](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
     2. **[Contest 1](https://codeforces.com/group/MWSDmqGsZm/contest/326175) (9 Questions)**
-    3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (1 Questions)**
+    3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (21 Questions)**
 
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
@@ -229,7 +229,7 @@
 2. **[Java 102](https://satr.codes/courses/45726dac-2437-4d3e-91b2-ada6f599e982/view) (1 Project)**
 3. **[Java 103](https://satr.codes/courses/aiZMoXpIya/view) (1 Project)**
 
-### 5. [CoderHub](https://coderhub.sa) : (0 Questions)
+### ~~5. [CoderHub](https://coderhub.sa) : (0 Questions)~~
 
 1. ~~**[Easy](https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY) (0 Questions)**~~
 2. ~~**[Medium](https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM) (0 Questions)**~~
@@ -237,7 +237,8 @@
 
 ### ~~6. [LeetCode](https://leetcode.com): (0 Questions)~~
 
-1. ~~**[Problem-Set](https://leetcode.com/problemset) (0 Questions)**~~
+1. ~~**[Top Interview 150](https://leetcode.com/studyplan/top-interview-150/) (0 Questions)**~~
+2. ~~**[Problem-Set](https://leetcode.com/problemset) (0 Questions)**~~
 
 ---
 
