@@ -220,7 +220,7 @@
     1. **[Sheet 1 "Data type - Conditions"](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
     2. **[Contest 1](https://codeforces.com/group/MWSDmqGsZm/contest/326175) (9 Questions)**
     3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (26 Questions)**
-    4. **[Contest 2](https://codeforces.com/group/MWSDmqGsZm/contest/326907) (1 Questions)**
+    4. **[Contest 2](https://codeforces.com/group/MWSDmqGsZm/contest/326907) (2 Questions)**
 
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
@@ -243,7 +243,7 @@
 
 ---
 
-## About the Project Owner:
+## _About the Project Owner:_
 
 - **Name:** `Mohamed Sadawy Thabet`
 - **Field:** `Software Engineer / Native Android Developer`
@@ -252,7 +252,7 @@
 
 ---
 
-## Resources
+## _Resources:_
 
 ### Concepts:
 
