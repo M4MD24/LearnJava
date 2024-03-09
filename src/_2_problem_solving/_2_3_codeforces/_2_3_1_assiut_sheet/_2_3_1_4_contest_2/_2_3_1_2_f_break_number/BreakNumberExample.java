@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * <h1>F. Break Number</h1>
  * <h2>
- * time limit per test: 0.5 second
+ * time limit per test: 1 second
  * <br/>
  * memory limit per test: 256 megabytes
  * <br/>
@@ -15,7 +15,7 @@ import java.util.Scanner;
  * </h2>
  * <br/>
  * <h1>Question:</h1>
- * <h2>Let's define f(x) as the number of times at which the longeger x can be divided by 2 You are given N numbers, and you should print the maximum f(x) among all these numbers.</h2>
+ * <h2>Let's define f(x) as the number of times at which the integer x can be divided by 2 You are given N numbers, and you should print the maximum f(x) among all these numbers.</h2>
  * <br/>
  * <h1>Input:</h1>
  * <h2>
