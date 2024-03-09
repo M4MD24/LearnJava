@@ -39,35 +39,24 @@ import java.util.Scanner;
 public class FindingMinimumsExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static final int LENGTH = INPUT.nextInt(),
-            SPLIT = INPUT.nextInt();
+            SPLIT_AT = INPUT.nextInt();
 
     public static void main(String[] args) {
-        inputAndSplitAndGetMinimumsNumbers();
-    }
-
-    private static void inputAndSplitAndGetMinimumsNumbers() {
-        if (SPLIT > 1) {
-            long minimumNumber = INPUT.nextLong(),
-                    minimumsNumbersIndex = 0,
-                    index = 1;
-            boolean smallSplitCondition = LENGTH % SPLIT == 0;
-            for (; index < LENGTH; index++) {
-                final long ANOTHER_NUMBER = INPUT.nextLong();
-                if (ANOTHER_NUMBER < minimumNumber) minimumNumber = ANOTHER_NUMBER;
-                if (((smallSplitCondition) ? index + 2 : index + 1) % SPLIT == 0 && index != 0) {
-                    System.out.print(minimumNumber + " ");
-                    minimumsNumbersIndex++;
-                    if (minimumsNumbersIndex < Math.ceil((double) LENGTH / SPLIT)) {
-                        minimumNumber = INPUT.nextLong();
-                        index++;
-                    }
-                }
-            }
-            if (minimumsNumbersIndex != Math.ceil((double) LENGTH / SPLIT)) System.out.print(minimumNumber);
-        } else if (LENGTH > 0) {
-            for (int index = 0; index < LENGTH; index++) {
-                final long MINIMUM_NUMBER = INPUT.nextLong();
-                System.out.print(MINIMUM_NUMBER + " ");
+        int minimumNumber = 0,
+                flag = 1,
+                counter = 0;
+        for (int index = 1; index <= LENGTH; index++) {
+            int CURRENT_VALUE = INPUT.nextInt();
+            if (flag > 0) {
+                minimumNumber = CURRENT_VALUE;
+                flag = 0;
+            } else if (CURRENT_VALUE < minimumNumber) minimumNumber = CURRENT_VALUE;
+            counter++;
+            if (counter == SPLIT_AT || index == LENGTH) {
+                System.out.print(minimumNumber);
+                if (index != LENGTH) System.out.print(" ");
+                counter = 0;
+                flag = 1;
             }
         }
     }
