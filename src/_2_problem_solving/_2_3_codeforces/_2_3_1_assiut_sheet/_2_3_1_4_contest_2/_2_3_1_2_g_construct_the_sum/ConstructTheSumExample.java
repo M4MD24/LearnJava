@@ -42,14 +42,13 @@ import java.util.Scanner;
  */
 
 public class ConstructTheSumExample {
-    private static final Scanner INPUT = new Scanner(System.in);
-    private static long length = INPUT.nextLong();
-
     public static void main(String[] args) {
         inputValues();
     }
 
     private static void inputValues() {
+        final Scanner INPUT = new Scanner(System.in);
+        byte length = INPUT.nextByte();
         while (length-- > 0) {
             final long FIRST_NUMBER = INPUT.nextLong(),
                     SECOND_NUMBER = INPUT.nextLong();
@@ -59,27 +58,21 @@ public class ConstructTheSumExample {
     }
 
     private static void calculateAndPrintNumbers(long firstNumber, long secondNumber) {
-        final long rangeSumFromZeroToFirstNumber = firstNumber * (firstNumber + 1) / 2;
-        StringBuilder numbers = new StringBuilder();
-        if (rangeSumFromZeroToFirstNumber < secondNumber) System.out.print(-1);
+        if ((firstNumber * (firstNumber + 1) / 2) < secondNumber) System.out.print(-1);
         else {
-            long sum = 0;
-            int counter = 0;
-            for (long index = 1; index <= firstNumber; index++) {
+            StringBuilder numbers = new StringBuilder();
+            for (long index = 1, sum = 0; index <= firstNumber; index++) {
                 if (sum + index <= secondNumber) {
                     sum += index;
                     numbers.append(index);
-                    counter++;
                 } else {
                     sum = sum - (index - 1);
                     sum += index;
-                    numbers.replace(counter - 1 - 1, counter, String.valueOf(index));
+                    numbers = new StringBuilder(numbers.substring(0, numbers.lastIndexOf(" ")));
+                    numbers.replace(numbers.lastIndexOf(" ") + 1, numbers.length(), String.valueOf(index));
                 }
                 if (sum == secondNumber) break;
-                else {
-                    numbers.append(" ");
-                    counter++;
-                }
+                else numbers.append(" ");
             }
             System.out.print(numbers.reverse());
         }
