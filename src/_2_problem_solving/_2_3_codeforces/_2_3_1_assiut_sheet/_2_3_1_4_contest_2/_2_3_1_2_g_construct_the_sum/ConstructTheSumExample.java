@@ -53,17 +53,35 @@ public class ConstructTheSumExample {
         while (length-- > 0) {
             final long FIRST_NUMBER = INPUT.nextLong(),
                     SECOND_NUMBER = INPUT.nextLong();
-            findDistinctPositiveIntegersLessThanFirstNumberAndTheirSummationEqualSecondNumber(FIRST_NUMBER, SECOND_NUMBER);
+            calculateAndPrintNumbers(FIRST_NUMBER, SECOND_NUMBER);
+            if (length > 0) System.out.println();
         }
     }
 
-    private static void findDistinctPositiveIntegersLessThanFirstNumberAndTheirSummationEqualSecondNumber(final long FIRST_NUMBER, long SECOND_NUMBER) {
+    private static void calculateAndPrintNumbers(long firstNumber, long secondNumber) {
+        final long rangeSumFromZeroToFirstNumber = firstNumber * (firstNumber + 1) / 2;
         StringBuilder numbers = new StringBuilder();
-        for (int index = 1, currentSum = 0; index <= FIRST_NUMBER && currentSum < SECOND_NUMBER; index++) {
-            currentSum += index;
-            numbers.append(index);
-            if (index <= FIRST_NUMBER - 1) numbers.append(" ");
+        if (rangeSumFromZeroToFirstNumber < secondNumber) System.out.print(-1);
+        else {
+            long sum = 0;
+            int counter = 0;
+            for (long index = 1; index <= firstNumber; index++) {
+                if (sum + index <= secondNumber) {
+                    sum += index;
+                    numbers.append(index);
+                    counter++;
+                } else {
+                    sum = sum - (index - 1);
+                    sum += index;
+                    numbers.replace(counter - 1 - 1, counter, String.valueOf(index));
+                }
+                if (sum == secondNumber) break;
+                else {
+                    numbers.append(" ");
+                    counter++;
+                }
+            }
+            System.out.print(numbers.reverse());
         }
-        System.out.print(numbers.reverse().substring(1));
     }
 }
