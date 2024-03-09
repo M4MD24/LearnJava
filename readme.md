@@ -22,7 +22,7 @@
 
 ---
 
-## _1. Learning:_
+## _1. Learning_
 
 ### 1. Basics:
 
@@ -202,7 +202,7 @@
 
 ---
 
-## _2. Problem Solving:_
+## _2. Problem Solving (227)_
 
 ### 1. [W3Schools](https://www.w3schools.com/java): (6 Questions)
 
