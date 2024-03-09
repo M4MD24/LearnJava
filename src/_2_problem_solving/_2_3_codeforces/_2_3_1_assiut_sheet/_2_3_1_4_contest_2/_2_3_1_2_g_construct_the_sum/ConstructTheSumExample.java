@@ -50,30 +50,35 @@ public class ConstructTheSumExample {
         final Scanner INPUT = new Scanner(System.in);
         byte length = INPUT.nextByte();
         while (length-- > 0) {
-            calculateAndPrintNumbers(INPUT.nextInt(), INPUT.nextLong());
+            calculateNumbers(INPUT.nextInt(), INPUT.nextLong());
             if (length > 0) System.out.println();
         }
         INPUT.close();
     }
 
-    private static void calculateAndPrintNumbers(final int FIRST_NUMBER, final long SECOND_NUMBER) {
+    private static void calculateNumbers(final int FIRST_NUMBER, final long SECOND_NUMBER) {
         if ((FIRST_NUMBER * (FIRST_NUMBER + 1L) / 2) < SECOND_NUMBER) System.out.print(-1);
         else {
-            StringBuilder numbers = new StringBuilder();
-            for (long index = 1, sum = 0; index <= FIRST_NUMBER; index++) {
+            final int[] NUMBERS = new int[FIRST_NUMBER];
+            int counter = 0;
+            for (int index = 1, sum = 0; index <= FIRST_NUMBER; index++) {
                 if (sum + index <= SECOND_NUMBER) {
                     sum += index;
-                    numbers.append(index);
+                    NUMBERS[counter++] = index;
                 } else {
                     sum = sum - (index - 1);
                     sum += index;
-                    numbers = new StringBuilder(numbers.substring(0, numbers.lastIndexOf(" ")));
-                    numbers.replace(numbers.lastIndexOf(" ") + 1, numbers.length(), String.valueOf(index));
+                    NUMBERS[counter - 1] = index;
                 }
                 if (sum == SECOND_NUMBER) break;
-                else numbers.append(" ");
             }
-            System.out.print(numbers.reverse());
+            printNumbers(NUMBERS);
         }
+    }
+
+    private static void printNumbers(final int[] NUMBERS) {
+        for (int number : NUMBERS)
+            if (number != 0) System.out.print(number + " ");
+            else break;
     }
 }
