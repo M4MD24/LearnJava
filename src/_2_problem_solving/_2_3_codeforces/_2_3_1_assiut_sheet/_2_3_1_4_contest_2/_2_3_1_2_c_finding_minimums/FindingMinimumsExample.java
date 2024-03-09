@@ -41,20 +41,11 @@ public class FindingMinimumsExample {
     private static final int LENGTH = INPUT.nextInt(),
             SPLIT = INPUT.nextInt(),
             MINIMUMS_NUMBERS_LENGTH = (int) Math.ceil((double) LENGTH / SPLIT);
-    private static final long[] NUMBERS = new long[LENGTH],
-            MINIMUMS_NUMBERS = new long[MINIMUMS_NUMBERS_LENGTH];
+    private static final long[] NUMBERS = new long[LENGTH];
 
     public static void main(String[] args) {
         inputValues();
         splitAndGetMinimumsNumbers();
-        printMinimumsNumbers();
-    }
-
-    private static void printMinimumsNumbers() {
-        for (int index = 0; index < MINIMUMS_NUMBERS_LENGTH; index++) {
-            System.out.print(MINIMUMS_NUMBERS[index]);
-            if (index != MINIMUMS_NUMBERS_LENGTH - 1) System.out.print(" ");
-        }
     }
 
     private static void splitAndGetMinimumsNumbers() {
@@ -68,16 +59,16 @@ public class FindingMinimumsExample {
                     if (NUMBERS[stoppedAt] < minimumNumber) minimumNumber = NUMBERS[stoppedAt];
                     stoppedAt++;
                 }
-                MINIMUMS_NUMBERS[minimumNumbersIndex] = minimumNumber;
+                System.out.print(minimumNumber + " ");
             }
         }
-        if (minimumNumbersIndex++ != MINIMUMS_NUMBERS_LENGTH - 1) {
+        if (minimumNumbersIndex != MINIMUMS_NUMBERS_LENGTH - 1) {
             long minimumNumber = NUMBERS[stoppedAt];
             while (stoppedAt < LENGTH) {
                 if (NUMBERS[stoppedAt] < minimumNumber) minimumNumber = NUMBERS[stoppedAt];
                 stoppedAt++;
             }
-            MINIMUMS_NUMBERS[minimumNumbersIndex] = minimumNumber;
+            System.out.print(minimumNumber);
         }
     }
 
