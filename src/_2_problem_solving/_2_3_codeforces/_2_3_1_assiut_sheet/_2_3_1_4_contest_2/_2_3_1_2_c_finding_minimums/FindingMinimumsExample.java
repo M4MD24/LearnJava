@@ -39,40 +39,36 @@ import java.util.Scanner;
 public class FindingMinimumsExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static final int LENGTH = INPUT.nextInt(),
-            SPLIT = INPUT.nextInt(),
-            MINIMUMS_NUMBERS_LENGTH = (int) Math.ceil((double) LENGTH / SPLIT);
-    private static final long[] NUMBERS = new long[LENGTH];
+            SPLIT = INPUT.nextInt();
 
     public static void main(String[] args) {
-        inputValues();
-        splitAndGetMinimumsNumbers();
+        inputAndSplitAndGetMinimumsNumbers();
     }
 
-    private static void splitAndGetMinimumsNumbers() {
-        int minimumNumbersIndex = -1,
-                stoppedAt = 0;
-        for (int round = 0; round < LENGTH; round++) {
-            if ((round + 1) % SPLIT == 0 && round != 0) {
-                minimumNumbersIndex++;
-                long minimumNumber = NUMBERS[stoppedAt];
-                while (stoppedAt <= round) {
-                    if (NUMBERS[stoppedAt] < minimumNumber) minimumNumber = NUMBERS[stoppedAt];
-                    stoppedAt++;
+    private static void inputAndSplitAndGetMinimumsNumbers() {
+        if (SPLIT > 1) {
+            long minimumNumber = INPUT.nextLong(),
+                    minimumsNumbersIndex = 0,
+                    index = 1;
+            boolean smallSplitCondition = LENGTH % SPLIT == 0;
+            for (; index < LENGTH; index++) {
+                final long ANOTHER_NUMBER = INPUT.nextLong();
+                if (ANOTHER_NUMBER < minimumNumber) minimumNumber = ANOTHER_NUMBER;
+                if (((smallSplitCondition) ? index + 2 : index + 1) % SPLIT == 0 && index != 0) {
+                    System.out.print(minimumNumber + " ");
+                    minimumsNumbersIndex++;
+                    if (minimumsNumbersIndex < Math.ceil((double) LENGTH / SPLIT)) {
+                        minimumNumber = INPUT.nextLong();
+                        index++;
+                    }
                 }
-                System.out.print(minimumNumber + " ");
+            }
+            if (minimumsNumbersIndex != Math.ceil((double) LENGTH / SPLIT)) System.out.print(minimumNumber);
+        } else if (LENGTH > 0) {
+            for (int index = 0; index < LENGTH; index++) {
+                final long MINIMUM_NUMBER = INPUT.nextLong();
+                System.out.print(MINIMUM_NUMBER + " ");
             }
         }
-        if (minimumNumbersIndex != MINIMUMS_NUMBERS_LENGTH - 1) {
-            long minimumNumber = NUMBERS[stoppedAt];
-            while (stoppedAt < LENGTH) {
-                if (NUMBERS[stoppedAt] < minimumNumber) minimumNumber = NUMBERS[stoppedAt];
-                stoppedAt++;
-            }
-            System.out.print(minimumNumber);
-        }
-    }
-
-    private static void inputValues() {
-        for (int index = 0; index < NUMBERS.length; index++) NUMBERS[index] = INPUT.nextLong();
     }
 }
