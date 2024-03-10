@@ -1,6 +1,5 @@
 package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_5_sheet_3._2_3_1_5_b_searching;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -57,15 +56,20 @@ import java.util.Scanner;
 
 public class SearchingExample {
     private static final Scanner INPUT = new Scanner(System.in);
+    private static final int LENGTH = INPUT.nextInt();
+    private static final long[] NUMBERS = new long[LENGTH];
 
     public static void main(String[] args) {
-        final int LENGTH = INPUT.nextInt();
-        final long[] NUMBERS = new long[LENGTH];
-        inputValues(NUMBERS, LENGTH);
-        System.out.print(Arrays.toString(NUMBERS).indexOf(INPUT.nextInt()));
+        inputValues();
+        System.out.print(searchValue(INPUT.nextLong()));
     }
 
-    private static void inputValues(final long[] NUMBERS, int length) {
-        while (length-- > 0) NUMBERS[length] = INPUT.nextLong();
+    private static int searchValue(long targetValue) {
+        for (int index = 0; index < LENGTH; index++) if (NUMBERS[index] == targetValue) return index;
+        return -1;
+    }
+
+    private static void inputValues() {
+        for (int index = 0; index < LENGTH; index++) NUMBERS[index] = INPUT.nextInt();
     }
 }

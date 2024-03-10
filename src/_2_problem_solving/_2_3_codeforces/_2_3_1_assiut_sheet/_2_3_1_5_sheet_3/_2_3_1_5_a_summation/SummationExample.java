@@ -1,4 +1,4 @@
-package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_4_sheet_3._2_3_1_3_summation;
+package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_5_sheet_3._2_3_1_5_a_summation;
 
 import java.util.Scanner;
 
@@ -52,7 +52,7 @@ public class SummationExample {
         final int LENGTH = INPUT.nextInt();
         final long[] NUMBERS = new long[LENGTH];
         inputValues(NUMBERS, LENGTH);
-        System.out.print(summation(NUMBERS, LENGTH));
+        System.out.print((summation(NUMBERS, LENGTH) > 0) ? summation(NUMBERS, LENGTH) : Math.abs(summation(NUMBERS, LENGTH)));
     }
 
     private static long summation(final long[] NUMBERS, int length) {

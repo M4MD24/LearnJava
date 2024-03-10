@@ -9,9 +9,9 @@ import java.util.Scanner;
  * <br/>
  * memory limit per test: 64 megabytes
  * <br/>
- * input standard input
+ * input: standard input
  * <br/>
- * output standard output
+ * output: standard output
  * </h2>
  * <br/>
  * <h1>Question:</h1>
