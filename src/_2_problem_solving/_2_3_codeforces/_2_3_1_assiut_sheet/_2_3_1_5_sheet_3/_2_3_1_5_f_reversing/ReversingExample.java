@@ -27,7 +27,7 @@ import java.util.Scanner;
  * 5 1 3 2
  * </h2>
  * <h1>Output:</h1>
- * <h2>2 3 1 5 </h2>
+ * <h2>2 3 1 5</h2>
  * <br/>
  * <h1>Input:</h1>
  * <h2>
@@ -36,7 +36,7 @@ import java.util.Scanner;
  * 1 2 3 4 5
  * </h2>
  * <h1>Output:</h1>
- * <h2>5 4 3 2 1 </h2>
+ * <h2>5 4 3 2 1</h2>
  */
 
 public class ReversingExample {
