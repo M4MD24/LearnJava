@@ -49,12 +49,18 @@ public class SmallestPairExample {
     }
 
     static int smallestPairSum() {
-        int minimumSum = Integer.MAX_VALUE;
-        for (int round = 0; round < length - 1; round++) {
-            for (int index = round + 1; index < length; index++) {
+        int round = 0,
+                index = round + 1,
+                minimumSum = values[round] + values[index] + (index - round);
+        index++;
+        while (round < length - 1) {
+            while (index < length) {
                 final int CURRENT_SUM = values[round] + values[index] + (index - round);
                 if (CURRENT_SUM < minimumSum) minimumSum = CURRENT_SUM;
+                index++;
             }
+            round++;
+            index = round + 1;
         }
         return minimumSum;
     }
