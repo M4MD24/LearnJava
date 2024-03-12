@@ -6,9 +6,9 @@ import java.util.Scanner;
 /**
  * <h1>Question:</h1>
  * <h2>
- * Write a Java program to find a contiguous subarray with the largest sum from a given array of integers.
+ * Write a Java program to find a contiguous sub-array with the largest sum from a given array of integers.
  * <br/>
- * Note: In computer science, the maximum subarray problem is the task of finding the contiguous subarray within a one-dimensional array of numbers which has the largest sum. For example, for the sequence of values −2, 1, −3, 4, −1, 2, 1, −5, 4; the contiguous subarray with the largest sum is 4, −1, 2, 1, with sum 6. The subarray should contain one integer at least.
+ * Note: In computer science, the maximum sub-array problem is the task of finding the contiguous sub-array within a one-dimensional array of numbers which has the largest sum. For example, for the sequence of values −2, 1, −3, 4, −1, 2, 1, −5, 4; the contiguous sub-array with the largest sum is 4, −1, 2, 1, with sum 6. The sub-array should contain one integer at least.
  * </h2>
  */
 
