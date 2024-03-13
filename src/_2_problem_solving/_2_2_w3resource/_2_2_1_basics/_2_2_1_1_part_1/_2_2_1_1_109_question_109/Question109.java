@@ -28,8 +28,8 @@ public class Question109 {
     private static void solution2(int number) {
         int index = 0,
                 cursor = 0,
-                column = 1,
-                rowsSum = 0;
+                rowsSum = 0,
+                column = 1;
         while (index < number) {
             index++;
             if (cursor == column) {
@@ -39,7 +39,7 @@ public class Question109 {
             }
             System.out.print('#');
             cursor++;
-            if (cursor == column) ++rowsSum;
+            if (cursor == column) rowsSum++;
         }
         System.out.print("\nNumber of rows: " + rowsSum);
     }

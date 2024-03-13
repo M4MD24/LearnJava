@@ -46,9 +46,9 @@ import java.util.Scanner;
 
 public class SearchInMatrixExample {
     private static final Scanner INPUT = new Scanner(System.in);
-    private static final byte COLUMNS = INPUT.nextByte(),
-            ROWS = INPUT.nextByte();
-    private static final int[][] NUMBERS = new int[COLUMNS][ROWS];
+    private static final byte ROWS = INPUT.nextByte(),
+            COLUMNS = INPUT.nextByte();
+    private static final int[][] NUMBERS = new int[ROWS][COLUMNS];
 
     public static void main(String[] args) {
         inputValues();
@@ -56,15 +56,15 @@ public class SearchInMatrixExample {
     }
 
     private static String isContain(final int TARGET_VALUE) {
-        for (byte column = 0; column < COLUMNS; column++)
-            for (byte row = 0; row < ROWS; row++)
-                if (NUMBERS[column][row] == TARGET_VALUE) return "will not take number";
+        for (byte row = 0; row < ROWS; row++)
+            for (byte column = 0; column < COLUMNS; column++)
+                if (NUMBERS[row][column] == TARGET_VALUE) return "will not take number";
         return "will take number";
     }
 
     private static void inputValues() {
-        for (byte column = 0; column < COLUMNS; column++)
-            for (byte row = 0; row < ROWS; row++)
-                NUMBERS[column][row] = INPUT.nextInt();
+        for (byte row = 0; row < ROWS; row++)
+            for (byte column = 0; column < COLUMNS; column++)
+                NUMBERS[row][column] = INPUT.nextInt();
     }
 }

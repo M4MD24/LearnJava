@@ -48,21 +48,21 @@ public class MatrixExample {
 
     private static long getSumNumbersSecondDiagonal() {
         long sum = 0;
-        for (byte column = 0, row = (byte) (LENGTH - 1); column < LENGTH; column++, row--)
-            sum += NUMBERS[column][row];
+        for (byte row = 0, column = (byte) (LENGTH - 1); row < LENGTH; row++, column--)
+            sum += NUMBERS[row][column];
         return sum;
     }
 
     private static long getSumNumbersFirstDiagonal() {
         long sum = 0;
-        for (byte column = 0, row = column; column < LENGTH; column++, row++)
-            sum += NUMBERS[column][row];
+        for (byte row = 0, column = row; row < LENGTH; row++, column++)
+            sum += NUMBERS[row][column];
         return sum;
     }
 
     private static void inputValues() {
-        for (byte column = 0; column < LENGTH; column++)
-            for (byte row = 0; row < LENGTH; row++)
-                NUMBERS[column][row] = INPUT.nextByte();
+        for (byte row = 0; row < LENGTH; row++)
+            for (byte column = 0; column < LENGTH; column++)
+                NUMBERS[row][column] = INPUT.nextByte();
     }
 }

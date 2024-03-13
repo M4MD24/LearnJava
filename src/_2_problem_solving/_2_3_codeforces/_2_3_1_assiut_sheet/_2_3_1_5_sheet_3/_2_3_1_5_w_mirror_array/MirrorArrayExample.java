@@ -47,9 +47,9 @@ import java.util.Scanner;
 
 public class MirrorArrayExample {
     private static final Scanner INPUT = new Scanner(System.in);
-    private static final int COLUMNS = INPUT.nextInt(),
-            ROWS = INPUT.nextInt();
-    private static final int[][] NUMBERS = new int[COLUMNS][ROWS];
+    private static final int ROWS = INPUT.nextInt(),
+            COLUMNS = INPUT.nextInt();
+    private static final int[][] NUMBERS = new int[ROWS][COLUMNS];
 
     public static void main(String[] args) {
         inputValues();
@@ -57,18 +57,18 @@ public class MirrorArrayExample {
     }
 
     private static void printMirrorValues() {
-        for (int column = 0; column < COLUMNS; column++) {
-            for (int row = ROWS - 1; row >= 0; row--) {
-                System.out.print(NUMBERS[column][row]);
-                if (row > 0) System.out.print(" ");
+        for (int row = 0; row < ROWS; row++) {
+            for (int column = COLUMNS - 1; column >= 0; column--) {
+                System.out.print(NUMBERS[row][column]);
+                if (column > 0) System.out.print(" ");
             }
-            if (column < COLUMNS - 1) System.out.println();
+            if (row < ROWS - 1) System.out.println();
         }
     }
 
     private static void inputValues() {
-        for (int column = 0; column < COLUMNS; column++)
-            for (int row = 0; row < ROWS; row++)
-                NUMBERS[column][row] = INPUT.nextInt();
+        for (int row = 0; row < ROWS; row++)
+            for (int column = 0; column < COLUMNS; column++)
+                NUMBERS[row][column] = INPUT.nextInt();
     }
 }
