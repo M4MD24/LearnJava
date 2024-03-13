@@ -1,7 +1,8 @@
 # Learn Java Programming Language
 
-- **Recommended using Intellij IDEA**
-- **Project Language: _English_, and some images _Arabic_**
+- **Recommended using `Intellij IDEA`**
+- **Project Language: `English` and `some images Arabic`**
+- **Appropriate labels for `variables`, `functions` and `classes`**
 
 ---
 
@@ -9,20 +10,22 @@
 
 - For Search in Intellij IDEA `CTRL + Shift + F`
 
-    1. Search `! */` for **Advices, Tips and Errors**
-    2. Search `. */` for **Definitions**
-    3. Search `/* ~` for **The Difference Between**
-    4. Search `/* ↓` for **Examples**
-    5. Search `/* √` for **Similar Concepts**
-    6. Search `/* ■` for **Tables**
-    7. Search `// •` for **Important Things**
-    8. Search `<h1>Question` for **Questions**
-    9. Search `// >` for **Another Solution**
-    10. Search `:?</h1>` for **Questions not Answered**
+    - Search `! */` for **Advices, Tips and Errors**
+    - Search `. */` for **Definitions**
+    - Search `/* ~` for **The Difference Between**
+    - Search `/* ↓` for **Examples**
+    - Search `/* √` for **Similar Concepts**
+    - Search `/* ■` for **Tables**
+    - Search `// •` for **Important Things**
+    - Search `<h1>Question` for **Questions**
+    - Search `// >` for **Another Solution**
+    - Search `:?</h1>` for **Questions not Answered**
 
 ---
 
 ## _1. Learning_
+
+- Learn how to use and apply concepts
 
 ### 1. Basics:
 
@@ -202,7 +205,9 @@
 
 ---
 
-## _2. Problem Solving (230)_
+## _2. Problem Solving (256)_
+
+- Solving problems and projects
 
 ### 1. [W3Schools](https://www.w3schools.com/java): (6 Questions)
 
@@ -214,13 +219,14 @@
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
     2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (2 Question)**
 
-### 3. [Codeforces](https://codeforces.com): (69 Questions)
+### 3. [Codeforces](https://codeforces.com): (95 Questions)
 
-1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (69 Questions)**
+1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (95 Questions)**
     1. **[Sheet 1 "Data type - Conditions"](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
     2. **[Contest 1](https://codeforces.com/group/MWSDmqGsZm/contest/326175) (9 Questions)**
     3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (26 Questions)**
     4. **[Contest 2](https://codeforces.com/group/MWSDmqGsZm/contest/326907) (8 Questions)**
+    5. **[Sheet 3 "Arrays"](https://codeforces.com/group/MWSDmqGsZm/contest/219774) (26 Questions)**
 
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
@@ -238,7 +244,7 @@
 
 ### ~~6. [LeetCode](https://leetcode.com): (0 Questions)~~
 
-1. ~~**[Top Interview 150](https://leetcode.com/studyplan/top-interview-150/) (0 Questions)**~~
+1. ~~**[Top Interview 150](https://leetcode.com/studyplan/top-interview-150) (0 Questions)**~~
 2. ~~**[Problem-Set](https://leetcode.com/problemset) (0 Questions)**~~
 
 ---
@@ -254,7 +260,7 @@
 
 ## _Resources:_
 
-### Concepts:
+### Learning:
 
 #### Websites:
 

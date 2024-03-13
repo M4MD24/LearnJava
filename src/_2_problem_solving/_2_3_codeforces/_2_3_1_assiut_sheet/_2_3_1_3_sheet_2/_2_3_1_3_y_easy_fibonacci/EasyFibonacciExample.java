@@ -9,9 +9,9 @@ import java.util.Scanner;
  * <br/>
  * memory limit per test: 256 megabytes
  * <br/>
- * input standard input
+ * input: standard input
  * <br/>
- * output standard output
+ * output: standard output
  * </h2>
  * <br/>
  * <h1>Question:</h1>
@@ -41,16 +41,19 @@ public class EasyFibonacciExample {
     }
 
     private static void printFibonacci() {
-        for (int index = 1; index <= LENGTH; index++) System.out.print(fibonacci(index) + " ");
+        for (int index = 1; index <= LENGTH; index++) {
+            System.out.print(fibonacci(index));
+            if (index != LENGTH) System.out.print(" ");
+        }
     }
 
-    private static int fibonacci(int n) {
-        if (n == 1) return 0;
-        else if (n == 2) return 1;
+    private static int fibonacci(int number) {
+        if (number == 1) return 0;
+        else if (number == 2) return 1;
         else {
-            if (FIBONACCI_ARRAY[n] != 0) return FIBONACCI_ARRAY[n];
-            FIBONACCI_ARRAY[n] = fibonacci(n - 1) + fibonacci(n - 2);
-            return FIBONACCI_ARRAY[n];
+            if (FIBONACCI_ARRAY[number] != 0) return FIBONACCI_ARRAY[number];
+            FIBONACCI_ARRAY[number] = fibonacci(number - 1) + fibonacci(number - 2);
+            return FIBONACCI_ARRAY[number];
         }
     }
 }

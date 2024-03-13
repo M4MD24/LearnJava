@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * <h1>Question:</h1>
- * <h2>Write a Java program to find the subarray with smallest sum from a given array of integers.</h2>
+ * <h2>Write a Java program to find the sub-array with smallest sum from a given array of integers.</h2>
  */
 
 enum SolutionsHeader {
