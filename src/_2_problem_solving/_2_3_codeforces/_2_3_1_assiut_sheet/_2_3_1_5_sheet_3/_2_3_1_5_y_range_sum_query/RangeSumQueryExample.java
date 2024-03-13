@@ -77,7 +77,7 @@ public class RangeSumQueryExample {
             int start = INPUT.nextInt() - 1,
                     end = INPUT.nextInt() - 1;
             long sum = SUM_NUMBERS[end] - SUM_NUMBERS[start] + NUMBERS[start];
-            System.out.print(SUM_NUMBERS[end] + " - " + SUM_NUMBERS[start] + " + " + NUMBERS[start] + " = " + sum);
+            System.out.print(sum);
             if (ranges-- > 1) System.out.println();
         }
     }
