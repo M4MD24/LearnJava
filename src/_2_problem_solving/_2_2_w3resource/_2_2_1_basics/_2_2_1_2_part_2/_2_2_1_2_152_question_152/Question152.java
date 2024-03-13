@@ -6,7 +6,7 @@ import java.util.Scanner;
  * <h1>Question:</h1>
  * <h2>Write a Java program that accepts four integers from the user and prints equal if all four are equal, and not equal otherwise.</h2>
  * <br/>
- * <h1>Excepted Output:</h1>
+ * <h1>Input Data:</h1>
  * <h2>
  * Input first number: 25
  * <br/>
