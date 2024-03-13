@@ -205,7 +205,7 @@
 
 ---
 
-## _2. Problem Solving (256)_
+## _2. Problem Solving (257)_
 
 - Solving problems and projects
 
@@ -219,15 +219,15 @@
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
     2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (2 Question)**
 
-### 3. [Codeforces](https://codeforces.com): (95 Questions)
+### 3. [Codeforces](https://codeforces.com): (97 Questions)
 
-1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (95 Questions)**
+1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (97 Questions)**
     1. **[Sheet 1 "Data type - Conditions"](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
     2. **[Contest 1](https://codeforces.com/group/MWSDmqGsZm/contest/326175) (9 Questions)**
     3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (26 Questions)**
     4. **[Contest 2](https://codeforces.com/group/MWSDmqGsZm/contest/326907) (8 Questions)**
     5. **[Sheet 3 "Arrays"](https://codeforces.com/group/MWSDmqGsZm/contest/219774) (26 Questions)**
-    6. **[Contest 3.1](https://codeforces.com/group/MWSDmqGsZm/contest/329103) (1 Questions)**
+    6. **[Contest 3.1](https://codeforces.com/group/MWSDmqGsZm/contest/329103) (2 Questions)**
 
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
