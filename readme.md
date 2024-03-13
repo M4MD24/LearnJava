@@ -227,6 +227,7 @@
     3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (26 Questions)**
     4. **[Contest 2](https://codeforces.com/group/MWSDmqGsZm/contest/326907) (8 Questions)**
     5. **[Sheet 3 "Arrays"](https://codeforces.com/group/MWSDmqGsZm/contest/219774) (26 Questions)**
+    6. **[Contest 3.1](https://codeforces.com/group/MWSDmqGsZm/contest/329103) (1 Questions)**
 
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
