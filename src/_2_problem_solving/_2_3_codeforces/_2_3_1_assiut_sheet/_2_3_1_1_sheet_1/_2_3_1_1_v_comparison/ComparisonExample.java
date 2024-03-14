@@ -17,9 +17,9 @@ import java.util.Scanner;
  * <h1>Question:</h1>
  * <h2>
  * Given a comparison symbol S between two numbers A and B. Determine whether it is Right or Wrong.
- * <Br/>
+ * <br/>
  * The comparison is as follows: A < B, A > B, A = B.
- * <Br/>
+ * <br/>
  * Where A,B are two integer numbers and S refers to the sign between them.
  * </h2>
  * <br/>
