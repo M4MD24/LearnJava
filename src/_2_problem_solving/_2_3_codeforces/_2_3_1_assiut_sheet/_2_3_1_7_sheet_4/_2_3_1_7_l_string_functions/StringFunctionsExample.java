@@ -69,99 +69,65 @@ import java.util.Scanner;
  * </h2>
  */
 
-/*
-assiutinupperegypt
-substr 1 6 (assiut)
-sort 5 8 (utin) -> (assi(intu)upperegypt)
-pop_back (assi(intu)upperegyp't')
-back (p)
-reverse 1 6 ((niissa)tuupperegyp)
-front ~
-front ~
-print 4 (s)
-*/
-/*
-18 8
-assiutinupperegypt
-substr 1 6
-sort 5 8
-pop_back
-back
-reverse 1 6
-front
-push_back i
-print 4
-*/
 public class StringFunctionsExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static final short LENGTH = INPUT.nextShort();
-    private static short countOperationsCases = INPUT.nextShort();
+    private static short countOfTestCases = INPUT.nextShort();
     private static final String NOTHING = INPUT.nextLine();
-    private static String originalText = INPUT.nextLine();
+    private static String originalText = INPUT.next();
+    private static short start,
+            end;
 
     public static void main(String[] args) {
-        inputValues();
-    }
-
-    private static void inputValues() {
-        while (countOperationsCases-- > 0) selectOperation();
-    }
-
-    private static void selectOperation() {
-        final String OPERATION = INPUT.next();
-        switch (OPERATION) {
-            case "substr":
-                System.out.println(originalText.substring(INPUT.nextShort() - 1, INPUT.nextShort()));
-                break;
-            case "sort":
-                sortText((short) (INPUT.nextShort() - 1), INPUT.nextShort());
-                break;
-            case "pop_back":
-                originalText = originalText.substring(0, originalText.length() - 1);
-                break;
-            case "back":
-                System.out.println(originalText.charAt(originalText.length() - 1));
-                break;
-            case "reverse":
-                reverse((short) (INPUT.nextShort() - 1), INPUT.nextShort());
-                break;
-            case "front":
-                System.out.println(originalText.charAt(0));
-                break;
-            case "push_back":
-                originalText += INPUT.next().charAt(0);
-                break;
-            case "print":
-                System.out.println(originalText.charAt(INPUT.nextShort() - 1));
-                break;
+        while (countOfTestCases-- > 0) {
+            final String OPERATIONS = INPUT.next();
+            switch (OPERATIONS) {
+                case "pop_back" -> originalText = originalText.substring(0, originalText.length() - 1);
+                case "front" -> System.out.println(originalText.charAt(0));
+                case "back" -> System.out.println(originalText.charAt(originalText.length() - 1));
+                case "sort" -> sortText();
+                case "reverse" -> reverseText();
+                case "print" -> System.out.println(originalText.charAt(INPUT.nextShort() - 1));
+                case "substr" -> subStringText();
+                case "push_back" -> originalText += INPUT.next().charAt(0);
+            }
         }
     }
 
-    private static void reverse(short FIRST_SEQUENCE_LENGTH, short SECOND_SEQUENCE_LENGTH) {
-        originalText = originalText.substring(0, FIRST_SEQUENCE_LENGTH) +
-                new StringBuilder(originalText.substring(FIRST_SEQUENCE_LENGTH, SECOND_SEQUENCE_LENGTH)).reverse() +
-                originalText.substring(SECOND_SEQUENCE_LENGTH);
+    private static void sortText() {
+        start = INPUT.nextShort();
+        end = INPUT.nextShort();
+        swapIfStartGreaterThanEnd();
+        final char[] CHARACTER_TEXT = originalText.toCharArray();
+        Arrays.sort(CHARACTER_TEXT, (short) (start - 1), end);
+        originalText = new String(CHARACTER_TEXT);
     }
 
-    private static void sortText(final short FIRST_SEQUENCE_LENGTH, final short SECOND_SEQUENCE_LENGTH) {
-        char[] MIDDLE_SEQUENCE_CHARACTERS = originalText.substring(FIRST_SEQUENCE_LENGTH, SECOND_SEQUENCE_LENGTH).toCharArray();
-        Arrays.sort(MIDDLE_SEQUENCE_CHARACTERS);
-        StringBuilder middleSequence = new StringBuilder();
-        for (char character : MIDDLE_SEQUENCE_CHARACTERS) middleSequence.append(character);
-        originalText = originalText.substring(0, FIRST_SEQUENCE_LENGTH) +
-                middleSequence +
-                originalText.substring(SECOND_SEQUENCE_LENGTH);
+    private static void reverseText() {
+        start = INPUT.nextShort();
+        end = INPUT.nextShort();
+        swapIfStartGreaterThanEnd();
+        originalText = reverseSubstring((short) (start - 1), end);
+    }
+
+    private static void subStringText() {
+        start = INPUT.nextShort();
+        end = INPUT.nextShort();
+        swapIfStartGreaterThanEnd();
+        System.out.println(originalText.substring((short) (start - 1), end));
+    }
+
+    private static void swapIfStartGreaterThanEnd() {
+        if (end < start) {
+            start += end;
+            end = (short) (start - end);
+            start -= end;
+        }
+    }
+
+    public static String reverseSubstring(final short START_INDEX, final short END_INDEX) {
+        return originalText.substring(0, START_INDEX) +
+                new StringBuilder(originalText.substring(START_INDEX, END_INDEX)).reverse() +
+                originalText.substring(END_INDEX);
     }
 }
-/*
-private static void sortText(final short FIRST_SEQUENCE_LENGTH, final short SECOND_SEQUENCE_LENGTH) {
-        StringBuilder middleSequence = new StringBuilder(originalText.substring(FIRST_SEQUENCE_LENGTH, SECOND_SEQUENCE_LENGTH));
-        char[] MIDDLE_SEQUENCE_CHARACTERS = middleSequence.toString().toCharArray();
-        Arrays.sort(MIDDLE_SEQUENCE_CHARACTERS);
-        middleSequence = new StringBuilder();
-        for (char character : MIDDLE_SEQUENCE_CHARACTERS) middleSequence.append(character);
-        originalText = originalText.substring(0, FIRST_SEQUENCE_LENGTH) +
-                middleSequence +
-                originalText.substring(SECOND_SEQUENCE_LENGTH);
-    }
-*/

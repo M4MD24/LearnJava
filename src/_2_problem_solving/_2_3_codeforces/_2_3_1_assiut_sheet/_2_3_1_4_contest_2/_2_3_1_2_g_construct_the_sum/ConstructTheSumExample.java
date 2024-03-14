@@ -48,9 +48,9 @@ public class ConstructTheSumExample {
     public static void main(String[] args) throws IOException {
         final BufferedReader BUFFERED_READER = new BufferedReader(new InputStreamReader(System.in));
         int length = Integer.parseInt(BUFFERED_READER.readLine());
-        StringBuilder output = new StringBuilder();
-        while (length-- > 0) inputValues(BUFFERED_READER, output);
-        System.out.print(output);
+        final StringBuilder OUTPUT = new StringBuilder();
+        while (length-- > 0) inputValues(BUFFERED_READER, OUTPUT);
+        System.out.print(OUTPUT);
     }
 
     private static void inputValues(BufferedReader BUFFERED_READER, StringBuilder output) throws IOException {
@@ -69,7 +69,7 @@ public class ConstructTheSumExample {
                 firstNumber--;
             }
             if (secondNumber == 0) {
-                for (int i = NUMBERS.size() - 1; i >= 0; i--) output.append(NUMBERS.get(i)).append(" ");
+                for (int index = NUMBERS.size() - 1; index >= 0; index--) output.append(NUMBERS.get(index)).append(" ");
                 output.append("\n");
             } else output.append("-1\n");
         }
