@@ -43,19 +43,23 @@ import java.util.Scanner;
  */
 
 public class CountLettersExample {
+    private static final Scanner INPUT = new Scanner(System.in);
+    private static final String TEXT = INPUT.next();
+    private static final int[] COUNTER_TEXT_LETTERS = new int[26];
+
     public static void main(String[] args) {
-        final Scanner INPUT = new Scanner(System.in);
-        final String TEXT = INPUT.next();
-        printTimesEachLetter(TEXT);
+        printTimesEachLetter();
     }
 
-    private static void printTimesEachLetter(final String TEXT) {
-        final int[] COUNTER_TEXT_LETTERS = new int[26];
-        final int LENGTH = COUNTER_TEXT_LETTERS.length;
-        for (int index = 0; index < TEXT.length(); index++) COUNTER_TEXT_LETTERS[TEXT.charAt(index) - 'a']++;
-        for (int index = 0; index < LENGTH; index++) {
+    private static void printTimesEachLetter() {
+        countTimesEachLetter();
+        for (int index = 0; index < COUNTER_TEXT_LETTERS.length; index++) {
             final int TOTAL_TIMES_LETTER = COUNTER_TEXT_LETTERS[index];
             if (TOTAL_TIMES_LETTER != 0) System.out.println((char) (index + 97) + " : " + TOTAL_TIMES_LETTER);
         }
+    }
+
+    private static void countTimesEachLetter() {
+        for (int index = 0; index < TEXT.length(); index++) COUNTER_TEXT_LETTERS[TEXT.charAt(index) - 'a']++;
     }
 }
