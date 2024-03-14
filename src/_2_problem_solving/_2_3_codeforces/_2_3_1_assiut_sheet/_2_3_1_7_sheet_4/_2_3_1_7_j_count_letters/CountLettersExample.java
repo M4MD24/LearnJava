@@ -45,14 +45,15 @@ import java.util.Scanner;
 public class CountLettersExample {
     public static void main(String[] args) {
         final Scanner INPUT = new Scanner(System.in);
-        final char[] TEXT_LETTERS = INPUT.nextLine().toCharArray();
-        printTimesEachLetter(TEXT_LETTERS);
+        final String TEXT = INPUT.next();
+        printTimesEachLetter(TEXT);
     }
 
-    private static void printTimesEachLetter(final char[] TEXT_LETTERS) {
+    private static void printTimesEachLetter(final String TEXT) {
         final int[] COUNTER_TEXT_LETTERS = new int[26];
-        for (char textLetter : TEXT_LETTERS) COUNTER_TEXT_LETTERS[textLetter - 'a']++;
-        for (int index = 0, length = COUNTER_TEXT_LETTERS.length; index < length; index++) {
+        final int LENGTH = COUNTER_TEXT_LETTERS.length;
+        for (int index = 0; index < TEXT.length(); index++) COUNTER_TEXT_LETTERS[TEXT.charAt(index) - 'a']++;
+        for (int index = 0; index < LENGTH; index++) {
             final int TOTAL_TIMES_LETTER = COUNTER_TEXT_LETTERS[index];
             if (TOTAL_TIMES_LETTER != 0) System.out.println((char) (index + 97) + " : " + TOTAL_TIMES_LETTER);
         }
