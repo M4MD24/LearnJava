@@ -19,7 +19,7 @@ import java.util.Scanner;
  * <br/>
  * <h1>Note:</h1>
  * <h2>
- * Note: A subsequence is a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements.
+ * A subsequence is a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements.
  * <br/>
  * For example: The list of all subsequence for the word "apple" would be "a", "ap", "al", "ae", "app", "apl", "ape", "ale", "appl", "appe", "aple", "apple", "p", "pp", "pl", "pe", "ppl", "ppe", "ple", "pple", "l", "le", "e".
  * </h2>
