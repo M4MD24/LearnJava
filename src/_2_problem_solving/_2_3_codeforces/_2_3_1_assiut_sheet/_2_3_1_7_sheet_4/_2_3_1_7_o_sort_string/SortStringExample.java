@@ -41,11 +41,12 @@ import java.util.Scanner;
 
 public class SortStringExample {
     private static final Scanner INPUT = new Scanner(System.in);
-    private static int length = INPUT.nextInt();
+    private static final int LENGTH = INPUT.nextInt();
+    private static final String TEXT = INPUT.next();
     private static final byte[] SORTED_TEXT_CHARACTER = new byte[26];
 
     public static void main(String[] args) {
-        inputAndSortStringValues();
+        sortCharacters();
         printValues();
     }
 
@@ -55,7 +56,10 @@ public class SortStringExample {
                 System.out.print((char) (index + 97));
     }
 
-    private static void inputAndSortStringValues() {
-        while (length-- > 0) SORTED_TEXT_CHARACTER[INPUT.next().charAt(0) - 'a']++;
+    private static void sortCharacters() {
+        for (int index = 0; index < LENGTH; index++) {
+            final byte CURRENT_CHARACTER = (byte) (TEXT.charAt(index) - 97);
+            SORTED_TEXT_CHARACTER[CURRENT_CHARACTER]++;
+        }
     }
 }

@@ -3,7 +3,7 @@ package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_7_sheet_4.
 import java.util.Scanner;
 
 /**
- * <h1>N. MAx Sub-sequence</h1>
+ * <h1>N. Max Sub-sequence</h1>
  * <h2>
  * time limit per test: 1 second
  * <br/>
