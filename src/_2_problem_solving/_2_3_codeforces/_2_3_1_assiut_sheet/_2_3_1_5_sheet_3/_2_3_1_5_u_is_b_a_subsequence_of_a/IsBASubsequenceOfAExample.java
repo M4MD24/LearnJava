@@ -3,7 +3,7 @@ package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_5_sheet_3.
 import java.util.Scanner;
 
 /**
- * <h1>U. Is B a subsequence of A ?</h1>
+ * <h1>U. Is B a subsequence of A</h1>
  * <h2>
  * time limit per test: 1 second
  * <br/>

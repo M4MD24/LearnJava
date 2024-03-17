@@ -46,10 +46,10 @@ import java.util.ArrayList;
 
 public class ConstructTheSumExample {
     public static void main(String[] args) throws IOException {
-        final BufferedReader BUFFERED_READER = new BufferedReader(new InputStreamReader(System.in));
-        int length = Integer.parseInt(BUFFERED_READER.readLine());
+        final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
+        int length = Integer.parseInt(INPUT.readLine());
         final StringBuilder OUTPUT = new StringBuilder();
-        while (length-- > 0) inputValues(BUFFERED_READER, OUTPUT);
+        while (length-- > 0) inputValues(INPUT, OUTPUT);
         System.out.print(OUTPUT);
     }
 
