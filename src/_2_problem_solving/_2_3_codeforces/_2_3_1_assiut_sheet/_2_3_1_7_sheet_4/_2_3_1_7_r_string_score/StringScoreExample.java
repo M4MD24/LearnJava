@@ -23,7 +23,7 @@ import java.io.InputStreamReader;
  *     <li>W: Adds to the score 2 points.</li>
  *     <li>X: Removes the next consecutive character from the string.</li>
  *     <li>Y: Moves the next consecutive character to the end of the string.</li>
- *     <li>Z: If the next consecutive character is V it divides the total score by 5 but if it is W it divides the total score by 2. Then it removes the next consecutive character from the string if and only if the next character is V or W. </li>
+ *     <li>Z: If the next consecutive character is V it divides the total score by 5 but if it is W it divides the total score by 2. Then it removes the next consecutive character from the string if and only if the next character is V or W.</li>
  * </ul>
  * <br/>
  * <h1>Note:</h1>

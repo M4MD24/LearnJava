@@ -25,9 +25,9 @@ import java.util.*;
  *     <li><b>offer()</b> - Inserts the specified element into the queue. If the task is successful, offer() returns true, if not it returns false.</li>
  *     <li><b>remove()</b> - Returns and removes the head of the queue. Throws an exception if the queue is empty.</li>
  *     <li><b>poll()</b> - Returns and removes the head of the queue. Returns null if the queue is empty.</li>
- *     <li><b>contains()</b> - Searches the priority queue for the specified element. If the element is found, it returns true, if not it returns false. </li>
- *     <li><b>size()</b> - Returns the length of the priority queue. </li>
- *     <li><b>toArray()</b> - Converts a priority queue to an array and returns it. </li>
+ *     <li><b>contains()</b> - Searches the priority queue for the specified element. If the element is found, it returns true, if not it returns false.</li>
+ *     <li><b>size()</b> - Returns the length of the priority queue.</li>
+ *     <li><b>toArray()</b> - Converts a priority queue to an array and returns it.</li>
  * </ul>
  */
 
