@@ -40,21 +40,25 @@ public class NewWordsExample {
     }
 
     private static int numberOfWordsCanBeFormedForEgypt(final StringBuffer TEXT) {
-        final int E_LETTER_COUNT = TEXT.toString().split("[eE]+").length - 1,
-                G_LETTER_COUNT = TEXT.toString().split("[gG]+").length - 1,
-                Y_LETTER_COUNT = TEXT.toString().split("[yY]+").length - 1,
-                P_LETTER_COUNT = TEXT.toString().split("[pP]+").length - 1,
-                T_LETTER_COUNT = TEXT.toString().split("[tT]+").length - 1;
-        System.out.println(E_LETTER_COUNT);
-        System.out.println(G_LETTER_COUNT);
-        System.out.println(Y_LETTER_COUNT);
-        System.out.println(P_LETTER_COUNT);
-        System.out.println(T_LETTER_COUNT);
-        return getMinimumCount(E_LETTER_COUNT,
-                G_LETTER_COUNT,
-                Y_LETTER_COUNT,
-                P_LETTER_COUNT,
-                T_LETTER_COUNT);
+        int eLetterCount = 0,
+                gLetterCount = 0,
+                yLetterCount = 0,
+                pLetterCount = 0,
+                tLetterCount = 0;
+        for (final int LETTER : TEXT.chars().toArray()) {
+            switch (LETTER) {
+                case 'e', 'E' -> eLetterCount++;
+                case 'g', 'G' -> gLetterCount++;
+                case 'y', 'Y' -> yLetterCount++;
+                case 'p', 'P' -> pLetterCount++;
+                case 't', 'T' -> tLetterCount++;
+            }
+        }
+        return getMinimumCount(eLetterCount,
+                gLetterCount,
+                yLetterCount,
+                pLetterCount,
+                tLetterCount);
     }
 
     private static int getMinimumCount(final int E_LETTER_COUNT, final int G_LETTER_COUNT, final int Y_LETTER_COUNT, final int P_LETTER_COUNT, final int T_LETTER_COUNT) {
