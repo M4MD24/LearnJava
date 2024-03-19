@@ -20,45 +20,38 @@ import java.io.InputStreamReader;
  */
 public class CleanCodeExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
-    private static StringBuffer TEXT;
+    private static final StringBuffer TEXT = new StringBuffer();
 
     public static void main(String[] args) throws IOException {
-        inputCode();
-        deleteCommandsAndExtraLines();
-        printCode();
+        inputValues();
+        System.out.println(TEXT);
     }
 
-    private static void printCode() {
-        System.out.print(TEXT.toString().replaceAll("\s\s+", "").replaceAll("\n\n+", "\n"));
-    }
-
-    private static void inputCode() throws IOException {
-        final StringBuffer INPUT_LINE = new StringBuffer();
+    private static void inputValues() throws IOException {
+        boolean open = true;
         String line;
-        while (true) {
-            line = String.valueOf(INPUT.readLine());
-            INPUT_LINE.append(line);
-            if ((line.equals("}"))) break;
-            else INPUT_LINE.append("\n");
+        while ((line = INPUT.readLine()) != null) {
+            if (!line.trim().isEmpty()) open = isOpen(line, open);
         }
-        TEXT = new StringBuffer(INPUT_LINE.toString());
-        TEXT = new StringBuffer(TEXT.substring(TEXT.indexOf("#")));
     }
 
-    private static void deleteCommandsAndExtraLines() {
-        while (TEXT.indexOf("/*") != -1) {
-            int startCommentIndex = TEXT.indexOf("/*");
-            int endCommentIndex = TEXT.indexOf("*/", startCommentIndex + 2);
-            if (endCommentIndex == -1) {
-                TEXT.delete(startCommentIndex, TEXT.length());
-            } else
-                TEXT.delete(startCommentIndex, endCommentIndex + 2);
+    private static boolean isOpen(String line, boolean open) {
+        boolean flag = false;
+        for (int index = 0; index < line.length(); index++) {
+            if (line.charAt(index) == '/' && index + 1 < line.length() && line.charAt(index + 1) == '/' && open) {
+                break;
+            } else if (line.charAt(index) == '/' && index + 1 < line.length() && line.charAt(index + 1) == '*' && open) {
+                index++;
+                open = false;
+            } else if (line.charAt(index) == '*' && index + 1 < line.length() && line.charAt(index + 1) == '/' && !open) {
+                index++;
+                open = true;
+            } else if (open) {
+                TEXT.append(line.charAt(index));
+                flag = true;
+            }
         }
-
-        while (TEXT.indexOf("//") != -1) {
-            int startCommentIndex = TEXT.indexOf("//");
-            int endCommentIndex = TEXT.indexOf("\n", startCommentIndex);
-            TEXT.delete(startCommentIndex, endCommentIndex);
-        }
+        if (flag && open) TEXT.append("\n");
+        return open;
     }
 }
