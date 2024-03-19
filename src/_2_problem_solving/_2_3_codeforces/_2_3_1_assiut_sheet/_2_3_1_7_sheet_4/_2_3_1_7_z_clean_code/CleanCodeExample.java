@@ -18,9 +18,10 @@ import java.io.InputStreamReader;
  *
  * @see _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_7_sheet_4._2_3_1_7_z_clean_code.images <h2>Question, Example and Note</h2>
  */
+
 public class CleanCodeExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
-    private static final StringBuffer TEXT = new StringBuffer();
+    private static final StringBuilder TEXT = new StringBuilder();
 
     public static void main(String[] args) throws IOException {
         inputValues();
@@ -35,19 +36,20 @@ public class CleanCodeExample {
         }
     }
 
-    private static boolean isOpen(String line, boolean open) {
+    private static boolean isOpen(final String LINE, boolean open) {
         boolean flag = false;
-        for (int index = 0; index < line.length(); index++) {
-            if (line.charAt(index) == '/' && index + 1 < line.length() && line.charAt(index + 1) == '/' && open) {
+        int LINE_LENGTH = LINE.length();
+        for (int index = 0; index < LINE.length(); index++) {
+            if (LINE.charAt(index) == '/' && index + 1 < LINE_LENGTH && LINE.charAt(index + 1) == '/' && open) {
                 break;
-            } else if (line.charAt(index) == '/' && index + 1 < line.length() && line.charAt(index + 1) == '*' && open) {
+            } else if (LINE.charAt(index) == '/' && index + 1 < LINE_LENGTH && LINE.charAt(index + 1) == '*' && open) {
                 index++;
                 open = false;
-            } else if (line.charAt(index) == '*' && index + 1 < line.length() && line.charAt(index + 1) == '/' && !open) {
+            } else if (LINE.charAt(index) == '*' && index + 1 < LINE_LENGTH && LINE.charAt(index + 1) == '/' && !open) {
                 index++;
                 open = true;
             } else if (open) {
-                TEXT.append(line.charAt(index));
+                TEXT.append(LINE.charAt(index));
                 flag = true;
             }
         }
