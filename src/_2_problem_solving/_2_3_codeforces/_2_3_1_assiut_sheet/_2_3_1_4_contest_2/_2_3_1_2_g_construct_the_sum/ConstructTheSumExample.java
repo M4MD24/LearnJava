@@ -46,18 +46,18 @@ import java.util.ArrayList;
 
 public class ConstructTheSumExample {
     public static void main(String[] args) throws IOException {
-        final BufferedReader BUFFERED_READER = new BufferedReader(new InputStreamReader(System.in));
-        int length = Integer.parseInt(BUFFERED_READER.readLine());
-        StringBuilder output = new StringBuilder();
-        while (length-- > 0) inputValues(BUFFERED_READER, output);
-        System.out.print(output);
+        final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
+        int length = Integer.parseInt(INPUT.readLine());
+        final StringBuilder OUTPUT = new StringBuilder();
+        while (length-- > 0) inputValues(INPUT, OUTPUT);
+        System.out.print(OUTPUT);
     }
 
-    private static void inputValues(BufferedReader BUFFERED_READER, StringBuilder output) throws IOException {
+    private static void inputValues(final BufferedReader BUFFERED_READER, final StringBuilder OUTPUT) throws IOException {
         final String[] TOKENS = BUFFERED_READER.readLine().split(" ");
         int firstNumber = Integer.parseInt(TOKENS[0]);
         long secondNumber = Long.parseLong(TOKENS[1]);
-        if (secondNumber > (firstNumber * (firstNumber + 1L) / 2)) output.append("-1\n");
+        if (secondNumber > (firstNumber * (firstNumber + 1L) / 2)) OUTPUT.append("-1\n");
         else {
             final ArrayList<Integer> NUMBERS = new ArrayList<>();
             while (firstNumber >= 1) {
@@ -69,9 +69,9 @@ public class ConstructTheSumExample {
                 firstNumber--;
             }
             if (secondNumber == 0) {
-                for (int i = NUMBERS.size() - 1; i >= 0; i--) output.append(NUMBERS.get(i)).append(" ");
-                output.append("\n");
-            } else output.append("-1\n");
+                for (int index = NUMBERS.size() - 1; index >= 0; index--) OUTPUT.append(NUMBERS.get(index)).append(" ");
+                OUTPUT.append("\n");
+            } else OUTPUT.append("-1\n");
         }
     }
 }

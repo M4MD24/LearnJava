@@ -64,6 +64,6 @@ public class CapitalOrSmallOrDigitExample {
     }
 }
 // digit   0:48 - 9:57
-// capital A:65 - z:90
+// capital A:65 - Z:90
 // small   a:97 - z:122
 // alpha   A:65 - z:122

@@ -18,7 +18,7 @@ import java.util.Scanner;
  * <h2>Given two numbers K and S. Determine how many different values of X,Y and Z such that (0≤X,Y,Z≤K) and X+Y+Z=S</h2>
  * <br/>
  * <h1>Note:</h1>
- * <h2>In the first test case all values of X,Y,Z that satisfy the conditions are :</h2>
+ * <h2>In the first test case all values of X,Y,Z that satisfy the conditions are:</h2>
  * <ul>
  *     <li>0 0 1</li>
  *     <li>0 1 0</li>
