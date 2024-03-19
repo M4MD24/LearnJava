@@ -37,7 +37,7 @@ public class CleanCodeExample {
     }
 
     private static boolean isOpen(final String LINE, boolean open) {
-        boolean flag = false;
+        boolean LINE_APPENDED = false;
         int LINE_LENGTH = LINE.length();
         for (int index = 0; index < LINE.length(); index++) {
             if (LINE.charAt(index) == '/' && index + 1 < LINE_LENGTH && LINE.charAt(index + 1) == '/' && open) {
@@ -50,10 +50,10 @@ public class CleanCodeExample {
                 open = true;
             } else if (open) {
                 TEXT.append(LINE.charAt(index));
-                flag = true;
+                LINE_APPENDED = true;
             }
         }
-        if (flag && open) TEXT.append("\n");
+        if (LINE_APPENDED && open) TEXT.append("\n");
         return open;
     }
 }
