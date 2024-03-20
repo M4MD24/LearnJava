@@ -1,9 +1,8 @@
-package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_4_contest_2._2_3_1_2_g_construct_the_sum;
+package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_4_contest_2._2_3_1_4_g_construct_the_sum;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 
 /**
  * <h1>G. Construct the Sum</h1>
@@ -45,33 +44,38 @@ import java.util.ArrayList;
  */
 
 public class ConstructTheSumExample {
+    private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
+    private static final StringBuffer OUTPUT = new StringBuffer();
+
     public static void main(String[] args) throws IOException {
-        final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         int length = Integer.parseInt(INPUT.readLine());
-        final StringBuilder OUTPUT = new StringBuilder();
-        while (length-- > 0) inputValues(INPUT, OUTPUT);
+        while (length > 0) {
+            inputValues();
+            if (length-- > 1) OUTPUT.append("\n");
+        }
         System.out.print(OUTPUT);
     }
 
-    private static void inputValues(final BufferedReader BUFFERED_READER, final StringBuilder OUTPUT) throws IOException {
-        final String[] TOKENS = BUFFERED_READER.readLine().split(" ");
-        int firstNumber = Integer.parseInt(TOKENS[0]);
-        long secondNumber = Long.parseLong(TOKENS[1]);
-        if (secondNumber > (firstNumber * (firstNumber + 1L) / 2)) OUTPUT.append("-1\n");
+    private static void inputValues() throws IOException {
+        final String[] NUMBERS_LINE = INPUT.readLine().split(" ");
+        constructSum(Integer.parseInt(NUMBERS_LINE[0]), Long.parseLong(NUMBERS_LINE[1]));
+    }
+
+    private static void constructSum(int firstNumber, long secondNumber) {
+        if (secondNumber > (firstNumber * (firstNumber + 1L) / 2)) OUTPUT.append(-1);
         else {
-            final ArrayList<Integer> NUMBERS = new ArrayList<>();
+            int[] NUMBERS = new int[firstNumber];
+            int index = 0;
             while (firstNumber >= 1) {
                 if (secondNumber - firstNumber >= 0) {
-                    NUMBERS.add(firstNumber);
+                    NUMBERS[index++] = firstNumber;
                     secondNumber -= firstNumber;
                 }
                 if (secondNumber == 0) break;
                 firstNumber--;
             }
-            if (secondNumber == 0) {
-                for (int index = NUMBERS.size() - 1; index >= 0; index--) OUTPUT.append(NUMBERS.get(index)).append(" ");
-                OUTPUT.append("\n");
-            } else OUTPUT.append("-1\n");
+            if (secondNumber == 0) for (int reversedIndex = index - 1; reversedIndex >= 0; reversedIndex--) OUTPUT.append(NUMBERS[reversedIndex]).append(" ");
+            else OUTPUT.append(-1);
         }
     }
 }

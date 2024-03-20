@@ -63,5 +63,4 @@ public class Question115 {
         final boolean IS_PALINDROME = NUMBER == REVERSED_NUMBER;
         System.out.printf("Is %d a palindrome number? \n%b", NUMBER, IS_PALINDROME);
     }
-
 }

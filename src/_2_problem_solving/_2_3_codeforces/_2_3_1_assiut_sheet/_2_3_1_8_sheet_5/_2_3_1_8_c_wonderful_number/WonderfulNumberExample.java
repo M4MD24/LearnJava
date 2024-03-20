@@ -37,26 +37,14 @@ import java.util.Scanner;
 public class WonderfulNumberExample {
     public static void main(String[] args) {
         final Scanner INPUT = new Scanner(System.in);
-        final int TARGET_NUMBER = INPUT.nextInt();
-        System.out.print(isWonderfulNumber(TARGET_NUMBER));
+        System.out.print(isWonderful(INPUT.nextInt()));
     }
 
-    private static String isWonderfulNumber(int target_number) {
-        if (target_number % 2 == 0) return "NO";
-        else {
-            int currentBinaryNumbersIndex = 0;
-            final int[] BINARY_NUMBERS = new int[100];
-            while (target_number != 0) {
-                BINARY_NUMBERS[currentBinaryNumbersIndex] = target_number % 2;
-                target_number /= 2;
-                currentBinaryNumbersIndex++;
-            }
-
-            for (int currentIndex = 0, reversedBinaryNumbersIndex = currentBinaryNumbersIndex - 1; reversedBinaryNumbersIndex >= 0; currentIndex++, reversedBinaryNumbersIndex--)
-                if (BINARY_NUMBERS[currentIndex] != BINARY_NUMBERS[reversedBinaryNumbersIndex])
-                    return "NO";
-
-            return "YES";
-        }
+    public static String isWonderful(int number) {
+        if (number % 2 == 0) return "NO";
+        final StringBuffer BINARY_NUMBER = new StringBuffer(Integer.toBinaryString(number)),
+                REVERSED_TEXT = new StringBuffer(BINARY_NUMBER).reverse();
+        final short MIDDLE_LENGTH = (short) (BINARY_NUMBER.length() / 2);
+        return (BINARY_NUMBER.substring(0, MIDDLE_LENGTH).equals(REVERSED_TEXT.substring(0, MIDDLE_LENGTH))) ? "YES" : "NO";
     }
 }
