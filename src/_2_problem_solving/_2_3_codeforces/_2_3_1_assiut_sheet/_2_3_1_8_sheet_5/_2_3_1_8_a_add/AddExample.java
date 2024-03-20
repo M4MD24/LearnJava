@@ -18,7 +18,7 @@ import java.util.Scanner;
  * <h2>Given two numbers X and Y, Print their summation.</h2>
  * <br/>
  * <h1>Note:</h1>
- * <h2>Solve this problem using function.</h2>
+ * <h2>Solve this problem using function and don't use built-in function.</h2>
  * <br/>
  * <h1>Input:</h1>
  * <h2>5 2</h2>
