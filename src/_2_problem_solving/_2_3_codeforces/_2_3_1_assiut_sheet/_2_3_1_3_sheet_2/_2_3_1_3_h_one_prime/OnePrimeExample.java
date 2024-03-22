@@ -1,6 +1,8 @@
 package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_3_sheet_2._2_3_1_3_h_one_prime;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * <h1>H. One Prime</h1>
@@ -29,17 +31,15 @@ import java.util.Scanner;
  */
 
 public class OnePrimeExample {
-    private static final Scanner INPUT = new Scanner(System.in);
+    private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
 
-    public static void main(String[] args) {
-        final long NUMBER = INPUT.nextLong();
-        System.out.print(isPrime(NUMBER));
+    public static void main(String[] args) throws IOException {
+        System.out.print(isPrime(Integer.parseInt(INPUT.readLine())));
     }
 
-    private static String isPrime(final long NUMBER) {
-        if (NUMBER > 1)
-            for (long index = NUMBER - 1; index > 1; index--)
-                if (NUMBER % index == 0) return "NO";
+    private static String isPrime(final int NUMBER) {
+        for (int index = NUMBER - 1; index > 1; index--)
+            if (NUMBER % index == 0) return "NO";
         return "YES";
     }
 }
