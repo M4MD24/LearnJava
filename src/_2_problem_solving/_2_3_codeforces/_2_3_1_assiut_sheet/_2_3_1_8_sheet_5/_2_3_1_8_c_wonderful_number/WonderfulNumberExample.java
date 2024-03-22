@@ -20,7 +20,7 @@ import java.util.Scanner;
  * <h1>Note:</h1>
  * <ul>
  *     <li>A number is wonderful if this number is odd and its binary representation is palindrome.</li>
- *     <li>Solve this problem using two functions. </li>
+ *     <li>Solve this problem using two functions.</li>
  * </ul>
  * <br/>
  * <h1>Input:</h1>

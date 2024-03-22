@@ -64,7 +64,7 @@ public class ConstructTheSumExample {
     private static void constructSum(int firstNumber, long secondNumber) {
         if (secondNumber > (firstNumber * (firstNumber + 1L) / 2)) OUTPUT.append(-1);
         else {
-            int[] NUMBERS = new int[firstNumber];
+            final int[] NUMBERS = new int[firstNumber];
             int index = 0;
             while (firstNumber >= 1) {
                 if (secondNumber - firstNumber >= 0) {
