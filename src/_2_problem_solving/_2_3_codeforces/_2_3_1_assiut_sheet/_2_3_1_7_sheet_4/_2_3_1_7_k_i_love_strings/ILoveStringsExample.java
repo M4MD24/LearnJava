@@ -57,13 +57,12 @@ public class ILoveStringsExample {
     }
 
     private static void arrangeLetters(final String TEXT_1, final String TEXT_2) {
-        final byte LENGTH = (byte) (TEXT_1.length() + TEXT_2.length());
-        byte flag1 = 1, flag2 = 1;
-        for (int index = 0; index < LENGTH; index++) {
-            if (TEXT_1.length() != index && flag1 > 0) System.out.print(TEXT_1.charAt(index));
-            else flag1 = 0;
-            if (TEXT_2.length() != index && flag2 > 0) System.out.print(TEXT_2.charAt(index));
-            else flag2 = 0;
+        byte LENGTH = (byte) (TEXT_1.length() + TEXT_2.length());
+        byte text1CharacterIndex = 0,
+                text2CharacterIndex = 0;
+        while (LENGTH-- > 0) {
+            if (text1CharacterIndex < TEXT_1.length()) System.out.print(TEXT_1.charAt(text1CharacterIndex++));
+            if (text2CharacterIndex < TEXT_2.length()) System.out.print(TEXT_2.charAt(text2CharacterIndex++));
         }
     }
 }

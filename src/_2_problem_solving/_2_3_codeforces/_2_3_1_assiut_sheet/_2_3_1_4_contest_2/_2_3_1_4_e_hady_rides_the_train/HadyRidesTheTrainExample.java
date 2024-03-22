@@ -1,4 +1,4 @@
-package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_4_contest_2._2_3_1_2_e_hady_rides_the_train;
+package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_4_contest_2._2_3_1_4_e_hady_rides_the_train;
 
 import java.util.Scanner;
 
@@ -37,7 +37,7 @@ import java.util.Scanner;
  * <h1>Output:</h1>
  * <h2>3 2</h2>
  *
- * @see _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_4_contest_2._2_3_1_2_e_hady_rides_the_train.images <h2>Figure1</h2>
+ * @see _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_4_contest_2._2_3_1_4_e_hady_rides_the_train.images <h2>Figure1</h2>
  */
 
 public class HadyRidesTheTrainExample {
