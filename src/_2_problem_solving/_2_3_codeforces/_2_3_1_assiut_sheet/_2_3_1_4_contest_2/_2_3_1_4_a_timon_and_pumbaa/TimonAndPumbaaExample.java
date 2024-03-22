@@ -1,4 +1,4 @@
-package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_4_contest_2._2_3_1_2_a_timon_and_pumbaa;
+package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_4_contest_2._2_3_1_4_a_timon_and_pumbaa;
 
 import java.util.Scanner;
 
