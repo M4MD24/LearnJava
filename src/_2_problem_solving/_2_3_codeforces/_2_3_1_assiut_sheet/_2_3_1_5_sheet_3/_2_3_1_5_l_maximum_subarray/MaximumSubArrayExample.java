@@ -28,6 +28,7 @@ import java.util.Scanner;
  * <br/>
  * Given a number N and an array A of N numbers. Print the maximum number of every sub-array separated by space.
  * </h2>
+ * <br/>
  * <h1>Note:</h1>
  * <h2>
  * First Case :
