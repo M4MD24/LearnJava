@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
  * <h2>
  * time limit per test: 1 second
  * <br/>
- * memory limit per test: 259 megabytes
+ * memory limit per test: 256 megabytes
  * <br/>
  * input: standard input
  * <br/>
@@ -17,7 +17,7 @@ import java.io.InputStreamReader;
  * </h2>
  * <br/>
  * <h1>Question:</h1>
- * <h2>Given a number N. Determine whether N is power of 2 or not. </h2>
+ * <h2>Given a number N. Determine whether N is power of 2 or not.</h2>
  * <br/>
  * <h1>Input:</h1>
  * <h2>8</h2>
@@ -36,6 +36,6 @@ public class PowerOfTwoExample {
     }
 
     private static String isPowerOfTwo(final long TARGET_NUMBER) {
-        return ((Math.log10(TARGET_NUMBER) / Math.log10(2)) % 1.0 == 0) ? "YES" : "NO";
+        return ((Math.log10(TARGET_NUMBER) / Math.log10(2)) % 1 == 0) ? "YES" : "NO";
     }
 }

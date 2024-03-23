@@ -26,6 +26,7 @@
                 1. [2.3.1.7.o Sort String](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java) `It can't be solved by Java,
                    Because error occurred during initialization of VM
                    Initial heap size set to a larger value than the maximum heap size`
+    - Search `[//]: # (Notes)` for **Important Notes**
 
 ---
 
