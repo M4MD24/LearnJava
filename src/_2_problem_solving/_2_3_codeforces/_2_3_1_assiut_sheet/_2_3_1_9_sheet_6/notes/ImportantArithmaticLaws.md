@@ -5,21 +5,21 @@
 ### Is Power of Two
 
 ```java
-private static String isPowerOfTwo(final long TARGET_NUMBER) {
-    return ((Math.log10(TARGET_NUMBER) / Math.log10(2)) % 1 == 0) ? "YES" : "NO";
+private static boolean isPowerOfTwo(final long TARGET_NUMBER) {
+    return ((Math.log10(TARGET_NUMBER) / Math.log10(2)) % 1 == 0);
 }
 ```
 
 ### Is Prime
 
 ```java
-private static String isPrime(final long TARGET_NUMBER) {
-    if (TARGET_NUMBER == 2) return "YES";
-    if (TARGET_NUMBER <= 1 || TARGET_NUMBER % 2 == 0) return "NO";
+private static boolean isPrime(final long TARGET_NUMBER) {
+    if (TARGET_NUMBER == 2) return true;
+    if (TARGET_NUMBER <= 1 || TARGET_NUMBER % 2 == 0) return false;
     for (long index = 3; index * index <= TARGET_NUMBER; index += 2)
         if (TARGET_NUMBER % index == 0)
-            return "NO";
-    return "YES";
+            return false;
+    return true;
 }
 ```
 

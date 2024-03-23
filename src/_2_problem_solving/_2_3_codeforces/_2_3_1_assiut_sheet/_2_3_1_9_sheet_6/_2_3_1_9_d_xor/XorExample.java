@@ -1,4 +1,4 @@
-package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_9_sheet_6._2_3_1_9_d_Xor;
+package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_9_sheet_6._2_3_1_9_d_xor;
 
 import java.util.Scanner;
 
@@ -43,7 +43,7 @@ import java.util.Scanner;
  * System.out.print(a ^ b);
  * </h2>
  *
- * @see _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_9_sheet_6._2_3_1_9_d_Xor.images <h2>Formula</h2>
+ * @see _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_9_sheet_6._2_3_1_9_d_xor.images <h2>Formula</h2>
  */
 
 public class XorExample {
