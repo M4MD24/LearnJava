@@ -96,6 +96,3 @@ public class MultiplicationOfMatricesExample {
                 MATRIX_1[row][column] = INPUT.nextInt();
     }
 }
-/*
-(3*1 + 3*2) _ (4*1)
-*/
