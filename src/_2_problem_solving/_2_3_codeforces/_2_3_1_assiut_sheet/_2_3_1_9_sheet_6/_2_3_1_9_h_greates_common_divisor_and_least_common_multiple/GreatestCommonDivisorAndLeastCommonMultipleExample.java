@@ -15,7 +15,7 @@ import java.util.Scanner;
  * </h2>
  * <br/>
  * <h1>Question:</h1>
- * <h2>Given two numbers A and B. Print the GCD and LCM of A and B. </h2>
+ * <h2>Given two numbers A and B. Print the GCD and LCM of A and B.</h2>
  * <br/>
  * <h1>Note:</h1>
  * <ul>

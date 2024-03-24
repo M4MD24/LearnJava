@@ -23,10 +23,10 @@ private static boolean isPrime(final long TARGET_NUMBER) {
 }
 ```
 
-### Get Summation Range from 0 to Target Number
+### Get Summation Range from 1 to Target Number (Inclusive)
 
 ```java
-private static long summationFromZero(final long TARGET_NUMBER) {
+private static long summationFromOneToTargetNumberInclusive(final long TARGET_NUMBER) {
     return TARGET_NUMBER * (TARGET_NUMBER + 1) / 2;
 }
 ```
@@ -94,5 +94,17 @@ public static long getGreatestCommonDivisor(long number1, long number2) {
         number2 %= number1;
     }
     return number1;
+}
+```
+
+### Get Summation of All Numbers From Minimum Number To Maximum Number Inclusive are Divisible by Target Number
+
+```java
+private static long summationOfAllNumbersFromMinimumNumberToMaximumNumberInclusiveAreDivisibleByTargetNumber(final long MINIMUM_NUMBER, final long MAXIMUM_NUMBER, final long TARGET_NUMBER) {
+    return (summationFromOneToTargetNumberInclusive(MAXIMUM_NUMBER / TARGET_NUMBER) * TARGET_NUMBER) - (summationFromOneToTargetNumberInclusive((MINIMUM_NUMBER - 1) / TARGET_NUMBER) * TARGET_NUMBER);
+}
+
+private static long summationFromOneToTargetNumberInclusive(final long TARGET_NUMBER) {
+    return TARGET_NUMBER * (TARGET_NUMBER + 1) / 2;
 }
 ```
