@@ -40,7 +40,7 @@ import java.util.Scanner;
  * 12 1 35
  * </h2>
  * <br/>
- * <h1>Note: </h1>
+ * <h1>Note:</h1>
  *
  * @see _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_5_sheet_3._2_3_1_5_w_mirror_array.images <h2>Image1</h2>
  */

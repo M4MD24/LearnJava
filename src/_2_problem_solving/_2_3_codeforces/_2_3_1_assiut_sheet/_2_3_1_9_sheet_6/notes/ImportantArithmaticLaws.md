@@ -64,3 +64,35 @@ private static long summationOfOddFromZeroToTargetNumber(final int TARGET_NUMBER
     return (long) ((TARGET_NUMBER + 1) / 2) * ((TARGET_NUMBER + 1) / 2);
 }
 ```
+
+### Get GCD (Greatest Common Divisor)
+
+```java
+public static long getGreaterCommonDivisor(long number1, long number2) {
+    while (number2 != 0) {
+        number1 += number2;
+        number2 = number1 - number2;
+        number1 -= number2;
+        number2 %= number1;
+    }
+    return number1;
+}
+```
+
+### Get LCM (Least Common Multiple)
+
+```java
+public static long getLeastCommonMultiple(final long NUMBER_1, final long NUMBER_2) {
+    return (NUMBER_1 / getGreatestCommonDivisor(NUMBER_1, NUMBER_2)) * NUMBER_2;
+}
+
+public static long getGreatestCommonDivisor(long number1, long number2) {
+    while (number2 != 0) {
+        number1 += number2;
+        number2 = number1 - number2;
+        number1 -= number2;
+        number2 %= number1;
+    }
+    return number1;
+}
+```

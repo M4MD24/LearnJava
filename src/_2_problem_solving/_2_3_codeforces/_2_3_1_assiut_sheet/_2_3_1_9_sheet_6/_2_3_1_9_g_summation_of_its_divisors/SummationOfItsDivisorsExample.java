@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * <h1>G. Summation of its divisors </h1>
+ * <h1>G. Summation of its divisors</h1>
  * <h2>
  * time limit per test: 1 second
  * <br/>

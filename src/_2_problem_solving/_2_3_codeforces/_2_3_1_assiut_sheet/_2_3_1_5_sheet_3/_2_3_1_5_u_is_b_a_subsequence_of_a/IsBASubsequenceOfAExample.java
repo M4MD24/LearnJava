@@ -25,7 +25,7 @@ import java.util.Scanner;
  * Given 2 numbers N, M and 2 arrays A consists of N numbers and B consists of M numbers. Determine whether B is a sub-sequence of A or not.
  * </h2>
  * <br/>
- * <h1>Note: </h1>
+ * <h1>Note:</h1>
  * <h2>
  * The array B is called a sub-sequence of A if it's possible to remove zero or some elements from A to get B.
  * <br/>
