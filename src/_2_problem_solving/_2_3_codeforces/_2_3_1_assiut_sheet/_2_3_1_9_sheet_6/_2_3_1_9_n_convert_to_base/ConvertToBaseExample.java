@@ -43,6 +43,8 @@ import java.util.Scanner;
 public class ConvertToBaseExample {
     public static void main(String[] args) {
         final Scanner INPUT = new Scanner(System.in);
-        System.out.print((INPUT.nextLong() == 1) ? Integer.parseInt(INPUT.next(), INPUT.nextInt()) : Integer.toUnsignedString(INPUT.nextInt(), INPUT.nextInt()));
+        System.out.print((INPUT.nextByte() == 1)
+                ? Long.parseLong(INPUT.next(), INPUT.nextByte())
+                : Integer.toString(INPUT.nextInt(), INPUT.nextByte()).toUpperCase());
     }
 }
