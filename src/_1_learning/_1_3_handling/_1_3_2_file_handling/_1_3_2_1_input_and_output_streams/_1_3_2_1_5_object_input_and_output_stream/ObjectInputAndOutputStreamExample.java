@@ -55,7 +55,7 @@ public class ObjectInputAndOutputStreamExample {
         System.out.println("Integer data: " + objStream.readInt());
         System.out.println("String data: " + objStream.readObject());
         System.out.println("Boolean data: " + objStream.readBoolean());
-        System.out.println("Char data: " + objStream.readChar());
+        System.out.print("Char data: " + objStream.readChar());
 
         objStream.close();
     }
@@ -71,7 +71,6 @@ public class ObjectInputAndOutputStreamExample {
 
         output.writeInt(intData);
         output.writeObject(stringData);
-
         output.writeBoolean(booleanData);
         output.writeChar(charData);
 
