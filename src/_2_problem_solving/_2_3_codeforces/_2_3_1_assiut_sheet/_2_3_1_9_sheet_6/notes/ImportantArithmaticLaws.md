@@ -63,3 +63,19 @@ private static long summationFromOneToTargetNumberInclusive(final long TARGET_NU
     return TARGET_NUMBER * (TARGET_NUMBER + 1) / 2;
 }
 ```
+
+### Get Distance Points
+
+```java
+final double LATITUDE = LATITUDE_NUMBER_1 - LATITUDE_NUMBER_2,
+        LONGITUDE = LONGITUDE_NUMBER_1 - LONGITUDE_NUMBER_2;
+final double DISTANCE_POINTS = Math.sqrt((LATITUDE * LATITUDE) + (LONGITUDE * LONGITUDE));
+```
+
+### Get Equation Triangle Area
+
+```java
+private static double equilateralTriangleArea(final short SUMMATION) {
+    return Math.sqrt(((double) SUMMATION / 2) * ((double) SUMMATION / 2 - FIRST_SIDE_LENGTH) * ((double) SUMMATION / 2 - SECOND_SIDE_LENGTH) * ((double) SUMMATION / 2 - THIRD_SIDE_LENGTH));
+}
+```
