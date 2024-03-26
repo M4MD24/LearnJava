@@ -67,7 +67,7 @@
     2. **Break**
     3. **Continue**
     4. **STR**
-11. **Lambda Expressions:**
+11. **Expressions:**
     1. **Lambda Expressions**
     2. **Regular Expressions**
 12. **Threads**
@@ -78,7 +78,35 @@
 
 ### 2. Testing
 
-### 3. OOP (Object Oriented Programming):
+### 3. Handling:
+
+1. **Exceptions Handing:**
+    1. **Try, Catch, Finally, throw and throws**
+    2. **Annotation**
+    3. **Logging**
+    4. **Assertion**
+
+2. **File Handling:**
+    1. **Input and output Streams (I/O Streams):**
+        1. **Input and Output**
+        2. **(Input/Output) Stream**
+        3. **File (Input/Output) Stream**
+        4. **Byte Array (Input/Output) Stream**
+        5. **Object (Input/Output) Stream**
+        6. **Buffered (Input/Output) Stream**
+        7. **Print Stream**
+    2. **Reader and Writer:**
+        1. **(Reader/Writer)**
+        2. **(Input/Output) Stream (Reader/Writer)**
+        3. **File (Reader/Writer)**
+        4. **Buffered (Reader/Writer)**
+        5. **String (Reader/Writer)**
+        6. **Print Writer**
+    3. **File**
+    4. **Keywords**
+        1. **Transient**
+
+### 4. OOP (Object Oriented Programming):
 
 1. **Class**
 2. **Methods:**
@@ -107,34 +135,6 @@
 21. **Association**
 22. **Record Class**
 23. **Sealed Class And Interface**
-
-### 4. Handling:
-
-1. **Exceptions Handing:**
-    1. **Try, Catch, Finally, throw and throws**
-    2. **Annotation**
-    3. **Logging**
-    4. **Assertion**
-
-2. **File Handling:**
-    1. **Input and output Streams (I/O Streams):**
-        1. **Input and Output**
-        2. **(Input/Output) Stream**
-        3. **File (Input/Output) Stream**
-        4. **Byte Array (Input/Output) Stream**
-        5. **Object (Input/Output) Stream**
-        6. **Buffered (Input/Output) Stream**
-        7. **Print Stream**
-    2. **Reader and Writer:**
-        1. **(Reader/Writer)**
-        2. **(Input/Output) Stream (Reader/Writer)**
-        3. **File (Reader/Writer)**
-        4. **Buffered (Reader/Writer)**
-        5. **String (Reader/Writer)**
-        6. **Print Writer**
-    3. **File**
-    4. **Keywords**
-        1. **Transient**
 
 ### 5. Data Structures:
 
