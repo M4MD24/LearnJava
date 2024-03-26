@@ -1,0 +1,43 @@
+package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_10_sheet_7._2_3_1_10_p_log_two;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.math.BigInteger;
+
+/**
+ * <h1>O. Log2</h1>
+ * <h2>
+ * time limit per test: 1 second
+ * <br/>
+ * memory limit per test: 256 megabytes
+ * <br/>
+ * input: standard input
+ * <br/>
+ * output: standard output
+ * </h2>
+ * <br/>
+ * <h1>Question:</h1>
+ * <h2>Given a number N. Print ⌊log2(N)⌋.</h2>
+ * <br/>
+ * <h1>Note:</h1>
+ * <h2>Solve this problem using recursion.</h2>
+ * <br/>
+ * <h1>Input:</h1>
+ * <h2>1</h2>
+ * <h1>Output:</h1>
+ * <h2>0</h2>
+ * <br/>
+ * <h1>Input:</h1>
+ * <h2>8</h2>
+ * <h1>Output:</h1>
+ * <h2>3</h2>
+ *
+ * @see _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_10_sheet_7._2_3_1_10_o_fibonacci.images <h2>Figure 1</h2>
+ */
+
+public class LogTwoExample {
+    public static void main(String[] args) throws IOException {
+        System.out.print(new BigInteger(new BufferedReader(new InputStreamReader(System.in)).readLine()).bitLength() - 1); // Without Recursion, but i wanted to compare it to the Recursion :)
+    }
+}
