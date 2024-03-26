@@ -19,7 +19,7 @@ import java.util.Scanner;
  * <br/>
  * <h1>Note:</h1>
  * <ul>
- *     <li>Assume array A is 0-based indexing. </li>
+ *     <li>Assume array A is 0-based indexing.</li>
  *     <li>Solve this problem using recursion.</li>
  * </ul>
  * <br/>

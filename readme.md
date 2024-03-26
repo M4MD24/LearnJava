@@ -218,7 +218,7 @@
 
 ---
 
-## _2. Problem Solving (345)_
+## _2. Problem Solving (347)_
 
 - Solving problems and projects
 
@@ -232,9 +232,9 @@
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
     2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (3 Question)**
 
-### 3. [Codeforces](https://codeforces.com): (184 Questions)
+### 3. [Codeforces](https://codeforces.com): (186 Questions)
 
-1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (184 Questions)**
+1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (186 Questions)**
     1. **[Sheet 1 "Data type - Conditions"](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
     2. **[Contest 1](https://codeforces.com/group/MWSDmqGsZm/contest/326175) (9 Questions)**
     3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (26 Questions)**
@@ -244,7 +244,7 @@
     7. **[Sheet 4 "Strings"](https://codeforces.com/group/MWSDmqGsZm/contest/219856) (26 Questions)**
     8. **[Sheet 5 "Functions"](https://codeforces.com/group/MWSDmqGsZm/contest/223205) (15 Questions)**
     9. **[Sheet 6 "Math - Geometry"](https://codeforces.com/group/MWSDmqGsZm/contest/223338) (26 Questions)**
-    10. **[Sheet 7 "Recursion"](https://codeforces.com/group/MWSDmqGsZm/contest/223339) (15 Questions)**
+    10. **[Sheet 7 "Recursion"](https://codeforces.com/group/MWSDmqGsZm/contest/223339) (17 Questions)**
 
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
@@ -264,15 +264,6 @@
 
 1. ~~**[Top Interview 150](https://leetcode.com/studyplan/top-interview-150) (0 Questions)**~~
 2. ~~**[Problem-Set](https://leetcode.com/problemset) (0 Questions)**~~
-
----
-
-## _About the Project Owner:_
-
-- **Name:** `Mohamed Sadawy Thabet`
-- **Field:** `Software Engineer / Native Android Developer`
-- **Telegram:** [@M3MD69](https://t.me/M3MD69)
-- **Telegram Channel:** [@Nullexia](https://t.me/Nullexia)
 
 ---
 
@@ -298,3 +289,12 @@
 - [Satr](https://satr.codes)
 - [CoderHub](https://coderhub.sa)
 - [LeetCode](https://leetcode.com)
+
+---
+
+## _About the Project Owner:_
+
+- **Name:** `Mohamed Sadawy Thabet`
+- **Field:** `Software Engineer / Native Android Developer`
+- **Telegram:** [@M3MD69](https://t.me/M3MD69)
+- **Telegram Channel:** [@Nullexia](https://t.me/Nullexia)
