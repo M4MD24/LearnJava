@@ -71,9 +71,9 @@ public class FileExample {
         fileWriter.close();
 
         FileReader fileReader = new FileReader(file);
-        fileReader.read(array);
+        final int CHARACTERS_READ = fileReader.read(array);
         System.out.print(".read() after            : ");
-        System.out.println(array);
+        System.out.println(String.valueOf(array, 0, CHARACTERS_READ).trim());
         fileReader.close();
 
         System.out.print(".delete()                : " + file.delete());

@@ -1,4 +1,4 @@
-package _1_learning._1_1_basics._1_1_10_keywords._1_10_3_continue;
+package _1_learning._1_1_basics._1_1_10_keywords._1_1_10_3_continue;
 
 public class Continue {
     public static void main(String[] args) {
