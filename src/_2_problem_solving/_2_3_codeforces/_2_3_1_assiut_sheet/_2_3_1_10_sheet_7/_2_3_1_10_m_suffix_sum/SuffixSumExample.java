@@ -1,9 +1,9 @@
-package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_10_sheet_7._2_3_1_10_l_summation;
+package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_10_sheet_7._2_3_1_10_m_suffix_sum;
 
 import java.util.Scanner;
 
 /**
- * <h1>L. Summation</h1>
+ * <h1>M. Suffix Sum</h1>
  * <h2>
  * time limit per test: 1 second
  * <br/>
@@ -15,42 +15,37 @@ import java.util.Scanner;
  * </h2>
  * <br/>
  * <h1>Question:</h1>
- * <h2>Given a number N and an array A of N numbers. Print the summation of the array elements.</h2>
+ * <h2>Given two numbers N and M, and an array A of N numbers. Calculate the sum of the last M numbers.</h2>
  * <br/>
  * <h1>Note:</h1>
  * <h2>Solve this problem using recursion.</h2>
  * <br/>
  * <h1>Input:</h1>
  * <h2>
- * 4
+ * 5 3
  * <br/>
- * 1 4 2 7
+ * 1 8 2 10 3
  * </h2>
  * <h1>Output:</h1>
- * <h2>14</h2>
- * <br/>
- * <h1>Input:</h1>
- * <h2>
- * 4
- * <br/>
- * 5 5 5 5
- * </h2>
- * <h1>Output:</h1>
- * <h2>20</h2>
+ * <h2>15</h2>
  */
 
-public class SummationExample {
+public class SuffixSumExample {
     private static final Scanner INPUT = new Scanner(System.in);
-    private static short targetNumber = INPUT.nextShort();
-    private static long total = INPUT.nextInt();
+    private static int length = INPUT.nextInt();
+    private static final int START_SUMMATION_AT = INPUT.nextInt();
+    private static long total = 0;
 
     public static void main(String[] args) {
         System.out.print(inputValuesRecursion());
     }
 
     private static long inputValuesRecursion() {
-        if (targetNumber-- > 1) {
-            total += INPUT.nextInt();
+        if (length-- > 0) {
+            final int CURRENT_VALUE = INPUT.nextInt();
+            total += (length < START_SUMMATION_AT)
+                    ? CURRENT_VALUE
+                    : 0;
             return inputValuesRecursion();
         } else return total;
     }
