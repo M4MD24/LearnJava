@@ -45,14 +45,12 @@ public class BaseConversionExample {
 
     private static void inputValuesRecursion(int countOfTestCases) {
         if (countOfTestCases-- > 0) {
-            printConvertFromDecimalToBinaryNumber(INPUT.nextInt());
+            System.out.println(convertFromDecimalToBinaryNumber(INPUT.nextInt()));
             inputValuesRecursion(countOfTestCases);
         }
     }
 
-    private static void printConvertFromDecimalToBinaryNumber(final int DECIMAL_NUMBER) {
-        if (DECIMAL_NUMBER == 0) return;
-        printConvertFromDecimalToBinaryNumber(DECIMAL_NUMBER / 2);
-        System.out.print(DECIMAL_NUMBER % 2);
+    private static String convertFromDecimalToBinaryNumber(final int decimalNumber) {
+        return Integer.toBinaryString(decimalNumber);
     }
 }
