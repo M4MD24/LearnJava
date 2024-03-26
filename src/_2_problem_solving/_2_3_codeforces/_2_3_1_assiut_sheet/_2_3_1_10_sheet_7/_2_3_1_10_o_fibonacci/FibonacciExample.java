@@ -15,7 +15,7 @@ import java.util.Scanner;
  * </h2>
  * <br/>
  * <h1>Question:</h1>
- * <h2>Given a number N. Print the value of the Nth Fibonacci number. </h2>
+ * <h2>Given a number N. Print the value of the Nth Fibonacci number.</h2>
  * <br/>
  * <h1>Note:</h1>
  * <h2>Solve this problem using recursion.</h2>

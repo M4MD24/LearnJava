@@ -37,7 +37,12 @@ import java.math.BigInteger;
  */
 
 public class LogTwoExample {
+    static int returnLog2Recursion(int count, BigInteger number) {
+        if (number.compareTo(new BigInteger("1")) <= 0) return count;
+        return returnLog2Recursion(++count, number.divide(BigInteger.valueOf(2)));
+    }
+
     public static void main(String[] args) throws IOException {
-        System.out.print(new BigInteger(new BufferedReader(new InputStreamReader(System.in)).readLine()).bitLength() - 1); // Without Recursion, but i wanted to compare it to the Recursion :)
+        System.out.print(returnLog2Recursion(0, new BigInteger(new BufferedReader(new InputStreamReader(System.in)).readLine())));
     }
 }
