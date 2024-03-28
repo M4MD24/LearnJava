@@ -1,11 +1,6 @@
 package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_11_sheet_8._2_3_1_11_c_koko_and_the_transformation;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.util.Scanner;
 
 /**
  * <h1>C. Koko And The Transformation</h1>
@@ -47,39 +42,34 @@ import java.util.StringTokenizer;
  */
 
 public class KokoAndTheTransformationExample {
-    private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
-    private static final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
-    private static StringTokenizer line;
-    private static int firstNumbersLength, secondNumbersLength, firstNumbersSum = 0, secondNumbersSum = 0;
+    private static final Scanner INPUT = new Scanner(System.in);
+    private static int firstNumbersLength = INPUT.nextInt(),
+            secondNumbersLength = INPUT.nextInt();
+    private static int firstNumbersSum = 0,
+            secondNumbersSum = 0;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(String[] args) {
         inputValues();
-        OUTPUT.write(firstNumbersSum == secondNumbersSum ? "Yes" : "No");
-        OUTPUT.flush();
+        System.out.print(firstNumbersSum == secondNumbersSum
+                ? "Yes"
+                : "No");
     }
 
-    private static void inputValues() throws IOException {
-        line = new StringTokenizer(INPUT.readLine());
-        firstNumbersLength = Integer.parseInt(line.nextToken());
-        secondNumbersLength = Integer.parseInt(line.nextToken());
-        line = new StringTokenizer(INPUT.readLine());
-        firstNumbersSum += Integer.parseInt(line.nextToken());
+    private static void inputValues() {
         inputFirstNumbers();
-        line = new StringTokenizer(INPUT.readLine());
-        secondNumbersSum += Integer.parseInt(line.nextToken());
         inputSecondNumbers();
     }
 
     private static void inputSecondNumbers() {
-        if (secondNumbersLength-- > 1) {
-            secondNumbersSum += Integer.parseInt(line.nextToken());
+        if (secondNumbersLength-- > 0) {
+            secondNumbersSum += INPUT.nextShort();
             inputSecondNumbers();
         }
     }
 
     private static void inputFirstNumbers() {
-        if (firstNumbersLength-- > 1) {
-            firstNumbersSum += Integer.parseInt(line.nextToken());
+        if (firstNumbersLength-- > 0) {
+            firstNumbersSum += INPUT.nextShort();
             inputFirstNumbers();
         }
     }
