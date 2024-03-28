@@ -18,7 +18,7 @@ import java.util.Scanner;
  * <h2>Given a number N. Print the multiplication table of the number from 1 to 12</h2>
  * <br/>
  * <h1>Input:</h1>
- * <h2>1<h2/>
+ * <h2>1</h2>
  * <h1>Output:</h1>
  * <h2>
  * 1 * 1 = 1
@@ -47,7 +47,7 @@ import java.util.Scanner;
  * </h2>
  * <br/>
  * <h1>Input:</h1>
- * <h2>2<h2/>
+ * <h2>2</h2>
  * <h1>Output:</h1>
  * <h2>
  * 2 * 1 = 1
