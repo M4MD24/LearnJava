@@ -24,7 +24,7 @@ import java.util.Scanner;
  * 5
  * <br/>
  * 3
- * <h2/>
+ * </h2>
  * <h1>Output:</h1>
  * <h2>
  * 120
