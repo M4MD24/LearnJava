@@ -218,7 +218,7 @@
 
 ---
 
-## _2. Problem Solving (357)_
+## _2. Problem Solving (359)_
 
 - Solving problems and projects
 
@@ -232,9 +232,9 @@
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
     2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (3 Question)**
 
-### 3. [Codeforces](https://codeforces.com): (195 Questions)
+### 3. [Codeforces](https://codeforces.com): (197 Questions)
 
-1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (195 Questions)**
+1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (197 Questions)**
     1. **[Sheet 1 "Data type - Conditions"](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
     2. **[Contest 1](https://codeforces.com/group/MWSDmqGsZm/contest/326175) (9 Questions)**
     3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (26 Questions)**
@@ -245,6 +245,7 @@
     8. **[Sheet 5 "Functions"](https://codeforces.com/group/MWSDmqGsZm/contest/223205) (15 Questions)**
     9. **[Sheet 6 "Math - Geometry"](https://codeforces.com/group/MWSDmqGsZm/contest/223338) (26 Questions)**
     10. **[Sheet 7 "Recursion"](https://codeforces.com/group/MWSDmqGsZm/contest/223339) (26 Questions)**
+    11. **[Sheet 8 "General Easy"](https://codeforces.com/group/MWSDmqGsZm/contest/223206) (2 Questions)**
 
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
