@@ -47,7 +47,7 @@ import java.io.InputStreamReader;
  */
 
 public class LuckyDivisionExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(String[] args) throws IOException {
         final short NUMBER = Short.parseShort(new BufferedReader(new InputStreamReader(System.in)).readLine());
         System.out.print(divisibleByLuckyNumbers(NUMBER) ? "YES" : "NO");
     }
