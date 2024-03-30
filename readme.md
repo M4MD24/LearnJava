@@ -24,7 +24,7 @@
     - Search `?</h1>` for **Questions not Answered (1)**
         - **Codeforces (1)**
             - **Assiut-Sheet (1)**
-                1. [2.3.1.7.o Sort String](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java) `It can't be solved by Java in codeforces (Assiut-Sheet),
+                1. [2.3.1.7.o Sort String](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java) `It can't be solved by Java in codeforces,
                    Because error occurred during initialization of VM
                    Initial heap size set to a larger value than the maximum heap size`
     - Search `[//]: # (Notes)` for **Important Notes**
@@ -219,7 +219,7 @@
 
 ---
 
-## _2. Problem Solving (367)_
+## _2. Problem Solving (368)_
 
 - Solving problems and projects
 
@@ -233,9 +233,9 @@
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
     2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (3 Question)**
 
-### 3. [Codeforces](https://codeforces.com): (205 Questions)
+### 3. [Codeforces](https://codeforces.com): (206 Questions)
 
-1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (205 Questions)**
+1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (206 Questions)**
     1. **[Sheet 1 "Data type - Conditions"](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
     2. **[Contest 1](https://codeforces.com/group/MWSDmqGsZm/contest/326175) (9 Questions)**
     3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (26 Questions)**
@@ -246,7 +246,7 @@
     8. **[Sheet 5 "Functions"](https://codeforces.com/group/MWSDmqGsZm/contest/223205) (15 Questions)**
     9. **[Sheet 6 "Math - Geometry"](https://codeforces.com/group/MWSDmqGsZm/contest/223338) (26 Questions)**
     10. **[Sheet 7 "Recursion"](https://codeforces.com/group/MWSDmqGsZm/contest/223339) (26 Questions)**
-    11. **[Sheet 8 "General Easy"](https://codeforces.com/group/MWSDmqGsZm/contest/223206) (10 Questions)**
+    11. **[Sheet 8 "General Easy"](https://codeforces.com/group/MWSDmqGsZm/contest/223206) (12 Questions)**
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
 ### 4. [Satr](https://satr.codes) (3 Projects)

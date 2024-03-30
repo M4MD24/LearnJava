@@ -25,12 +25,13 @@ import java.io.OutputStreamWriter;
  * Given a number N. your task is to calculate the value of the nth number in the Fibonacci sequence and check whether this number is prime or not.
  * <br/>
  * You may have forgotten how to build a Fibonacci sequence so in order to build it use the following function:
+ * <br/>
+ * F1=0
+ * <br/>
+ * F2=1
+ * <br/>
+ * Fn=Fn−1+Fn−2
  * </h2>
- * <ul>
- *     <li>F1=0</li>
- *     <li>F2=1</li>
- *     <li>Fn=Fn−1+Fn−2</li>
- * </ul>
  * <br/>
  * <h1>Note:</h1>
  * <h2>you have to answer several test cases, so you have to write efficient code.</h2>
@@ -59,7 +60,7 @@ public class PrimeFibonacciExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
     private static final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(String[] args) throws IOException {
         inputValues();
         OUTPUT.flush();
     }
@@ -70,7 +71,7 @@ public class PrimeFibonacciExample {
             OUTPUT.write((isPrime(Byte.parseByte(INPUT.readLine())) ? "prime" : "not prime") + "\n");
     }
 
-    private static boolean isPrime(final byte NUMBER) {
+    public static boolean isPrime(final byte NUMBER) {
         final byte[] IS_PRIME = new byte[]{0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0};
         return IS_PRIME[NUMBER] == 1;
     }
