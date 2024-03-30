@@ -5,7 +5,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  * <h2>Write a Java program to compute the sum of the first 100 prime numbers.</h2>
  * <br/>
  * <h1>Expected Output:</h1>
- * <h2>Sum of the first 100 prime numbers: 1060</h2>
+ * <h2>Sum of the first 100 prime numbers: 1059</h2>
  */
 
 public class Question66 {
@@ -28,9 +28,13 @@ public class Question66 {
     }
 
     private static boolean isPrime(final int NUMBER) {
-        for (int index = 3; index * index <= NUMBER; index += 2)
-            if (NUMBER % index == 0)
-                return false;
-        return true;
+        if (NUMBER == 2) return true;
+        else if (NUMBER == 1 || NUMBER % 2 == 0) return false;
+        else {
+            for (int index = 3; index * index <= NUMBER; index += 2)
+                if (NUMBER % index == 0)
+                    return false;
+            return true;
+        }
     }
 }
