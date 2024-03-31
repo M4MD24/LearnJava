@@ -35,7 +35,7 @@ import java.io.InputStreamReader;
  */
 
 public class NightAtTheMuseumExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(String[] args) throws IOException {
         System.out.print(getSumMovements(new StringBuffer(new BufferedReader(new InputStreamReader(System.in)).readLine())));
     }
 
