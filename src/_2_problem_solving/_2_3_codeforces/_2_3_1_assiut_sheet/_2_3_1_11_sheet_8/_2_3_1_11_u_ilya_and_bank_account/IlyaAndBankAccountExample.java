@@ -49,13 +49,17 @@ import java.io.InputStreamReader;
  */
 
 public class IlyaAndBankAccountExample {
-    public static void main(final String[] ARGS) throws IOException {
-        System.out.print(inputValueAndGetMaximumValue(Integer.parseInt(new BufferedReader(new InputStreamReader(System.in)).readLine())));
+    public static void main(String[] args) throws IOException {
+        System.out.print(inputValueAndGetMinimumValue(new StringBuffer(new BufferedReader(new InputStreamReader(System.in)).readLine())));
     }
 
-    private static int inputValueAndGetMaximumValue(final int NUMBER) {
-        return (NUMBER < 0)
-                ? Math.max(NUMBER / 10, (NUMBER / 100) * 10 + NUMBER % 10)
-                : NUMBER;
+    private static int inputValueAndGetMinimumValue(StringBuffer number) {
+        if (number.compareTo(new StringBuffer(String.valueOf(0))) < 0) {
+            final int FIRST_NUMBER = Integer.parseInt(number.substring(0, number.length() - 1)),
+                    SECOND_NUMBER = Integer.parseInt(number.substring(0, number.length() - 2) + number.charAt(number.length() - 1));
+            if (FIRST_NUMBER >= SECOND_NUMBER) number = new StringBuffer(String.valueOf(FIRST_NUMBER));
+            else number = new StringBuffer(String.valueOf(SECOND_NUMBER));
+        }
+        return Integer.parseInt(String.valueOf(number));
     }
 }
