@@ -53,7 +53,7 @@ public class MahmoudAndLongestUncommonSubsequenceExample {
     private static StringBuffer TEXT_1,
             TEXT_2;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(String[] args) throws IOException {
         inputValues();
         System.out.print(longestSubSequence());
     }

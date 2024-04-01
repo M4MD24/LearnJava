@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * <h1>V. Is it rated</h1>
+ * <h1>V. Is it rated?</h1>
  * <h2>
  * time limit per test: 2 second
  * <br/>
@@ -94,10 +94,10 @@ import java.util.Scanner;
 public class IsItRatedExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static short countOfRounds = INPUT.nextShort();
-    private static boolean areEquals = true;
+    private static boolean isEqual = true;
     private static final short[] PARTICIPANT_VALUES = new short[countOfRounds];
 
-    public static void main(final String[] ARGS) {
+    public static void main(String[] args) {
         inputValues();
         System.out.print(isRated());
     }
@@ -109,7 +109,7 @@ public class IsItRatedExample {
     }
 
     private static String isRated() {
-        if (!areEquals) return "rated";
+        if (!isEqual) return "rated";
         if (!isSorted()) return "unrated";
         else return "maybe";
     }
@@ -118,15 +118,15 @@ public class IsItRatedExample {
         while (countOfRounds-- > 0) {
             final short FIRST_PARTICIPANT_VALUE = INPUT.nextShort(),
                     SECOND_PARTICIPANT_VALUE = INPUT.nextShort();
-            if (areEquals(FIRST_PARTICIPANT_VALUE, SECOND_PARTICIPANT_VALUE)) break;
+            if (isEqual(FIRST_PARTICIPANT_VALUE, SECOND_PARTICIPANT_VALUE)) break;
             PARTICIPANT_VALUES[countOfRounds] = FIRST_PARTICIPANT_VALUE;
             PARTICIPANT_VALUES[countOfRounds] = SECOND_PARTICIPANT_VALUE;
         }
     }
 
-    private static boolean areEquals(final short FIRST_PARTICIPANT_VALUE, final short SECOND_PARTICIPANT_VALUE) {
+    private static boolean isEqual(final short FIRST_PARTICIPANT_VALUE, final short SECOND_PARTICIPANT_VALUE) {
         if (FIRST_PARTICIPANT_VALUE != SECOND_PARTICIPANT_VALUE) {
-            areEquals = false;
+            isEqual = false;
             return true;
         }
         return false;
