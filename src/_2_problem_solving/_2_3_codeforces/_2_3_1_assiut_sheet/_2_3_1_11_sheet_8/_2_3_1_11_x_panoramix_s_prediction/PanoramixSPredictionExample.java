@@ -1,4 +1,4 @@
-package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_11_sheet_8._2_3_1_11_x_prediction_of_panoramix;
+package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_11_sheet_8._2_3_1_11_x_panoramix_s_prediction;
 
 import java.util.Scanner;
 
@@ -44,7 +44,7 @@ import java.util.Scanner;
  * </h2>
  */
 
-public class PredictionOfPanoramixExample {
+public class PanoramixSPredictionExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static final byte FIRST_NUMBER = INPUT.nextByte(),
             SECOND_NUMBER = INPUT.nextByte();
