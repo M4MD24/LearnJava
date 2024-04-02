@@ -54,7 +54,7 @@ public class TwinsExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static byte countOfSumOfCoins = INPUT.nextByte();
     private static final short[] SUM_OF_COINS = new short[countOfSumOfCoins];
-    private static short totalCoinSum = 0;
+    private static short totalCoinsSum = 0;
 
     public static void main(String[] args) {
         inputSumOfCoins();
@@ -67,7 +67,7 @@ public class TwinsExample {
                 minimumSumCoinCount = 0;
         while (countOfSumOfCoins-- > -1) {
             minimumSumCoinCount++;
-            if ((sumTwinsCoins += SUM_OF_COINS[countOfSumOfCoins]) > totalCoinSum - sumTwinsCoins)
+            if ((sumTwinsCoins += SUM_OF_COINS[countOfSumOfCoins]) > totalCoinsSum - sumTwinsCoins)
                 break;
         }
         return minimumSumCoinCount;
@@ -75,6 +75,6 @@ public class TwinsExample {
 
     private static void inputSumOfCoins() {
         for (byte index = 0; index < countOfSumOfCoins; index++)
-            totalCoinSum += SUM_OF_COINS[index] = INPUT.nextByte();
+            totalCoinsSum += SUM_OF_COINS[index] = INPUT.nextByte();
     }
 }
