@@ -16,7 +16,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Question</h1>
  * <h2>
  * Kirito is stuck on a level of the MMORPG he is playing now. To move on in the game, he's got to defeat all n dragons that live on this level. Kirito and the dragons have strength, which is represented by an integer. In the duel between two opponents the duel's outcome is determined by their strength. Initially, Kirito's strength equals s.
  * <br/>
@@ -61,7 +61,7 @@ public class DragonsExample {
             COUNT_OF_ROUNDS = INPUT.nextShort();
     private static final FightData[] DRAGONS = new FightData[COUNT_OF_ROUNDS];
 
-    public static void main(final String[] ARGS) {
+    public static void main(String[] args) {
         inputFightData();
         Arrays.sort(DRAGONS, Comparator.comparingInt(FightData::POWER_OF_DRAGON));
         System.out.println(isFighterWon()
