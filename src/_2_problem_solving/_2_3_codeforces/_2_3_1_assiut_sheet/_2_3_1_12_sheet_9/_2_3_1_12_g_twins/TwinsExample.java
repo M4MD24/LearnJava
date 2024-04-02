@@ -15,7 +15,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Question</h1>
  * <h2>
  * Imagine that you have a twin brother or sister. Having another person that looks exactly like you seems very unusual. It's hard to say if having something of an alter ego is good or bad. And if you do have a twin, then you very well know what it's like.
  * <br/>
@@ -54,9 +54,9 @@ public class TwinsExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static byte countOfSumOfCoins = INPUT.nextByte();
     private static final short[] SUM_OF_COINS = new short[countOfSumOfCoins];
-    private static short totalCoinsSum = 0;
+    private static short totalCoinSum = 0;
 
-    public static void main(final String[] ARGS) {
+    public static void main(String[] args) {
         inputSumOfCoins();
         Arrays.sort(SUM_OF_COINS);
         System.out.print(getMinimumSumCoinCount());
@@ -67,7 +67,7 @@ public class TwinsExample {
                 minimumSumCoinCount = 0;
         while (countOfSumOfCoins-- > -1) {
             minimumSumCoinCount++;
-            if ((sumTwinsCoins += SUM_OF_COINS[countOfSumOfCoins]) > totalCoinsSum - sumTwinsCoins)
+            if ((sumTwinsCoins += SUM_OF_COINS[countOfSumOfCoins]) > totalCoinSum - sumTwinsCoins)
                 break;
         }
         return minimumSumCoinCount;
@@ -75,6 +75,6 @@ public class TwinsExample {
 
     private static void inputSumOfCoins() {
         for (byte index = 0; index < countOfSumOfCoins; index++)
-            totalCoinsSum += SUM_OF_COINS[index] = INPUT.nextByte();
+            totalCoinSum += SUM_OF_COINS[index] = INPUT.nextByte();
     }
 }

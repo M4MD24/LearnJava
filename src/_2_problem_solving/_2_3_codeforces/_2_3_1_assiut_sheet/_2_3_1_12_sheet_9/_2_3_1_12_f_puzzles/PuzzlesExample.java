@@ -15,7 +15,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Question</h1>
  * <h2>
  * The end of the school year is near and Ms. Manana, the teacher, will soon have to say goodbye to a yet another class. She decided to prepare a goodbye present for her n students and give each of them a jigsaw puzzle (which, as wikipedia states, is a tiling puzzle that requires the assembly of numerous small, often oddly shaped, interlocking and tessellating pieces).
  * <br/>
@@ -43,7 +43,7 @@ public class PuzzlesExample {
             PUZZLES_COUNT = INPUT.nextByte();
     private static final short[] PUZZLES = new short[PUZZLES_COUNT];
 
-    public static void main(final String[] ARGS) {
+    public static void main(String[] args) {
         inputPuzzles();
         Arrays.sort(PUZZLES);
         System.out.print(returnCountOfMinimumDifference());

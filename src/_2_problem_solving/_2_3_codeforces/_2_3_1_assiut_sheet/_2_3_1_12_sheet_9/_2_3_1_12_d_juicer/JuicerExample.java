@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Question</h1>
  * <h2>
  * Kolya is going to make fresh orange juice. He has n oranges of sizes a1,a2,...,an. Kolya will put them in the juicer in the fixed order, starting with orange of size a1, then orange of size a2 and so on. To be put in the juicer the orange must have size not exceeding b, so if Kolya sees an orange that is strictly greater he throws it away and continues with the next one.
  * <br/>
@@ -71,7 +71,7 @@ public class JuicerExample {
             MAXIMUM_WASTE_SECTION = INPUT.nextInt();
     private static int timesEmptyTheWasteSection = 0;
 
-    public static void main(final String[] ARGS) {
+    public static void main(String[] args) {
         squeezingOranges();
         System.out.print(timesEmptyTheWasteSection);
     }

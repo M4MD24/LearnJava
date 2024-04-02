@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Question</h1>
  * <h2>
  * Our good friend Mole is trying to code a big message. He is typing on an unusual keyboard with characters arranged in following way:
  * <br/>
@@ -46,7 +46,7 @@ public class KeyboardExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
     private static final StringBuffer ENCRYPTION_CHARACTERS = new StringBuffer("qwertyuiopasdfghjkl;zxcvbnm,./");
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(String[] args) throws IOException {
         System.out.print(returnTextAfterDecryption(INPUT.readLine().charAt(0), new StringBuffer(INPUT.readLine())));
     }
 
