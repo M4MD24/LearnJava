@@ -60,7 +60,7 @@ public class LaunchOfColliderExample {
     private static final int[] COLLIDERS = new int[COUNT_OF_COLLIDER];
     private static long minimumTime = Integer.MAX_VALUE;
 
-    public static void main(final String[] ARGS) {
+    public static void main(String[] args) {
         inputColliders();
         launchColliders();
         System.out.print(minimumTime == Integer.MAX_VALUE
