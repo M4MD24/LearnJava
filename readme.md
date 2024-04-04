@@ -297,7 +297,7 @@
 
 ## _About the Project Owner:_
 
-- **Name:** `Mohamed Sadawy Thabet`
-- **Field:** `Software Engineer / Native Android Developer`
-- **Telegram:** [@M3MD69](https://t.me/M3MD69)
-- **Telegram Channel:** [@Nullexia](https://t.me/Nullexia)
+- <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"> <b>Name:</b> Mohamed Sadawy Thabet
+- <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"> <b>Field:</b> Software Engineer / Native Android Developer
+- <img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"> <b>Telegram:</b> <a href="https://t.me/M3MD69">@M3MD69</a>
+- <img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"> <b>Telegram Channel:</b> <a href="https://t.me/Nullexia">@Nullexia</a>
