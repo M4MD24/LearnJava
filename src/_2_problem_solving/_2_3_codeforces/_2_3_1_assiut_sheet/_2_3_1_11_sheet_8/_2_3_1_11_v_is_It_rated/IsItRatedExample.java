@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * <h1>V. Is it rated?</h1>
+ * <h1>V. Is it rated</h1>
  * <h2>
  * time limit per test: 2 second
  * <br/>
