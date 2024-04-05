@@ -21,12 +21,13 @@
     - Search `// •` for **Important Things**
     - Search `<h1>Question` for **Questions**
     - Search `// >` for **Another Solution**
-    - Search `?</h1>` for **Questions not Answered (1)**
-        - **Codeforces (1)**
-            - **Assiut-Sheet (1)**
-                1. [2.3.1.7.o Sort String](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java) `It can't be solved by Java in codeforces,
-                   Because error occurred during initialization of VM
-                   Initial heap size set to a larger value than the maximum heap size`
+    - Search `?</h1>` for **Questions not Answered (2)**
+        - **Codeforces (2)**
+            - **Assiut-Sheet (2)**
+                1. [2.3.1.7.o Sort String](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
+                   `It can't be solved by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
+                2. [2.3.1.12.n Pumbaa and Apples](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_12_sheet_9/_2_3_1_12_n_pumbaa_and_apples)
+                   `It can't be solved by Java in codeforces, Because Time limit exceeded on test 3`
     - Search `[//]: # (Notes)` for **Important Notes**
 
 ---
@@ -219,7 +220,7 @@
 
 ---
 
-## _2. Problem Solving (395)_
+## _2. Problem Solving (397)_
 
 - Solving problems and projects
 
@@ -233,9 +234,9 @@
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
     2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (3 Question)**
 
-### 3. [Codeforces](https://codeforces.com): (233 Questions)
+### 3. [Codeforces](https://codeforces.com): (235 Questions)
 
-1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (233 Questions)**
+1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (235 Questions)**
     1. **[Sheet 1 "Data type - Conditions"](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
     2. **[Contest 1](https://codeforces.com/group/MWSDmqGsZm/contest/326175) (9 Questions)**
     3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (26 Questions)**
@@ -247,7 +248,7 @@
     9. **[Sheet 6 "Math - Geometry"](https://codeforces.com/group/MWSDmqGsZm/contest/223338) (26 Questions)**
     10. **[Sheet 7 "Recursion"](https://codeforces.com/group/MWSDmqGsZm/contest/223339) (26 Questions)**
     11. **[Sheet 8 "General Easy"](https://codeforces.com/group/MWSDmqGsZm/contest/223206) (26 Questions)**
-    12. **[Sheet 9 "General Medium"](https://codeforces.com/group/MWSDmqGsZm/contest/223207) (12 Questions)**
+    12. **[Sheet 9 "General Medium"](https://codeforces.com/group/MWSDmqGsZm/contest/223207) (14 Questions)**
     13. ~~**[Sheet 10 "General Harrrd"](https://codeforces.com/group/MWSDmqGsZm/contest/223340) (0 Questions)**~~
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
