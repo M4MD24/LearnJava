@@ -5,10 +5,11 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
- * <h1>N. Pumbaa And Apples</h1>
+ * <h1>N. Pumbaa And Apples?</h1>
  * <h2>
  * time limit per test: 1 second
  * <br/>
@@ -98,62 +99,57 @@ public class PumbaaAndApplesExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
     private static final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
     private static StringTokenizer line;
-    private static short rows,
-            columns;
+    private static StringBuffer[] farm;
     private static int countOfOperations;
-    private static int[][] farm;
 
     public static void main(final String[] PARAMETERS) throws IOException {
         inputApplesNumbers();
-        printFinalResultOfApplesArrangement();
+        inputOperations();
+        OUTPUT.flush();
     }
 
-    private static void printFinalResultOfApplesArrangement() throws IOException {
-        final short[] APPLES_ROW = new short[rows],
-                APPLES_COLUMN = new short[columns];
-        initializeApplesNumbersForRowsAndColumn(APPLES_ROW, APPLES_COLUMN);
-        for (int index = 0; index < countOfOperations; index++) {
+    private static void inputOperations() throws IOException {
+        while (countOfOperations-- > 0) {
             line = new StringTokenizer(INPUT.readLine());
             final char OPERATION_CHARACTER = line.nextToken().charAt(0);
             final short FIRST_THING_INDEX = (short) (Short.parseShort(line.nextToken()) - 1),
                     SECOND_THING_INDEX = (short) (Short.parseShort(line.nextToken()) - 1);
             switch (OPERATION_CHARACTER) {
-                case 'c':
-                    swap(APPLES_COLUMN, FIRST_THING_INDEX, SECOND_THING_INDEX);
-                    break;
-                case 'r':
-                    swap(APPLES_ROW, FIRST_THING_INDEX, SECOND_THING_INDEX);
-                    break;
-                default: {
-                    OUTPUT.write(String.valueOf(farm[APPLES_ROW[FIRST_THING_INDEX]][APPLES_COLUMN[SECOND_THING_INDEX]]));
-                    OUTPUT.newLine();
-                }
+                case 'g' -> OUTPUT.write(farm[FIRST_THING_INDEX].charAt(SECOND_THING_INDEX) + "\n");
+                case 'r' -> swapRows(FIRST_THING_INDEX, SECOND_THING_INDEX);
+                case 'c' -> swapColumns(FIRST_THING_INDEX, SECOND_THING_INDEX);
             }
         }
-        OUTPUT.flush();
     }
 
-    private static void initializeApplesNumbersForRowsAndColumn(final short[] APPLES_ROW, final short[] APPLES_COLUMN) {
-        for (short row = 0; row < rows; row++) APPLES_ROW[row] = row;
-        for (short column = 0; column < columns; column++) APPLES_COLUMN[column] = column;
+    private static void swapColumns(final short FIRST_COLUMN, final short SECOND_COLUMN) {
+        farm = Arrays.stream(farm)
+                .map(line -> {
+                    final StringBuilder LINE = new StringBuilder(line);
+                    final char TEMPORARY_APPLE_NUMBER = LINE.charAt(FIRST_COLUMN);
+                    LINE.setCharAt(FIRST_COLUMN, LINE.charAt(SECOND_COLUMN));
+                    LINE.setCharAt(SECOND_COLUMN, TEMPORARY_APPLE_NUMBER);
+                    return new StringBuffer(LINE);
+                })
+                .toArray(StringBuffer[]::new);
+    }
+
+    private static void swapRows(final short FIRST_ROW, final short SECOND_ROW) {
+        final StringBuffer TEMPORARY = new StringBuffer(farm[FIRST_ROW]);
+        farm[FIRST_ROW] = farm[SECOND_ROW];
+        farm[SECOND_ROW] = TEMPORARY;
     }
 
     private static void inputApplesNumbers() throws IOException {
         line = new StringTokenizer(INPUT.readLine());
-        rows = Short.parseShort(line.nextToken());
-        columns = Short.parseShort(line.nextToken());
+        final short ROWS = Short.parseShort(line.nextToken()), COLUMNS = Short.parseShort(line.nextToken());
         countOfOperations = Integer.parseInt(line.nextToken());
-        farm = new int[rows][columns];
-        for (short row = 0; row < rows; row++) {
+        farm = new StringBuffer[ROWS];
+        for (short row = 0; row < ROWS; row++) {
             line = new StringTokenizer(INPUT.readLine());
-            for (short column = 0; column < columns; column++)
-                farm[row][column] = Integer.parseInt(line.nextToken());
+            farm[row] = new StringBuffer();
+            for (short column = 0; column < COLUMNS; column++)
+                farm[row].append(line.nextToken());
         }
-    }
-
-    private static void swap(final short[] APPLES, final short FIRST_THING_INDEX, short SECOND_THING_INDEX) {
-        APPLES[FIRST_THING_INDEX] += APPLES[SECOND_THING_INDEX];
-        APPLES[SECOND_THING_INDEX] = (short) (APPLES[FIRST_THING_INDEX] - APPLES[SECOND_THING_INDEX]);
-        APPLES[FIRST_THING_INDEX] -= APPLES[SECOND_THING_INDEX];
     }
 }
