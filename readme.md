@@ -26,7 +26,7 @@
             - **Assiut-Sheet (2)**
                 1. [2.3.1.7.o Sort String](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
                    `It can't be solved by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
-                2. [2.3.1.12.n Pumbaa and Apples](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_12_sheet_9/_2_3_1_12_n_pumbaa_and_apples)
+                2. [2.3.1.12.n Pumbaa and Apples](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_12_sheet_9/_2_3_1_12_n_pumbaa_and_apples/PumbaaAndApplesExample.java)
                    `It can't be solved by Java in codeforces, Because Time limit exceeded on test 3`
     - Search `[//]: # (Notes)` for **Important Notes**
 
