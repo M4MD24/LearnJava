@@ -34,8 +34,6 @@ import java.io.InputStreamReader;
  * <br/>
  * f(5) = - 1 + 2 - 3 + 4 - 5 = - 3
  * </h2>
- *
- * @see _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_12_sheet_9._2_3_1_12_p_calculating_function.images <h2>Question</h2>
  */
 
 public class CalculateFunctionExample {
