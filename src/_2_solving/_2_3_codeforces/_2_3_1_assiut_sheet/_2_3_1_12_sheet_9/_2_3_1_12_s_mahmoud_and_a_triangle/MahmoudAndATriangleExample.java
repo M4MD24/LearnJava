@@ -63,10 +63,10 @@ public class MahmoudAndATriangleExample {
     private static boolean isNonDegenerateTriangle() {
         int firstLineLength = linesLengths[0], secondLineLength = linesLengths[1];
         for (int index = 2; index < countOfLinesLengths; index++) {
-            final int THIRD_LINE_LENGTH = linesLengths[index];
-            if ((firstLineLength + secondLineLength) <= THIRD_LINE_LENGTH) {
+            int thirdLineLength = linesLengths[index];
+            if ((firstLineLength + secondLineLength) <= thirdLineLength) {
                 firstLineLength = secondLineLength;
-                secondLineLength = THIRD_LINE_LENGTH;
+                secondLineLength = thirdLineLength;
             } else return true;
         }
         return false;
