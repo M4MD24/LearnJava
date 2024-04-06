@@ -44,7 +44,7 @@ import java.util.StringTokenizer;
  * </h2>
  */
 
-public class DeamoonAndStairsFunction {
+public class DeamoonAndStairsExample {
     public static void main(final String[] ARGS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
