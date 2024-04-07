@@ -46,20 +46,18 @@ import java.util.StringTokenizer;
  */
 
 public class TPrimesExample {
-    private static BufferedReader input;
-    private static BufferedWriter output;
+    private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
+    private static final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
 
     public static void main(final String[] ARGS) throws IOException {
-        input = new BufferedReader(new InputStreamReader(System.in));
-        output = new BufferedWriter(new OutputStreamWriter(System.out));
         inputValues();
-        output.flush();
+        OUTPUT.flush();
     }
 
     private static void inputValues() throws IOException {
-        int countOfTestCases = Integer.parseInt(input.readLine());
-        final StringTokenizer LINE = new StringTokenizer(input.readLine());
-        while (countOfTestCases-- > 0) output.write((isTPrime(Long.parseLong(LINE.nextToken())) ? "YES" : "NO") + "\n");
+        int countOfTestCases = Integer.parseInt(INPUT.readLine());
+        final StringTokenizer LINE = new StringTokenizer(INPUT.readLine());
+        while (countOfTestCases-- > 0) OUTPUT.write((isTPrime(Long.parseLong(LINE.nextToken())) ? "YES" : "NO") + "\n");
     }
 
     private static boolean isTPrime(final long NUMBER) {
