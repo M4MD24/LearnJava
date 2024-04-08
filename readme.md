@@ -220,7 +220,7 @@
 
 ---
 
-## _2. Problem Solving (416)_
+## _2. Problem Solving (417)_
 
 - Solving problems and projects
 
@@ -228,11 +228,11 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises): (155 Question)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises): (156 Question)
 
 1. **Basics: (153 Question)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
-    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (5 Question)**
+    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (6 Question)**
 
 ### 3. [Codeforces](https://codeforces.com): (252 Questions)
 
