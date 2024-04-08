@@ -41,7 +41,7 @@ import java.io.InputStreamReader;
 public class PalindromesReplaceExample {
     private static StringBuilder text;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(String[] args) throws IOException {
         inputValue();
         replaceQuestionMarks();
     }
