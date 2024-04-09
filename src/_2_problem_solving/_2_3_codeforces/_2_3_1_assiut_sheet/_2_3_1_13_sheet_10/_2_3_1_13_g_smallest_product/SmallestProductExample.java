@@ -33,7 +33,7 @@ public class SmallestProductExample {
     private static int countOfNumbers;
     private static double numbersMultiplicationSum = 0;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(String[] args) throws IOException {
         inputValues();
         System.out.print(getSmallestProduct());
     }
