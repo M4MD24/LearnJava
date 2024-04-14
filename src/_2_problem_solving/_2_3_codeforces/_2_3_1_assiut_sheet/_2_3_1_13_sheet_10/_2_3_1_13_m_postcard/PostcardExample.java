@@ -67,11 +67,12 @@ import java.io.InputStreamReader;
  */
 
 public class PostcardExample {
+    private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
+    private static final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
     private static StringBuffer text;
     private static int targetLength;
 
     public static void main(final String[] ARGS) throws IOException {
-        final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         inputValues();
         OUTPUT.write(String.valueOf(getTextAfterDecryption()));
         OUTPUT.flush();
@@ -110,7 +111,6 @@ public class PostcardExample {
     }
 
     private static void inputValues() throws IOException {
-        final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         text = new StringBuffer(INPUT.readLine());
         targetLength = Integer.parseInt(INPUT.readLine());
     }
