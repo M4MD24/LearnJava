@@ -74,7 +74,7 @@ import java.util.StringTokenizer;
  * @see _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_13_sheet_10._2_3_1_13_q_bulbs.images <h2>Question</h2>
  */
 
-public class Bulbs {
+public class BulbsExample {
     private static int countOfBulbs;
     private static int[] bulbs;
 
