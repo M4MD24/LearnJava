@@ -48,7 +48,7 @@ import java.io.InputStreamReader;
  * <h1>Input:</h1>
  * <h2>13</h2>
  * <h1>Output:</h1>
- * <h2>ROYGBIVGBIVYG<br/>
+ * <h2>ROYGBIVGBIVYG</h2>
  * <br/>
  * <h1>Note:</h1>
  * <h2>The way the eggs will be painted in the first sample is shown on the Image:</h2>
