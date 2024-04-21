@@ -39,11 +39,11 @@ public class HusseinAndArrays2Example {
     public static void main(String[] args) throws IOException {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         inputValues();
-        OUTPUT.write(String.valueOf(calculateMaximumDifference()));
+        OUTPUT.write(String.valueOf(getMaximumDifference()));
         OUTPUT.flush();
     }
 
-    private static int calculateMaximumDifference() {
+    private static int getMaximumDifference() {
         final int[] MAX_DIFFERENCE_INDICES = new int[countOfNumbers];
         final Vector<Integer> GREATER_VALUES_INDICES = new Vector<>();
         int round = countOfNumbers - 1;
