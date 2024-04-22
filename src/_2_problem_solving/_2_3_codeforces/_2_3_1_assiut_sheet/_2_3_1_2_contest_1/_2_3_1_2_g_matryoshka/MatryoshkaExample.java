@@ -15,7 +15,7 @@ import java.util.Scanner;
  * </h2>
  * <br/>
  * <h1>Question:</h1>
- * <h2>The Egyptian football team will be in Russia for the World Cup. Of course, they all would like to buy souvenirs for their families. Luckily, they met the prince of souvenirs Matryoshka who is famous for his masterpiece Katryoshka. He makes it using different wooden pieces: eyes, mouths and bodies. He can form a nice Katryoshka using one of the following combinations:</h2>
+ * <h2>The Egyptian football team will be in Russia for the World Cup. Of course, they all would like to buy souvenirs for their families. Luckily, they met the prince of souvenirs Matryoshka who is famous for his masterpiece Matryoshka. He makes it using different wooden pieces: eyes, mouths and bodies. He can form a nice Matryoshka using one of the following combinations:</h2>
  * <ul>
  *     <li>Two eyes and one body.</li>
  *     <li>Two eyes, one mouth, and one body.</li>

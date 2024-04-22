@@ -25,11 +25,10 @@ import java.util.Scanner;
  */
 
 public class AreaOfCircleExample {
-    private static final Scanner input = new Scanner(System.in);
-
     public static void main(String[] args) {
+    final Scanner INPUT = new Scanner(System.in);
         final double PI = 3.141592653,
-                RADIUS_SQUARED = input.nextFloat();
+                RADIUS_SQUARED = INPUT.nextFloat();
         final double AREA_OF_CIRCLE = PI * (RADIUS_SQUARED * RADIUS_SQUARED);
         System.out.print(AREA_OF_CIRCLE);
     }
