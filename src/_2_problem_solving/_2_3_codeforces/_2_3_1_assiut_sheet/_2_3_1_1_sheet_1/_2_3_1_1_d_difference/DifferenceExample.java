@@ -38,13 +38,12 @@ import java.util.Scanner;
  */
 
 public class DifferenceExample {
-    private static final Scanner input = new Scanner(System.in);
-
     public static void main(String[] args) {
-        long number1 = Integer.parseInt(input.next()),
-                number2 = Integer.parseInt(input.next()),
-                number3 = Integer.parseInt(input.next()),
-                number4 = Integer.parseInt(input.next()),
+        final Scanner INPUT = new Scanner(System.in);
+        long number1 = Integer.parseInt(INPUT.next()),
+                number2 = Integer.parseInt(INPUT.next()),
+                number3 = Integer.parseInt(INPUT.next()),
+                number4 = Integer.parseInt(INPUT.next()),
                 result = (number1 * number2) - (number3 * number4);
         System.out.print("Difference = " + result);
     }

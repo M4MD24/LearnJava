@@ -1,8 +1,10 @@
 package _2_problem_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_13_sheet_10._2_3_1_13_y_spiral;
 
-import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /**
@@ -45,50 +47,50 @@ import java.util.StringTokenizer;
  */
 
 public class SpiralExample {
-    private static byte countOfNumbers;
-    private static byte[] numbers;
-    private static final List<Byte> VASYA_NUMBERS = new ArrayList<>();
-    private static boolean gotNumberWithDigitZero = false;
+    private static short rows,
+            columns;
+    private static long[][] matrix;
 
-    public static void main(String[] args) throws IOException {
-        inputNumbers();
-        printVasyaNumbers();
+    public static void main(final String[] ARGS) throws IOException {
+        inputMatrixAsSpiralSort();
+        printSpiralOrder();
     }
 
-    private static void printVasyaNumbers() throws IOException {
+    private static void printSpiralOrder() throws IOException {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
-        if (gotNumberWithDigitZero) {
-            for (byte index = 0; index < countOfNumbers; index++)
-                if (numbers[index] >= 10 && numbers[index] < 100 && numbers[index] % 10 == 0) {
-                    VASYA_NUMBERS.add(numbers[index]);
-                    break;
-                }
-        } else {
-            for (byte index = 0; index < countOfNumbers; index++)
-                if (numbers[index] >= 10 && numbers[index] < 100) {
-                    VASYA_NUMBERS.add(numbers[index]);
-                    break;
-                }
+        short row = 0,
+                column = 0;
+        while (row < rows && column < columns) {
+            for (short index = column; index < columns; index++)
+                OUTPUT.write(matrix[row][index] + " ");
+            row++;
+            for (short index = row; index < rows; index++)
+                OUTPUT.write(matrix[index][columns - 1] + " ");
+            columns--;
+            if (row < rows) {
+                for (short index = (short) (columns - 1); index >= column; index--)
+                    OUTPUT.write(matrix[rows - 1][index] + " ");
+                rows--;
+            }
+            if (column < columns) {
+                for (short index = (short) (rows - 1); index >= row; index--)
+                    OUTPUT.write(matrix[index][column] + " ");
+                column++;
+            }
         }
-
-        OUTPUT.write(String.valueOf(VASYA_NUMBERS.size()));
-        OUTPUT.newLine();
-        for (final byte VASYA_NUMBER : VASYA_NUMBERS) OUTPUT.write(VASYA_NUMBER + " ");
         OUTPUT.flush();
     }
 
-    private static void inputNumbers() throws IOException {
+    private static void inputMatrixAsSpiralSort() throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
-        countOfNumbers = Byte.parseByte(INPUT.readLine());
-        numbers = new byte[countOfNumbers];
-        final StringTokenizer LINE = new StringTokenizer(INPUT.readLine());
-        for (byte index = 0; index < countOfNumbers; index++) {
-            numbers[index] = Byte.parseByte(LINE.nextToken());
-            if (numbers[index] == 0 || numbers[index] == 100) VASYA_NUMBERS.add(numbers[index]);
-            else if (numbers[index] >= 1 && numbers[index] <= 9 && !gotNumberWithDigitZero) {
-                VASYA_NUMBERS.add(numbers[index]);
-                gotNumberWithDigitZero = true;
-            }
+        StringTokenizer line = new StringTokenizer(INPUT.readLine());
+        rows = Short.parseShort(line.nextToken());
+        columns = Short.parseShort(line.nextToken());
+        matrix = new long[rows][columns];
+        for (short row = 0; row < rows; row++) {
+            line = new StringTokenizer(INPUT.readLine());
+            for (short column = 0; column < columns; column++)
+                matrix[row][column] = Long.parseLong(line.nextToken());
         }
     }
 }

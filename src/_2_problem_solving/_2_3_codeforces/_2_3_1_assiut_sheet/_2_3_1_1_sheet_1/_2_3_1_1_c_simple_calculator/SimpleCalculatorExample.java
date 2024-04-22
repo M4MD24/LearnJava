@@ -30,9 +30,8 @@ import java.util.Scanner;
  */
 
 public class SimpleCalculatorExample {
-    private static final Scanner input = new Scanner(System.in);
-
     public static void main(String[] args) {
+        final Scanner input = new Scanner(System.in);
         long number1 = Long.parseLong(input.next()),
                 number2 = Long.parseLong(input.next());
 
