@@ -38,7 +38,7 @@ import java.util.Scanner;
  */
 
 public class DifferenceExample {
-    public static void main(final String[] ARGS) {
+    public static void main(String[] args) {
         final Scanner INPUT = new Scanner(System.in);
         long number1 = Integer.parseInt(INPUT.next()),
                 number2 = Integer.parseInt(INPUT.next()),

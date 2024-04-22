@@ -213,7 +213,7 @@
 
 ---
 
-## _2. Problem Solving (436)_
+## _2. Problem Solving (438)_
 
 - Solving problems and projects
 
@@ -227,9 +227,9 @@
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
     2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (6 Question)**
 
-### 3. [Codeforces](https://codeforces.com) (271 Questions)
+### 3. [Codeforces](https://codeforces.com) (273 Questions)
 
-1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (271 Questions)**
+1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (273 Questions)**
     1. **[Sheet 1 "Data type - Conditions"](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
     2. **[Contest 1](https://codeforces.com/group/MWSDmqGsZm/contest/326175) (9 Questions)**
     3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (26 Questions)**
@@ -237,14 +237,14 @@
     5. **[Sheet 3 "Arrays"](https://codeforces.com/group/MWSDmqGsZm/contest/219774) (26 Questions)**
     6. **[Contest 3.1](https://codeforces.com/group/MWSDmqGsZm/contest/329103) (7 Questions)**
     7. **[Sheet 4 "Strings"](https://codeforces.com/group/MWSDmqGsZm/contest/219856) (26 Questions)**
-       - [2.3.1.7.o Sort String](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
-         `It can't be solved by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
+        - [2.3.1.7.o Sort String](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
+          `It can't be solved by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
     8. **[Sheet 5 "Functions"](https://codeforces.com/group/MWSDmqGsZm/contest/223205) (15 Questions)**
     9. **[Sheet 6 "Math - Geometry"](https://codeforces.com/group/MWSDmqGsZm/contest/223338) (26 Questions)**
     10. **[Sheet 7 "Recursion"](https://codeforces.com/group/MWSDmqGsZm/contest/223339) (26 Questions)**
     11. **[Sheet 8 "General Easy"](https://codeforces.com/group/MWSDmqGsZm/contest/223206) (26 Questions)**
     12. **[Sheet 9 "General Medium"](https://codeforces.com/group/MWSDmqGsZm/contest/223207) (26 Questions)**
-    13. **[Sheet 10 "General Hard"](https://codeforces.com/group/MWSDmqGsZm/contest/223340) (24 Questions)**
+    13. **[Sheet 10 "General Hard"](https://codeforces.com/group/MWSDmqGsZm/contest/223340) (26 Questions)**
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
 ### 4. [Satr](https://satr.codes) (3 Projects)
@@ -293,7 +293,9 @@
 
 ## _About the Project Owner_
 
-- <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Person Icon" style="vertical-align: middle;"> <b>Name:</b> Mohamed Sadawy Thabet
-- <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"> <b>Field:</b> Software Engineer / Native Android Developer
-- <img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"> <b>Telegram:</b> <a href="https://t.me/M3MD69">@M3MD69</a>
-- <img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"> <b>Telegram Channel:</b> <a href="https://t.me/Nullexia">@Nullexia</a>
+- <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Name</b> Mohamed Sadawy Thabet <b>(M3MD69)</b>
+- <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"/> <b>Field</b> Software Engineer / Native Android Developer
+- <img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a href="https://t.me/M3MD69">@M3MD69</a>
+- <img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a>
+- <img width="20" src="readme_file_source/icons/goal.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Owner's Achievements</b>
+  <ul> <li><img width="20" src="readme_file_source/icons/star.svg" alt="Person Icon" style="vertical-align: middle;"/> First person to solve all the problems of Sheet Assiut in codeforces with Java version 8 and 21 on (22/04/2024)</li> </ul>
