@@ -6,7 +6,7 @@ import java.util.Scanner;
  * <h1>Question:</h1>
  * <h2>Write a Java program that accepts two double variables and test if both strictly between 0 and 1 and false otherwise.</h2>
  * <br/>
- * <h1>Input Output:</h1>
+ * <h1>Input Data:</h1>
  * <h2>
  * Input first number: 5
  * <br/>
