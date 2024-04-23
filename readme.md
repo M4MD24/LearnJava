@@ -213,7 +213,7 @@
 
 ---
 
-## _2. Problem Solving (438)_
+## _2. Problem Solving (440)_
 
 - Solving problems and projects
 
@@ -221,11 +221,11 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (156 Question)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (158 Question)
 
-1. **Basics (156 Question)**
+1. **Basics (158 Question)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
-    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (6 Question)**
+    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (8 Question)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 
@@ -297,5 +297,5 @@
 - <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"/> <b>Field</b> Software Engineer / Native Android Developer
 - <img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a href="https://t.me/M3MD69">@M3MD69</a>
 - <img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a>
-- <img width="20" src="readme_file_source/icons/goal.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Owner's Achievements</b>
-  <ul> <li><img width="20" src="readme_file_source/icons/star.svg" alt="Person Icon" style="vertical-align: middle;"/> First person to solve all the problems of Sheet Assiut in codeforces with Java version 8 and 21 on (22/04/2024)</li> </ul>
+- <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Owner's Achievements</b>
+  <ul> <li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> First person to solve all the problems of Sheet Assiut in codeforces with Java version 8 and 21 on (22/04/2024)</li> </ul>
