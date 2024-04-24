@@ -7,7 +7,7 @@ import java.util.Scanner;
  * <h2>Write a Java program to transform a given integer into String format.</h2>
  * <br/>
  * <h1>Input Data:</h1>
- * <h2>Input an integer:  35</h2>
+ * <h2>Input an integer: 35</h2>
  * <br/>
  * <h1>Excepted Output:</h1>
  * <h2>String format of the said integer: 35</h2>
