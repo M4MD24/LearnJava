@@ -1,6 +1,6 @@
-package _1_learning._1_7_data_structures_and_algorithms._1_7_2_linked_list._1_7_2_1_singly_linked_list;
+package _1_learning._1_7_data_structures_and_algorithms._1_7_2_linked_list;
 
-public class SinglyLinkedList<Type extends Comparable<Type>> {
+public class LinkedList<Type extends Comparable<Type>> {
     Node<Type> head;
 
     public void insertFirst(Type data) {
@@ -112,8 +112,7 @@ public class SinglyLinkedList<Type extends Comparable<Type>> {
         while (currentNode.next != null) {
             final Node<Type> FIRST_NODE = currentNode,
                     SECOND_NODE = currentNode.next;
-            if (FIRST_NODE.data.compareTo(SECOND_NODE.data) <= 0 || FIRST_NODE.data.compareTo(SECOND_NODE.data) == 0)
-                currentNode = currentNode.next;
+            if (FIRST_NODE.data.compareTo(SECOND_NODE.data) <= 0) currentNode = currentNode.next;
             else return false;
         }
         return true;
@@ -122,18 +121,16 @@ public class SinglyLinkedList<Type extends Comparable<Type>> {
     public void removeDuplicatesFromSortedLinkedList() {
         if (checkLinkedListIsSorted()) {
             Node<Type> currentNode = head;
-            while (currentNode.next != head) {
+            while (currentNode != null && currentNode.next != null) {
                 final Type FIRST_NODE_DATA = currentNode.data,
                         SECOND_NODE_DATA = currentNode.next.data;
-                if (FIRST_NODE_DATA == SECOND_NODE_DATA)
-                    currentNode.next = currentNode.next.next;
-                else
-                    currentNode = currentNode.next;
+                if (FIRST_NODE_DATA == SECOND_NODE_DATA) currentNode.next = currentNode.next.next;
+                else currentNode = currentNode.next;
             }
         } else System.out.println("LinkedList not sorted");
     }
 
-    public void merge(SinglyLinkedList<Type> LinkedList2) {
+    public void merge(LinkedList<Type> LinkedList2) {
         Node<Type> node = head;
         if (node != null) {
             while (node.next != null) node = node.next;
