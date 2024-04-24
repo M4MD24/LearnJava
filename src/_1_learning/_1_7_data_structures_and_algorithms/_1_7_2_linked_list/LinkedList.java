@@ -69,6 +69,18 @@ public class LinkedList<Type extends Comparable<Type>> {
         secondNode.data = temporaryNodeData;
     }
 
+    public void swapEveryTwoAdjacent() {
+        Node<Type> firstNode = head,
+                secondNode;
+        while (firstNode != null && firstNode.next != null) {
+            secondNode = firstNode.next;
+            final Type TEMPORARY_NODE_DATA = firstNode.data;
+            firstNode.data = secondNode.data;
+            secondNode.data = TEMPORARY_NODE_DATA;
+            firstNode = secondNode.next;
+        }
+    }
+
     public void deleteFirst() {
         Node<Type> node = head;
         head = node.next;
@@ -98,9 +110,9 @@ public class LinkedList<Type extends Comparable<Type>> {
     public boolean checkLinkedListIsSorted() {
         Node<Type> currentNode = head;
         while (currentNode.next != null) {
-            Node<Type> node1 = currentNode,
-                    node2 = currentNode.next;
-            if (node1.data.compareTo(node2.data) <= 0) currentNode = currentNode.next;
+            final Node<Type> FIRST_NODE = currentNode,
+                    SECOND_NODE = currentNode.next;
+            if (FIRST_NODE.data.compareTo(SECOND_NODE.data) <= 0) currentNode = currentNode.next;
             else return false;
         }
         return true;
@@ -110,9 +122,9 @@ public class LinkedList<Type extends Comparable<Type>> {
         if (checkLinkedListIsSorted()) {
             Node<Type> currentNode = head;
             while (currentNode != null && currentNode.next != null) {
-                Type node1 = currentNode.data,
-                        node2 = currentNode.next.data;
-                if (node1 == node2) currentNode.next = currentNode.next.next;
+                final Type FIRST_NODE_DATA = currentNode.data,
+                        SECOND_NODE_DATA = currentNode.next.data;
+                if (FIRST_NODE_DATA == SECOND_NODE_DATA) currentNode.next = currentNode.next.next;
                 else currentNode = currentNode.next;
             }
         } else System.out.println("LinkedList not sorted");
@@ -145,13 +157,13 @@ public class LinkedList<Type extends Comparable<Type>> {
     }
 
     public boolean isSorted() {
-        Node<Type> node = head;
+        Node<Type> currentNode = head;
         int size = size();
-        if (node.next != null) {
+        if (currentNode.next != null) {
             for (int index = 0; index < size; index++) {
-                Type data1 = node.data,
-                        data2 = node.next.data;
-                if (data1.compareTo(data2) < 0) node = node.next;
+                final Type FIRST_NODE_DATA = currentNode.data,
+                        SECOND_NODE_DATA = currentNode.next.data;
+                if (FIRST_NODE_DATA.compareTo(SECOND_NODE_DATA) < 0) currentNode = currentNode.next;
                 else return false;
             }
         }

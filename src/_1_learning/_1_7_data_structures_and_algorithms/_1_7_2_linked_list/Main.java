@@ -23,6 +23,8 @@ public class Main {
 
         swapBetweenIndexesTest();
 
+        swapEveryTwoAdjacent();
+
         checkLinkedListIsSortedTest();
 
         removeDuplicatesFromSortedLinkedListTest();
@@ -97,6 +99,12 @@ public class Main {
     private static void swapBetweenIndexesTest() {
         System.out.println("■ swapBetweenIndexes() Test");
         linkedList.swapBetweenIndexes(0, 1);
+        displayAll();
+    }
+
+    private static void swapEveryTwoAdjacent() {
+        System.out.println("■ swapEveryTwoAdjacent() Test");
+        linkedList.swapEveryTwoAdjacent();
         displayAll();
     }
 

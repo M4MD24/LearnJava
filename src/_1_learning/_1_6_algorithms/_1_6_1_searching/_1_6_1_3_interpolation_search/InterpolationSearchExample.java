@@ -12,7 +12,7 @@ public class InterpolationSearchExample {
                 low = 0;
         while (target >= array[low] && target <= array[high] && low <= high) {
             int probe = low + (high - low) * (target - array[low]) / (array[high] - array[low]);
-            if (array[probe] == target) return "element found at index:  " + probe;
+            if (array[probe] == target) return "element found at index: " + probe;
             else if (array[probe] < target) low = ++probe;
             else high = --probe;
         }
