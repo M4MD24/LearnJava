@@ -134,12 +134,20 @@ private static boolean isCirclesIntersect() {
 ### Is Belong to Rectangle
 
 ```java
-    private static boolean isBelongToRectangle(final int FIRST_POINT, final int SECOND_POINT) {
+private static boolean isBelongToRectangle(final int FIRST_POINT, final int SECOND_POINT) {
     final int MINIMUM_POINT_NUMBER_FIRST_CIRCLE = Math.min(Math.min(FIRST_POINT_FIRST_CIRCLE, SECOND_POINT_FIRST_CIRCLE), Math.min(THIRD_POINT_FIRST_CIRCLE, FOURTH_POINT_FIRST_CIRCLE)),
             MAXIMUM_POINT_NUMBER_FIRST_CIRCLE = Math.max(Math.max(FIRST_POINT_FIRST_CIRCLE, SECOND_POINT_FIRST_CIRCLE), Math.max(THIRD_POINT_FIRST_CIRCLE, FOURTH_POINT_FIRST_CIRCLE)),
             MINIMUM_POINT_NUMBER_SECOND_CIRCLE = Math.min(Math.min(FIRST_POINT_SECOND_LINE, SECOND_POINT_SECOND_LINE), Math.min(THIRD_POINT_SECOND_LINE, FOURTH_POINT_SECOND_LINE)),
             MAXIMUM_POINT_NUMBER_SECOND_CIRCLE = Math.max(Math.max(FIRST_POINT_SECOND_LINE, SECOND_POINT_SECOND_LINE), Math.max(THIRD_POINT_SECOND_LINE, FOURTH_POINT_SECOND_LINE));
     return (FIRST_POINT >= MINIMUM_POINT_NUMBER_FIRST_CIRCLE && FIRST_POINT <= MAXIMUM_POINT_NUMBER_FIRST_CIRCLE &&
             SECOND_POINT >= MINIMUM_POINT_NUMBER_SECOND_CIRCLE && SECOND_POINT <= MAXIMUM_POINT_NUMBER_SECOND_CIRCLE);
+}
+```
+
+### Get Subset of Number
+
+```java
+private static int getSubsetOfNumber(final int NUMBER) {
+    return (NUMBER * (NUMBER + 1) / 2) * (1 << (NUMBER - 1));
 }
 ```
