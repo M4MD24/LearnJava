@@ -6,7 +6,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
  * <br/>
  * <h1>Excepted Output:</h1>
  * <h2>
- * Input a positive integer:  25
+ * Input a positive integer: 25
  * <br/>
  * Is 25 sum of two square numbers? true
  * </h2>
@@ -14,7 +14,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 
 public class Question191 {
     public static void main(final String[] ARGS) {
-        final int TARGET_NUMBER = 24;
-        System.out.print(Math.sqrt(TARGET_NUMBER) == (int) Math.sqrt(TARGET_NUMBER));
+        final int TARGET_NUMBER = 25;
+        System.out.println(STR."Input a positive integre: \{TARGET_NUMBER}");
+        System.out.print(STR."Is \{TARGET_NUMBER} sum of two square numbers? \{Math.sqrt(TARGET_NUMBER) == (int) Math.sqrt(TARGET_NUMBER)}");
     }
 }
