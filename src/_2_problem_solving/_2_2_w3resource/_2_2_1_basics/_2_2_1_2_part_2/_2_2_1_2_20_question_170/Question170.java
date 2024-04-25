@@ -1,0 +1,35 @@
+package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_20_question_170;
+
+import java.util.Arrays;
+
+/**
+ * <h1>Question:</h1>
+ * <h2>Write a Java program to find the length of the longest consecutive sequence in a given array of integers.</h2>
+ * <br/>
+ * <h1>Excepted Output:</h1>
+ * <h2>
+ * Original array: [1, 1, 2, 3, 3, 4, 5, 2, 4, 5, 6, 7, 8, 9, 6, -1, -2]
+ * <br/>
+ * 7
+ * </h2>
+ */
+
+public class Question170 {
+    public static void main(final String[] ARGS) {
+        final int[] NUMBERS = {1, 1, 2, 3, 3, 4, 5, 2, 4, 5, 6, 7, 8, 9, 6, -1, -2};
+        System.out.println(STR."Original array: \{Arrays.toString(NUMBERS)}");
+        System.out.print(getLengthOfTheLongestConsecutiveSequence(NUMBERS));
+    }
+
+    private static int getLengthOfTheLongestConsecutiveSequence(final int[] NUMBERS) {
+        int lengthOfTheLongestConsecutiveSequence = 0, lengthOfTheCurrentConsecutiveSequence = 1;
+        for (int firstIndex = 0, secondIndex = 1; secondIndex < NUMBERS.length; firstIndex++, secondIndex++)
+            if (NUMBERS[firstIndex] < NUMBERS[secondIndex]) lengthOfTheCurrentConsecutiveSequence++;
+            else {
+                if (lengthOfTheCurrentConsecutiveSequence > lengthOfTheLongestConsecutiveSequence)
+                    lengthOfTheLongestConsecutiveSequence = lengthOfTheCurrentConsecutiveSequence;
+                lengthOfTheCurrentConsecutiveSequence = 1;
+            }
+        return lengthOfTheLongestConsecutiveSequence;
+    }
+}
