@@ -22,7 +22,7 @@ public class Question201 {
         final int TARGET_NUMBER_OF_SUBSETS = 4;
         System.out.println(STR."Original array: \{Arrays.toString(NUMBERS)}");
         System.out.println(STR."target of subsets: \{TARGET_NUMBER_OF_SUBSETS}");
-        System.out.print(STR."Original array: \{areAllSumsEquals(NUMBERS, TARGET_NUMBER_OF_SUBSETS)}");
+        System.out.print(STR."Are all sums equals: \{areAllSumsEquals(NUMBERS, TARGET_NUMBER_OF_SUBSETS)}");
     }
 
     private static boolean areAllSumsEquals(final int[] NUMBERS, final int TARGET_NUMBER_OF_SUBSETS) {
