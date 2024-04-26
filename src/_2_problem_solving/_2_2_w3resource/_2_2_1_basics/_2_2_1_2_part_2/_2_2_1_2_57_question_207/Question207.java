@@ -31,7 +31,7 @@ public class Question207 {
         printAfterMergeFirstAndSecondNumbers(FIRST_NUMBERS, SECOND_NUMBERS);
     }
 
-    private static void printAfterMergeFirstAndSecondNumbers(int[] FIRST_NUMBERS, int[] SECOND_NUMBERS) {
+    private static void printAfterMergeFirstAndSecondNumbers(final int[] FIRST_NUMBERS, final int[] SECOND_NUMBERS) {
         System.out.print("\n\nMerged list: ");
         for (final int NUMBER : FIRST_NUMBERS)
             System.out.print(STR."\{NUMBER} ");
