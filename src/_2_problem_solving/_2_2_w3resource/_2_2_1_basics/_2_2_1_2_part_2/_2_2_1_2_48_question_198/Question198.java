@@ -6,7 +6,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
  * <br/>
  * <h1>Excepted Output:</h1>
  * <h2>
- * Input a positive integer:  15
+ * Input a positive integer: 15
  * <br/>
  * Position of the said Prime number: 6
  * </h2>
