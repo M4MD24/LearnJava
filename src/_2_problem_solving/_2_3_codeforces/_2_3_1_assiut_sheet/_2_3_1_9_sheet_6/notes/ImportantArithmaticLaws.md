@@ -151,3 +151,14 @@ private static int getSubsetOfNumber(final int NUMBER) {
     return (NUMBER * (NUMBER + 1) / 2) * (1 << (NUMBER - 1));
 }
 ```
+
+### All Sides Are Right Triangle
+
+```java
+private static boolean allSidesAreRightTriangle(final int FIRST_SIDE, final int SECOND_SIDE, final int THIRD_SIDE) {
+    return Math.pow(FIRST_SIDE, 2) + Math.pow(SECOND_SIDE, 2) == Math.pow(THIRD_SIDE, 2) ||
+            Math.pow(SECOND_SIDE, 2) + Math.pow(THIRD_SIDE, 2) == Math.pow(FIRST_SIDE, 2) ||
+            Math.pow(THIRD_SIDE, 2) + Math.pow(FIRST_SIDE, 2) == Math.pow(SECOND_SIDE, 2);
+}
+```
+
