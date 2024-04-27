@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_2_part_2/_2_2_1_2_1/Question1.java
-package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_1;
-========
 package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_1_question_151;
->>>>>>>> 1b1b867 (## Edit paths and readme.md file):src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_2_part_2/_2_2_1_2_1_question_151/Question151.java
 
 /**
  * <h1>Question:</h1>
@@ -24,7 +20,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
  * </h2>
  */
 
-public class Question1 {
+public class Question151 {
     public static void main(final String[] ARGS) {
         methodA();
         methodB();

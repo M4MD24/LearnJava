@@ -2,7 +2,8 @@ package _1_learning._1_1_basics._1_1_5_operators._1_1_5_2_bitwise_operators;
 
 public class BitwiseOperators {
     public static void main(final String[] ARGS) {
-        /* √ XOR = Exclusive OR */
+        /* √ Similar Concepts
+         * XOR = Exclusive OR */
 
         /* Bitwise Operators Types! */
         /* ( ~ ) Bitwise Complement

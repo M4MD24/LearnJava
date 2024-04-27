@@ -43,7 +43,7 @@ public class PuzzlesExample {
             PUZZLES_COUNT = INPUT.nextByte();
     private static final short[] PUZZLES = new short[PUZZLES_COUNT];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputPuzzles();
         Arrays.sort(PUZZLES);
         System.out.print(returnCountOfMinimumDifference());

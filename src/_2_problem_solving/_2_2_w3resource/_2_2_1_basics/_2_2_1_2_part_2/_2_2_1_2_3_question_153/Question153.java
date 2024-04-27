@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_2_part_2/_2_2_1_2_3/Question3.java
-package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_3;
-========
 package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_3_question_153;
->>>>>>>> 1b1b867 (## Edit paths and readme.md file):src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_2_part_2/_2_2_1_2_3_question_153/Question153.java
 
 import java.util.Scanner;
 
@@ -21,7 +17,7 @@ import java.util.Scanner;
  * <h2>false</h2>
  */
 
-public class Question3 {
+public class Question153 {
     public static void main(final String[] ARGS) {
         Values values = getValues();
         System.out.print(between0And1(values.FIRST_NUMBER()) && between0And1(values.SECOND_NUMBER()));

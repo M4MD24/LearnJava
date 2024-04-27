@@ -13,7 +13,7 @@ import java.util.List;
  */
 
 public class Question190 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final List<String> MISSING_WORDS = getMissingWords(Arrays.asList("Java Programming Exercises, Practice, Solution".split(" +")),
                 Arrays.asList("Java Programming Exercises, Practice,".split(" +")));
         System.out.println(STR."Missing words: \{MISSING_WORDS}");

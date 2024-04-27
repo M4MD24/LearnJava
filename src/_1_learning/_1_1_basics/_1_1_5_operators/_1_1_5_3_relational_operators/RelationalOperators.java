@@ -2,7 +2,8 @@ package _1_learning._1_1_basics._1_1_5_operators._1_1_5_3_relational_operators;
 
 public class RelationalOperators {
     public static void main(final String[] ARGS) {
-        /* √ Relational Operators = Comparison Operators */
+        /* √ Similar Concepts
+         * Relational Operators = Comparison Operators */
 
         /* Relational Operators Types! */
         /* ( == ) Equal to

@@ -72,7 +72,7 @@ public class PoliceRecruitsExample {
     private static int length = INPUT.nextInt(),
             countOfCrimeCasesRemaining = 0;
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
         System.out.print(countOfCrimeCasesRemaining);
     }
