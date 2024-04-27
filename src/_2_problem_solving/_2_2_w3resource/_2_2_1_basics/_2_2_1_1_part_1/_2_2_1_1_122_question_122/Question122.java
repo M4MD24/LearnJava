@@ -24,7 +24,7 @@ public class Question122 {
             startAt,
             endAt;
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         arrayLength();
         inputIndexesValuesArray();
         System.out.println("Array: " + Arrays.toString(ARRAY));

@@ -78,7 +78,7 @@ public class StringFunctionsExample {
     private static short start,
             end;
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         while (countOfTestCases-- > 0) {
             final String OPERATIONS = INPUT.next();
             switch (OPERATIONS) {

@@ -24,7 +24,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  * <li><b>toString()</b> - Converts the linked blocking queue to string</li>
  */
 public class LinkedBlockingQueueExample {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(final String[] ARGS) throws InterruptedException {
         linkedBlockingQueue();
     }
 

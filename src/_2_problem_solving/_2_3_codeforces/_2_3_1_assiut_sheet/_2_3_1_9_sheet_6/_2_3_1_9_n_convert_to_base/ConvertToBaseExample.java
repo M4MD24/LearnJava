@@ -41,7 +41,7 @@ import java.util.Scanner;
  */
 
 public class ConvertToBaseExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print((INPUT.nextByte() == 1)
                 ? Long.parseLong(INPUT.next(), INPUT.nextByte())

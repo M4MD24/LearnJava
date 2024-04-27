@@ -38,7 +38,7 @@ import java.util.Scanner;
 public class LuckyNumberExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int NUMBER_1 = INPUT.nextInt(),
                 NUMBER_2 = INPUT.nextInt();
         findAndPrintLuckyNumbers(NUMBER_1, NUMBER_2);

@@ -42,7 +42,7 @@ public class LogTwoExample {
         return returnLog2Recursion(++count, number.divide(BigInteger.valueOf(2)));
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         System.out.print(returnLog2Recursion(0, new BigInteger(new BufferedReader(new InputStreamReader(System.in)).readLine())));
     }
 }

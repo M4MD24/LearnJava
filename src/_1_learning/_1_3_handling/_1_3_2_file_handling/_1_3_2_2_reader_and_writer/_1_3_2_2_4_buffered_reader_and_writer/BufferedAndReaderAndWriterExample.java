@@ -39,7 +39,7 @@ import java.io.*;
  */
 
 public class BufferedAndReaderAndWriterExample {
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         bufferedWriter();
         bufferedReader();
     }

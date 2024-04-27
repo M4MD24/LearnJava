@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question107 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int[] ARRAY = {5, 11, 12, 13, 14, 45, 20};
         System.out.println("Array: " + Arrays.toString(ARRAY));
         System.out.print(checkContainsThreeIncreasingAdjacentNumbers(ARRAY));

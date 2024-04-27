@@ -32,7 +32,7 @@ public class Question133 {
         return String.valueOf(temporary[HEIGHT - 1][WIDTH - 1]);
     }
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int[][] GRID = new int[][]{
                 {7, 4, 2},
                 {0, 5, 6},

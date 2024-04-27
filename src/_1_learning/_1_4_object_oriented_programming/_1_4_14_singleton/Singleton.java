@@ -20,7 +20,7 @@ class Database {
 }
 
 public class Singleton {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Database db1;
         db1 = Database.getInstance();
         db1.getConnection();

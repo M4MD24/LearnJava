@@ -6,7 +6,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  */
 
 public class Question91 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         long startTime = System.nanoTime();
 
         System.out.println("The first 10 natural numbers are:\n");

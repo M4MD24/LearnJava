@@ -30,7 +30,7 @@ import java.util.Scanner;
  */
 
 public class Question75 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Scanner input = new Scanner(System.in);
         int[] numbers;
         while (true) {

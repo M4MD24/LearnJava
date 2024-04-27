@@ -29,7 +29,7 @@ import java.io.*;
  */
 
 public class InputAndOutputStreamExample {
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         outputStream();
         inputStream();
     }

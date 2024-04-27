@@ -31,7 +31,7 @@ import java.util.Scanner;
  */
 
 public class CompareExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         final String FIRST_TEXT = INPUT.next(),
                 SECOND_TEXT = INPUT.next();

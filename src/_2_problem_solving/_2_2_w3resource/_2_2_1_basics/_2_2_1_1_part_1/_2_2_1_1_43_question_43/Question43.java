@@ -16,7 +16,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  * */
 
 public class Question43 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.print(("""
                 Twinkle, twinkle, little star,
                 \tHow I wonder what you are!

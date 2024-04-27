@@ -26,7 +26,7 @@ import java.util.concurrent.ArrayBlockingQueue;
  * </ul>
  */
 public class ArrayBlockingQueueExample {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(final String[] ARGS) throws InterruptedException {
         arrayBlockingQueue();
     }
 

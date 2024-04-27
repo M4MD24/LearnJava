@@ -49,7 +49,7 @@ public class StraightLineExample {
             THIRD_NUMBER_FIRST_LINE = INPUT.nextInt(),
             THIRD_NUMBER_SECOND_LINE = INPUT.nextInt();
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.print((isStraightLine()) ? "YES" : "NO");
     }
 

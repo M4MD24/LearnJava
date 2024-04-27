@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question94 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         int[] arrayNumbers = {0, 1, 1, 0, 1, 1, 0, 1, 1, 1};
         System.out.print("Original Array                    : " + Arrays.toString(arrayNumbers));
         System.out.print("\nRearranged Array with New Array   : " + Arrays.toString(rearrangeArrayNumbersWithNewArray(arrayNumbers)));

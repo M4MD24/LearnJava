@@ -33,7 +33,7 @@ class AnotherGraph extends Graph {
 public class DepthFirstSearchExample {
     private static final AnotherGraph ANOTHER_GRAPH = new AnotherGraph(5);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         initializeLast();
         depthFirstSearchTest();
     }

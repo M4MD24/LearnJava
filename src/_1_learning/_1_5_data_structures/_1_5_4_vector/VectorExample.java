@@ -24,7 +24,7 @@ import java.util.*;
  * </ul>
  */
 public class VectorExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         vector();
     }
 

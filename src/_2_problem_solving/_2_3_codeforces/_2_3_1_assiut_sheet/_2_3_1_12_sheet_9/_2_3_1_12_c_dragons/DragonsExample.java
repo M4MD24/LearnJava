@@ -61,7 +61,7 @@ public class DragonsExample {
             COUNT_OF_ROUNDS = INPUT.nextShort();
     private static final FightData[] DRAGONS = new FightData[COUNT_OF_ROUNDS];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputFightData();
         Arrays.sort(DRAGONS, Comparator.comparingInt(FightData::POWER_OF_DRAGON));
         System.out.println(isFighterWon()

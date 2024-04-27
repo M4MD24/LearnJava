@@ -36,7 +36,7 @@ import java.util.Scanner;
 public class GreatestCommonDivisorExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final long NUMBER_1 = INPUT.nextLong(),
                 NUMBER_2 = INPUT.nextLong();
         System.out.print(greatestCommonDivisor(NUMBER_1, NUMBER_2));

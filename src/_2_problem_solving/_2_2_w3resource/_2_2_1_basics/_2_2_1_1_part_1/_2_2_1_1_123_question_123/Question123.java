@@ -109,7 +109,7 @@ public class Question123 {
             startAt,
             endAt;
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.println(SolutionsHeader.Solution1.getSolutionHeader());
         Solution1.mainMethod();
         System.out.println(SolutionsHeader.Solution2.getSolutionHeader());

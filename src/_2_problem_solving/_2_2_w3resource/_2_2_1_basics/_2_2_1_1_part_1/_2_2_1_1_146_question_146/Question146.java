@@ -82,7 +82,7 @@ class BinarySearchTree {
 public class Question146 {
     private static final BinarySearchTree BINARY_SEARCH_TREE = new BinarySearchTree();
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int[] ARRAY = {1, 2, 3, 4, 5, 6, 7};
         BINARY_SEARCH_TREE.sortedArrayToBinarySearchTree(ARRAY);
         BINARY_SEARCH_TREE.postorder();

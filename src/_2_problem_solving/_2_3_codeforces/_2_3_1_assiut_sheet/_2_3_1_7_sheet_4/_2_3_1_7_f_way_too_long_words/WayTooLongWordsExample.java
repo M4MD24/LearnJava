@@ -53,7 +53,7 @@ public class WayTooLongWordsExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static byte countOfTestCases = INPUT.nextByte();
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputAndPrintValues();
     }
 

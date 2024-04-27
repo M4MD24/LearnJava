@@ -3,7 +3,7 @@ package _1_learning._1_1_basics._1_1_2_data_types;
 import java.util.Arrays;
 
 public class DataTypes {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         /* Data Types And Sizes! */
         /* Integer -> byte (1 byte),
          *            short (2 bytes),

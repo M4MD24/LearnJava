@@ -28,7 +28,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  */
 
 public class Question4 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         int a = -5 + 8 * 6,
                 b = (55 + 9) % 9,
                 c = 20 + -3 * 5 / 8,

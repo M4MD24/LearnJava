@@ -57,7 +57,7 @@ public class AgeInDaysExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static final long DAYS = INPUT.nextLong();
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int DAYS_PER_YEAR = 365,
                 DAYS_PER_MONTH = 30;
 

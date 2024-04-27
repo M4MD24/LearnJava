@@ -62,7 +62,7 @@ import java.util.WeakHashMap;
  * <li><b>isEmpty()</b> - checks if the Hashmap is empty.</li>
  */
 public class MapExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         mapHashMap();
         mapLinkedHashMap();
         mapWealHashMap();

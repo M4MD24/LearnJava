@@ -43,7 +43,7 @@ import java.io.*;
  */
 
 public class ObjectInputAndOutputStreamExample {
-    public static void main(String[] args) throws IOException, ClassNotFoundException {
+    public static void main(final String[] ARGS) throws IOException, ClassNotFoundException {
         objectOutputStream();
         objectInputStream();
     }

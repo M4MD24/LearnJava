@@ -30,7 +30,7 @@ import java.util.Scanner;
  */
 
 public class DivisibleExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print((new BigInteger(INPUT.next()).divide(new BigInteger(String.valueOf(INPUT.nextInt()))).equals(BigInteger.valueOf(0)))
                 ? "YES"

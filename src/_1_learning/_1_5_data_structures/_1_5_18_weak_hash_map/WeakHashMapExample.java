@@ -18,7 +18,7 @@ import java.util.WeakHashMap;
  * <li><b>isEmpty()</b> - checks if the Hashmap is empty.</li>
  */
 public class WeakHashMapExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         weakHashMap();
     }
 

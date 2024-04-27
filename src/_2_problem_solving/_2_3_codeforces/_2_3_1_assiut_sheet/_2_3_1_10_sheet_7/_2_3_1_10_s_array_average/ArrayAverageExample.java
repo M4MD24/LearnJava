@@ -35,7 +35,7 @@ public class ArrayAverageExample {
     private static final byte length = INPUT.nextByte();
     private static final double[] NUMBERS = new double[length];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues(0);
         System.out.printf("%.6f", getAverage(0));
     }

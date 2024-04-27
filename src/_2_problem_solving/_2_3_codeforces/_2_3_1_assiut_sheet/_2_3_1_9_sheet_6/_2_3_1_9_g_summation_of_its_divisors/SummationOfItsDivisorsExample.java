@@ -40,7 +40,7 @@ import java.io.InputStreamReader;
  */
 
 public class SummationOfItsDivisorsExample {
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         System.out.print(summationOfItsDivisors(Long.parseLong(new BufferedReader(new InputStreamReader(System.in)).readLine())));
     }
 

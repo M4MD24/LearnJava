@@ -33,7 +33,7 @@ import java.io.InputStreamReader;
 public class OnePrimeExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
 
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         System.out.print(isPrime(Integer.parseInt(INPUT.readLine())));
     }
 

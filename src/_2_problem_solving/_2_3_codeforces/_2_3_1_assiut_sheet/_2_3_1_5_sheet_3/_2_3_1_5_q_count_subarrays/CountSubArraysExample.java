@@ -68,7 +68,7 @@ public class CountSubArraysExample {
     private static byte length;
     private static int[] numbers;
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         byte countOfTestCases = INPUT.nextByte();
         while (countOfTestCases > 0) {
             inputValues();

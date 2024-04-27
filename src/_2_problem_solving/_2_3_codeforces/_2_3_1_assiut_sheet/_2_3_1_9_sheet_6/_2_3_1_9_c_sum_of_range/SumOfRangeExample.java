@@ -46,7 +46,7 @@ import java.util.Scanner;
  */
 
 public class SumOfRangeExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         printSummations(INPUT.nextInt(), INPUT.nextInt());
     }

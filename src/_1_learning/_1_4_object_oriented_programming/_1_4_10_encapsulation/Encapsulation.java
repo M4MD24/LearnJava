@@ -27,7 +27,7 @@ class Rectangle {
 }
 
 public class Encapsulation {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Rectangle rectangle = new Rectangle();
         rectangle.setWidth(2);
         rectangle.setHeight(10);

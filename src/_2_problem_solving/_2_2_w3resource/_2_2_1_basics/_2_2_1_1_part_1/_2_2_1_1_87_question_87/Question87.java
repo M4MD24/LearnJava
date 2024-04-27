@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 
 public class Question87 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter some digits to calculates the sum: ");

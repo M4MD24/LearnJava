@@ -21,7 +21,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
  */
 
 public class Question151 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         methodA();
         methodB();
         methodC();

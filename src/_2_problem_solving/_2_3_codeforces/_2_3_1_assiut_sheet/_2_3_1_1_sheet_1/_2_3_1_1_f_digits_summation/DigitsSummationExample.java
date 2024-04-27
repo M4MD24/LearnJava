@@ -27,7 +27,7 @@ import java.util.Scanner;
 public class DigitsSummationExample {
     private static final Scanner input = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         long number1 = Long.parseLong(input.next()),
                 number2 = Long.parseLong(input.next());
         number1 %= 10;

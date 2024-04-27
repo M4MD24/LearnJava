@@ -43,7 +43,7 @@ import java.io.InputStreamReader;
  */
 
 public class PrimeFactorsExample {
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         printPrimeFactors(Integer.parseInt(new BufferedReader(new InputStreamReader(System.in)).readLine()));
     }
 

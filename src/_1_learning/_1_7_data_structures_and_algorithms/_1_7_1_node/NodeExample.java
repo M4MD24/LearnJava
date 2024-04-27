@@ -27,7 +27,7 @@ class Node {
 }
 
 public class NodeExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Node a = new Node(1, null);
         Node b = new Node(2, a);
         Node c = new Node(3, b);

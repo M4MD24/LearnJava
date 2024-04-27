@@ -18,7 +18,7 @@ import java.util.Scanner;
  */
 
 public class Question153 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Values values = getValues();
         System.out.print(between0And1(values.FIRST_NUMBER()) && between0And1(values.SECOND_NUMBER()));
     }

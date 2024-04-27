@@ -30,7 +30,7 @@ import java.io.InputStreamReader;
  */
 
 public class PalindromesExample {
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         final StringBuffer TEXT = new StringBuffer(new BufferedReader(new InputStreamReader(System.in)).readLine());
         System.out.print(getMaximumSubStringLength(TEXT));
     }

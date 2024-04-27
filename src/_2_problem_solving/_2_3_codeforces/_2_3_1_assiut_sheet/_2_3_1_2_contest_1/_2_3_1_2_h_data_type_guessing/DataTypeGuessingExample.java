@@ -37,7 +37,7 @@ import java.util.Scanner;
  * <h2>long long</h2>
  */
 public class DataTypeGuessingExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         final double NUMBER_1 = INPUT.nextDouble(),
                 NUMBER_2 = INPUT.nextDouble(),

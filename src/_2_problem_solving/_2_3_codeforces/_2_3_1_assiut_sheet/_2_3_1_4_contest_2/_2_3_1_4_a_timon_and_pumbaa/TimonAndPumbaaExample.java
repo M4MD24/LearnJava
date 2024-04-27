@@ -37,7 +37,7 @@ import java.util.Scanner;
  */
 
 public class TimonAndPumbaaExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         final long TIMON_CANDIES = INPUT.nextLong(),
                 PUMBAA_CANDIES = INPUT.nextLong();

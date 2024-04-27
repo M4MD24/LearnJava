@@ -50,7 +50,7 @@ import java.util.Scanner;
 public class PrimeFunctionExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         short coutnOfTestCases = INPUT.nextShort();
         while (coutnOfTestCases > 0) {
             System.out.print(isPrime(INPUT.nextInt()));

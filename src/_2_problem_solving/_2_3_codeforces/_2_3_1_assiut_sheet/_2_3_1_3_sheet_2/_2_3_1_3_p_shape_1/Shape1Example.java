@@ -33,7 +33,7 @@ import java.util.Scanner;
 public class Shape1Example {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = INPUT.nextInt();
         printPyramidsStarts(TARGET_NUMBER);
     }

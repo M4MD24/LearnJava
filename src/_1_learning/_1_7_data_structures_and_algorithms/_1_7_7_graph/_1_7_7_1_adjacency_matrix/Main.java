@@ -3,7 +3,7 @@ package _1_learning._1_7_data_structures_and_algorithms._1_7_7_graph._1_7_7_1_ad
 public class Main {
     private static final Graph GRAPH = new Graph(5);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         addNodeTest();
 
         addEdgeTest();

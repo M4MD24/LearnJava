@@ -31,7 +31,7 @@ import java.io.PrintStream;
  */
 
 public class PrintStreamExample {
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         printStream();
     }
 

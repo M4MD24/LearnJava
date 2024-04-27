@@ -12,7 +12,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  */
 
 public class Question3 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         float number1 = 50F;
         int number2 = 3, divideOfTwoNumbers = (int) (number1 / number2);
         System.out.print(divideOfTwoNumbers);

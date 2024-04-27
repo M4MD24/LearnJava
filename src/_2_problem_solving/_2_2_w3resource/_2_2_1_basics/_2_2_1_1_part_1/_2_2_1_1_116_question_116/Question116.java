@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 
 public class Question116 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter number: ");
         final int number = input.nextInt();

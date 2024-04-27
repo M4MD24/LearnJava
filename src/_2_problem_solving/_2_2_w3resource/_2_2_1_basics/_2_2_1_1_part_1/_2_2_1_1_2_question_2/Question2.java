@@ -12,7 +12,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  */
 
 public class Question2 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         int number1 = 74, number2 = 36, sumOfTwoNumbers = number1 + number2;
         System.out.print(sumOfTwoNumbers);
     }

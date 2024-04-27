@@ -56,7 +56,7 @@ import java.util.Scanner;
 public class SortNumbersExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int FIRST_NUMBER = Integer.parseInt(INPUT.next()),
                 SECOND_NUMBER = Integer.parseInt(INPUT.next()),
                 THIRD_NUMBER = Integer.parseInt(INPUT.next());

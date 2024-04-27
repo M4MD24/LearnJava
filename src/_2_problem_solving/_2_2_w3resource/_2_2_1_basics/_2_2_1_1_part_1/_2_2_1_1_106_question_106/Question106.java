@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 
 public class Question106 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int[] ARRAY = {11, 15, 13, 10, 45, 20, 11, 15};
         Scanner input = new Scanner(System.in);
         System.out.print("How much left shift?\n= ");

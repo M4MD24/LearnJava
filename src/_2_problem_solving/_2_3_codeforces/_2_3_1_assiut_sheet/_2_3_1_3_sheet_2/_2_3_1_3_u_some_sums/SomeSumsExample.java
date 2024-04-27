@@ -45,7 +45,7 @@ import java.util.Scanner;
 public class SomeSumsExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int NUMBER_1 = INPUT.nextInt(),
                 NUMBER_2 = INPUT.nextInt(),
                 NUMBER_3 = INPUT.nextInt();

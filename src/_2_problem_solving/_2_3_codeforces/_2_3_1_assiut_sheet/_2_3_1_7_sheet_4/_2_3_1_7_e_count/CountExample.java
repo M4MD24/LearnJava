@@ -24,7 +24,7 @@ import java.util.Scanner;
  */
 
 public class CountExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         final String TEXT = INPUT.next();
         System.out.print(sum(TEXT));

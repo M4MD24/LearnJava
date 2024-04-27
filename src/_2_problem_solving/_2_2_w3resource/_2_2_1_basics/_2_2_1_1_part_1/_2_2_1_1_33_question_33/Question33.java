@@ -13,7 +13,7 @@ import java.util.Scanner;
  * <h2>The sum of the digits is: 7</h2>
  */
 public class Question33 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Input an integer: ");

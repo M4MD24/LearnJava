@@ -50,7 +50,7 @@ public class RectangleExample {
             FOURTH_POINT_FIRST_CIRCLE = INPUT.nextInt(),
             FOURTH_POINT_SECOND_LINE = INPUT.nextInt();
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputPoints();
     }
 

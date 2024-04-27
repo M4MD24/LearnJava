@@ -44,7 +44,7 @@ public class PalindromeArrayExample {
     private static final int LENGTH = INPUT.nextInt();
     private static final int[] NUMBERS = new int[LENGTH];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
         System.out.print(isPalindromeArray());
     }

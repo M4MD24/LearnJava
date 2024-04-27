@@ -31,7 +31,7 @@ import java.util.LinkedList;
  */
 
 public class DequeExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         dequeArrayDeque();
         dequeLinkedList();
     }

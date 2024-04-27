@@ -29,7 +29,7 @@ import java.util.Scanner;
  */
 
 public class IntervalSweepExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         final long NUMBER_1 = INPUT.nextLong(),
                 NUMBER_2 = INPUT.nextLong();

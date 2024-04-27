@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class Question147 {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.print("Input first number: ");
         final int NUMBER_1 = INPUT.nextInt();
         System.out.print("Input second number: ");

@@ -35,7 +35,7 @@ enum Fruits {
 }
 
 class EnumConstructor {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.println("Fruits.APPLE: " + Fruits.APPLE);
         System.out.println("Fruits.APPLE.toString(): " + Fruits.APPLE.toString());
         System.out.println("Fruits.APPLE.getFruit(): " + Fruits.APPLE.getFruit());

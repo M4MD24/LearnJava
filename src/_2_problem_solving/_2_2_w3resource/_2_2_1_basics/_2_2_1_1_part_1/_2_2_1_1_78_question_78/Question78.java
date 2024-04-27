@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class Question78 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int[] originalArray = {5, 7};
         System.out.println("Original Array: " + Arrays.toString(originalArray));
         boolean condition = false;
