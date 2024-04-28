@@ -183,3 +183,20 @@ private static double getTriangleArea(final int LATITUDE_COORDINATES_FIRST_POINT
     return Math.abs((LATITUDE_COORDINATES_FIRST_POINT * (LONGITUDE_COORDINATES_SECOND_POINT - LONGITUDE_COORDINATES_THIRD_POINT) + LATITUDE_COORDINATES_SECOND_POINT * (LONGITUDE_COORDINATES_THIRD_POINT - LONGITUDE_COORDINATES_FIRST_POINT) + LATITUDE_COORDINATES_THIRD_POINT * (LONGITUDE_COORDINATES_FIRST_POINT - LONGITUDE_COORDINATES_SECOND_POINT)) / 2.0);
 }
 ```
+
+### Are Two Lines Parallel with Four Points
+
+```java
+private static boolean areTwoLinesParallelWithFourPoints(final double FIRST_POINT_FIRST_LINE,
+                                                         final double SECOND_POINT_FIRST_LINE,
+                                                         final double FIRST_POINT_SECOND_LINE,
+                                                         final double SECOND_POINT_SECOND_LINE,
+                                                         final double FIRST_POINT_THIRD_LINE,
+                                                         final double SECOND_POINT_THIRD_LINE,
+                                                         final double FIRST_POINT_FOURTH_LINE,
+                                                         final double SECOND_POINT_FOURTH_LINE) {
+    final double FIRST_SLOPE = (SECOND_POINT_SECOND_LINE - SECOND_POINT_FIRST_LINE) / (FIRST_POINT_SECOND_LINE - FIRST_POINT_FIRST_LINE),
+            SECOND_SLOPE = (SECOND_POINT_FOURTH_LINE - SECOND_POINT_THIRD_LINE) / (FIRST_POINT_FOURTH_LINE - FIRST_POINT_THIRD_LINE);
+    return FIRST_SLOPE == SECOND_SLOPE;
+}
+```
