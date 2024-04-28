@@ -70,6 +70,7 @@
 14. **String Buffer**
 15. **String Builder**
 16. **Escape Sequences**
+17. **Text Color Strings**
 
 ### 2. Testing
 
