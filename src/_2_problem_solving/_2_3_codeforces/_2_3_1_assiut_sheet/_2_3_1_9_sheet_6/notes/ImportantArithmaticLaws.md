@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# 19 Law of the Most Important Arithmetic Laws
+# 20 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -235,5 +235,13 @@ public static boolean isRectangle(final double FIRST_SIDE, final double SECOND_S
 
 public static boolean isRhombus(final double FIRST_SIDE, final double SECOND_SIDE) {
     return FIRST_SIDE == SECOND_SIDE;
+}
+```
+
+### Get Count of Regions
+
+```java
+private static int getCountOfRegions(final int COUNT_OF_STRAIGHT_LINES) {
+    return (COUNT_OF_STRAIGHT_LINES * (COUNT_OF_STRAIGHT_LINES + 1) >> 1) + 1;
 }
 ```

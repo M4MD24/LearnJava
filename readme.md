@@ -214,7 +214,7 @@
 
 ---
 
-## _2. Problem Solving (516)_
+## _2. Problem Solving (517)_
 
 - Solving problems and projects
 
@@ -222,11 +222,11 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (233 Question)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (234 Question)
 
-1. **Basics (233 Question)**
+1. **Basics (234 Question)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
-    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (83 Question)**
+    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (84 Question)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 
@@ -296,7 +296,9 @@
 
 - <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Name</b> Mohamed Sadawy Thabet <b>(M3MD69)</b>
 - <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"/> <b>Field</b> Software Engineer <b>/</b> Native Android Developer
-- <img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a href="https://t.me/M3MD69">@M3MD69</a>
-- <img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a>
-- <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Owner's Achievements</b>
-  <ul> <li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> First person to solve all the problems of Sheet Assiut in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li> </ul>
+- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>For Contact Us</b>
+  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a href="https://t.me/M3MD69">@M3MD69</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/github_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a href="https://github.com/M3MD69">@M3MD69</a></li></ul>
+- <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Sheet Assiut in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
