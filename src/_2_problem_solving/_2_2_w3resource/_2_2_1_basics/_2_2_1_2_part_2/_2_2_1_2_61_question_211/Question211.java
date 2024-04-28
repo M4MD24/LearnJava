@@ -15,11 +15,11 @@ import java.util.Comparator;
  * <br/>
  * <br/>
  * Heights of the top three buildings:
- * <Br/>
+ * <br/>
  * 45
- * <Br/>
+ * <br/>
  * 25
- * <Br/>
+ * <br/>
  * 24
  * </h2>
  */
