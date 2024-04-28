@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# 18 Law of the Most Important Arithmetic Laws
+# 19 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -214,5 +214,26 @@ private static String getOverlapStatus(final int FIRST_CIRCLE_FIRST_CENTER, fina
         return "First circle is in second circle";
     else
         return "First circle and second circle don't overlap";
+}
+```
+
+### Get Polygon Status
+
+```java
+private static String getPolygonStatus(final double FIRST_SIDE, final double SECOND_SIDE, final double DIAGONAL) {
+    if (isRectangle(FIRST_SIDE, SECOND_SIDE, DIAGONAL))
+        return "This is a rectangle.";
+    else if (isRhombus(FIRST_SIDE, SECOND_SIDE))
+        return "This is a rhombus.";
+    else
+        return "This is neither a rectangle nor a rhombus.";
+}
+
+public static boolean isRectangle(final double FIRST_SIDE, final double SECOND_SIDE, final double DIAGONAL) {
+    return DIAGONAL * DIAGONAL == FIRST_SIDE * FIRST_SIDE + SECOND_SIDE * SECOND_SIDE;
+}
+
+public static boolean isRhombus(final double FIRST_SIDE, final double SECOND_SIDE) {
+    return FIRST_SIDE == SECOND_SIDE;
 }
 ```
