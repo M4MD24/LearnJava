@@ -43,12 +43,12 @@ public class Question228 {
         try {
             targetSum = INPUT.nextByte();
             if (targetSum > 45 || targetSum < 0) {
-                System.out.println("\u001B[31m2. Enter target sum between 0:45\u001B[m\n");
+                System.out.println("\u001B[31m2. Enter target sum between 0:45\u001B[0m\n");
                 Question228.main(new String[]{});
                 return true;
             }
         } catch (final Exception IGNORED) {
-            System.out.println("\u001B[31m2. Enter target sum between 0:45]\u001B[m\n");
+            System.out.println("\u001B[31m2. Enter target sum between 0:45]\u001B[0m\n");
         }
         return false;
     }
@@ -58,12 +58,12 @@ public class Question228 {
         try {
             countOfCombination = INPUT.nextByte();
             if (countOfCombination > 9 || countOfCombination < 1) {
-                System.out.println("\u001B[31m1. Enter count of combination between 0:9\u001B[m\n");
+                System.out.println("\u001B[31m1. Enter count of combination between 0:9\u001B[0m\n");
                 Question228.main(new String[]{});
                 return true;
             }
         } catch (final Exception IGNORED) {
-            System.out.println("\u001B[31m1. Enter count of combination between 0:9]\u001B[m\n");
+            System.out.println("\u001B[31m1. Enter count of combination between 0:9]\u001B[0m\n");
         }
         return false;
     }
