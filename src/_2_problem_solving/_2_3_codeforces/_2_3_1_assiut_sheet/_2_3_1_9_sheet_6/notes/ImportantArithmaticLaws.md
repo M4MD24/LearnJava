@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# Of the Most Important Arithmetic Laws
+# 18 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -198,5 +198,21 @@ private static boolean areTwoLinesParallelWithFourPoints(final double FIRST_POIN
     final double FIRST_SLOPE = (SECOND_POINT_SECOND_LINE - SECOND_POINT_FIRST_LINE) / (FIRST_POINT_SECOND_LINE - FIRST_POINT_FIRST_LINE),
             SECOND_SLOPE = (SECOND_POINT_FOURTH_LINE - SECOND_POINT_THIRD_LINE) / (FIRST_POINT_FOURTH_LINE - FIRST_POINT_THIRD_LINE);
     return FIRST_SLOPE == SECOND_SLOPE;
+}
+```
+
+### Get Overlap Status
+
+```java
+private static String getOverlapStatus(final int FIRST_CIRCLE_FIRST_CENTER, final int FIRST_CIRCLE_SECOND_CENTER, final int FIRST_CIRCLE_RADIUS, final int SECOND_CIRCLE_FIRST_CENTER, final int SECOND_CIRCLE_SECOND_CENTER, final int SECOND_CIRCLE_RADIUS) {
+    final double DISTANCE = Math.sqrt((FIRST_CIRCLE_FIRST_CENTER - SECOND_CIRCLE_FIRST_CENTER) * (FIRST_CIRCLE_FIRST_CENTER - SECOND_CIRCLE_FIRST_CENTER) + (FIRST_CIRCLE_SECOND_CENTER - SECOND_CIRCLE_SECOND_CENTER) * (FIRST_CIRCLE_SECOND_CENTER - SECOND_CIRCLE_SECOND_CENTER));
+    if (DISTANCE > FIRST_CIRCLE_RADIUS + SECOND_CIRCLE_RADIUS)
+        return "Circumference of first circle and second circle intersect";
+    else if (FIRST_CIRCLE_RADIUS > DISTANCE + SECOND_CIRCLE_RADIUS)
+        return "Second circle is in first circle";
+    else if (SECOND_CIRCLE_RADIUS > DISTANCE + FIRST_CIRCLE_RADIUS)
+        return "First circle is in second circle";
+    else
+        return "First circle and second circle don't overlap";
 }
 ```
