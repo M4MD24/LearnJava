@@ -31,9 +31,9 @@ public class Question227 {
     }
 
     private static String getLongestTextsBetweenFirstDuplicateWord(final String PARAGRAPH) {
-        final String[][] WORDS = new String[][]{PARAGRAPH.split(" ")};
-        final String DUPLICATED_WORD = getDuplicatedWord(WORDS),
-                LONGEST_WORD = getLongestWord(WORDS);
+        final String[][] LINE = new String[][]{PARAGRAPH.split(" ")};
+        final String DUPLICATED_WORD = getDuplicatedWord(LINE),
+                LONGEST_WORD = getLongestWord(LINE);
         if (!DUPLICATED_WORD.isEmpty() && !LONGEST_WORD.isEmpty())
             return STR."\{DUPLICATED_WORD} \{LONGEST_WORD}";
         else if (!DUPLICATED_WORD.isEmpty())
@@ -44,21 +44,21 @@ public class Question227 {
             return "";
     }
 
-    private static String getLongestWord(final String[][] WORDS) {
+    private static String getLongestWord(final String[][] LINE) {
         String longestWord = "";
-        for (final String[] TEXT : WORDS)
-            for (final String WORD : TEXT)
+        for (final String[] WORDS : LINE)
+            for (final String WORD : WORDS)
                 if (WORD.length() > longestWord.length())
                     longestWord = WORD;
         return longestWord;
     }
 
-    private static String getDuplicatedWord(final String[][] WORDS) {
-        for (int round = 0; round < WORDS[0].length; round++)
-            for (int index = 0; index < WORDS[0].length; index++)
+    private static String getDuplicatedWord(final String[][] LINE) {
+        for (int round = 0; round < LINE[0].length; round++)
+            for (int index = 0; index < LINE[0].length; index++)
                 if (round != index)
-                    if (WORDS[0][round].equals(WORDS[0][index]))
-                        return WORDS[0][round];
+                    if (LINE[0][round].equals(LINE[0][index]))
+                        return LINE[0][round];
         return "";
     }
 }
