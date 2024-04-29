@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# 20 Law of the Most Important Arithmetic Laws
+# 21 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -243,5 +243,21 @@ public static boolean isRhombus(final double FIRST_SIDE, final double SECOND_SID
 ```java
 private static int getCountOfRegions(final int COUNT_OF_STRAIGHT_LINES) {
     return (COUNT_OF_STRAIGHT_LINES * (COUNT_OF_STRAIGHT_LINES + 1) >> 1) + 1;
+}
+```
+
+### Are Orthogonal
+
+```java
+    private static boolean areLinesOrthogonal(final double START_X1, final double START_Y1,
+                                              final double END_X1, final double END_Y1,
+                                              final double START_X2, final double START_Y2,
+                                              final double END_X2, final double END_Y2) {
+    final double VECTOR_1X = END_X1 - START_X1,
+            VECTOR_1Y = END_Y1 - START_Y1,
+            VECTOR_2X = END_X2 - START_X2,
+            VECTOR_2Y = END_Y2 - START_Y2,
+            DOT_PRODUCT = VECTOR_1X * VECTOR_2X + VECTOR_1Y * VECTOR_2Y;
+    return DOT_PRODUCT == 0;
 }
 ```
