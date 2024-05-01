@@ -31,7 +31,7 @@ import java.io.InputStreamReader;
  */
 
 public class PowerOfTwoExample {
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         System.out.print(isPowerOfTwo(Long.parseLong(new BufferedReader(new InputStreamReader(System.in)).readLine())));
     }
 

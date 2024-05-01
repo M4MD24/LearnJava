@@ -54,7 +54,7 @@ import java.util.Scanner;
 public class PumExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = INPUT.nextInt();
         printPUMS(TARGET_NUMBER);
     }

@@ -4,7 +4,7 @@ public class Main {
     private static final BinaryTree<Character> BINARY_TREE_1 = new BinaryTree<>(),
             BINARY_TREE_2 = new BinaryTree<>();
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         insertTest();
         inorderTest();
         preorderTest();

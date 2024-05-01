@@ -39,7 +39,7 @@ import java.io.InputStreamReader;
  */
 
 public class URLExample {
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         getURLInformation(new StringBuffer(INPUT.readLine()));
     }

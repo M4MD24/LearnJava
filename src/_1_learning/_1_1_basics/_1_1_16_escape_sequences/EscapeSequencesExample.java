@@ -30,7 +30,7 @@ package _1_learning._1_1_basics._1_1_16_escape_sequences;
 /* √ Escape Sequences = Escape Characters */
 
 public class EscapeSequencesExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         String normalText = "Native Android Developer";
         String withNewLine = "Native(\n)Android Developer";
         String withBackSpace = "Native(\b)Android Developer";

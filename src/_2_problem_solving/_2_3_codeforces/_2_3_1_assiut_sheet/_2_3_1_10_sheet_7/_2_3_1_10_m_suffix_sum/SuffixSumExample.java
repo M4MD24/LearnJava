@@ -36,7 +36,7 @@ public class SuffixSumExample {
     private static final int START_SUMMATION_AT = INPUT.nextInt();
     private static long total = 0;
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.print(inputValuesRecursion());
     }
 

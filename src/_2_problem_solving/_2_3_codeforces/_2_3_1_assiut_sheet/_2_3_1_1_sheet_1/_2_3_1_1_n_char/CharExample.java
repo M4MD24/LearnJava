@@ -34,7 +34,7 @@ public class CharExample {
     private static final boolean CONDITION_CAPITAL = LETTER > 64 && LETTER < 91;
     private static final char CHANGE_CASE = (char) ((CONDITION_CAPITAL) ? LETTER + 32 : LETTER - 32);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.print(CHANGE_CASE);
     }
 }

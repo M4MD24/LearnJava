@@ -50,7 +50,7 @@ public class TheMaximumPathSumExample {
             COLUMNS = INPUT.nextByte();
     private static final int[][] NUMBERS = new int[ROWS][COLUMNS];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues((byte) 0, (byte) 0);
         System.out.print(getMaximumPathOfSumNumbers((byte) 0, (byte) 0));
     }

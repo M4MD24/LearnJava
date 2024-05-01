@@ -21,7 +21,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  * </h2>
  */
 public class Question31 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.println("Java Version: " + System.getProperty("java.version"));
         System.out.println("Java Runtime Version: " + System.getProperty("java.runtime.version"));
         System.out.println("Java Home: " + System.getProperty("java.home"));

@@ -43,7 +43,7 @@ import java.util.Scanner;
  */
 
 public class EvenNumbersExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         final int TARGET_NUMBER = INPUT.nextInt();
         printEvenNumbers(TARGET_NUMBER);

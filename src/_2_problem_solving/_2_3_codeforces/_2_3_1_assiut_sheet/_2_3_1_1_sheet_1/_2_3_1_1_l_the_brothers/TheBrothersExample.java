@@ -49,7 +49,7 @@ public class TheBrothersExample {
     static String firstName,
             secondName;
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.print((getFirstSecondName().equals(getSecondSecondName())) ? "ARE Brothers" : "NOT");
     }
 

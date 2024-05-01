@@ -58,7 +58,7 @@ public class FrequencyArrayExample {
             TARGET_NUMBER = INPUT.nextInt();
     private static final int[] COUNTERS = new int[TARGET_NUMBER];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
         printCountNumbers();
     }

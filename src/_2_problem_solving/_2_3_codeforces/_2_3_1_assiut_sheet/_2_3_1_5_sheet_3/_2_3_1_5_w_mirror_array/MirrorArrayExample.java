@@ -51,7 +51,7 @@ public class MirrorArrayExample {
             COLUMNS = INPUT.nextInt();
     private static final int[][] NUMBERS = new int[ROWS][COLUMNS];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
         printMirrorValues();
     }

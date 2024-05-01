@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 
 public class Question92 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         countEvenAndOddOfArray(arrayValues());
     }
 

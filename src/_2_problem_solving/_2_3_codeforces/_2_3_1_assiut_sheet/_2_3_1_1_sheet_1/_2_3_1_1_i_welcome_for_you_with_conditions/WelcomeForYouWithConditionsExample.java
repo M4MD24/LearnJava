@@ -39,7 +39,7 @@ public class WelcomeForYouWithConditionsExample {
             NUMBER_2 = Integer.parseInt(INPUT.next());
     private static final String CONDITION = (NUMBER_1 >= NUMBER_2) ? "Yes" : "No";
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.print(CONDITION);
     }
 }

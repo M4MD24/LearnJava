@@ -37,7 +37,7 @@ public class ReplacementExample {
     private static final short LENGTH = INPUT.nextShort();
     private static final int[] NUMBERS = new int[LENGTH];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
         replacementEveryNumber();
         printValues();

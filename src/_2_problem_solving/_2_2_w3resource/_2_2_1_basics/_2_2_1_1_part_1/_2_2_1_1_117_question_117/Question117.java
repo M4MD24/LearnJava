@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Question117 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Scanner input = new Scanner(System.in);
         final int NUMBER;
 

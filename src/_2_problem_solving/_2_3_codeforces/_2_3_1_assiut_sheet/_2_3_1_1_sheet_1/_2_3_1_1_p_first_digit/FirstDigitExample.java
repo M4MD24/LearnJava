@@ -31,7 +31,7 @@ import java.util.Scanner;
 public class FirstDigitExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         long number = INPUT.nextLong(),
                 firstDigit = 0;
         while (number != 0) {

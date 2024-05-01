@@ -29,7 +29,7 @@ import java.util.Scanner;
  */
 
 public class FoxAndSnakeExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         printShape(INPUT.nextByte(), INPUT.nextByte());
     }

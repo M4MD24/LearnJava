@@ -19,7 +19,7 @@ import java.util.ListIterator;
  * </ul>
  */
 public class ListIteratorExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         listIterator();
     }
 

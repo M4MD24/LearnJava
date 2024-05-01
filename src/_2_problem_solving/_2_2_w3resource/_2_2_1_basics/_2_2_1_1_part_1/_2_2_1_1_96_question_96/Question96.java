@@ -6,7 +6,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  */
 
 public class Question96 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         int[] array = {333, 32, 547, 10, 45, 4562, 789, 20, 59};
         byte status = 0;
         for (int number:array)

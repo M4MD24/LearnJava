@@ -64,7 +64,7 @@ public class CountingElementsExample {
     private static final short LENGTH = INPUT.nextShort();
     private static final short[] NUMBERS = new short[LENGTH];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
         countingValues();
     }

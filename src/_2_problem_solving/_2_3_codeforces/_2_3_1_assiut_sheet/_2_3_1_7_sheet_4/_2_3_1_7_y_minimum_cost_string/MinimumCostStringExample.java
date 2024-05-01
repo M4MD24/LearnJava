@@ -54,7 +54,7 @@ public class MinimumCostStringExample {
     private static int LENGTH;
     private static final int[] NUMBERS = new int[26];
 
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         inputNumbers();
         printMinimumCost();
     }

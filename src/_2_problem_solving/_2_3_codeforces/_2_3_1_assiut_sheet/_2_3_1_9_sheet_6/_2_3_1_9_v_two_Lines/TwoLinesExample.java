@@ -47,7 +47,7 @@ public class TwoLinesExample {
             FOURTH_NUMBER_FIRST_LINE = INPUT.nextShort(),
             FOURTH_NUMBER_SECOND_LINE = INPUT.nextShort();
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.print((isParallel()) ? "YES" : "NO");
     }
 

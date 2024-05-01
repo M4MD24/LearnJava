@@ -7,7 +7,7 @@ class AnotherClass { // Class
 }
 
 public class Class { // Main Class
-    public static void main(String[] args) { // Main Function
+    public static void main(final String[] ARGS) { // Main Function
         AnotherClass anotherClassObject = new AnotherClass(); // Object
 
         final float NUMBER1 = 10F, NUMBER2 = 3F;

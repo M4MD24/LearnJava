@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question105 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int[] ARRAY = {11, 15, 13, 10, 45, 20, 11, 15};
         System.out.println("Array: " + Arrays.toString(ARRAY));
         System.out.print(checkStartAndEndSame(ARRAY, 2));

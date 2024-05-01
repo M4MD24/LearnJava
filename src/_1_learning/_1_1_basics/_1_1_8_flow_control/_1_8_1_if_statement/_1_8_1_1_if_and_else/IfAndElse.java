@@ -1,7 +1,7 @@
 package _1_learning._1_1_basics._1_1_8_flow_control._1_8_1_if_statement._1_8_1_1_if_and_else;
 
 public class IfAndElse {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         int number1 = 10;
         int number2 = 3;
         int number3 = 10;

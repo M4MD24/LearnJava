@@ -45,7 +45,7 @@ import java.util.Scanner;
 public class ConvertToDecimal2Example {
     final static Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int LENGTH = INPUT.nextInt();
         processDecimalNumbers(LENGTH);
     }

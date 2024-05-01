@@ -50,7 +50,7 @@ public class BinarySearchExample {
     private static int countOfTestCases = INPUT.nextInt();
     private static final int[] NUMBERS = new int[LENGTH];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
         Arrays.sort(NUMBERS);
         while (countOfTestCases > 0) {

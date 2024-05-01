@@ -3,7 +3,7 @@ package _1_learning._1_7_data_structures_and_algorithms._1_7_5_queue;
 public class Main {
     private static final Queue<Integer> queue = new Queue<>();
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         showAllTest();
 
         enQueueTest();

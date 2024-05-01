@@ -34,7 +34,7 @@ public class MaxExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static int MAX_NUMBER = 0;
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int ARRAY_LENGTH = INPUT.nextInt();
         enterValues(ARRAY_LENGTH);
         System.out.print(MAX_NUMBER);

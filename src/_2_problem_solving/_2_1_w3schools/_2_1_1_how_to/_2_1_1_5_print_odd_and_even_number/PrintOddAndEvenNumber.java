@@ -3,7 +3,7 @@ package _2_problem_solving._2_1_w3schools._2_1_1_how_to._2_1_1_5_print_odd_and_e
 import java.util.Scanner;
 
 public class PrintOddAndEvenNumber {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Scanner input = new Scanner(System.in);
         while (true) {
             int number = input.nextInt();

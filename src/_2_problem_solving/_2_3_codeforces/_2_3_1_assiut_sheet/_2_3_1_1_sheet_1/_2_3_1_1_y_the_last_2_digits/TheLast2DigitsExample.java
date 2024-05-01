@@ -35,7 +35,7 @@ import java.util.Scanner;
 public class TheLast2DigitsExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final long NUMBER_1 = Integer.parseInt(INPUT.next()),
                 NUMBER_2 = Integer.parseInt(INPUT.next()),
                 NUMBER_3 = Integer.parseInt(INPUT.next()),

@@ -1,7 +1,7 @@
 package _1_learning._1_2_testing;
 
 public class TestingExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
     }
 
     int sumTwoNumbers(int number1, int number2) {

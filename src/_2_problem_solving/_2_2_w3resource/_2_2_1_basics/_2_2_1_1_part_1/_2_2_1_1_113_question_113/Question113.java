@@ -17,7 +17,7 @@ import java.util.Arrays;
  */
 
 public class Question113 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int[] FIRST_ARRAY = {4, 8, 3, 0, 67, 20},
                 SECOND_ARRAY = {2, 2, 7, 100, 5},
                 MERGED_ARRAY = mergeArray(FIRST_ARRAY, SECOND_ARRAY),

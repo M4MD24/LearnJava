@@ -37,7 +37,7 @@ public class NewArrayExample {
     private static short length = (short) (INPUT.nextShort() * 2);
     private static final int[] NUMBERS = new int[length];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
         printValues();
     }

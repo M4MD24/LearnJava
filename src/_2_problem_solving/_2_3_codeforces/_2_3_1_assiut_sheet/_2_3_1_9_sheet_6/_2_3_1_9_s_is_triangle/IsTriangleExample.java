@@ -41,7 +41,7 @@ public class IsTriangleExample {
             SECOND_SIDE_LENGTH = INPUT.nextShort(),
             THIRD_SIDE_LENGTH = INPUT.nextShort();
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         if (isTriangle())
             System.out.printf("%.6f", equilateralTriangleArea((short) (FIRST_SIDE_LENGTH + SECOND_SIDE_LENGTH + THIRD_SIDE_LENGTH)));
     }

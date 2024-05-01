@@ -85,7 +85,7 @@ public class MaximumSubArrayExample {
     private static int length;
     private static int[] numbers;
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         int countOfTestCases = INPUT.nextInt();
         while (countOfTestCases > 0) {
             length = INPUT.nextInt();

@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Question28 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         String hexadecimalNumber;
         int decimalNumber;
         Scanner input = new Scanner(System.in);

@@ -43,7 +43,7 @@ class Solution2 {
 }
 
 public class Question115 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Scanner input = new Scanner(System.in);
         System.out.print("Input a positive integer: ");
         final long NUMBER = input.nextLong();

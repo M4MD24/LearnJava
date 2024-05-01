@@ -97,7 +97,7 @@ public class IsItRatedExample {
     private static boolean isEqual = true;
     private static final short[] PARTICIPANT_VALUES = new short[countOfRounds];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
         System.out.print(isRated());
     }

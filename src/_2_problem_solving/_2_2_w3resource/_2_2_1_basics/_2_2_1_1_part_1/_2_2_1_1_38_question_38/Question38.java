@@ -8,7 +8,7 @@ import java.util.Scanner;
  * <br/>
  * <h1>Excepted Output:</h1>
  * <h2>
- * The string is :  Aa kiu, I swd skieo 236587. GH kiu: sieo?? 25.33
+ * The string is : Aa kiu, I swd skieo 236587. GH kiu: sieo?? 25.33
  * <br/>
  * Letter: 23
  * <br/>
@@ -21,7 +21,7 @@ import java.util.Scanner;
  */
 
 public class Question38 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Input a string: ");

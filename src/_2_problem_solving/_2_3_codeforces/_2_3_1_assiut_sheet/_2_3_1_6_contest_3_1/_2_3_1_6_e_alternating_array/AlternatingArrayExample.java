@@ -56,7 +56,7 @@ public class AlternatingArrayExample {
     private static final int[] NUMBERS_1 = new int[LENGTH],
             NUMBERS_2 = new int[LENGTH];
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
         minimumNumberOfOperationsRequiredToConvertArrayIntoAnAlternatingArray();
     }

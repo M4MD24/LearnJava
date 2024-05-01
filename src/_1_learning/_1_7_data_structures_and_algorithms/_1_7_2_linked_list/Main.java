@@ -3,7 +3,7 @@ package _1_learning._1_7_data_structures_and_algorithms._1_7_2_linked_list;
 public class Main {
     private static final LinkedList<Integer> linkedList = new LinkedList<>();
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.println("■ displayAll() Test");
         displayAll();
 
@@ -22,6 +22,8 @@ public class Main {
         deleteLastTest();
 
         swapBetweenIndexesTest();
+
+        swapEveryTwoAdjacent();
 
         checkLinkedListIsSortedTest();
 
@@ -97,6 +99,12 @@ public class Main {
     private static void swapBetweenIndexesTest() {
         System.out.println("■ swapBetweenIndexes() Test");
         linkedList.swapBetweenIndexes(0, 1);
+        displayAll();
+    }
+
+    private static void swapEveryTwoAdjacent() {
+        System.out.println("■ swapEveryTwoAdjacent() Test");
+        linkedList.swapEveryTwoAdjacent();
         displayAll();
     }
 

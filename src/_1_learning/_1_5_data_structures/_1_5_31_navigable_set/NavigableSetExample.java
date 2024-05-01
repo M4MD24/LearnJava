@@ -38,7 +38,7 @@ import java.util.TreeSet;
  */
 
 public class NavigableSetExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         navigableSetTreeSet();
     }
 

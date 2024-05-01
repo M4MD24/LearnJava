@@ -47,7 +47,7 @@ import java.io.InputStreamReader;
  */
 
 public class ThreeNPlusOneSequenceExample {
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         System.out.print(returnCountOf3NPlus1(Integer.parseInt(new BufferedReader(new InputStreamReader(System.in)).readLine())));
     }
 

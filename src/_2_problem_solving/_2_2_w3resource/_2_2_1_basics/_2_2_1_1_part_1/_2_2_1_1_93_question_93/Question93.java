@@ -6,7 +6,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  */
 
 public class Question93 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         int[] array = {10, 10, 22, 33, 10, 20};
         boolean status = false;
         for (int index1 = 0, index2 = 1; index2 < array.length; index1++, index2++)

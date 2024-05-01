@@ -39,7 +39,7 @@ public class Question137 {
         return uniquePaths[0][0];
     }
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         int[][] obstacle_Grid = {
                 {0, 0, 0},
                 {0, 1, 0},

@@ -33,7 +33,7 @@ import java.util.Scanner;
 public class SumDigitsExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         INPUT.nextLine();
         final String NUMBERS_SEQUENCE = INPUT.nextLine();
         System.out.print(sumDigits(NUMBERS_SEQUENCE));

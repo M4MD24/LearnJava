@@ -71,7 +71,7 @@ public class MarksExample {
     private static byte countOfStudents, countOfStudentMarks;
     private static StringBuffer[] students;
 
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         inputStudentMarks();
         OUTPUT.write(String.valueOf(getCountOfSuccessfulStudents()));
         OUTPUT.flush();

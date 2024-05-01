@@ -6,7 +6,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  */
 
 public class Question102 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int[] ARRAY = {11, 11, 13, 31, 45, 20, 33, 53};
         System.out.print(Contains10Or30(ARRAY));
     }

@@ -17,7 +17,7 @@ public class TransientExample implements Serializable {
     transient static int l = 40;
     transient final int m = 50;
 
-    public static void main(String[] args) throws Exception {
+    public static void main(final String[] ARGS) throws Exception {
         // serialization
         final TransientExample INPUT = new TransientExample();
         final FileOutputStream FILE_OUTPUT_STREAM = new FileOutputStream("src\\1_learning\\1_3_handling\\1_3_2_file_handling\\1_3_2_4_keywords\\File.txt");

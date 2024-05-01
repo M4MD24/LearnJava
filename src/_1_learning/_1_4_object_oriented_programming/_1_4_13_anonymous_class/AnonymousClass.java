@@ -47,7 +47,7 @@ class Anonymous {
 }
 
 class AnonymousClass {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Anonymous anonymous = new Anonymous();
         anonymous.InnerClass1();
         anonymous.InnerClass2();

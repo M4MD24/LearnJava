@@ -44,7 +44,7 @@ import java.util.Scanner;
  */
 
 public class MaxSubSequenceExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         INPUT.nextInt();
         final String TEXT = INPUT.next();

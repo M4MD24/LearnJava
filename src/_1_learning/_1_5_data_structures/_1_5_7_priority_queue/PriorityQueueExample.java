@@ -18,7 +18,7 @@ import java.util.PriorityQueue;
  * </ul>
  */
 public class PriorityQueueExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         priorityQueue();
     }
 

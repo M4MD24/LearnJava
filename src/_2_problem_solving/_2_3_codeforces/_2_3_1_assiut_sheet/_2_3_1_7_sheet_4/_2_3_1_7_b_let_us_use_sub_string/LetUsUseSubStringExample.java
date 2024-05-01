@@ -29,7 +29,7 @@ import java.util.Scanner;
  */
 
 public class LetUsUseSubStringExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         final String TEXT = INPUT.nextLine();
         System.out.print(TEXT.substring(0, TEXT.indexOf("\\")));

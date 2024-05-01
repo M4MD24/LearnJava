@@ -65,7 +65,7 @@ import java.util.Set;
 public class AnnouncementExample {
     private static int totalOfFrequentlyProblems = 0;
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputProblems();
         System.out.print(totalOfFrequentlyProblems == 0 ? -1 : totalOfFrequentlyProblems);
     }

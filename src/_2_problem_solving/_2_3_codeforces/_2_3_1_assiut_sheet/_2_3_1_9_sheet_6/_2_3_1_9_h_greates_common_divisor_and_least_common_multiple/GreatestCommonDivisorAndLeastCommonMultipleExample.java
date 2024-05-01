@@ -34,7 +34,7 @@ public class GreatestCommonDivisorAndLeastCommonMultipleExample {
     private static long greatestCommonDivisor,
             leastCommonMultiple;
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
         System.out.print(greatestCommonDivisor + " " + leastCommonMultiple);
     }

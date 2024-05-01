@@ -18,7 +18,7 @@ import java.util.Scanner;
  */
 
 public class Question64 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Scanner input = new Scanner(System.in);
         System.out.println("Note: enter values between 25:75");
         while (true) {

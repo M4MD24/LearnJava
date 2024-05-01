@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question104 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         int[] ORIGINAL_ARRAY = {11, 15, 13, 10, 45, 20, 33, 53},
                 NEW_ARRAY = addElementsBeforeSpecificNumberToNewArray(ORIGINAL_ARRAY, 10),
                 NEW_ARRAY_2 = addElementsBeforeSpecificNumberToNewArray_Solution2(ORIGINAL_ARRAY, 10); // > Solution 2

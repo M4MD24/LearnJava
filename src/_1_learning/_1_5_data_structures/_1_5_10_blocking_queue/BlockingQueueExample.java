@@ -21,7 +21,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  * </ul>
  */
 public class BlockingQueueExample {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(final String[] ARGS) throws InterruptedException {
         blockingQueueArrayBlockingQueue();
         blockingQueueLinkedBlockingQueue();
     }

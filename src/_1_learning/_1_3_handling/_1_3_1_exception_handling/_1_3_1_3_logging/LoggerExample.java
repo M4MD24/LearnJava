@@ -4,7 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class LoggerExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Logger logger = Logger.getLogger(LoggerExample.class.getName());
         logger.severe("1 - severe - This is a severe message");
         logger.warning("2 - warning - This is a warning message");

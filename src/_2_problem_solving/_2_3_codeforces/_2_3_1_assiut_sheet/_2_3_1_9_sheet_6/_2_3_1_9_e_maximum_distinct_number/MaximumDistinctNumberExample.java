@@ -42,7 +42,7 @@ import java.io.InputStreamReader;
  */
 
 public class MaximumDistinctNumberExample {
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGS) throws IOException {
         System.out.print(maximumDistinctNumber(Long.parseLong(new BufferedReader(new InputStreamReader(System.in)).readLine())));
     }
 

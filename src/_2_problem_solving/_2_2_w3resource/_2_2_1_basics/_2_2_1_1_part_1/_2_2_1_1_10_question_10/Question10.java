@@ -12,7 +12,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_
  */
 
 public class Question10 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         double resultOfSpecifiedFormula = 4.0 * (1 - (1.0 / 3) + (1.0 / 5) - (1.0 / 7) + (1.0 / 9) - (1.0 / 11));
         System.out.print(resultOfSpecifiedFormula);
     }

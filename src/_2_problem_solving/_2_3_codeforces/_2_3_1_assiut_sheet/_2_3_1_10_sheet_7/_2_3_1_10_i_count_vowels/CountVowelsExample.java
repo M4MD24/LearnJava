@@ -44,7 +44,7 @@ public class CountVowelsExample {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.print(countVowelLettersRecursion((short) 0, (short) 0));
     }
 

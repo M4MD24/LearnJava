@@ -40,7 +40,7 @@ public class BasicDataTypesExample {
     private static float floatVariable;
     private static double doubleVariable;
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
         displayValues();
     }

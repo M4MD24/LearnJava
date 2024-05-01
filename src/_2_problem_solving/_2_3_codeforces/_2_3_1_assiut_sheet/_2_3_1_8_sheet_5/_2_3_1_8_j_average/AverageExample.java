@@ -43,7 +43,7 @@ public class AverageExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static final short LENGTH = INPUT.nextShort();
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         System.out.print(inputValuesAndPrintAverage());
     }
 

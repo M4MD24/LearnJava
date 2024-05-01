@@ -34,7 +34,7 @@ import java.util.Scanner;
  */
 
 public class HardCompareExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Scanner SCANNER = new Scanner(System.in);
         final long NUMBER_1 = SCANNER.nextLong(),
                 NUMBER_2 = SCANNER.nextLong(),

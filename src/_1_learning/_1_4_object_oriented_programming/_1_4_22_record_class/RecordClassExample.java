@@ -7,7 +7,7 @@ record Person(int id, String name) {
 }
 
 public class RecordClassExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         String[] names = {"Abd-Allah", "Abd-ElRahman", "Mohamed", "Ahmed"};
         for (int index = 0; index < names.length; index++) System.out.println(new Person(index, names[index]));
 

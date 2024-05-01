@@ -46,7 +46,7 @@ import java.util.Scanner;
 public class LuckyArrayExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final int[] NUMBERS = new int[INPUT.nextShort()];
         inputValues(NUMBERS);
         System.out.print(isLucky(NUMBERS));

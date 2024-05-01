@@ -41,7 +41,7 @@ import java.util.Scanner;
  */
 
 public class GoodOrBadExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         inputValues();
     }
 

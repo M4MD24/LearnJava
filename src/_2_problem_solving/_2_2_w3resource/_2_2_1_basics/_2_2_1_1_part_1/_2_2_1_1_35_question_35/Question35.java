@@ -24,7 +24,7 @@ import java.util.Scanner;
  */
 
 public class Question35 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Input the number of sides on the polygon: ");
