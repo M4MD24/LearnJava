@@ -8,7 +8,7 @@ import java.util.Scanner;
  * <br/>
  * <h1>Excepted Output:</h1>
  * <h2>
- * Input a number:  1427
+ * Input a number: 1427
  * <br/>
  * 6
  * </h2>
