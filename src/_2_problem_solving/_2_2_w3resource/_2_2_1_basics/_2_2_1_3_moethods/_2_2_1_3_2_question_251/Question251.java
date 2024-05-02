@@ -40,14 +40,14 @@ public class Question251 {
     }
 
     private static void printAverageNumber(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {
-        System.out.print(STR."The average value is \{averageNumbers(
+        System.out.print(STR."The average value is \{getAverageNumbers(
                 FIRST_NUMBER,
                 SECOND_NUMBER,
                 THIRD_NUMBER
         )}");
     }
 
-    private static int averageNumbers(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {
+    private static int getAverageNumbers(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {
         return (FIRST_NUMBER + SECOND_NUMBER + THIRD_NUMBER) / 3;
     }
 }
