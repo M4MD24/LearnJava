@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# 30 Law of the Most Important Arithmetic Laws
+# 31 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -331,7 +331,7 @@ private static boolean areThreeNumbersConsecutive(final int FIRST_NUMBER, final 
 }
 ```
 
-### Is Mid Point
+### Is Mid-Point
 
 ```java
 private static boolean isMidPoint(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {
@@ -340,5 +340,13 @@ private static boolean isMidPoint(final int FIRST_NUMBER, final int SECOND_NUMBE
             (SECOND_NUMBER - THIRD_NUMBER) == (THIRD_NUMBER - FIRST_NUMBER) ||
             (SECOND_NUMBER - FIRST_NUMBER) == (FIRST_NUMBER - THIRD_NUMBER) ||
             (FIRST_NUMBER - SECOND_NUMBER) == (SECOND_NUMBER - THIRD_NUMBER);
+}
+```
+
+### Get Celsius Degree
+
+```java
+private static int getCelsiusDegree(final int FAHRENHEIT_DEGREE) {
+    return (5 * (FAHRENHEIT_DEGREE - 32)) / 9;
 }
 ```
