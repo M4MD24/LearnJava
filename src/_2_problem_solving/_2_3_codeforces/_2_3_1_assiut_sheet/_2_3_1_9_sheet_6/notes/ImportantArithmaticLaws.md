@@ -349,4 +349,3 @@ private static boolean isMidPoint(final int FIRST_NUMBER, final int SECOND_NUMBE
 private static int getCelsiusDegree(final int FAHRENHEIT_DEGREE) {
     return (5 * (FAHRENHEIT_DEGREE - 32)) / 9;
 }
-```
