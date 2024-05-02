@@ -23,7 +23,7 @@ public class Question256 {
         displayPentagonalNumbers(50);
     }
 
-    public static void displayPentagonalNumbers(final int COUNT_OF_PENTAGONAL_NUMBERS) {
+    private static void displayPentagonalNumbers(final int COUNT_OF_PENTAGONAL_NUMBERS) {
         for (int index = 1; index <= COUNT_OF_PENTAGONAL_NUMBERS; index++) {
             System.out.printf("%-6d", getPentagonalNumber(index));
             if (index % 10 == 0)
@@ -31,7 +31,7 @@ public class Question256 {
         }
     }
 
-    public static int getPentagonalNumber(final int NUMBER) {
+    private static int getPentagonalNumber(final int NUMBER) {
         return NUMBER * (3 * NUMBER - 1) / 2;
     }
 }

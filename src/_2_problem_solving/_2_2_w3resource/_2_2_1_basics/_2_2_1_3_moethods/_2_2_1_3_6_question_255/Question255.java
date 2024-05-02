@@ -18,7 +18,7 @@ public class Question255 {
         System.out.print(STR."The sum is: \{getSumOfDigits(DIGITS)}");
     }
 
-    private static Object getSumOfDigits(int digits) {
+    private static int getSumOfDigits(int digits) {
         int sumOFDigits = 0;
         while (digits != 0) {
             sumOFDigits += digits % 10;

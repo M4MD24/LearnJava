@@ -36,7 +36,7 @@ public class Question257 {
         printFutureInvestmentValues(INVESTMENT_AMOUNT, RATE_OF_INTEREST * 0.01, NUMBER_OF_YEARS);
     }
 
-    private static double futureInvestmentValue(final double INVESTMENT_AMOUNT, final double MONTHLY_INTEREST_RATE, final int CURRENT_YEAR) {
+    private static double getFutureInvestmentValue(final double INVESTMENT_AMOUNT, final double MONTHLY_INTEREST_RATE, final int CURRENT_YEAR) {
         return INVESTMENT_AMOUNT * Math.pow(1 + MONTHLY_INTEREST_RATE, CURRENT_YEAR * 12);
     }
 
@@ -47,7 +47,7 @@ public class Question257 {
         for (int currentYear = 1; currentYear <= NUMBER_OF_YEARS; currentYear++)
             System.out.printf("%-7d %11.2f\n",
                     currentYear,
-                    futureInvestmentValue(INVESTMENT_AMOUNT, RATE_OF_INTEREST / 12, currentYear));
+                    getFutureInvestmentValue(INVESTMENT_AMOUNT, RATE_OF_INTEREST / 12, currentYear));
     }
 
     private static void printInputs(final int INVESTMENT_AMOUNT, final int RATE_OF_INTEREST, final int NUMBER_OF_YEARS) {

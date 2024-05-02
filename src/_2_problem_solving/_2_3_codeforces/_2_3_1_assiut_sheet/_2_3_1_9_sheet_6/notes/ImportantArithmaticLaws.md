@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# 21 Law of the Most Important Arithmetic Laws
+# 30 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -249,15 +249,96 @@ private static int getCountOfRegions(final int COUNT_OF_STRAIGHT_LINES) {
 ### Are Orthogonal
 
 ```java
-    private static boolean areLinesOrthogonal(final double START_X1, final double START_Y1,
-                                              final double END_X1, final double END_Y1,
-                                              final double START_X2, final double START_Y2,
-                                              final double END_X2, final double END_Y2) {
+private static boolean areLinesOrthogonal(final double START_X1, final double START_Y1,
+                                          final double END_X1, final double END_Y1,
+                                          final double START_X2, final double START_Y2,
+                                          final double END_X2, final double END_Y2) {
     final double VECTOR_1X = END_X1 - START_X1,
             VECTOR_1Y = END_Y1 - START_Y1,
             VECTOR_2X = END_X2 - START_X2,
             VECTOR_2Y = END_Y2 - START_Y2,
             DOT_PRODUCT = VECTOR_1X * VECTOR_2X + VECTOR_1Y * VECTOR_2Y;
     return DOT_PRODUCT == 0;
+}
+```
+
+### Is Triangle
+
+```java
+private static boolean isTriangle(final int FIRST_SIDE, final int SECOND_SIDE, final int THIRD_SIDE) {
+    return (FIRST_SIDE + SECOND_SIDE > THIRD_SIDE) &&
+            (SECOND_SIDE + THIRD_SIDE > FIRST_SIDE) &&
+            (FIRST_SIDE + THIRD_SIDE > SECOND_SIDE);
+}
+```
+
+### Get Triangle Area
+
+```java
+private static double getTriangleArea(final int FIRST_SIDE, final int SECOND_SIDE, final int THIRD_SIDE) {
+    final double SEMI_PERIMETER = (double) (FIRST_SIDE + SECOND_SIDE + THIRD_SIDE) / 2;
+    return Math.sqrt(SEMI_PERIMETER * (SEMI_PERIMETER - FIRST_SIDE) * (SEMI_PERIMETER - SECOND_SIDE) * (SEMI_PERIMETER - THIRD_SIDE));
+}
+```
+
+### Is Leap Year
+
+```java
+private static boolean isLeapYear(final int YEAR) {
+    return YEAR % 4 == 0 &&
+            YEAR % 100 == 0 &&
+            YEAR % 400 == 0;
+}
+```
+
+### Get Future Investment Value
+
+```java
+private static double getFutureInvestmentValue(final double INVESTMENT_AMOUNT, final double MONTHLY_INTEREST_RATE, final int CURRENT_YEAR) {
+    return INVESTMENT_AMOUNT * Math.pow(1 + MONTHLY_INTEREST_RATE, CURRENT_YEAR * 12);
+}
+```
+
+### Get Pentagonal Number
+
+```java
+private static int getPentagonalNumber(final int NUMBER) {
+    return NUMBER * (3 * NUMBER - 1) / 2;
+}
+```
+
+### Get Average Numbers
+
+```java
+private static int getAverageNumbers(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {
+    return (FIRST_NUMBER + SECOND_NUMBER + THIRD_NUMBER) / 3;
+}
+```
+
+### Get Pentagon Area
+
+```java
+private static double getPentagonArea(final double SIDE) {
+    return (5 * SIDE * SIDE) / (4 * Math.tan(Math.PI / 5));
+}
+```
+
+### Are Three Numbers Consecutive
+
+```java
+private static boolean areThreeNumbersConsecutive(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {
+    return (SECOND_NUMBER - FIRST_NUMBER) == (THIRD_NUMBER - SECOND_NUMBER);
+}
+```
+
+### Is Mid Point
+
+```java
+private static boolean isMidPoint(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {
+    return (FIRST_NUMBER == SECOND_NUMBER) && (SECOND_NUMBER == THIRD_NUMBER) ||
+            (THIRD_NUMBER - SECOND_NUMBER) == (SECOND_NUMBER - FIRST_NUMBER) ||
+            (SECOND_NUMBER - THIRD_NUMBER) == (THIRD_NUMBER - FIRST_NUMBER) ||
+            (SECOND_NUMBER - FIRST_NUMBER) == (FIRST_NUMBER - THIRD_NUMBER) ||
+            (FIRST_NUMBER - SECOND_NUMBER) == (SECOND_NUMBER - THIRD_NUMBER);
 }
 ```
