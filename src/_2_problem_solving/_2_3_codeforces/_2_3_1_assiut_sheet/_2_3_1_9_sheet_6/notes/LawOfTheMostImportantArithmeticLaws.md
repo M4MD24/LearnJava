@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# 42 Law of the Most Important Arithmetic Laws
+# 31 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -229,11 +229,11 @@ private static String getPolygonStatus(final double FIRST_SIDE, final double SEC
         return "This is neither a rectangle nor a rhombus.";
 }
 
-private static boolean isRectangle(final double FIRST_SIDE, final double SECOND_SIDE, final double DIAGONAL) {
+public static boolean isRectangle(final double FIRST_SIDE, final double SECOND_SIDE, final double DIAGONAL) {
     return DIAGONAL * DIAGONAL == FIRST_SIDE * FIRST_SIDE + SECOND_SIDE * SECOND_SIDE;
 }
 
-private static boolean isRhombus(final double FIRST_SIDE, final double SECOND_SIDE) {
+public static boolean isRhombus(final double FIRST_SIDE, final double SECOND_SIDE) {
     return FIRST_SIDE == SECOND_SIDE;
 }
 ```
@@ -285,7 +285,9 @@ private static double getTriangleArea(final int FIRST_SIDE, final int SECOND_SID
 
 ```java
 private static boolean isLeapYear(final int YEAR) {
-    return (YEAR % 4 == 0 && YEAR % 100 != 0) || YEAR % 400 == 0;
+    return YEAR % 4 == 0 &&
+            YEAR % 100 == 0 &&
+            YEAR % 400 == 0;
 }
 ```
 
@@ -346,99 +348,5 @@ private static boolean isMidPoint(final int FIRST_NUMBER, final int SECOND_NUMBE
 ```java
 private static int getCelsiusDegree(final int FAHRENHEIT_DEGREE) {
     return (5 * (FAHRENHEIT_DEGREE - 32)) / 9;
-}
-```
-
-### Get Body Mass Index with Pounds and Inches
-
-```java
-private static double getBodyMassIndexWithPoundsAndInches(final double POUNDS, final double INCHES) {
-    return POUNDS * 0.45359237 / (Math.pow(INCHES * 0.0254, 2));
-}
-```
-
-### Is Finite Status
-
-```java
-private static boolean isFiniteStatus(final double NUMBER) {
-    return Double.isFinite(NUMBER);
-}
-```
-
-### Is Same Up to Two Decimal Places
-
-```java
-private static boolean isSameUpToTwoDecimalPlaces() {
-    return Math.abs(FIRST_NUMBER - SECOND_NUMBER) <= 0.01;
-}
-```
-
-### Get Binomial Coefficient
-
-```java
-private static long getBinomialCoefficient(final byte FIRST_NUMBER, final byte SECOND_NUMBER) {
-    return getFactorial(FIRST_NUMBER) / (getFactorial(SECOND_NUMBER) * getFactorial((byte) (FIRST_NUMBER - SECOND_NUMBER)));
-}
-```
-
-### Is Perfect Square
-
-```java
-private static boolean isPerfectSquare(final int NUMBER) {
-    return Math.sqrt(NUMBER) * Math.sqrt(NUMBER) == NUMBER;
-}
-```
-
-### Is Fibonacci
-
-```java
-private static boolean isFibonacci(final int NUMBER) {
-    return isPerfectSquare(5 * NUMBER * NUMBER + 4) || isPerfectSquare(5 * NUMBER * NUMBER - 4);
-}
-
-private static boolean isPerfectSquare(final int NUMBER) {
-    return Math.sqrt(NUMBER) * Math.sqrt(NUMBER) == NUMBER;
-}
-```
-
-### Get Divisor Sum
-
-```java
-private static long getDivisorSum(final int NUMBER) {
-    return LongStream.rangeClosed(1, (NUMBER + 1) / 2).filter(number -> NUMBER % number == 0 && NUMBER != number).sum();
-}
-
-```
-
-### Is Automorphic Number
-
-```java
-private static boolean isAutomorphicNumber(final int NUMBER) {
-    final int NUMBER_SQUARE = NUMBER * NUMBER;
-    return String.valueOf(NUMBER_SQUARE).contains(String.valueOf(NUMBER));
-}
-```
-
-### Is Duck Number
-
-```java
-private static boolean isDuckNumber(final int NUMBER) {
-    return String.valueOf(NUMBER).indexOf('0') != -1;
-}
-```
-
-### Is Cube Number
-
-```java
-private static boolean isCubeNumber(final int NUMBER) {
-    return Math.cbrt(NUMBER) % 1 == 0;
-}
-```
-
-### Is Palindrome Number
-
-```java
-private static boolean isPalindromeNumber(final int NUMBER) {
-    return String.valueOf(NUMBER).contentEquals(new StringBuilder(String.valueOf(NUMBER)).reverse());
 }
 ```

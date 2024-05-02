@@ -1,25 +1,10 @@
 # Learn Java Programming Language
 
-## _About the Project Owner_
-
-- <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Name</b> Mohamed Sadawy Thabet <b>(M3MD69)</b>
-- <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"/> <b>Field</b> Software Engineer <b>/</b> Native Android Developer
-- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>For Contact Me</b>
-  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a href="https://t.me/M3MD69">@M3MD69</a></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/github_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a href="https://github.com/M3MD69">@M3MD69</a></li></ul>
-- <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Assiut Sheet in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
-
----
-
-## _About the Project Details_
-
 - **Recommended using `Intellij IDEA (Community / Ultimate)` or `Android Studio`**
 - **Currently Used `Intellij Idea Community`**
 - **Project Language is `English` and `some images Arabic`**
 - **Appropriate labels for `variables`, `functions` and `classes`**
-- **Java Version** `22 Oracle OpenJDK Version 22.0.1` - `SDK Default`
+- **Java Version** `22 Oracle OpenJDK Version 22`
 
 ---
 
@@ -42,7 +27,7 @@
 
 ## _1. Learning_
 
-- Learn Examples of Concepts
+- Learn how to use and apply concepts
 
 ### 1. Basics
 
@@ -147,100 +132,73 @@
 22. **Record Class**
 23. **Sealed Class And Interface**
 
-### 5. DS (Data Structures)
+### 5. Data Structures
 
 1. **List**
     1. **List**
     2. **List with Others**
-2. **Array List**
-3. **Linked List**
+2. **ArrayList**
+3. **LinkedList**
 4. **Vector**
 5. **Stack**
 6. **Queue**
-7. **Priority Queue**
+7. **PriorityQueue**
 8. **Deque**
-9. **Array Deque**
-10. **Blocking Queue with Others**
-11. **Array Blocking Queue**
-12. **Linked Blocking Queue**
-13. **Blocking Deque with Others**
-14. **Linked Blocking Deque**
+9. **ArrayDeque**
+10. **BlockingQueue with Others**
+11. **ArrayBlockingQueue**
+12. **LinkedBlockingQueue**
+13. **BlockingDeque with Others**
+14. **LinkedBlockingDeque**
 15. **Map with Others**
-16. **Hash Map**
-17. **Linked Hash Map**
-18. **Weak Hash Map**
-19. **Enum Map**
-20. **Sorted Map with Others**
+16. **HashMap**
+17. **LinkedHashMap**
+18. **WeakHashMap**
+19. **EnumMap**
+20. **SortedMap with Others**
 21. **Navigable with Others**
 22. **TreeMap**
-23. **ConCurrent Map**
-24. **ConCurrent HashMap**
+23. **ConCurrentMap**
+24. **ConCurrentHashMap**
 25. **Set with Others**
 26. **HashSet**
-27. **Linked Hash Set**
+27. **LinkedHashSet**
 28. **EnumSet**
 29. **TreeSet**
 30. **SortedSet with Others**
 31. **Navigable with Others**
 32. **Iterator**
-33. **List Iterator**
-34. **Hash Table**
-35. **Dictionary**
+33. **ListIterator**
+34. **HashTable**
 
 ### 6. Algorithms
 
-1. **Search**
-    1. **Linear**
-    2. **Binary**
-    3. **Interpolation**
-    4. **DFS (Depth First Sort)**
-    5. **BFS (Breadth First Sort)**
-2. **Sort**
-    1. **Bubble**
-    2. **Selection**
-    3. **Insertion**
-    4. **Quick**
-    5. **Merge**
-    6. **Counting**
-    7. **Radix**
-    8. **Bucket**
-    9. **Heap**
-    10. **Shell**
-3. ~~**Greedy**~~
-    1. ~~**Ford Fulkerson**~~
-    2. ~~**Dijkstra**~~
-    3. ~~**Kruskal**~~
-    4. ~~**Prim**~~
-    5. ~~**Huffman**~~
-4. **Encryption & Decryption**
-    1. **AES (Advanced Encryption Standard)**
-    2. **RSA (Rivest-Shamir-Adleman)**
+1. **Searching**
+    1. **Linear Search**
+    2. **Binary Search**
+    3. **Interpolation Search**
+    4. **Depth First Search**
+    5. **Breadth First Search**
+2. **Sorting**
+    1. **Bubble Sorting**
+    2. **Selection Sorting**
+    3. **Insertion Sorting**
+    4. **Quick Sorting**
+    5. **Merge Sorting**
 
 ### 7. DSA (Data Structures and Algorithms)
 
 1. **Nodes**
 2. **LinkedList**
-    1. **Singly Linked List**
-    2. **Doubly Linked List**
-    3. **Circular Linked List**
 3. **Dynamic Array**
 4. **Stack**
 5. **Queue**
 6. **Tree**
     1. **Binary Tree**
     2. **Binary Search Tree**
-    3. **AVL Tree**
-    4. **B Tree**
-    5. **B+ Tree**
-    6. **Red-Black Tree**
 7. **Graph**
     1. **Adjacency Matrix**
     2. **Adjacency List**
-    3. **Strongly Connected Components**
-    4. **Bellman Ford**
-8. **Heap**
-    1. **Normal Heap**
-    2. **Fibonacci Heap**
 
 ### ~~8. Database~~
 
@@ -256,42 +214,22 @@
 
 ---
 
-## _2. Problem Solving (797)_
+## _2. Problem Solving (560)_
 
-- Solve problems and projects
-- **Note:** Something or things in the questions may be changed
+- Solving problems and projects
 
 ### 1. [W3Schools](https://www.w3schools.com/java) (6 Questions)
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (515 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (277 Question)
 
-1. **Basics (272 Questions)**
-    1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
-    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (99 Questions)**
-    3. **[Methods](https://www.w3resource.com/java-exercises/method/index.php) (23 Questions)**
-2. **Data Types (20 Questions)**
-    1. **[Data Types](https://www.w3resource.com/java-exercises/datatypes/index.php) (15 Questions)**
-    2. **[Enum Types](https://www.w3resource.com/java-exercises/java-enum-types.php) (5 Questions)**
-3. **Flow Control (47 Questions)**
-    1. **[Conditional Flow](https://www.w3resource.com/java-exercises/conditional-statement/index.php) (32 Questions)**
-    2. **[Recursive Method](https://www.w3resource.com/java-exercises/recursive/index.php) (15 Questions)**
-4. **Math and Numbers (58 Questions)**
-    1. **[Math](https://www.w3resource.com/java-exercises/math/index.php) (29 Questions)**
-    2. **[Numbers](https://www.w3resource.com/java-exercises/numbers/index.php) (29 Questions)**
-5. **Object Oriented Programming (78 Questions)**
-    1. **[Inheritance](https://www.w3resource.com/java-exercises/index-inheritance.php) (10 Questions)**
-    2. **[Abstract Classes](https://www.w3resource.com/java-exercises/index-abstract.php) (12 Questions)**
-    3. **[Interface](https://www.w3resource.com/java-exercises/index-interface.php) (11 Questions)**
-    4. **[Encapsulation](https://www.w3resource.com/java-exercises/encapsulation/index.php) (7 Questions)**
-    5. **[Polymorphism](https://www.w3resource.com/java-exercises/index-polymorphism.php) (12 Questions)**
-    6. **[Object Oriented Programming](https://www.w3resource.com/java-exercises/oop/index.php) (26 Questions)**
-6. **Exception Handling (7 Questions)**
-    1. **[Handling and Managing](https://www.w3resource.com/java-exercises/exception/index.php) (7 Questions)**
-7. **Functional Programming (33 Questions)**
-    1. **[Lambda Expression](https://www.w3resource.com/java-exercises/lambda/index.php) (25 Questions)**
-    2. **[Streams](https://www.w3resource.com/java-exercises/stream/index.php) (8 Questions)**
+1. **Basics (272 Question)**
+    1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Question)**
+    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (99 Question)**
+    3. **[Methods](https://www.w3resource.com/java-exercises/method/index.php) (23 Question)**
+2. **Data Types (5 Question)**
+    1. **[Data Types](https://www.w3resource.com/java-exercises/datatypes/index.php) (5 Question)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 
@@ -304,7 +242,7 @@
     6. **[Contest 3.1](https://codeforces.com/group/MWSDmqGsZm/contest/329103) (7 Questions)**
     7. **[Sheet 4 "Strings"](https://codeforces.com/group/MWSDmqGsZm/contest/219856) (26 Questions)**
         - [2.3.1.7.o Sort String](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
-          `It can't be submit by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
+          `It can't be solved by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
     8. **[Sheet 5 "Functions"](https://codeforces.com/group/MWSDmqGsZm/contest/223205) (15 Questions)**
     9. **[Sheet 6 "Math - Geometry"](https://codeforces.com/group/MWSDmqGsZm/contest/223338) (26 Questions)**
     10. **[Sheet 7 "Recursion"](https://codeforces.com/group/MWSDmqGsZm/contest/223339) (26 Questions)**
@@ -343,9 +281,6 @@
 - [W3Schools](https://www.w3schools.com)
 - [Youtube](https://www.youtube.com)
 - [Satr](https://satr.codes)
-- [Sanfoundry](https://www.sanfoundry.com)
-- [Javatpoint](https://www.javatpoint.com)
-- [CodeProject](https://www.codeproject.com)
 
 ### Problem Solving
 
@@ -357,3 +292,16 @@
 - [Satr](https://satr.codes)
 - [CoderHub](https://coderhub.sa)
 - [LeetCode](https://leetcode.com)
+
+---
+
+## _About the Project Owner_
+
+- <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Name</b> Mohamed Sadawy Thabet <b>(M3MD69)</b>
+- <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"/> <b>Field</b> Software Engineer <b>/</b> Native Android Developer
+- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>For Contact Me</b>
+  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a href="https://t.me/M3MD69">@M3MD69</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/github_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a href="https://github.com/M3MD69">@M3MD69</a></li></ul>
+- <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Sheet Assiut in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
