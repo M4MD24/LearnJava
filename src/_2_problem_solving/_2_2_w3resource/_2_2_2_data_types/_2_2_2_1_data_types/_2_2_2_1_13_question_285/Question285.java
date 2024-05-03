@@ -1,0 +1,29 @@
+package _2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_1_13_question_285;
+
+/**
+ * <h1>Question:</h1>
+ * <h2>Write a Java program to compute the floor division and floor modulus of the given dividend and divisor.</h2>
+ * <br/>
+ * <h1>Excepted Output:</h1>
+ * <h2>
+ * Floor division using '/' operator: -18
+ * <br/>
+ * Floor division using "floorDiv()" method is: -19
+ * <br/>
+ * <br/>
+ * Floor modulus using '%' operator: -115
+ * <br/>
+ * Floor modulus using "floorMod()" method is: 10
+ * </h2>
+ */
+
+public class Question285 {
+    public static void main(final String[] ARGS) {
+        final int FIRST_NUMBER = -2365,
+                SECOND_NUMBER = 125;
+        System.out.println(STR."Floor division using '/' operator: \{FIRST_NUMBER / SECOND_NUMBER}");
+        System.out.println(STR."Floor division using \"floorDiv()\" operator: \{Math.floorDiv(FIRST_NUMBER, SECOND_NUMBER)}\n");
+        System.out.println(STR."Floor modulus using '%' operator: \{FIRST_NUMBER % SECOND_NUMBER}");
+        System.out.print(STR."Floor modulus using \"floorMod()\" operator: \{Math.floorMod(FIRST_NUMBER, SECOND_NUMBER)}");
+    }
+}

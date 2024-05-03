@@ -1,6 +1,10 @@
 [//]: # (Notes)
 
-# 31 Law of the Most Important Arithmetic Laws
+<<<<<<<< HEAD:src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_9_sheet_6/notes/ImportantArithmaticLaws.md
+# 30 Law of the Most Important Arithmetic Laws
+========
+# 33 Law of the Most Important Arithmetic Laws
+>>>>>>>> d17938d (## Edit):src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_9_sheet_6/notes/LawOfTheMostImportantArithmeticLaws.md
 
 ### Is Power of Two
 
@@ -331,7 +335,7 @@ private static boolean areThreeNumbersConsecutive(final int FIRST_NUMBER, final 
 }
 ```
 
-### Is Mid-Point
+### Is Mid Point
 
 ```java
 private static boolean isMidPoint(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {
@@ -341,6 +345,8 @@ private static boolean isMidPoint(final int FIRST_NUMBER, final int SECOND_NUMBE
             (SECOND_NUMBER - FIRST_NUMBER) == (FIRST_NUMBER - THIRD_NUMBER) ||
             (FIRST_NUMBER - SECOND_NUMBER) == (SECOND_NUMBER - THIRD_NUMBER);
 }
+<<<<<<<< HEAD:src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_9_sheet_6/notes/ImportantArithmaticLaws.md
+========
 ```
 
 ### Get Celsius Degree
@@ -349,4 +355,21 @@ private static boolean isMidPoint(final int FIRST_NUMBER, final int SECOND_NUMBE
 private static int getCelsiusDegree(final int FAHRENHEIT_DEGREE) {
     return (5 * (FAHRENHEIT_DEGREE - 32)) / 9;
 }
+```
+
+### Get Body Mass Index with Pounds and Inches
+
+```java
+private static double getBodyMassIndexWithPoundsAndInches(final double POUNDS, final double INCHES) {
+    return POUNDS * 0.45359237 / (Math.pow(INCHES * 0.0254, 2));
+}
+```
+
+### Is Finite Status
+
+```java
+private static boolean isFiniteStatus(final double NUMBER) {
+    return Double.isFinite(NUMBER);
+}
+>>>>>>>> d17938d (## Edit):src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_9_sheet_6/notes/LawOfTheMostImportantArithmeticLaws.md
 ```
