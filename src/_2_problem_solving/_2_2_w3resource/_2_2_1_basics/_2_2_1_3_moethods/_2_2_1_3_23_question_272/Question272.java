@@ -6,7 +6,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
  * <br/>
  * <h1>Excepted Output:</h1>
  * <h2>
- * Input a text:  AIEEE
+ * Input a text: AIEEE
  * <br/>
  * Check all the characters of the said text are vowels or not!
  * <br/>
