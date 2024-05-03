@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# 31 Law of the Most Important Arithmetic Laws
+# 33 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -349,3 +349,20 @@ private static boolean isMidPoint(final int FIRST_NUMBER, final int SECOND_NUMBE
 private static int getCelsiusDegree(final int FAHRENHEIT_DEGREE) {
     return (5 * (FAHRENHEIT_DEGREE - 32)) / 9;
 }
+```
+
+### Get Body Mass Index with Pounds and Inches
+
+```java
+private static double getBodyMassIndexWithPoundsAndInches(final double POUNDS, final double INCHES) {
+    return POUNDS * 0.45359237 / (Math.pow(INCHES * 0.0254, 2));
+}
+```
+
+### Is Finite Status
+
+```java
+private static boolean isFiniteStatus(final double NUMBER) {
+    return Double.isFinite(NUMBER);
+}
+```
