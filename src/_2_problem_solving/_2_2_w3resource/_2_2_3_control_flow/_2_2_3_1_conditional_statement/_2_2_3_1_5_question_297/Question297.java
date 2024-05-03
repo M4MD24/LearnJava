@@ -2,32 +2,34 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditio
 
 /**
  * <h1>Question:</h1>
- * <h2>Write a Java program that reads two floating-point numbers and tests whether they are the same up to three decimal places.</h2>
+ * <h2>Write a Java program that takes a number from the user and generates an integer between 1 and 7. It displays the weekday name.</h2>
  * <br/>
  * <h1>Input Data:</h1>
  * <h2>
- * Input floating-point number: 25.586
- * <br/>
- * Input floating-point another number: 25.589
+ * Input number: 3
  * </h2>
  * <br/>
  * <h1>Excepted Output:</h1>
- * <h2>They are different</h2>
+ * <h2>Monday</h2>
  */
 
 public class Question297 {
     public static void main(final String[] ARGS) {
-        final float NUMBER = 25.586F,
-                ANOTHER_NUMBER = 25.589F;
-        System.out.println(STR."""
-                Input floating-point number:\s\{NUMBER}
-                Input floating-point another number:\s\{ANOTHER_NUMBER}""");
-        System.out.print(STR."They are \{areEquals(NUMBER, ANOTHER_NUMBER)}");
+        final byte NUMBER_OF_DAY_OF_WEEK = 3;
+        System.out.println(STR."Input number: \{NUMBER_OF_DAY_OF_WEEK}");
+        System.out.print(getDayOfWeek(NUMBER_OF_DAY_OF_WEEK));
     }
 
-    private static String areEquals(final float NUMBER, final float ANOTHER_NUMBER) {
-        return Float.compare(NUMBER, ANOTHER_NUMBER) == 0
-                ? "equals"
-                : "different";
+    private static String getDayOfWeek(final int NUMBER_OF_DAY_OF_WEEK) {
+        return switch (NUMBER_OF_DAY_OF_WEEK) {
+            case 1 -> "Saturday";
+            case 2 -> "Sunday";
+            case 3 -> "Monday";
+            case 4 -> "Tuesday";
+            case 5 -> "Wednesday";
+            case 6 -> "Thursday";
+            case 7 -> "Friday";
+            default -> "Invalid day range";
+        };
     }
 }
