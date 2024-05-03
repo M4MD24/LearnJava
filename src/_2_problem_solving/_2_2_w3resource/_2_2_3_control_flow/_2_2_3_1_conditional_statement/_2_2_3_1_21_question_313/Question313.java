@@ -28,10 +28,10 @@ public class Question313 {
     public static void main(final String[] ARGS) {
         final int NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND = 7;
         System.out.println(STR."Input number of rows (half of the diamond): \{NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND}");
-        printDiamond(NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND);
+        printStarsDiamond(NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND);
     }
 
-    private static void printDiamond(final int NUMBER_OF_ROWS) {
+    private static void printStarsDiamond(final int NUMBER_OF_ROWS) {
         int countOfSpaces = NUMBER_OF_ROWS - 1,
                 countOfStars = 1;
         for (int round = 0; round < NUMBER_OF_ROWS; round++) {

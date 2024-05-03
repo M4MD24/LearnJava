@@ -20,10 +20,10 @@ public class Question314 {
     public static void main(final String[] ARGS) {
         final int NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND = 5;
         System.out.println(STR."Input number of rows: \{NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND}");
-        printTriangleNumbers(NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND);
+        printPascalTriangle(NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND);
     }
 
-    private static void printTriangleNumbers(final int NUMBER_OF_ROWS) {
+    private static void printPascalTriangle(final int NUMBER_OF_ROWS) {
         for (int row = 0, space = NUMBER_OF_ROWS - 1; row < NUMBER_OF_ROWS; row++, space--) {
             int number = 1;
             System.out.print(" ".repeat(space));
