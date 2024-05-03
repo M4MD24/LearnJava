@@ -19,8 +19,6 @@ public class Question259 {
     }
 
     private static boolean isLeapYear(final int YEAR) {
-        return YEAR % 4 == 0 &&
-                YEAR % 100 == 0 &&
-                YEAR % 400 == 0;
+        return (YEAR % 4 == 0 && YEAR % 100 != 0) || YEAR % 400 == 0;
     }
 }

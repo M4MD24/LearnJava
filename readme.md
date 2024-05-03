@@ -214,7 +214,7 @@
 
 ---
 
-## _2. Problem Solving (580)_
+## _2. Problem Solving (587)_
 
 - Solving problems and projects
 
@@ -222,7 +222,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (298 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (305 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -231,8 +231,8 @@
 2. **Data Types (20 Questions)**
     1. **[Data Types](https://www.w3resource.com/java-exercises/datatypes/index.php) (15 Questions)**
     2. **[Enum Types](https://www.w3resource.com/java-exercises/java-enum-types.php) (5 Questions)**
-3. **Flow Control (6 Questions)**
-    1. **[Conditional Flow](https://www.w3resource.com/java-exercises/conditional-statement/index.php) (6 Questions)**
+3. **Flow Control (13 Questions)**
+    1. **[Conditional Flow](https://www.w3resource.com/java-exercises/conditional-statement/index.php) (13 Questions)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 

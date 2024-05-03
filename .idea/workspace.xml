@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+5)">
-      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_6_question_298/Question298.java" afterDir="false" />
+    <list default="true" id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)">
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_10_question_302/Question302.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_11_question_303/Question303.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_12_question_304/Question304.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_13_question_305/Question305.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_7_question_299/Question299.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_8_question_300/Question300.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_9_question_301/Question301.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_10_question_259/Question259.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_10_question_259/Question259.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_9_sheet_6/notes/LawOfTheMostImportantArithmeticLaws.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_9_sheet_6/notes/LawOfTheMostImportantArithmeticLaws.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,34 +74,42 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Question278.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question279.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question280.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question281.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question282.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question283.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question284.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question285.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question286.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question287.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question288.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question289.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question290.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question291.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question292.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question293.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question294.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question295.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question296.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question297.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/xmstx/MyProjects/ConsoleApp/Java/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_1_question_293&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Question259.executor": "Run",
+    "Application.Question278.executor": "Run",
+    "Application.Question279.executor": "Run",
+    "Application.Question280.executor": "Run",
+    "Application.Question281.executor": "Run",
+    "Application.Question282.executor": "Run",
+    "Application.Question283.executor": "Run",
+    "Application.Question284.executor": "Run",
+    "Application.Question285.executor": "Run",
+    "Application.Question286.executor": "Run",
+    "Application.Question287.executor": "Run",
+    "Application.Question288.executor": "Run",
+    "Application.Question289.executor": "Run",
+    "Application.Question290.executor": "Run",
+    "Application.Question291.executor": "Run",
+    "Application.Question292.executor": "Run",
+    "Application.Question293.executor": "Run",
+    "Application.Question294.executor": "Run",
+    "Application.Question295.executor": "Run",
+    "Application.Question296.executor": "Run",
+    "Application.Question297.executor": "Run",
+    "Application.Question298.executor": "Run",
+    "Application.Question299.executor": "Run",
+    "Application.Question300.executor": "Run",
+    "Application.Question301.executor": "Run",
+    "Application.Question302.executor": "Run",
+    "Application.Question303.executor": "Run",
+    "Application.Question304.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/xmstx/MyProjects/ConsoleApp/Java/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_1_question_293"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_1_question_293" />
@@ -103,20 +119,20 @@
       <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_2_question_289" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_6_question_298" />
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_5_question_297" />
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_4_question_296" />
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_3_question_295" />
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_2_question_294" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_13_question_305" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_12_question_304" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_11_question_303" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_10_question_302" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_9_question_301" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question298">
-    <configuration name="Question294" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_2_question_294.Question294" />
+  <component name="RunManager" selected="Application.Question305">
+    <configuration name="Question301" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_9_question_301.Question301" />
       <module name="Learn-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_2_question_294.*" />
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_9_question_301.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question295" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_3_question_295.Question295" />
+    <configuration name="Question302" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_10_question_302.Question302" />
       <module name="Learn-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_3_question_295.*" />
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_10_question_302.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question296" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_4_question_296.Question296" />
+    <configuration name="Question303" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_11_question_303.Question303" />
       <module name="Learn-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_4_question_296.*" />
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_11_question_303.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question297" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_5_question_297.Question297" />
+    <configuration name="Question304" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_12_question_304.Question304" />
       <module name="Learn-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_5_question_297.*" />
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_12_question_304.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question298" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_6_question_298.Question298" />
+    <configuration name="Question305" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_13_question_305.Question305" />
       <module name="Learn-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_6_question_298.*" />
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_13_question_305.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question298" />
-        <item itemvalue="Application.Question297" />
-        <item itemvalue="Application.Question296" />
-        <item itemvalue="Application.Question295" />
-        <item itemvalue="Application.Question294" />
+        <item itemvalue="Application.Question305" />
+        <item itemvalue="Application.Question304" />
+        <item itemvalue="Application.Question303" />
+        <item itemvalue="Application.Question302" />
+        <item itemvalue="Application.Question301" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714742619044</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)">
+      <option name="closed" value="true" />
+      <created>1714743236428</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714743236428</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +268,7 @@
     <MESSAGE value="## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+10)" />
     <MESSAGE value="# Edit and solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+5)" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+5)" />
-    <option name="LAST_COMMIT_MESSAGE" value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+5)" />
+    <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)" />
   </component>
 </project>
