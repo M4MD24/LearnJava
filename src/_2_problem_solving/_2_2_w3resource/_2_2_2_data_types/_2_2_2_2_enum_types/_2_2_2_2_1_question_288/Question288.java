@@ -10,8 +10,8 @@ enum DayOfWeek {
     Sunday,
     Monday,
     Tuesday,
-    Thursday,
     Wednesday,
+    Thursday,
     Friday
 }
 

@@ -10,8 +10,8 @@ enum DayOfWeekend {
     Sunday,
     Monday,
     Tuesday,
-    Thursday,
-    Wednesday
+    Wednesday,
+    Thursday
 }
 
 public class Question289 {
