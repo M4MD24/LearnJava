@@ -28,7 +28,7 @@ public class Question210 {
                 : "No");
     }
 
-    public static boolean areCharactersEqualsPattern(final String CHARACTERS, final String PATTERN) {
+    private static boolean areCharactersEqualsPattern(final String CHARACTERS, final String PATTERN) {
         if (PATTERN.isEmpty()) return CHARACTERS.isEmpty();
         if (PATTERN.equals("*")) return true;
         if (CHARACTERS.isEmpty()) return false;
