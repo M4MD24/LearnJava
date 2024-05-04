@@ -1,10 +1,6 @@
 [//]: # (Notes)
 
-<<<<<<<< HEAD:src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_9_sheet_6/notes/ImportantArithmaticLaws.md
-# 30 Law of the Most Important Arithmetic Laws
-========
-# 33 Law of the Most Important Arithmetic Laws
->>>>>>>> d17938d (## Edit):src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_9_sheet_6/notes/LawOfTheMostImportantArithmeticLaws.md
+# 34 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -333,7 +329,7 @@ private static boolean areThreeNumbersConsecutive(final int FIRST_NUMBER, final 
 }
 ```
 
-### Is Mid Point
+### Is Mid-Point
 
 ```java
 private static boolean isMidPoint(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {
@@ -343,8 +339,6 @@ private static boolean isMidPoint(final int FIRST_NUMBER, final int SECOND_NUMBE
             (SECOND_NUMBER - FIRST_NUMBER) == (FIRST_NUMBER - THIRD_NUMBER) ||
             (FIRST_NUMBER - SECOND_NUMBER) == (SECOND_NUMBER - THIRD_NUMBER);
 }
-<<<<<<<< HEAD:src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_9_sheet_6/notes/ImportantArithmaticLaws.md
-========
 ```
 
 ### Get Celsius Degree
@@ -369,5 +363,12 @@ private static double getBodyMassIndexWithPoundsAndInches(final double POUNDS, f
 private static boolean isFiniteStatus(final double NUMBER) {
     return Double.isFinite(NUMBER);
 }
->>>>>>>> d17938d (## Edit):src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_9_sheet_6/notes/LawOfTheMostImportantArithmeticLaws.md
+```
+
+### Is Same Up to Two Decimal Places
+
+```java
+private static boolean isSameUpToTwoDecimalPlaces() {
+    return Math.abs(FIRST_NUMBER - SECOND_NUMBER) <= 0.01;
+}
 ```
