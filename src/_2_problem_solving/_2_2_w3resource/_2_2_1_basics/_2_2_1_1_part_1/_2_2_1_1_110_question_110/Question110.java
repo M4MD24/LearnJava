@@ -16,7 +16,7 @@ public class Question110 {
         System.out.print(isPowerOfFourSolution2(NUMBER));
     }
 
-    public static boolean isPowerOfFourSolution1(final int NUMBER) {
+    private static boolean isPowerOfFourSolution1(final int NUMBER) {
         if (NUMBER <= 0) return false;
         if ((NUMBER & (NUMBER - 1)) == 0) return (NUMBER - 1) % 3 == 0;
         return false;

@@ -34,7 +34,7 @@ public class Question149 {
         System.out.print(arePermutations(TEXT_1, TEXT_2));
     }
 
-    public static boolean arePermutations(final String TEXT_1, String TEXT_2) {
+    private static boolean arePermutations(final String TEXT_1, String TEXT_2) {
         if (TEXT_1.length() != TEXT_2.length()) return false;
         else if (TEXT_1.equals(TEXT_2)) return true;
         else {
