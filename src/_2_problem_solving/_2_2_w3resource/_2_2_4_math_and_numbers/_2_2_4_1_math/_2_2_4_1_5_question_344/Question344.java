@@ -7,13 +7,11 @@ import java.util.ArrayList;
  * <h2>Write a Java program to count the absolute distinct value in an numbers.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>
- * <h2>
- * 6
- * </h2>
+ * <h2>6</h2>
  */
 
 public class Question344 {
-    private static ArrayList<Integer> numbers = new ArrayList<>();
+    private static final ArrayList<Integer> NUMBERS = new ArrayList<>();
 
     public static void main(final String[] ARGS) {
         addNumbers();
@@ -22,22 +20,22 @@ public class Question344 {
 
     private static int getDistinctNumbers() {
         int distinctNumbers = 0;
-        for (final int NUMBER : numbers)
-            if (numbers.indexOf(NUMBER) != numbers.lastIndexOf(NUMBER))
+        for (final int NUMBER : NUMBERS)
+            if (NUMBERS.indexOf(NUMBER) != NUMBERS.lastIndexOf(NUMBER))
                 distinctNumbers++;
         return distinctNumbers;
     }
 
     private static void addNumbers() {
-        numbers.add(-1);
-        numbers.add(-1);
-        numbers.add(0);
-        numbers.add(2);
-        numbers.add(2);
-        numbers.add(3);
-        numbers.add(0);
-        numbers.add(1);
-        numbers.add(5);
-        numbers.add(9);
+        NUMBERS.add(-1);
+        NUMBERS.add(-1);
+        NUMBERS.add(0);
+        NUMBERS.add(2);
+        NUMBERS.add(2);
+        NUMBERS.add(3);
+        NUMBERS.add(0);
+        NUMBERS.add(1);
+        NUMBERS.add(5);
+        NUMBERS.add(9);
     }
 }
