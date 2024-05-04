@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment="# Edit&#10;&#10;## Edit&#10;- readme.md file">
-      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_12_question_336/Question336.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_13_question_337/Question337.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_14_question_338/Question338.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_15_question_339/Question339.java" afterDir="false" />
+    <list default="true" id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment="# Edit&#10;&#10;## Edit&#10;- things">
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_1_question_340/Question340.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_2_question_341/Question341.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_3_question_342/Question342.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_4_question_343/Question343.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_5_question_344/Question344.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
@@ -134,6 +135,12 @@
     "Application.Question336.executor": "Run",
     "Application.Question337.executor": "Run",
     "Application.Question338.executor": "Run",
+    "Application.Question340.executor": "Run",
+    "Application.Question341.executor": "Run",
+    "Application.Question342.executor": "Run",
+    "Application.Question343.executor": "Run",
+    "Application.Question344.executor": "Run",
+    "Java Scratch.M3MD69_2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -152,20 +159,20 @@
       <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_2_question_289" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_15_question_339" />
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_14_question_338" />
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_13_question_337" />
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_12_question_336" />
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_11_question_335" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_5_question_344" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_4_question_343" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_3_question_342" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_2_question_341" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_1_question_340" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question339">
-    <configuration name="Question335" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_11_question_335.Question335" />
+  <component name="RunManager" selected="Application.Question344">
+    <configuration name="Question341" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_2_question_341.Question341" />
       <module name="Learn-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_11_question_335.*" />
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_2_question_341.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question336" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_12_question_336.Question336" />
+    <configuration name="Question342" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_3_question_342.Question342" />
       <module name="Learn-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_12_question_336.*" />
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_3_question_342.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question337" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_13_question_337.Question337" />
+    <configuration name="Question343" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_4_question_343.Question343" />
       <module name="Learn-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_13_question_337.*" />
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_4_question_343.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question338" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_14_question_338.Question338" />
+    <configuration name="Question344" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_5_question_344.Question344" />
       <module name="Learn-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_14_question_338.*" />
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_5_question_344.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,26 +219,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question339" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_15_question_339.Question339" />
-      <module name="Learn-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_15_question_339.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="M3MD69_2" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M3MD69_2" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/M3MD69_2.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question339" />
-        <item itemvalue="Application.Question338" />
-        <item itemvalue="Application.Question337" />
-        <item itemvalue="Application.Question336" />
-        <item itemvalue="Application.Question335" />
+        <item itemvalue="Application.Question344" />
+        <item itemvalue="Java Scratch.M3MD69_2" />
+        <item itemvalue="Application.Question343" />
+        <item itemvalue="Application.Question342" />
+        <item itemvalue="Application.Question341" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714816886718</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="# Edit&#10;&#10;## Edit&#10;- things">
+      <option name="closed" value="true" />
+      <created>1714821867128</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714821867128</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,6 +400,7 @@
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+8)" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+3)" />
     <MESSAGE value="# Edit&#10;&#10;## Edit&#10;- readme.md file" />
-    <option name="LAST_COMMIT_MESSAGE" value="# Edit&#10;&#10;## Edit&#10;- readme.md file" />
+    <MESSAGE value="# Edit&#10;&#10;## Edit&#10;- things" />
+    <option name="LAST_COMMIT_MESSAGE" value="# Edit&#10;&#10;## Edit&#10;- things" />
   </component>
 </project>
