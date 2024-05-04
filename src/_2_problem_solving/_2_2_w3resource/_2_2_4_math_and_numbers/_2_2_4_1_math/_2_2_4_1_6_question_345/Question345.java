@@ -2,21 +2,25 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 
 /**
  * <h1>Question:</h1>
- * <h2>Write a Java program to convert an integer value to an absolute value.</h2>
+ * <h2>Write a Java program to reverse an integer number.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>
  * <h2>
- * Input an integer number: -25
+ * Original number: 1287
  * <br/>
- * The absolute value of -25 is: 25
+ * Reversed number: 7821
  * </h2>
  */
 
 public class Question345 {
     public static void main(final String[] ARGS) {
-        final int NUMBER = -25;
+        final long DIGITS = 1287;
         System.out.print(STR."""
-                Input an integer number:\s\{NUMBER}
-                The absolute value of \{NUMBER} is: \{NUMBER >= 0 ? NUMBER : -NUMBER}""");
+                Original digits:\s\{DIGITS}
+                Reversed digits:\s\{getReversedDigits(DIGITS)}""");
+    }
+
+    private static int getReversedDigits(final long DIGITS) {
+        return Integer.parseInt(String.valueOf(new StringBuffer(String.valueOf(DIGITS)).reverse()));
     }
 }
