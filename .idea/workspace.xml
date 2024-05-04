@@ -1,77 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-    <component name="AutoImportSettings">
-        <option name="autoReloadType" value="SELECTIVE"/>
-    </component>
-    <component name="ChangeListManager">
-        <list default="true" id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment="## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+10)">
-            <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_1_question_288/Question288.java" afterDir="false"/>
-            <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_2_question_289/Question289.java" afterDir="false"/>
-            <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_3_question_290/Question290.java" afterDir="false"/>
-            <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_4_question_291/Question291.java" afterDir="false"/>
-            <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_5_question_292/Question292.java" afterDir="false"/>
-            <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false"/>
-            <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false"/>
-        </list>
-        <option name="SHOW_DIALOG" value="false"/>
-        <option name="HIGHLIGHT_CONFLICTS" value="true"/>
-        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false"/>
-        <option name="LAST_RESOLUTION" value="IGNORE"/>
-    </component>
-    <component name="ChangesViewManager">
-        <option name="groupingKeys">
-            <option value="directory"/>
-            <option value="module"/>
-        </option>
-    </component>
-    <component name="Git.Settings">
-        <option name="RECENT_BRANCH_BY_REPOSITORY">
-            <map>
-                <entry key="$PROJECT_DIR$" value="backstage"/>
-            </map>
-        </option>
-        <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$"/>
-    </component>
-    <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+2)">
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_26_question_318/Question318.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_27_question_319/Question319.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_28_question_320/Question320.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_29_question_321/Question321.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_30_question_322/Question322.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_31_question_323/Question323.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_32_question_324/Question324.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="backstage" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "assignee": "M3MD69"
+      &quot;assignee&quot;: &quot;M3MD69&quot;
     }
   ],
-  "lastFilter": {
-    "assignee": "M3MD69"
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;M3MD69&quot;
   }
-}]]></component>
-    <component name="GithubPullRequestsUISettings">
-        <option name="recentNewPullRequestHead">
-            <RepoCoordinatesHolder>
-                <option name="owner" value="M3MD69"/>
-                <option name="repository" value="Learn-Java"/>
-            </RepoCoordinatesHolder>
-        </option>
-        <option name="selectedUrlAndAccountId">
-            <UrlAndAccount>
-                <option name="accountId" value="f3ce3318-8e04-448b-8682-f4a711c13a99"/>
-                <option name="url" value="https://github.com/M3MD69/Learn-Java.git"/>
-            </UrlAndAccount>
-        </option>
-    </component>
-    <component name="MarkdownSettingsMigration">
-        <option name="stateVersion" value="1"/>
-    </component>
-    <component name="ProjectColorInfo">{
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="M3MD69" />
+        <option name="repository" value="Learn-Java" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f3ce3318-8e04-448b-8682-f4a711c13a99" />
+        <option name="url" value="https://github.com/M3MD69/Learn-Java.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
         &quot;associatedIndex&quot;: 4
-        }
-    </component>
-    <component name="ProjectId" id="2fuoZv4GqPUID9NXsVPTFmYx4L8"/>
-    <component name="ProjectLevelVcsManager">
-        <ConfirmationsSetting value="2" id="Add"/>
-    </component>
-    <component name="ProjectViewState">
-        <option name="showLibraryContents" value="true"/>
-    </component>
-    <component name="PropertiesComponent"><![CDATA[{
+        }</component>
+  <component name="ProjectId" id="2fuoZv4GqPUID9NXsVPTFmYx4L8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Question259.executor": "Run",
     "Application.Question278.executor": "Run",
     "Application.Question279.executor": "Run",
     "Application.Question280.executor": "Run",
@@ -86,143 +89,260 @@
     "Application.Question289.executor": "Run",
     "Application.Question290.executor": "Run",
     "Application.Question291.executor": "Run",
+    "Application.Question292.executor": "Run",
+    "Application.Question293.executor": "Run",
+    "Application.Question294.executor": "Run",
+    "Application.Question295.executor": "Run",
+    "Application.Question296.executor": "Run",
+    "Application.Question297.executor": "Run",
+    "Application.Question298.executor": "Run",
+    "Application.Question299.executor": "Run",
+    "Application.Question300.executor": "Run",
+    "Application.Question301.executor": "Run",
+    "Application.Question302.executor": "Run",
+    "Application.Question303.executor": "Run",
+    "Application.Question304.executor": "Run",
+    "Application.Question305.executor": "Run",
+    "Application.Question306.executor": "Run",
+    "Application.Question307.executor": "Run",
+    "Application.Question308.executor": "Run",
+    "Application.Question309.executor": "Run",
+    "Application.Question310.executor": "Run",
+    "Application.Question311.executor": "Run",
+    "Application.Question312.executor": "Run",
+    "Application.Question313.executor": "Run",
+    "Application.Question314.executor": "Run",
+    "Application.Question315.executor": "Run",
+    "Application.Question316.executor": "Run",
+    "Application.Question317.executor": "Run",
+    "Application.Question318.executor": "Run",
+    "Application.Question319.executor": "Run",
+    "Application.Question320.executor": "Run",
+    "Application.Question321.executor": "Run",
+    "Application.Question322.executor": "Run",
+    "Application.Question323.executor": "Run",
+    "Application.Question324.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/xmstx/MyProjects/ConsoleApp/Java/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_5_question_292"
+    "last_opened_file_path": "/home/xmstx/MyProjects/ConsoleApp/Java/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_1_question_293",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-    <component name="RecentsManager">
-        <key name="CopyFile.RECENT_KEYS">
-            <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_5_question_292"/>
-            <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_4_question_291"/>
-            <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_3_question_290"/>
-            <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_2_question_289"/>
-        </key>
-        <key name="CopyClassDialog.RECENTS_KEY">
-            <recent name="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_2_enum_types._2_2_2_2_1_question_288"/>
-            <recent name="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_1_15_question_287"/>
-            <recent name="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_1_14_question_286"/>
-            <recent name="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_1_13_question_285"/>
-            <recent name="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_1_12_question_284"/>
-        </key>
-    </component>
-    <component name="RunManager" selected="Application.Question292">
-        <configuration name="Question288" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-            <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_2_enum_types._2_2_2_2_1_question_288.Question288"/>
-            <module name="Learn-Java"/>
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_2_enum_types._2_2_2_2_1_question_288.*"/>
-                    <option name="ENABLED" value="true"/>
-                </pattern>
-            </extension>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration name="Question289" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-            <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_2_enum_types._2_2_2_2_2_question_289.Question289"/>
-            <module name="Learn-Java"/>
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_2_enum_types._2_2_2_2_2_question_289.*"/>
-                    <option name="ENABLED" value="true"/>
-                </pattern>
-            </extension>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration name="Question290" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-            <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_2_enum_types._2_2_2_2_3_question_290.Question290"/>
-            <module name="Learn-Java"/>
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_2_enum_types._2_2_2_2_3_question_290.*"/>
-                    <option name="ENABLED" value="true"/>
-                </pattern>
-            </extension>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration name="Question291" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-            <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_2_enum_types._2_2_2_2_4_question_291.Question291"/>
-            <module name="Learn-Java"/>
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_2_enum_types._2_2_2_2_4_question_291.*"/>
-                    <option name="ENABLED" value="true"/>
-                </pattern>
-            </extension>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration name="Question292" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-            <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_2_enum_types._2_2_2_2_5_question_292.Question292"/>
-            <module name="Learn-Java"/>
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_2_enum_types._2_2_2_2_5_question_292.*"/>
-                    <option name="ENABLED" value="true"/>
-                </pattern>
-            </extension>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <recent_temporary>
-            <list>
-                <item itemvalue="Application.Question292"/>
-                <item itemvalue="Application.Question291"/>
-                <item itemvalue="Application.Question290"/>
-                <item itemvalue="Application.Question289"/>
-                <item itemvalue="Application.Question288"/>
-            </list>
-        </recent_temporary>
-    </component>
-    <component name="SharedIndexes">
-        <attachedChunks>
-            <set>
-                <option value="jdk-22-openjdk-22-3183f394aec4-75f08976"/>
-            </set>
-        </attachedChunks>
-    </component>
-    <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true"/>
-    <component name="TaskManager">
-        <task active="true" id="Default" summary="Default task">
-            <changelist id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment=""/>
-            <created>1714660382726</created>
-            <option name="number" value="Default"/>
-            <option name="presentableId" value="Default"/>
-            <updated>1714660382726</updated>
-        </task>
-        <task id="LOCAL-00001" summary="## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+10)">
-            <option name="closed" value="true"/>
-            <created>1714732907548</created>
-            <option name="number" value="00001"/>
-            <option name="presentableId" value="LOCAL-00001"/>
-            <option name="project" value="LOCAL"/>
-            <updated>1714732907548</updated>
-        </task>
-        <option name="localTasksCounter" value="2"/>
-        <servers/>
-    </component>
-    <component name="Vcs.Log.Tabs.Properties">
-        <option name="TAB_STATES">
-            <map>
-                <entry key="MAIN">
-                    <value>
-                        <State/>
-                    </value>
-                </entry>
-            </map>
-        </option>
-    </component>
-    <component name="VcsManagerConfiguration">
-        <MESSAGE value="## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+10)"/>
-        <option name="LAST_COMMIT_MESSAGE" value="## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+10)"/>
-    </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_1_question_293" />
+      <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_5_question_292" />
+      <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_4_question_291" />
+      <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_3_question_290" />
+      <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_2_question_289" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_32_question_324" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_31_question_323" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_30_question_322" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_29_question_321" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_28_question_320" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Question324">
+    <configuration name="Question320" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_28_question_320.Question320" />
+      <module name="Learn-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_28_question_320.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question321" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_29_question_321.Question321" />
+      <module name="Learn-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_29_question_321.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question322" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_30_question_322.Question322" />
+      <module name="Learn-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_30_question_322.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question323" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_31_question_323.Question323" />
+      <module name="Learn-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_31_question_323.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question324" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_32_question_324.Question324" />
+      <module name="Learn-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_32_question_324.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Question324" />
+        <item itemvalue="Application.Question323" />
+        <item itemvalue="Application.Question322" />
+        <item itemvalue="Application.Question321" />
+        <item itemvalue="Application.Question320" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-3183f394aec4-75f08976" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment="" />
+      <created>1714660382726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714660382726</updated>
+    </task>
+    <task id="LOCAL-00001" summary="## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+10)">
+      <option name="closed" value="true" />
+      <created>1714732907548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714732907548</updated>
+    </task>
+    <task id="LOCAL-00002" summary="# Edit and solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+5)">
+      <option name="closed" value="true" />
+      <created>1714735585272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714735585272</updated>
+    </task>
+    <task id="LOCAL-00003" summary="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+5)">
+      <option name="closed" value="true" />
+      <created>1714742619044</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714742619044</updated>
+    </task>
+    <task id="LOCAL-00004" summary="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)">
+      <option name="closed" value="true" />
+      <created>1714743236428</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714743236428</updated>
+    </task>
+    <task id="LOCAL-00005" summary="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+7)">
+      <option name="closed" value="true" />
+      <created>1714747723919</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714747723919</updated>
+    </task>
+    <task id="LOCAL-00006" summary="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+5)">
+      <option name="closed" value="true" />
+      <created>1714750475431</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714750475431</updated>
+    </task>
+    <task id="LOCAL-00007" summary="# Edit">
+      <option name="closed" value="true" />
+      <created>1714750559258</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714750559258</updated>
+    </task>
+    <task id="LOCAL-00008" summary="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+4)">
+      <option name="closed" value="true" />
+      <created>1714753568905</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714753568905</updated>
+    </task>
+    <task id="LOCAL-00009" summary="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)">
+      <option name="closed" value="true" />
+      <created>1714760005182</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714760005182</updated>
+    </task>
+    <task id="LOCAL-00010" summary="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+2)">
+      <option name="closed" value="true" />
+      <created>1714764680647</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714764680648</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+10)" />
+    <MESSAGE value="# Edit and solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+5)" />
+    <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+5)" />
+    <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+7)" />
+    <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+5)" />
+    <MESSAGE value="# Edit" />
+    <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+4)" />
+    <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)" />
+    <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+2)" />
+  </component>
 </project>

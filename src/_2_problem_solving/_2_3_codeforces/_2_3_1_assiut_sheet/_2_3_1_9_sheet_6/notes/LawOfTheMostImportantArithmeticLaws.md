@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# 33 Law of the Most Important Arithmetic Laws
+# 34 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -285,9 +285,7 @@ private static double getTriangleArea(final int FIRST_SIDE, final int SECOND_SID
 
 ```java
 private static boolean isLeapYear(final int YEAR) {
-    return YEAR % 4 == 0 &&
-            YEAR % 100 == 0 &&
-            YEAR % 400 == 0;
+    return (YEAR % 4 == 0 && YEAR % 100 != 0) || YEAR % 400 == 0;
 }
 ```
 
@@ -364,5 +362,13 @@ private static double getBodyMassIndexWithPoundsAndInches(final double POUNDS, f
 ```java
 private static boolean isFiniteStatus(final double NUMBER) {
     return Double.isFinite(NUMBER);
+}
+```
+
+### Is Same Up to Two Decimal Places
+
+```java
+private static boolean isSameUpToTwoDecimalPlaces() {
+    return Math.abs(FIRST_NUMBER - SECOND_NUMBER) <= 0.01;
 }
 ```
