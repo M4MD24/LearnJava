@@ -46,7 +46,7 @@ public class GreatestCommonDivisorAndLeastCommonMultipleExample {
         leastCommonMultiple = getLeastCommonMultiple(NUMBER_1, NUMBER_2, greatestCommonDivisor);
     }
 
-    public static long getGreatestCommonDivisor(long number1, long number2) {
+    private static long getGreatestCommonDivisor(long number1, long number2) {
         while (number2 != 0) {
             number1 += number2;
             number2 = number1 - number2;
@@ -56,7 +56,7 @@ public class GreatestCommonDivisorAndLeastCommonMultipleExample {
         return number1;
     }
 
-    public static long getLeastCommonMultiple(final long NUMBER_1, final long NUMBER_2, final long GCD) {
+    private static long getLeastCommonMultiple(final long NUMBER_1, final long NUMBER_2, final long GCD) {
         return (NUMBER_1 / GCD) * NUMBER_2;
     }
 }

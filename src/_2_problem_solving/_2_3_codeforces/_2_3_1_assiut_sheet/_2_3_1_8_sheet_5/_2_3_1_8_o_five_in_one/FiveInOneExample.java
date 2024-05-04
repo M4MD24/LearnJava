@@ -134,7 +134,7 @@ public class FiveInOneExample {
         else return (CURRENT_NUMBER % 10 == CURRENT_NUMBER / 100);
     }
 
-    public static boolean isPrime(final byte CURRENT_NUMBER) {
+    private static boolean isPrime(final byte CURRENT_NUMBER) {
         if (CURRENT_NUMBER == 1) return false;
         for (byte index = 2; index < CURRENT_NUMBER; index++)
             if (CURRENT_NUMBER % index == 0) return false;

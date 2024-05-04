@@ -229,11 +229,11 @@ private static String getPolygonStatus(final double FIRST_SIDE, final double SEC
         return "This is neither a rectangle nor a rhombus.";
 }
 
-public static boolean isRectangle(final double FIRST_SIDE, final double SECOND_SIDE, final double DIAGONAL) {
+private static boolean isRectangle(final double FIRST_SIDE, final double SECOND_SIDE, final double DIAGONAL) {
     return DIAGONAL * DIAGONAL == FIRST_SIDE * FIRST_SIDE + SECOND_SIDE * SECOND_SIDE;
 }
 
-public static boolean isRhombus(final double FIRST_SIDE, final double SECOND_SIDE) {
+private static boolean isRhombus(final double FIRST_SIDE, final double SECOND_SIDE) {
     return FIRST_SIDE == SECOND_SIDE;
 }
 ```

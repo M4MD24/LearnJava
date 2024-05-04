@@ -1,0 +1,29 @@
+package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_6_question_330;
+
+/**
+ * <h1>Question:</h1>
+ * <h2>Write a Java recursive method to reverse a given string.</h2>
+ * <br/>
+ * <h1>Excepted Output:</h1>
+ * <h2>
+ * Original text: Java, World!
+ * <br/>
+ * Reversed text: !dlroW ,avaJ
+ * </h2>
+ */
+
+public class Question330 {
+    public static void main(final String[] ARGS) {
+        final String TEXT = "Java, World!";
+        System.out.print(STR."""
+                Original text:\s\{TEXT}
+                Reversed text:\s\{getReversedText(TEXT, TEXT.length() - 1, "")}""");
+    }
+
+    private static String getReversedText(final String TEXT, final int INDEX, final String REVERSED) {
+        if (INDEX == -1)
+            return REVERSED;
+        else
+            return getReversedText(TEXT, INDEX - 1, REVERSED + TEXT.charAt(INDEX));
+    }
+}

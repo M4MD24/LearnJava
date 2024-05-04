@@ -70,7 +70,7 @@ public class PrimeFibonacciExample {
             OUTPUT.write((isPrime(Byte.parseByte(INPUT.readLine())) ? "prime" : "not prime") + "\n");
     }
 
-    public static boolean isPrime(final byte NUMBER) {
+    private static boolean isPrime(final byte NUMBER) {
         final byte[] IS_PRIME = new byte[]{0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0};
         return IS_PRIME[NUMBER] == 1;
     }
