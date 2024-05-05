@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# 34 Law of the Most Important Arithmetic Laws
+# 37 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -378,5 +378,25 @@ private static boolean isSameUpToTwoDecimalPlaces() {
 ```java
 private static long getBinomialCoefficient(final byte FIRST_NUMBER, final byte SECOND_NUMBER) {
     return getFactorial(FIRST_NUMBER) / (getFactorial(SECOND_NUMBER) * getFactorial((byte) (FIRST_NUMBER - SECOND_NUMBER)));
+}
+```
+
+### Is Perfect Square
+
+```java
+private static boolean isPerfectSquare(final int NUMBER) {
+    return Math.sqrt(NUMBER) * Math.sqrt(NUMBER) == NUMBER;
+}
+```
+
+### Is Fibonacci
+
+```java
+private static boolean isFibonacci(final int NUMBER) {
+    return isPerfectSquare(5 * NUMBER * NUMBER + 4) || isPerfectSquare(5 * NUMBER * NUMBER - 4);
+}
+
+private static boolean isPerfectSquare(final int NUMBER) {
+    return Math.sqrt(NUMBER) * Math.sqrt(NUMBER) == NUMBER;
 }
 ```
