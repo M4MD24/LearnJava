@@ -6,9 +6,9 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
  * <br/>
  * <h1>Excepted Output:</h1>
  * <h2>
- * Input n: 25
+ * Input count of terms: 25
  * <br/>
- * Input x: 5
+ * Input exponent: 5
  * <br/>
  * e^x = 148.41316
  * </h2>
@@ -19,8 +19,8 @@ public class Question364 {
         final int COUNT_OF_TERMS = 25,
                 EXPONENT = 5;
         System.out.print(STR."""
-                Input number: \{COUNT_OF_TERMS}
-                Input power: \{EXPONENT}
+                Input count of terms: \{COUNT_OF_TERMS}
+                Input exponent: \{EXPONENT}
                 e^x = \{getExponential(COUNT_OF_TERMS, EXPONENT)}""");
     }
 
