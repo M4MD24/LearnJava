@@ -372,3 +372,11 @@ private static boolean isSameUpToTwoDecimalPlaces() {
     return Math.abs(FIRST_NUMBER - SECOND_NUMBER) <= 0.01;
 }
 ```
+
+### Get Binomial Coefficient
+
+```java
+private static long getBinomialCoefficient(final byte FIRST_NUMBER, final byte SECOND_NUMBER) {
+    return getFactorial(FIRST_NUMBER) / (getFactorial(SECOND_NUMBER) * getFactorial((byte) (FIRST_NUMBER - SECOND_NUMBER)));
+}
+```

@@ -7,7 +7,7 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
  * <h1>Excepted Output:</h1>
  * <h2>
  * Input an integer: 25
- * <Br/>
+ * <br/>
  * Square root of a number using Babylonian method: 5.0
  * </h2>
  */
