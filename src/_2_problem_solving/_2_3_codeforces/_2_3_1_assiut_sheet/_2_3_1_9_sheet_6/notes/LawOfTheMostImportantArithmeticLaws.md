@@ -400,3 +400,11 @@ private static boolean isPerfectSquare(final int NUMBER) {
     return Math.sqrt(NUMBER) * Math.sqrt(NUMBER) == NUMBER;
 }
 ```
+
+### Get Divisor Sum
+
+```java
+private static long getDivisorSum(final int NUMBER) {
+    return LongStream.rangeClosed(1, (NUMBER + 1) / 2).filter(number -> NUMBER % number == 0 && NUMBER != number).sum();
+}
+```
