@@ -15,7 +15,9 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question191 {
     public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = 25;
-        System.out.println(STR."Input a positive integre: \{TARGET_NUMBER}");
-        System.out.print(STR."Is \{TARGET_NUMBER} sum of two square numbers? \{Math.sqrt(TARGET_NUMBER) == (int) Math.sqrt(TARGET_NUMBER)}");
+        System.out.printf("Input a positive integre: %d\n", TARGET_NUMBER);
+        System.out.printf("Is %d sum of two square numbers? %b",
+                TARGET_NUMBER,
+                Math.sqrt(TARGET_NUMBER) == (int) Math.sqrt(TARGET_NUMBER));
     }
 }

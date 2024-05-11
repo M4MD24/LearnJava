@@ -17,8 +17,8 @@ import java.util.Arrays;
 public class Question165 {
     public static void main(final String[] ARGS) {
         final int[] NUMBERS = {-2, 3, 4, -1, -3, 1, 2, -4, 0};
-        System.out.println(STR."Original Array: \{Arrays.toString(NUMBERS)}");
+        System.out.printf("Original Array: %s\n", Arrays.toString(NUMBERS));
         Arrays.sort(NUMBERS);
-        System.out.print(STR."Result: \{Arrays.toString(NUMBERS)}");
+        System.out.printf("Result: %s", Arrays.toString(NUMBERS));
     }
 }

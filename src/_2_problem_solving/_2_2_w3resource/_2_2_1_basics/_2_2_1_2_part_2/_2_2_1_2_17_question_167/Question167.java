@@ -1,4 +1,4 @@
-package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_2_question_167;
+package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_17_question_167;
 
 import java.util.Arrays;
 
@@ -17,9 +17,9 @@ import java.util.Arrays;
 public class Question167 {
     public static void main(final String[] ARGS) {
         final int[] NUMBERS = {0, 3, 4, 0, 1, 2, 5, 0};
-        System.out.println(STR."Original Array: \{Arrays.toString(NUMBERS)}");
+        System.out.printf("Original Array: %s\n", Arrays.toString(NUMBERS));
         moveZerosToTheRightSide(NUMBERS);
-        System.out.print(STR."Result: \{Arrays.toString(NUMBERS)}");
+        System.out.printf("Result: %s", Arrays.toString(NUMBERS));
     }
 
     private static void moveZerosToTheRightSide(final int[] NUMBERS) {

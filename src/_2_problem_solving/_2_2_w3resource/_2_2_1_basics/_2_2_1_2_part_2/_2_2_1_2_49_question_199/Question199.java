@@ -24,7 +24,10 @@ public class Question199 {
 
     public static void main(final String[] ARGS) {
         for (int index = 0; index < STRINGS.length; index++)
-            System.out.println(STR."Is the \"\{STRINGS[index]}\" and \"\{PATTERNS[index]}\" matched? \{isMatched(STRINGS[index], PATTERNS[index])}");
+            System.out.printf("Is the \"%s\" and \"%s\" matched? %b\n",
+                    STRINGS[index],
+                    PATTERNS[index],
+                    isMatched(STRINGS[index], PATTERNS[index]));
     }
 
     private static boolean isMatched(final String STRING, final String PATTERN) {

@@ -19,8 +19,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question248 {
     public static void main(final String[] ARGS) {
         final String WORD = "ABCD";
-        System.out.println(STR."Input a word: \{WORD}");
-        System.out.print(STR."Is Abecadrian word?: \{IsAbecedarianWord(WORD)}");
+        System.out.printf("Input a word: %s\n", WORD);
+        System.out.printf("Is Abecadrian word?: %b", IsAbecedarianWord(WORD));
     }
 
     private static boolean IsAbecedarianWord(final String WORD) {

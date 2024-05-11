@@ -39,9 +39,15 @@ public class Question224 {
                 SECOND_CIRCLE_SECOND_CENTER = 9,
                 SECOND_CIRCLE_RADIUS = 5;
         System.out.println("Enter the radius and coordinates of first circle:");
-        System.out.println(STR."\{FIRST_CIRCLE_FIRST_CENTER} \{FIRST_CIRCLE_SECOND_CENTER} \{FIRST_CIRCLE_RADIUS}");
+        System.out.printf("%d %d %d\n",
+                FIRST_CIRCLE_FIRST_CENTER,
+                FIRST_CIRCLE_SECOND_CENTER,
+                FIRST_CIRCLE_RADIUS);
         System.out.println("Enter the radius and coordinates of second circle:");
-        System.out.println(STR."\{SECOND_CIRCLE_FIRST_CENTER} \{SECOND_CIRCLE_SECOND_CENTER} \{SECOND_CIRCLE_RADIUS}");
+        System.out.printf("%d %d %d\n",
+                SECOND_CIRCLE_FIRST_CENTER,
+                SECOND_CIRCLE_SECOND_CENTER,
+                SECOND_CIRCLE_RADIUS);
         System.out.print(getOverlapStatus(FIRST_CIRCLE_FIRST_CENTER,
                 FIRST_CIRCLE_SECOND_CENTER,
                 FIRST_CIRCLE_RADIUS,

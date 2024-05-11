@@ -51,11 +51,11 @@ public class Question196 {
     }
 
     private static void printInputs() {
-        System.out.println(STR."Input a number: \{rows}");
+        System.out.printf("Input a number: %d\n", rows);
         System.out.println("Spiral array becomes:");
         for (final int[] NUMBERS : MATRIX) {
             for (final int NUMBER : NUMBERS)
-                System.out.print(STR."\{NUMBER} ");
+                System.out.printf("%d ", NUMBER);
             System.out.println();
         }
     }
@@ -65,19 +65,19 @@ public class Question196 {
                 column = 0;
         while (row < rows && column < columns) {
             for (short index = column; index < columns; index++)
-                System.out.print(STR."\{MATRIX[row][index]} ");
+                System.out.printf("%d ", MATRIX[row][index]);
             row++;
             for (short index = row; index < rows; index++)
-                System.out.print(STR."\{MATRIX[index][columns - 1]} ");
+                System.out.printf("%d ", MATRIX[index][columns - 1]);
             columns--;
             if (row < rows) {
                 for (short index = (short) (columns - 1); index >= column; index--)
-                    System.out.print(STR."\{MATRIX[rows - 1][index]} ");
+                    System.out.printf("%d ", MATRIX[rows - 1][index]);
                 rows--;
             }
             if (column < columns) {
                 for (short index = (short) (rows - 1); index >= row; index--)
-                    System.out.print(STR."\{MATRIX[index][column]} ");
+                    System.out.printf("%d ", MATRIX[index][column]);
                 column++;
             }
         }

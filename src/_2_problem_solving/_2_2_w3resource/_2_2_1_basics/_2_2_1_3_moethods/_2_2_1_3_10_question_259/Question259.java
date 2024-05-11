@@ -14,7 +14,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
 public class Question259 {
     public static void main(final String[] ARGS) {
         final int YEAR = 2017;
-        System.out.println(STR."Input a Year: \{YEAR}");
+        System.out.printf("Input a Year: %d\n", YEAR);
         System.out.print(isLeapYear(YEAR));
     }
 

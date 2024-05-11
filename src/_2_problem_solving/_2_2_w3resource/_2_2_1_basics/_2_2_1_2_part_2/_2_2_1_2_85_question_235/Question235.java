@@ -20,14 +20,15 @@ public class Question235 {
     public static void main(final String[] ARGS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.println("Input StartX1, StartY1, EndX1, EndY1, StartX2, StartY2, EndX2, EndY2:");
-        System.out.print(STR."Two lines are \{(areLinesOrthogonal(INPUT.nextDouble(),
-                INPUT.nextDouble(),
-                INPUT.nextDouble(),
-                INPUT.nextDouble(),
-                INPUT.nextDouble(),
-                INPUT.nextDouble(),
-                INPUT.nextDouble(),
-                INPUT.nextDouble())) ? "" : "not "}orthogonal");
+        System.out.printf("Two lines are %sorthogonal",
+                areLinesOrthogonal(INPUT.nextDouble(),
+                        INPUT.nextDouble(),
+                        INPUT.nextDouble(),
+                        INPUT.nextDouble(),
+                        INPUT.nextDouble(),
+                        INPUT.nextDouble(),
+                        INPUT.nextDouble(),
+                        INPUT.nextDouble()) ? "" : "not ");
     }
 
     private static boolean areLinesOrthogonal(final double START_X1, final double START_Y1,

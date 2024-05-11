@@ -21,8 +21,8 @@ import java.util.Arrays;
 public class Question160 {
     public static void main(final String[] ARGS) {
         final int[] NUMBERS = {1, 4, 17, 7, 25, 3, 100};
-        System.out.println(STR."Original Array:\n\{Arrays.toString(NUMBERS)}");
+        System.out.printf("Original Array:\n%s\n", Arrays.toString(NUMBERS));
         Arrays.sort(NUMBERS);
-        System.out.print(STR."3 largest elements of the said array are:\n\{NUMBERS[0]} \{NUMBERS[1]} \{NUMBERS[2]}");
+        System.out.printf("3 largest elements of the said array are:\n%d %d %d", NUMBERS[0], NUMBERS[1], NUMBERS[2]);
     }
 }

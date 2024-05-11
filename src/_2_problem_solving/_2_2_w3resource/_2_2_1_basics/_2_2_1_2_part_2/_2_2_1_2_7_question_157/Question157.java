@@ -25,8 +25,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 
 public class Question157 {
     public static void main(final String[] ARGS) {
-        System.out.println(STR."Result: \{getGreatestCommonDivisor(48, 24)}");
-        System.out.print(STR."Result: \{getGreatestCommonDivisor(125463, 9658)}");
+        System.out.printf("Result: %d\n", getGreatestCommonDivisor(48, 24));
+        System.out.printf("Result: %d", getGreatestCommonDivisor(125463, 9658));
     }
 
     private static long getGreatestCommonDivisor(long number1, long number2) {

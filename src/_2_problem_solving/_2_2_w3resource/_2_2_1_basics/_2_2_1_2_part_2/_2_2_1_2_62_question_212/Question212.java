@@ -19,8 +19,10 @@ public class Question212 {
         final int FIRST_NUMBER = 13,
                 SECOND_NUMBER = 25;
         System.out.println("Input two integer:");
-        System.out.println(STR."\{FIRST_NUMBER} \{SECOND_NUMBER}");
-        System.out.print(STR."Digit number of sum of said two integers: \{countOfDigits(FIRST_NUMBER, SECOND_NUMBER)}");
+        System.out.printf("%d %d",
+                FIRST_NUMBER,
+                SECOND_NUMBER);
+        System.out.printf("Digit number of sum of said two integers: %d", countOfDigits(FIRST_NUMBER, SECOND_NUMBER));
     }
 
     private static int countOfDigits(final int FIRST_NUMBER, final int SECOND_NUMBER) {

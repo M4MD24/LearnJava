@@ -15,8 +15,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question217 {
     public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = 1235;
-        System.out.println(STR."Input the target number: \{TARGET_NUMBER}");
-        System.out.println(STR."Number of prime numbers which are less than or equal to target number: \{getCountOfPrimeNumbersLessThanOrEqualToTargetNumber(TARGET_NUMBER)}");
+        System.out.printf("Input the target number: %d\n", TARGET_NUMBER);
+        System.out.printf("Number of prime numbers which are less than or equal to target number: %d", getCountOfPrimeNumbersLessThanOrEqualToTargetNumber(TARGET_NUMBER));
     }
 
     private static int getCountOfPrimeNumbersLessThanOrEqualToTargetNumber(final int TARGET_NUMBER) {

@@ -21,9 +21,9 @@ public class Question202 {
         final ArrayList<Integer> NUMBERS = new ArrayList<>();
         final int TARGET_SUM = 6;
         inputNumbers(NUMBERS);
-        System.out.println(STR."Original array: \{NUMBERS}");
-        System.out.println(STR."Target sum: \{TARGET_SUM}");
-        System.out.print(STR."Total number of continuous sub-arrays: \{totalNumberOfContinuousSubArrays(NUMBERS, TARGET_SUM)}");
+        System.out.printf("Original array: %s\n", NUMBERS);
+        System.out.printf("Target sum: %d", TARGET_SUM);
+        System.out.printf("Total number of continuous sub-arrays: %d", totalNumberOfContinuousSubArrays(NUMBERS, TARGET_SUM));
     }
 
     private static int totalNumberOfContinuousSubArrays(final ArrayList<Integer> NUMBERS, final int TARGET_NUMBER_OF_SUBSETS) {

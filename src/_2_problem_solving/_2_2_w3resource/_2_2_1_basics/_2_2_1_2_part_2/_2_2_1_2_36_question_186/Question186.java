@@ -19,7 +19,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question186 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 9006;
-        System.out.print(STR."Is \{NUMBER} is Strobogrammatic? \{isStrobogrammatic(NUMBER)}");
+        System.out.printf("Is %d is Strobogrammatic? %b", NUMBER, isStrobogrammatic(NUMBER));
     }
 
     private static boolean isStrobogrammatic(int number) {

@@ -16,7 +16,7 @@ public class Question184 {
 
     public static void main(final String[] ARGS) {
         inputValues();
-        System.out.print(STR."Length of the longest consecutive sequence path: \{BINARY_TREE.maximumDepth()}");
+        System.out.printf("Length of the longest consecutive sequence path: %d", BINARY_TREE.maximumDepth());
     }
 
     private static void inputValues() {

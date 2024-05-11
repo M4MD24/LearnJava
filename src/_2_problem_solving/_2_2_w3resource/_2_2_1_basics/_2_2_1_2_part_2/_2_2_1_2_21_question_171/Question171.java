@@ -23,6 +23,6 @@ public class Question171 {
         final String FIRST_TEXT = INPUT.nextLine();
         System.out.print("Input second string: ");
         final String SECOND_TEXT = INPUT.nextLine();
-        System.out.print(STR."If the second string contains the first one? \{FIRST_TEXT.contentEquals(SECOND_TEXT)}");
+        System.out.printf("If the second string contains the first one? %s", FIRST_TEXT.contentEquals(SECOND_TEXT));
     }
 }

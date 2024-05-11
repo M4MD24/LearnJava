@@ -23,7 +23,7 @@ public class Question232 {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print("Input a number to compute the sum: ");
         final short TARGET_NUMBER = INPUT.nextShort();
-        System.out.print(STR."Sum of first 100 prime numbers: \{getSum(TARGET_NUMBER)}");
+        System.out.printf("Sum of first 100 prime numbers: %d", getSum(TARGET_NUMBER));
     }
 
     private static int getSum(final short TARGET_NUMBER) {

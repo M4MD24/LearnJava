@@ -19,7 +19,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question230 {
     public static void main(final String[] ARGS) {
         final String TEXT = "python is more popular than java";
-        System.out.println(STR."Input text:\n\{TEXT}");
-        System.out.print(STR."Input text:\n\{TEXT.replaceAll("python", "p____n").replaceAll("java", "python").replaceAll("p____n", "java")}");
+        System.out.printf("Input text:\n%s\n", TEXT);
+        System.out.printf("Input text:\n%s",
+                TEXT.replaceAll("python", "p____n").replaceAll("java", "python").replaceAll("p____n", "java"));
     }
 }

@@ -16,7 +16,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
 public class Question271 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 8642;
-        System.out.println(STR."Input an number: \{NUMBER}");
+        System.out.printf("Input an number: \n%d", NUMBER);
         System.out.println("Check whether every digit of the said number is even or not!");
         System.out.print(allDigitsAreEven(NUMBER));
     }

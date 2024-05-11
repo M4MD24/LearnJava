@@ -24,6 +24,6 @@ public class Question164 {
         final int DIVIDEND_NUMBER = INPUT.nextInt();
         System.out.print("Input the divider: ");
         final int DIVIDER_NUMBER = INPUT.nextInt();
-        System.out.print(STR."Result: \{(double) DIVIDEND_NUMBER / DIVIDER_NUMBER}");
+        System.out.printf("Result: %f", (double) DIVIDEND_NUMBER / DIVIDER_NUMBER);
     }
 }

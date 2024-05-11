@@ -55,7 +55,7 @@ public class Question226 {
         for (int index = 0; index < NUMBERS.size(); index++) {
             final int NUMBER = NUMBERS.get(index);
             if (NUMBERS.lastIndexOf(NUMBER) != index) {
-                System.out.print(STR."Mode value: \{NUMBER}");
+                System.out.printf("Mode value: %d", NUMBER);
                 return;
             }
         }

@@ -19,9 +19,9 @@ public class Question179 {
     private static int[] numbers = {9, 9, 9, 9};
 
     public static void main(final String[] ARGS) {
-        System.out.println(STR."Original array: \{Arrays.toString(numbers)}");
+        System.out.printf("Original array: %s\n", Arrays.toString(numbers));
         addValue(1);
-        System.out.print(STR."Array of digits: \{Arrays.toString(numbers)}");
+        System.out.printf("Array of digits: %s", Arrays.toString(numbers));
     }
 
     private static void addValue(final int VALUE) {

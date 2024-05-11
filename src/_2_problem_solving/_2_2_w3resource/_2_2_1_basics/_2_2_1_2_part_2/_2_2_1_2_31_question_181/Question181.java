@@ -16,7 +16,7 @@ public class Question181 {
     public static void main(final String[] ARGS) {
         final String TEXT = "The length of last word";
         final String[] TEXT_OF_WORDS = TEXT.split(" +");
-        System.out.println(STR."Original String: \{TEXT}");
-        System.out.print(STR."Length of the last word of the above string: \{TEXT_OF_WORDS[TEXT_OF_WORDS.length - 1].length()}");
+        System.out.printf("Original String: %s\n", TEXT);
+        System.out.printf("Length of the last word of the above string: %d", TEXT_OF_WORDS[TEXT_OF_WORDS.length - 1].length());
     }
 }

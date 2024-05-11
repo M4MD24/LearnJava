@@ -14,7 +14,7 @@ package _2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types
 public class Question282 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 123456;
-        System.out.println(STR."Input six non-negative digits: \{NUMBER}");
+        System.out.printf("Input six non-negative digits: %d\n", NUMBER);
         printDigitsWithSpaces(NUMBER);
     }
 

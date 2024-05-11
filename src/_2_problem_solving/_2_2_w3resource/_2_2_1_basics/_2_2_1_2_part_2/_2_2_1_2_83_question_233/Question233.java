@@ -40,7 +40,7 @@ public class Question233 {
         final int TARGET_SUM = INPUT.nextInt();
         try {
             if (TARGET_SUM % 2 == 0)
-                System.out.print(STR."Count of two combinations: \{getCountOfTwoCombinations(TARGET_SUM)}");
+                System.out.printf("Count of two combinations: %d", getCountOfTwoCombinations(TARGET_SUM));
             else {
                 System.out.println("\u001B[31mEnter even number\u001B[m");
                 Question233.main(ARGS);

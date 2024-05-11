@@ -31,7 +31,7 @@ public class Question260 {
         System.out.println("2. A password consists of only letters and digits.");
         System.out.println("3. A password must contain at least two digits");
         final String PASSWORD = "abcd1234";
-        System.out.println(STR."Input a password (You are agreeing to the above Terms and Conditions.):\n\{PASSWORD}");
+        System.out.printf("Input a password (You are agreeing to the above Terms and Conditions.):\n%s\n", PASSWORD);
         printCheckPassword(PASSWORD);
     }
 
@@ -42,6 +42,6 @@ public class Question260 {
             System.out.println("Password isn't valid\n");
             Question260.main(new String[]{});
         } else
-            System.out.print(STR."Password is valid: \{PASSWORD}");
+            System.out.printf("Password is valid: %s", PASSWORD);
     }
 }
