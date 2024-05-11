@@ -25,9 +25,9 @@ import java.util.Arrays;
 public class Question161 {
     public static void main(final String[] ARGS) {
         final int[] NUMBERS = {1, 4, 17, 7, 25, 3, 100};
-        System.out.println(STR."Original Array:\n\{Arrays.toString(NUMBERS)}");
+        System.out.printf("Original Array:\n%s\n", Arrays.toString(NUMBERS));
         Arrays.sort(NUMBERS);
-        System.out.println(STR."K'th smallest element of the said array:\n\{NUMBERS[1]}");
-        System.out.print(STR."K'th largest element of the said array:\n\{NUMBERS[NUMBERS.length - 2]}");
+        System.out.printf("K'th smallest element of the said array:\n%d\n", NUMBERS[1]);
+        System.out.printf("K'th largest element of the said array:\n%d", NUMBERS[NUMBERS.length - 2]);
     }
 }

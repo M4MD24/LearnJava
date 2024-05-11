@@ -46,12 +46,18 @@ public class Question219 {
 
     public static void main(final String[] ARGS) {
         System.out.println("input longitude and latitude coordinates first point:");
-        System.out.println(STR."\{LATITUDE_COORDINATES_FIRST_POINT} \{LONGITUDE_COORDINATES_FIRST_POINT}");
+        System.out.printf("%d %d\n",
+                LATITUDE_COORDINATES_FIRST_POINT,
+                LONGITUDE_COORDINATES_FIRST_POINT);
         System.out.println("input longitude and latitude coordinates second point:");
-        System.out.println(STR."\{LATITUDE_COORDINATES_SECOND_POINT} \{LONGITUDE_COORDINATES_SECOND_POINT}");
+        System.out.printf("%d %d\n",
+                LATITUDE_COORDINATES_SECOND_POINT,
+                LONGITUDE_COORDINATES_SECOND_POINT);
         System.out.println("input longitude and latitude coordinates third point:");
-        System.out.println(STR."\{LATITUDE_COORDINATES_THIRD_POINT} \{LONGITUDE_COORDINATES_THIRD_POINT}");
-        System.out.println(STR."The point is \{getPointPositionStatus() ? "in" : "out"}side the triangle");
+        System.out.printf("%d %d\n",
+                LATITUDE_COORDINATES_THIRD_POINT,
+                LONGITUDE_COORDINATES_THIRD_POINT);
+        System.out.printf("The point is %b the triangle", getPointPositionStatus() ? "inside" : "outside");
     }
 
     private static boolean getPointPositionStatus() {

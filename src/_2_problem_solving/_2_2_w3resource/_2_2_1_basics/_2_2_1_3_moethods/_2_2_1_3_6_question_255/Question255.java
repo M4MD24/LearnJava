@@ -14,8 +14,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
 public class Question255 {
     public static void main(final String[] ARGS) {
         final int DIGITS = 25;
-        System.out.println(STR."Input an integer: \{DIGITS}");
-        System.out.print(STR."The sum is: \{getSumOfDigits(DIGITS)}");
+        System.out.printf("Input an integer: %d", DIGITS);
+        System.out.printf("The sum is: %d", getSumOfDigits(DIGITS));
     }
 
     private static int getSumOfDigits(int digits) {

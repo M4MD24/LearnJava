@@ -20,8 +20,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
 public class Question252 {
     public static void main(final String[] ARGS) {
         final String TEXT = "3550";
-        System.out.println(STR."Input a text: \{TEXT}");
-        System.out.print(STR."The middle character in the text: \{getMiddleCharacter(TEXT)}");
+        System.out.printf("Input a text: %s\n", TEXT);
+        System.out.printf("The middle character in the text: %s", getMiddleCharacter(TEXT));
     }
 
     private static String getMiddleCharacter(final String TEXT) {

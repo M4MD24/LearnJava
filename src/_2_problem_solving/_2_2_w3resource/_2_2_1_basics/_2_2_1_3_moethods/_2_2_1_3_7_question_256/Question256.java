@@ -19,7 +19,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
 public class Question256 {
     public static void main(final String[] ARGS) {
         final int COUNT_OF_PENTAGONAL_NUMBERS = 50;
-        System.out.println(STR."The first \{COUNT_OF_PENTAGONAL_NUMBERS} pentagonal numbers are:");
+        System.out.printf("The first %d pentagonal numbers are:\n", COUNT_OF_PENTAGONAL_NUMBERS);
         displayPentagonalNumbers(50);
     }
 

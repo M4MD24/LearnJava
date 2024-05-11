@@ -33,10 +33,10 @@ public class Question215 {
         printPopulationAfterIncrease(POPULATION, MONTHS, PERCENTAGE_INCREASE_EVERY_MONTH);
     }
 
-    private static void printPopulationAfterIncrease(final int POPULATION,final int MONTHS,final double PERCENTAGE_INCREASE_EVERY_MONTH) {
+    private static void printPopulationAfterIncrease(final int POPULATION, final int MONTHS, final double PERCENTAGE_INCREASE_EVERY_MONTH) {
         int populationAfterIncrease = POPULATION;
         for (int index = 0; index < MONTHS; index++)
             populationAfterIncrease += (int) Math.round(populationAfterIncrease * PERCENTAGE_INCREASE_EVERY_MONTH);
-        System.out.println(STR."Population after \{MONTHS} months: \{populationAfterIncrease}");
+        System.out.printf("Population after %d months: %d\n", MONTHS, populationAfterIncrease);
     }
 }

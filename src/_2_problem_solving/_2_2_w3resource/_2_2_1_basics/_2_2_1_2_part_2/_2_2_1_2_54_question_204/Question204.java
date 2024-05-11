@@ -22,12 +22,16 @@ public class Question204 {
                 SECOND_NUMBER = 35,
                 THIRD_NUMBER = 45;
         printInputs(FIRST_NUMBER, SECOND_NUMBER, THIRD_NUMBER);
-        System.out.print(STR."\{FIRST_NUMBER}^\{SECOND_NUMBER} % \{THIRD_NUMBER} = \{Math.pow(FIRST_NUMBER, SECOND_NUMBER) % THIRD_NUMBER}");
+        System.out.printf("%d^%d %% %d = %f",
+                FIRST_NUMBER,
+                SECOND_NUMBER,
+                THIRD_NUMBER,
+                Math.pow(FIRST_NUMBER, SECOND_NUMBER) % THIRD_NUMBER);
     }
 
     private static void printInputs(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {
-        System.out.println(STR."Input first number: \{FIRST_NUMBER}");
-        System.out.println(STR."Input second number: \{SECOND_NUMBER}");
-        System.out.println(STR."Input third number: \{THIRD_NUMBER}");
+        System.out.printf("Input first number: %d\n", FIRST_NUMBER);
+        System.out.printf("Input second number: %d\n", SECOND_NUMBER);
+        System.out.printf("Input third number: %d\n", THIRD_NUMBER);
     }
 }

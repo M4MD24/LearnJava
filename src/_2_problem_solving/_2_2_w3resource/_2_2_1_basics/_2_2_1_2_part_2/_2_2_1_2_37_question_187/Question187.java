@@ -11,7 +11,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question187 {
     public static void main(final String[] ARGS) {
         final String TEXT = "MOHAMED";
-        System.out.print(STR."Index of first non-repeating character in \{TEXT} is: \{getFirstNonRepeatingCharacter(TEXT)}");
+        System.out.printf("Index of first non-repeating character in %s is: %d", TEXT, getFirstNonRepeatingCharacter(TEXT));
     }
 
     private static int getFirstNonRepeatingCharacter(final String TEXT) {

@@ -20,9 +20,9 @@ public class Question203 {
     public static void main(final String[] ARGS) {
         final int[] NUMBERS = {4, 2, 3, 3, 7, 2, 4};
         final int SUB_ARRAY_NUMBER = 3;
-        System.out.println(STR."Original array: \{Arrays.toString(NUMBERS)}");
-        System.out.println(STR."Sub-array number: \{SUB_ARRAY_NUMBER}");
-        System.out.print(STR."Maximum average value: \{getMaximumAverageValue(NUMBERS, SUB_ARRAY_NUMBER)}");
+        System.out.printf("Original array: %s", Arrays.toString(NUMBERS));
+        System.out.printf("Sub-array number: %d", SUB_ARRAY_NUMBER);
+        System.out.printf("Maximum average value: %f", getMaximumAverageValue(NUMBERS, SUB_ARRAY_NUMBER));
     }
 
     private static double getMaximumAverageValue(final int[] NUMBERS, final int SUB_ARRAY_NUMBER) {

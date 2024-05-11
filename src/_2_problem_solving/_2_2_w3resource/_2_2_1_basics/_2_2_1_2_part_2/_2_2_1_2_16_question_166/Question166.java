@@ -17,6 +17,6 @@ public class Question166 {
     public static void main(final String[] ARGS) {
         System.out.print("Input an integer: ");
         final int NUMBER = new Scanner(System.in).nextInt();
-        System.out.println(STR."String format of the said integer: \{String.valueOf(NUMBER)}");
+        System.out.printf("String format of the said integer: %s", String.valueOf(NUMBER));
     }
 }

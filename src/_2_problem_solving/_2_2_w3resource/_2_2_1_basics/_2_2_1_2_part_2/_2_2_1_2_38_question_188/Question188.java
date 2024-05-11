@@ -18,8 +18,12 @@ import java.util.Arrays;
 public class Question188 {
     public static void main(final String[] ARGS) {
         final String TEXT = "zyxwyxyxzwxyz", TARGET_TEXT = "xyz";
-        System.out.println(STR."Original String: \{TEXT}");
-        System.out.print(STR."Starting anagram indices of \{TARGET_TEXT}: \{(TARGET_TEXT.length() < TEXT.length()) ? getStartingAnagramIndicesOfTargetText(TEXT, TARGET_TEXT) : -1}");
+        System.out.printf("Original String: %s\n", TEXT);
+        System.out.printf("Starting anagram indices of %s: %s",
+                TARGET_TEXT,
+                TARGET_TEXT.length() < TEXT.length()
+                        ? getStartingAnagramIndicesOfTargetText(TEXT, TARGET_TEXT)
+                        : -1);
     }
 
     private static ArrayList<Integer> getStartingAnagramIndicesOfTargetText(final String TEXT, final String TARGET_TEXT) {

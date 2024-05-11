@@ -24,10 +24,10 @@ public class Question221 {
         final ArrayList<Integer> NUMBERS = new ArrayList<>();
         inputNumbers(NUMBERS);
         System.out.println("Input six integers:");
-        NUMBERS.forEach(NUMBER -> System.out.print(STR."\{NUMBER} "));
+        NUMBERS.forEach(NUMBER -> System.out.printf("%d ", NUMBER));
         NUMBERS.sort(Collections.reverseOrder());
         System.out.println("\nAfter sorting the said integers:");
-        NUMBERS.forEach(NUMBER -> System.out.print(STR."\{NUMBER} "));
+        NUMBERS.forEach(NUMBER -> System.out.printf("%d ", NUMBER));
     }
 
     private static void inputNumbers(final ArrayList<Integer> NUMBERS) {

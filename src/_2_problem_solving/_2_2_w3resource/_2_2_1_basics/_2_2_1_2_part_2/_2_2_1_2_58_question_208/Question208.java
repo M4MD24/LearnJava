@@ -14,8 +14,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question208 {
     public static void main(final String[] ARGS) {
         final StringBuffer TEXT = new StringBuffer("aaaabbbbcccccddddeeee");
-        System.out.println(STR."Input text: \{TEXT}");
-        System.out.println(STR."The compressed text along with counts of repeated characters is: \{compressText(TEXT)}");
+        System.out.printf("Input text: %s\n", TEXT);
+        System.out.printf("The compressed text along with counts of repeated characters is: %s", compressText(TEXT));
     }
 
     private static StringBuffer compressText(StringBuffer text) {
@@ -29,7 +29,9 @@ public class Question208 {
         final StringBuffer TEXT = new StringBuffer();
         for (int index = 0; index < 26; index++)
             if (CHARACTERS_AND_HER_COUNT[index] != 0)
-                TEXT.append(STR."\{(char) (index + 'a')}\{CHARACTERS_AND_HER_COUNT[index]}");
+                TEXT.append(String.format("%c%c",
+                        (char) (index + 'a'),
+                        CHARACTERS_AND_HER_COUNT[index]));
         return TEXT;
     }
 

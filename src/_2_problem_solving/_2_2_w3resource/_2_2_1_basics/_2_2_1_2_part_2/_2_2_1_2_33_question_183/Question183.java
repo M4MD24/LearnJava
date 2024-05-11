@@ -15,7 +15,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question183 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 25;
-        System.out.println(STR."Input a positive integer: \{NUMBER}");
+        System.out.printf("Input a positive integer: %d\n", NUMBER);
         final int NUMBER_AFTER_ADDITION = getNumberAfterAddition(NUMBER, 0);
         System.out.print(NUMBER_AFTER_ADDITION);
     }

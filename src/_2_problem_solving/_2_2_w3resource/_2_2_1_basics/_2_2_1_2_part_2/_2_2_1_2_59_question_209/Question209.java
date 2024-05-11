@@ -73,7 +73,7 @@ public class Question209 {
     private static void printNumbersEqualsTargetSum(final int[] NUMBERS_EQUALS_TARGET_SUM, final int START_INDEX, final int END_INDEX) {
         System.out.print("{ ");
         for (int index = START_INDEX; index <= END_INDEX; index++)
-            System.out.print(STR."\{NUMBERS_EQUALS_TARGET_SUM[index]} ");
+            System.out.printf("%d ", NUMBERS_EQUALS_TARGET_SUM[index]);
         System.out.println("}");
     }
 

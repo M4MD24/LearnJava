@@ -15,8 +15,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question216 {
     public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = 5;
-        System.out.println(STR."Input the number: \{TARGET_NUMBER}");
-        System.out.println(STR."Number of combinations of four numbers: \{getCountOfCombinationsOfFourNumbers(TARGET_NUMBER)}");
+        System.out.printf("Input the number: %d", TARGET_NUMBER);
+        System.out.printf("Number of combinations of four numbers: %d", getCountOfCombinationsOfFourNumbers(TARGET_NUMBER));
     }
 
     private static int getCountOfCombinationsOfFourNumbers(final int TARGET_NUMBER) {

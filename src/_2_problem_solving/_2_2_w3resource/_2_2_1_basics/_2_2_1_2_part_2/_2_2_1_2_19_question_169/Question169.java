@@ -17,7 +17,7 @@ public class Question169 {
     public static void main(final String[] ARGS) {
         System.out.print("Input the first number: ");
         final String[][] TEXT = new String[][]{new Scanner(System.in).nextLine().split(" +")};
-        System.out.print(STR."Result: \{reverseText(TEXT)}");
+        System.out.printf("Result: %s", reverseText(TEXT));
     }
 
     private static StringBuffer reverseText(final String[][] TEXT) {

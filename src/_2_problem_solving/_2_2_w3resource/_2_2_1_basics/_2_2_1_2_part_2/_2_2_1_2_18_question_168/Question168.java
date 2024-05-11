@@ -1,4 +1,4 @@
-package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_3_question_168;
+package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_18_question_168;
 
 import java.util.Scanner;
 
@@ -24,6 +24,6 @@ public class Question168 {
         final int FIRST_NUMBER = INPUT.nextInt();
         System.out.print("Input the second number: ");
         final int SECOND_NUMBER = INPUT.nextInt();
-        System.out.print(STR."Result: \{FIRST_NUMBER * SECOND_NUMBER}");
+        System.out.printf("Result: %d", FIRST_NUMBER * SECOND_NUMBER);
     }
 }

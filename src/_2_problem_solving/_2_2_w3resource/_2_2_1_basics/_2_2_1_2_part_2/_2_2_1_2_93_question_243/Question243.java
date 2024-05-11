@@ -30,7 +30,7 @@ public class Question243 {
         final String WORDS_AND_PAGE_NUMBERS = """
                 apple 5
                 banana 6""";
-        System.out.println(STR."Input pairs of a word and a page number:\n\{WORDS_AND_PAGE_NUMBERS}");
-        System.out.println(STR."Word and page number in alphabetical order:\n\{WORDS_AND_PAGE_NUMBERS.replaceAll(" +", "\n")}");
+        System.out.printf("Input pairs of a word and a page number:\n%s\n", WORDS_AND_PAGE_NUMBERS);
+        System.out.printf("Word and page number in alphabetical order:\n%s", WORDS_AND_PAGE_NUMBERS.replaceAll(" +", "\n"));
     }
 }

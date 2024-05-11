@@ -33,7 +33,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question242 {
     public static void main(final String[] ARGS) {
         final int COUNT_OF_ROWS_AND_COLUMNS = 4;
-        System.out.println(STR."Input count of rows and columns: \{COUNT_OF_ROWS_AND_COLUMNS}");
+        System.out.printf("Input count of rows and columns: %d\n", COUNT_OF_ROWS_AND_COLUMNS);
         final int[][] NUMBERS = {
                 {25, 69, 51, 26},
                 {68, 35, 29, 54},
@@ -52,7 +52,7 @@ public class Question242 {
             int sumOfColumn = 0;
             for (int row = 0; row < NUMBERS[column].length; row++)
                 sumOfColumn += NUMBERS[row][column];
-            System.out.print(STR."\{sumOfColumn} ");
+            System.out.printf("%d ", sumOfColumn);
             sumOfColumns += sumOfColumn;
         }
         System.out.print(sumOfColumns);
@@ -62,7 +62,7 @@ public class Question242 {
         for (final int[] NUMBER : NUMBERS) {
             int sumOfRow = 0;
             for (final int DIGIT : NUMBER) {
-                System.out.print(STR."\{DIGIT} ");
+                System.out.printf("%d ", DIGIT);
                 sumOfRow += DIGIT;
             }
             System.out.println(sumOfRow);
@@ -72,7 +72,7 @@ public class Question242 {
     private static void printNumbers(final int[][] NUMBERS) {
         for (final int[] NUMBER : NUMBERS) {
             for (final int DIGIT : NUMBER)
-                System.out.print(STR."\{DIGIT} ");
+                System.out.printf("%d ", DIGIT);
             System.out.println();
         }
     }

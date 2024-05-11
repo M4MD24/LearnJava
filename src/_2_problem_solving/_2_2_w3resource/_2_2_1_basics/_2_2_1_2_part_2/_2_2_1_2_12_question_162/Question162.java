@@ -28,7 +28,7 @@ public class Question162 {
     private static double average = 0;
 
     public static void main(final String[] ARGS) {
-        System.out.println(STR."Original Array:\n\{Arrays.toString(NUMBERS)}");
+        System.out.printf("Original Array:\n%s\n", Arrays.toString(NUMBERS));
         printAverageNumbers();
         printNumbersGreaterThanAverage();
     }
@@ -45,6 +45,6 @@ public class Question162 {
         for (final int NUMBER : NUMBERS)
             sumNumbers += NUMBER;
         average = (double) sumNumbers / NUMBERS.length;
-        System.out.println(STR."The average of the said array is: \{average}");
+        System.out.printf("The average of the said array is: %f\n", average);
     }
 }

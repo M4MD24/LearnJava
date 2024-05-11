@@ -16,7 +16,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
 public class Question270 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 81;
-        System.out.println(STR."Input an number (positive/negative): \{NUMBER}");
+        System.out.printf("Input an number (positive/negative): %d\n", NUMBER);
         System.out.println("Factors of 3 of the said number");
         System.out.print(getFactorsThreeNumber(NUMBER));
     }

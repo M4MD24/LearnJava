@@ -30,7 +30,9 @@ public class Question194 {
 
     private static void printPositions(ArrayList<Position> POSITIONS) {
         for (final Position POSITION : POSITIONS)
-            System.out.println(STR."(\{POSITION.row}, \{POSITION.column})");
+            System.out.printf("(%d, %d)\n",
+                    POSITION.row,
+                    POSITION.column);
     }
 
     private static ArrayList<Position> getPositions(final int[][] MATRIX, final int TARGET_NUMBER) {

@@ -26,7 +26,7 @@ public class Question195 {
 
     public static void main(final String[] ARGS) {
         inputValues();
-        System.out.print(STR."Is the said sides from a triangle: \{isTriangle()}");
+        System.out.printf("Is the said sides from a triangle: %b", isTriangle());
     }
 
     private static void inputValues() {

@@ -29,14 +29,14 @@ public class Question158 {
     private static String printIsNotPrime(int row, int column, long index) {
         if (index > 1) {
             if (column + 1 != COLUMNS) {
-                System.out.print(STR."\{!isPrime(row) || !isPrime(column)} ");
+                System.out.printf("%b ", !isPrime(row) || !isPrime(column));
                 return printIsNotPrime(row, ++column, --index);
             } else {
-                System.out.println(STR."\{!isPrime(row) || !isPrime(column)}");
+                System.out.printf("%b", !isPrime(row) || !isPrime(column));
                 return printIsNotPrime(++row, 0, --index);
             }
         } else {
-            System.out.print(STR."\{!isPrime(row) || !isPrime(column)}");
+            System.out.printf("%b", !isPrime(row) || !isPrime(column));
             return "";
         }
     }

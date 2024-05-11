@@ -43,6 +43,6 @@ public class Question239 {
         for (final String[] LINE : WORDS)
             for (final String WORD : LINE)
                 if (WORD.length() > 2 && WORD.length() < 7)
-                    System.out.print(STR."\{WORD} ");
+                    System.out.printf("%s ", WORD);
     }
 }

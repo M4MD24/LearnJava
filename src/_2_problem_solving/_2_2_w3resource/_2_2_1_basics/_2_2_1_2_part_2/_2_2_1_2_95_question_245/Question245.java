@@ -41,8 +41,12 @@ public class Question245 {
         if (COUNT_OF_STUDENTS > 0) {
             System.out.println("Name and id of the highest score and the lowest score:");
             inputStudentDetails(COUNT_OF_STUDENTS);
-            System.out.println(STR."\{studentWhoHighestScore.name()} \{studentWhoHighestScore.id()}");
-            System.out.print(STR."\{studentWhoLowestScore.name()} \{studentWhoLowestScore.id()}");
+            System.out.printf("%s %s\n",
+                    studentWhoHighestScore.name(),
+                    studentWhoHighestScore.id());
+            System.out.printf("%s %s",
+                    studentWhoLowestScore.name(),
+                    studentWhoLowestScore.id());
         } else {
             System.out.println("\u001B[31mEnter count of students greater than 1\u001B[0m");
             Question245.main(ARGS);

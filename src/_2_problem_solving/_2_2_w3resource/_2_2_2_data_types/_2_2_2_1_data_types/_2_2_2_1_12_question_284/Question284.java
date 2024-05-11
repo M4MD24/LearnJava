@@ -20,9 +20,9 @@ public class Question284 {
     public static void main(final String[] ARGS) {
         final int FIRST_NUMBER = Integer.MIN_VALUE,
                 SECOND_NUMBER = Integer.MAX_VALUE;
-        System.out.println(STR."Signed numbers: \{FIRST_NUMBER}, \{SECOND_NUMBER}");
+        System.out.printf("Signed numbers: %d, %d\n", FIRST_NUMBER, SECOND_NUMBER);
         System.out.println("-".repeat(String.valueOf(FIRST_NUMBER).length() + String.valueOf(SECOND_NUMBER).length() + 18));
-        System.out.println(STR."Result of comparing signed numbers: \{Integer.compare(FIRST_NUMBER, SECOND_NUMBER)}");
-        System.out.println(STR."Result of comparing unsigned numbers: \{Integer.compareUnsigned(FIRST_NUMBER, SECOND_NUMBER)}");
+        System.out.printf("Result of comparing signed numbers: %d", Integer.compare(FIRST_NUMBER, SECOND_NUMBER));
+        System.out.printf("Result of comparing unsigned numbers: %d", Integer.compareUnsigned(FIRST_NUMBER, SECOND_NUMBER));
     }
 }

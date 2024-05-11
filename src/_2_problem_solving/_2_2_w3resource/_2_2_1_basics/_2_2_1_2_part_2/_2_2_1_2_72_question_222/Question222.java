@@ -28,15 +28,16 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 
 public class Question222 {
     public static void main(final String[] ARGS) {
-        System.out.print(STR."Two lines are\{areTwoLinesParallelWithFourPoints(
-                5,
-                6,
-                4,
-                2,
-                5,
-                3,
-                5,
-                6) ? "" : " not"} parallel.");
+        System.out.printf("Two lines are%s parallel.",
+                areTwoLinesParallelWithFourPoints(
+                        5,
+                        6,
+                        4,
+                        2,
+                        5,
+                        3,
+                        5,
+                        6) ? "" : " not");
     }
 
     private static boolean areTwoLinesParallelWithFourPoints(final double FIRST_POINT_FIRST_LINE,

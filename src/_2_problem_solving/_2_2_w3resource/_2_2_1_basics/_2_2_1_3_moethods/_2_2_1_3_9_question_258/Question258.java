@@ -27,7 +27,7 @@ public class Question258 {
 
     private static void printCharacters(final char START_CHARACTER, final char END_CHARACTER, final int CHARACTERS_PER_LINE) {
         for (char currentCharacter = START_CHARACTER; currentCharacter <= END_CHARACTER; currentCharacter++) {
-            System.out.print(STR."\{currentCharacter} ");
+            System.out.printf("%c ", currentCharacter);
             if ((currentCharacter + 1) % CHARACTERS_PER_LINE == 0)
                 System.out.println();
         }

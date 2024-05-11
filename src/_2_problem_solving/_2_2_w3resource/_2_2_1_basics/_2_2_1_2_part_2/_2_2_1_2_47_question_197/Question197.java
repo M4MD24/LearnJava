@@ -15,8 +15,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question197 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 25;
-        System.out.println(STR."Input a positive integer: \{NUMBER}");
-        System.out.print(STR."Is the said number perfect square? \{isPerfectSquare(NUMBER)}");
+        System.out.printf("Input a positive integer: %d\n", NUMBER);
+        System.out.printf("Is the said number perfect square? %b", isPerfectSquare(NUMBER));
     }
 
     private static boolean isPerfectSquare(final int NUMBER) {

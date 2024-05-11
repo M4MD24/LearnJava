@@ -40,11 +40,11 @@ public class Question250 {
     }
 
     private static void printSmallestNumber(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {
-        System.out.print(STR."The smallest value is \{smallestNumber(
+        System.out.printf("The smallest value is %d", smallestNumber(
                 FIRST_NUMBER,
                 SECOND_NUMBER,
                 THIRD_NUMBER
-        )}");
+        ));
     }
 
     private static int smallestNumber(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {

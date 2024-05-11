@@ -14,8 +14,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
 public class Question253 {
     public static void main(final String[] ARGS) {
         final String TEXT = "w3resource";
-        System.out.println(STR."Input the text: \{TEXT}");
-        System.out.print(STR."Number of Vowels in the text: \{getCountOfVowels(TEXT)}");
+        System.out.printf("Input the text: %s\n", TEXT);
+        System.out.printf("Number of Vowels in the text: %d", getCountOfVowels(TEXT));
     }
 
     private static int getCountOfVowels(final String TEXT) {
