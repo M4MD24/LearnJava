@@ -11,7 +11,9 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question193 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 25;
-        System.out.print(STR."Sum of subsets of \{NUMBER} is \{getSubsetOfNumber(NUMBER)}");
+        System.out.printf("Sum of subsets of %d is %d",
+                NUMBER,
+                getSubsetOfNumber(NUMBER));
     }
 
     private static int getSubsetOfNumber(final int NUMBER) {

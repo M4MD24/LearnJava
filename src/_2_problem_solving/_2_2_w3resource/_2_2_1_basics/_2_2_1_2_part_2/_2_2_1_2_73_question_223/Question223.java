@@ -19,11 +19,11 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question223 {
     public static void main(final String[] ARGS) {
         final int COUNT_OF_NUMBERS = 5;
-        System.out.println(STR."How many numbers \{COUNT_OF_NUMBERS}");
+        System.out.printf("How many numbers %d\n", COUNT_OF_NUMBERS);
         System.out.println("input the integers:");
         final int[] NUMBERS = {25, 61, 35, 42, 66};
         printNumbers(NUMBERS);
-        System.out.print(STR."\nMaximum sum of the said contiguous subsequence: \{getSumNumbers(NUMBERS)}");
+        System.out.printf("\nMaximum sum of the said contiguous subsequence: %d", getSumNumbers(NUMBERS));
     }
 
     private static long getSumNumbers(final int[] NUMBERS) {
@@ -35,6 +35,6 @@ public class Question223 {
 
     private static void printNumbers(final int[] NUMBERS) {
         for (final int NUMBER : NUMBERS)
-            System.out.print(STR."\{NUMBER} ");
+            System.out.printf("%d ", NUMBER);
     }
 }

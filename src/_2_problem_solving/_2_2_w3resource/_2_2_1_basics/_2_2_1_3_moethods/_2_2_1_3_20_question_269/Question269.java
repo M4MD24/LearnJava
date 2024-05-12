@@ -14,11 +14,9 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
 public class Question269 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 1234;
-        System.out.println(STR."Input an number (positive/negative): \{NUMBER}");
-        System.out.print(STR."Extract the first digit from the said number: \{
-                NUMBER > -1
-                        ? String.valueOf(NUMBER).charAt(0) - '0'
-                        : String.valueOf(NUMBER).charAt(1) - '0'
-                }");
+        System.out.printf("Input an number (positive/negative): %d\n", NUMBER);
+        System.out.printf("Extract the first digit from the said number: %d", NUMBER > -1
+                ? String.valueOf(NUMBER).charAt(0) - '0'
+                : String.valueOf(NUMBER).charAt(1) - '0');
     }
 }

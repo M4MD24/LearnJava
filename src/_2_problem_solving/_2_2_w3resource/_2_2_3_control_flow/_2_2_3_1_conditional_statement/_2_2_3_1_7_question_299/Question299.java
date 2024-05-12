@@ -21,10 +21,16 @@ public class Question299 {
     public static void main(final String[] ARGS) {
         final int MONTH = 2,
                 YEAR = 2016;
-        System.out.println(STR."""
-                Input a month:\s\{MONTH}
-                Input a year:\s\{YEAR}""");
-        System.out.print(STR."\{getNameOfMonth(MONTH)} \{YEAR} has \{getCountOfDaysOfMonthThisYear(MONTH, YEAR)} days");
+        System.out.printf("""
+                        Input a month:\s%d
+                        Input a year:\s%d
+                        """,
+                MONTH,
+                YEAR);
+        System.out.printf("%s %d has %d days",
+                getNameOfMonth(MONTH),
+                YEAR,
+                getCountOfDaysOfMonthThisYear(MONTH, YEAR));
     }
 
     private static int getCountOfDaysOfMonthThisYear(final int MONTH, final int YEAR) {
@@ -45,7 +51,7 @@ public class Question299 {
             case 10 -> "October";
             case 11 -> "November";
             case 12 -> "December";
-            default -> throw new IllegalStateException(STR."Unacceptable number: \{MONTH}");
+            default -> throw new IllegalStateException(String.format("Unacceptable number: %d", MONTH));
         };
     }
 }

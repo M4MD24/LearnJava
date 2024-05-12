@@ -14,8 +14,8 @@ package _2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types
 public class Question275 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 565;
-        System.out.println(STR."Input an number between 0 and 1000: \{NUMBER}");
-        System.out.print(STR."The sum of all digits in \{NUMBER} is \{getSumDigits(NUMBER)}");
+        System.out.printf("Input an number between 0 and 1000: %d\n", NUMBER);
+        System.out.printf("The sum of all digits in %d is %d", NUMBER, getSumDigits(NUMBER));
     }
 
     private static int getSumDigits(int number) {

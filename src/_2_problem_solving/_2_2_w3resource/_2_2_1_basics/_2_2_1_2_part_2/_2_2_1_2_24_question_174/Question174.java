@@ -36,8 +36,8 @@ public class Question174 {
     public static void main(final String[] ARGS) {
         final int[] NUMBERS = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 8};
         final int NUMBERS_REQUIRED_TO_BE_COMPILED = 3;
-        System.out.println(STR."Original array: \{Arrays.toString(NUMBERS)}\n");
-        System.out.println(STR."Value of k: \{NUMBERS_REQUIRED_TO_BE_COMPILED}\n");
+        System.out.printf("Original array: %s\n\n", Arrays.toString(NUMBERS));
+        System.out.printf("Value of k: %d\n\n", NUMBERS_REQUIRED_TO_BE_COMPILED);
         mediansPrint(NUMBERS, NUMBERS_REQUIRED_TO_BE_COMPILED);
     }
 

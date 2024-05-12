@@ -29,7 +29,7 @@ public class Question317 {
     private static final int TARGET_NUMBER = 7;
 
     public static void main(final String[] ARGS) {
-        System.out.println(STR."Enter the maximum number of the rhombus pattern: \{TARGET_NUMBER}");
+        System.out.printf("Enter the maximum number of the rhombus pattern: %d\n", TARGET_NUMBER);
         printNumberRhombus();
     }
 

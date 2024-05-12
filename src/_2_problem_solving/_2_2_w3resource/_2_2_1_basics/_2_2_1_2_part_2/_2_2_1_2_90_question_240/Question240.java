@@ -48,7 +48,7 @@ public class Question240 {
                 8
                 """.replaceAll(",+", "");
         System.out.println(TEXT);
-        System.out.print(STR."Maximum value of the sum of integers passing according to the rule on one line: \{getMaximumSum(TEXT)}");
+        System.out.printf("Maximum value of the sum of integers passing according to the rule on one line: %d", getMaximumSum(TEXT));
     }
 
     private static int getMaximumSum(final String TEXT) {

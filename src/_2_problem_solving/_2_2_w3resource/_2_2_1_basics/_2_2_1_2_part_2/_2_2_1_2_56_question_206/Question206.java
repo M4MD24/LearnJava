@@ -17,13 +17,13 @@ import java.util.zip.CRC32;
 public class Question206 {
     public static void main(final String[] ARGS) {
         final String TEXT = "The quick brown fox";
-        System.out.println(STR."Input a text: \{TEXT}");
-        System.out.print(STR."CRC32 checksum of the string: \{Long.toHexString(getCRC32(TEXT))}");
+        System.out.printf("Input a text: %s\n", TEXT);
+        System.out.printf("CRC32 checksum of the string: %s", Long.toHexString(getCRC32(TEXT)));
     }
 
-    public static long getCRC32(String input) {
+    private static long getCRC32(final String INPUT) {
         final CRC32 CRC32 = new CRC32();
-        CRC32.update(input.getBytes());
+        CRC32.update(INPUT.getBytes());
         return CRC32.getValue();
     }
 }

@@ -20,8 +20,14 @@ public class Question213 {
         final int FIRST_SIDE = 5,
                 SECOND_SIDE = 12,
                 THIRD_SIDE = 13;
-        System.out.println(STR."\{FIRST_SIDE} \{SECOND_SIDE} \{THIRD_SIDE}");
-        System.out.print(STR."All sides are right triangle? \{allSidesAreRightTriangle(FIRST_SIDE, SECOND_SIDE, THIRD_SIDE) ? "Yes" : "No"}");
+        System.out.printf("%d %d %d\n",
+                FIRST_SIDE,
+                SECOND_SIDE,
+                THIRD_SIDE);
+        System.out.printf("All sides are right triangle? %b",
+                allSidesAreRightTriangle(FIRST_SIDE, SECOND_SIDE, THIRD_SIDE)
+                        ? "Yes"
+                        : "No");
     }
 
     private static boolean allSidesAreRightTriangle(final int FIRST_SIDE, final int SECOND_SIDE, final int THIRD_SIDE) {

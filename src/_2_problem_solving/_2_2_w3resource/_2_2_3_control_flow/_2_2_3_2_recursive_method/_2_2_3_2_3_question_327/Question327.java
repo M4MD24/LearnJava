@@ -14,7 +14,9 @@ public class Question327 {
 
     public static void main(final String[] ARGS) {
         final int NUMBER = 9;
-        System.out.print(STR."The fibonacci number at position \{NUMBER} is: \{getFibonacci(NUMBER)}");
+        System.out.printf("The fibonacci number at position %d is: %d",
+                NUMBER,
+                getFibonacci(NUMBER));
     }
 
     private static int getFibonacci(int length) {

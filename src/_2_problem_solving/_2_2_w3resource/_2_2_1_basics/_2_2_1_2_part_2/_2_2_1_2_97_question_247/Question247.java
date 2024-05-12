@@ -22,7 +22,10 @@ public class Question247 {
         final int FIRST_NUMBER = 5,
                 SECOND_NUMBER = 8,
                 THIRD_NUMBER = 9;
-        System.out.println(STR."\{FIRST_NUMBER} \{SECOND_NUMBER} \{THIRD_NUMBER}");
+        System.out.printf("%d %d %d\n",
+                FIRST_NUMBER,
+                SECOND_NUMBER,
+                THIRD_NUMBER);
         System.out.println("Check whether (a + b) is greater than c?");
         System.out.print(firstNumberPlusSecondNumberGreaterThanThirdNumber(FIRST_NUMBER, SECOND_NUMBER, THIRD_NUMBER));
     }

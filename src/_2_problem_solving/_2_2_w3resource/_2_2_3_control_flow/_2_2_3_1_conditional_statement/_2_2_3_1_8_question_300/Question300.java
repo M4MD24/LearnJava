@@ -14,8 +14,8 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditio
 public class Question300 {
     public static void main(final String[] ARGS) {
         final char LETTER = 'p';
-        System.out.println(STR."Input an alphabet: \{LETTER}");
-        System.out.print(STR."Input letter is \{getLetterStatus(LETTER)}");
+        System.out.printf("Input an alphabet: %c\n", LETTER);
+        System.out.printf("Input letter is %s", getLetterStatus(LETTER));
     }
 
     private static String getLetterStatus(final char LETTER) {

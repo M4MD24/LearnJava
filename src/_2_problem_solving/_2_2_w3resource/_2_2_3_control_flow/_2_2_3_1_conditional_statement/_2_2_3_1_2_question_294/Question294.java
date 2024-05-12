@@ -22,11 +22,14 @@ public class Question294 {
         final int FIRST_NUMBER = 1,
                 SECOND_NUMBER = 5,
                 THIRD_NUMBER = 1;
-        System.out.println(STR."""
-                Input first number:\s\{FIRST_NUMBER}
-                Input second number:\s\{SECOND_NUMBER}
-                Input third number:\s\{THIRD_NUMBER}
-                """);
+        System.out.printf("""
+                        Input first number:\s%d
+                        Input second number:\s%d
+                        Input third number:\s%d
+                        """,
+                FIRST_NUMBER,
+                SECOND_NUMBER,
+                THIRD_NUMBER);
         System.out.print(getRoot(FIRST_NUMBER, SECOND_NUMBER, THIRD_NUMBER));
     }
 
@@ -35,10 +38,12 @@ public class Question294 {
         if (DISCRIMINANT > 0) {
             final double FIRST_ROOT = (-SECOND_NUMBER + Math.sqrt(DISCRIMINANT)) / (2 * FIRST_NUMBER),
                     SECOND_ROOT = (-SECOND_NUMBER - Math.sqrt(DISCRIMINANT)) / (2 * FIRST_NUMBER);
-            return STR."The roots are \{FIRST_ROOT} and \{SECOND_ROOT}";
+            return String.format("The roots are %f and %f",
+                    FIRST_ROOT,
+                    SECOND_ROOT);
         } else if (DISCRIMINANT == 0) {
             final double ROOT = (double) -SECOND_NUMBER / (2 * FIRST_NUMBER);
-            return STR."The Root is: \{ROOT}";
+            return String.format("The Root is: %f", ROOT);
         } else
             return "The equation has no real roots.";
     }

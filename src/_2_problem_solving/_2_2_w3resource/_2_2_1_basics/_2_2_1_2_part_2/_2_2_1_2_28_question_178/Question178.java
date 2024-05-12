@@ -17,8 +17,8 @@ import java.util.Arrays;
 public class Question178 {
     public static void main(final String[] ARGS) {
         final int[] NUMBERS = {10, 11, 12, 13, 14, 7, 8, 9, 1, 2, 3};
-        System.out.println(STR."Original array: \{Arrays.toString(NUMBERS)}");
-        System.out.println(STR."Size of longest increasing continuous subsequence: \{getLongestIncreasingContinuousSubSequence(NUMBERS)}");
+        System.out.printf("Original array: %s\n", Arrays.toString(NUMBERS));
+        System.out.printf("Size of longest increasing continuous subsequence: %d", getLongestIncreasingContinuousSubSequence(NUMBERS));
     }
 
     private static int getLongestIncreasingContinuousSubSequence(final int[] NUMBERS) {
@@ -27,7 +27,7 @@ public class Question178 {
             if (NUMBERS[firstIndex] == NUMBERS[secondIndex] - 1) currentIncreasingContinuousSubSequence++;
             else {
                 if (currentIncreasingContinuousSubSequence > longestIncreasingContinuousSubSequence) longestIncreasingContinuousSubSequence = currentIncreasingContinuousSubSequence;
-                currentIncreasingContinuousSubSequence=1;
+                currentIncreasingContinuousSubSequence = 1;
             }
         }
         return longestIncreasingContinuousSubSequence;

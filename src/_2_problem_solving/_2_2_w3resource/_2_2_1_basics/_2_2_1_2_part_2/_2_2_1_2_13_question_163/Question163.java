@@ -25,7 +25,7 @@ public class Question163 {
     public static void main(final String[] ARGS) {
         printFirstNumber();
         printFirstNumberAsBinaryNumber();
-        System.out.print(STR."Number of zero bits: \{sumOfZeroNumbersBits()}");
+        System.out.printf("Number of zero bits: %d", sumOfZeroNumbersBits());
     }
 
     private static long sumOfZeroNumbersBits() {
@@ -37,10 +37,10 @@ public class Question163 {
     }
 
     private static void printFirstNumberAsBinaryNumber() {
-        System.out.println(STR."Binary representation of \{FIRST_NUMBER} is: \{FIRST_NUMBER_AS_BINARY_NUMBER}");
+        System.out.printf("Binary representation of %d is: %s\n", FIRST_NUMBER, FIRST_NUMBER_AS_BINARY_NUMBER);
     }
 
     private static void printFirstNumber() {
-        System.out.println(STR."Input first number: \{FIRST_NUMBER}");
+        System.out.printf("Input first number: %d\n", FIRST_NUMBER);
     }
 }

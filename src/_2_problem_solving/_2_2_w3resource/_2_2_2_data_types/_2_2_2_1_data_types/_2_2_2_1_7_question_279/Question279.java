@@ -40,18 +40,25 @@ public class Question279 {
                 SPEED_METERS_PER_SECOND = DISTANCE_IN_METERS / TOTAL_TIME_IN_SECONDS,
                 SPEED_KILOMETER_PER_HOUR = (DISTANCE_IN_METERS / 1000) / (TOTAL_TIME_IN_SECONDS / 3600),
                 SPEED_MILES_PER_HOUR = (DISTANCE_IN_METERS / 1609) / (TOTAL_TIME_IN_SECONDS / 3600);
-        System.out.print(STR."""
-                Your speed in meters/second is\s\{SPEED_METERS_PER_SECOND}
-                Your speed in km/h is \s\{SPEED_KILOMETER_PER_HOUR}
-                Your speed in miles/h is \s\{SPEED_MILES_PER_HOUR}""");
+        System.out.printf("""
+                        Your speed in meters/second is\s%f
+                        Your speed in km/h is \s%f
+                        Your speed in miles/h is \s%f""",
+                SPEED_METERS_PER_SECOND,
+                SPEED_KILOMETER_PER_HOUR,
+                SPEED_MILES_PER_HOUR);
     }
 
     private static void printInputs(final float DISTANCE_IN_METERS, final int HOURS, final int MINUTES, final int SECONDS) {
-        System.out.println(STR."""
-                Input distance in meters:\s\{DISTANCE_IN_METERS}
-                Input hours:\s\{HOURS}
-                Input minutes:\s\{MINUTES}
-                Input seconds:\s\{SECONDS}
-                """);
+        System.out.printf("""
+                        Input distance in meters:\s%f
+                        Input hours:\s%d
+                        Input minutes:\s%d
+                        Input seconds:\s%d
+                        \n""",
+                DISTANCE_IN_METERS,
+                HOURS,
+                MINUTES,
+                SECONDS);
     }
 }

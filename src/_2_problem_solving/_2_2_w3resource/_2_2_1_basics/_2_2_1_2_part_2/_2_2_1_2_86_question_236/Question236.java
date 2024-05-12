@@ -22,7 +22,7 @@ public class Question236 {
         System.out.println("Input some text and numeric values:");
         final String TEXT = "5 apple and 10 orange are rotten in the basket";
         System.out.println(TEXT);
-        System.out.print(STR."Sum of the numeric values: \{getSumNumericValues(TEXT)}");
+        System.out.printf("Sum of the numeric values: %d", getSumNumericValues(TEXT));
     }
 
     private static int getSumNumericValues(final String TEXT) {

@@ -54,7 +54,7 @@ public class Question237 {
                 new StringBuilder("1110001000"),
         };
         printMap(MAP);
-        System.out.print(STR."\nCount of islands: \{getCountOfIsland(MAP)}");
+        System.out.printf("\nCount of islands: %d", getCountOfIsland(MAP));
     }
 
     private static void printMap(final StringBuilder[] MAP) {

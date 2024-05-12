@@ -31,9 +31,11 @@ public class Question324 {
     }
 
     private static void printNumbers() {
-        System.out.print(STR."""
-                Input first floating point number:\s\{FIRST_NUMBER}
-                Input second floating point number:\s\{SECOND_NUMBER}
-                """);
+        System.out.printf("""
+                        Input first floating point number:\s%f
+                        Input second floating point number:\s%f
+                        """,
+                FIRST_NUMBER,
+                SECOND_NUMBER);
     }
 }

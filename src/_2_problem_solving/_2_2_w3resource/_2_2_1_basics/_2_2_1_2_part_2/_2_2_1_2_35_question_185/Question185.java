@@ -15,7 +15,7 @@ public class Question185 {
             SECOND_TEXT = new StringBuffer("zbxz");
 
     public static void main(final String[] ARGS) {
-        System.out.print(STR."Is abca and zbxz are Isomorphic? \{isIsomorphic()}");
+        System.out.printf("Is abca and zbxz are Isomorphic? %b", isIsomorphic());
     }
 
     private static boolean isIsomorphic() {

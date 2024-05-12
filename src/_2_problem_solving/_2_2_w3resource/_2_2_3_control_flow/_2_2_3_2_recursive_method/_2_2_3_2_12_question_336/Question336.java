@@ -19,7 +19,7 @@ public class Question336 {
     public static void main(final String[] ARGS) {
         System.out.print("Original numbers: [");
         printNumbers(NUMBERS, 0);
-        System.out.print(STR."The maximum number in the numbers is: \{maximumNumber}");
+        System.out.printf("The maximum number in the numbers is: %d", maximumNumber);
     }
 
     private static void printNumbers(final int[] NUMBERS, int index) {

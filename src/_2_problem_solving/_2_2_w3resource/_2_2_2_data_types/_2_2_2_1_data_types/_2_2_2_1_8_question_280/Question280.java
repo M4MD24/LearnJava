@@ -20,9 +20,9 @@ package _2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types
 public class Question280 {
     public static void main(final String[] ARGS) {
         final double SIDE = 15;
-        System.out.println(STR."Input the side length value: \{SIDE}\n");
-        System.out.println(STR."Square: \{String.format("%.2f", Math.pow(SIDE, 2))}");
-        System.out.println(STR."Cube: \{String.format("%.2f", Math.pow(SIDE, 3))}");
-        System.out.print(STR."Fourth power: \{String.format("%.2f", Math.pow(SIDE, 4))}");
+        System.out.printf("Input the side length value: %f\n\n", SIDE);
+        System.out.printf("Square: %.2f\n", Math.pow(SIDE, 2));
+        System.out.printf("Cube: %.2f\n", Math.pow(SIDE, 3));
+        System.out.printf("Fourth power: %.2f", Math.pow(SIDE, 4));
     }
 }

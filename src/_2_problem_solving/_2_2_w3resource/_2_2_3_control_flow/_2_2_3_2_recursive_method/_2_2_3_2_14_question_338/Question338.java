@@ -11,7 +11,9 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursiv
 public class Question338 {
     public static void main(final String[] ARGS) {
         final int DIGITS = 123456;
-        System.out.print(STR."The sum of the digits of \{DIGITS} is: \{getSumOfDigits(0, DIGITS)}");
+        System.out.printf("The sum of the digits of %d is: %d",
+                DIGITS,
+                getSumOfDigits(0, DIGITS));
     }
 
     private static int getSumOfDigits(final int SUM_OF_DIGITS, final int DIGITS) {

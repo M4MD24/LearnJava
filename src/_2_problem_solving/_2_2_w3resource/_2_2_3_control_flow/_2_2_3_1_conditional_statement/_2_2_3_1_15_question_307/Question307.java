@@ -30,10 +30,10 @@ public class Question307 {
 
     public static void main(final String[] ARGS) {
         final int NUMBER_OF_TERMS = 5;
-        System.out.println(STR."Input number if terms is: \{NUMBER_OF_TERMS}");
+        System.out.printf("Input number if terms is: %d\n", NUMBER_OF_TERMS);
         System.out.println("The odd numbers are:");
         printOddNumbers(NUMBER_OF_TERMS);
-        System.out.print(STR."The sum of odd natural number up to \{NUMBER_OF_TERMS} is: \{sumOfOddNumbers}");
+        System.out.printf("The sum of odd natural number up to %d is: %d", NUMBER_OF_TERMS, sumOfOddNumbers);
     }
 
     private static void printOddNumbers(int numberOfTerms) {

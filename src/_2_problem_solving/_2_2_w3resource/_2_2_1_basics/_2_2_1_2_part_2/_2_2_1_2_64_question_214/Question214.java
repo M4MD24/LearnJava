@@ -31,7 +31,13 @@ public class Question214 {
                 FIFTH_NUMBER = 7,
                 SIXTH_NUMBER = 4;
         System.out.println("Input the value of first, second, third, fourth, fifth, sixth numbers:");
-        System.out.println(STR."\{FIRST_NUMBER} \{SECOND_NUMBER} \{THIRD_NUMBER} \{FOURTH_NUMBER} \{FIFTH_NUMBER} \{SIXTH_NUMBER}");
+        System.out.printf("%d %d %d %d %d %d\n",
+                FIRST_NUMBER,
+                SECOND_NUMBER,
+                THIRD_NUMBER,
+                FOURTH_NUMBER,
+                FIFTH_NUMBER,
+                SIXTH_NUMBER);
         printSeventhAndEighthNumber(FIRST_NUMBER, SECOND_NUMBER, THIRD_NUMBER, FOURTH_NUMBER, FIFTH_NUMBER, SIXTH_NUMBER);
     }
 

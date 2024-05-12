@@ -20,9 +20,9 @@ public class Question201 {
     public static void main(final String[] ARGS) {
         final int[] NUMBERS = {1, 3, 2, 4, 5, 5};
         final int TARGET_NUMBER_OF_SUBSETS = 4;
-        System.out.println(STR."Original array: \{Arrays.toString(NUMBERS)}");
-        System.out.println(STR."target of subsets: \{TARGET_NUMBER_OF_SUBSETS}");
-        System.out.print(STR."Are all sums equals: \{areAllSumsEquals(NUMBERS, TARGET_NUMBER_OF_SUBSETS)}");
+        System.out.printf("Original array: %s\n", Arrays.toString(NUMBERS));
+        System.out.printf("target of subsets: %d\n", TARGET_NUMBER_OF_SUBSETS);
+        System.out.printf("Are all sums equals: %b", areAllSumsEquals(NUMBERS, TARGET_NUMBER_OF_SUBSETS));
     }
 
     private static boolean areAllSumsEquals(final int[] NUMBERS, final int TARGET_NUMBER_OF_SUBSETS) {

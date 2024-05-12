@@ -24,7 +24,7 @@ public class Question228 {
     public static void main(final String[] ARGS) {
         if (inputCountOfCombination()) return;
         if (inputTargetSum()) return;
-        System.out.print(STR."Count of combinations = \{getCountOfCombinations(0, countOfCombination, targetSum, 0)}");
+        System.out.printf("Count of combinations = %d", getCountOfCombinations(0, countOfCombination, targetSum, 0));
     }
 
     public static int getCountOfCombinations(final int INDEX, final int COUNT_OF_COMBINATION, final int TARGET_SUM, final int CURRENT_SUM) {

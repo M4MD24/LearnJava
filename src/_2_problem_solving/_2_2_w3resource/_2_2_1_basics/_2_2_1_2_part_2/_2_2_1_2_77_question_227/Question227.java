@@ -35,7 +35,9 @@ public class Question227 {
         final String DUPLICATED_WORD = getDuplicatedWord(LINE),
                 LONGEST_WORD = getLongestWord(LINE);
         if (!DUPLICATED_WORD.isEmpty() && !LONGEST_WORD.isEmpty())
-            return STR."\{DUPLICATED_WORD} \{LONGEST_WORD}";
+            return String.format("%s %s",
+                    DUPLICATED_WORD,
+                    LONGEST_WORD);
         else if (!DUPLICATED_WORD.isEmpty())
             return DUPLICATED_WORD;
         else if (!LONGEST_WORD.isEmpty())

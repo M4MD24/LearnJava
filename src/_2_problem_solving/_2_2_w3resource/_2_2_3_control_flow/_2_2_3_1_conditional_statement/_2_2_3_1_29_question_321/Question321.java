@@ -14,7 +14,7 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditio
 public class Question321 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 125463;
-        System.out.println(STR."Input an integer number less than ten billion: \{NUMBER}");
-        System.out.print(STR."Number of digits in the number: \{String.valueOf(NUMBER).length()}");
+        System.out.printf("Input an integer number less than ten billion: %d\n", NUMBER);
+        System.out.printf("Number of digits in the number: %d", String.valueOf(NUMBER).length());
     }
 }

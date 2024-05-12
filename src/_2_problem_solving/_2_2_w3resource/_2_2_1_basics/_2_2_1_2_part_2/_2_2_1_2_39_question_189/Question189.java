@@ -11,6 +11,9 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question189 {
     public static void main(final String[] ARGS) {
         final String FIRST_NUMBER = "123", SECOND_NUMBER = "456";
-        System.out.print(STR."\"\{FIRST_NUMBER}\" + \"\{SECOND_NUMBER}\" = \{Integer.parseInt(FIRST_NUMBER) + Integer.parseInt(SECOND_NUMBER)}");
+        System.out.printf("\"%s\" + \"%s\" = %d",
+                FIRST_NUMBER,
+                SECOND_NUMBER,
+                Integer.parseInt(FIRST_NUMBER) + Integer.parseInt(SECOND_NUMBER));
     }
 }

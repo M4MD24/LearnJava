@@ -17,7 +17,7 @@ import java.util.Arrays;
 public class Question170 {
     public static void main(final String[] ARGS) {
         final int[] NUMBERS = {1, 1, 2, 3, 3, 4, 5, 2, 4, 5, 6, 7, 8, 9, 6, -1, -2};
-        System.out.println(STR."Original array: \{Arrays.toString(NUMBERS)}");
+        System.out.printf("Original array: %s\n", Arrays.toString(NUMBERS));
         System.out.print(getLengthOfTheLongestConsecutiveSequence(NUMBERS));
     }
 

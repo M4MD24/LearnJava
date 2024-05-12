@@ -33,14 +33,14 @@ public class Question283 {
     public static void main(final String[] ARGS) {
         System.out.println("Finite doubles");
         System.out.println("-".repeat(14));
-        System.out.println(STR."Is \{2.13456321E-4D} is finite? \{isFiniteStatus(2.13456321E-4D)}");
-        System.out.println(STR."Is \{Double.POSITIVE_INFINITY} is finite? \{isFiniteStatus(Double.POSITIVE_INFINITY)}");
-        System.out.println(STR."Is \{Double.NaN} is finite? \{isFiniteStatus(Double.NaN)}\n");
+        System.out.printf("Is %f is finite? %b\n", 2.13456321E-4D, isFiniteStatus(2.13456321E-4D));
+        System.out.printf("Is %f is finite? %b\n", Double.POSITIVE_INFINITY, isFiniteStatus(Double.POSITIVE_INFINITY));
+        System.out.printf("Is %f is finite? %b\n\n", Double.NaN, isFiniteStatus(Double.NaN));
         System.out.println("Finite floats");
         System.out.println("-".repeat(13));
-        System.out.println(STR."Is \{5.3F} is finite? \{isFiniteStatus(5.3F)}");
-        System.out.println(STR."Is \{Float.POSITIVE_INFINITY} is finite? \{isFiniteStatus(Float.POSITIVE_INFINITY)}");
-        System.out.print(STR."Is \{Float.NaN} is finite? \{isFiniteStatus(Float.NaN)}");
+        System.out.printf("Is %f is finite? %b\n", 5.3F, isFiniteStatus(5.3F));
+        System.out.printf("Is %f is finite? %b\n", Float.POSITIVE_INFINITY, isFiniteStatus(Float.POSITIVE_INFINITY));
+        System.out.printf("Is %f is finite? %b", Float.NaN, isFiniteStatus(Float.NaN));
     }
 
     private static boolean isFiniteStatus(final double NUMBER) {

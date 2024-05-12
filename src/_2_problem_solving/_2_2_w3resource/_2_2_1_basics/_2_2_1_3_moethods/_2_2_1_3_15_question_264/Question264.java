@@ -15,6 +15,11 @@ public class Question264 {
     public static void main(final String[] ARGS) {
         final LocalDate DATE = LocalDate.now();
         final LocalDateTime TIME = LocalDateTime.now();
-        System.out.print(STR."Current date and time: \{DATE.getDayOfWeek()} \{DATE.getMonth()} \{DATE.getDayOfMonth()}, \{DATE.getYear()} \{TIME.format(DateTimeFormatter.ofPattern("HH:mm:ss"))}");
+        System.out.printf("Current date and time: %s %s %s, %s %s",
+                DATE.getDayOfWeek(),
+                DATE.getMonth(),
+                DATE.getDayOfMonth(),
+                DATE.getYear(),
+                TIME.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
     }
 }

@@ -15,8 +15,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question198 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 15;
-        System.out.println(STR."Input a positive integer: \{NUMBER}");
-        System.out.print(STR."Positive of the said prime number: \{getNumberOfPositionsPrimeNumber(NUMBER)}");
+        System.out.printf("Input a positive integer: %d\n", NUMBER);
+        System.out.printf("Positive of the said prime number: %d", getNumberOfPositionsPrimeNumber(NUMBER));
     }
 
     private static int getNumberOfPositionsPrimeNumber(final int NUMBER) {

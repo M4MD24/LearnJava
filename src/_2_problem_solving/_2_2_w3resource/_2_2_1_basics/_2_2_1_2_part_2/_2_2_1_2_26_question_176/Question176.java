@@ -18,9 +18,9 @@ public class Question176 {
     private static int[] numbers = {7, 2, 4, 1, 3, 5, 6, 8, 2, 10};
 
     public static void main(final String[] ARGS) {
-        System.out.println(STR."Original array: \{Arrays.toString(numbers)}");
+        System.out.printf("Original array: %s\n", Arrays.toString(numbers));
         sortOddAndEvenNumbers();
-        System.out.print(STR."After partition the said array becomes: \{Arrays.toString(numbers)}");
+        System.out.printf("After partition the said array becomes: %s", Arrays.toString(numbers));
     }
 
     private static void sortOddAndEvenNumbers() {

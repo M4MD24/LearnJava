@@ -24,6 +24,6 @@ public class Question225 {
         final byte MONTH_NUMBER = INPUT.nextByte();
         System.out.print("Input day: ");
         final byte DAY_NUMBER = INPUT.nextByte();
-        System.out.print(STR."Day of week: \{LocalDate.of(2004, MONTH_NUMBER, DAY_NUMBER).getDayOfWeek()}");
+        System.out.printf("Day of week: %s", LocalDate.of(2004, MONTH_NUMBER, DAY_NUMBER).getDayOfWeek());
     }
 }

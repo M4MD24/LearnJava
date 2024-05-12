@@ -34,22 +34,22 @@ public class Question207 {
     private static void printAfterMergeFirstAndSecondNumbers(final int[] FIRST_NUMBERS, final int[] SECOND_NUMBERS) {
         System.out.print("\n\nMerged list: ");
         for (final int NUMBER : FIRST_NUMBERS)
-            System.out.print(STR."\{NUMBER} ");
+            System.out.printf("%d ", NUMBER);
         for (final int NUMBER : SECOND_NUMBERS)
-            System.out.print(STR."\{NUMBER} ");
+            System.out.printf("%d ", NUMBER);
     }
 
     private static void printSecondNumberAndNumbers(final int SECOND_NUMBER, final int[] SECOND_NUMBERS) {
-        System.out.println(STR."\n\nHow many elements do you wand to add in 2st linked list?: \{SECOND_NUMBER}");
+        System.out.printf("\n\nHow many elements do you wand to add in 2st linked list?: %d\n", SECOND_NUMBER);
         System.out.print("Input numbers of 2st linked list in ascending order: ");
         for (final int NUMBER : SECOND_NUMBERS)
-            System.out.print(STR."\{NUMBER} ");
+            System.out.printf("%d ", NUMBER);
     }
 
     private static void printFirstNumberAndNumbers(final int FIRST_NUMBER, final int[] FIRST_NUMBERS) {
-        System.out.println(STR."How many elements do you wand to add in 1st linked list?: \{FIRST_NUMBER}");
+        System.out.printf("How many elements do you wand to add in 1st linked list?: %d\n", FIRST_NUMBER);
         System.out.print("Input numbers of 1st linked list in ascending order: ");
         for (final int NUMBER : FIRST_NUMBERS)
-            System.out.print(STR."\{NUMBER} ");
+            System.out.printf("%d ", NUMBER);
     }
 }

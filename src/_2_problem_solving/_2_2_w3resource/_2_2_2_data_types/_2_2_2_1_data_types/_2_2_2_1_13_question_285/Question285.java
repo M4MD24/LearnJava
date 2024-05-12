@@ -21,9 +21,9 @@ public class Question285 {
     public static void main(final String[] ARGS) {
         final int FIRST_NUMBER = -2365,
                 SECOND_NUMBER = 125;
-        System.out.println(STR."Floor division using '/' operator: \{FIRST_NUMBER / SECOND_NUMBER}");
-        System.out.println(STR."Floor division using \"floorDiv()\" operator: \{Math.floorDiv(FIRST_NUMBER, SECOND_NUMBER)}\n");
-        System.out.println(STR."Floor modulus using '%' operator: \{FIRST_NUMBER % SECOND_NUMBER}");
-        System.out.print(STR."Floor modulus using \"floorMod()\" operator: \{Math.floorMod(FIRST_NUMBER, SECOND_NUMBER)}");
+        System.out.printf("Floor division using '/' operator: %d\n", FIRST_NUMBER / SECOND_NUMBER);
+        System.out.printf("Floor division using \"floorDiv()\" operator: %d\n\n", Math.floorDiv(FIRST_NUMBER, SECOND_NUMBER));
+        System.out.printf("Floor modulus using '%%' operator: %d\n", FIRST_NUMBER % SECOND_NUMBER);
+        System.out.printf("Floor modulus using \"floorMod()\" operator: %d", Math.floorMod(FIRST_NUMBER, SECOND_NUMBER));
     }
 }

@@ -49,6 +49,6 @@ public class Question211 {
         HEIGHT_BUILDINGS.add(24);
         HEIGHT_BUILDINGS.add(19);
         for (final int HEIGHT_BUILDING : HEIGHT_BUILDINGS)
-            System.out.print(STR."\{HEIGHT_BUILDING} ");
+            System.out.printf("%d ", HEIGHT_BUILDING);
     }
 }

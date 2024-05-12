@@ -14,7 +14,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
 public class Question254 {
     public static void main(final String[] ARGS) {
         final String TEXT = "The quick brown fox jumps over the lazy dog.";
-        System.out.println(STR."Input the text: \{TEXT}");
-        System.out.print(STR."Number of words in the text: \{TEXT.split(" +").length}");
+        System.out.printf("Input the text: %s\n", TEXT);
+        System.out.printf("Number of words in the text: %d", TEXT.split(" +").length);
     }
 }

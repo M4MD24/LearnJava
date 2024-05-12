@@ -27,7 +27,7 @@ public class Question234 {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print("Input count of straight lines: ");
         final int COUNT_OF_STRAIGHT_LINES = INPUT.nextInt();
-        System.out.print(STR."Count of regions: \{getCountOfRegions(COUNT_OF_STRAIGHT_LINES)}");
+        System.out.printf("Count of regions: %d", getCountOfRegions(COUNT_OF_STRAIGHT_LINES));
     }
 
     private static int getCountOfRegions(final int COUNT_OF_STRAIGHT_LINES) {

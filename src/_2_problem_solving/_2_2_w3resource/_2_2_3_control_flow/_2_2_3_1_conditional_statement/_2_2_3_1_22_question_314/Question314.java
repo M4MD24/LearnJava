@@ -19,7 +19,7 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditio
 public class Question314 {
     public static void main(final String[] ARGS) {
         final int NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND = 5;
-        System.out.println(STR."Input number of rows: \{NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND}");
+        System.out.printf("Input number of rows: %d\n", NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND);
         printPascalTriangle(NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND);
     }
 

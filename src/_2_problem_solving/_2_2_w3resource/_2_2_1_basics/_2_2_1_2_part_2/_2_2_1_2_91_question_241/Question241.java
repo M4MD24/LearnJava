@@ -15,8 +15,8 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_
 public class Question241 {
     public static void main(final String[] ARGS) {
         final int TARGET_SUM = 252;
-        System.out.println(STR."Input a positive integer: \{TARGET_SUM}");
-        System.out.print(STR."Number of combinations of a,b,c,d: \{getCountOfCombinations(TARGET_SUM)}");
+        System.out.printf("Input a positive integer: %d", TARGET_SUM);
+        System.out.printf("Number of combinations of a,b,c,d: %d", getCountOfCombinations(TARGET_SUM));
     }
 
     private static long getCountOfCombinations(final int TARGET_SUM) {

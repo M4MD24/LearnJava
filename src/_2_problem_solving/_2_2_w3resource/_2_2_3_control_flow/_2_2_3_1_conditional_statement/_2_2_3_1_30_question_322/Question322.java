@@ -37,10 +37,13 @@ public class Question322 {
     }
 
     private static void printNumbers() {
-        System.out.print(STR."""
-                Input first number:\s\{FIRST_NUMBER}
-                Input second number:\s\{SECOND_NUMBER}
-                Input third number:\s\{THIRD_NUMBER}
-                """);
+        System.out.printf("""
+                        Input first number:\s%d
+                        Input second number:\s%d
+                        Input third number:\s%d
+                        """,
+                FIRST_NUMBER,
+                SECOND_NUMBER,
+                THIRD_NUMBER);
     }
 }

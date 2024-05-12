@@ -12,7 +12,10 @@ public class Question331 {
     public static void main(final String[] ARGS) {
         final int FIRST_NUMBER = 16,
                 SECOND_NUMBER = 18;
-        System.out.print(STR."The GCD of \{FIRST_NUMBER} and \{SECOND_NUMBER} is \{getGreatestCommonDivisor(FIRST_NUMBER, SECOND_NUMBER)}");
+        System.out.printf("The GCD of %d and %d is %d",
+                FIRST_NUMBER,
+                SECOND_NUMBER,
+                getGreatestCommonDivisor(FIRST_NUMBER, SECOND_NUMBER));
     }
 
 

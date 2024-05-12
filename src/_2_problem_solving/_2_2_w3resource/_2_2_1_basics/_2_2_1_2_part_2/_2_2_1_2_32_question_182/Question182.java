@@ -25,9 +25,9 @@ public class Question182 {
     public static void main(final String[] ARGS) {
         inputValues();
         System.out.println("Comparing TreeNode a and TreeNode b:");
-        System.out.println(STR."\{FIRST_BINARY_TREE.areSameTrees(SECOND_BINARY_TREE)}\n");
+        System.out.printf("%s\n\n", FIRST_BINARY_TREE.areSameTrees(SECOND_BINARY_TREE));
         System.out.println("Comparing TreeNode b and TreeNode c:");
-        System.out.print(STR."\{SECOND_BINARY_TREE.areSameTrees(THIRD_BINARY_TREE)}");
+        System.out.printf("%s", SECOND_BINARY_TREE.areSameTrees(THIRD_BINARY_TREE));
     }
 
     private static void inputValues() {

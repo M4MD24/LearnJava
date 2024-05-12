@@ -16,7 +16,7 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditio
 public class Question297 {
     public static void main(final String[] ARGS) {
         final byte NUMBER_OF_DAY_OF_WEEK = 3;
-        System.out.println(STR."Input number: \{NUMBER_OF_DAY_OF_WEEK}");
+        System.out.printf("Input number: %d\n", NUMBER_OF_DAY_OF_WEEK);
         System.out.print(getDayOfWeek(NUMBER_OF_DAY_OF_WEEK));
     }
 

@@ -22,7 +22,7 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditio
 public class Question309 {
     public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = 4;
-        System.out.println(STR."Input target number: \{TARGET_NUMBER}");
+        System.out.printf("Input target number: %d\n", TARGET_NUMBER);
         printTriangleNumbers(TARGET_NUMBER);
     }
 

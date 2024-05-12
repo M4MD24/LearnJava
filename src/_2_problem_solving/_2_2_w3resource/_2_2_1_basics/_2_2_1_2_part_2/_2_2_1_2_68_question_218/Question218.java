@@ -35,7 +35,13 @@ public class Question218 {
                 SECOND_CENTER = (FIRST_SIDE * SECOND_CONSTANT - THIRD_SIDE * FIRST_CONSTANT) / (FIRST_SIDE * FIRTH_SIDE - SECOND_SIDE * THIRD_SIDE),
                 RADIUS = Math.sqrt(Math.pow(FIRST_CENTER - FIRST_FIRST_COORDINATE, 2.0) + Math.pow(SECOND_CENTER - FIRST_SECOND_COORDINATE, 2.0));
         System.out.println("Input x1, x2, y1, y2, z1, z2 separated by a single space:");
-        System.out.println(STR."\{FIRST_FIRST_COORDINATE} \{FIRST_SECOND_COORDINATE} \{SECOND_FIRST_COORDINATE} \{SECOND_SECOND_COORDINATE} \{THIRD_FIRST_COORDINATE} \{THIRD_SECOND_COORDINATE}");
+        System.out.printf("%d %d %d %d %d %d\n",
+                FIRST_FIRST_COORDINATE,
+                FIRST_SECOND_COORDINATE,
+                SECOND_FIRST_COORDINATE,
+                SECOND_SECOND_COORDINATE,
+                THIRD_FIRST_COORDINATE,
+                THIRD_SECOND_COORDINATE);
         System.out.println("\nRadius and the central coordinate:");
         System.out.printf("%.3f (%.3f %.3f)", RADIUS, FIRST_CENTER, SECOND_CENTER);
     }
