@@ -5,106 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment="# Edit Things">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_5_question_373/Question373.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_12_question_261/Question261.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_12_question_261/Question261.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_13_question_262/Question262.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_13_question_262/Question262.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_14_question_263/Question263.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_14_question_263/Question263.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_15_question_264/Question264.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_15_question_264/Question264.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_16_question_265/Question265.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_16_question_265/Question265.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_17_question_266/Question266.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_17_question_266/Question266.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_18_question_267/Question267.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_18_question_267/Question267.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_19_question_268/Question268.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_19_question_268/Question268.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_23_question_272/Question272.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_3_moethods/_2_2_1_3_23_question_272/Question272.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_13_question_285/Question285.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_13_question_285/Question285.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_14_question_286/Question286.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_14_question_286/Question286.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_15_question_287/Question287.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_15_question_287/Question287.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_1_question_273/Question273.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_1_question_273/Question273.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_2_question_274/Question274.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_2_question_274/Question274.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_3_question_275/Question275.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_3_question_275/Question275.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_4_question_276/Question276.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_4_question_276/Question276.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_6_question_278/Question278.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_6_question_278/Question278.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_7_question_279/Question279.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_7_question_279/Question279.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_8_question_280/Question280.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_8_question_280/Question280.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_9_question_281/Question281.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_1_data_types/_2_2_2_1_9_question_281/Question281.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_1_question_288/Question288.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_1_question_288/Question288.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_2_question_289/Question289.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_2_question_289/Question289.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_4_question_291/Question291.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_4_question_291/Question291.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_5_question_292/Question292.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_5_question_292/Question292.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_11_question_303/Question303.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_11_question_303/Question303.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_12_question_304/Question304.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_12_question_304/Question304.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_13_question_305/Question305.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_13_question_305/Question305.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_14_question_306/Question306.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_14_question_306/Question306.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_15_question_307/Question307.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_15_question_307/Question307.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_17_question_309/Question309.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_17_question_309/Question309.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_18_question_310/Question310.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_18_question_310/Question310.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_19_question_311/Question311.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_19_question_311/Question311.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_1_question_293/Question293.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_1_question_293/Question293.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_20_question_312/Question312.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_20_question_312/Question312.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_21_question_313/Question313.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_21_question_313/Question313.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_22_question_314/Question314.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_22_question_314/Question314.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_23_question_315/Question315.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_23_question_315/Question315.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_24_question_316/Question316.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_24_question_316/Question316.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_25_question_317/Question317.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_25_question_317/Question317.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_26_question_318/Question318.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_26_question_318/Question318.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_27_question_319/Question319.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_27_question_319/Question319.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_28_question_320/Question320.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_28_question_320/Question320.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_29_question_321/Question321.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_29_question_321/Question321.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_2_question_294/Question294.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_2_question_294/Question294.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_30_question_322/Question322.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_30_question_322/Question322.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_31_question_323/Question323.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_31_question_323/Question323.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_32_question_324/Question324.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_32_question_324/Question324.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_3_question_295/Question295.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_3_question_295/Question295.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_4_question_296/Question296.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_4_question_296/Question296.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_5_question_297/Question297.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_5_question_297/Question297.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_6_question_298/Question298.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_6_question_298/Question298.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_7_question_299/Question299.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_7_question_299/Question299.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_8_question_300/Question300.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_8_question_300/Question300.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_9_question_301/Question301.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_9_question_301/Question301.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_10_question_334/Question334.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_10_question_334/Question334.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_11_question_335/Question335.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_11_question_335/Question335.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_12_question_336/Question336.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_12_question_336/Question336.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_13_question_337/Question337.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_13_question_337/Question337.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_14_question_338/Question338.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_14_question_338/Question338.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_15_question_339/Question339.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_15_question_339/Question339.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_1_question_325/Question325.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_1_question_325/Question325.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_2_question_326/Question326.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_2_question_326/Question326.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_3_question_327/Question327.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_3_question_327/Question327.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_4_question_328/Question328.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_4_question_328/Question328.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_5_question_329/Question329.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_5_question_329/Question329.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_6_question_330/Question330.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_6_question_330/Question330.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_7_question_331/Question331.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_7_question_331/Question331.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_8_question_332/Question332.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_8_question_332/Question332.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_9_question_333/Question333.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_2_recursive_method/_2_2_3_2_9_question_333/Question333.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_10_question_349/Question349.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_10_question_349/Question349.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_11_question_350/Question350.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_11_question_350/Question350.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_12_question_351/Question351.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_12_question_351/Question351.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_13_question_352/Question352.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_13_question_352/Question352.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_14_question_353/Question353.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_14_question_353/Question353.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_15_question_354/Question354.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_15_question_354/Question354.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_16_question_355/Question355.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_16_question_355/Question355.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_17_question_356/Question356.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_17_question_356/Question356.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_18_question_357/Question357.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_18_question_357/Question357.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_1_question_340/Question340.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_1_question_340/Question340.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_20_question_359/Question359.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_20_question_359/Question359.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_21_question_360/Question360.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_21_question_360/Question360.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_22_question_361/Question361.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_22_question_361/Question361.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_24_question_363/Question363.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_24_question_363/Question363.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_25_question_364/Question364.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_25_question_364/Question364.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_26_question_365/Question365.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_26_question_365/Question365.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_27_question_366/Question366.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_27_question_366/Question366.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_28_question_367/Question367.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_28_question_367/Question367.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_29_question_368/Question368.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_29_question_368/Question368.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_2_question_341/Question341.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_2_question_341/Question341.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_3_question_342/Question342.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_3_question_342/Question342.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_4_question_343/Question343.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_4_question_343/Question343.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_6_question_345/Question345.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_6_question_345/Question345.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_7_question_346/Question346.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_7_question_346/Question346.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_8_question_347/Question347.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_8_question_347/Question347.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_9_question_348/Question348.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_1_math/_2_2_4_1_9_question_348/Question348.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_1_question_369/Question369.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_1_question_369/Question369.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_2_question_370/Question370.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_2_question_370/Question370.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_3_question_371/Question371.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_3_question_371/Question371.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +56,16 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/M3MD69/Learn-Java.git&quot;,
     &quot;accountId&quot;: &quot;f3ce3318-8e04-448b-8682-f4a711c13a99&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;M3MD69&quot;,
+    &quot;repository&quot;: &quot;Learn-Java&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -277,19 +191,28 @@
     "Application.Question370.executor": "Run",
     "Application.Question371.executor": "Run",
     "Application.Question372.executor": "Run",
+    "Application.Question373.executor": "Run",
     "Application.StrExample.executor": "Run",
     "Application.TextColorStringsExample.executor": "Run",
     "Java Scratch.M3MD69.executor": "Run",
     "Java Scratch.M3MD69_2.executor": "Run",
+    "Java Scratch.Scratch (1).executor": "Run",
+    "Java Scratch.Scratch.executor": "Run",
+    "Java Scratch.scratch.executor": "Run",
     "Java Scratch.solution.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/media/xmstx/New Volume/Projects/ConsoleApp/Java/Learn-Java",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "preferences.editor.code.editing"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -301,27 +224,14 @@
       <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_2_question_289" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_5_question_373" />
       <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_4_question_372" />
       <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_3_question_371" />
       <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_2_question_370" />
       <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_1_1_question_369" />
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_29_question_368" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question343">
-    <configuration name="Question298" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_6_question_298.Question298" />
-      <module name="Learn-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_6_question_298.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Java Scratch.Scratch (1)">
     <configuration name="Question343" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_4_question_343.Question343" />
       <module name="Learn-Java" />
@@ -335,12 +245,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question349" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_10_question_349.Question349" />
+    <configuration name="Question373" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_5_question_373.Question373" />
       <module name="Learn-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_10_question_349.*" />
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_5_question_373.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -348,39 +258,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question359" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_20_question_359.Question359" />
-      <module name="Learn-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_20_question_359.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/Scratch.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1_learning._1_1_basics._1_1_10_keywords._1_1_10_4_str.StrExample" />
-      <module name="Learn-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_1_learning._1_1_basics._1_1_10_keywords._1_1_10_4_str.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Java Scratch.Scratch (1)" />
+        <item itemvalue="Java Scratch.scratch" />
+        <item itemvalue="Application.Question373" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.Question343" />
-        <item itemvalue="Application.StrExample" />
-        <item itemvalue="Application.Question359" />
-        <item itemvalue="Application.Question349" />
-        <item itemvalue="Application.Question298" />
       </list>
     </recent_temporary>
   </component>
@@ -577,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715388431276</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="# Edit Things">
+      <option name="closed" value="true" />
+      <created>1715517464551</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1715517464551</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -612,5 +526,19 @@
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+2)" />
     <MESSAGE value="# Edit Things" />
     <option name="LAST_COMMIT_MESSAGE" value="# Edit Things" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/Scratch.java</url>
+          <properties class="LychrelNumbers">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
