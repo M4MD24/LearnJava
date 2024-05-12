@@ -14,7 +14,10 @@ public class Question356 {
     public static void main(final String[] ARGS) {
         final int FROM_THIS_INDEX_NUMBER = 0,
                 TO_THIS_INDEX_NUMBER = 4;
-        System.out.print(STR."Average numbers from \{FROM_THIS_INDEX_NUMBER + 1} to \{TO_THIS_INDEX_NUMBER + 1} is: \{getAverageNumbers(FROM_THIS_INDEX_NUMBER, TO_THIS_INDEX_NUMBER)}");
+        System.out.printf("Average numbers from %d to %d is: %f",
+                FROM_THIS_INDEX_NUMBER + 1,
+                TO_THIS_INDEX_NUMBER + 1,
+                getAverageNumbers(FROM_THIS_INDEX_NUMBER, TO_THIS_INDEX_NUMBER));
     }
 
     private static double getAverageNumbers(final int FROM_THIS_INDEX_NUMBER, final int TO_THIS_INDEX_NUMBER) {

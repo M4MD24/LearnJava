@@ -31,11 +31,11 @@ import java.math.BigInteger;
 public class Question286 {
     public static void main(final String[] ARGS) {
         final BigInteger NUMBER = BigInteger.valueOf(Long.MAX_VALUE);
-        System.out.println(STR."BigInteger value: \{NUMBER}");
-        System.out.println(STR."Convert the said BigInteger to an long value: \{NUMBER.longValue()}");
-        System.out.println(STR."Convert the said BigInteger to an int value: \{NUMBER.intValue()}");
-        System.out.println(STR."Convert the said BigInteger to an short value: \{NUMBER.shortValue()}");
-        System.out.println(STR."Convert the said BigInteger to an byte value: \{NUMBER.byteValue()}");
-        System.out.print(STR."Convert the said BigInteger to an exact long value: \{NUMBER.longValueExact()}");
+        System.out.printf("BigInteger value: %d\n", NUMBER);
+        System.out.printf("Convert the said BigInteger to an long value: %d\n", NUMBER.longValue());
+        System.out.printf("Convert the said BigInteger to an int value: %d\n", NUMBER.intValue());
+        System.out.printf("Convert the said BigInteger to an short value: %d\n", NUMBER.shortValue());
+        System.out.printf("Convert the said BigInteger to an byte value: %d\n", NUMBER.byteValue());
+        System.out.printf("Convert the said BigInteger to an exact long value: %d", NUMBER.longValueExact());
     }
 }

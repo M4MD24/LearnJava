@@ -14,9 +14,9 @@ enum Direction {
 
 public class Question291 {
     public static void main(final String[] ARGS) {
-        System.out.println(STR."Top: \{Direction.North}");
-        System.out.println(STR."Right: \{Direction.East}");
-        System.out.println(STR."Left: \{Direction.West}");
-        System.out.print(STR."Down: \{Direction.South}");
+        System.out.printf("Top: %s\n", Direction.North);
+        System.out.printf("Right: %s\n", Direction.East);
+        System.out.printf("Left: %s\n", Direction.West);
+        System.out.printf("Down: %s", Direction.South);
     }
 }

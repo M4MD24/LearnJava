@@ -15,8 +15,13 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 public class Question348 {
     public static void main(final String[] ARGS) {
         final float NUMBER = -12.53F;
-        System.out.print(STR."""
-                Input a float number:\s\{NUMBER}
-                The abslute value of\s\{NUMBER} is: \{NUMBER >= 0 ? NUMBER : -NUMBER}""");
+        System.out.printf("""
+                        Input a float number:\s%f
+                        The absolute value of\s%f is: %f""",
+                NUMBER,
+                NUMBER,
+                NUMBER >= 0 ?
+                        NUMBER :
+                        -NUMBER);
     }
 }

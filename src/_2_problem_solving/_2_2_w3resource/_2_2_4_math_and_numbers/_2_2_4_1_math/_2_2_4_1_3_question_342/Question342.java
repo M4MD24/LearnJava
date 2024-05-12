@@ -11,6 +11,9 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 public class Question342 {
     public static void main(final String[] ARGS) {
         final double NUMBER = 5.44444D;
-        System.out.print(STR."It's a \{NUMBER % 1 == 0 ? "integer" : "double"} number");
+        System.out.printf("It's a %s number",
+                NUMBER % 1 == 0
+                        ? "integer"
+                        : "double");
     }
 }

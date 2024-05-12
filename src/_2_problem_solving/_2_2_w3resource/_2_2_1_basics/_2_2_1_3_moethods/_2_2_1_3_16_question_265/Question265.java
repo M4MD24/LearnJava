@@ -31,7 +31,9 @@ public class Question265 {
     private static void printAllTwinPrimeNumbersLessThan100() {
         for (int number = 3; number < 100; number++)
             if (isPrime(number) && isPrime(number + 2))
-                System.out.println(STR."(\{number}, \{number + 2})");
+                System.out.printf("(%d, %d)\n",
+                        number,
+                        number + 2);
     }
 
     private static boolean isPrime(final int NUMBER) {

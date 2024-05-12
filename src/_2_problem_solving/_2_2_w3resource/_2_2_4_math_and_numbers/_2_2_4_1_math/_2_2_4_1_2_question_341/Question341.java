@@ -17,8 +17,8 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 public class Question341 {
     public static void main(final String[] ARGS) {
         final double NUMBER = 12.56D;
-        System.out.println(STR."Original number: \{NUMBER}");
-        System.out.println(STR."Integral part: \{Math.floor(NUMBER)}");
-        System.out.print(STR."Fractional part: \{NUMBER - Math.floor(NUMBER)}");
+        System.out.printf("Original number: %f\n", NUMBER);
+        System.out.printf("Integral part: %f\n", Math.floor(NUMBER));
+        System.out.printf("Fractional part: %f", NUMBER - Math.floor(NUMBER));
     }
 }

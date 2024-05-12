@@ -11,7 +11,7 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursiv
 public class Question337 {
     public static void main(final String[] ARGS) {
         final int[] NUMBERS = {1, 3, 5, 7};
-        System.out.print(STR."The product of all numbers in the array is: \{getProductOfAllNumbers(NUMBERS, 1, NUMBERS[0])}");
+        System.out.printf("The product of all numbers in the array is: %d", getProductOfAllNumbers(NUMBERS, 1, NUMBERS[0]));
     }
 
     private static int getProductOfAllNumbers(final int[] NUMBERS, int index, int productOfAllNumbers) {

@@ -14,10 +14,10 @@ package _2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types
 public class Question273 {
     public static void main(final String[] ARGS) {
         final double FAHRENHEIT_DEGREE = 212;
-        System.out.println(STR."\{FAHRENHEIT_DEGREE}° degree fahrenheit is equal to \{getCelsiusDegree(FAHRENHEIT_DEGREE)}° in celsius");
+        System.out.printf("%f° degree fahrenheit is equal to %f° in celsius\n", FAHRENHEIT_DEGREE, getCelsiusDegree(FAHRENHEIT_DEGREE));
     }
 
     private static double getCelsiusDegree(final double FAHRENHEIT_DEGREE) {
-        return (double) (5 * (FAHRENHEIT_DEGREE - 32)) / 9;
+        return (5 * (FAHRENHEIT_DEGREE - 32)) / 9;
     }
 }

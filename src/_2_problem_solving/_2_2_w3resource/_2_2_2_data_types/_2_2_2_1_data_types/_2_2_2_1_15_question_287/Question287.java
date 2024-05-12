@@ -24,12 +24,12 @@ package _2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types
 public class Question287 {
     public static void main(final String[] ARGS) {
         final float FLOAT_NUMBER = 0.2F;
-        System.out.println(STR."Initial floating number: \{FLOAT_NUMBER}");
-        System.out.println(STR."Float \{FLOAT_NUMBER} next down is \{Math.nextDown(FLOAT_NUMBER)}");
-        System.out.println(STR."Float \{FLOAT_NUMBER} next up is \{Math.nextUp(FLOAT_NUMBER)}\n");
+        System.out.printf("Initial floating number: %f\n", FLOAT_NUMBER);
+        System.out.printf("Float %f next down is %f\n", FLOAT_NUMBER, Math.nextDown(FLOAT_NUMBER));
+        System.out.printf("Float %f next up is %f\n\n", FLOAT_NUMBER, Math.nextUp(FLOAT_NUMBER));
         final double DOUBLE_NUMBER = 0.2D;
-        System.out.println(STR."Initial double number: \{DOUBLE_NUMBER}");
-        System.out.println(STR."Double \{DOUBLE_NUMBER} next down is \{Math.nextDown(DOUBLE_NUMBER)}");
-        System.out.print(STR."Double \{DOUBLE_NUMBER} next up is \{Math.nextUp(DOUBLE_NUMBER)}");
+        System.out.printf("Initial double number: %f\n", DOUBLE_NUMBER);
+        System.out.printf("Double %f next down is %f\n", DOUBLE_NUMBER, Math.nextDown(DOUBLE_NUMBER));
+        System.out.printf("Double %f next up is %f", DOUBLE_NUMBER, Math.nextUp(DOUBLE_NUMBER));
     }
 }

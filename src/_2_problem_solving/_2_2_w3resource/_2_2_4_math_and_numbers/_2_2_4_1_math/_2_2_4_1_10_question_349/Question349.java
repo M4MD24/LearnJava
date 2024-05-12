@@ -15,8 +15,11 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 public class Question349 {
     public static void main(final String[] ARGS) {
         final float NUMBER = 12.53F;
-        System.out.printf(STR."""
-                Input a float number:\s\{NUMBER}
-                The abslute value of\s\{String.format("%.6f", NUMBER)} is: \{String.format("%.2f", (float) Math.round(NUMBER))}""");
+        System.out.printf("""
+                        Input a float number:\s%f
+                        The rounded value of\s%.6f is: %.2f""",
+                NUMBER,
+                NUMBER,
+                (float) Math.round(NUMBER));
     }
 }

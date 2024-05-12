@@ -18,10 +18,13 @@ public class Question364 {
     public static void main(final String[] ARGS) {
         final int COUNT_OF_TERMS = 25,
                 EXPONENT = 5;
-        System.out.print(STR."""
-                Input count of terms: \{COUNT_OF_TERMS}
-                Input exponent: \{EXPONENT}
-                e^x = \{getExponential(COUNT_OF_TERMS, EXPONENT)}""");
+        System.out.printf("""
+                        Input count of terms: %d
+                        Input exponent: %d
+                        e^x = %f""",
+                COUNT_OF_TERMS,
+                EXPONENT,
+                getExponential(COUNT_OF_TERMS, EXPONENT));
     }
 
     private static double getExponential(final int COUNT_OF_TERMS, final double EXPONENT) {

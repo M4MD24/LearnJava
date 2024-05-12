@@ -18,9 +18,11 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numb
 public class Question369 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 235;
-        System.out.print(STR."""
-                Input and integer number: \{NUMBER}
-                It \{isUglyNumber(NUMBER) ? "is" : "isn't"} and ugly number.""");
+        System.out.printf("""
+                        Input and integer number: %d
+                        It %b and ugly number.""",
+                NUMBER,
+                isUglyNumber(NUMBER) ? "is" : "isn't");
     }
 
     private static boolean isUglyNumber(int number) {

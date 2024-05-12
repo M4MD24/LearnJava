@@ -32,14 +32,14 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
 public class Question261 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 10;
-        System.out.println(STR."Input a number: \{NUMBER}");
+        System.out.printf("Input a number: %d\n", NUMBER);
         printRandomNumbers(NUMBER);
     }
 
     private static void printRandomNumbers(final int ROWS_AND_COLUMNS) {
         for (int row = 0; row < ROWS_AND_COLUMNS; row++) {
             for (int column = 0; column < ROWS_AND_COLUMNS; column++)
-                System.out.print(STR."\{(byte) (Math.random() * 2)} ");
+                System.out.printf("%d ", (byte) (Math.random() * 2));
             System.out.println();
         }
     }

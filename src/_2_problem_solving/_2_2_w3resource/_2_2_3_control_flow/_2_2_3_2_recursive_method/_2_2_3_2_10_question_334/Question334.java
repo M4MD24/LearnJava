@@ -11,7 +11,9 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursiv
 public class Question334 {
     public static void main(final String[] ARGS) {
         final String TEXT = "Java Exercises!";
-        System.out.print(STR."The length of the text \{TEXT} is: \{getLengthOfText(TEXT, 1, 0)}");
+        System.out.printf("The length of the text %s is: %d",
+                TEXT,
+                getLengthOfText(TEXT, 1, 0));
     }
 
     private static int getLengthOfText(final String TEXT, final int INDEX, int lengthOfText) {

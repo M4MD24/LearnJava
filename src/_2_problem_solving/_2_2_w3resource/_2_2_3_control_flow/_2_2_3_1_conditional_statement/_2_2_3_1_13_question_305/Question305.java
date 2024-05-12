@@ -22,13 +22,16 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditio
 public class Question305 {
     public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = 4;
-        System.out.println(STR."Input number of terms: \{TARGET_NUMBER}");
+        System.out.printf("Input number of terms: %d\n", TARGET_NUMBER);
         printCubeNumbersToTargetNumber(TARGET_NUMBER);
     }
 
     private static void printCubeNumbersToTargetNumber(final int TARGET_NUMBER) {
         for (int currentNumber = 1; currentNumber <= TARGET_NUMBER; currentNumber++) {
-            System.out.print(STR."Current number is: \{currentNumber} and cube of \{currentNumber} is: \{(int) Math.pow(currentNumber, 3)}");
+            System.out.printf("Current number is: %d and cube of %d is: %d",
+                    currentNumber,
+                    currentNumber,
+                    (int) Math.pow(currentNumber, 3));
             if (currentNumber != TARGET_NUMBER)
                 System.out.println();
         }

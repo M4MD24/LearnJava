@@ -53,11 +53,15 @@ public class Question370 {
     public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = 10_000;
         categorizingNumbersFromOneToTargetNumber(TARGET_NUMBER);
-        System.out.print(STR."""
-                Number counting (between 1 to \{new DecimalFormat("###,###").format(TARGET_NUMBER)}):
-                Deficient numbers: \{deficientNumbers}
-                Perfect numbers: \{perfectNumbers}
-                Abundant numbers: \{abundantNumbers}""");
+        System.out.printf("""
+                        Number counting (between 1 to %s):
+                        Deficient numbers: %d
+                        Perfect numbers: %d
+                        Abundant numbers: %d""",
+                new DecimalFormat("###,###").format(TARGET_NUMBER),
+                deficientNumbers,
+                perfectNumbers,
+                abundantNumbers);
     }
 
     private static void categorizingNumbersFromOneToTargetNumber(final int TARGET_NUMBER) {

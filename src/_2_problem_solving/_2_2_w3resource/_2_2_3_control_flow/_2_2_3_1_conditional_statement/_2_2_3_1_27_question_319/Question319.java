@@ -14,8 +14,8 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditio
 public class Question319 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 7;
-        System.out.println(STR."Input number: \{NUMBER}");
-        System.out.print(STR."Number is \{getStatusOfNumber(NUMBER)}");
+        System.out.printf("Input number: %d\n", NUMBER);
+        System.out.printf("Number is %s", getStatusOfNumber(NUMBER));
     }
 
     private static String getStatusOfNumber(final int NUMBER) {

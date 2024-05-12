@@ -22,11 +22,15 @@ public class Question295 {
         final int FIRST_NUMBER = 25,
                 SECOND_NUMBER = 78,
                 THIRD_NUMBER = 87;
-        System.out.println(STR."""
-                Input the 1st number:\s\{FIRST_NUMBER}
-                Input the 2nd number:\s\{SECOND_NUMBER}
-                Input the 3rd number:\s\{THIRD_NUMBER}""");
-        System.out.print(STR."The greatest: \{getMaximumNumber(FIRST_NUMBER, SECOND_NUMBER, THIRD_NUMBER)}");
+        System.out.printf("""
+                        Input the 1st number:\s%d
+                        Input the 2nd number:\s%d
+                        Input the 3rd number:\s%d
+                        """,
+                FIRST_NUMBER,
+                SECOND_NUMBER,
+                THIRD_NUMBER);
+        System.out.printf("The greatest: %d", getMaximumNumber(FIRST_NUMBER, SECOND_NUMBER, THIRD_NUMBER));
     }
 
     private static int getMaximumNumber(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {

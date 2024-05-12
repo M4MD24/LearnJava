@@ -15,9 +15,11 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 public class Question367 {
     public static void main(final String[] ARGS) {
         final int NUMBER_OF_COLUMN = 5;
-        System.out.print(STR."""
-                Input the number: \{NUMBER_OF_COLUMN}
-                Excel Column: \{getExcelColumnCharacter(NUMBER_OF_COLUMN)}""");
+        System.out.printf("""
+                        Input the number: %d
+                        Excel Column: %s""",
+                NUMBER_OF_COLUMN,
+                getExcelColumnCharacter(NUMBER_OF_COLUMN));
     }
 
     private static StringBuilder getExcelColumnCharacter(int numberOfColumn) {

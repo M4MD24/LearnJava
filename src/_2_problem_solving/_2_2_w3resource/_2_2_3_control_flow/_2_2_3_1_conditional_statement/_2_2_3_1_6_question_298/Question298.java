@@ -19,10 +19,13 @@ public class Question298 {
     public static void main(final String[] ARGS) {
         final float NUMBER = 25.586F,
                 ANOTHER_NUMBER = 25.589F;
-        System.out.println(STR."""
-                Input floating-point number:\s\{NUMBER}
-                Input floating-point another number:\s\{ANOTHER_NUMBER}""");
-        System.out.print(STR."They are \{areEquals(NUMBER, ANOTHER_NUMBER)}");
+        System.out.printf("""
+                        Input floating-point number:\s%f
+                        Input floating-point another number:\s%f
+                        """,
+                NUMBER,
+                ANOTHER_NUMBER);
+        System.out.printf("They are %s", areEquals(NUMBER, ANOTHER_NUMBER));
     }
 
     private static String areEquals(final float NUMBER, final float ANOTHER_NUMBER) {

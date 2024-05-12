@@ -29,9 +29,11 @@ public class Question346 {
 
     public static void main(final String[] ARGS) {
         final String ROMAN_CHARACTERS = "DCCVII";
-        System.out.print(STR."""
-                Roman Numbers:\s\{ROMAN_CHARACTERS}
-                Equivalent:\s\{getEquivalentNumber(ROMAN_CHARACTERS)}""");
+        System.out.printf("""
+                        Roman Numbers:\s%s
+                        Equivalent:\s%d""",
+                ROMAN_CHARACTERS,
+                getEquivalentNumber(ROMAN_CHARACTERS));
     }
 
     private static int getEquivalentNumber(final String ROMAN_CHARACTERS) {

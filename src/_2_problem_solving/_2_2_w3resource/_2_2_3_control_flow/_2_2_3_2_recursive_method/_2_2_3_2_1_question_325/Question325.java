@@ -11,7 +11,9 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursiv
 public class Question325 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 7;
-        System.out.print(STR."Factorial of \{NUMBER} is: \{getFactorial(NUMBER, 1)}");
+        System.out.printf("Factorial of %d is: %d",
+                NUMBER,
+                getFactorial(NUMBER, 1));
     }
 
     private static int getFactorial(final int NUMBER, final int FACTORIAL) {

@@ -18,10 +18,13 @@ public class Question355 {
     public static void main(final String[] ARGS) {
         final int BASE = 2,
                 EXPONENT = 5;
-        System.out.print(STR."""
-                Input the base: \{BASE}
-                Input the exponent: \{EXPONENT}
-                Power of the number: \{getPowerOfTheNumber(BASE, EXPONENT)}""");
+        System.out.printf("""
+                        Input the base: %d
+                        Input the exponent: %d
+                        Power of the number: %d""",
+                BASE,
+                EXPONENT,
+                getPowerOfTheNumber(BASE, EXPONENT));
     }
 
     private static int getPowerOfTheNumber(final int BASE, final int EXPONENT) {

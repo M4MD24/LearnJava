@@ -19,7 +19,7 @@ public class Question339 {
         final int[] NUMBERS = {1, 2, 3, 4, 5};
         System.out.print("Original numbers: [");
         printNumbers(NUMBERS, 0);
-        System.out.print(STR."Is array sorted in ascending order? \{areNumbersSortedInAscendingOrder}");
+        System.out.printf("Is array sorted in ascending order? %b", areNumbersSortedInAscendingOrder);
     }
 
     private static void printNumbers(final int[] NUMBERS, int index) {

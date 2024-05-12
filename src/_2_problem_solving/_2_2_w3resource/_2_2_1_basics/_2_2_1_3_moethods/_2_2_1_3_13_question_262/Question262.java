@@ -22,7 +22,7 @@ public class Question262 {
                 THIRD_SIDE = 20;
         printSides(FIRST_SIDE, SECOND_SIDE, THIRD_SIDE);
         if (isTriangle(FIRST_SIDE, SECOND_SIDE, THIRD_SIDE))
-            System.out.print(STR."The area of the triangle is \{getTriangleArea(FIRST_SIDE, SECOND_SIDE, THIRD_SIDE)}");
+            System.out.printf("The area of the triangle is %f", getTriangleArea(FIRST_SIDE, SECOND_SIDE, THIRD_SIDE));
         else
             System.out.print("Not Triangle!");
     }
@@ -39,6 +39,9 @@ public class Question262 {
     }
 
     private static void printSides(final int FIRST_SIDE, final int SECOND_SIDE, final int THIRD_SIDE) {
-        System.out.println(STR."\{FIRST_SIDE} \{SECOND_SIDE} \{THIRD_SIDE}");
+        System.out.printf("%d %d %d\n",
+                FIRST_SIDE,
+                SECOND_SIDE,
+                THIRD_SIDE);
     }
 }

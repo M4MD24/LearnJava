@@ -17,9 +17,9 @@ public class Question263 {
     public static void main(final String[] ARGS) {
         final int COUNT_OF_SIDES = 5,
                 SIDE = 6;
-        System.out.println(STR."Input the number of sides: \{COUNT_OF_SIDES}");
-        System.out.println(STR."Input the side: \{SIDE}");
-        System.out.print(STR."The Area of the pentagon is : \{getPentagonArea(SIDE)}");
+        System.out.printf("Input the number of sides: %d\n", COUNT_OF_SIDES);
+        System.out.printf("Input the side: %d\n", SIDE);
+        System.out.printf("The Area of the pentagon is : %f", getPentagonArea(SIDE));
     }
 
     private static double getPentagonArea(final double SIDE) {

@@ -24,7 +24,7 @@ public class Question278 {
         final double POUNDS = INPUT.nextDouble();
         System.out.print("Input height in inches: ");
         final double INCHES = INPUT.nextDouble();
-        System.out.print(STR."Body mass index is: \{getBodyMassIndexWithPoundsAndInches(POUNDS, INCHES)}");
+        System.out.printf("Body mass index is: %f", getBodyMassIndexWithPoundsAndInches(POUNDS, INCHES));
     }
 
     private static double getBodyMassIndexWithPoundsAndInches(final double POUNDS, final double INCHES) {

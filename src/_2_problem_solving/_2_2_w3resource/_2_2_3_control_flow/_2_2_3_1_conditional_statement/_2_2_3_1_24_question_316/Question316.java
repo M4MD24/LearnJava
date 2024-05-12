@@ -20,7 +20,7 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditio
 public class Question316 {
     public static void main(final String[] ARGS) {
         final int NUMBER_OF_ROWS = 6;
-        System.out.println(STR."Input number of rows: \{NUMBER_OF_ROWS}");
+        System.out.printf("Input number of rows: %d\n", NUMBER_OF_ROWS);
         printStarsTriangle(NUMBER_OF_ROWS);
     }
 

@@ -14,8 +14,10 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditio
 public class Question301 {
     public static void main(final String[] ARGS) {
         final int YEAR = 2016;
-        System.out.println(STR."Input a Year: \{YEAR}");
-        System.out.print(STR."\{YEAR} is a \{isLeapYear(YEAR) ? "leap" : "not leap"} year");
+        System.out.printf("Input a Year: %d\n", YEAR);
+        System.out.printf("%d is a %b year",
+                YEAR,
+                isLeapYear(YEAR) ? "leap" : "not leap");
     }
 
     private static boolean isLeapYear(final int YEAR) {

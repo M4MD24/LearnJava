@@ -22,14 +22,14 @@ import java.util.Arrays;
 public class Question359 {
     public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = 125;
-        System.out.println(STR."Input the number: \{TARGET_NUMBER}");
+        System.out.printf("Input the number: %d\n", TARGET_NUMBER);
         final boolean[] PRIME_NUMBERS = new boolean[TARGET_NUMBER + 1];
         addPrimeNumbersLessThanAndEqualsTargetNumberWithSieveOfEratosthenesAlgorithm(PRIME_NUMBERS, TARGET_NUMBER);
         printPrimeNumbers(PRIME_NUMBERS, TARGET_NUMBER);
     }
 
     private static void printPrimeNumbers(final boolean[] PRIME_NUMBERS_STATUS, final int TARGET_NUMBER) {
-        System.out.print(STR."Prime numbers <= \{TARGET_NUMBER}: ");
+        System.out.printf("Prime numbers <= %d: ", TARGET_NUMBER);
         final ArrayList<Integer> PRIME_NUMBERS = new ArrayList<>();
         for (int number = 2; number <= TARGET_NUMBER; number++)
             if (PRIME_NUMBERS_STATUS[number])
