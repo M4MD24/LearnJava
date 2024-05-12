@@ -56,7 +56,7 @@ public class Question373 {
     }
 
     public static void main(final String[] ARGS) {
-        List<BigInteger> SEED_NUMBERS = new ArrayList<>(),
+        final List<BigInteger> SEED_NUMBERS = new ArrayList<>(),
                 RELATED_NUMBERS = new ArrayList<>(),
                 PALINDROME_NUMBERS = new ArrayList<>();
         for (int index = 1; index <= 10_000; index++) {
@@ -81,8 +81,8 @@ class Tuple {
     final Boolean FLAG;
     final BigInteger NUMBER;
 
-    Tuple(final boolean flag, final BigInteger number) {
-        this.FLAG = flag;
-        this.NUMBER = number;
+    Tuple(final boolean FLAG, final BigInteger NUMBER) {
+        this.FLAG = FLAG;
+        this.NUMBER = NUMBER;
     }
 }

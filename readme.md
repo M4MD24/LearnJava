@@ -6,7 +6,7 @@
 - **Appropriate labels for `variables`, `functions` and `classes`**
 - **Java Version** `22 Oracle OpenJDK Version 22`
 
-  `22 (Preview) - Statement before super(), string templates (2nd preview) etc.`
+  `22 - Unnmaed variables and patterns`
 
 ---
 
