@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment="# Edit Things">
-      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_5_question_373/Question373.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +26,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;history&quot;: [
@@ -81,140 +77,140 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Question157.executor": "Run",
-    "Application.Question158.executor": "Run",
-    "Application.Question159.executor": "Run",
-    "Application.Question160.executor": "Run",
-    "Application.Question178.executor": "Run",
-    "Application.Question188.executor": "Run",
-    "Application.Question189.executor": "Run",
-    "Application.Question199.executor": "Run",
-    "Application.Question211.executor": "Run",
-    "Application.Question218.executor": "Run",
-    "Application.Question236.executor": "Run",
-    "Application.Question259.executor": "Run",
-    "Application.Question269.executor": "Run",
-    "Application.Question272.executor": "Run",
-    "Application.Question278.executor": "Run",
-    "Application.Question279.executor": "Run",
-    "Application.Question280.executor": "Run",
-    "Application.Question281.executor": "Run",
-    "Application.Question282.executor": "Run",
-    "Application.Question283.executor": "Run",
-    "Application.Question284.executor": "Run",
-    "Application.Question285.executor": "Run",
-    "Application.Question286.executor": "Run",
-    "Application.Question287.executor": "Run",
-    "Application.Question288.executor": "Run",
-    "Application.Question289.executor": "Run",
-    "Application.Question290.executor": "Run",
-    "Application.Question291.executor": "Run",
-    "Application.Question292.executor": "Run",
-    "Application.Question293.executor": "Run",
-    "Application.Question294.executor": "Run",
-    "Application.Question295.executor": "Run",
-    "Application.Question296.executor": "Run",
-    "Application.Question297.executor": "Run",
-    "Application.Question298.executor": "Run",
-    "Application.Question299.executor": "Run",
-    "Application.Question300.executor": "Run",
-    "Application.Question301.executor": "Run",
-    "Application.Question302.executor": "Run",
-    "Application.Question303.executor": "Run",
-    "Application.Question304.executor": "Run",
-    "Application.Question305.executor": "Run",
-    "Application.Question306.executor": "Run",
-    "Application.Question307.executor": "Run",
-    "Application.Question308.executor": "Run",
-    "Application.Question309.executor": "Run",
-    "Application.Question310.executor": "Run",
-    "Application.Question311.executor": "Run",
-    "Application.Question312.executor": "Run",
-    "Application.Question313.executor": "Run",
-    "Application.Question314.executor": "Run",
-    "Application.Question315.executor": "Run",
-    "Application.Question316.executor": "Run",
-    "Application.Question317.executor": "Run",
-    "Application.Question318.executor": "Run",
-    "Application.Question319.executor": "Run",
-    "Application.Question320.executor": "Run",
-    "Application.Question321.executor": "Run",
-    "Application.Question322.executor": "Run",
-    "Application.Question323.executor": "Run",
-    "Application.Question324.executor": "Run",
-    "Application.Question325.executor": "Run",
-    "Application.Question326.executor": "Run",
-    "Application.Question327.executor": "Run",
-    "Application.Question328.executor": "Run",
-    "Application.Question329.executor": "Run",
-    "Application.Question330.executor": "Run",
-    "Application.Question331.executor": "Run",
-    "Application.Question332.executor": "Run",
-    "Application.Question333.executor": "Run",
-    "Application.Question334.executor": "Run",
-    "Application.Question335.executor": "Run",
-    "Application.Question336.executor": "Run",
-    "Application.Question337.executor": "Run",
-    "Application.Question338.executor": "Run",
-    "Application.Question340.executor": "Run",
-    "Application.Question341.executor": "Run",
-    "Application.Question342.executor": "Run",
-    "Application.Question343.executor": "Run",
-    "Application.Question344.executor": "Run",
-    "Application.Question345.executor": "Run",
-    "Application.Question346.executor": "Run",
-    "Application.Question347.executor": "Run",
-    "Application.Question348.executor": "Run",
-    "Application.Question349.executor": "Run",
-    "Application.Question350.executor": "Run",
-    "Application.Question351.executor": "Run",
-    "Application.Question352.executor": "Run",
-    "Application.Question353.executor": "Run",
-    "Application.Question354.executor": "Run",
-    "Application.Question355.executor": "Run",
-    "Application.Question356.executor": "Run",
-    "Application.Question357.executor": "Run",
-    "Application.Question358.executor": "Run",
-    "Application.Question359.executor": "Run",
-    "Application.Question360.executor": "Run",
-    "Application.Question361.executor": "Run",
-    "Application.Question362.executor": "Run",
-    "Application.Question363.executor": "Run",
-    "Application.Question364.executor": "Run",
-    "Application.Question365.executor": "Run",
-    "Application.Question366.executor": "Run",
-    "Application.Question367.executor": "Run",
-    "Application.Question368.executor": "Run",
-    "Application.Question369.executor": "Run",
-    "Application.Question370.executor": "Run",
-    "Application.Question371.executor": "Run",
-    "Application.Question372.executor": "Run",
-    "Application.Question373.executor": "Run",
-    "Application.StrExample.executor": "Run",
-    "Application.TextColorStringsExample.executor": "Run",
-    "Java Scratch.M3MD69.executor": "Run",
-    "Java Scratch.M3MD69_2.executor": "Run",
-    "Java Scratch.Scratch (1).executor": "Run",
-    "Java Scratch.Scratch.executor": "Run",
-    "Java Scratch.scratch.executor": "Run",
-    "Java Scratch.solution.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/media/xmstx/New Volume/Projects/ConsoleApp/Java/Learn-Java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor.code.editing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Question157.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question158.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question159.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question160.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question178.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question188.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question189.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question199.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question211.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question218.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question236.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question259.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question269.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question272.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question278.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question279.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question280.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question281.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question282.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question283.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question284.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question285.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question286.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question287.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question288.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question289.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question290.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question291.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question292.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question293.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question294.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question295.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question296.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question297.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question298.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question299.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question300.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question301.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question302.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question303.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question304.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question305.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question306.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question307.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question308.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question309.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question310.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question311.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question312.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question313.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question314.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question315.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question316.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question317.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question318.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question319.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question320.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question321.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question322.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question323.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question324.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question325.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question326.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question327.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question328.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question329.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question330.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question331.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question332.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question333.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question334.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question335.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question336.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question337.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question338.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question340.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question341.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question342.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question343.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question344.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question345.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question346.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question347.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question348.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question349.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question350.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question351.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question352.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question353.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question354.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question355.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question356.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question357.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question358.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question359.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question360.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question361.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question362.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question363.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question364.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question365.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question366.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question367.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question368.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question369.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question370.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question371.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question372.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Question373.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StrExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TextColorStringsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.M3MD69.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.M3MD69_2.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Scratch (1).executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.solution.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/xmstx/New Volume/Projects/ConsoleApp/Java/Learn-Java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_3_control_flow/_2_2_3_1_conditional_statement/_2_2_3_1_1_question_293" />
@@ -231,7 +227,7 @@
       <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_1_1_question_369" />
     </key>
   </component>
-  <component name="RunManager" selected="Java Scratch.Scratch (1)">
+  <component name="RunManager" selected="Application.Question373">
     <configuration name="Question343" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_4_question_343.Question343" />
       <module name="Learn-Java" />
@@ -282,9 +278,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question373" />
         <item itemvalue="Java Scratch.Scratch (1)" />
         <item itemvalue="Java Scratch.scratch" />
-        <item itemvalue="Application.Question373" />
         <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.Question343" />
       </list>
@@ -491,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715517464551</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)">
+      <option name="closed" value="true" />
+      <created>1715529938858</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1715529938858</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,13 +523,13 @@
     <MESSAGE value="# Edit&#10;&#10;## Edit&#10;- things" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+5)" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+3)" />
-    <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+6)" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+10)" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+4)" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+2)" />
     <MESSAGE value="# Edit Things" />
-    <option name="LAST_COMMIT_MESSAGE" value="# Edit Things" />
+    <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
