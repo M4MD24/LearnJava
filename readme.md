@@ -4,9 +4,7 @@
 - **Currently Used `Intellij Idea Community`**
 - **Project Language is `English` and `some images Arabic`**
 - **Appropriate labels for `variables`, `functions` and `classes`**
-- **Java Version** `22 Oracle OpenJDK Version 22`
-
-  `22 - Unnmaed variables and patterns`
+- **Java Version** `22 Oracle OpenJDK Version 22` - `22 - Unnmaed variables and patterns`
 
 ---
 
@@ -216,7 +214,7 @@
 
 ---
 
-## _2. Problem Solving (654)_
+## _2. Problem Solving (660)_
 
 - Solving problems and projects
 
@@ -224,7 +222,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (373 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (379 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -236,9 +234,9 @@
 3. **Flow Control (47 Questions)**
     1. **[Conditional Flow](https://www.w3resource.com/java-exercises/conditional-statement/index.php) (32 Questions)**
     2. **[Recursive Method](https://www.w3resource.com/java-exercises/recursive/index.php) (15 Questions)**
-4. **Math and Numbers (34 Questions)**
+4. **Math and Numbers (40 Questions)**
     1. **[Math](https://www.w3resource.com/java-exercises/math/index.php) (29 Questions)**
-    2. **[Numbers](https://www.w3resource.com/java-exercises/numbers/index.php) (5 Questions)**
+    2. **[Numbers](https://www.w3resource.com/java-exercises/numbers/index.php) (11 Questions)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 
