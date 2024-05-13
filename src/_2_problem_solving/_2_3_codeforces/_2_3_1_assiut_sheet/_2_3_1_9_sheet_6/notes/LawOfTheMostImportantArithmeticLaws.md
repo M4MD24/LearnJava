@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# 37 Law of the Most Important Arithmetic Laws
+# 40 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -406,5 +406,22 @@ private static boolean isPerfectSquare(final int NUMBER) {
 ```java
 private static long getDivisorSum(final int NUMBER) {
     return LongStream.rangeClosed(1, (NUMBER + 1) / 2).filter(number -> NUMBER % number == 0 && NUMBER != number).sum();
+}
+```
+
+### Is Automorphic Number
+
+```java
+private static boolean isAutomorphicNumber(final int NUMBER) {
+    final int NUMBER_SQUARE = NUMBER * NUMBER;
+    return String.valueOf(NUMBER_SQUARE).contains(String.valueOf(NUMBER));
+}
+```
+
+### Is Duck Number
+
+```java
+private static boolean isDuckNumber(final int NUMBER) {
+    return String.valueOf(NUMBER).indexOf('0') != -1;
 }
 ```
