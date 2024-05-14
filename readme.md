@@ -214,7 +214,7 @@
 
 ---
 
-## _2. Problem Solving (664)_
+## _2. Problem Solving (666)_
 
 - Solving problems and projects
 
@@ -222,7 +222,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (383 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (385 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -234,9 +234,9 @@
 3. **Flow Control (47 Questions)**
     1. **[Conditional Flow](https://www.w3resource.com/java-exercises/conditional-statement/index.php) (32 Questions)**
     2. **[Recursive Method](https://www.w3resource.com/java-exercises/recursive/index.php) (15 Questions)**
-4. **Math and Numbers (44 Questions)**
+4. **Math and Numbers (46 Questions)**
     1. **[Math](https://www.w3resource.com/java-exercises/math/index.php) (29 Questions)**
-    2. **[Numbers](https://www.w3resource.com/java-exercises/numbers/index.php) (15 Questions)**
+    2. **[Numbers](https://www.w3resource.com/java-exercises/numbers/index.php) (17 Questions)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 
@@ -249,7 +249,7 @@
     6. **[Contest 3.1](https://codeforces.com/group/MWSDmqGsZm/contest/329103) (7 Questions)**
     7. **[Sheet 4 "Strings"](https://codeforces.com/group/MWSDmqGsZm/contest/219856) (26 Questions)**
         - [2.3.1.7.o Sort String](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
-          `It can't be solved by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
+          `It can't be submit by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
     8. **[Sheet 5 "Functions"](https://codeforces.com/group/MWSDmqGsZm/contest/223205) (15 Questions)**
     9. **[Sheet 6 "Math - Geometry"](https://codeforces.com/group/MWSDmqGsZm/contest/223338) (26 Questions)**
     10. **[Sheet 7 "Recursion"](https://codeforces.com/group/MWSDmqGsZm/contest/223339) (26 Questions)**
