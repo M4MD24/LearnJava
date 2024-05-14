@@ -22,8 +22,6 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numb
  * 1.157920892373162E77
  * <br/>
  * 1.3407807929942597E154
- * <br/>
- * Infinity
  * </h2>
  *
  * @see _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_20_question_388.images <h2>Question</h2>
