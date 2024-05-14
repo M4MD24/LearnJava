@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# 40 Law of the Most Important Arithmetic Laws
+# 41 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -423,5 +423,13 @@ private static boolean isAutomorphicNumber(final int NUMBER) {
 ```java
 private static boolean isDuckNumber(final int NUMBER) {
     return String.valueOf(NUMBER).indexOf('0') != -1;
+}
+```
+
+### Is Cube Number
+
+```java
+private static boolean isCubeNumber(final int NUMBER) {
+    return Math.cbrt(NUMBER) % 1 == 0;
 }
 ```
