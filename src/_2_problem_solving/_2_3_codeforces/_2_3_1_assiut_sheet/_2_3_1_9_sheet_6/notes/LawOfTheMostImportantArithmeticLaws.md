@@ -407,6 +407,7 @@ private static boolean isPerfectSquare(final int NUMBER) {
 private static long getDivisorSum(final int NUMBER) {
     return LongStream.rangeClosed(1, (NUMBER + 1) / 2).filter(number -> NUMBER % number == 0 && NUMBER != number).sum();
 }
+
 ```
 
 ### Is Automorphic Number
