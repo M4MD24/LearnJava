@@ -49,10 +49,10 @@ public class PascalTriangleExample {
         printPascalTriangle(Byte.parseByte(new BufferedReader(new InputStreamReader(System.in)).readLine()));
     }
 
-    private static void printPascalTriangle(byte targetNumber) {
-        for (byte round = 0; round < targetNumber; round++) {
+    private static void printPascalTriangle(final byte TARGET_NUMBER) {
+        for (byte round = 0; round < TARGET_NUMBER; round++) {
             printPascalLine(round);
-            if (round < targetNumber - 1) System.out.println();
+            if (round < TARGET_NUMBER - 1) System.out.println();
         }
     }
 
