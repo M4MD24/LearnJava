@@ -31,7 +31,7 @@ public class Question393 {
         int firstNumber = 0,
                 secondNumber = 1;
         System.out.print(secondNumber + " ");
-        for (int index = 1; index < 20; index++) {
+        for (int round = 1; round < 20; round++) {
             final int PELL_NUMBER = 2 * secondNumber + firstNumber;
             System.out.print(PELL_NUMBER + " ");
             firstNumber = secondNumber;
