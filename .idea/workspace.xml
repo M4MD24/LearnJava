@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)">
-      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_23_question_391/Question391.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_24_question_392/Question392.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_25_question_393/Question393.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_26_question_394/Question394.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_26_question_394/images/Image.png" afterDir="false" />
+    <list default="true" id="8d4c0cf1-674f-451c-9d6a-65e9b660c162" name="Changes" comment="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+4)">
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_27_question_395/Question395.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_28_question_396/Question396.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_29_question_397/Question397.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_9_sheet_6/notes/LawOfTheMostImportantArithmeticLaws.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_9_sheet_6/notes/LawOfTheMostImportantArithmeticLaws.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_25_question_393/Question393.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_25_question_393/Question393.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,9 @@
     &quot;repository&quot;: &quot;Learn-Java&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-22.0.1/lib/src.zip!/java.base/java/lang/Math.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -215,6 +217,9 @@
     "Application.Question392.executor": "Run",
     "Application.Question393.executor": "Run",
     "Application.Question394.executor": "Run",
+    "Application.Question395.executor": "Debug",
+    "Application.Question396.executor": "Run",
+    "Application.Question397.executor": "Run",
     "Application.StrExample.executor": "Run",
     "Application.TextColorStringsExample.executor": "Run",
     "Java Scratch.M3MD69.executor": "Run",
@@ -247,59 +252,59 @@
       <recent name="$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_2_data_types/_2_2_2_2_enum_types/_2_2_2_2_5_question_292" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_29_question_397" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_28_question_396" />
+      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_27_question_395" />
       <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_26_question_394" />
       <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_25_question_393" />
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_24_question_392" />
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_23_question_391" />
-      <recent name="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_22_question_390" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question394">
-    <configuration name="Question391" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_23_question_391.Question391" />
-      <module name="Learn-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_23_question_391.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question392" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_24_question_392.Question392" />
-      <module name="Learn-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_24_question_392.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question393" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_25_question_393.Question393" />
-      <module name="Learn-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_25_question_393.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Question397">
     <configuration name="Question394" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_26_question_394.Question394" />
       <module name="Learn-Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_26_question_394.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question395" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_27_question_395.Question395" />
+      <module name="Learn-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_27_question_395.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question396" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_28_question_396.Question396" />
+      <module name="Learn-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_28_question_396.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question397" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_29_question_397.Question397" />
+      <module name="Learn-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_29_question_397.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,11 +321,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question394" />
+        <item itemvalue="Application.Question397" />
         <item itemvalue="Java Scratch.Scratch" />
-        <item itemvalue="Application.Question393" />
-        <item itemvalue="Application.Question392" />
-        <item itemvalue="Application.Question391" />
+        <item itemvalue="Application.Question396" />
+        <item itemvalue="Application.Question395" />
+        <item itemvalue="Application.Question394" />
       </list>
     </recent_temporary>
   </component>
@@ -605,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715665421980</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+4)">
+      <option name="closed" value="true" />
+      <created>1715698633910</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1715698633910</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -636,11 +649,26 @@
     <MESSAGE value="# Edit Things" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+6)" />
     <MESSAGE value="# Edit&#10;&#10;## Edit&#10;- readme.md file" />
-    <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+4)" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+2)" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+2)" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)" />
     <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="# Edit and Solve problems&#10;&#10;## Edit&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+1)" />
+    <MESSAGE value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+4)" />
+    <option name="LAST_COMMIT_MESSAGE" value="# Edit and Solve problems&#10;&#10;## Edit&#10;- things&#10;- readme.md file&#10;&#10;## Problem-Solving&#10;- W3Resource (+4)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/_2_problem_solving/_2_2_w3resource/_2_2_4_math_and_numbers/_2_2_4_2_numbers/_2_2_4_2_28_question_396/Question396.java</url>
+          <line>24</line>
+          <properties class="_2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_28_question_396.Question396" method="isArmstrongNumber">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
