@@ -1,6 +1,6 @@
-package _1_learning._1_7_data_structures_and_algorithms._1_7_2_linked_list;
+package _1_learning._1_7_data_structures_and_algorithms._1_7_2_linked_list._1_7_2_1_singly_linked_list;
 
-public class LinkedList<Type extends Comparable<Type>> {
+public class SinglyLinkedList<Type extends Comparable<Type>> {
     Node<Type> head;
 
     public void insertFirst(Type data) {
@@ -130,7 +130,7 @@ public class LinkedList<Type extends Comparable<Type>> {
         } else System.out.println("LinkedList not sorted");
     }
 
-    public void merge(LinkedList<Type> LinkedList2) {
+    public void merge(SinglyLinkedList<Type> LinkedList2) {
         Node<Type> node = head;
         if (node != null) {
             while (node.next != null) node = node.next;
