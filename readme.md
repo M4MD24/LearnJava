@@ -137,39 +137,39 @@
 1. **List**
     1. **List**
     2. **List with Others**
-2. **ArrayList**
-3. **LinkedList**
+2. **Array List**
+3. **Linked List**
 4. **Vector**
 5. **Stack**
 6. **Queue**
-7. **PriorityQueue**
+7. **Priority Queue**
 8. **Deque**
-9. **ArrayDeque**
-10. **BlockingQueue with Others**
-11. **ArrayBlockingQueue**
-12. **LinkedBlockingQueue**
-13. **BlockingDeque with Others**
-14. **LinkedBlockingDeque**
+9. **Array Deque**
+10. **Blocking Queue with Others**
+11. **Array Blocking Queue**
+12. **Linked Blocking Queue**
+13. **Blocking Deque with Others**
+14. **Linked Blocking Deque**
 15. **Map with Others**
-16. **HashMap**
-17. **LinkedHashMap**
-18. **WeakHashMap**
-19. **EnumMap**
-20. **SortedMap with Others**
+16. **Hash Map**
+17. **Linked Hash Map**
+18. **Weak Hash Map**
+19. **Enum Map**
+20. **Sorted Map with Others**
 21. **Navigable with Others**
 22. **TreeMap**
-23. **ConCurrentMap**
-24. **ConCurrentHashMap**
+23. **ConCurrent Map**
+24. **ConCurrent HashMap**
 25. **Set with Others**
 26. **HashSet**
-27. **LinkedHashSet**
+27. **Linked Hash Set**
 28. **EnumSet**
 29. **TreeSet**
 30. **SortedSet with Others**
 31. **Navigable with Others**
 32. **Iterator**
-33. **ListIterator**
-34. **HashTable**
+33. **List Iterator**
+34. **Hash Table**
 
 ### 6. Algorithms
 
@@ -190,6 +190,8 @@
 
 1. **Nodes**
 2. **LinkedList**
+    1. Singly Linked List
+    2. Doubly Linked List
 3. **Dynamic Array**
 4. **Stack**
 5. **Queue**

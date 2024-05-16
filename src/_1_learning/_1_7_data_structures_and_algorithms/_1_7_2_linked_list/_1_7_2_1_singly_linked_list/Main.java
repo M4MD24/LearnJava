@@ -1,7 +1,7 @@
-package _1_learning._1_7_data_structures_and_algorithms._1_7_2_linked_list;
+package _1_learning._1_7_data_structures_and_algorithms._1_7_2_linked_list._1_7_2_1_singly_linked_list;
 
 public class Main {
-    private static final LinkedList<Integer> linkedList = new LinkedList<>();
+    private static final SinglyLinkedList<Integer> linkedList = new SinglyLinkedList<>();
 
     public static void main(final String[] ARGS) {
         System.out.println("■ displayAll() Test");
@@ -155,7 +155,7 @@ public class Main {
 
     private static void mergeTest() {
         System.out.println("■ merge() Test");
-        LinkedList<Integer> linkedList2 = new LinkedList<>();
+        SinglyLinkedList<Integer> linkedList2 = new SinglyLinkedList<>();
         linkedList2.insertLast(5);
         linkedList2.insertLast(1);
         linkedList2.insertLast(3);

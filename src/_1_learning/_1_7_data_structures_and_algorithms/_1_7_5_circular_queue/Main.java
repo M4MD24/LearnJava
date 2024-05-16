@@ -1,7 +1,7 @@
-package _1_learning._1_7_data_structures_and_algorithms._1_7_5_queue;
+package _1_learning._1_7_data_structures_and_algorithms._1_7_5_circular_queue;
 
 public class Main {
-    private static final Queue<Integer> queue = new Queue<>();
+    private static final CircularQueueExample<Integer> queue = new CircularQueueExample<>();
 
     public static void main(final String[] ARGS) {
         showAllTest();

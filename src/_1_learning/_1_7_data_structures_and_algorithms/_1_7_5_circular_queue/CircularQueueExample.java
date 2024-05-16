@@ -1,6 +1,6 @@
-package _1_learning._1_7_data_structures_and_algorithms._1_7_5_queue;
+package _1_learning._1_7_data_structures_and_algorithms._1_7_5_circular_queue;
 
-public class Queue<Type> {
+public class CircularQueueExample<Type> {
     private int capacity = 0,
             rear = 0;
     private final int FRONT = 0;
