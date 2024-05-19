@@ -119,7 +119,8 @@ public class DoublyLinkedList<Type extends Comparable<Type>> {
         while (currentNode.next != null) {
             final Node<Type> FIRST_NODE = currentNode,
                     SECOND_NODE = currentNode.next;
-            if (FIRST_NODE.data.compareTo(SECOND_NODE.data) <= 0) currentNode = currentNode.next;
+            if (FIRST_NODE.data.compareTo(SECOND_NODE.data) <= 0 || FIRST_NODE.data.compareTo(SECOND_NODE.data) == 0)
+                currentNode = currentNode.next;
             else return false;
         }
         return true;

@@ -192,6 +192,7 @@
 2. **LinkedList**
     1. Singly Linked List
     2. Doubly Linked List
+    3. Circular Linked List
 3. **Dynamic Array**
 4. **Stack**
 5. **Queue**

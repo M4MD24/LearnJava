@@ -112,7 +112,8 @@ public class SinglyLinkedList<Type extends Comparable<Type>> {
         while (currentNode.next != null) {
             final Node<Type> FIRST_NODE = currentNode,
                     SECOND_NODE = currentNode.next;
-            if (FIRST_NODE.data.compareTo(SECOND_NODE.data) <= 0) currentNode = currentNode.next;
+            if (FIRST_NODE.data.compareTo(SECOND_NODE.data) <= 0 || FIRST_NODE.data.compareTo(SECOND_NODE.data) == 0)
+                currentNode = currentNode.next;
             else return false;
         }
         return true;
@@ -121,11 +122,13 @@ public class SinglyLinkedList<Type extends Comparable<Type>> {
     public void removeDuplicatesFromSortedLinkedList() {
         if (checkLinkedListIsSorted()) {
             Node<Type> currentNode = head;
-            while (currentNode != null && currentNode.next != null) {
+            while (currentNode.next != head) {
                 final Type FIRST_NODE_DATA = currentNode.data,
                         SECOND_NODE_DATA = currentNode.next.data;
-                if (FIRST_NODE_DATA == SECOND_NODE_DATA) currentNode.next = currentNode.next.next;
-                else currentNode = currentNode.next;
+                if (FIRST_NODE_DATA == SECOND_NODE_DATA)
+                    currentNode.next = currentNode.next.next;
+                else
+                    currentNode = currentNode.next;
             }
         } else System.out.println("LinkedList not sorted");
     }
