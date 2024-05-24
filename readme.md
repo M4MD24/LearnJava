@@ -202,6 +202,9 @@
 7. **Graph**
     1. **Adjacency Matrix**
     2. **Adjacency List**
+8. **Heap**
+    1. **Normal Heap**
+    2. **Fibonacci Heap**
 
 ### ~~8. Database~~
 
@@ -291,6 +294,7 @@
 - [W3Schools](https://www.w3schools.com)
 - [Youtube](https://www.youtube.com)
 - [Satr](https://satr.codes)
+- [Sanfoundry](https://www.sanfoundry.com)
 
 ### Problem Solving
 

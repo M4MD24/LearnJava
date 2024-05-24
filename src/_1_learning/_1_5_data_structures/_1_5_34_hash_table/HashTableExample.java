@@ -27,7 +27,8 @@ public class HashTableExample {
     }
 
     private static void displayAll() {
-        for (Integer key : HASHTABLE.keySet()) System.out.println(key.hashCode() % 10 + " \t" + key + "\t\t" + HASHTABLE.get(key));
+        for (final Integer KEY : HASHTABLE.keySet())
+            System.out.println(KEY.hashCode() % 10 + " \t" + KEY + "\t\t" + HASHTABLE.get(KEY));
         System.out.println();
         System.out.println();
     }
