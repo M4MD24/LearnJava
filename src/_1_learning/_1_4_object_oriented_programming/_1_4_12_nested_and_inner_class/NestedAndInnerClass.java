@@ -1,6 +1,6 @@
 package _1_learning._1_4_object_oriented_programming._1_4_12_nested_and_inner_class;
 
-/* √ Similar Concepts
+/* √
  * Nested Class = Inner Class
  * Static Nested Class = Static Inner Class */
 

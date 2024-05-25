@@ -27,7 +27,7 @@
 
 ## _1. Learning_
 
-- Learn how to use and apply concepts
+- Learn Examples of Concepts
 
 ### 1. Basics
 
