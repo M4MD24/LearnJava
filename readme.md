@@ -295,6 +295,7 @@
 - [Youtube](https://www.youtube.com)
 - [Satr](https://satr.codes)
 - [Sanfoundry](https://www.sanfoundry.com)
+- [Javapoint](https://www.javatpoint.com)
 
 ### Problem Solving
 
