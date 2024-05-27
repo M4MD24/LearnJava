@@ -1,3 +1,5 @@
+[//]: # (Notes)
+
 # Information
 
 ## Why was the AVL Tree given this name?

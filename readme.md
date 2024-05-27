@@ -1,5 +1,20 @@
 # Learn Java Programming Language
 
+## _About the Project Owner_
+
+- <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Name</b> Mohamed Sadawy Thabet <b>(M3MD69)</b>
+- <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"/> <b>Field</b> Software Engineer <b>/</b> Native Android Developer
+- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>For Contact Me</b>
+  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a href="https://t.me/M3MD69">@M3MD69</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/github_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a href="https://github.com/M3MD69">@M3MD69</a></li></ul>
+- <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Sheet Assiut in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
+
+---
+
+## _About the Project Details_
+
 - **Recommended using `Intellij IDEA (Community / Ultimate)` or `Android Studio`**
 - **Currently Used `Intellij Idea Community`**
 - **Project Language is `English` and `some images Arabic`**
@@ -170,6 +185,7 @@
 32. **Iterator**
 33. **List Iterator**
 34. **Hash Table**
+35. **Dictionary**
 
 ### 6. Algorithms
 
@@ -190,15 +206,17 @@
 
 1. **Nodes**
 2. **LinkedList**
-    1. Singly Linked List
-    2. Doubly Linked List
-    3. Circular Linked List
+    1. **Singly Linked List**
+    2. **Doubly Linked List**
+    3. **Circular Linked List**
 3. **Dynamic Array**
 4. **Stack**
 5. **Queue**
 6. **Tree**
     1. **Binary Tree**
     2. **Binary Search Tree**
+    3. **AVL Tree**
+    4. **B Tree**
 7. **Graph**
     1. **Adjacency Matrix**
     2. **Adjacency List**
@@ -296,6 +314,7 @@
 - [Satr](https://satr.codes)
 - [Sanfoundry](https://www.sanfoundry.com)
 - [Javapoint](https://www.javatpoint.com)
+- [CodeProject](https://www.codeproject.com)
 
 ### Problem Solving
 
@@ -307,16 +326,3 @@
 - [Satr](https://satr.codes)
 - [CoderHub](https://coderhub.sa)
 - [LeetCode](https://leetcode.com)
-
----
-
-## _About the Project Owner_
-
-- <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Name</b> Mohamed Sadawy Thabet <b>(M3MD69)</b>
-- <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"/> <b>Field</b> Software Engineer <b>/</b> Native Android Developer
-- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>For Contact Me</b>
-  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a href="https://t.me/M3MD69">@M3MD69</a></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/github_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a href="https://github.com/M3MD69">@M3MD69</a></li></ul>
-- <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Sheet Assiut in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
