@@ -36,9 +36,9 @@ public class DictionaryExample {
         DAYS_NAMES.put(1, "Saturday");
         DAYS_NAMES.put(2, "Sunday");
         DAYS_NAMES.put(3, "Monday");
-        DAYS_NAMES.put(4, "Thursday");
-        DAYS_NAMES.put(5, "Tuesday");
-        DAYS_NAMES.put(6, "Wednesday");
+        DAYS_NAMES.put(4, "Tuesday");
+        DAYS_NAMES.put(5, "Wednesday");
+        DAYS_NAMES.put(6, "Thursday");
         DAYS_NAMES.put(7, "Friday");
         System.out.println(DAYS_NAMES);
     }
