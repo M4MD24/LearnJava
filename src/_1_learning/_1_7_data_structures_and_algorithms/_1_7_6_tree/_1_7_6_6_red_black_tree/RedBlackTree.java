@@ -16,8 +16,8 @@ class RedBlackTree {
     private static final int BLACK = 1,
             RED = 0;
 
-    RedBlackTree(final int INITIAL_VALUE) {
-        HEADER_NODE = new Node(INITIAL_VALUE);
+    RedBlackTree(final int NEGINF) {
+        HEADER_NODE = new Node(NEGINF);
         HEADER_NODE.leftNodeAddress = NULL_NODE;
         HEADER_NODE.rightNodeAddress = NULL_NODE;
     }

@@ -147,7 +147,7 @@
 22. **Record Class**
 23. **Sealed Class And Interface**
 
-### 5. Data Structures
+### 5. DS (Data Structures)
 
 1. **List**
     1. **List**
@@ -217,6 +217,8 @@
     2. **Binary Search Tree**
     3. **AVL Tree**
     4. **B Tree**
+    5. **B+ Tree**
+    6. **Red-Black Tree**
 7. **Graph**
     1. **Adjacency Matrix**
     2. **Adjacency List**
@@ -313,7 +315,7 @@
 - [Youtube](https://www.youtube.com)
 - [Satr](https://satr.codes)
 - [Sanfoundry](https://www.sanfoundry.com)
-- [Javapoint](https://www.javatpoint.com)
+- [Javatpoint](https://www.javatpoint.com)
 - [CodeProject](https://www.codeproject.com)
 
 ### Problem Solving
