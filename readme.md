@@ -222,6 +222,8 @@
 7. **Graph**
     1. **Adjacency Matrix**
     2. **Adjacency List**
+    3. **Strongly Connected Components**
+    4. **Bellman Ford**
 8. **Heap**
     1. **Normal Heap**
     2. **Fibonacci Heap**
@@ -240,15 +242,16 @@
 
 ---
 
-## _2. Problem Solving (678)_
+## _2. Problem Solving (688)_
 
 - Solving problems and projects
+- **Note:** Something or things in the questions may be changed
 
 ### 1. [W3Schools](https://www.w3schools.com/java) (6 Questions)
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (397 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (407 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -263,6 +266,8 @@
 4. **Math and Numbers (58 Questions)**
     1. **[Math](https://www.w3resource.com/java-exercises/math/index.php) (29 Questions)**
     2. **[Numbers](https://www.w3resource.com/java-exercises/numbers/index.php) (29 Questions)**
+5. **Object Oriented Programming (10 Questions)**
+    1. **[Inheritance](https://www.w3resource.com/java-exercises/index-inheritance.php) (10 Questions)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 
