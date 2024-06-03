@@ -189,23 +189,29 @@
 
 ### 6. Algorithms
 
-1. **Searching**
-    1. **Linear Search**
-    2. **Binary Search**
-    3. **Interpolation Search**
-    4. **Depth First Search**
-    5. **Breadth First Search**
-2. **Sorting**
-    1. **Bubble Sort**
-    2. **Selection Sort**
-    3. **Insertion Sort**
-    4. **Quick Sort**
-    5. **Merge Sort**
-    6. **Counting Sort**
-    7. **Radix Sort**
-    8. **Bucket Sort**
-    9. **Heap Sort**
-    10. **Shell Sort**
+1. **Search**
+    1. **Linear**
+    2. **Binary**
+    3. **Interpolation**
+    4. **Depth First**
+    5. **Breadth First**
+2. **Sort**
+    1. **Bubble**
+    2. **Selection**
+    3. **Insertion**
+    4. **Quick**
+    5. **Merge**
+    6. **Counting**
+    7. **Radix**
+    8. **Bucket**
+    9. **Heap**
+    10. **Shell**
+3. ~~**Greedy**~~
+    1. ~~**Ford Fulkerson**~~
+    2. ~~**Dijkstra**~~
+    3. ~~**Kruskal**~~
+    4. ~~**Prim**~~
+    5. ~~**Huffman**~~
 
 ### 7. DSA (Data Structures and Algorithms)
 
@@ -247,7 +253,7 @@
 
 ---
 
-## _2. Problem Solving (688)_
+## _2. Problem Solving (701)_
 
 - Solving problems and projects
 - **Note:** Something or things in the questions may be changed
@@ -256,7 +262,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (407 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (419 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -271,8 +277,9 @@
 4. **Math and Numbers (58 Questions)**
     1. **[Math](https://www.w3resource.com/java-exercises/math/index.php) (29 Questions)**
     2. **[Numbers](https://www.w3resource.com/java-exercises/numbers/index.php) (29 Questions)**
-5. **Object Oriented Programming (10 Questions)**
+5. **Object Oriented Programming (22 Questions)**
     1. **[Inheritance](https://www.w3resource.com/java-exercises/index-inheritance.php) (10 Questions)**
+    2. **[Abstract Classes](https://www.w3resource.com/java-exercises/index-abstract.php) (12 Questions)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 

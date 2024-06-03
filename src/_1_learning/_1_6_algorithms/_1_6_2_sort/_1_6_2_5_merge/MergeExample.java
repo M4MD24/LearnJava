@@ -8,37 +8,50 @@ public class MergeExample {
         System.out.print(mergeSorting(numbers, 0, numbers.length - 1));
     }
 
-    private static String mergeSorting(final int[] ARRAY, final int LEFT, final int RIGHT) {
-        if (LEFT < RIGHT) {
-            final int MIDDLE = (LEFT + RIGHT) / 2;
-            mergeSorting(ARRAY, LEFT, MIDDLE);
-            mergeSorting(ARRAY, MIDDLE + 1, RIGHT);
-            merge(ARRAY, LEFT, MIDDLE, RIGHT);
+    private static String mergeSorting(int[] array, int left, int right) {
+        if (left < right) {
+            int mid = (left + right) / 2;
+            mergeSorting(array, left, mid);
+            mergeSorting(array, mid + 1, right);
+            merge(array, left, mid, right);
         }
-        return Arrays.toString(ARRAY);
+        return Arrays.toString(array);
     }
 
-    private static void merge(final int[] ARRAY, final int LEFT, final int MIDDLE, final int RIGHT) {
-        final int NUMBER_1 = MIDDLE - LEFT + 1,
-                NUMBER_2 = RIGHT - MIDDLE;
-        final int[] LEFT_ARRAY = new int[NUMBER_1],
-                RIGHT_ARRAY = new int[NUMBER_2];
-        System.arraycopy(ARRAY, LEFT, LEFT_ARRAY, 0, NUMBER_1);
-        for (int index = 0; index < NUMBER_2; index++)
-            RIGHT_ARRAY[index] = ARRAY[MIDDLE + 1 + index];
+    private static void merge(int[] array, int left, int mid, int right) {
+        int number1 = mid - left + 1,
+                number2 = right - mid;
+
+        int[] leftArray = new int[number1],
+                rightArray = new int[number2];
+
+        for (int index = 0; index < number1; index++) leftArray[index] = array[left + index];
+        for (int index = 0; index < number2; index++) rightArray[index] = array[mid + 1 + index];
+
         int index1 = 0,
                 index2 = 0,
-                index3 = LEFT;
-        while (index1 < NUMBER_1 && index2 < NUMBER_2) {
-            if (LEFT_ARRAY[index1] <= RIGHT_ARRAY[index2])
-                ARRAY[index3] = LEFT_ARRAY[index1++];
-            else
-                ARRAY[index3] = RIGHT_ARRAY[index2++];
+                index3 = left;
+
+        while (index1 < number1 && index2 < number2) {
+            if (leftArray[index1] <= rightArray[index2]) {
+                array[index3] = leftArray[index1];
+                index1++;
+            } else {
+                array[index3] = rightArray[index2];
+                index2++;
+            }
             index3++;
         }
-        while (index1 < NUMBER_1)
-            ARRAY[index3++] = LEFT_ARRAY[index1++];
-        while (index2 < NUMBER_2)
-            ARRAY[index3++] = RIGHT_ARRAY[index2++];
+
+        while (index1 < number1) {
+            array[index3] = leftArray[index1];
+            index1++;
+            index3++;
+        }
+        while (index2 < number2) {
+            array[index3] = rightArray[index2];
+            index2++;
+            index3++;
+        }
     }
 }
