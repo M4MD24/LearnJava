@@ -19,7 +19,7 @@
 - **Currently Used `Intellij Idea Community`**
 - **Project Language is `English` and `some images Arabic`**
 - **Appropriate labels for `variables`, `functions` and `classes`**
-- **Java Version** `22 Oracle OpenJDK Version 22` - `22 - Unnmaed variables and patterns`
+- **Java Version** `22 Oracle OpenJDK Version 22.0.1` - `SDK Default`
 
 ---
 
@@ -196,11 +196,16 @@
     4. **Depth First Search**
     5. **Breadth First Search**
 2. **Sorting**
-    1. **Bubble Sorting**
-    2. **Selection Sorting**
-    3. **Insertion Sorting**
-    4. **Quick Sorting**
-    5. **Merge Sorting**
+    1. **Bubble Sort**
+    2. **Selection Sort**
+    3. **Insertion Sort**
+    4. **Quick Sort**
+    5. **Merge Sort**
+    6. **Counting Sort**
+    7. **Radix Sort**
+    8. **Bucket Sort**
+    9. **Heap Sort**
+    10. **Shell Sort**
 
 ### 7. DSA (Data Structures and Algorithms)
 
