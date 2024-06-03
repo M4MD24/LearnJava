@@ -11,9 +11,6 @@ import java.util.ArrayList;
  * Input an integer: 25
  * <br/>
  * Is Lucky number? true
- * <br/>
- * <br/>
- *
  * </h2>
  */
 public class Question397 {
