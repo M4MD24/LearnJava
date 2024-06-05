@@ -41,12 +41,12 @@ class Circle extends Shape {
 
     @Override
     double calculatePerimeter() {
-        return (double) (2 * Math.PI * RADIUS);
+        return 2 * Math.PI * RADIUS;
     }
 
     @Override
     double calculateArea() {
-        return (double) (Math.PI * Math.pow(RADIUS, 2));
+        return Math.PI * Math.pow(RADIUS, 2);
     }
 }
 

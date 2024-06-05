@@ -8,7 +8,6 @@ import java.util.Arrays;
  */
 
 public class Question430 {
-
     public static void main(final String[] ARGS) {
         quickSort();
         mergeSort();
