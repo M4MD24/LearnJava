@@ -9,7 +9,7 @@
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/github_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a href="https://github.com/M3MD69">@M3MD69</a></li></ul>
 - <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Sheet Assiut in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Assiut Sheet in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
 
 ---
 
@@ -193,8 +193,8 @@
     1. **Linear**
     2. **Binary**
     3. **Interpolation**
-    4. **Depth First**
-    5. **Breadth First**
+    4. **DFS (Depth First Sort)**
+    5. **BFS (Breadth First Sort)**
 2. **Sort**
     1. **Bubble**
     2. **Selection**
@@ -212,6 +212,9 @@
     3. ~~**Kruskal**~~
     4. ~~**Prim**~~
     5. ~~**Huffman**~~
+4. **Encryption & Decryption**
+    1. **AES (Advanced Encryption Standard)**
+    2. **RSA (Rivest-Shamir-Adleman)**
 
 ### 7. DSA (Data Structures and Algorithms)
 
@@ -253,7 +256,7 @@
 
 ---
 
-## _2. Problem Solving (701)_
+## _2. Problem Solving (712)_
 
 - Solving problems and projects
 - **Note:** Something or things in the questions may be changed
@@ -262,7 +265,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (419 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (430 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -277,9 +280,10 @@
 4. **Math and Numbers (58 Questions)**
     1. **[Math](https://www.w3resource.com/java-exercises/math/index.php) (29 Questions)**
     2. **[Numbers](https://www.w3resource.com/java-exercises/numbers/index.php) (29 Questions)**
-5. **Object Oriented Programming (22 Questions)**
+5. **Object Oriented Programming (33 Questions)**
     1. **[Inheritance](https://www.w3resource.com/java-exercises/index-inheritance.php) (10 Questions)**
     2. **[Abstract Classes](https://www.w3resource.com/java-exercises/index-abstract.php) (12 Questions)**
+    3. **[Interface](https://www.w3resource.com/java-exercises/index-interface.php) (11 Questions)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 

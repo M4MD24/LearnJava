@@ -8,28 +8,28 @@ public class QuickExample {
         System.out.print(quickSorting(numbers, 0, numbers.length - 1));
     }
 
-    private static String quickSorting(int[] array, int low, int high) {
-        if (low < high) {
-            int pivot = partition(array, low, high);
-            quickSorting(array, low, pivot - 1);
-            quickSorting(array, pivot + 1, high);
+    private static String quickSorting(final int[] ARRAY, final int LOW, final int HIGH) {
+        if (LOW < HIGH) {
+            final int PIVOT = partition(ARRAY, LOW, HIGH);
+            quickSorting(ARRAY, LOW, PIVOT - 1);
+            quickSorting(ARRAY, PIVOT + 1, HIGH);
         }
-        return Arrays.toString(array);
+        return Arrays.toString(ARRAY);
     }
 
-    private static int partition(int[] array, int low, int high) {
-        int pivot = array[high],
-                index = low - 1;
-        for (int index2 = low; index2 < high; index2++)
-            if (array[index2] < pivot) {
+    private static int partition(final int[] ARRAY, final int LOW, final int HIGH) {
+        int pivot = ARRAY[HIGH],
+                index = LOW - 1;
+        for (int index2 = LOW; index2 < HIGH; index2++)
+            if (ARRAY[index2] < pivot) {
                 index++;
-                int temp = array[index];
-                array[index] = array[index2];
-                array[index2] = temp;
+                final int TEMPORARY_NUMBER = ARRAY[index];
+                ARRAY[index] = ARRAY[index2];
+                ARRAY[index2] = TEMPORARY_NUMBER;
             }
-        int temp = array[index + 1];
-        array[index + 1] = array[high];
-        array[high] = temp;
+        final int TEMPORARY_NUMBER = ARRAY[index + 1];
+        ARRAY[index + 1] = ARRAY[HIGH];
+        ARRAY[HIGH] = TEMPORARY_NUMBER;
         return index + 1;
     }
 }
