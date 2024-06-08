@@ -256,16 +256,16 @@
 
 ---
 
-## _2. Problem Solving (731)_
+## _2. Problem Solving (755)_
 
-- Solving problems and projects
+- Solve problems and projects
 - **Note:** Something or things in the questions may be changed
 
 ### 1. [W3Schools](https://www.w3schools.com/java) (6 Questions)
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (449 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (473 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -280,12 +280,13 @@
 4. **Math and Numbers (58 Questions)**
     1. **[Math](https://www.w3resource.com/java-exercises/math/index.php) (29 Questions)**
     2. **[Numbers](https://www.w3resource.com/java-exercises/numbers/index.php) (29 Questions)**
-5. **Object Oriented Programming (52 Questions)**
+5. **Object Oriented Programming (76 Questions)**
     1. **[Inheritance](https://www.w3resource.com/java-exercises/index-inheritance.php) (10 Questions)**
     2. **[Abstract Classes](https://www.w3resource.com/java-exercises/index-abstract.php) (12 Questions)**
     3. **[Interface](https://www.w3resource.com/java-exercises/index-interface.php) (11 Questions)**
     4. **[Encapsulation](https://www.w3resource.com/java-exercises/encapsulation/index.php) (7 Questions)**
     5. **[Polymorphism](https://www.w3resource.com/java-exercises/index-polymorphism.php) (12 Questions)**
+    6. **[Object Oriented Programming](https://www.w3resource.com/java-exercises/oop/index.php) (24 Questions)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 

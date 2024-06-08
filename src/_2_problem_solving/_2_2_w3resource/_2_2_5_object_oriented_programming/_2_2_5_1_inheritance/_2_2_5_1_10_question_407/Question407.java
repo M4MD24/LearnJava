@@ -12,7 +12,7 @@ public class Question407 {
         final Employee PROGRAMMER = new Programmer("Charlie", "789 High St, Village", 40000);
 
         System.out.println(MANAGER.generatePerformanceReport());
-        System.out.println("$" + DEVELOPER.calculateBonuses());
+        System.out.println("£" + DEVELOPER.calculateBonuses());
         PROGRAMMER.manageProject();
     }
 }

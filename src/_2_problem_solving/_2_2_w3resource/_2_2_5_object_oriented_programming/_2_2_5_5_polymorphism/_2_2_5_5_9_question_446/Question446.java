@@ -76,7 +76,7 @@ class SavingsAccount extends BankAccount {
     @Override
     void withdraw(final double AMOUNT) {
         if ((getBalance() - AMOUNT) < 100)
-            System.out.println("Minimum balance of $100 required!");
+            System.out.println("Minimum balance of £100 required!");
         else
             super.withdraw(AMOUNT);
     }
