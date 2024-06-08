@@ -35,11 +35,11 @@ enum Size {
 
         // valueOf() Method
         Size mediumEnum = Size.valueOf("MEDIUM");
-        System.out.println("Enum constant for MEDIUM: " + mediumEnum);
+        System.out.println("SortingStatus constant for MEDIUM: " + mediumEnum);
 
         // values() Method
         Size[] enumArray = Size.values();
-        System.out.println("Enum constants in Size enum:");
+        System.out.println("SortingStatus constants in Size enum:");
         for (Size size : enumArray) {
             System.out.println("" + size);
         }
