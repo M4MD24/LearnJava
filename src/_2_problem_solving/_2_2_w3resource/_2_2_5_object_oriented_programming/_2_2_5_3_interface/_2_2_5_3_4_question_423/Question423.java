@@ -25,7 +25,7 @@ public class Question423 {
 
         System.out.println("Type Account\tBalance\n" + "-".repeat(23));
         for (final Account ACCOUNT : BANK.GET_ACCOUNTS())
-            System.out.println(ACCOUNT.getACCOUNT_TYPE() + "\t" + ACCOUNT.getBalance());
+            System.out.println(ACCOUNT.getAccountType() + "\t" + ACCOUNT.getBalance());
     }
 }
 
@@ -48,7 +48,7 @@ interface Account {
 
     double getBalance();
 
-    AccountType getACCOUNT_TYPE();
+    AccountType getAccountType();
 }
 
 class SavingsAccount extends Bank implements Account {
@@ -79,7 +79,7 @@ class SavingsAccount extends Bank implements Account {
     }
 
     @Override
-    public AccountType getACCOUNT_TYPE() {
+    public AccountType getAccountType() {
         return ACCOUNT_TYPE;
     }
 }
@@ -112,7 +112,7 @@ class CurrentAccount extends Bank implements Account {
     }
 
     @Override
-    public AccountType getACCOUNT_TYPE() {
+    public AccountType getAccountType() {
         return ACCOUNT_TYPE;
     }
 }

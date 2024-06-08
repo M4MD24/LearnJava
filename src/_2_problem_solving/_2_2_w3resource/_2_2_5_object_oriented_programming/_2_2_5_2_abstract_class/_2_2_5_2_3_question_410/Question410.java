@@ -56,14 +56,14 @@ class SavingsAccount extends BankAccount {
     @Override
     void deposit(final int AMOUNT) {
         setBalance(getBalance() + AMOUNT);
-        System.out.println("Deposit of $" + AMOUNT + " successful. Current balance: $" + getBalance());
+        System.out.println("Deposit of £" + AMOUNT + " successful. Current balance: £" + getBalance());
     }
 
     @Override
     void withdraw(final int AMOUNT) {
         if (getBalance() >= AMOUNT) {
             setBalance(getBalance() - AMOUNT);
-            System.out.println("Withdrawal of $" + AMOUNT + " successful. Current balance: $" + getBalance());
+            System.out.println("Withdrawal of £" + AMOUNT + " successful. Current balance: £" + getBalance());
         } else
             System.out.println("Insufficient funds. Withdrawal failed.");
     }
@@ -77,14 +77,14 @@ class CurrentAccount extends BankAccount {
     @Override
     void deposit(final int AMOUNT) {
         setBalance(getBalance() + AMOUNT);
-        System.out.println("Deposit of $" + AMOUNT + " successful. Current balance: $" + getBalance());
+        System.out.println("Deposit of £" + AMOUNT + " successful. Current balance: £" + getBalance());
     }
 
     @Override
     void withdraw(final int AMOUNT) {
         if (getBalance() >= AMOUNT) {
             setBalance(getBalance() - AMOUNT);
-            System.out.println("Withdrawal of $" + AMOUNT + " successful. Current balance: $" + getBalance());
+            System.out.println("Withdrawal of £" + AMOUNT + " successful. Current balance: £" + getBalance());
         } else
             System.out.println("Insufficient funds. Withdrawal failed.");
     }
