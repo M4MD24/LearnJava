@@ -1,4 +1,4 @@
-package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_45_question_45;
+package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_45;
 
 import java.io.File;
 
@@ -16,7 +16,7 @@ import java.io.File;
 
 public class Question45 {
     public static void main(final String[] ARGS) {
-        File file = new File("src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_1_part_1/_2_2_1_1_45_question_45/Question45.java");
+        File file = new File("src/_2_problem_solving/_2_2_w3resource/_2_2_1_basics/_2_2_1_1_part_1/_2_2_1_1_45_45/Question45.java");
         System.out.print(file.toURI() + ": " + file.length() + " Bytes");
     }
 }
