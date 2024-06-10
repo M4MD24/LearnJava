@@ -256,7 +256,7 @@
 
 ---
 
-## _2. Problem Solving (764)_
+## _2. Problem Solving (797)_
 
 - Solve problems and projects
 - **Note:** Something or things in the questions may be changed
@@ -265,7 +265,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (482 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (515 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -289,6 +289,9 @@
     6. **[Object Oriented Programming](https://www.w3resource.com/java-exercises/oop/index.php) (26 Questions)**
 6. **Exception Handling (7 Questions)**
     1. **[Handling and Managing](https://www.w3resource.com/java-exercises/exception/index.php) (7 Questions)**
+7. **Functional Programming (33 Questions)**
+    1. **[Lambda Expression](https://www.w3resource.com/java-exercises/lambda/index.php) (25 Questions)**
+    2. **[Streams](https://www.w3resource.com/java-exercises/stream/index.php) (8 Questions)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 
