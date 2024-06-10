@@ -35,11 +35,11 @@ import java.util.Scanner;
 
 public class HardCompareExample {
     public static void main(final String[] ARGS) {
-        final Scanner SCANNER = new Scanner(System.in);
-        final long NUMBER_1 = SCANNER.nextLong(),
-                NUMBER_2 = SCANNER.nextLong(),
-                NUMBER_3 = SCANNER.nextLong(),
-                NUMBER_4 = SCANNER.nextLong();
+        final Scanner INPUT = new Scanner(System.in);
+        final long NUMBER_1 = INPUT.nextLong(),
+                NUMBER_2 = INPUT.nextLong(),
+                NUMBER_3 = INPUT.nextLong(),
+                NUMBER_4 = INPUT.nextLong();
         final double result1 = Math.log(NUMBER_1) * NUMBER_2,
                 result2 = Math.log(NUMBER_3) * NUMBER_4;
         System.out.print((result1 > result2) ? "YES" : "NO");
