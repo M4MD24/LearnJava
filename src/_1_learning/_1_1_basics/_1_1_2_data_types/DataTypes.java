@@ -11,7 +11,7 @@ public class DataTypes {
          *            long (8 bytes)
          * Float -> float (4 bytes),
          *          double (8 bytes)
-         * Boolean -> false, true (2 bytes)
+         * Boolean -> false, true (1 byte)
          * Character -> char (2 bytes)
          * String -> String (
          *      If String length = 1
