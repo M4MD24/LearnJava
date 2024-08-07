@@ -61,7 +61,6 @@ public class Question19 {
             else if (currentColumn == COUNT_OF_ROWS_AND_COLUMNS)
                 currentColumn = 0;
 
-
             if (MAGIC_SQUARE[currentRow][currentColumn] != 0) {
                 if (currentRow == COUNT_OF_ROWS_AND_COLUMNS - 1)
                     currentRow = 0;

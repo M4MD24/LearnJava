@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question17 {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGS) {
         final Zoo ZOO = new Zoo();
         ZOO.addAnimal("Mammal", "Lion");
         ZOO.addAnimal("Bird", "Eagle");

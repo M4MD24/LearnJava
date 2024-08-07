@@ -46,7 +46,6 @@ public class PrimesFromOneToNumberExample {
             if (isPrime(number)) System.out.print(number + " ");
     }
 
-
     private static boolean isPrime(final long NUMBER) {
         if (NUMBER > 1)
             for (long index = NUMBER - 1; index > 1; index--)

@@ -18,11 +18,6 @@ import java.util.Scanner;
  * <h2>Given two matrices A and B. Print their Multiplication.</h2>
  * <br/>
  * <h1>Input:</h1>
- * <h2>15</h2>
- * <h1>Output:</h1>
- * <h2>5</h2>
- * <br/>
- * <h1>Input:</h1>
  * <h2>
  * 2 2
  * <br/>

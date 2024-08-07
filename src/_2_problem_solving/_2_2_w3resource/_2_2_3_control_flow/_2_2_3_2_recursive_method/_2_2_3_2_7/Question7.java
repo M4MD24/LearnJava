@@ -18,7 +18,6 @@ public class Question7 {
                 getGreatestCommonDivisor(FIRST_NUMBER, SECOND_NUMBER));
     }
 
-
     private static long getGreatestCommonDivisor(long firstNumber, long secondNumber) {
         if (secondNumber == 0) return firstNumber;
         firstNumber += secondNumber;

@@ -4,7 +4,7 @@
 
 - <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Name</b> Mohamed Sadawy Thabet <b>(M3MD69)</b>
 - <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"/> <b>Field</b> Software Engineer <b>/</b> Native Android Developer
-- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>For Contact Me</b>
+- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>My Social Media</b>
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a href="https://t.me/M3MD69">@M3MD69</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/github_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a href="https://github.com/M3MD69">@M3MD69</a></li></ul>
@@ -256,7 +256,7 @@
 
 ---
 
-## _2. Problem Solving (797)_
+## _2. Problem Solving (820)_
 
 - Solve problems and projects
 - **Note:** Something or things in the questions may be changed
@@ -265,7 +265,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (515 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (537 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -292,6 +292,9 @@
 7. **Functional Programming (33 Questions)**
     1. **[Lambda Expression](https://www.w3resource.com/java-exercises/lambda/index.php) (25 Questions)**
     2. **[Streams](https://www.w3resource.com/java-exercises/stream/index.php) (8 Questions)**
+8. **Multithreading (22 Questions)**
+    1. **[Thread](https://www.w3resource.com/java-exercises/thread/index.php) (7 Questions)**
+    2. **[Multithreading](https://www.w3resource.com/java-exercises/multithreading/index.php) (15 Questions)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 
