@@ -29,7 +29,6 @@ public class Question34 {
     }
 }
 
-
 class BinaryTree<Type extends Comparable<Type>> {
     private Node<Type> root;
 

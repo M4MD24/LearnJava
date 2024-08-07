@@ -82,7 +82,6 @@ public class EnumSetExample {
 
         System.out.println(".contains()       : " + numbers.contains(Numbers.One));
 
-
         EnumSet<AdditionalNumbers> additionalNumbersCopy = EnumSet.copyOf(additionalNumbers);
         System.out.println(".copyOf()         : " + additionalNumbersCopy);
 
