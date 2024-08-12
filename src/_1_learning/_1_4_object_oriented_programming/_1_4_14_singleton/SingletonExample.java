@@ -19,7 +19,7 @@ class Database {
     }
 }
 
-public class Singleton {
+public class SingletonExample {
     public static void main(final String[] ARGS) {
         Database db1;
         db1 = Database.getInstance();
