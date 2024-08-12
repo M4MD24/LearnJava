@@ -19,11 +19,11 @@
 - **Currently Used `Intellij Idea Community`**
 - **Project Language is `English` and `some images Arabic`**
 - **Appropriate labels for `variables`, `functions` and `classes`**
-- **Java Version** `22 Oracle OpenJDK Version 22.0.1` - `SDK Default`
+- **Java Version** `22 Oracle OpenJDK Version 22.0.2` - `SDK Default`
 
 ---
 
-## Tips for search important comments
+## _Tips for search important comments_
 
 - For Search in Intellij IDEA `CTRL + Shift + F`
 
@@ -37,6 +37,15 @@
     - Search `<h1>Question` for **Questions**
     - Search `// >` for **Another Solution**
     - Search `[//]: # (Notes)` for **Important Notes**
+
+---
+
+## _Programming Tips ♥_
+
+- Learn English
+- Be enthusiastic about everything new
+- Be patient
+- Add your creative touch when learning
 
 ---
 
@@ -146,6 +155,8 @@
 21. **Association**
 22. **Record Class**
 23. **Sealed Class And Interface**
+24. **Local Class**
+25. **Anonymous Class**
 
 ### 5. DS (Data Structures)
 
@@ -256,16 +267,16 @@
 
 ---
 
-## _2. Problem Solving (820)_
+## _2. Problem Solving (858)_
 
 - Solve problems and projects
-- **Note:** Something or things in the questions may be changed
+- **Note:** There are some questions where the requirements and names have been changed without changing the important programming terms.
 
 ### 1. [W3Schools](https://www.w3schools.com/java) (6 Questions)
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (537 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (576 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -280,13 +291,16 @@
 4. **Math and Numbers (58 Questions)**
     1. **[Math](https://www.w3resource.com/java-exercises/math/index.php) (29 Questions)**
     2. **[Numbers](https://www.w3resource.com/java-exercises/numbers/index.php) (29 Questions)**
-5. **Object Oriented Programming (78 Questions)**
-    1. **[Inheritance](https://www.w3resource.com/java-exercises/index-inheritance.php) (10 Questions)**
-    2. **[Abstract Classes](https://www.w3resource.com/java-exercises/index-abstract.php) (12 Questions)**
-    3. **[Interface](https://www.w3resource.com/java-exercises/index-interface.php) (11 Questions)**
-    4. **[Encapsulation](https://www.w3resource.com/java-exercises/encapsulation/index.php) (7 Questions)**
-    5. **[Polymorphism](https://www.w3resource.com/java-exercises/index-polymorphism.php) (12 Questions)**
-    6. **[Object Oriented Programming](https://www.w3resource.com/java-exercises/oop/index.php) (26 Questions)**
+5. **Object-Oriented Programming (117 Questions)**
+    1. **[Constructors](https://www.w3resource.com/java-exercises/constructor/java-constructors.php) (10 Questions)**
+    2. **[Static Members](https://www.w3resource.com/java-exercises/static_members/java-static-members.php) (8 Questions)**
+    3. **[Nested Classes](https://www.w3resource.com/java-exercises/nested-classes/java-nested-classes.php) (10 Questions)**
+    4. **[Inheritance](https://www.w3resource.com/java-exercises/index-inheritance.php) (10 Questions)**
+    5. **[Abstract Classes](https://www.w3resource.com/java-exercises/index-abstract.php) (12 Questions)**
+    6. **[Interface](https://www.w3resource.com/java-exercises/index-interface.php) (11 Questions)**
+    7. **[Encapsulation](https://www.w3resource.com/java-exercises/encapsulation/index.php) (14 Questions)**
+    8. **[Polymorphism](https://www.w3resource.com/java-exercises/index-polymorphism.php) (12 Questions)**
+    9. **[Object-Oriented Programming](https://www.w3resource.com/java-exercises/oop/index.php) (30 Questions)**
 6. **Exception Handling (7 Questions)**
     1. **[Handling and Managing](https://www.w3resource.com/java-exercises/exception/index.php) (7 Questions)**
 7. **Functional Programming (33 Questions)**
