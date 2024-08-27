@@ -18,10 +18,10 @@ public class Question15 {
                 .sum();
         final long SUM_OF_SQUARES_OF_ALL_EVEN_NUMBERS = NUMBERS
                 .stream()
-                .filter(NUMBER -> NUMBER % 2 != 0)
+                .filter(NUMBER -> NUMBER % 2 == 0)
                 .mapToInt(NUMBER -> NUMBER * NUMBER)
                 .sum();
         System.out.println("Sum of Squares of All Odd Numbers: " + SUM_OF_SQUARES_OF_ALL_ODD_NUMBERS);
-        System.out.print("Sum of Squares of All Even Numbers" + SUM_OF_SQUARES_OF_ALL_EVEN_NUMBERS);
+        System.out.print("Sum of Squares of All Even Numbers: " + SUM_OF_SQUARES_OF_ALL_EVEN_NUMBERS);
     }
 }

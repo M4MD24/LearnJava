@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  * <h1>Question:</h1>
- * <h2>Write a Java program to find the total number of continuous subarrays in a given array of integers whose sum equals an integer.</h2>
+ * <h2>Write a Java program to find the total number of continuous sub-arrays in a given array of integers whose sum equals an integer.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>
  * <h2>

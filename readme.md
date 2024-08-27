@@ -4,12 +4,13 @@
 
 - <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Name</b> Mohamed Sadawy Thabet <b>(M3MD69)</b>
 - <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"/> <b>Field</b> Software Engineer <b>/</b> Native Android Developer
-- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>My Social Media</b>
+- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>My Cross Platforms</b>
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a href="https://t.me/M3MD69">@M3MD69</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/github_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a href="https://github.com/M3MD69">@M3MD69</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/monkey_type_icon.svg" alt="Monkey Type Icon" style="vertical-align: middle;"/> <b>Monkey Type</b> <a href="https://monkeytype.com/profile/m3md69">@M3MD69</a></li></ul>
 - <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Assiut Sheet in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Assiut Sheets in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
 
 ---
 
@@ -267,7 +268,7 @@
 
 ---
 
-## _2. Problem Solving (858)_
+## _2. Solving (937)_
 
 - Solve problems and projects
 - **Note:** There are some questions where the requirements and names have been changed without changing the important programming terms.
@@ -276,7 +277,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (576 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (655 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -309,6 +310,17 @@
 8. **Multithreading (22 Questions)**
     1. **[Thread](https://www.w3resource.com/java-exercises/thread/index.php) (7 Questions)**
     2. **[Multithreading](https://www.w3resource.com/java-exercises/multithreading/index.php) (15 Questions)**
+9. **Data Structures (79 Questions)**
+    1. **[Array](https://www.w3resource.com/java-exercises/array/index.php) (79 Questions)**
+    2. ~~**[Stack](https://www.w3resource.com/java-exercises/stack/index.php) (29 Questions)**~~
+    3. ~~**[Collection](https://www.w3resource.com/java-exercises/collection/index.php) (126 Questions)**~~
+        1. ~~**[ArrayList](https://www.w3resource.com/java-exercises/collection/array-list.php) (22 Questions)**~~
+        2. ~~**[LinkedList](https://www.w3resource.com/java-exercises/collection/linked-list.php) (26 Questions)**~~
+        3. ~~**[HashSet](https://www.w3resource.com/java-exercises/collection/hash-set.php) (12 Questions)**~~
+        4. ~~**[TreeSet](https://www.w3resource.com/java-exercises/collection/tree-set.php) (16 Questions)**~~
+        5. ~~**[PriorityQueue](https://www.w3resource.com/java-exercises/collection/priority-queue.php) (12 Questions)**~~
+        6. ~~**[HashMap](https://www.w3resource.com/java-exercises/collection/hash-map.php) (12 Questions)**~~
+        7. ~~**[TreeMap](https://www.w3resource.com/java-exercises/collection/tree-map.php) (26 Questions)**~~
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 
