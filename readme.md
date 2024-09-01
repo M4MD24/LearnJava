@@ -332,7 +332,7 @@
     5. **[Sheet 3 "Arrays"](https://codeforces.com/group/MWSDmqGsZm/contest/219774) (26 Questions)**
     6. **[Contest 3.1](https://codeforces.com/group/MWSDmqGsZm/contest/329103) (7 Questions)**
     7. **[Sheet 4 "Strings"](https://codeforces.com/group/MWSDmqGsZm/contest/219856) (26 Questions)**
-        - [2.3.1.7.o Sort String](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
+        - [2.3.1.7.o Sort String](src/_2_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
           `It can't be submit by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
     8. **[Sheet 5 "Functions"](https://codeforces.com/group/MWSDmqGsZm/contest/223205) (15 Questions)**
     9. **[Sheet 6 "Math - Geometry"](https://codeforces.com/group/MWSDmqGsZm/contest/223338) (26 Questions)**
