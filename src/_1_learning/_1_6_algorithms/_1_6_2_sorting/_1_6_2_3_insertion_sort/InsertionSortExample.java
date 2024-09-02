@@ -1,8 +1,8 @@
-package _1_learning._1_6_algorithms._1_6_2_sorting._1_6_2_3_insertion_sorting;
+package _1_learning._1_6_algorithms._1_6_2_sorting._1_6_2_3_insertion_sort;
 
 import java.util.Arrays;
 
-public class InsertionSortingExample {
+public class InsertionSortExample {
     public static void main(final String[] ARGS) {
         int[] numbers = {5, 2, 8, 1, 9, 4, 10, 6, 3, 7};
         System.out.print(insertionSorting(numbers));
