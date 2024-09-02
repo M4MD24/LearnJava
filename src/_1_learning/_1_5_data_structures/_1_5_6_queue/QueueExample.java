@@ -111,7 +111,7 @@ public class QueueExample {
             else System.out.println();
         }
 
-//        Another solution with foreach
+// >       With Foreach
         /*for (String country : countries) {
             System.out.print(country);
             System.out.print(", ");

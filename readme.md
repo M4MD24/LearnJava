@@ -4,12 +4,13 @@
 
 - <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Name</b> Mohamed Sadawy Thabet <b>(M3MD69)</b>
 - <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"/> <b>Field</b> Software Engineer <b>/</b> Native Android Developer
-- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>For Contact Me</b>
+- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>My Cross Platforms</b>
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a href="https://t.me/M3MD69">@M3MD69</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/github_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a href="https://github.com/M3MD69">@M3MD69</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/monkey_type_icon.svg" alt="Monkey Type Icon" style="vertical-align: middle;"/> <b>Monkey Type</b> <a href="https://monkeytype.com/profile/m3md69">@M3MD69</a></li></ul>
 - <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Assiut Sheet in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Assiut Sheets in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
 
 ---
 
@@ -19,11 +20,11 @@
 - **Currently Used `Intellij Idea Community`**
 - **Project Language is `English` and `some images Arabic`**
 - **Appropriate labels for `variables`, `functions` and `classes`**
-- **Java Version** `22 Oracle OpenJDK Version 22.0.1` - `SDK Default`
+- **Java Version** `22 Oracle OpenJDK Version 22.0.2` - `SDK Default`
 
 ---
 
-## Tips for search important comments
+## _Tips for search important comments_
 
 - For Search in Intellij IDEA `CTRL + Shift + F`
 
@@ -37,6 +38,15 @@
     - Search `<h1>Question` for **Questions**
     - Search `// >` for **Another Solution**
     - Search `[//]: # (Notes)` for **Important Notes**
+
+---
+
+## _Programming Tips ♥_
+
+- Learn English
+- Be enthusiastic about everything new
+- Be patient
+- Add your creative touch when learning
 
 ---
 
@@ -146,6 +156,8 @@
 21. **Association**
 22. **Record Class**
 23. **Sealed Class And Interface**
+24. **Local Class**
+25. **Anonymous Class**
 
 ### 5. DS (Data Structures)
 
@@ -256,16 +268,16 @@
 
 ---
 
-## _2. Problem Solving (797)_
+## _2. Solving (937)_
 
 - Solve problems and projects
-- **Note:** Something or things in the questions may be changed
+- **Note:** There are some questions where the requirements and names have been changed without changing the important programming terms.
 
 ### 1. [W3Schools](https://www.w3schools.com/java) (6 Questions)
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (515 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (655 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -280,18 +292,35 @@
 4. **Math and Numbers (58 Questions)**
     1. **[Math](https://www.w3resource.com/java-exercises/math/index.php) (29 Questions)**
     2. **[Numbers](https://www.w3resource.com/java-exercises/numbers/index.php) (29 Questions)**
-5. **Object Oriented Programming (78 Questions)**
-    1. **[Inheritance](https://www.w3resource.com/java-exercises/index-inheritance.php) (10 Questions)**
-    2. **[Abstract Classes](https://www.w3resource.com/java-exercises/index-abstract.php) (12 Questions)**
-    3. **[Interface](https://www.w3resource.com/java-exercises/index-interface.php) (11 Questions)**
-    4. **[Encapsulation](https://www.w3resource.com/java-exercises/encapsulation/index.php) (7 Questions)**
-    5. **[Polymorphism](https://www.w3resource.com/java-exercises/index-polymorphism.php) (12 Questions)**
-    6. **[Object Oriented Programming](https://www.w3resource.com/java-exercises/oop/index.php) (26 Questions)**
+5. **Object-Oriented Programming (117 Questions)**
+    1. **[Constructors](https://www.w3resource.com/java-exercises/constructor/java-constructors.php) (10 Questions)**
+    2. **[Static Members](https://www.w3resource.com/java-exercises/static_members/java-static-members.php) (8 Questions)**
+    3. **[Nested Classes](https://www.w3resource.com/java-exercises/nested-classes/java-nested-classes.php) (10 Questions)**
+    4. **[Inheritance](https://www.w3resource.com/java-exercises/index-inheritance.php) (10 Questions)**
+    5. **[Abstract Classes](https://www.w3resource.com/java-exercises/index-abstract.php) (12 Questions)**
+    6. **[Interface](https://www.w3resource.com/java-exercises/index-interface.php) (11 Questions)**
+    7. **[Encapsulation](https://www.w3resource.com/java-exercises/encapsulation/index.php) (14 Questions)**
+    8. **[Polymorphism](https://www.w3resource.com/java-exercises/index-polymorphism.php) (12 Questions)**
+    9. **[Object-Oriented Programming](https://www.w3resource.com/java-exercises/oop/index.php) (30 Questions)**
 6. **Exception Handling (7 Questions)**
     1. **[Handling and Managing](https://www.w3resource.com/java-exercises/exception/index.php) (7 Questions)**
 7. **Functional Programming (33 Questions)**
     1. **[Lambda Expression](https://www.w3resource.com/java-exercises/lambda/index.php) (25 Questions)**
     2. **[Streams](https://www.w3resource.com/java-exercises/stream/index.php) (8 Questions)**
+8. **Multithreading (22 Questions)**
+    1. **[Thread](https://www.w3resource.com/java-exercises/thread/index.php) (7 Questions)**
+    2. **[Multithreading](https://www.w3resource.com/java-exercises/multithreading/index.php) (15 Questions)**
+9. **Data Structures (79 Questions)**
+    1. **[Array](https://www.w3resource.com/java-exercises/array/index.php) (79 Questions)**
+    2. ~~**[Stack](https://www.w3resource.com/java-exercises/stack/index.php) (29 Questions)**~~
+    3. ~~**[Collection](https://www.w3resource.com/java-exercises/collection/index.php) (126 Questions)**~~
+        1. ~~**[ArrayList](https://www.w3resource.com/java-exercises/collection/array-list.php) (22 Questions)**~~
+        2. ~~**[LinkedList](https://www.w3resource.com/java-exercises/collection/linked-list.php) (26 Questions)**~~
+        3. ~~**[HashSet](https://www.w3resource.com/java-exercises/collection/hash-set.php) (12 Questions)**~~
+        4. ~~**[TreeSet](https://www.w3resource.com/java-exercises/collection/tree-set.php) (16 Questions)**~~
+        5. ~~**[PriorityQueue](https://www.w3resource.com/java-exercises/collection/priority-queue.php) (12 Questions)**~~
+        6. ~~**[HashMap](https://www.w3resource.com/java-exercises/collection/hash-map.php) (12 Questions)**~~
+        7. ~~**[TreeMap](https://www.w3resource.com/java-exercises/collection/tree-map.php) (26 Questions)**~~
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 
@@ -303,7 +332,7 @@
     5. **[Sheet 3 "Arrays"](https://codeforces.com/group/MWSDmqGsZm/contest/219774) (26 Questions)**
     6. **[Contest 3.1](https://codeforces.com/group/MWSDmqGsZm/contest/329103) (7 Questions)**
     7. **[Sheet 4 "Strings"](https://codeforces.com/group/MWSDmqGsZm/contest/219856) (26 Questions)**
-        - [2.3.1.7.o Sort String](src/_2_problem_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
+        - [2.3.1.7.o Sort String](src/_2_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
           `It can't be submit by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
     8. **[Sheet 5 "Functions"](https://codeforces.com/group/MWSDmqGsZm/contest/223205) (15 Questions)**
     9. **[Sheet 6 "Math - Geometry"](https://codeforces.com/group/MWSDmqGsZm/contest/223338) (26 Questions)**

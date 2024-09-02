@@ -1,6 +1,5 @@
 package _1_learning._1_5_data_structures._1_5_32_iterator;
 
-
 import java.util.ArrayList;
 import java.util.Iterator;
 
