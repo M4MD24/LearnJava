@@ -1,0 +1,20 @@
+package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_41_question_191;
+
+/**
+ * <h1>Question:</h1>
+ * <h2>Write a Java program to test whether there are two integers x and y such that x^2 + y^2 is equal to a given positive number.</h2>
+ * <br/>
+ * <h1>Excepted Output:</h1>
+ * <h2>
+ * Input a positive integer:  25
+ * <br/>
+ * Is 25 sum of two square numbers? true
+ * </h2>
+ */
+
+public class Question191 {
+    public static void main(final String[] ARGS) {
+        final int TARGET_NUMBER = 24;
+        System.out.print(Math.sqrt(TARGET_NUMBER) == (int) Math.sqrt(TARGET_NUMBER));
+    }
+}
