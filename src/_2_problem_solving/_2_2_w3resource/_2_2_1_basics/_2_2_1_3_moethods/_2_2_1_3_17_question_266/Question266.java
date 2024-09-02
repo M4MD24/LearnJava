@@ -14,7 +14,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
 public class Question266 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 12541;
-        System.out.println(STR."Input a number: \{NUMBER}");
+        System.out.printf("Input a number: %d\n", NUMBER);
         System.out.print(getCountDigitTwo(NUMBER));
     }
 

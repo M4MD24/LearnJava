@@ -11,7 +11,9 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursiv
 public class Question328 {
     public static void main(final String[] ARGS) {
         final String WORD = "madam";
-        System.out.print(STR."\{WORD} is a palindrome: \{isPalindrome(WORD, 0, WORD.length() - 1)}");
+        System.out.printf("%s is a palindrome: %b",
+                WORD,
+                isPalindrome(WORD, 0, WORD.length() - 1));
     }
 
     private static boolean isPalindrome(final String WORD, int rightIndex, int leftIndex) {

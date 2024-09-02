@@ -15,9 +15,11 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 public class Question357 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 100;
-        System.out.print(STR."""
-                Input a number:\s\{NUMBER}
-                Count the numbers without digit 7, from 1 to 15:\s\{getCountOfNumbersWithoutDigitSeven(NUMBER)}""");
+        System.out.printf("""
+                        Input a number:\s%d
+                        Count the numbers without digit 7, from 1 to 15:\s%d""",
+                NUMBER,
+                getCountOfNumbersWithoutDigitSeven(NUMBER));
     }
 
     private static int getCountOfNumbersWithoutDigitSeven(final int NUMBER) {

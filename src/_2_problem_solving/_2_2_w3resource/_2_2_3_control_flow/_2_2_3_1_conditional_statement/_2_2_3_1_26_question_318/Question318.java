@@ -30,7 +30,7 @@ public class Question318 {
     private static char currentCharacter;
 
     public static void main(final String[] ARGS) {
-        System.out.println(STR."Input the target number: \{TARGET_NUMBER}");
+        System.out.printf("Input the target number: %d\n", TARGET_NUMBER);
         printCharacterRhombus();
     }
 

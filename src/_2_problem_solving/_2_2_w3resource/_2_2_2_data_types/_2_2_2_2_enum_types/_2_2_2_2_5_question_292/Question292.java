@@ -22,18 +22,30 @@ enum MonthOfYear {
 
 public class Question292 {
     public static void main(final String[] ARGS) {
-        System.out.print(STR."""
-                First Month of Year   :\s\{MonthOfYear.January}
-                Second Month of Year  :\s\{MonthOfYear.February}
-                Third Month of Year   :\s\{MonthOfYear.March}
-                Fourth Month of Year  :\s\{MonthOfYear.April}
-                Fifth Month of Year   :\s\{MonthOfYear.May}
-                sixth Month of Year   :\s\{MonthOfYear.June}
-                seventh Month of Year :\s\{MonthOfYear.July}
-                eighth Month of Year  :\s\{MonthOfYear.August}
-                eighth Month of Year  :\s\{MonthOfYear.September}
-                nineth Month of Year  :\s\{MonthOfYear.October}
-                eleventh Month of Year:\s\{MonthOfYear.November}
-                Twelve Month of Year  :\s\{MonthOfYear.December}""");
+        System.out.printf("""
+                        First Month of Year   :\s%s
+                        Second Month of Year  :\s%s
+                        Third Month of Year   :\s%s
+                        Fourth Month of Year  :\s%s
+                        Fifth Month of Year   :\s%s
+                        sixth Month of Year   :\s%s
+                        seventh Month of Year :\s%s
+                        eighth Month of Year  :\s%s
+                        eighth Month of Year  :\s%s
+                        nineth Month of Year  :\s%s
+                        eleventh Month of Year:\s%s
+                        Twelve Month of Year  :\s%s""",
+                MonthOfYear.January,
+                MonthOfYear.February,
+                MonthOfYear.March,
+                MonthOfYear.April,
+                MonthOfYear.May,
+                MonthOfYear.June,
+                MonthOfYear.July,
+                MonthOfYear.August,
+                MonthOfYear.September,
+                MonthOfYear.October,
+                MonthOfYear.November,
+                MonthOfYear.December);
     }
 }

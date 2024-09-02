@@ -18,10 +18,13 @@ public class Question350 {
     public static void main(final String[] ARGS) {
         final int FIRST_NUMBER = 15,
                 SECOND_NUMBER = 25;
-        System.out.printf(STR."""
-                Input the first integer number:\s\{FIRST_NUMBER}
-                Input the second integer number:\s\{SECOND_NUMBER}
-                The result is:\s\{areMeetRequirements(FIRST_NUMBER, SECOND_NUMBER)}""");
+        System.out.printf("""
+                        Input the first integer number:\s%d
+                        Input the second integer number:\s%d
+                        The result is:\s%b""",
+                FIRST_NUMBER,
+                SECOND_NUMBER,
+                areMeetRequirements(FIRST_NUMBER, SECOND_NUMBER));
     }
 
     private static boolean areMeetRequirements(final int FIRST_NUMBER, final int SECOND_NUMBER) {

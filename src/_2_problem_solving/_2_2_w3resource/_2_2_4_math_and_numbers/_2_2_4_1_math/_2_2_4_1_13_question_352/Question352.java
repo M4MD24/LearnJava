@@ -18,10 +18,13 @@ public class Question352 {
     public static void main(final String[] ARGS) {
         final int DECIMAL_NUMBER = 8,
                 BINARY_NUMBER = Integer.parseInt(Integer.toBinaryString(DECIMAL_NUMBER));
-        System.out.print(STR."""
-                Input a decimal number:\s\{DECIMAL_NUMBER}
-                Binary number is:\s\{BINARY_NUMBER}
-                Length of the longest sequence:\s\{getLengthOfLongestSequence(BINARY_NUMBER)}""");
+        System.out.printf("""
+                        Input a decimal number:\s%d
+                        Binary number is:\s%d
+                        Length of the longest sequence:\s%d""",
+                DECIMAL_NUMBER,
+                BINARY_NUMBER,
+                getLengthOfLongestSequence(BINARY_NUMBER));
     }
 
     private static int getLengthOfLongestSequence(int binary_number) {

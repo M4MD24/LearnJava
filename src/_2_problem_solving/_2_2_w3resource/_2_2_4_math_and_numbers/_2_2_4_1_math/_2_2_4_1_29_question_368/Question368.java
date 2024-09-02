@@ -18,10 +18,13 @@ public class Question368 {
     public static void main(final String[] ARGS) {
         final int HOUR_HAND = 5,
                 MINUTE_HAND = 15;
-        System.out.print(STR."""
-                Input angles move by hour hand: \{HOUR_HAND}
-                Input angles move by minute hand: \{MINUTE_HAND}
-                Angle Between hour and minute hands \{getAngleBetweenHourAndMinuteHands(HOUR_HAND, MINUTE_HAND)} degree.""");
+        System.out.printf("""
+                Input angles move by hour hand: %d
+                Input angles move by minute hand: %d
+                Angle Between hour and minute hands %d degree.""",
+                HOUR_HAND,
+                MINUTE_HAND,
+                getAngleBetweenHourAndMinuteHands(HOUR_HAND, MINUTE_HAND));
     }
 
     private static int getAngleBetweenHourAndMinuteHands(final int HOUR_HAND, final int MINUTE_HAND) {

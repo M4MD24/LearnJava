@@ -26,13 +26,16 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditio
 public class Question306 {
     public static void main(final String[] ARGS) {
         final int MULTIPLIED_NUMBER = 5;
-        System.out.println(STR."Input the number (Table to be calculated): \{MULTIPLIED_NUMBER}");
+        System.out.printf("Input the number (Table to be calculated): %d\n", MULTIPLIED_NUMBER);
         printMultiplicationTable(MULTIPLIED_NUMBER);
     }
 
     private static void printMultiplicationTable(final int MULTIPLIED_NUMBER) {
         for (int number = 0; number <= MULTIPLIED_NUMBER; number++) {
-            System.out.print(STR."\{MULTIPLIED_NUMBER} ✕ \{number} = \{MULTIPLIED_NUMBER * number}");
+            System.out.printf("%d ✕ %d = %d",
+                    MULTIPLIED_NUMBER,
+                    number,
+                    MULTIPLIED_NUMBER * number);
             if (number != MULTIPLIED_NUMBER)
                 System.out.println();
         }

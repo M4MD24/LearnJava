@@ -12,6 +12,7 @@ public class Question340 {
     public static void main(final String[] ARGS) {
         final int CURRENT_MARKS = 440,
                 TOTAL_MARKS = 500;
-        System.out.print(STR."Percentage of Marks: \{CURRENT_MARKS * 100 / TOTAL_MARKS}%");
+        System.out.printf("Percentage of Marks: %d%%",
+                CURRENT_MARKS * 100 / TOTAL_MARKS);
     }
 }

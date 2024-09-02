@@ -20,9 +20,12 @@ public class Question371 {
     public static void main(final String[] ARGS) {
         final int STARTING_NUMBER_OF_RANGE = 5,
                 ENDING_NUMBER_OF_RANGE = 25;
-        System.out.print(STR."""
-                Input the starting number of the range\{STARTING_NUMBER_OF_RANGE}
-                Input the ending number of the range\{ENDING_NUMBER_OF_RANGE}
-                \{new Random().nextInt(STARTING_NUMBER_OF_RANGE, ENDING_NUMBER_OF_RANGE)}""");
+        System.out.printf("""
+                        Input the starting number of the range%d
+                        Input the ending number of the range%d
+                        %d""",
+                STARTING_NUMBER_OF_RANGE,
+                ENDING_NUMBER_OF_RANGE,
+                new Random().nextInt(STARTING_NUMBER_OF_RANGE, ENDING_NUMBER_OF_RANGE));
     }
 }

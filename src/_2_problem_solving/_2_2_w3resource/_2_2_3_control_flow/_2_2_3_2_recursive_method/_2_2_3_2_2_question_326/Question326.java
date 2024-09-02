@@ -11,7 +11,9 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursiv
 public class Question326 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 7;
-        System.out.print(STR."Sum of numbers from 0 to \{NUMBER} is: \{getFactorial(NUMBER, 0)}");
+        System.out.printf("Sum of numbers from 0 to %d is: %d",
+                NUMBER,
+                getFactorial(NUMBER, 0));
     }
 
     private static int getFactorial(final int TARGET_NUMBER, final int SUM) {

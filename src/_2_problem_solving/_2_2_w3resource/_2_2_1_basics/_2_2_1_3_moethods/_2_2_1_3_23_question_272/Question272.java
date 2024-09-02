@@ -16,7 +16,7 @@ package _2_problem_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_moethods._2_2_
 public class Question272 {
     public static void main(final String[] ARGS) {
         final String TEXT = "AIEEE";
-        System.out.println(STR."Input a text: \{TEXT}");
+        System.out.printf("Input a text: %s\n", TEXT);
         System.out.println("Check all the characters of the said text are vowels or not!");
         System.out.println(TEXT.matches("[aeiouAEIOU]+"));
     }

@@ -37,15 +37,15 @@ public class Question303 {
 
     public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = 7;
-        System.out.println(STR."Input number: \{TARGET_NUMBER}");
-        System.out.println(STR."The first number natural numbers are: \{TARGET_NUMBER}");
+        System.out.printf("Input number: %d\n", TARGET_NUMBER);
+        System.out.printf("The first number natural numbers are: %d\n", TARGET_NUMBER);
         printNaturalNumbersToTargetNumber(TARGET_NUMBER);
         System.out.println("The Sum of Natural Number up to target number terms:");
         System.out.print(sumOfNumbers);
     }
 
-    private static void printNaturalNumbersToTargetNumber(final int targetNumber) {
-        for (int number = 1; number <= targetNumber; number++) {
+    private static void printNaturalNumbersToTargetNumber(final int TARGET_NUMBER) {
+        for (int number = 1; number <= TARGET_NUMBER; number++) {
             System.out.println(number);
             sumOfNumbers += number;
         }

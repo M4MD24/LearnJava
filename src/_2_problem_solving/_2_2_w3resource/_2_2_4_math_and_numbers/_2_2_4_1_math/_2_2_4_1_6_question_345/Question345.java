@@ -15,9 +15,11 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 public class Question345 {
     public static void main(final String[] ARGS) {
         final long DIGITS = 1287;
-        System.out.print(STR."""
-                Original digits:\s\{DIGITS}
-                Reversed digits:\s\{getReversedDigits(DIGITS)}""");
+        System.out.printf("""
+                Original digits:\s%d
+                Reversed digits:\s%d""",
+                DIGITS,
+                getReversedDigits(DIGITS));
     }
 
     private static int getReversedDigits(final long DIGITS) {

@@ -12,7 +12,10 @@ public class Question329 {
     public static void main(final String[] ARGS) {
         final float BASE = 3.5F;
         final int POWER = 4;
-        System.out.print(STR."\{BASE} raised to the power of \{POWER} is: \{getResultPowerOfNumber(BASE, POWER, BASE)}");
+        System.out.printf("%f raised to the power of %d is: %f",
+                BASE,
+                POWER,
+                getResultPowerOfNumber(BASE, POWER, BASE));
     }
 
     private static float getResultPowerOfNumber(final float BASE, int power, float resultPowerOfNumber) {

@@ -21,10 +21,13 @@ public class Question360 {
     public static void main(final String[] ARGS) {
         final int FIRST_NUMBER = 5,
                 SECOND_NUMBER = 25;
-        System.out.print(STR."""
-                Input first integer:\s\{FIRST_NUMBER}
-                Input first integer:\s\{SECOND_NUMBER}
-                Maximum number of distinct prime factors of the said range:\s\{getCountMaximumNumberOfDistinctPrimeFactors(FIRST_NUMBER, SECOND_NUMBER)}""");
+        System.out.printf("""
+                        Input first integer:\s%d
+                        Input first integer:\s%d
+                        Maximum number of distinct prime factors of the said range:\s%d""",
+                FIRST_NUMBER,
+                SECOND_NUMBER,
+                getCountMaximumNumberOfDistinctPrimeFactors(FIRST_NUMBER, SECOND_NUMBER));
     }
 
     private static int getCountMaximumNumberOfDistinctPrimeFactors(final int FIRST_NUMBER, final int SECOND_NUMBER) {

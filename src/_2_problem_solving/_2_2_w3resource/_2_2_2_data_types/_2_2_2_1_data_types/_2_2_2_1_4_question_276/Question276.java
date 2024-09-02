@@ -14,6 +14,9 @@ package _2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types
 public class Question276 {
     public static void main(final String[] ARGS) {
         final int MINUTES = 3456789;
-        System.out.print(STR."\{MINUTES} minutes is approximately \{MINUTES / 60 / 24 / 365} years and \{MINUTES / 60 / 24} days");
+        System.out.printf("%d minutes is approximately %d years and %d days",
+                MINUTES,
+                MINUTES / 60 / 24 / 365,
+                MINUTES / 60 / 24);
     }
 }

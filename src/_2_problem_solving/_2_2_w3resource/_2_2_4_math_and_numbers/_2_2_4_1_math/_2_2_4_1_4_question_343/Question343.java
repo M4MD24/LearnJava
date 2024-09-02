@@ -16,6 +16,8 @@ public class Question343 {
     public static void main(final String[] ARGS) {
         final double NUMBER = 451.3256531D;
         final int TARGET_DECIMAL_NUMBERS = 4;
-        System.out.print(STR."Rounded up to \{TARGET_DECIMAL_NUMBERS} deciaml: \{String.format(STR."%\{TARGET_DECIMAL_NUMBERS}.4f", NUMBER)}");
+        System.out.printf("Rounded up to %d decimal: %" + TARGET_DECIMAL_NUMBERS + ".4f",
+                TARGET_DECIMAL_NUMBERS,
+                NUMBER);
     }
 }

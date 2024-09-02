@@ -15,9 +15,11 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 public class Question361 {
     public static void main(final String[] ARGS) {
         final int PALINDROME_NUMBER = 232;
-        System.out.print(STR."""
-                Input palindrome number:\s\{PALINDROME_NUMBER}
-                Next smallest palindrome:\s\{getNextSmallestPalindrome(PALINDROME_NUMBER)}""");
+        System.out.printf("""
+                        Input palindrome number:\s%d
+                        Next smallest palindrome:\s%d""",
+                PALINDROME_NUMBER,
+                getNextSmallestPalindrome(PALINDROME_NUMBER));
     }
 
     private static int getNextSmallestPalindrome(final int NUMBER) {

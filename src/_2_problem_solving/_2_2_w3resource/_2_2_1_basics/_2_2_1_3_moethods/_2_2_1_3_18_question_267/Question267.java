@@ -32,8 +32,8 @@ public class Question267 {
     }
 
     private static void printNumbers(final int FIRST_NUMBER, final int SECOND_NUMBER, final int THIRD_NUMBER) {
-        System.out.println(STR."Input the first number: \{FIRST_NUMBER}");
-        System.out.println(STR."Input the second number: \{SECOND_NUMBER}");
-        System.out.println(STR."Input the third number: \{THIRD_NUMBER}");
+        System.out.printf("Input the first number: %d", FIRST_NUMBER);
+        System.out.printf("Input the second number: %d", SECOND_NUMBER);
+        System.out.printf("Input the third number: %d", THIRD_NUMBER);
     }
 }

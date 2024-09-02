@@ -15,14 +15,14 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 public class Question365 {
     public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = 78;
-        System.out.println(STR."Input a number: \{TARGET_NUMBER}");
+        System.out.printf("Input a number: %d\n", TARGET_NUMBER);
         printAllPrimeFactors(TARGET_NUMBER);
     }
 
     private static void printAllPrimeFactors(int targetNumber) {
         for (int primeFactorial = 2; primeFactorial <= targetNumber; primeFactorial++)
             while (targetNumber % primeFactorial == 0) {
-                System.out.print(STR."\{primeFactorial} ");
+                System.out.printf("%d ", primeFactorial);
                 targetNumber /= primeFactorial;
             }
     }

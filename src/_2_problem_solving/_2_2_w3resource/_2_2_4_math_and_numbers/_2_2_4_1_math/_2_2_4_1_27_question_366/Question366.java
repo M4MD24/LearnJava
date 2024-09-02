@@ -15,9 +15,11 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 public class Question366 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 55;
-        System.out.print(STR."""
-                Input a number: \{NUMBER}
-                Is Fibonacci number? \{isFibonacci(NUMBER)}""");
+        System.out.printf("""
+                Input a number: %d
+                Is Fibonacci number? %b""",
+                NUMBER,
+                isFibonacci(NUMBER));
     }
 
     private static boolean isFibonacci(final int NUMBER) {

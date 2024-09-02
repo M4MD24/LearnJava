@@ -15,9 +15,11 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 public class Question351 {
     public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = 25;
-        System.out.print(STR."""
-                Input an integer:\s\{TARGET_NUMBER}
-                The number of prime numbers:\s\{getCountPrimeNumbersToTargetNumber(TARGET_NUMBER)}""");
+        System.out.printf("""
+                        Input an integer:\s%d
+                        The number of prime numbers:\s%d""",
+                TARGET_NUMBER,
+                getCountPrimeNumbersToTargetNumber(TARGET_NUMBER));
     }
 
     private static int getCountPrimeNumbersToTargetNumber(final int TARGET_NUMBER) {

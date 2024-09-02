@@ -15,9 +15,11 @@ package _2_problem_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math
 public class Question353 {
     public static void main(final String[] ARGS) {
         final int NUMBER = 25;
-        System.out.print(STR."""
-               Input an integer:\s\{NUMBER}
-               Square root of a number using Babylonian method:\s\{getSquareRootUsingBabylonian(NUMBER)}""");
+        System.out.printf("""
+                        Input an integer:\s%d
+                        Square root of a number using Babylonian method:\s%f""",
+                NUMBER,
+                getSquareRootUsingBabylonian(NUMBER));
     }
 
     private static float getSquareRootUsingBabylonian(final int NUMBER) {

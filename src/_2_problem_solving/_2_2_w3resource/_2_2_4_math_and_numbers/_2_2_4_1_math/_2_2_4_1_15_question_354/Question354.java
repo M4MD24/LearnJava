@@ -18,14 +18,14 @@ public class Question354 {
     public static void main(final String[] ARGS) {
         int first_number = 5,
                 second_number = 25;
-        System.out.println(STR."Input first integer: \{first_number}");
-        System.out.println(STR."Input second integer: \{second_number}");
+        System.out.printf("Input first integer: %d", first_number);
+        System.out.printf("Input second integer: %d", second_number);
         while (first_number > second_number) {
             first_number += second_number;
             second_number = first_number - second_number;
             first_number -= second_number;
         }
-        System.out.print(STR."Multiply of two integers: \{getMultiplyOfTwoIntegers(first_number, second_number, 0)}");
+        System.out.printf("Multiply of two integers: %d", getMultiplyOfTwoIntegers(first_number, second_number, 0));
     }
 
     private static int getMultiplyOfTwoIntegers(int first_number, final int SECOND_NUMBER, final int MULTIPLY_OF_TWO_INTEGERS) {

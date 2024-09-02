@@ -25,7 +25,7 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursiv
 public class Question335 {
     public static void main(final String[] ARGS) {
         final String TEXT = "abc";
-        System.out.println(STR."Permutations of \"\{TEXT}\"");
+        System.out.printf("Permutations of \"%s\"\n", TEXT);
         printGenerateDifferentPermutations(TEXT, 0);
     }
 

@@ -12,7 +12,7 @@ public class Question333 {
     private static final int[] NUMBERS = {4, 5, 1, 7, 8, 3, 6, 2, 9};
 
     public static void main(final String[] ARGS) {
-        System.out.print(STR."The sum of all odd numbers in the array is: \{getSumOFOddNumbers(0, 0)}");
+        System.out.printf("The sum of all odd numbers in the array is: %d", getSumOFOddNumbers(0, 0));
     }
 
     private static int getSumOFOddNumbers(final int INDEX, int sumOFOddNumbers) {

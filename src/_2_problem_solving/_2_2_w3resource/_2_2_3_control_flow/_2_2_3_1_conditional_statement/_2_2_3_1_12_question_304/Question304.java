@@ -34,8 +34,8 @@ public class Question304 {
     public static void main(final String[] ARGS) {
         System.out.println("Input the 5 numbers:");
         printNumbers();
-        System.out.println(STR."The sum of five numbers is: \{firstNumber + secondNumber + thirdNumber + fourthNumber + fifthNumber}");
-        System.out.print(STR."The average is: \{(firstNumber + secondNumber + thirdNumber + fourthNumber + fifthNumber) / 5}");
+        System.out.printf("The sum of five numbers is: %d\n", firstNumber + secondNumber + thirdNumber + fourthNumber + fifthNumber);
+        System.out.printf("The average is: %d", (firstNumber + secondNumber + thirdNumber + fourthNumber + fifthNumber) / 5);
     }
 
     private static void printNumbers() {

@@ -33,14 +33,14 @@ public class Question281 {
     public static void main(final String[] ARGS) {
         final int FIRST_NUMBER = 25,
                 SECOND_NUMBER = 5;
-        System.out.println(STR."Input 1st number: \{FIRST_NUMBER}");
-        System.out.println(STR."Input 2nd number: \{SECOND_NUMBER}\n");
-        System.out.println(STR."Sum of two number: \{FIRST_NUMBER + SECOND_NUMBER}");
-        System.out.println(STR."Difference of two numbers: \{Math.abs(FIRST_NUMBER - SECOND_NUMBER)}");
-        System.out.println(STR."Product of two numbers: \{FIRST_NUMBER * SECOND_NUMBER}");
-        System.out.println(STR."Average of two numbers: \{String.format("%.2f", (float) (FIRST_NUMBER + SECOND_NUMBER) / 2)}");
-        System.out.println(STR."Distance of two numbers: \{Math.abs(FIRST_NUMBER - SECOND_NUMBER)}");
-        System.out.println(STR."Max number: \{Math.max(FIRST_NUMBER, SECOND_NUMBER)}");
-        System.out.print(STR."Min number: \{Math.min(FIRST_NUMBER, SECOND_NUMBER)}");
+        System.out.printf("Input 1st number: %d\n", FIRST_NUMBER);
+        System.out.printf("Input 2nd number: %d\n\n", SECOND_NUMBER);
+        System.out.printf("Sum of two number: %d\n", FIRST_NUMBER + SECOND_NUMBER);
+        System.out.printf("Difference of two numbers: %d\n", Math.abs(FIRST_NUMBER - SECOND_NUMBER));
+        System.out.printf("Product of two numbers: %d\n", FIRST_NUMBER * SECOND_NUMBER);
+        System.out.printf("Average of two numbers: %.2f\n", (float) (FIRST_NUMBER + SECOND_NUMBER) / 2);
+        System.out.printf("Distance of two numbers: %d\n", Math.abs(FIRST_NUMBER - SECOND_NUMBER));
+        System.out.printf("Max number: %d\n", Math.max(FIRST_NUMBER, SECOND_NUMBER));
+        System.out.printf("Min number: %d", Math.min(FIRST_NUMBER, SECOND_NUMBER));
     }
 }

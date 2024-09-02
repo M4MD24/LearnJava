@@ -14,7 +14,7 @@ package _2_problem_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditio
 public class Question320 {
     public static void main(final String[] ARGS) {
         final int NUMBER = -2534;
-        System.out.println(STR."Input a number: \{NUMBER}");
+        System.out.printf("Input a number: %d", NUMBER);
         System.out.print(getStatusOfNumber(NUMBER));
     }
 

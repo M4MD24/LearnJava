@@ -13,7 +13,9 @@ public class Question332 {
 
     public static void main(final String[] ARGS) {
         final int TARGET_NUMBER = 20;
-        System.out.print(STR."The number of occurrences of \{TARGET_NUMBER} in the array is: \{getCountOfOccurrencesTargetNumber(TARGET_NUMBER, 0, 0)}");
+        System.out.printf("The number of occurrences of %d in the array is: %d",
+                TARGET_NUMBER,
+                getCountOfOccurrencesTargetNumber(TARGET_NUMBER, 0, 0));
     }
 
     private static int getCountOfOccurrencesTargetNumber(final int TARGET_NUMBER, int index, int countOfOccurrencesTargetNumber) {

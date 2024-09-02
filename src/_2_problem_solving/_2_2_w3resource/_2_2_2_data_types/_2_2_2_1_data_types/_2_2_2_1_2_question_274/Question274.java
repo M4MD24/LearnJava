@@ -17,7 +17,7 @@ package _2_problem_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types
 public class Question274 {
     public static void main(final String[] ARGS) {
         final double INCH_VALUE = 1000;
-        System.out.println(STR."Input a value for inch: \{INCH_VALUE}");
-        System.out.println(STR."\{INCH_VALUE} inch is \{INCH_VALUE * 0.0254} meters");
+        System.out.printf("Input a value for inch: %f", INCH_VALUE);
+        System.out.printf("%f inch is %f meters", INCH_VALUE, INCH_VALUE * 0.0254);
     }
 }

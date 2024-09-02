@@ -20,10 +20,13 @@ public class Question363 {
     public static void main(final String[] ARGS) {
         final byte FIRST_NUMBER = 10,
                 SECOND_NUMBER = 2;
-        System.out.print(STR."""
-                Input the first number(n): \{FIRST_NUMBER}
-                Input the second number(k): \{SECOND_NUMBER}
-                Binomial Coefficient of the said numbers \{getBinomialCoefficient(FIRST_NUMBER, SECOND_NUMBER)}""");
+        System.out.printf("""
+                        Input the first number(n): %d
+                        Input the second number(k): %d
+                        Binomial Coefficient of the said numbers %d""",
+                FIRST_NUMBER,
+                SECOND_NUMBER,
+                getBinomialCoefficient(FIRST_NUMBER, SECOND_NUMBER));
     }
 
     private static long getBinomialCoefficient(final byte FIRST_NUMBER, final byte SECOND_NUMBER) {
