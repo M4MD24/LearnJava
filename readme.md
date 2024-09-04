@@ -9,6 +9,7 @@
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/github_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a href="https://github.com/M3MD69">@M3MD69</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/monkey_type_icon.svg" alt="Monkey Type Icon" style="vertical-align: middle;"/> <b>Monkey Type</b> <a href="https://monkeytype.com/profile/m3md69">@M3MD69</a></li></ul>
+  <ul><li><img width="20" src="" alt="Satr Icon" style="vertical-align: middle;"/> <b>Satr</b> <a href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a></li></ul>
 - <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
   <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Assiut Sheets in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
 
@@ -268,7 +269,7 @@
 
 ---
 
-## _2. Solving (937)_
+## _2. Solving (972)_
 
 - Solve problems and projects
 - **Note:** There are some questions where the requirements and names have been changed without changing the important programming terms.
@@ -277,7 +278,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (655 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (684 Questions)
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -310,9 +311,9 @@
 8. **Multithreading (22 Questions)**
     1. **[Thread](https://www.w3resource.com/java-exercises/thread/index.php) (7 Questions)**
     2. **[Multithreading](https://www.w3resource.com/java-exercises/multithreading/index.php) (15 Questions)**
-9. **Data Structures (79 Questions)**
+9. **Data Structures (108 Questions)**
     1. **[Array](https://www.w3resource.com/java-exercises/array/index.php) (79 Questions)**
-    2. ~~**[Stack](https://www.w3resource.com/java-exercises/stack/index.php) (29 Questions)**~~
+    2. **[Stack](https://www.w3resource.com/java-exercises/stack/index.php) (29 Questions)**
     3. ~~**[Collection](https://www.w3resource.com/java-exercises/collection/index.php) (126 Questions)**~~
         1. ~~**[ArrayList](https://www.w3resource.com/java-exercises/collection/array-list.php) (22 Questions)**~~
         2. ~~**[LinkedList](https://www.w3resource.com/java-exercises/collection/linked-list.php) (26 Questions)**~~
@@ -324,7 +325,7 @@
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions)
 
-1. **[Assiut-Sheet](https://codeforces.com/group/MWSDmqGsZm/contests) (273 Questions)**
+1. **[Assiut-Sheets](https://codeforces.com/group/MWSDmqGsZm/contests) (273 Questions)**
     1. **[Sheet 1 "Data type - Conditions"](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
     2. **[Contest 1](https://codeforces.com/group/MWSDmqGsZm/contest/326175) (9 Questions)**
     3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (26 Questions)**
@@ -348,16 +349,16 @@
 2. **[Java 102](https://satr.codes/courses/45726dac-2437-4d3e-91b2-ada6f599e982/view) (1 Project)**
 3. **[Java 103](https://satr.codes/courses/aiZMoXpIya/view) (1 Project)**
 
-### ~~5. [CoderHub](https://coderhub.sa) (0 Questions)~~
-
-1. ~~**[Easy](https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY) (0 Questions)**~~
-2. ~~**[Medium](https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM) (0 Questions)**~~
-3. ~~**[Hard](https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD) (0 Questions)**~~
-
-### ~~6. [LeetCode](https://leetcode.com) (0 Questions)~~
+### ~~5. [LeetCode](https://leetcode.com) (0 Questions)~~
 
 1. ~~**[Top Interview 150](https://leetcode.com/studyplan/top-interview-150) (0 Questions)**~~
 2. ~~**[Problem-Set](https://leetcode.com/problemset) (0 Questions)**~~
+
+### 6. [CoderHub](https://coderhub.sa) (6 Questions)
+
+1. ~~**[Easy](https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY) (0 Questions)**~~
+2. ~~**[Medium](https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM) (0 Questions)**~~
+3. **[Hard](https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD) (6 Questions)**
 
 ---
 

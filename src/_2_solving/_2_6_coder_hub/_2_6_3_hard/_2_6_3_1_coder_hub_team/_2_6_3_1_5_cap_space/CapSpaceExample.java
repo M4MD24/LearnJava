@@ -1,0 +1,18 @@
+package _2_solving._2_6_coder_hub._2_6_3_hard._2_6_3_1_coder_hub_team._2_6_3_1_5_cap_space;
+
+import java.util.Scanner;
+
+public class CapSpaceExample {
+    public static void main(final String[] ARGS) {
+        final Scanner INPUT = new Scanner(System.in);
+        System.out.print("Text: ");
+        final String TEXT = INPUT.nextLine();
+        System.out.print(capSpace(TEXT));
+    }
+
+    private static String capSpace(final String TEXT) {
+        return TEXT.replaceAll("([A-Z])", " $1")
+                .toLowerCase()
+                .trim();
+    }
+}
