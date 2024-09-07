@@ -39,7 +39,7 @@ public class MinimumAndMaximumExample {
             NUMBER_2 = Long.parseLong(INPUT.next()),
             NUMBER_3 = Long.parseLong(INPUT.next());
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.printf("%d %d", getMinimumNumber(), getMaximumNumber());
     }
 

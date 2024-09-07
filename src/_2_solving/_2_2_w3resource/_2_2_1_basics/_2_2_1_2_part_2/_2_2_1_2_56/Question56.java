@@ -15,7 +15,7 @@ import java.util.zip.CRC32;
  */
 
 public class Question56 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final String TEXT = "The quick brown fox";
         System.out.printf("Input a text: %s\n", TEXT);
         System.out.printf("CRC32 checksum of the string: %s", Long.toHexString(getCRC32(TEXT)));

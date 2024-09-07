@@ -26,7 +26,7 @@ import java.util.Arrays;
  */
 
 public class Question54 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[][] ARRAYS_OF_NUMBERS = {
                 {1, 2, -2, 3, 4, 5, 6},
                 {1, 2, 3, 4, 5, 6},

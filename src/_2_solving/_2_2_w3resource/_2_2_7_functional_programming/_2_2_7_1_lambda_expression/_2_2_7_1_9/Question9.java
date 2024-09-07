@@ -8,7 +8,7 @@ import java.util.function.Predicate;
  */
 
 public class Question9 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Predicate<Integer> IS_PALINDROME = NUMBER -> {
             if (NUMBER == 0 || NUMBER == 1) return false;
             else if (NUMBER == 2 || NUMBER == 3) return true;

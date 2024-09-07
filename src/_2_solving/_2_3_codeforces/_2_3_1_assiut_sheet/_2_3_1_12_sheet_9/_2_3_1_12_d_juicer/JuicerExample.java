@@ -71,7 +71,7 @@ public class JuicerExample {
             MAXIMUM_WASTE_SECTION = INPUT.nextInt();
     private static int timesEmptyTheWasteSection = 0;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         squeezingOranges();
         System.out.print(timesEmptyTheWasteSection);
     }

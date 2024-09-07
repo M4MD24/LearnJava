@@ -3,7 +3,7 @@ package _1_learning._1_6_algorithms._1_6_2_sort._1_6_2_2_selection;
 import java.util.Arrays;
 
 public class SelectionExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         int[] numbers = {5, 2, 8, 1, 9, 4, 10, 6, 3, 7};
         System.out.print(selectionSorting(numbers));
     }

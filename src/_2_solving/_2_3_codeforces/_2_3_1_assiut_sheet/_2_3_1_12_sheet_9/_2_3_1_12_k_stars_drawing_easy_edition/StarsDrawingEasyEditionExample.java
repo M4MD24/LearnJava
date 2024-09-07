@@ -51,7 +51,7 @@ public class StarsDrawingEasyEditionExample {
     static int countOfStars, countOFBigStars = 0, allCutOutShapeCanMakeStars = 1;
     static final Star[] STARS = new Star[9604];
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         inputCutOutShape();
         findBigStars();
         checkHighlightingCutOutShape();

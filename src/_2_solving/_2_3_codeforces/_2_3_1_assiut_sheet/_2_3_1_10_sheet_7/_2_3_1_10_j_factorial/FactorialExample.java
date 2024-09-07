@@ -40,7 +40,7 @@ public class FactorialExample {
         }
     }
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.print(factorialRecursion(1L, (byte) 2));
     }
 

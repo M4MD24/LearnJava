@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question6 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         List<String> texts = Arrays.asList("Cat", "Apple", "Bear", "Deer", "Banana");
         texts = texts.stream().sorted().toList();
         System.out.print(texts);

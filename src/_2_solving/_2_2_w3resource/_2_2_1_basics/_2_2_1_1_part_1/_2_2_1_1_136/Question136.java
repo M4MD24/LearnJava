@@ -11,7 +11,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_136;
  * <h2>Unique paths from top-left corner to bottom-right corner of the said grid: 3</h2>
  */
 public class Question136 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int MAX_HEIGHT = 0,
                 MAX_WIDTH = 0;
         System.out.println("Unique paths from top-left corner to bottom-right corner of the said grid: " + countUniquePaths(MAX_HEIGHT, MAX_WIDTH));

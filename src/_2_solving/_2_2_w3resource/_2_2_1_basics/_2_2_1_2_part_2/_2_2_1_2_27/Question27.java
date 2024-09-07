@@ -34,7 +34,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_27;
  */
 
 public class Question27 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final BinaryTree NODES = new BinaryTree();
         final BinaryTree COPY_OF_NODES;
         inputNodesValues(NODES);

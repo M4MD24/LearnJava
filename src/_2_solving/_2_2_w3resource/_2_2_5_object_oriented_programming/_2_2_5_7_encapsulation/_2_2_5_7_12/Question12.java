@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_7_e
  */
 
 public class Question12 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Account ACCOUNT = new Account();
         ACCOUNT.setAccountNumber("0987654321");
         ACCOUNT.setAccountHolder("Someone");

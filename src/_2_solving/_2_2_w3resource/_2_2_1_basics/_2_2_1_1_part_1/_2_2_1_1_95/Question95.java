@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 
 public class Question95 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter array length: ");
         String[] arrayDigits = new String[input.nextInt()];

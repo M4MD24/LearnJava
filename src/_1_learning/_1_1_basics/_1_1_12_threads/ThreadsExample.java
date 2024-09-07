@@ -33,7 +33,7 @@ public class ThreadsExample extends Thread implements Runnable {
      * run() != start()
      * */
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         ThreadsExample thread = new ThreadsExample();
         thread.start();
         if (thread.isAlive()) System.out.println("main()");

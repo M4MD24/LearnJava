@@ -15,7 +15,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_62;
  */
 
 public class Question62 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int FIRST_NUMBER = 13,
                 SECOND_NUMBER = 25;
         System.out.println("Input two integer:");

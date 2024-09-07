@@ -23,7 +23,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_94;
  */
 
 public class Question94 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final String TEXT = "XYZ";
         System.out.printf("Input a text: %s\n", TEXT);
         System.out.print(isValidString(TEXT)

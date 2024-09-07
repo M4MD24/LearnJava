@@ -5,7 +5,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_8_p
  * <h2>Write a Java program to create a base class Vehicle with methods startEngine() and stopEngine(). Create two subclasses Car and Motorcycle. Override the startEngine() and stopEngine() methods in each subclass to start and stop the engines differently.</h2>
  */
 public class Question11 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Vehicle VEHICLE = new Vehicle();
         VEHICLE.startEngine();
         VEHICLE.stopEngine();

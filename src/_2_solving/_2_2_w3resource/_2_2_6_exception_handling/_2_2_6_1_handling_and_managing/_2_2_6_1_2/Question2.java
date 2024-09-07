@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 
 public class Question2 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print("Input odd number: ");
         isOdd(INPUT.nextInt());

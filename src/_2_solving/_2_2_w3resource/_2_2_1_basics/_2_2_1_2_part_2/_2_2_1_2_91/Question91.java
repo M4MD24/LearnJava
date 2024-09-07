@@ -13,7 +13,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_91;
  */
 
 public class Question91 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int TARGET_SUM = 252;
         System.out.printf("Input a positive integer: %d", TARGET_SUM);
         System.out.printf("Number of combinations of a,b,c,d: %d", getCountOfCombinations(TARGET_SUM));

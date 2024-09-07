@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class Question134 {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.print("Target number: ");
         final int TARGET_NUMBER = INPUT.nextInt();
         System.out.print("Distinct ways can you climb to the top: " + findSumDistinctWays(TARGET_NUMBER));

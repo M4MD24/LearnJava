@@ -1,7 +1,7 @@
 package _1_learning._1_6_algorithms._1_6_1_search._1_6_1_1_linear;
 
 public class LinearExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int target = 10;
         System.out.print(linearSearch(numbers, target));

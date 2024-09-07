@@ -79,7 +79,7 @@ public class BalancedRatingChangesExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
     private static final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         inputValues();
         OUTPUT.flush();
     }

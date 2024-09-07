@@ -13,7 +13,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_33;
  */
 
 public class Question33 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 25;
         System.out.printf("Input a positive integer: %d\n", NUMBER);
         final int NUMBER_AFTER_ADDITION = getNumberAfterAddition(NUMBER, 0);

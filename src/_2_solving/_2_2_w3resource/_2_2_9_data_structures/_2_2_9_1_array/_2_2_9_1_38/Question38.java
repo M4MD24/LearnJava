@@ -12,7 +12,7 @@ import java.util.Arrays;
  */
 
 public class Question38 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {2, 1, 1, 1, 2, 2, 2, 2, 1};
         System.out.println(Arrays.toString(NUMBERS));
         System.out.print(getMajorityNumber(NUMBERS));

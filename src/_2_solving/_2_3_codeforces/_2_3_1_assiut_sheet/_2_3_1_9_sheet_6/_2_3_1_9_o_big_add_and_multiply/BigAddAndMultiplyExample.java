@@ -40,7 +40,7 @@ import java.math.BigInteger;
  */
 
 public class BigAddAndMultiplyExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         final BigInteger FIRST_NUMBER = new BigInteger(INPUT.readLine()),
                 SECOND_NUMBER = new BigInteger("9999");

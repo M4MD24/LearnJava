@@ -10,7 +10,7 @@ import java.util.List;
  */
 
 public class Question20 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         List<Person> persons = Arrays.asList(
                 new Person("Mohamed", 21, Genders.Man),
                 new Person("Ahmed", 11, Genders.Man),

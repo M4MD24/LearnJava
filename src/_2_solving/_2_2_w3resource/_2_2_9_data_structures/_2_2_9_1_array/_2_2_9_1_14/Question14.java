@@ -9,7 +9,7 @@ import java.util.HashSet;
  */
 
 public class Question14 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final String[] FIRST_PROGRAMMING_LANGUAGES = new String[]{
                 "Java",
                 "XML",

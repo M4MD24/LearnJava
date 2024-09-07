@@ -49,7 +49,7 @@ import java.io.InputStreamReader;
  */
 
 public class IlyaAndBankAccountExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         System.out.print(inputValueAndGetMaximumValue(Integer.parseInt(new BufferedReader(new InputStreamReader(System.in)).readLine())));
     }
 

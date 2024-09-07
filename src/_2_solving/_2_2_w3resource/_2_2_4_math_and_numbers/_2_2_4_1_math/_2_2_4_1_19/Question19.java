@@ -29,7 +29,7 @@ import java.util.Scanner;
  *  93 108 123 138 153 168   1  16  31  46  61  76  91
  * */
 public class Question19 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print("Input odd number greater than 2: ");
         final int NUMBER = INPUT.nextInt();
@@ -37,7 +37,7 @@ public class Question19 {
             generateMagicSquare(NUMBER);
         else {
             System.out.println();
-            Question19.main(ARGS);
+            Question19.main(PARAMETERS);
         }
     }
 

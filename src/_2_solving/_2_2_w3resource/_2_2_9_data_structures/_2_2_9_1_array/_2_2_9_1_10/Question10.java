@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question10 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
         System.out.println("Maximum number: " + Arrays.stream(NUMBERS).max().getAsInt());
         System.out.print("Minimum number: " + Arrays.stream(NUMBERS).min().getAsInt());

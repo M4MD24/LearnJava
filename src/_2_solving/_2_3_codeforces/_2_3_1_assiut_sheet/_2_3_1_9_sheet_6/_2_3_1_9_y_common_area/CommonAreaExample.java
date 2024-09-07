@@ -39,7 +39,7 @@ public class CommonAreaExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static final int COUNT_OF_TEST_CASES = INPUT.nextInt();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputRectangles();
     }
 

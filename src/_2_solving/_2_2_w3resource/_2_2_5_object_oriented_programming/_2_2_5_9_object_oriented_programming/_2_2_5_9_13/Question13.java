@@ -8,7 +8,7 @@ import java.util.HashMap;
  */
 
 public class Question13 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Inventory INVENTORY = new Inventory();
         INVENTORY.addProduct("Laptop",10);
         INVENTORY.addProduct("Laptop");

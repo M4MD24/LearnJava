@@ -36,7 +36,7 @@ import java.util.Scanner;
  */
 
 public class SubSequenceStringExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         final String TEXT = INPUT.nextLine();
         System.out.print(isEqualHello(TEXT));

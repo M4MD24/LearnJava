@@ -21,7 +21,7 @@ enum MonthOfYear {
 }
 
 public class Question5 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.printf("""
                         First Month of Year   :\s%s
                         Second Month of Year  :\s%s

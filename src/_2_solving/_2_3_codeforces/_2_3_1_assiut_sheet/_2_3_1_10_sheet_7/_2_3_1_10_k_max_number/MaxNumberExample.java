@@ -35,7 +35,7 @@ public class MaxNumberExample {
     private static short targetNumber = INPUT.nextShort();
     private static int maximumNumber = INPUT.nextInt();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.print(inputValuesRecursion(maximumNumber));
     }
 

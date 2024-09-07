@@ -17,7 +17,7 @@ import java.util.TimeZone;
  * </ul>
  */
 public class DateAndTimeExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         date();
         time();
         dateAndTime();

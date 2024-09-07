@@ -14,7 +14,7 @@ import java.util.Arrays;
  */
 
 public class Question75 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {23, -2, 45, 38, 12, 4, 6};
         printTestOfPrintLargestGapBetweenSortedNumbers(NUMBERS);
     }

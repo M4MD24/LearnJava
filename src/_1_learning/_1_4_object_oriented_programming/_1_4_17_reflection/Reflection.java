@@ -42,7 +42,7 @@ class Animal {
 }
 
 public class Reflection {
-    public static void main(final String[] ARGS) throws ClassNotFoundException {
+    public static void main(final String[] PARAMETERS) throws ClassNotFoundException {
         getClassNameWithMultipleExamples();
         getClassProperties();
         getMethodsProperties();

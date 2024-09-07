@@ -47,7 +47,7 @@ public class PrintEvenIndicesExample {
     private static int length = INPUT.nextInt();
     private static final int[] NUMBERS = new int[length];
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValuesRecursion(0);
         System.out.print(returnEvenIndicesValuesRecursion());
     }

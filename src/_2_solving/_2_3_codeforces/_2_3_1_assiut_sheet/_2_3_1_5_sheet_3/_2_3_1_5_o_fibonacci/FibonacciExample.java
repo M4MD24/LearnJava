@@ -37,7 +37,7 @@ import java.util.Scanner;
  */
 
 public class FibonacciExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.print(getFibonacci(new Scanner(System.in).nextByte()));
     }
 

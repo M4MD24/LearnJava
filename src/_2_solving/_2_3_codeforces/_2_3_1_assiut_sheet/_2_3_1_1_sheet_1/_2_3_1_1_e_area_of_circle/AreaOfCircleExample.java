@@ -25,7 +25,7 @@ import java.util.Scanner;
  */
 
 public class AreaOfCircleExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
     final Scanner INPUT = new Scanner(System.in);
         final double PI = 3.141592653,
                 RADIUS_SQUARED = INPUT.nextFloat();

@@ -10,7 +10,7 @@ public class Question5 extends Thread {
             COUNT_OF_THREADS = 4;
     private static long sum = 0;
 
-    public static void main(final String[] ARGS) throws InterruptedException {
+    public static void main(final String[] PARAMETERS) throws InterruptedException {
         final Thread[] THREADS = new Thread[COUNT_OF_THREADS];
         final int RANGE = LIMIT_NUMBERS / COUNT_OF_THREADS;
 

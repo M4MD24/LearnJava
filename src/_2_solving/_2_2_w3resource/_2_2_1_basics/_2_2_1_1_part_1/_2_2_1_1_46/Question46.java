@@ -14,7 +14,7 @@ import java.util.TimeZone;
  */
 
 public class Question46 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         LocalDate dateNow = LocalDate.now();
 
         char[] dayOfWeekChars = dateNow.getDayOfWeek().toString().toCharArray();

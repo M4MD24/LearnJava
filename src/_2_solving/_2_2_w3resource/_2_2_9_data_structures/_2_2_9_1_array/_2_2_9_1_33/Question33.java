@@ -14,7 +14,7 @@ import java.util.Arrays;
  */
 
 public class Question33 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {20, 20, 30, 40, 50, 50, 50};
         System.out.print(getLengthOfArrays(NUMBERS));
     }

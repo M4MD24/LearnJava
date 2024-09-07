@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class Question5 {
     private static final ArrayList<Integer> NUMBERS = new ArrayList<>();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         addNumbers();
         System.out.print(getDistinctNumbers());
     }

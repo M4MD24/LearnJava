@@ -59,7 +59,7 @@ public class SearchingExample {
     private static final int LENGTH = INPUT.nextInt();
     private static final long[] NUMBERS = new long[LENGTH];
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValues();
         System.out.print(searchValue(INPUT.nextLong()));
     }

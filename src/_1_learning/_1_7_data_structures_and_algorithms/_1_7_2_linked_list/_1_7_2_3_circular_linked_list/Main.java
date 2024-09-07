@@ -3,7 +3,7 @@ package _1_learning._1_7_data_structures_and_algorithms._1_7_2_linked_list._1_7_
 public class Main {
     private static final CircularLinkedList<Integer> NUMBERS = new CircularLinkedList<>();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.println("■ displayAll() Test");
         displayAll();
 

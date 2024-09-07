@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
  */
 
 public class Question49 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {-4, 8, 6, -5, 6, -2, 1, 0, 2, 3, -11};
         System.out.println("Original Numbers: " + Arrays.toString(NUMBERS));
         System.out.print("After Arrangement: " + Arrays.toString(getArrangementPositiveNumbersBeforeNegativeNumbers(NUMBERS)));

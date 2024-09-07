@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_8_multithreading._2_2_8_1_thread._2_2_8_
  */
 
 public class Question1 extends Thread {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Question1 THE_THREAD = new Question1();
         THE_THREAD.start();
     }

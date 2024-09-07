@@ -47,7 +47,7 @@ import java.util.Arrays;
  */
 
 public class ByteArrayInputStreamExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         byteArrayOutputStream();
         byteArrayInputStream();
     }

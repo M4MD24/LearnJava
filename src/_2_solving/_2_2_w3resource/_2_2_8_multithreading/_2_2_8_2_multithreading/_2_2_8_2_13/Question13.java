@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  */
 
 public class Question13 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final ScheduledExecutorService SCHEDULED_EXECUTOR_SERVICE = Executors.newScheduledThreadPool(1);
         SCHEDULED_EXECUTOR_SERVICE.schedule(new Task(), 2, TimeUnit.SECONDS);
         SCHEDULED_EXECUTOR_SERVICE.scheduleAtFixedRate(new Task(), 3, 5, TimeUnit.SECONDS);

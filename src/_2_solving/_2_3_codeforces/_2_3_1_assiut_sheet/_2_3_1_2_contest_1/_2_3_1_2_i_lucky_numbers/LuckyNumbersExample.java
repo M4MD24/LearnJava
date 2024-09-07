@@ -34,7 +34,7 @@ import java.util.Scanner;
  * <h2>NO</h2>
  */
 public class LuckyNumbersExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         final byte NUMBER = INPUT.nextByte();
         System.out.print(isLucky(NUMBER));

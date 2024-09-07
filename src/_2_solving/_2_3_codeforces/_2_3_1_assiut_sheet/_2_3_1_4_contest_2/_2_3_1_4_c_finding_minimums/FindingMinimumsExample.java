@@ -41,7 +41,7 @@ public class FindingMinimumsExample {
     private static final int LENGTH = INPUT.nextInt(),
             SPLIT_AT = INPUT.nextInt();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         int minimumNumber = 0,
                 flag = 1,
                 counter = 0;

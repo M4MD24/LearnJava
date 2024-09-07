@@ -1,21 +1,21 @@
-# Learn Java Programming Language
+# <span style="font-style: italic; color: limeGreen;">Learn Java Programming Language</span>
 
-## _About the Project Owner_
+## <span style="font-style: italic; color: limeGreen;">About the Project Owner</span>
 
-- <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Name</b> Mohamed Sadawy Thabet <b>(M3MD69)</b>
-- <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"/> <b>Field</b> Software Engineer <b>/</b> Native Android Developer
+- <img width="20" src="readme_file_source/icons/person_icon.svg" alt="Person Icon" style="vertical-align: middle;"/> <b>Name</b> Mohamed Sadawy Thabet <b style="color: limeGreen;">(M3MD69)</b>
+- <img width="20" src="readme_file_source/icons/android_icon.svg" alt="Android Icon" style="vertical-align: middle;"/> <b>Field</b> Software Engineer <b style="color: limeGreen;">/</b> Native Android Developer
 - <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>My Cross Platforms</b>
-  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a href="https://t.me/M3MD69">@M3MD69</a></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a href="https://t.me/Nullexia">@Nullexia</a></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/github_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a href="https://github.com/M3MD69">@M3MD69</a></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/monkey_type_icon.svg" alt="Monkey Type Icon" style="vertical-align: middle;"/> <b>Monkey Type</b> <a href="https://monkeytype.com/profile/m3md69">@M3MD69</a></li></ul>
-  <ul><li><img width="20" src="" alt="Satr Icon" style="vertical-align: middle;"/> <b>Satr</b> <a href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a style="color: limeGreen;" href="https://t.me/M3MD69">@M3MD69</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a style="color: limeGreen;" href="https://t.me/Nullexia">@Nullexia</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/github_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a style="color: limeGreen;" href="https://github.com/M3MD69">@M3MD69</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/monkey_type_icon.svg" alt="Monkey Type Icon" style="vertical-align: middle;"/> <b>Monkey Type</b> <a style="color: limeGreen;" href="https://monkeytype.com/profile/m3md69">@M3MD69</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/safcsp_icon.svg" alt="Satr Icon" style="vertical-align: middle;"/> <b>Satr</b> <a style="color: limeGreen;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a></li></ul>
 - <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Assiut Sheets in codeforces with Java version 8 and 21 on <b>(22/04/2024)</b></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Assiut Sheets in codeforces with Java version 8 and 21 on <b style="color: limeGreen;">(22/04/2024)</b></li></ul>
 
 ---
 
-## _About the Project Details_
+## <span style="font-style: italic; color: limeGreen;">About the Project Details</span>
 
 - **Recommended using `Intellij IDEA (Community / Ultimate)` or `Android Studio`**
 - **Currently Used `Intellij Idea Community`**
@@ -25,24 +25,24 @@
 
 ---
 
-## _Tips for search important comments_
+## <span style="font-style: italic; color: limeGreen;">Tips for search important comments</span>
 
 - For Search in Intellij IDEA `CTRL + Shift + F`
 
-    - Search `! */` for **Advices, Tips and Errors**
-    - Search `. */` for **Definitions**
-    - Search `/* ~` for **The Difference Between**
-    - Search `/* ↓` for **Examples**
-    - Search `/* √` for **Similar Concepts**
-    - Search `/* ■` for **Tables**
-    - Search `// •` for **Important Things**
-    - Search `<h1>Question` for **Questions**
-    - Search `// >` for **Another Solution**
-    - Search `[//]: # (Notes)` for **Important Notes**
+    - Search `! */` for **<span style="color: limeGreen;">Advices, Tips and Errors</span>**
+    - Search `. */` for **<span style="color: limeGreen;">Definitions</span>**
+    - Search `/* ~` for **<span style="color: limeGreen;">The Difference Between</span>**
+    - Search `/* ↓` for **<span style="color: limeGreen;">Examples</span>**
+    - Search `/* √` for **<span style="color: limeGreen;">Similar Concepts</span>**
+    - Search `/* ■` for **<span style="color: limeGreen;">Tables</span>**
+    - Search `// •` for **<span style="color: limeGreen;">Important Things</span>**
+    - Search `<h1>Question` for **<span style="color: limeGreen;">Questions</span>**
+    - Search `// >` for **<span style="color: limeGreen;">Another Solution</span>**
+    - Search `[//]: # (Notes)` for **<span style="color: limeGreen;">Important Notes</span>**
 
 ---
 
-## _Programming Tips ♥_
+## <span style="font-style: italic; color: limeGreen;">Programming Tips ♥</span>
 
 - Learn English
 - Be enthusiastic about everything new
@@ -51,11 +51,11 @@
 
 ---
 
-## _1. Learning_
+## <span style="font-style: italic; color: limeGreen;">1. Learning</span>
 
 - Learn Examples of Concepts
 
-### 1. Basics
+### <span style="font-style: italic; color: limeGreen;">1. Basics</span>
 
 1. **Variables**
 2. **Data Types**
@@ -98,9 +98,9 @@
 16. **Escape Sequences**
 17. **Text Color Strings**
 
-### 2. Testing
+### <span style="font-style: italic; color: limeGreen;">2. Testing</span>
 
-### 3. Handling
+### <span style="font-style: italic; color: limeGreen;">3. Handling</span>
 
 1. **Exceptions Handing**
     1. **Try, Catch, Finally, throw and throws**
@@ -128,7 +128,7 @@
     4. **Keywords**
         1. **Transient**
 
-### 4. OOP (Object Oriented Programming)
+### <span style="font-style: italic; color: limeGreen;">4. OOP (Object Oriented Programming)</span>
 
 1. **Class**
 2. **Methods**
@@ -160,7 +160,7 @@
 24. **Local Class**
 25. **Anonymous Class**
 
-### 5. DS (Data Structures)
+### <span style="font-style: italic; color: limeGreen;">5. DS (Data Structures)</span>
 
 1. **List**
     1. **List**
@@ -200,7 +200,7 @@
 34. **Hash Table**
 35. **Dictionary**
 
-### 6. Algorithms
+### <span style="font-style: italic; color: limeGreen;">6. Algorithms</span>
 
 1. **Search**
     1. **Linear**
@@ -229,7 +229,7 @@
     1. **AES (Advanced Encryption Standard)**
     2. **RSA (Rivest-Shamir-Adleman)**
 
-### 7. DSA (Data Structures and Algorithms)
+### <span style="font-style: italic; color: limeGreen;">7. DSA (Data Structures and Algorithms)</span>
 
 1. **Nodes**
 2. **LinkedList**
@@ -255,24 +255,30 @@
     1. **Normal Heap**
     2. **Fibonacci Heap**
 
-### ~~8. Database~~
+### <span style="font-style: italic; color: limeGreen;">~~8. Database~~</span>
 
-### ~~9. Network~~
+### <span style="font-style: italic; color: limeGreen;">~~9. Network~~</span>
 
-### ~~10. OOD (Object Oriented Design)~~
+### <span style="font-style: italic; color: limeGreen;">~~10. OOD (Object Oriented Design)~~</span>
 
-### ~~11. Design Patterns~~
+### <span style="font-style: italic; color: limeGreen;">~~11. Design Patterns~~</span>
 
-### ~~12. Solid Principles~~
+### <span style="font-style: italic; color: limeGreen;">~~12. SOLID Principles~~</span>
 
-### ~~13. Best Practices~~
+- **S =** ~~**SRP (Single Responsibility Principle)**~~
+- **O =** ~~**OCP (Open/Closed Principle)**~~
+- **L =** ~~**LSP (Liskov Substitution Principle)**~~
+- **I =** ~~**ISP (Interface Segregation Principle)**~~
+- **D =** ~~**DIP (Dependency Inversion Principle)**~~
+
+### <span style="font-style: italic; color: limeGreen;">~~13. Best Practices~~</span>
 
 ---
 
-## _2. Solving (972)_
+## <span style="font-style: italic; color: limeGreen;">2. Solving (1,022)</span>
 
 - Solve problems and projects
-- **Note:** There are some questions where the requirements and names have been changed without changing the important programming terms.
+- <b style="color: limeGreen;">Note:</b> <u style="text-decoration-color: limeGreen;">There are some questions where the requirements and names have been changed without changing the important programming terms.</u>
 
 ### 1. [W3Schools](https://www.w3schools.com/java) (6 Questions)
 
@@ -343,22 +349,29 @@
     13. **[Sheet 10 "General Hard"](https://codeforces.com/group/MWSDmqGsZm/contest/223340) (26 Questions)**
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
-### 4. [Satr](https://satr.codes) (3 Projects)
+### 4. [Satr](https://satr.codes) (4 Projects)
 
-1. **[Java 101](https://satr.codes/courses/DcFViVITbo/view) (1 Project)**
-2. **[Java 102](https://satr.codes/courses/45726dac-2437-4d3e-91b2-ada6f599e982/view) (1 Project)**
-3. **[Java 103](https://satr.codes/courses/aiZMoXpIya/view) (1 Project)**
+1. **[Basics](https://satr.codes/course/SYJZBDMnFM/view) (1 Project)**
+2. **[Java 101](https://satr.codes/course/DcFViVITbo/view) (1 Project)**
+3. **[Java 102](https://satr.codes/course/oqTQleaQLV/view) (1 Project)**
+4. **[Java 103](https://satr.codes/course/aiZMoXpIya/view) (1 Project)**
 
-### ~~5. [LeetCode](https://leetcode.com) (0 Questions)~~
+### 5. [CoderHub](https://coderhub.sa) (55 Questions)
+
+1. **[Easy](https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY) (3 Questions)**
+    1. **Shorouk Saeed** **(1 Questions)**
+    2. **Mashari Al-Dosari** **(1 Questions)**
+    3. **CoderHub Team** **(1 Questions)**
+2. **[Medium](https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM) (40 Questions)**
+    1. **CoderHub Team** **(39 Questions)**
+    2. **Faisal Al-Qahtani** **(1 Questions)**
+3. **[Hard](https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD) (12 Questions)**
+    1. **CoderHub Team** **(12 Questions)**
+
+### ~~6. [LeetCode](https://leetcode.com) (0 Questions)~~
 
 1. ~~**[Top Interview 150](https://leetcode.com/studyplan/top-interview-150) (0 Questions)**~~
 2. ~~**[Problem-Set](https://leetcode.com/problemset) (0 Questions)**~~
-
-### 6. [CoderHub](https://coderhub.sa) (6 Questions)
-
-1. ~~**[Easy](https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY) (0 Questions)**~~
-2. ~~**[Medium](https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM) (0 Questions)**~~
-3. **[Hard](https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD) (6 Questions)**
 
 ---
 

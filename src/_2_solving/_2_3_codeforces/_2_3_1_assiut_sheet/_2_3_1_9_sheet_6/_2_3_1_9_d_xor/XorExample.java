@@ -47,7 +47,7 @@ import java.util.Scanner;
  */
 
 public class XorExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print(getXorResult(INPUT.nextLong(), INPUT.nextLong(), INPUT.nextLong()));
     }

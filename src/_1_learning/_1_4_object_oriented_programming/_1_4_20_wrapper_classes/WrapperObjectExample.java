@@ -1,7 +1,7 @@
 package _1_learning._1_4_object_oriented_programming._1_4_20_wrapper_classes;
 
 public class WrapperObjectExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         Integer integerVariable = Integer.MAX_VALUE;
         System.out.println("Integer   = " + integerVariable);
 

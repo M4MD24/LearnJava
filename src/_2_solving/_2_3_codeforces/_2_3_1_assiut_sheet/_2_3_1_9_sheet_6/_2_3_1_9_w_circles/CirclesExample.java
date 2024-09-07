@@ -47,7 +47,7 @@ public class CirclesExample {
             FOURTH_POINT_FIRST_CIRCLE = INPUT.nextInt(),
             FOURTH_POINT_SECOND_LINE = INPUT.nextInt();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.print((isCirclesIntersect()) ? "NO" : "YES");
     }
 

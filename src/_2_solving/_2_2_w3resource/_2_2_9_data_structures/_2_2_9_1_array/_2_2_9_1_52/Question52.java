@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
  */
 
 public class Question52 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {20, 12, 23, 17, 7, 8, 10, 2, 1, 0};
         System.out.println(Arrays.toString(NUMBERS));
         System.out.print(Arrays.toString(arrangeEvenNumbersToLeftSideAndOddNumbersToRightSide(NUMBERS)));

@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class Question28 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {10, 11, 12, 13, 14, 7, 8, 9, 1, 2, 3};
         System.out.printf("Original array: %s\n", Arrays.toString(NUMBERS));
         System.out.printf("Size of longest increasing continuous subsequence: %d", getLongestIncreasingContinuousSubSequence(NUMBERS));

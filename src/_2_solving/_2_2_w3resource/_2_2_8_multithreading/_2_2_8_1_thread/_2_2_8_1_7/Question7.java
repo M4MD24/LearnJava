@@ -12,7 +12,7 @@ public class Question7 {
     private static double balance = 0.0D;
     private static final Lock LOCK = new ReentrantLock();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         runUserRequests();
     }
 

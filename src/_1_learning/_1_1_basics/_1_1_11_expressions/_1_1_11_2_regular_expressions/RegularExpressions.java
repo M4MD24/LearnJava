@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegularExpressions {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         regularExpressionWithSplit();
 
         regularExpressionsWithCaseInsensitive();

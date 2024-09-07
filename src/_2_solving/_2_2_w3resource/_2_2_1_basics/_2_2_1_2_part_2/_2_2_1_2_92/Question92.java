@@ -31,7 +31,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_92;
  */
 
 public class Question92 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int COUNT_OF_ROWS_AND_COLUMNS = 4;
         System.out.printf("Input count of rows and columns: %d\n", COUNT_OF_ROWS_AND_COLUMNS);
         final int[][] NUMBERS = {

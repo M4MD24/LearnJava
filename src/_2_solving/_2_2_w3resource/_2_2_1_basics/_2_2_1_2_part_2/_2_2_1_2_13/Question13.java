@@ -22,7 +22,7 @@ public class Question13 {
     private static final int FIRST_NUMBER = INPUT.nextInt();
     private static final String FIRST_NUMBER_AS_BINARY_NUMBER = Long.toBinaryString(FIRST_NUMBER);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printFirstNumber();
         printFirstNumberAsBinaryNumber();
         System.out.printf("Number of zero bits: %d", sumOfZeroNumbersBits());

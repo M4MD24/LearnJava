@@ -16,7 +16,7 @@ import java.util.List;
  */
 
 public class Question60 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Integer[] NUMBERS = {1, 2, 3, 4, 5, 6};
         System.out.println("Original Numbers" + Arrays.toString(NUMBERS));
         System.out.print("Shuffle Numbers: " + Arrays.toString(getShuffleNumbers(NUMBERS)));

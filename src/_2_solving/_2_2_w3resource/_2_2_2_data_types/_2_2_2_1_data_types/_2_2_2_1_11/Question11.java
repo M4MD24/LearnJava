@@ -30,7 +30,7 @@ package _2_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_
  */
 
 public class Question11 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.println("Finite doubles");
         System.out.println("-".repeat(14));
         System.out.printf("Is %f is finite? %b\n", 2.13456321E-4D, isFiniteStatus(2.13456321E-4D));

@@ -17,7 +17,7 @@ import java.util.Arrays;
  */
 
 public class Question77 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] array1 = {50, -20, 0},
                 array2 = {5, -50, 10};
 

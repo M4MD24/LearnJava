@@ -8,7 +8,7 @@ import java.util.ArrayList;
  */
 
 public class Question21 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final ArrayList<Integer> NUMBERS_AS_ARRAYLIST = new ArrayList<>();
         addNumbers(NUMBERS_AS_ARRAYLIST);
         final Integer[] NUMBERS = NUMBERS_AS_ARRAYLIST.toArray(new Integer[0]);

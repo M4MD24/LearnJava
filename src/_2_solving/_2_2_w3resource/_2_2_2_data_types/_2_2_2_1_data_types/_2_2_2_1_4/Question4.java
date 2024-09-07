@@ -12,7 +12,7 @@ package _2_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_
  */
 
 public class Question4 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int MINUTES = 3456789;
         System.out.printf("%d minutes is approximately %d years and %d days",
                 MINUTES,

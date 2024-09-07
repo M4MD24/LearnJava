@@ -23,7 +23,7 @@ import java.util.stream.IntStream;
  */
 
 public class Question74 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {1, 6, 3, 0, 8, 4, 1, 7};
         final int TARGET_SUM = 7;
         printTestOfPrintAllTripletsEqualsTargetSum(NUMBERS, TARGET_SUM);

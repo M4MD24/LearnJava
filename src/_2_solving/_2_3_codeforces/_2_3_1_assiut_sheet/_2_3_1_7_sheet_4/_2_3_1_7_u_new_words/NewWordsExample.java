@@ -34,7 +34,7 @@ import java.io.InputStreamReader;
  */
 
 public class NewWordsExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         System.out.print(numberOfWordsCanBeFormedForEgypt(new StringBuffer(INPUT.readLine())));
     }

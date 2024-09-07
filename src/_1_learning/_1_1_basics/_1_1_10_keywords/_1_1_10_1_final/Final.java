@@ -1,7 +1,7 @@
 package _1_learning._1_1_basics._1_1_10_keywords._1_1_10_1_final;
 
 public class Final {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int variable = 5;
         /* Error! */
 //         variable = 2;

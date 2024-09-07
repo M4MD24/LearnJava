@@ -11,7 +11,7 @@ public class Question3 extends Thread {
     private static final int LENGTH_OF_NUMBERS = 400,
             COUNT_OF_THREADS = 4;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = createArray();
         System.out.println("Before sorting: " + Arrays.toString(NUMBERS));
         final Thread[] THREADS = new Thread[COUNT_OF_THREADS];

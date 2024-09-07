@@ -22,7 +22,7 @@ public class Question128 {
     private static int[] array;
     private static boolean continueQuestion = true;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         while (continueQuestion) {
             inputArrayLength();
             inputArrayValue();

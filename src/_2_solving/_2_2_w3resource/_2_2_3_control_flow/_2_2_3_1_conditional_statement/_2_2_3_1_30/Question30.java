@@ -22,7 +22,7 @@ public class Question30 {
             SECOND_NUMBER = 3526,
             THIRD_NUMBER = 2456;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printNumbers();
         System.out.print(getNumbersStatus());
     }

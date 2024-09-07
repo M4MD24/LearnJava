@@ -1,7 +1,7 @@
 package _1_learning._1_1_basics._1_1_5_operators._1_1_5_1_arithmetic_operators;
 
 public class ArithmeticOperators {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         /* √
          * Prefix = Pre
          * Postfix = Post */

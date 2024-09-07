@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_4_i
  */
 
 public class Question10 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Manager MANAGER = new Manager("Alice", "123 Main St, City", 60000);
         final  Employee DEVELOPER = new Developer("Bob", "456 Broad St, Town", 50000);
         final Employee PROGRAMMER = new Programmer("Charlie", "789 High St, Village", 40000);

@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 
 public class Question20 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Integer[] NUMBERS = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         final ArrayList<Integer> NUMBERS_AS_ARRAYLIST = new ArrayList<>(Arrays.asList(NUMBERS));
     }

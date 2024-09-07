@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question8 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0},
                 COPY_OF_NUMBERS = new int[NUMBERS.length];
         System.out.println("Original Numbers: " + Arrays.toString(NUMBERS));

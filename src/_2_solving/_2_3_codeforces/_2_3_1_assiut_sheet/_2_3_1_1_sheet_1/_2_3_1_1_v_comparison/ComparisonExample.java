@@ -42,7 +42,7 @@ import java.util.Scanner;
 public class ComparisonExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int FIRST_NUMBER = Integer.parseInt(INPUT.next());
         final String LOGICAL_OPERATOR = INPUT.next();
         final int SECOND_NUMBER = Integer.parseInt(INPUT.next());

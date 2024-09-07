@@ -8,7 +8,7 @@ import java.util.function.BiFunction;
  */
 
 public class Question10 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final BiFunction<String, String, String> CONCATENATE = (FIRST_TEXT, SECOND_TEXT) -> FIRST_TEXT + SECOND_TEXT;
         System.out.print(CONCATENATE.apply("Hello ","Java"));
     }

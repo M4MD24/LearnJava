@@ -65,7 +65,7 @@ import java.io.InputStreamReader;
 public class KseniaAndPanScalesFunctionExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         OUTPUT.write(isBalanced(new StringBuffer(INPUT.readLine())));
         OUTPUT.flush();

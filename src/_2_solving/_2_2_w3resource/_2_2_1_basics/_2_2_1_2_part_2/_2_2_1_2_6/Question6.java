@@ -16,7 +16,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_6;
  */
 
 public class Question6 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int ORIGINAL_NUMBER = 2350;
         System.out.println("Original Number: " + ORIGINAL_NUMBER);
         System.out.print("Result: " + largestIntegerLogBase2(ORIGINAL_NUMBER));

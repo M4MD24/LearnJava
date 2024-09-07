@@ -27,7 +27,7 @@ import java.io.InputStreamReader;
  * <h2>Hello, programmer</h2>
  */
 public class SayHelloExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         OUTPUT.write("Hello, " + INPUT.readLine());

@@ -1,7 +1,7 @@
 package _1_learning._1_1_basics._1_1_7_arrays._1_1_7_2_multidimensional_array;
 
 public class MultidimensionalArray {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         /* You can create endless arrays! */
 
 //        3D Dimensional ArrayExample

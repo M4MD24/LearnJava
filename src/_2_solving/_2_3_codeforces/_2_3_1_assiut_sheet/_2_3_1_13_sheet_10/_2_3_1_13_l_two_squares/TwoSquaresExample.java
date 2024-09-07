@@ -43,7 +43,7 @@ public class TwoSquaresExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
     private static int sideLength, firstSquareSpeed, secondSquareSpeed, countOfQueries;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         inputValues();
         printQueriesTime();
     }

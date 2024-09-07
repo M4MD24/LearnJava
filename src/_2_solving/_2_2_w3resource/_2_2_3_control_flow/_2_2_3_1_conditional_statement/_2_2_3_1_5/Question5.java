@@ -14,7 +14,7 @@ package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_stat
  */
 
 public class Question5 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final byte NUMBER_OF_DAY_OF_WEEK = 3;
         System.out.printf("Input number: %d\n", NUMBER_OF_DAY_OF_WEEK);
         System.out.print(getDayOfWeek(NUMBER_OF_DAY_OF_WEEK));

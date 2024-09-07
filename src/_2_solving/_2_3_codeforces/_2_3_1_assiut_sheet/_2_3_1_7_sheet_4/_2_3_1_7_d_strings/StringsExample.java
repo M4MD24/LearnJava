@@ -39,7 +39,7 @@ import java.util.Scanner;
  */
 
 public class StringsExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         final String FIRST_TEXT = INPUT.next(),
                 SECOND_TEXT = INPUT.next();

@@ -20,7 +20,7 @@ import java.util.TreeMap;
  */
 
 public class SortedMapExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         sortedMap();
     }
 

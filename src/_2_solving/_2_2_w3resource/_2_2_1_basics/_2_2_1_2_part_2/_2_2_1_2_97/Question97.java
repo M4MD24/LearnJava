@@ -17,7 +17,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_97;
  */
 
 public class Question97 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.println("Input three integers (a,b,c):");
         final int FIRST_NUMBER = 5,
                 SECOND_NUMBER = 8,

@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class Question82 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] ORIGINAL_ARRAY = {20, 30, 40, 50, 67};
         System.out.println("Original Array: " + Arrays.toString(ORIGINAL_ARRAY));
         displayLargestElementBetweenFirstAndMiddleAndLastValues(ORIGINAL_ARRAY);

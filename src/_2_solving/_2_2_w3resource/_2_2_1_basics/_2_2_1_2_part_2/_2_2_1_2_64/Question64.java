@@ -23,7 +23,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_64;
  */
 
 public class Question64 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int FIRST_NUMBER = 5,
                 SECOND_NUMBER = 6,
                 THIRD_NUMBER = 8,

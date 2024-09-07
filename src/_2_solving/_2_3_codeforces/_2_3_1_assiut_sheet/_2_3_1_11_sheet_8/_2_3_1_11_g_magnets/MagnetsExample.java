@@ -73,7 +73,7 @@ public class MagnetsExample {
             lastValue = INPUT.nextInt(),
             groupCounts = 1;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValues();
         System.out.print(groupCounts);
     }

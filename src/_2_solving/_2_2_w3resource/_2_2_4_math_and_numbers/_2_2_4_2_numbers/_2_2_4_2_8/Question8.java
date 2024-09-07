@@ -36,7 +36,7 @@ package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2
  * </h2>
  */
 public class Question8 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int COUNT_OF_CATALAN_NUMBERS = 10 + 1;
         printCatalanNumbers(COUNT_OF_CATALAN_NUMBERS);
     }

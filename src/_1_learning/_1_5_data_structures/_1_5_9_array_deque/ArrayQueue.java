@@ -30,7 +30,7 @@ import java.util.Deque;
  */
 
 public class ArrayQueue {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         arrayQueue();
     }
 

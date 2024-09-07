@@ -48,7 +48,7 @@ import java.util.Scanner;
 public class SummationExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int LENGTH = INPUT.nextInt();
         final long[] NUMBERS = new long[LENGTH];
         inputValues(NUMBERS, LENGTH);

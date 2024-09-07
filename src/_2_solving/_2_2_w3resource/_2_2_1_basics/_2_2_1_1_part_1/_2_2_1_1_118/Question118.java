@@ -14,7 +14,7 @@ public class Question118 {
     static int index,
             indexTarget;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         enterValues();
     }
 

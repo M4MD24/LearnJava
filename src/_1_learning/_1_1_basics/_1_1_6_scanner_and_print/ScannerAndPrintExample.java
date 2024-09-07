@@ -3,7 +3,7 @@ package _1_learning._1_1_basics._1_1_6_scanner_and_print;
 import java.util.Scanner;
 
 public class ScannerAndPrintExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
 //        Output
         System.out.print("Salam\n"); // It prints string inside the quotes
 

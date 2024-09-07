@@ -49,7 +49,7 @@ import java.util.Arrays;
  */
 
 public class ComparisonExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         System.out.print(maximumSubString(new StringBuffer(INPUT.readLine())));
     }

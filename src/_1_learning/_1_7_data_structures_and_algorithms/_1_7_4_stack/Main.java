@@ -3,7 +3,7 @@ package _1_learning._1_7_data_structures_and_algorithms._1_7_4_stack;
 public class Main {
     private static final Stack<Integer> STACK = new Stack<>();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.println("■ showProperties()");
         showProperties();
 

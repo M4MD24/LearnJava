@@ -11,7 +11,7 @@ import java.util.Arrays;
  */
 
 public class Question39 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {654, 23, 421, 543, 5, 43, 52, 3, 4, 5, 34, 650, 544, 53, 324};
         printAllLeadersNumbers(NUMBERS);
     }

@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
  */
 
 public class Question21 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int START_RANGE = 1,
                 END_RANGE = 5,
                 SUM_OF_PRIME_NUMBERS = IntStream

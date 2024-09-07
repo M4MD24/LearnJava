@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_1_array._2_2_9_
  */
 
 public class Question22 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printAllPPairsOfElementsWhoseSumIsEqualSpecifiedNumber(new int[]{1, 7, 4, 5, 9, 6, 8, 2, 3}, 10);
     }
 

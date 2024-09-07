@@ -39,7 +39,7 @@ import java.io.InputStreamReader;
  */
 
 public class CalculateFunctionExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         OUTPUT.write(String.valueOf(calculateResultOfNumber(Long.parseLong(new BufferedReader(new InputStreamReader(System.in)).readLine()))));
         OUTPUT.flush();

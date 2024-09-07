@@ -8,7 +8,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_9_o
 public class Question2 {
     private static final Dog[] DOGS = {new Dog("Max", "Labrador Retriever"), new Dog("Bella", "German Shepherd")};
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printDetailsOfDogs();
     }
 

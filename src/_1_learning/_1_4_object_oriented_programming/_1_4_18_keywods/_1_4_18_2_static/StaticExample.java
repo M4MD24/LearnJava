@@ -21,7 +21,7 @@ class Person {
 }
 
 public class StaticExample {
-    public static void main(final String[] ARGS) throws ClassNotFoundException {
+    public static void main(final String[] PARAMETERS) throws ClassNotFoundException {
         Person person = new Person();
 
         person.name = "Elham";

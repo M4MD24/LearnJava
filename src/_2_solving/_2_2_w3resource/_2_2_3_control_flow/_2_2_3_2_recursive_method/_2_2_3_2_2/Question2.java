@@ -9,7 +9,7 @@ package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method
  */
 
 public class Question2 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 7;
         System.out.printf("Sum of numbers from 0 to %d is: %d",
                 NUMBER,

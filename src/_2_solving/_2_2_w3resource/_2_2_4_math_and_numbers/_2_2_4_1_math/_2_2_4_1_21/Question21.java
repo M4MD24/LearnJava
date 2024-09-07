@@ -18,7 +18,7 @@ import java.util.Set;
  */
 
 public class Question21 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int FIRST_NUMBER = 5,
                 SECOND_NUMBER = 25;
         System.out.printf("""

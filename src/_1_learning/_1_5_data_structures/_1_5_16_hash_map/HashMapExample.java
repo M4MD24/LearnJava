@@ -18,7 +18,7 @@ import java.util.HashMap;
  * <li><b>isEmpty()</b> - checks if the Hashmap is empty.</li>
  */
 public class HashMapExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         hashmap();
     }
 

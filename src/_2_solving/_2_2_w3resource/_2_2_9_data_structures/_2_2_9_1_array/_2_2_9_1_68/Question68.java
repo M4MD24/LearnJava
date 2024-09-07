@@ -42,7 +42,7 @@ import java.util.Arrays;
  */
 
 public class Question68 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] FIRST_NUMBERS = {1, 2, 3, 4},
                 SECOND_NUMBERS = {1, 2, 3};
         printAllPossiblePermutationsOfNumbers(FIRST_NUMBERS);

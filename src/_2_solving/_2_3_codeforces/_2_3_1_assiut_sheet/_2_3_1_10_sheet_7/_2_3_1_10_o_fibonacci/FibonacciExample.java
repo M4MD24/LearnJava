@@ -33,7 +33,7 @@ public class FibonacciExample {
     private static int firstNumber = 0,
             secondNumber = 1;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.print(getFibonacci(INPUT.nextByte()));
     }
 

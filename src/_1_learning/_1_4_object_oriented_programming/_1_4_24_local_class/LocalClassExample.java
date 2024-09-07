@@ -1,7 +1,7 @@
 package _1_learning._1_4_object_oriented_programming._1_4_24_local_class;
 
 public class LocalClassExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         new Car().startEngine();
     }
 }

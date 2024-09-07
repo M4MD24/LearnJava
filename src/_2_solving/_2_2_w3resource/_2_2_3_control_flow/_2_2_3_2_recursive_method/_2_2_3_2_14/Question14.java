@@ -9,7 +9,7 @@ package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method
  */
 
 public class Question14 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int DIGITS = 123456;
         System.out.printf("The sum of the digits of %d is: %d",
                 DIGITS,

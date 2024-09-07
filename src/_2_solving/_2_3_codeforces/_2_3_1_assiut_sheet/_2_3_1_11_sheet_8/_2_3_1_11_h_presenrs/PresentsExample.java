@@ -56,7 +56,7 @@ public class PresentsExample {
     private static final byte LENGTH = INPUT.nextByte();
     private static final byte[] NUMBERS = new byte[101];
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValues();
         printValues();
     }

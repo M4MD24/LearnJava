@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_4_i
  */
 
 public class Question9 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Truck TRUCK = new Truck("Volvo", "FH16", 2022, FuelType.Diesel);
         final Car CAR = new Car("Toyota", "Corolla", 2020, FuelType.Petrol);
         final Motorcycle MOTORCYCLE = new Motorcycle("Harley-Davidson", "Street Glide", 2021, FuelType.Petrol);

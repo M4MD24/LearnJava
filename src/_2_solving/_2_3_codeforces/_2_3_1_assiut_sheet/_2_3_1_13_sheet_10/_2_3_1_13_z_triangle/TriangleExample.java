@@ -47,7 +47,7 @@ public class TriangleExample {
             latitudeCoordinatesThirdPoint,
             longitudeCoordinatesThirdPoint;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         inputCoordinates();
         printIsRightAngled();
     }

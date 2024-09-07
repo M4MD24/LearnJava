@@ -17,7 +17,7 @@ import java.util.ArrayList;
  */
 
 public class Question44 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int TARGET_NUMBER = 3;
         final int[][] MATRIX = {
                 {2, 5, 3},

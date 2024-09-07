@@ -20,7 +20,7 @@ import java.util.Arrays;
  */
 
 public class Question70 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {1, 2, 3, 4, 6};
         final int SPECIFIED_NUMBER = 8;
         System.out.println(Arrays.toString(NUMBERS));

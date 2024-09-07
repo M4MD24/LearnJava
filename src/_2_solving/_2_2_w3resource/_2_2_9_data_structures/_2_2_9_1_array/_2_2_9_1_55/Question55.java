@@ -36,7 +36,7 @@ import java.util.Arrays;
  */
 
 public class Question55 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[][] ARRAYS_OF_NUMBERS = {
                 {1, 3, -7, 3, 2, 3, 1, -3, -2, -2},
                 {1, 2, -3, 4, 5, 6},

@@ -3,7 +3,7 @@ package _1_learning._1_4_object_oriented_programming._1_4_5_recursion;
 public class Recursion {
     int index = 0;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         new Recursion().methodExample();
     }
 

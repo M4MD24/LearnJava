@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_1_array._2_2_9_
  */
 
 public class Question2 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         System.out.print("Sum of Numbers: " + getSumOfNumbers(NUMBERS));
     }

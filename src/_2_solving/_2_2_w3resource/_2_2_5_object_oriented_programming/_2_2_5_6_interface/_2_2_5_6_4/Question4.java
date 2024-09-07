@@ -11,7 +11,7 @@ import java.util.List;
 public class Question4 {
     private static final Bank BANK = new Bank();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final SavingsAccount SAVINGS_ACCOUNT = new SavingsAccount(123_456);
         SAVINGS_ACCOUNT.deposit(544);
         SAVINGS_ACCOUNT.withdraw(544);

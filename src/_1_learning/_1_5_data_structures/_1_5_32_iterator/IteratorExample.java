@@ -17,7 +17,7 @@ import java.util.Iterator;
  */
 
 public class IteratorExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         iterator();
     }
 

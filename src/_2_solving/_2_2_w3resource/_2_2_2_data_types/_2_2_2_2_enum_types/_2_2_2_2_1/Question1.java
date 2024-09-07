@@ -16,7 +16,7 @@ enum DayOfWeek {
 }
 
 public class Question1 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.printf("Today is: %s", DayOfWeek.Friday);
     }
 }

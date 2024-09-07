@@ -24,7 +24,7 @@ public class Question45 {
             SECOND_SIDE,
             THIRD_SIDE;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValues();
         System.out.printf("Is the said sides from a triangle: %b", isTriangle());
     }

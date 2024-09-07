@@ -9,7 +9,7 @@ import java.util.Comparator;
  */
 
 public class Question19 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         Strings();
         Numbers();
     }

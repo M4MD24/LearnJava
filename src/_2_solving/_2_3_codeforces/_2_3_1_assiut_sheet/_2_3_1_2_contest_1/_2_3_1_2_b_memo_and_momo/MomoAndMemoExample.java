@@ -40,7 +40,7 @@ import java.util.Scanner;
  */
 
 public class MomoAndMemoExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         final long INPUT_MEMO = INPUT.nextLong(),
                 INPUT_MOMO = INPUT.nextLong(),

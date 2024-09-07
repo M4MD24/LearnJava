@@ -66,7 +66,7 @@ import java.io.InputStreamReader;
  */
 
 public class StringScoreExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         INPUT.readLine();
         System.out.print(getTotalScore(new StringBuffer(INPUT.readLine())));

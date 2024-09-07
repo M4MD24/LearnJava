@@ -23,7 +23,7 @@ import java.io.InputStreamReader;
  */
 
 public class EncryptAndDecryptMessageExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         encryptOrDecryptMessage(Byte.parseByte(INPUT.readLine()), new StringBuilder(INPUT.readLine()));
     }

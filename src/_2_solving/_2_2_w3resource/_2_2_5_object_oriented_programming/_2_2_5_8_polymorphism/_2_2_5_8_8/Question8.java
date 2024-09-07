@@ -5,7 +5,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_8_p
  * <h2>Write a Java program to create a base class Shape with methods draw() and calculateArea(). Create three subclasses: Circle, Square, and Triangle. Override the draw() method in each subclass to draw the respective shape, and override the calculateArea() method to calculate and return the area of each shape.</h2>
  */
 public class Question8 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Shape SHAPE = new Shape();
         SHAPE.draw();
         System.out.println("Shape Area: " + SHAPE.getArea() + "\n");

@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question22 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final List<String> TEXTS = Arrays.asList("orange", "Apple", "mango", "BANANA", "Strawberry", "CHERRY");
         System.out.print(getTextCaseStatus(TEXTS));
     }

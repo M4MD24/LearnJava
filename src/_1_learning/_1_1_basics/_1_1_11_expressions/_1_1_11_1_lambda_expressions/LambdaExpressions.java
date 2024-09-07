@@ -6,7 +6,7 @@ public class LambdaExpressions {
         double getValue();
     }
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         MyInterface ref;
 
         // lambda expression

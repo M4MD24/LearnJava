@@ -25,7 +25,7 @@ import java.util.Scanner;
  */
 
 public class Question79 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.println("Enter the lengths of two adjoining sides and the diagonal of the parallelogram (comma separated):");
         final String[] SIDES = INPUT.nextLine().split(",");

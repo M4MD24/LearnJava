@@ -1,7 +1,7 @@
 package _1_learning._1_1_basics._1_1_8_flow_control._1_8_3_loops._1_8_3_1_do_and_while;
 
 public class DoAndWhile {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         int index = 0;
         int stopIn = 10;
 

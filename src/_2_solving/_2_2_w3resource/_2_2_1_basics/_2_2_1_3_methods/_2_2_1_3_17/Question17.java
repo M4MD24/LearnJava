@@ -12,7 +12,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_17;
  * </h2>
  */
 public class Question17 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 12541;
         System.out.printf("Input a number: %d\n", NUMBER);
         System.out.print(getCountDigitTwo(NUMBER));

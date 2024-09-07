@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
  */
 
 public class Question42 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {1, 1, 1, 1, 0, 1, 4, 0, 4, 0, 2, 3, 4},
                 NUMBERS_AFTER_ARRANGE_ZEROS_TO_LEFT_SIDE_AND_ONES_TO_RIGHT_SIDE = arrangeZerosToLeftSideAndOnesToRightSide(NUMBERS);
         System.out.println(Arrays.toString(NUMBERS));

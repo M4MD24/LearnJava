@@ -18,7 +18,7 @@ package _2_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_
  */
 
 public class Question8 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final double SIDE = 15;
         System.out.printf("Input the side length value: %f\n\n", SIDE);
         System.out.printf("Square: %.2f\n", Math.pow(SIDE, 2));

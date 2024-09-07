@@ -21,7 +21,7 @@ non-sealed interface J extends I {
 }
 
 public class SealedClassAndInterfaceExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         A aClass = new A();
         B bClass = new B();
         C cClass = new C();

@@ -30,7 +30,7 @@ import java.util.Iterator;
  * </ul>
  */
 public class ArrayListExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         arrayList();
     }
 

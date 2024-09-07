@@ -13,7 +13,7 @@ public class Question2 extends Thread {
     private static Thread oddNumbersThread,
             evenNumbersThread;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         findNumbers();
         runThreads();
     }

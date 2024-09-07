@@ -40,7 +40,7 @@ public class BreakNumberExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static long length = INPUT.nextLong();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValues();
     }
 

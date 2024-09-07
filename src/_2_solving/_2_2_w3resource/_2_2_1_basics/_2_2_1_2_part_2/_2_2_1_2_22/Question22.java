@@ -18,7 +18,7 @@ public class Question22 {
     private static final int[] NUMBERS = {1, 2, 3, 4, 5, 6, 7, 8},
             TARGET_NUMBERS = {1, 4, 8};
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printTargetNumbersIndices(0);
     }
 

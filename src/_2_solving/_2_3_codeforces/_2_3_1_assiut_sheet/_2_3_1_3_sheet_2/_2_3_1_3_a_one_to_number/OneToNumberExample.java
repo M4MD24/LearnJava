@@ -34,7 +34,7 @@ import java.util.Scanner;
  */
 
 public class OneToNumberExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         printToNumber(INPUT.nextInt());
     }

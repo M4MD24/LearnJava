@@ -9,7 +9,7 @@ package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_
  */
 
 public class Question3 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final double NUMBER = 5.44444D;
         System.out.printf("It's a %s number",
                 NUMBER % 1 == 0

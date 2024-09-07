@@ -72,7 +72,7 @@ public class ArrivalOfTheGeneralExample {
             minimumNumber = 101,
             maximumNumber = 0;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValues();
         System.out.print(getSumMovements());
     }

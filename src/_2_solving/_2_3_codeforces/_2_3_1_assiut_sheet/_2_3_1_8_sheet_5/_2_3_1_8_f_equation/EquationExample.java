@@ -33,7 +33,7 @@ import java.util.Scanner;
  */
 
 public class EquationExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print(equation(INPUT.nextByte(), INPUT.nextByte()));
     }

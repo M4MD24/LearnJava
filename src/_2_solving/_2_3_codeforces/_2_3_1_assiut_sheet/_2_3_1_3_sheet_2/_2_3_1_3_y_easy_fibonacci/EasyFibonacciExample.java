@@ -36,7 +36,7 @@ public class EasyFibonacciExample {
     final static int LENGTH = INPUT.nextInt();
     private static final int[] FIBONACCI_ARRAY = new int[LENGTH + 1];
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printFibonacci();
     }
 

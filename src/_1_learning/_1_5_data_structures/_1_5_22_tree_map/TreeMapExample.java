@@ -62,7 +62,7 @@ import java.util.TreeMap;
  * </ul>
  */
 public class TreeMapExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         treeMap();
     }
 

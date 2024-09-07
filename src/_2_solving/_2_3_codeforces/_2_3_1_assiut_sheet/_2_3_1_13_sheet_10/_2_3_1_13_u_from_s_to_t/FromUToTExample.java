@@ -107,7 +107,7 @@ public class FromUToTExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
     private static byte countOfTestCases;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         inputString();
         while (countOfTestCases-- > 0) {

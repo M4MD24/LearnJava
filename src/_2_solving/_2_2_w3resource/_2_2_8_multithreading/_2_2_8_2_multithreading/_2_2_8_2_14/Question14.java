@@ -9,7 +9,7 @@ import java.util.concurrent.RecursiveTask;
  */
 
 public class Question14 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         final ForkJoinPool FORK_JOIN_POOL = new ForkJoinPool();
         final int SUM = FORK_JOIN_POOL.invoke(new SumTask(NUMBERS, 0, NUMBERS.length));

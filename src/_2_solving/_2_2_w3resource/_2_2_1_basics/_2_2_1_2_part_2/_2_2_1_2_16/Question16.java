@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Question16 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.print("Input an integer: ");
         final int NUMBER = new Scanner(System.in).nextInt();
         System.out.printf("String format of the said integer: %s", String.valueOf(NUMBER));

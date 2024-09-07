@@ -37,7 +37,7 @@ import java.io.*;
  * </ul>
  */
 public class BufferedInputAndOutputStreamExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         bufferedOutputStream();
         bufferedInputStream();
     }

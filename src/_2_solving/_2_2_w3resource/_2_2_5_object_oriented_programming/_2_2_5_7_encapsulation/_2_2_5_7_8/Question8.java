@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_7_e
  */
 
 public class Question8 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Book BOOK = new Book();
         BOOK.setTitle("Title");
         BOOK.setAuthor("Author");

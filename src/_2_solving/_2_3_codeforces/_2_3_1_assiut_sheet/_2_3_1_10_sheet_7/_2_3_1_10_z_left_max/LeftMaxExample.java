@@ -35,7 +35,7 @@ public class LeftMaxExample {
     private static int length = INPUT.nextInt();
     private static int maximumInRangeFromOneToIndex = INPUT.nextInt();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printMaximumInRangeFromOneToIndex();
         inputValuesRecursion();
     }

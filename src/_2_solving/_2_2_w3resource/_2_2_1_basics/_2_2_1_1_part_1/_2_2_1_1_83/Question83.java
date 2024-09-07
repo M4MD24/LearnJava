@@ -17,7 +17,7 @@ import java.util.Arrays;
  */
 
 public class Question83 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] FIRST_ARRAY = {1, 3, -5, 4},
                 SECOND_ARRAY = {1, 4, -5, -2};
         System.out.println("Array1: " + Arrays.toString(FIRST_ARRAY));

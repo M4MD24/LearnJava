@@ -22,7 +22,7 @@ package _2_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_
  */
 
 public class Question15 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final float FLOAT_NUMBER = 0.2F;
         System.out.printf("Initial floating number: %f\n", FLOAT_NUMBER);
         System.out.printf("Float %f next down is %f\n", FLOAT_NUMBER, Math.nextDown(FLOAT_NUMBER));

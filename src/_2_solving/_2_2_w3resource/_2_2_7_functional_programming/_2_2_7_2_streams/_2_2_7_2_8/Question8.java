@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question8 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {10, 5, 20, 8, 15};
         final int SECOND_LARGEST_ELEMENT = Arrays
                 .stream(NUMBERS)

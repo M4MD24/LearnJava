@@ -52,7 +52,7 @@ public class KokoAndTheTransformationExample {
     private static StringTokenizer line;
     private static int firstNumbersLength, secondNumbersLength, firstNumbersSum = 0, secondNumbersSum = 0;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         inputValues();
         OUTPUT.write(firstNumbersSum == secondNumbersSum ? "Yes" : "No");
         OUTPUT.flush();

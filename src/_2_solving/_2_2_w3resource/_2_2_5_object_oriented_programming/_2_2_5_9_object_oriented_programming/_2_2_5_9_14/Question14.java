@@ -8,7 +8,7 @@ import java.util.ArrayList;
  */
 
 public class Question14 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final School SCHOOL = new School();
 
         SCHOOL.addTeacher("Mohamed");

@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 
 public class Question99 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         Scanner input = new Scanner(System.in);
 
         final int SPECIFIC_NUMBER = specificNumber(input),

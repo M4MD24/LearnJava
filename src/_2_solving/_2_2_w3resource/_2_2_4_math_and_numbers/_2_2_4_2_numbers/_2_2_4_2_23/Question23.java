@@ -46,7 +46,7 @@ import java.util.ArrayList;
 public class Question23 {
     private static final ArrayList<Short> NARCISSISTIC_NUMBERS = new ArrayList<>();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         getNarcissisticNumbersBetween1And1000();
         printNarcissisticNumbers();
     }

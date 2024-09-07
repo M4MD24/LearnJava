@@ -24,7 +24,7 @@ import java.util.Scanner;
 public class Question148 {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.print("Input text: ");
         final String TEXT = INPUT.nextLine();
         System.out.printf("Original String: %s\nFirst unique character of the above: %s",

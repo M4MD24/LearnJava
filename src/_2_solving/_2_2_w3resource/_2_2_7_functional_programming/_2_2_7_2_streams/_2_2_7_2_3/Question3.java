@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question3 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final List<Integer> NUMBERS = Arrays.asList(1, 2, 3, 4, 5);
         final int SUM_OF_ODD_NUMBERS = NUMBERS
                 .stream()

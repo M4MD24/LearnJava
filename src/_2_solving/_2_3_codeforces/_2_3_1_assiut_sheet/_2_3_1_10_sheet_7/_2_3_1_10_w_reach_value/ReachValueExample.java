@@ -58,7 +58,7 @@ public class ReachValueExample {
     private static final byte LENGTH = INPUT.nextByte();
     private static long value;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValues((byte) 0);
     }
 

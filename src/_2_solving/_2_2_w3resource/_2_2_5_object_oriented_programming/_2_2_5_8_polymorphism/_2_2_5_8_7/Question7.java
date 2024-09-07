@@ -5,7 +5,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_8_p
  * <h2>Write a Java program to create a base class Animal with methods move() and makeSound(). Create two subclasses Bird and Panther. Override the move() method in each subclass to describe how each animal moves. Also, override the makeSound() method in each subclass to make a specific sound for each animal.</h2>
  */
 public class Question7 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Animal ANIMAL = new Animal();
         ANIMAL.move();
         ANIMAL.makeSound();

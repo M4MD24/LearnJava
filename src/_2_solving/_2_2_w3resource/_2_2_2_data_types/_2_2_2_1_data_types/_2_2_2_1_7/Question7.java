@@ -26,7 +26,7 @@ package _2_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_
  */
 
 public class Question7 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final float DISTANCE_IN_METERS = 2500;
         final int HOURS = 5,
                 MINUTES = 56,

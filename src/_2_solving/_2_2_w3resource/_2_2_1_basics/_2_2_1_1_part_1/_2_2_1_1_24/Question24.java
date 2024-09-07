@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Question24 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         int binaryNumber, remainder, decimalNumber = 0, quot, i = 1, j;
         int[] octalNumber = new int[100];
         Scanner input = new Scanner(System.in);

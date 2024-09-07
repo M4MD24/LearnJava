@@ -32,7 +32,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_5;
 public class Question5 {
     private static final byte[][] NUMBERS = {{10, 20, 30}, {40, 50, 60}};
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printOriginalValues();
         printReverseValues();
     }

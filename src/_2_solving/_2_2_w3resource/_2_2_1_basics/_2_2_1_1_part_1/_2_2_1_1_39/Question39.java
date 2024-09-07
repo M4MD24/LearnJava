@@ -21,7 +21,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_39;
  */
 
 public class Question39 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         int amount = 0;
 
         for (int number1 = 1; number1 < 5; number1++) {

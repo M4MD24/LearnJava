@@ -12,7 +12,7 @@ package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_stat
  */
 
 public class Question29 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 125463;
         System.out.printf("Input an integer number less than ten billion: %d\n", NUMBER);
         System.out.printf("Number of digits in the number: %d", String.valueOf(NUMBER).length());

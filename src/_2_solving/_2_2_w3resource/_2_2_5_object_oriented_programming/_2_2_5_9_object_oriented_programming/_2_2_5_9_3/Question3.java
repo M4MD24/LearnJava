@@ -8,7 +8,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_9_o
 public class Question3 {
     private static final Rectangle[] RECTANGLES = {new Rectangle(2, 5), new Rectangle(3, 8)};
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printDetailsOfRectangles();
     }
 

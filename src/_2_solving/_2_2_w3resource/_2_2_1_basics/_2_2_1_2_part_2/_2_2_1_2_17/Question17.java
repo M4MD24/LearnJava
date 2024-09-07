@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class Question17 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {0, 3, 4, 0, 1, 2, 5, 0};
         System.out.printf("Original Array: %s\n", Arrays.toString(NUMBERS));
         moveZerosToTheRightSide(NUMBERS);

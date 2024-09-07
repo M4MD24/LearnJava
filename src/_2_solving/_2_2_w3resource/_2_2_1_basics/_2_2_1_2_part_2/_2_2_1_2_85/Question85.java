@@ -17,7 +17,7 @@ import java.util.Scanner;
  */
 
 public class Question85 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.println("Input StartX1, StartY1, EndX1, EndY1, StartX2, StartY2, EndX2, EndY2:");
         System.out.printf("Two lines are %sorthogonal",
