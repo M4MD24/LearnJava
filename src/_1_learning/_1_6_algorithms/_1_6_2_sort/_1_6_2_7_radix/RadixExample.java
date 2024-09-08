@@ -3,7 +3,7 @@ package _1_learning._1_6_algorithms._1_6_2_sort._1_6_2_7_radix;
 import java.util.Arrays;
 
 public class RadixExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {161, 269, 370, 101, 125, 125, 716, 54, 54, 868, 12};
         System.out.println("Original Numbers: " + Arrays.toString(NUMBERS));
         radixSort(NUMBERS);

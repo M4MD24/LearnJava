@@ -41,7 +41,7 @@ public class ReverseWordsExample {
     private static final String[] WORDS = INPUT.nextLine().split(" ");
     private static final int WORDS_LENGTH = WORDS.length;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         reverseWords();
         printWords();
     }

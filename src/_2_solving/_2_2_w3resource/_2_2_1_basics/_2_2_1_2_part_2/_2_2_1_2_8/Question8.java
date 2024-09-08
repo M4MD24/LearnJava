@@ -22,7 +22,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_8;
 public class Question8 {
     private static final int ROWS = 3, COLUMNS = 3;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printIsNotPrime(0, 0, ROWS * COLUMNS);
     }
 

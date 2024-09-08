@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_9_o
  */
 
 public class Question25 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Building RESIDENTIAL_BUILDING = new ResidentialBuilding("Address1, Address1, Address1", 5, 150, 5, 30);
         RESIDENTIAL_BUILDING.printInformation();
 

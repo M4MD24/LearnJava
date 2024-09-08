@@ -15,7 +15,7 @@ import java.util.Base64;
  */
 
 public class Question10 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         AES();
         RSA();
     }

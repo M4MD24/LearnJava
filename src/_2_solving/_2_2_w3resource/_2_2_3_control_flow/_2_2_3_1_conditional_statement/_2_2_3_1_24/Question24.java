@@ -18,7 +18,7 @@ package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_stat
  * @@@@@@
  * */
 public class Question24 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER_OF_ROWS = 6;
         System.out.printf("Input number of rows: %d\n", NUMBER_OF_ROWS);
         printStarsTriangle(NUMBER_OF_ROWS);

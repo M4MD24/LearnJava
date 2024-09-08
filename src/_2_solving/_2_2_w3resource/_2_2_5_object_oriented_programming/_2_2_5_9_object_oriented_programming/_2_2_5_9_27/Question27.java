@@ -8,7 +8,7 @@ import java.util.Calendar;
  */
 
 public class Question27 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final CustomerOrder CUSTOMER_ORDER = new CustomerOrder("0987654321", "Someone", 2024, 8, 11);
         final CustomerOrder.OnlineOrder ONLINE_ORDER = new CustomerOrder.OnlineOrder("Address, Address, Address", "0987654321098764321");
         System.out.printf("""

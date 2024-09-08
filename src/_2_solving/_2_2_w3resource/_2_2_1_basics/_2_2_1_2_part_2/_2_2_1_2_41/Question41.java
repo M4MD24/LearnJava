@@ -13,7 +13,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_41;
  */
 
 public class Question41 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int TARGET_NUMBER = 25;
         System.out.printf("Input a positive integre: %d\n", TARGET_NUMBER);
         System.out.printf("Is %d sum of two square numbers? %b",

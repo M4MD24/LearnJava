@@ -15,7 +15,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_16;
 */
 
 public class Question16 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final String SHAPE = """
                  +""\"""+
                 [| o o |]

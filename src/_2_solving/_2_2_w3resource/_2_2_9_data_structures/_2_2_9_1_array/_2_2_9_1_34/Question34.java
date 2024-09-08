@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class Question34 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Integer[] NUMBERS = {49, 1, 3, 200, 2, 4, 70, 5};
         System.out.println(Arrays.toString(NUMBERS));
         final Integer[] LONGEST_CONSECUTIVE_NUMBERS = getLongestConsecutiveNumbers(NUMBERS);

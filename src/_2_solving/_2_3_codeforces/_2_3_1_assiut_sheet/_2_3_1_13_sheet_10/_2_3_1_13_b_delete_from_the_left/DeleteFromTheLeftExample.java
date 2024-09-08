@@ -74,7 +74,7 @@ import java.io.InputStreamReader;
  */
 
 public class DeleteFromTheLeftExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         OUTPUT.write(String.valueOf(countOfCharactersDeleted(new StringBuilder(INPUT.readLine()), new StringBuilder(INPUT.readLine()))));

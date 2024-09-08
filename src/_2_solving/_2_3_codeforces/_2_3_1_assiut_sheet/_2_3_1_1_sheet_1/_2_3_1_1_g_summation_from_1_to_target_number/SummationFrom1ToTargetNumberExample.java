@@ -31,7 +31,7 @@ import java.util.Scanner;
 public class SummationFrom1ToTargetNumberExample {
     private static final Scanner input = new Scanner(System.in);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int TARGET_NUMBER = input.nextInt();
         long sum = (long) TARGET_NUMBER * (TARGET_NUMBER + 1) / 2;
         System.out.print(sum);

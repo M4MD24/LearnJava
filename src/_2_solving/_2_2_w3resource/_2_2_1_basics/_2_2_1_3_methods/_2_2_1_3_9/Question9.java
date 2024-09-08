@@ -21,7 +21,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_9;
  * </h2>
  */
 public class Question9 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printCharacters('(', 'z', 20);
     }
 

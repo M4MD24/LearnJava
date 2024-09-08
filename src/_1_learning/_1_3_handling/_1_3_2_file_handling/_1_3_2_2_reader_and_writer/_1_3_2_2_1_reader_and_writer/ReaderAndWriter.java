@@ -28,7 +28,7 @@ import java.io.*;
  */
 
 public class ReaderAndWriter {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         writer();
         reader();
     }

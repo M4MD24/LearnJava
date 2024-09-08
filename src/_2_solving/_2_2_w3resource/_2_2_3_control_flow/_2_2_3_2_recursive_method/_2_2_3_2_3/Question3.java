@@ -12,7 +12,7 @@ public class Question3 {
     private static int firstNumber = 1,
             secondNumber = 1;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 9;
         System.out.printf("The fibonacci number at position %d is: %d",
                 NUMBER,

@@ -27,7 +27,7 @@ import java.util.Scanner;
  */
 
 public class AddExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print(addition(INPUT.nextInt(), INPUT.nextInt()));
     }

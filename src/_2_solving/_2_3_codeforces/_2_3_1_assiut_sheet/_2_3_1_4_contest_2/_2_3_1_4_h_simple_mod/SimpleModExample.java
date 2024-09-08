@@ -39,7 +39,7 @@ import java.util.Scanner;
  */
 
 public class SimpleModExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         new Scanner(System.in).next();
         System.out.printf("%d %d", 0, 0);
     }

@@ -12,7 +12,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_5;
  */
 
 public class Question5 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final String TEXT = "The quick brown fox jumps over the lazy dog.";
         System.out.printf("Input the text: %s\n", TEXT);
         System.out.printf("Number of words in the text: %d", TEXT.split(" +").length);

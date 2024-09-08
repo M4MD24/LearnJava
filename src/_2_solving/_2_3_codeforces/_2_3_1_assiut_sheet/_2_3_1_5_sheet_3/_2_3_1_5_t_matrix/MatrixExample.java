@@ -38,7 +38,7 @@ public class MatrixExample {
     private static final byte LENGTH = INPUT.nextByte();
     private static final byte[][] NUMBERS = new byte[LENGTH][LENGTH];
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValues();
         final long SUM_NUMBERS_FIRST_DIAGONAL = getSumNumbersFirstDiagonal(),
                 SUM_NUMBERS_SECOND_DIAGONAL = getSumNumbersSecondDiagonal(),

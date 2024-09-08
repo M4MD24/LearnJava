@@ -22,7 +22,7 @@ public class Question31 {
             SECOND_NUMBER = 2345,
             THIRD_NUMBER = 3321;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printNumbers();
         System.out.printf("%s order", getNumbersStatus());
     }

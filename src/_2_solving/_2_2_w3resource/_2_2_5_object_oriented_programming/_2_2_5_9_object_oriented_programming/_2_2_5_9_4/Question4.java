@@ -8,7 +8,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_9_o
 public class Question4 {
     private static final Circle[] CIRCLES = {new Circle(3), new Circle(0)};
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printDetailsOfCircles();
     }
 

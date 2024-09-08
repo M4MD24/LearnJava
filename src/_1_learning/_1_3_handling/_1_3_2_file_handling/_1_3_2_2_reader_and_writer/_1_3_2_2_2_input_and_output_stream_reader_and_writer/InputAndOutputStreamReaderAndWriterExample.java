@@ -42,7 +42,7 @@ import java.nio.charset.StandardCharsets;
  */
 
 public class InputAndOutputStreamReaderAndWriterExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         outputStreamWriter();
         inputStreamReader();
     }

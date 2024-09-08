@@ -13,7 +13,7 @@ enum Size {
         };
     }
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         // getSize
         System.out.println("getSize: " + Size.SMALL.getSize());
 

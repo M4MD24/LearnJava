@@ -3,7 +3,7 @@ package _2_solving._2_1_w3schools._2_1_1_how_to._2_1_1_6_print_difference_betwee
 import java.util.Scanner;
 
 public class PrintDifferenceBetweenTwoNumbers {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         Scanner input = new Scanner(System.in);
         int number1 = input.nextInt();
         int number2 = input.nextInt();

@@ -1,7 +1,7 @@
 package _1_learning._1_4_object_oriented_programming._1_4_19_generics;
 
 public class GenericsClassExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         // initialize generic class
         // with Integer data
         GenericsClass<Integer> intObj = new GenericsClass<>(5);

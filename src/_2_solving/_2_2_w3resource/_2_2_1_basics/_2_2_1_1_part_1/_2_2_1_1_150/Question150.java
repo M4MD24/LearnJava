@@ -88,7 +88,7 @@ public class Question150 {
     private static final BinaryTree BINARY_TREE_1 = new BinaryTree(),
             BINARY_TREE_2 = new BinaryTree();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         insertion();
         showAll();
         printAll();

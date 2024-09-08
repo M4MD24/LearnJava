@@ -8,7 +8,7 @@ import java.util.function.Predicate;
  */
 
 public class Question14 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final String TEXT = "Java";
         final Predicate<String> TEXT_IS_PALINDROME = (STRING) -> STRING.contentEquals(new StringBuilder(STRING).reverse());
         System.out.print(TEXT_IS_PALINDROME.test(TEXT));

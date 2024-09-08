@@ -35,7 +35,7 @@ package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_stat
 public class Question11 {
     private static int sumOfNumbers = 0;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int TARGET_NUMBER = 7;
         System.out.printf("Input number: %d\n", TARGET_NUMBER);
         System.out.printf("The first number natural numbers are: %d\n", TARGET_NUMBER);

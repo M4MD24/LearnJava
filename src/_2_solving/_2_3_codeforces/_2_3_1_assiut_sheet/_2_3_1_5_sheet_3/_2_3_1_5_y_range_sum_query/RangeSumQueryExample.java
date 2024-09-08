@@ -67,7 +67,7 @@ public class RangeSumQueryExample {
     private static final int[] NUMBERS = new int[LENGTH];
     private static final long[] SUM_NUMBERS = new long[LENGTH];
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValues();
         inputAndPrintRanges();
     }

@@ -17,7 +17,7 @@ import java.util.Arrays;
 public class Question26 {
     private static int[] numbers = {7, 2, 4, 1, 3, 5, 6, 8, 2, 10};
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.printf("Original array: %s\n", Arrays.toString(numbers));
         sortOddAndEvenNumbers();
         System.out.printf("After partition the said array becomes: %s", Arrays.toString(numbers));

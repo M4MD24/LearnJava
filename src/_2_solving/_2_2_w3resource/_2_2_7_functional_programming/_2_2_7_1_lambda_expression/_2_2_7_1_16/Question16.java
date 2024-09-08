@@ -10,7 +10,7 @@ import java.util.function.Predicate;
  */
 
 public class Question16 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final List<String> TEXTS = Arrays.asList("Strawberry", "Apple", "Orange", "Banana");
         final boolean CONTAINS_THE_WORD = TEXTS.stream().anyMatch(WORD -> WORD.equals("Apple"));
         System.out.print(CONTAINS_THE_WORD);

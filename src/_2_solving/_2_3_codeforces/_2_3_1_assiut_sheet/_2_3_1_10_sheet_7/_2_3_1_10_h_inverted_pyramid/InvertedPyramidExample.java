@@ -31,7 +31,7 @@ public class InvertedPyramidExample {
     private static short spacesCount = 0;
     private static short starsCount = (short) (length * 2 - 1);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printPyramid();
     }
 

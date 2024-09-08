@@ -48,7 +48,7 @@ import java.io.InputStreamReader;
  */
 
 public class MaxSplitExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         System.out.print(printMaxSplitAndSplits(new StringBuffer(INPUT.readLine())));
     }

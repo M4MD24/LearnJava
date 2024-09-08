@@ -25,7 +25,7 @@ import java.util.Comparator;
  */
 
 public class Question61 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final ArrayList<Integer> HEIGHT_BUILDINGS = new ArrayList<>();
         printHeightBuildings(HEIGHT_BUILDINGS);
         printTopThreeBuildings(HEIGHT_BUILDINGS);

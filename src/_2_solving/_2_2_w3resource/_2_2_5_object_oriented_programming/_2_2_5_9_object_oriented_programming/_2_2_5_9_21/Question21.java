@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_9_o
  */
 
 public class Question21 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Vehicle TRUCK = new Truck("Truck 1", "333", 2022, 5000);
         TRUCK.displayInformation();
 

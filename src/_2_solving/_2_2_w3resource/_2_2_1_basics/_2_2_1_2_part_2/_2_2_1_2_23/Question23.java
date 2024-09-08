@@ -33,7 +33,7 @@ import java.util.Arrays;
  */
 
 public class Question23 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 8};
         final int NUMBERS_REQUIRED_TO_BE_COMPILED = 3;
         System.out.printf("Original array: %s\n\n", Arrays.toString(NUMBERS));

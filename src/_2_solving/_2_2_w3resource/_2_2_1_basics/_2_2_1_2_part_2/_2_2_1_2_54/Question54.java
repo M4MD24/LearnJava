@@ -17,7 +17,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_54;
  */
 
 public class Question54 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int FIRST_NUMBER = 25,
                 SECOND_NUMBER = 35,
                 THIRD_NUMBER = 45;

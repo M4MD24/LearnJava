@@ -37,7 +37,7 @@ public class FractionExample {
     private static short firstNumber, thirdNumber;
     private static int secondNumber, fourthNumber;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         inputValues();
         OUTPUT.write(getSmallestFraction());

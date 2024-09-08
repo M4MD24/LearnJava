@@ -20,7 +20,7 @@ import java.util.Arrays;
  */
 
 public class Question20 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int TARGET_NUMBER = 125;
         System.out.printf("Input the number: %d\n", TARGET_NUMBER);
         final boolean[] PRIME_NUMBERS = new boolean[TARGET_NUMBER + 1];

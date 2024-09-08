@@ -13,7 +13,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_31;
  */
 
 public class Question31 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final String TEXT = "The length of last word";
         final String[] TEXT_OF_WORDS = TEXT.split(" +");
         System.out.printf("Original String: %s\n", TEXT);

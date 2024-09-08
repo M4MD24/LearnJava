@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question2 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         List<String> texts = Arrays.asList("Cat", "Apple", "Bear", "Deer");
         System.out.println("Original Texts : " + texts);
 

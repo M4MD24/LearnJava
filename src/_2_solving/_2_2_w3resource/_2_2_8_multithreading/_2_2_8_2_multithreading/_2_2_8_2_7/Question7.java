@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReadWriteLock;
  */
 
 public class Question7 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Runnable READ_TASK = () -> {
             for (int index = 0; index < 2; index++)
                 SharedResource.readData();

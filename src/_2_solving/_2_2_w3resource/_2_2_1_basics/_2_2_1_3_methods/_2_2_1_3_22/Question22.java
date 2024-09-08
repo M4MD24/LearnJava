@@ -14,7 +14,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_22;
  * </h2>
  */
 public class Question22 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 8642;
         System.out.printf("Input an number: \n%d", NUMBER);
         System.out.println("Check whether every digit of the said number is even or not!");

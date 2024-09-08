@@ -8,7 +8,7 @@ import java.util.function.Function;
  */
 
 public class Question25 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Function<Long, String> DECIMAL_TO_BINARY = Long::toBinaryString;
         System.out.print(DECIMAL_TO_BINARY.apply(10L));
     }

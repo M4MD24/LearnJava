@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_9_o
  */
 
 public class Question24 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final WashingMachine WASHING_MACHINE = new WashingMachine("0987654321", "Fresh", 462, 5);
         WASHING_MACHINE.extendWarranty(3);
         System.out.printf("Id: %s%nName: %s%nPrice: £%f%nWarranty Period: %d%n",

@@ -53,7 +53,7 @@ public class FootballExample {
     private static byte countOfLines;
     private static String[] lines;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         inputValues();
         OUTPUT.write(getMostRepetitive());
         OUTPUT.flush();

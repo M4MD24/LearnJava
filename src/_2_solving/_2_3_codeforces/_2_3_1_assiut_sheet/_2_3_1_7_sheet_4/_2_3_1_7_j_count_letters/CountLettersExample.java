@@ -47,7 +47,7 @@ public class CountLettersExample {
     private static final String TEXT = INPUT.next();
     private static final int[] COUNTER_TEXT_LETTERS = new int[26];
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printTimesEachLetter();
     }
 

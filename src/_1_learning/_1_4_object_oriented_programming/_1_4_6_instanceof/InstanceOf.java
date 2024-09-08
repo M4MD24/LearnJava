@@ -2,7 +2,7 @@ package _1_learning._1_4_object_oriented_programming._1_4_6_instanceof;
 
 public class InstanceOf {
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         String name = "Mohamed";
         boolean instanceOfString = name instanceof String;
         System.out.println("name is an instance of String: " + instanceOfString);

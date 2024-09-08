@@ -61,7 +61,7 @@ import java.util.StringTokenizer;
  */
 
 public class NewPasswordExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         final StringTokenizer LINE = new StringTokenizer(new BufferedReader(new InputStreamReader(System.in)).readLine());
         OUTPUT.write(String.valueOf(getNewPassword(Byte.parseByte(LINE.nextToken()), Byte.parseByte(LINE.nextToken()))));

@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class Question65 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {2, 3, 1, 7, 9, 5, 11, 3, 5};
         System.out.println(Arrays.toString(NUMBERS));
         System.out.print("The maximum difference between two elements of the said array elements: " + getMaximumDifferenceBetweenTwoNumbersInNumbers(NUMBERS));

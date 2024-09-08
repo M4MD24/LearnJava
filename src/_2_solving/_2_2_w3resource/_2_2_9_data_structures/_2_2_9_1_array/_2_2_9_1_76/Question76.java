@@ -15,7 +15,7 @@ import java.util.stream.IntStream;
  */
 
 public class Question76 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {1, 2, 5, 0, 4, 3, 6};
         System.out.println("Original numbers: " + Arrays.toString(NUMBERS));
         System.out.print("Check consecutive numbers in the said array! " + areConsecutiveNumbers(NUMBERS));

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Question18 {
     private static final Restaurant RESTAURANT = new Restaurant();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         addItems();
         RESTAURANT.removeItem("Fish");
         RESTAURANT.getItem("Meat").editPrice(50);

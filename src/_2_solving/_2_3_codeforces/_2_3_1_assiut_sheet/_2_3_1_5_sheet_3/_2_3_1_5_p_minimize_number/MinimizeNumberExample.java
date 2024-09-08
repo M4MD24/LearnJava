@@ -59,7 +59,7 @@ public class MinimizeNumberExample {
     private static final int[] NUMBERS = new int[LENGTH];
     private static boolean doOperations = true;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValues();
         System.out.print(getMinimizeNumber());
     }

@@ -18,7 +18,7 @@ package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_stat
  */
 
 public class Question2 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int FIRST_NUMBER = 1,
                 SECOND_NUMBER = 5,
                 THIRD_NUMBER = 1;

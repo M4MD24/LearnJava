@@ -29,7 +29,7 @@ class OuterClass3 { // Outer Class
 /* In Java, Only nested classes are allowed to be static! */
 
 public class NestedAndInnerClass {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         OuterClass.NestedClass nestedClass = new OuterClass().new NestedClass();
 
         OuterClass3.InnerClass innerClass = new OuterClass3().new InnerClass();

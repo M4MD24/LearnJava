@@ -12,7 +12,7 @@ package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_stat
  */
 
 public class Question28 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = -2534;
         System.out.printf("Input a number: %d", NUMBER);
         System.out.print(getStatusOfNumber(NUMBER));

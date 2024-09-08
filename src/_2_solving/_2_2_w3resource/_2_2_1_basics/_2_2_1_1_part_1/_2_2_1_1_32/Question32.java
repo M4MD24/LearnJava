@@ -23,7 +23,7 @@ import java.util.Scanner;
  * </h2>
  */
 public class Question32 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Input first integer: ");

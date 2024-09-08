@@ -15,7 +15,7 @@ package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_
  */
 
 public class Question2 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final double NUMBER = 12.56D;
         System.out.printf("Original number: %f\n", NUMBER);
         System.out.printf("Integral part: %f\n", Math.floor(NUMBER));

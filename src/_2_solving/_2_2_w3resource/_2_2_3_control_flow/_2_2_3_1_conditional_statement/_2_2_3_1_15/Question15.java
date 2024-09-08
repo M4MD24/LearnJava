@@ -28,7 +28,7 @@ package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_stat
 public class Question15 {
     private static int sumOfOddNumbers = 0;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER_OF_TERMS = 5;
         System.out.printf("Input number if terms is: %d\n", NUMBER_OF_TERMS);
         System.out.println("The odd numbers are:");

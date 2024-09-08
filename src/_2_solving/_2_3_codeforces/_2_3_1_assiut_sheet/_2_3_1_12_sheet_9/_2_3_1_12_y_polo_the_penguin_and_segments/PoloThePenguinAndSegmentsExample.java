@@ -49,7 +49,7 @@ import java.util.StringTokenizer;
 public class PoloThePenguinAndSegmentsExample {
     private static int divisorNumber, sumOfNumbers;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         inputSegments();
         OUTPUT.write(String.valueOf(getNumberOfTimesChanged()));

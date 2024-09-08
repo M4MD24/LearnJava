@@ -3,7 +3,7 @@ package _1_learning._1_5_data_structures._1_5_14_linked_blocking_deque;
 import java.util.concurrent.LinkedBlockingDeque;
 
 public class LinkedBlockingDequeExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         linkedBlockingDeque();
     }
 

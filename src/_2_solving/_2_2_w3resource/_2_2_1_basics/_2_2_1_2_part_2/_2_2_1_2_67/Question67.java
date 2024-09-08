@@ -13,7 +13,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_67;
  */
 
 public class Question67 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int TARGET_NUMBER = 1235;
         System.out.printf("Input the target number: %d\n", TARGET_NUMBER);
         System.out.printf("Number of prime numbers which are less than or equal to target number: %d", getCountOfPrimeNumbersLessThanOrEqualToTargetNumber(TARGET_NUMBER));

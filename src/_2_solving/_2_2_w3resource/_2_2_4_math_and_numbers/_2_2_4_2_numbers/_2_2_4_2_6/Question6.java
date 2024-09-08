@@ -8,7 +8,7 @@ package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2
  * <h2>0 1 2 3 4 5 6 7 8 9 153 370 371 407 1634</h2>
  */
 public class Question6 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int TARGET_NUMBER = 15;
         printNarcissisticNumbers(TARGET_NUMBER);
     }

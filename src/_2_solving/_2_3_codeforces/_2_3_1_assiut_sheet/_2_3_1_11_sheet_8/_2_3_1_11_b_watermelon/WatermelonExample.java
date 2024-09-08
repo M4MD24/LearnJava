@@ -33,7 +33,7 @@ import java.io.InputStreamReader;
  */
 
 public class WatermelonExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final byte TARGET_NUMBER = Byte.parseByte(new BufferedReader(new InputStreamReader(System.in)).readLine());
         System.out.print((TARGET_NUMBER % 2 == 0 && TARGET_NUMBER > 3) ? "YES" : "NO");
     }

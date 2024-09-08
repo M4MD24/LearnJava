@@ -8,7 +8,7 @@ import java.util.ArrayList;
  */
 
 public class Question5 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final ArrayList<Book> BOOK_COLLECTION = Book.bookCollection();
         final Book BOOK_1 = new Book("Java Programming", "John Doe", "1111111111111"),
                 BOOK_2 = new Book("Python for Beginners", "Jane Smith", "2222222222222");

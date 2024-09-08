@@ -51,7 +51,7 @@ import java.nio.charset.Charset;
  */
 
 public class Question40 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.println("List of available character sets: ");
         for (String type : Charset.availableCharsets().keySet()) System.out.println(type);
     }

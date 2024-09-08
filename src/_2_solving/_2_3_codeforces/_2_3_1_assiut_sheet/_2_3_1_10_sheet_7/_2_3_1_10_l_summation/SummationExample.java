@@ -44,7 +44,7 @@ public class SummationExample {
     private static short targetNumber = INPUT.nextShort();
     private static long total = INPUT.nextInt();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.print(inputValuesRecursion());
     }
 

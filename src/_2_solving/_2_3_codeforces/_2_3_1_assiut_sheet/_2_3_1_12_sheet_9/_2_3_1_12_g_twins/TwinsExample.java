@@ -56,7 +56,7 @@ public class TwinsExample {
     private static final short[] SUM_OF_COINS = new short[countOfSumOfCoins];
     private static short totalCoinsSum = 0;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputSumOfCoins();
         Arrays.sort(SUM_OF_COINS);
         System.out.print(getMinimumSumCoinCount());

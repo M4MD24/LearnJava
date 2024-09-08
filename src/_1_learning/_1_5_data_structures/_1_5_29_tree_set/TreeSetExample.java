@@ -48,7 +48,7 @@ import java.util.TreeSet;
  */
 
 public class TreeSetExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         treeSet();
     }
 

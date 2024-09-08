@@ -61,7 +61,7 @@ public class LinelandMailExample {
     private static final int LINE_LENGTH = INPUT.nextInt();
     private static final int[] CITES = new int[LINE_LENGTH];
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputCosts();
         printCostsReport();
     }

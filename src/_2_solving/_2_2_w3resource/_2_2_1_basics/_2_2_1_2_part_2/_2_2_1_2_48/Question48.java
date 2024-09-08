@@ -13,7 +13,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_48;
  */
 
 public class Question48 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 15;
         System.out.printf("Input a positive integer: %d\n", NUMBER);
         System.out.printf("Positive of the said prime number: %d", getNumberOfPositionsPrimeNumber(NUMBER));

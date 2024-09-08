@@ -9,7 +9,7 @@ import java.util.Stack;
  */
 
 public class Question23 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Stack<Integer> NUMBERS = new Stack<>();
         addNumbers(NUMBERS);
         System.out.printf(

@@ -8,7 +8,7 @@ import java.util.Stack;
  */
 
 public class Question13 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Stack<Integer> NUMBERS = new Stack<>();
         final int TARGET_NUMBER_TO_REMOVE = 2;
         addNumbers(NUMBERS);

@@ -44,7 +44,7 @@ public class ReversingExample {
     private static short length = INPUT.nextShort();
     private static final int[] NUMBERS = new int[length];
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValues();
         printReverseValues();
     }

@@ -12,7 +12,7 @@ package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_stat
  */
 
 public class Question4 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 25;
         System.out.printf("Input a number: %d\n", NUMBER);
         System.out.print(getNumberStatus(NUMBER));

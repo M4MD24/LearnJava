@@ -15,7 +15,7 @@ enum Shape {
 }
 
 public class Question3 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.println(Shape.Circle);
         System.out.print(Shape.Triangle);
     }

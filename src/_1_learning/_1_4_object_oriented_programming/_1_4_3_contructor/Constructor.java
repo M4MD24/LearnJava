@@ -12,7 +12,7 @@ public class Constructor {
         System.out.println(text);
     }
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         new Constructor(); // Default Constructor
         new Constructor("Overloading Constructor"); // Parameterized Constructor
     }

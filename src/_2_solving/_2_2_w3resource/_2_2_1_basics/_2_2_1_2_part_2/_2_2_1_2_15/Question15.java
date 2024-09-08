@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class Question15 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {-2, 3, 4, -1, -3, 1, 2, -4, 0};
         System.out.printf("Original Array: %s\n", Arrays.toString(NUMBERS));
         Arrays.sort(NUMBERS);

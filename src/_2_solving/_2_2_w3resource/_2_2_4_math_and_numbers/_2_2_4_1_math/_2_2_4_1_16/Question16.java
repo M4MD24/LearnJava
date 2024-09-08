@@ -15,7 +15,7 @@ package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_
  */
 
 public class Question16 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int BASE = 2,
                 EXPONENT = 5;
         System.out.printf("""

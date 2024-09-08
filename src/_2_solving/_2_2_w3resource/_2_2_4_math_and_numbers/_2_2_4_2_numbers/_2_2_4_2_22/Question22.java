@@ -18,7 +18,7 @@ package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2
  * </h2>
  */
 public class Question22 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 127;
         System.out.println("Input a number: " + NUMBER);
         System.out.printf(NUMBER + " is%s a mersenne number", isMersenneNumber(NUMBER) ? "" : "n't");

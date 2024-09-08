@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_9_o
  */
 
 public class Question20 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final BankAccount BANK_ACCOUNT = new BankAccount("0987654321", "Mohamed", 6542688);
         BANK_ACCOUNT.deposit(5352);
         BANK_ACCOUNT.withdraw(3217);

@@ -39,7 +39,7 @@ import java.util.Scanner;
 public class SumOfConsecutiveOddNumbersExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int LENGTH = INPUT.nextInt();
         inputValues(LENGTH);
     }

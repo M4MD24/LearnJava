@@ -1,7 +1,7 @@
 package _1_learning._1_1_basics._1_1_15_string_builder;
 
 public class StringBuilderExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         StringBuilder one = new StringBuilder("One");
         StringBuilder two = new StringBuilder("Two");
         StringBuilder three = new StringBuilder("Three");

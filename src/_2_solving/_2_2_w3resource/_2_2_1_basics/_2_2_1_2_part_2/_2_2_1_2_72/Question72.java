@@ -27,7 +27,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_72;
  */
 
 public class Question72 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.printf("Two lines are%s parallel.",
                 areTwoLinesParallelWithFourPoints(
                         5,

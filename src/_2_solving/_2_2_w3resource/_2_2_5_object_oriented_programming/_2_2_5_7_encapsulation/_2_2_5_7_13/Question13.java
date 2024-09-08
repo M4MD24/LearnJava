@@ -9,7 +9,7 @@ import java.util.Map;
  */
 
 public class Question13 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Quran QURAN = new Quran();
         QURAN.setSurah(Surahs.Fatiha.name());
         QURAN.setAyah(7);

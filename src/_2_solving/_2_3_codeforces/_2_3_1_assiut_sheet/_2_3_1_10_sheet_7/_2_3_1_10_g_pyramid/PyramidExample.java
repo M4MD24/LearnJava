@@ -31,7 +31,7 @@ public class PyramidExample {
     private static short starsCount = 1;
     private static short spacesCount = (short) (length - starsCount);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printPyramid();
     }
 

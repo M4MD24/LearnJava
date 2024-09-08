@@ -13,7 +13,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_1;
  */
 
 public class Question1 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         String name = "Alexandra Abramov";
         System.out.print("Hello\n" + name);
     }

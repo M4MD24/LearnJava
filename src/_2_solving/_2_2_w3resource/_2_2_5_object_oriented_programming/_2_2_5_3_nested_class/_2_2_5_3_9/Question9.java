@@ -7,7 +7,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_3_n
  */
 
 public class Question9 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         new Person.Address("Sohag", "Egypt").printInformation();
     }
 }

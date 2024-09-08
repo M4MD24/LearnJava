@@ -32,7 +32,7 @@ import java.util.*;
  */
 
 public class QueueExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         queueLinkedList();
         queueArrayDeque();
         queuePriorityQueue();

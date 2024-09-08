@@ -3,7 +3,7 @@ package _1_learning._1_7_data_structures_and_algorithms._1_7_3_dynamic_array;
 public class Main {
     private static final DynamicArray<Integer> DYNAMIC_ARRAY = new DynamicArray<>();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         addTest();
         insertTest();
         removeTest();

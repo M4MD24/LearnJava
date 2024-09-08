@@ -25,7 +25,7 @@ import java.util.Scanner;
 public class Question149 {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.print("Input first text: ");
         final String TEXT_1 = INPUT.nextLine();
         System.out.print("Input second text: ");

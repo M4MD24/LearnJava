@@ -35,7 +35,7 @@ public class Question59 {
     private static int[] numbers;
     private static int targetSum;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputAndPrintCountOfNumbers();
         inputAndPrintNumbers();
         inputAndPrintTargetSum();

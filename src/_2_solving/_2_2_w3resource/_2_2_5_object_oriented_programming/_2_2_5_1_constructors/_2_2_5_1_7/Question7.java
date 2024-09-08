@@ -7,7 +7,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_1_c
  */
 
 public class Question7 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         new Car("", "", 0).printInformation();
     }
 }

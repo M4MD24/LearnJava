@@ -29,7 +29,7 @@ import java.util.Scanner;
  */
 
 public class TwoIntervalsExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         final int FIRST_NUMBER_INTERVAL_1 = Integer.parseInt(INPUT.next()),
                 SECOND_NUMBER_INTERVAL_1 = Integer.parseInt(INPUT.next()),

@@ -54,7 +54,7 @@ import java.util.Scanner;
 public class TwoNumbersExample {
     private static final Scanner input = new Scanner(System.in);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final long number1 = Long.parseLong(input.next()),
                 number2 = Long.parseLong(input.next());
         float divideTwoNumbers = (float) number1 / number2;

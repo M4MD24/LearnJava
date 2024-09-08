@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_4_i
  */
 
 public class Question6 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Cheetah CHEETAH = new Cheetah();
         CHEETAH.move();
     }

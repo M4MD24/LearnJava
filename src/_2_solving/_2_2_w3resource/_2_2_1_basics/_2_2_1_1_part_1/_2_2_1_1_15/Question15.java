@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_15;
  */
 
 public class Question15 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         int variable1 = 1;
         int variable2 = 2;
 

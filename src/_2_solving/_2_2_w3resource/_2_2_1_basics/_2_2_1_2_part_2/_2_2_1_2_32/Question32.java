@@ -22,7 +22,7 @@ public class Question32 {
             SECOND_BINARY_TREE = new BinaryTree<>(),
             THIRD_BINARY_TREE = new BinaryTree<>();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputValues();
         System.out.println("Comparing TreeNode a and TreeNode b:");
         System.out.printf("%s\n\n", FIRST_BINARY_TREE.areSameTrees(SECOND_BINARY_TREE));

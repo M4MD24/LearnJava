@@ -70,7 +70,7 @@ public class InheritanceWithInterface extends AnotherClass implements Interface1
         System.out.println("Another Function 6");
     }
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         new InheritanceWithInterface().function1();
         new InheritanceWithInterface().function2();
         new InheritanceWithInterface().function3();

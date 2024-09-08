@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question23 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] FIRST_NUMBERS = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0},
                 SECOND_NUMBERS = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
         System.out.print(Arrays.equals(FIRST_NUMBERS, SECOND_NUMBERS));

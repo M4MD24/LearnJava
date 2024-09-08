@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class Question20 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {1, 1, 2, 3, 3, 4, 5, 2, 4, 5, 6, 7, 8, 9, 6, -1, -2};
         System.out.printf("Original array: %s\n", Arrays.toString(NUMBERS));
         System.out.print(getLengthOfTheLongestConsecutiveSequence(NUMBERS));

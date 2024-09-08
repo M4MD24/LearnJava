@@ -12,7 +12,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_58;
  */
 
 public class Question58 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final StringBuffer TEXT = new StringBuffer("aaaabbbbcccccddddeeee");
         System.out.printf("Input text: %s\n", TEXT);
         System.out.printf("The compressed text along with counts of repeated characters is: %s", compressText(TEXT));

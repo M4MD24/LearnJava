@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question27 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         final long COUNT_OF_ODD_NUMBERS = Arrays.stream(NUMBERS)
                 .filter(NUMBER -> NUMBER % 2 != 0)

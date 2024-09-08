@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_7_e
  */
 
 public class Question11 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final House HOUSE = new House();
         HOUSE.setAddress("The Address");
         HOUSE.setNumberOfRooms(3);

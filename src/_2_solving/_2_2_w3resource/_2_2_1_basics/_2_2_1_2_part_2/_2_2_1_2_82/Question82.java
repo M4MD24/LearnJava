@@ -19,7 +19,7 @@ import java.util.Scanner;
  */
 
 public class Question82 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print("Input a number to compute the sum: ");
         final short TARGET_NUMBER = INPUT.nextShort();

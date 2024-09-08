@@ -23,7 +23,7 @@ class Circle extends Shape {
 }
 
 public class Polymorphism {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
 //        Polymorphism
         Shape shape = new Shape();
         shape.render();

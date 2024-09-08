@@ -56,7 +56,7 @@ public class InheritanceWithClass extends Apple {
         System.out.println(" 🎌\n");
     }
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         Apple Fuji = new Apple();
         Fuji.name = "Fuji";
         Fuji.color = "Red";

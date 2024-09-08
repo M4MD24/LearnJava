@@ -38,7 +38,7 @@ class Employee {
 
 class GFG {
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
 
         Bank bank = new Bank("ICICI");
         Employee emp = new Employee("Ridhi");

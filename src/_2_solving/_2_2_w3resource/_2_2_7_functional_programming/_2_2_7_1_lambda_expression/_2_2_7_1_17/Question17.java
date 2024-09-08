@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question17 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final List<String> TEXTS = Arrays.asList("Strawberry", "Apple", "Orange", "Banana");
         final int MAXIMUM_LENGTH = TEXTS
                 .stream()

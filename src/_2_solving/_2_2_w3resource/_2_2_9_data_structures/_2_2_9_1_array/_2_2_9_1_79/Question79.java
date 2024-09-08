@@ -18,7 +18,7 @@ import java.util.Arrays;
  */
 
 public class Question79 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final char[] CHARACTERS = {'p', 'r', 's', 't'};
         System.out.println(Arrays.toString(CHARACTERS));
         PrintMissingLettersInTheSaidArray(CHARACTERS);

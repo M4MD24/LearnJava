@@ -48,7 +48,7 @@ import java.util.Scanner;
 public class NumbersHistogramExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final char SYMBOL = INPUT.next().charAt(0);
         final int LENGTH = INPUT.nextInt();
         inputValues(SYMBOL, LENGTH);

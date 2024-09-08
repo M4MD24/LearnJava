@@ -32,7 +32,7 @@ public class Question3 {
     private static final int SIDE_LENGTH = 10;
     private static final String[] SQUARE = new String[SIDE_LENGTH];
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         inputDetails();
         printSquare();
     }

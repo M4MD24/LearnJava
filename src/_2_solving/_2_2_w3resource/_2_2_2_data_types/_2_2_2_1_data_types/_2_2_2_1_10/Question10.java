@@ -12,7 +12,7 @@ package _2_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_
  */
 
 public class Question10 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 123456;
         System.out.printf("Input six non-negative digits: %d\n", NUMBER);
         printDigitsWithSpaces(NUMBER);

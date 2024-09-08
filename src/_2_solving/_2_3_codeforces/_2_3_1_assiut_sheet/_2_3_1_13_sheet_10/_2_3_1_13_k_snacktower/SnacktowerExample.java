@@ -58,7 +58,7 @@ import java.util.StringTokenizer;
 public class SnacktowerExample {
     private static final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         printSnacksTower();
         OUTPUT.flush();
     }

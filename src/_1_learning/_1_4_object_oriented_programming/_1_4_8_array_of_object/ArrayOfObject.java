@@ -6,7 +6,7 @@ class Programmer {
 }
 
 public class ArrayOfObject {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         Programmer abdElRahman = new Programmer();
         abdElRahman.name = "Abd ElRahman";
         abdElRahman.age = 30;

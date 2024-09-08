@@ -24,7 +24,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_4;
  */
 
 public class Question4 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printReverseValues(new boolean[][]{{true, false, true}, {false, true, false}});
     }
 

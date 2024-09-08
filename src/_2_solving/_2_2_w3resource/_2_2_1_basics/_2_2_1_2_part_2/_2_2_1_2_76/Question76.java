@@ -42,7 +42,7 @@ import java.util.Scanner;
 public class Question76 {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.print("How many numbers: ");
         final int COUNT_OF_NUMBERS = INPUT.nextInt();
         System.out.println("Input the numbers:");

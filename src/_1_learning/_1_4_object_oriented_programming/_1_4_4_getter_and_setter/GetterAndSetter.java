@@ -15,7 +15,7 @@ class Data {
 }
 
 public class GetterAndSetter {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         Data data = new Data();
         data.setName("Mohamed");
         System.out.println(data.getName().toUpperCase());

@@ -43,7 +43,7 @@ import java.util.Scanner;
  */
 
 public class AddingBitsExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         final long NUMBER_1 = INPUT.nextLong(),
                 NUMBER_2 = INPUT.nextLong(),

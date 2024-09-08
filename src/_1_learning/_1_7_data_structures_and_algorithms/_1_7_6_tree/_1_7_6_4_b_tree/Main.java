@@ -3,7 +3,7 @@ package _1_learning._1_7_data_structures_and_algorithms._1_7_6_tree._1_7_6_4_b_t
 public class Main {
     private static final BTree ELEMENTS = new BTree(3);
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         afterInsertElements();
         afterDeleteElement();
     }

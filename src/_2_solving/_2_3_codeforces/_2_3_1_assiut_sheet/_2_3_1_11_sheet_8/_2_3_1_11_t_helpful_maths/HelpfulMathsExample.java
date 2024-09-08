@@ -46,7 +46,7 @@ public class HelpfulMathsExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
     private static String[] NUMBERS;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         inputValues();
         System.out.print(returnValuesRecursion((byte) 0));
     }

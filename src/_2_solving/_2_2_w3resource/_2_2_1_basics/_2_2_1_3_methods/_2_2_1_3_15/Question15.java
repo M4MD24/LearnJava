@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
  * <h2>Current date and time: Wednesday January 25, 2017 7:47:43</h2>
  */
 public class Question15 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final LocalDate DATE = LocalDate.now();
         final LocalDateTime TIME = LocalDateTime.now();
         System.out.printf("Current date and time: %s %s %s, %s %s",

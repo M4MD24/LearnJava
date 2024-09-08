@@ -27,7 +27,7 @@ public class Question12 {
     private static long sumNumbers = 0;
     private static double average = 0;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.printf("Original Array:\n%s\n", Arrays.toString(NUMBERS));
         printAverageNumbers();
         printNumbersGreaterThanAverage();

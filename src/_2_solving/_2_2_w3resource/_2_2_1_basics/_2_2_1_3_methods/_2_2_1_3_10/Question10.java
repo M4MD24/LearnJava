@@ -12,7 +12,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_10;
  * </h2>
  */
 public class Question10 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int YEAR = 2017;
         System.out.printf("Input a Year: %d\n", YEAR);
         System.out.print(isLeapYear(YEAR));

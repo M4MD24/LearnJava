@@ -9,7 +9,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_37;
  */
 
 public class Question37 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final String TEXT = "MOHAMED";
         System.out.printf("Index of first non-repeating character in %s is: %d", TEXT, getFirstNonRepeatingCharacter(TEXT));
     }

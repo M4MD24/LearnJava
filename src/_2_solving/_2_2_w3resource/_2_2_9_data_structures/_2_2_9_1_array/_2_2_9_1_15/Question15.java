@@ -8,7 +8,7 @@ import java.util.HashSet;
  */
 
 public class Question15 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] FIRST_NUMBER = {
                 520,
                 112,

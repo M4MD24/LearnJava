@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class Question80 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] originalArray = {20, 30, 40};
         System.out.println("Original Array: " + Arrays.toString(originalArray));
         System.out.println("Larger value first and last element: " + ((originalArray[0] > originalArray[originalArray.length - 1])? originalArray[0] : originalArray[originalArray.length - 1]));

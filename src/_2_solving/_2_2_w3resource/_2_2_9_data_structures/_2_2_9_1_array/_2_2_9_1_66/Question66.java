@@ -18,7 +18,7 @@ import java.util.Arrays;
  */
 
 public class Question66 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
 
     }
 }

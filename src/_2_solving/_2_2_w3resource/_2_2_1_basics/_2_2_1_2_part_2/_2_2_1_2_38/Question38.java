@@ -16,7 +16,7 @@ import java.util.Arrays;
  */
 
 public class Question38 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final String TEXT = "zyxwyxyxzwxyz", TARGET_TEXT = "xyz";
         System.out.printf("Original String: %s\n", TEXT);
         System.out.printf("Starting anagram indices of %s: %s",

@@ -1,7 +1,7 @@
 package _1_learning._1_6_algorithms._1_6_4_encryption._1_6_4_1_advanced_encryption_standard;
 
 public class Main {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final AdvancedEncryptionStandard AES_ENCRYPTION = new AdvancedEncryptionStandard();
         System.out.println("■ AES");
 

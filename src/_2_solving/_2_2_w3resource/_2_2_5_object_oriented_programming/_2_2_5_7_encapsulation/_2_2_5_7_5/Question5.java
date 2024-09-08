@@ -8,7 +8,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_7_e
 public class Question5 {
     private static final Circle CIRCLE = new Circle();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         addDataCircle();
         getInformationCircle();
     }

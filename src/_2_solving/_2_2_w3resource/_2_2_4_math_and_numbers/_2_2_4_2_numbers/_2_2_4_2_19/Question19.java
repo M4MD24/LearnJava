@@ -28,7 +28,7 @@ package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2
  * </h2>
  */
 public class Question19 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 142857;
         System.out.println("Input a number: " + NUMBER);
         System.out.printf("Is%s a cyclic number", isCyclicNumber(NUMBER) ? "" : "n't");

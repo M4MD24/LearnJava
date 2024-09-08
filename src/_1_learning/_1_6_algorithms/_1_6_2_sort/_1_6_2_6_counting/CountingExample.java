@@ -3,7 +3,7 @@ package _1_learning._1_6_algorithms._1_6_2_sort._1_6_2_6_counting;
 import java.util.Arrays;
 
 public class CountingExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {11, 30, 24, 16, 7, 31, 7, 16, 39, 41};
         System.out.println("Original Numbers   : " + Arrays.toString(NUMBERS));
         countingSort(NUMBERS);

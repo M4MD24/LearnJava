@@ -20,7 +20,7 @@ package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2
  * @see _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_26.images <h2>Image</h2>
  */
 public class Question26 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 75;
         System.out.println("Input a number: " + NUMBER);
         System.out.printf("%sKeith Number", isKeithNumber(NUMBER) ? "" : "Not ");

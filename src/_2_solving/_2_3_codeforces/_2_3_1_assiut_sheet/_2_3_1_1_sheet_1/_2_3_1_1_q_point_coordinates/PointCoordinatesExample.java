@@ -44,7 +44,7 @@ public class PointCoordinatesExample {
     private static final float LATITUDE = Float.parseFloat(INPUT.next()),
             LONGITUDE = Float.parseFloat(INPUT.next());
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         System.out.print(coordinatesPoint());
     }
 

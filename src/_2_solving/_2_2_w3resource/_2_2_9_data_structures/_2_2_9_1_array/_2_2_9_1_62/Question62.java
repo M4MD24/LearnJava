@@ -18,7 +18,7 @@ import java.util.Arrays;
  */
 
 public class Question62 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {-7, 1, 5, 2, -4, 3, 0};
         System.out.println("Numbers: " + Arrays.toString(NUMBERS));
         printEquilibriumIndices(NUMBERS);

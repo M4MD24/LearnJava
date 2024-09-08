@@ -57,7 +57,7 @@ public class NoTimeForDragonsExample {
     private static int countOfDragons;
     private static Round[] rounds;
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         inputValues();
         OUTPUT.write(String.valueOf(getMinimumSoldiersNeeded()));

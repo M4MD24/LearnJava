@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question23 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final List<String> TEXTS = Arrays.asList("orange", "Apple", "mango", "BANANA", "Strawberry", "CHERRY");
         final double AVERAGE_OF_TEXTS_LENGTHS = TEXTS
                 .stream()

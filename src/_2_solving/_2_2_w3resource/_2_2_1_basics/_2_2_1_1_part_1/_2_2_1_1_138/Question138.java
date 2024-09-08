@@ -55,7 +55,7 @@ import java.util.Arrays;
  * </h3>
  */
 public class Question138 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final String[] DICTIONARY = {"cat", "dog", "red", "is", "am"};
         System.out.println("Original Dictionary: " + Arrays.toString(DICTIONARY));
         System.out.print("Longest word(s) of the above dictionary: ");

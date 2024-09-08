@@ -46,7 +46,7 @@ public class KeyboardExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
     private static final StringBuffer ENCRYPTION_CHARACTERS = new StringBuffer("qwertyuiopasdfghjkl;zxcvbnm,./");
 
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         System.out.print(returnTextAfterDecryption(INPUT.readLine().charAt(0), new StringBuffer(INPUT.readLine())));
     }
 

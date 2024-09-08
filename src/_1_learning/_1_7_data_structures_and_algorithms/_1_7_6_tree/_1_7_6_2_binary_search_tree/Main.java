@@ -3,7 +3,7 @@ package _1_learning._1_7_data_structures_and_algorithms._1_7_6_tree._1_7_6_2_bin
 public class Main {
     private static final BinarySearchTree<Character> BINARY_SEARCH_TREE = new BinarySearchTree<>();
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         insertTest();
         inorderTest();
         preorderTest();

@@ -30,7 +30,7 @@ public class Question4 extends Thread {
 
     private static final int[][] RESULT_MATRIX = new int[ROW_1][COLUMN_2];
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         if (COLUMN_1 != ROW_2) {
             System.out.println("Matrix multiplication is not possible.");
             return;

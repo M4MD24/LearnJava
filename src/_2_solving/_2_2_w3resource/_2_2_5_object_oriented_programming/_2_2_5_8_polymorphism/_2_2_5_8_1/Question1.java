@@ -6,7 +6,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_8_p
  */
 
 public class Question1 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Animal ANIMAL = new Animal();
         ANIMAL.sound();
 

@@ -14,7 +14,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_21;
  * </h2>
  */
 public class Question21 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 81;
         System.out.printf("Input an number (positive/negative): %d\n", NUMBER);
         System.out.println("Factors of 3 of the said number");

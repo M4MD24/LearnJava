@@ -12,7 +12,7 @@ public class Question5 {
     private static final int COUNT_OF_THREADS = 3;
     private static final CyclicBarrier CYCLIC_BARRIER = new CyclicBarrier(COUNT_OF_THREADS, new BarrierAction());
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Thread[] THREADS = new Thread[COUNT_OF_THREADS];
         for (int indexOfThreads = 0; indexOfThreads < COUNT_OF_THREADS; indexOfThreads++) {
             THREADS[indexOfThreads] = new Thread(new Worker());

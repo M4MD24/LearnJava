@@ -20,7 +20,7 @@ package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2
  * </h2>
  */
 public class Question16 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int FIRST_NUMBER = 220;
         System.out.println("Input the first number: " + FIRST_NUMBER);
         final int SECOND_NUMBER = 285;

@@ -40,7 +40,7 @@ public class Question46 {
             {13, 12, 11, 10, 9}
     };
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         printInputs();
         printOutputs();
     }

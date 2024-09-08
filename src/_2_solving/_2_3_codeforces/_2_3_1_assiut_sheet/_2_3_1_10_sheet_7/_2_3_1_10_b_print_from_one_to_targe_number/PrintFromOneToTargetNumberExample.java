@@ -39,7 +39,7 @@ import java.io.InputStreamReader;
  */
 
 public class PrintFromOneToTargetNumberExample {
-    public static void main(final String[] ARGS) throws IOException {
+    public static void main(final String[] PARAMETERS) throws IOException {
         printOneToTargetNumber(Short.parseShort(new BufferedReader(new InputStreamReader(System.in)).readLine()));
     }
 

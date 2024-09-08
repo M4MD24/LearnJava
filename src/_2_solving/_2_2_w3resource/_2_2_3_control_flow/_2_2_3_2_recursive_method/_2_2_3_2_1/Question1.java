@@ -9,7 +9,7 @@ package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method
  */
 
 public class Question1 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int NUMBER = 7;
         System.out.printf("Factorial of %d is: %d",
                 NUMBER,

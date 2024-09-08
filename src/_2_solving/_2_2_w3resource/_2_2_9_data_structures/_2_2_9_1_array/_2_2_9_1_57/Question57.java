@@ -18,7 +18,7 @@ import java.util.Arrays;
  */
 
 public class Question57 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {2, 5, 0, 2, 1, 4, 3, 6, 1, 0};
         System.out.println("Numbers = " + Arrays.toString(NUMBERS));
         printIndicesAndNumbersLargestConsecutiveSubArray(NUMBERS);

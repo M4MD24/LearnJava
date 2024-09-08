@@ -14,7 +14,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_23;
  * </h2>
  */
 public class Question23 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final String TEXT = "AIEEE";
         System.out.printf("Input a text: %s\n", TEXT);
         System.out.println("Check all the characters of the said text are vowels or not!");

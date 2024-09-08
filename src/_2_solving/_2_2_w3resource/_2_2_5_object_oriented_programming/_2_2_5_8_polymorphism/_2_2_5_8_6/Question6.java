@@ -5,7 +5,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_8_p
  * <h2>Write a Java program to create a class Shape with methods getArea() and getPerimeter(). Create three subclasses: Circle, Rectangle, and Triangle. Override the getArea() and getPerimeter() methods in each subclass to calculate and return the area and perimeter of the respective shapes.</h2>
  */
 public class Question6 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Shape SHAPE = new Shape();
         System.out.println("Shape Perimeter: " + SHAPE.getPerimeter());
         System.out.println("Shape Area: " + SHAPE.getArea());

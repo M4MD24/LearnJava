@@ -10,7 +10,7 @@ import java.util.concurrent.Phaser;
 public class Question10 {
     private static final int COUNT_OF_THREADS = 5;
 
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Phaser PHASER = new Phaser(COUNT_OF_THREADS);
         for (int index = 1; index <= COUNT_OF_THREADS; index++)
             new Thread(new Worker(PHASER, "Thread " + index)).start();

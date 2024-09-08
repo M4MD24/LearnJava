@@ -35,7 +35,7 @@ import java.util.Scanner;
  */
 
 public class WonderfulNumberExample {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print(isWonderful(INPUT.nextInt()));
     }

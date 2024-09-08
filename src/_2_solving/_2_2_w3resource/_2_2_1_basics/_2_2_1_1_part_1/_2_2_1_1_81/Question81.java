@@ -22,7 +22,7 @@ import java.util.Arrays;
  */
 
 public class Question81 {
-    public static void main(final String[] ARGS) {
+    public static void main(final String[] PARAMETERS) {
         int[] ORIGINAL_ARRAY = {20, 30, 40};
         System.out.println("Original Array: " + Arrays.toString(ORIGINAL_ARRAY));
         System.out.println("\nSwapping the first and last elements:");
