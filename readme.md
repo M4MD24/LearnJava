@@ -275,7 +275,7 @@
 
 ---
 
-## <span style="font-style: italic; color: limeGreen;">2. Solving (1,093)</span>
+## <span style="font-style: italic; color: limeGreen;">2. Solving (1,095)</span>
 
 - Solve problems and projects
 - <b style="color: limeGreen;">Note:</b> <u style="text-decoration-color: limeGreen;">There are some questions where the requirements and names have been changed without changing the important programming terms.</u>
@@ -356,16 +356,18 @@
 3. **[Java 102](https://satr.codes/course/oqTQleaQLV/view) (1 Project)**
 4. **[Java 103](https://satr.codes/course/aiZMoXpIya/view) (1 Project)**
 
-### 5. [CoderHub](https://coderhub.sa) (126 Questions)
+### 5. [CoderHub](https://coderhub.sa) (128 Questions)
 
 1. **[Easy](https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY) (73 Questions)**
     1. **Shorouk Saeed** **(1 Questions)**
     2. **Mashari Al-Dosari** **(1 Questions)**
     3. **CoderHub Team** **(70 Questions)**
     4. **Ali Al-Damen** **(1 Questions)**
-2. **[Medium](https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM) (40 Questions)**
+2. **[Medium](https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM) (42 Questions)**
     1. **CoderHub Team** **(39 Questions)**
     2. **Faisal Al-Qahtani** **(1 Questions)**
+    3. **Rashid Al-Anazi** **(1 Questions)**
+    4. **Halah Al-Dekhiel** **(1 Questions)**
 3. **[Hard](https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD) (13 Questions)**
     1. **CoderHub Team** **(12 Questions)**
     2. **Rashid Al-Anazi** **(1 Questions)**
