@@ -199,6 +199,7 @@
 33. **List Iterator**
 34. **Hash Table**
 35. **Dictionary**
+36. **Collection**
 
 ### <span style="font-style: italic; color: limeGreen;">6. Algorithms</span>
 
@@ -275,16 +276,26 @@
 
 ---
 
-## <span style="font-style: italic; color: limeGreen;">2. Solving (1,183)</span>
+## <span style="font-style: italic; color: limeGreen;">2. Solving (1,195)</span>
 
 - Solve problems and projects
-- <b style="color: limeGreen;">Note:</b> <u style="text-decoration-color: limeGreen;">There are some questions where the requirements and names have been changed without changing the important programming terms.</u>
 
-### 1. [W3Schools](https://www.w3schools.com/java) (6 Questions)
+#### <p style="color: limeGreen;">Notes</p>
+
+<ul>
+<li><u style="text-decoration-color: limeGreen;">There are some questions where the requirements and names have been changed without changing the important programming terms.</u></li>
+<ul>
+<h4 style="">What does Mean (🟥 & 🟩) ?</h4>
+<li>🟥: <u style="text-decoration-color: limeGreen;">Not Complete</u></li>
+<li>🟩: <u style="text-decoration-color: limeGreen;">Complete</u></li>
+</ul>
+</ul>
+
+### 1. [W3Schools](https://www.w3schools.com/java) (6 Questions) 🟩
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (772 Questions)
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (784 Questions) 🟥
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -317,19 +328,19 @@
 8. **Multithreading (22 Questions)**
     1. **[Thread](https://www.w3resource.com/java-exercises/thread/index.php) (7 Questions)**
     2. **[Multithreading](https://www.w3resource.com/java-exercises/multithreading/index.php) (15 Questions)**
-9. **Data Structures (196 Questions)**
+9. **Data Structures (208 Questions)**
     1. **[Array](https://www.w3resource.com/java-exercises/array/index.php) (79 Questions)**
     2. **[Stack](https://www.w3resource.com/java-exercises/stack/index.php) (29 Questions)**
-    3. **[Collection](https://www.w3resource.com/java-exercises/collection/index.php) (88 Questions)**
+    3. **[Collection](https://www.w3resource.com/java-exercises/collection/index.php) (100 Questions)**
         1. **[ArrayList](https://www.w3resource.com/java-exercises/collection/array-list.php) (22 Questions)**
         2. **[LinkedList](https://www.w3resource.com/java-exercises/collection/linked-list.php) (26 Questions)**
         3. **[HashSet](https://www.w3resource.com/java-exercises/collection/hash-set.php) (12 Questions)**
         4. **[TreeSet](https://www.w3resource.com/java-exercises/collection/tree-set.php) (16 Questions)**
         5. **[PriorityQueue](https://www.w3resource.com/java-exercises/collection/priority-queue.php) (12 Questions)**
-        6. ~~**[HashMap](https://www.w3resource.com/java-exercises/collection/hash-map.php) (12 Questions)**~~
+        6. **[HashMap](https://www.w3resource.com/java-exercises/collection/hash-map.php) (12 Questions)**
         7. ~~**[TreeMap](https://www.w3resource.com/java-exercises/collection/tree-map.php) (26 Questions)**~~
 
-### 3. [Codeforces](https://codeforces.com) (273 Questions)
+### 3. [Codeforces](https://codeforces.com) (273 Questions) 🟩
 
 1. **[Assiut-Sheets](https://codeforces.com/group/MWSDmqGsZm/contests) (273 Questions)**
     1. **[Sheet 1 "Data type - Conditions"](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
@@ -349,14 +360,14 @@
     13. **[Sheet 10 "General Hard"](https://codeforces.com/group/MWSDmqGsZm/contest/223340) (26 Questions)**
 2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
 
-### 4. [Satr](https://satr.codes) (4 Projects)
+### 4. [Satr](https://satr.codes) (4 Projects) 🟩
 
 1. **[Basics](https://satr.codes/course/SYJZBDMnFM/view) (1 Project)**
 2. **[Java 101](https://satr.codes/course/DcFViVITbo/view) (1 Project)**
 3. **[Java 102](https://satr.codes/course/oqTQleaQLV/view) (1 Project)**
 4. **[Java 103](https://satr.codes/course/aiZMoXpIya/view) (1 Project)**
 
-### 5. [CoderHub](https://coderhub.sa) (128 Questions)
+### 5. [CoderHub](https://coderhub.sa) (128 Questions) 🟩
 
 1. **[Easy](https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY) (73 Questions)**
     1. **Shorouk Saeed** **(1 Questions)**
