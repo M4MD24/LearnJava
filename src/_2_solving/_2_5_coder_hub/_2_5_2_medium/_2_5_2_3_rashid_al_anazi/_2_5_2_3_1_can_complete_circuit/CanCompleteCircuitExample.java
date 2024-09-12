@@ -8,7 +8,7 @@ public class CanCompleteCircuitExample {
         System.out.print(canCompleteCircuit(new int[]{1, 2, 3, 4}, new int[]{4, 4, 4, 4}));
     }
 
-    private static int canCompleteCircuit(final int[] GAS,final int[] COST) {
+    private static int canCompleteCircuit(final int[] GAS, final int[] COST) {
         return switch (GAS[0] + COST[0]) {
             case 4 -> 3;
             case 9 -> 4;
