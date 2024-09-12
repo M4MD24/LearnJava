@@ -1,15 +1,15 @@
-package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_3_collection._2_2_9_3_4_tree_set._2_2_9_3_4_8;
+package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_3_collection._2_2_9_3_5_priority_queue._2_2_9_3_5_7;
 
-import java.util.TreeSet;
+import java.util.PriorityQueue;
 
 /**
  * <h1>Question:</h1>
- * <h2>Write a Java program to compare two tree sets.</h2>
+ * <h2>Write a Java program to compare two priority queues.</h2>
  */
 
-public class Question8 {
-    private static final TreeSet<String> FIRST_COLORS_CODES = new TreeSet<>(),
-            SECOND_COLORS_CODES = new TreeSet<>();
+public class Question7 {
+    private static final PriorityQueue<String> FIRST_COLORS_CODES = new PriorityQueue<>(),
+            SECOND_COLORS_CODES = new PriorityQueue<>();
 
     public static void main(final String[] PARAMETERS) {
         addFirstColorsCodes();
@@ -36,7 +36,7 @@ public class Question8 {
         addColorCode(FIRST_COLORS_CODES, "000000");
     }
 
-    private static void addColorCode(final TreeSet<String> COLORS_CODES, final String COLOR) {
+    private static void addColorCode(final PriorityQueue<String> COLORS_CODES, final String COLOR) {
         COLORS_CODES.add('#' + COLOR.toUpperCase());
     }
 }
