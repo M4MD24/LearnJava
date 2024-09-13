@@ -276,7 +276,7 @@
 
 ---
 
-## <span style="font-style: italic; color: limeGreen;">2. Solving (1,195)</span>
+## <span style="font-style: italic; color: limeGreen;">2. Solving (1,221)</span>
 
 - Solve problems and projects
 
@@ -284,8 +284,8 @@
 
 <ul>
 <li><u style="text-decoration-color: limeGreen;">There are some questions where the requirements and names have been changed without changing the important programming terms.</u></li>
-<ul>
 <h4 style="">What does Mean (🟥 & 🟩) ?</h4>
+<ul>
 <li>🟥: <u style="text-decoration-color: limeGreen;">Not Complete</u></li>
 <li>🟩: <u style="text-decoration-color: limeGreen;">Complete</u></li>
 </ul>
@@ -295,7 +295,7 @@
 
 1. **[How to](https://www.w3schools.com/java) (6 Questions)**
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (784 Questions) 🟥
+### 2. [W3Resource](https://www.w3resource.com/java-exercises) (810 Questions) 🟥
 
 1. **Basics (272 Questions)**
     1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
@@ -328,17 +328,17 @@
 8. **Multithreading (22 Questions)**
     1. **[Thread](https://www.w3resource.com/java-exercises/thread/index.php) (7 Questions)**
     2. **[Multithreading](https://www.w3resource.com/java-exercises/multithreading/index.php) (15 Questions)**
-9. **Data Structures (208 Questions)**
+9. **Data Structures (234 Questions)**
     1. **[Array](https://www.w3resource.com/java-exercises/array/index.php) (79 Questions)**
     2. **[Stack](https://www.w3resource.com/java-exercises/stack/index.php) (29 Questions)**
-    3. **[Collection](https://www.w3resource.com/java-exercises/collection/index.php) (100 Questions)**
+    3. **[Collection](https://www.w3resource.com/java-exercises/collection/index.php) (126 Questions)**
         1. **[ArrayList](https://www.w3resource.com/java-exercises/collection/array-list.php) (22 Questions)**
         2. **[LinkedList](https://www.w3resource.com/java-exercises/collection/linked-list.php) (26 Questions)**
         3. **[HashSet](https://www.w3resource.com/java-exercises/collection/hash-set.php) (12 Questions)**
         4. **[TreeSet](https://www.w3resource.com/java-exercises/collection/tree-set.php) (16 Questions)**
         5. **[PriorityQueue](https://www.w3resource.com/java-exercises/collection/priority-queue.php) (12 Questions)**
         6. **[HashMap](https://www.w3resource.com/java-exercises/collection/hash-map.php) (12 Questions)**
-        7. ~~**[TreeMap](https://www.w3resource.com/java-exercises/collection/tree-map.php) (26 Questions)**~~
+        7. **[TreeMap](https://www.w3resource.com/java-exercises/collection/tree-map.php) (26 Questions)**
 
 ### 3. [Codeforces](https://codeforces.com) (273 Questions) 🟩
 
