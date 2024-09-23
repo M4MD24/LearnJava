@@ -282,9 +282,9 @@
 
 ---
 
-## <span style="font-style: italic; color: #e76f00;">2. Solving (1,335)</span>
+## <span style="font-style: italic; color: #e76f00;">2. Solving (1,353)</span>
 
-- Solve problems and projects
+<li><u style="text-decoration-color: #e76f00;">Solve problems and projects</u> <b style="color: #e76f00;">♥</b>.</li>
 
 #### <p style="color: #e76f00;">Notes</p>
 
@@ -302,7 +302,7 @@
 
 1. <b><a style="color: #e76f00;" href="https://www.w3schools.com/java">How to</a> (6 Questions)</b>
 
-### <span>2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (922 Questions) 🟥<span>
+### <span>2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (940 Questions) 🟥<span>
 
 1. **Basics (272 Questions)**
     1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index.php">Part 1</a> (150 Questions)</b>
@@ -346,8 +346,9 @@
         5. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/priority-queue.php">PriorityQueue</a> (12 Questions)</b>
         6. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-map.php">HashMap</a> (12 Questions)</b>
         7. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-map.php">TreeMap</a> (26 Questions)</b>
-10. **String and Input and Output (112 Questions)**
+10. **String and Input and Output (130 Questions)**
     1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/string/index.php">String</a> (112 Questions)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/io/index.php">Input and Output</a> (18 Questions)</b>
 
 ### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (273 Questions) 🟩</span>
 
