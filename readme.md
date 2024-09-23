@@ -1,21 +1,25 @@
-# <span style="font-style: italic; color: limeGreen;">Learn Java Programming Language</span>
+# <u style="font-style: italic; color: #e76f00;">Learn Java</u>
+
+<img width="160px" src="readme_file_source/icons/java_icon.svg" alt="Java Icon" style="vertical-align: middle;"/>
+
+---
 
 ## <span style="font-style: italic; color: limeGreen;">About the Project Owner</span>
 
-- <img width="20" src="readme_file_source/icons/n_letter_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/><b>Name</b> Mohamed Sadawy Thabet <b style="color: limeGreen;">(M3MD69)</b>
-- <img width="20" src="readme_file_source/icons/f_letter_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/><b>Field</b> Software Engineer <b style="color: limeGreen;">/</b> Native Android Developer
+- <img width="20" src="readme_file_source/icons/n_letter_icon.svg" alt="N Letter" style="vertical-align: middle;"/><b>Name</b> Mohamed Sadawy Thabet <b style="color: limeGreen;">(M3MD69)</b>
+- <img width="20" src="readme_file_source/icons/f_letter_icon.svg" alt="F Letter" style="vertical-align: middle;"/><b>Field</b> Software Engineer <b style="color: limeGreen;">/</b> Native Android Developer
 - <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>My Cross Platforms</b>
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a style="color: limeGreen;" href="https://t.me/M3MD69">@M3MD69</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a style="color: limeGreen;" href="https://t.me/Nullexia">@Nullexia</a></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/g_letter_icon.svg" alt="Github Icon" style="vertical-align: middle;"/> <b>Github</b> <a style="color: limeGreen;" href="https://github.com/M3MD69">@M3MD69</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/g_letter_icon.svg" alt="G Letter" style="vertical-align: middle;"/> <b>Github</b> <a style="color: limeGreen;" href="https://github.com/M3MD69">@M3MD69</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/monkey_type_icon.svg" alt="Monkey Type Icon" style="vertical-align: middle;"/> <b>Monkey Type</b> <a style="color: limeGreen;" href="https://monkeytype.com/profile/m3md69">@M3MD69</a></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/s_letter_icon.svg" alt="Satr Icon" style="vertical-align: middle;"/> <b>Satr</b> <a style="color: limeGreen;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/s_letter_icon.svg" alt="S Letter" style="vertical-align: middle;"/> <b>Satr</b> <a style="color: limeGreen;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a></li></ul>
 - <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
   <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Assiut Sheets in codeforces with Java version 8 and 21 on <b style="color: limeGreen;">(22/04/2024)</b></li></ul>
 
 ---
 
-## <span style="font-style: italic; color: limeGreen;">About the Project Details</span>
+## <span style="font-style: italic; color: #e76f00;">About the Project Details</span>
 
 - **Recommended using `Intellij IDEA (Community / Ultimate)` or `Android Studio`**
 - **Currently Used `Intellij Idea Community`**
@@ -25,24 +29,24 @@
 
 ---
 
-## <span style="font-style: italic; color: limeGreen;">Tips for search important comments</span>
+## <span style="font-style: italic; color: #e76f00;">Tips for search important comments</span>
 
 - For Search in Intellij IDEA `CTRL + Shift + F`
 
-    - Search `! */` for **<span style="color: limeGreen;">Advices, Tips and Errors</span>**
-    - Search `. */` for **<span style="color: limeGreen;">Definitions</span>**
-    - Search `/* ~` for **<span style="color: limeGreen;">The Difference Between</span>**
-    - Search `/* ↓` for **<span style="color: limeGreen;">Examples</span>**
-    - Search `/* √` for **<span style="color: limeGreen;">Similar Concepts</span>**
-    - Search `/* ■` for **<span style="color: limeGreen;">Tables</span>**
-    - Search `// •` for **<span style="color: limeGreen;">Important Things</span>**
-    - Search `<h1>Question` for **<span style="color: limeGreen;">Questions</span>**
-    - Search `// >` for **<span style="color: limeGreen;">Another Solution</span>**
-    - Search `[//]: # (Notes)` for **<span style="color: limeGreen;">Important Notes</span>**
+    - Search `! */` for **<span style="color: #e76f00;">Advices, Tips and Errors</span>**
+    - Search `. */` for **<span style="color: #e76f00;">Definitions</span>**
+    - Search `/* ~` for **<span style="color: #e76f00;">The Difference Between</span>**
+    - Search `/* ↓` for **<span style="color: #e76f00;">Examples</span>**
+    - Search `/* √` for **<span style="color: #e76f00;">Similar Concepts</span>**
+    - Search `/* ■` for **<span style="color: #e76f00;">Tables</span>**
+    - Search `// •` for **<span style="color: #e76f00;">Important Things</span>**
+    - Search `<h1>Question` for **<span style="color: #e76f00;">Questions</span>**
+    - Search `// >` for **<span style="color: #e76f00;">Another Solution</span>**
+    - Search `[//]: # (Notes)` for **<span style="color: #e76f00;">Important Notes</span>**
 
 ---
 
-## <span style="font-style: italic; color: limeGreen;">Programming Tips ♥</span>
+## <span style="font-style: italic; color: #e76f00;">Programming Tips ♥</span>
 
 - Learn English
 - Be enthusiastic about everything new
@@ -51,11 +55,11 @@
 
 ---
 
-## <span style="font-style: italic; color: limeGreen;">1. Learning</span>
+## _1. [<span style="color: #e76f00;">Learning</span>](src/_1_learning)_
 
-- Learn Examples of Concepts
+- <u style="text-decoration-color: #e76f00;">Learn Examples of Concepts</u><b style="color: #e76f00;"> ♥</b>.
 
-### <span style="font-style: italic; color: limeGreen;">1. Basics</span>
+### _1. [<span style="color: #e76f00;">Basics</span>](src/_1_learning/_1_1_basics)_
 
 1. **Variables**
 2. **Data Types**
@@ -97,10 +101,12 @@
 15. **String Builder**
 16. **Escape Sequences**
 17. **Text Color Strings**
+18. **Methods and Functions Types**
+19. **Comment Types**
 
-### <span style="font-style: italic; color: limeGreen;">2. Testing</span>
+### 2. [<span style="color: #e76f00;">Testing</span>](src/_1_learning/_1_2_testing)
 
-### <span style="font-style: italic; color: limeGreen;">3. Handling</span>
+### 3. [<span style="color: #e76f00;">Handling</span>](src/_1_learning/_1_3_handling)
 
 1. **Exceptions Handing**
     1. **Try, Catch, Finally, throw and throws**
@@ -128,7 +134,7 @@
     4. **Keywords**
         1. **Transient**
 
-### <span style="font-style: italic; color: limeGreen;">4. OOP (Object Oriented Programming)</span>
+### 4. [<span style="color: #e76f00;">OOP (Object Oriented Programming)</span>](src/_1_learning/_1_4_object_oriented_programming)
 
 1. **Class**
 2. **Methods**
@@ -160,7 +166,7 @@
 24. **Local Class**
 25. **Anonymous Class**
 
-### <span style="font-style: italic; color: limeGreen;">5. DS (Data Structures)</span>
+### 5. [<span style="color: #e76f00;">DS (Data Structures)</span>](src/_1_learning/_1_5_data_structures)
 
 1. **List**
     1. **List**
@@ -201,7 +207,7 @@
 35. **Dictionary**
 36. **Collection**
 
-### <span style="font-style: italic; color: limeGreen;">6. Algorithms</span>
+### 6. [<span style="color: #e76f00;">Algorithms</span>](src/_1_learning/_1_6_algorithms)
 
 1. **Search**
     1. **Linear**
@@ -230,7 +236,7 @@
     1. **AES (Advanced Encryption Standard)**
     2. **RSA (Rivest-Shamir-Adleman)**
 
-### <span style="font-style: italic; color: limeGreen;">7. DSA (Data Structures and Algorithms)</span>
+### 7. [<span style="color: #e76f00;">DSA (Data Structures and Algorithms)</span>](src/_1_learning/_1_7_data_structures_and_algorithms)
 
 1. **Nodes**
 2. **LinkedList**
@@ -256,162 +262,176 @@
     1. **Normal Heap**
     2. **Fibonacci Heap**
 
-### <span style="font-style: italic; color: limeGreen;">~~8. Database~~</span>
+### <span style="font-style: italic; color: #e76f00;">~~8. Database~~</span>
 
-### <span style="font-style: italic; color: limeGreen;">~~9. Network~~</span>
+### <span style="font-style: italic; color: #e76f00;">~~9. Network~~</span>
 
-### <span style="font-style: italic; color: limeGreen;">~~10. OOD (Object Oriented Design)~~</span>
+### <span style="font-style: italic; color: #e76f00;">~~10. OOD (Object Oriented Design)~~</span>
 
-### <span style="font-style: italic; color: limeGreen;">~~11. Design Patterns~~</span>
+### <span style="font-style: italic; color: #e76f00;">~~11. Design Patterns~~</span>
 
-### <span style="font-style: italic; color: limeGreen;">~~12. SOLID Principles~~</span>
+### <span style="font-style: italic; color: #e76f00;">~~12. SOLID Principles~~</span>
 
-- **<span style="color: limeGreen;">S</span> = ~~SRP (Single Responsibility Principle)~~**
-- **<span style="color: limeGreen;">O</span> = ~~OCP (Open/Closed Principle)~~**
-- **<span style="color: limeGreen;">L</span> = ~~LSP (Liskov Substitution Principle)~~**
-- **<span style="color: limeGreen;">I</span> = ~~ISP (Interface Segregation Principle)~~**
-- **<span style="color: limeGreen;">D</span> = ~~DIP (Dependency Inversion Principle)~~**
+- **<span style="color: #e76f00;">S</span> = ~~SRP (Single Responsibility Principle)~~**
+- **<span style="color: #e76f00;">O</span> = ~~OCP (Open/Closed Principle)~~**
+- **<span style="color: #e76f00;">L</span> = ~~LSP (Liskov Substitution Principle)~~**
+- **<span style="color: #e76f00;">I</span> = ~~ISP (Interface Segregation Principle)~~**
+- **<span style="color: #e76f00;">D</span> = ~~DIP (Dependency Inversion Principle)~~**
 
-### <span style="font-style: italic; color: limeGreen;">~~13. Best Practices~~</span>
+### <span style="font-style: italic; color: #e76f00;">~~13. Best Practices~~</span>
 
 ---
 
-## <span style="font-style: italic; color: limeGreen;">2. Solving (1,221)</span>
+## <span style="font-style: italic; color: #e76f00;">2. Solving (1,335)</span>
 
 - Solve problems and projects
 
-#### <p style="color: limeGreen;">Notes</p>
+#### <p style="color: #e76f00;">Notes</p>
 
 <ul>
-<li><u style="text-decoration-color: limeGreen;">There are some questions where the requirements and names have been changed without changing the important programming terms.</u></li>
-<h4 style="">What does Mean (🟥 & 🟩) ?</h4>
+<li><u style="text-decoration-color: #e76f00;">There are some questions where the requirements and names have been changed without changing the important programming terms</u> <b style="color: #e76f00;">♥</b>.</li>
+<br/>
+<li><b>What does Mean (🟥 & 🟩) ?</b></li>
 <ul>
-<li>🟥: <u style="text-decoration-color: limeGreen;">Not Complete</u></li>
-<li>🟩: <u style="text-decoration-color: limeGreen;">Complete</u></li>
+<li>🟥: <u style="text-decoration-color: #e76f00;">Not Complete</u></li>
+<li>🟩: <u style="text-decoration-color: #e76f00;">Complete</u></li>
 </ul>
 </ul>
 
-### 1. [W3Schools](https://www.w3schools.com/java) (6 Questions) 🟩
+### <span>1. <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a> (6 Questions) 🟩<span>
 
-1. **[How to](https://www.w3schools.com/java) (6 Questions)**
+1. <b><a style="color: #e76f00;" href="https://www.w3schools.com/java">How to</a> (6 Questions)</b>
 
-### 2. [W3Resource](https://www.w3resource.com/java-exercises) (810 Questions) 🟥
+### <span>2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (922 Questions) 🟥<span>
 
 1. **Basics (272 Questions)**
-    1. **[Part 1](https://www.w3resource.com/java-exercises/basic/index.php) (150 Questions)**
-    2. **[Part 2](https://www.w3resource.com/java-exercises/basic/index1.php) (99 Questions)**
-    3. **[Methods](https://www.w3resource.com/java-exercises/method/index.php) (23 Questions)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index.php">Part 1</a> (150 Questions)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index1.php">Part 2</a> (99 Questions)</b>
+    3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/method/index.php">Methods</a> (23 Questions)</b>
 2. **Data Types (20 Questions)**
-    1. **[Data Types](https://www.w3resource.com/java-exercises/datatypes/index.php) (15 Questions)**
-    2. **[Enum Types](https://www.w3resource.com/java-exercises/java-enum-types.php) (5 Questions)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/datatypes/index.php">Data Types</a> (15 Questions)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/java-enum-types.php">Enum Types</a> (5 Questions)</b>
 3. **Flow Control (47 Questions)**
-    1. **[Conditional Flow](https://www.w3resource.com/java-exercises/conditional-statement/index.php) (32 Questions)**
-    2. **[Recursive Method](https://www.w3resource.com/java-exercises/recursive/index.php) (15 Questions)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/conditional-statement/index.php">Conditional Statement</a> (32 Questions)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/recursive/index.php">Recursive Method</a> (15 Questions)</b>
 4. **Math and Numbers (58 Questions)**
-    1. **[Math](https://www.w3resource.com/java-exercises/math/index.php) (29 Questions)**
-    2. **[Numbers](https://www.w3resource.com/java-exercises/numbers/index.php) (29 Questions)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/math/index.php">Math</a> (29 Questions)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/numbers/index.php">Numbers</a> (29 Questions)</b>
 5. **Object-Oriented Programming (117 Questions)**
-    1. **[Constructors](https://www.w3resource.com/java-exercises/constructor/java-constructors.php) (10 Questions)**
-    2. **[Static Members](https://www.w3resource.com/java-exercises/static_members/java-static-members.php) (8 Questions)**
-    3. **[Nested Classes](https://www.w3resource.com/java-exercises/nested-classes/java-nested-classes.php) (10 Questions)**
-    4. **[Inheritance](https://www.w3resource.com/java-exercises/index-inheritance.php) (10 Questions)**
-    5. **[Abstract Classes](https://www.w3resource.com/java-exercises/index-abstract.php) (12 Questions)**
-    6. **[Interface](https://www.w3resource.com/java-exercises/index-interface.php) (11 Questions)**
-    7. **[Encapsulation](https://www.w3resource.com/java-exercises/encapsulation/index.php) (14 Questions)**
-    8. **[Polymorphism](https://www.w3resource.com/java-exercises/index-polymorphism.php) (12 Questions)**
-    9. **[Object-Oriented Programming](https://www.w3resource.com/java-exercises/oop/index.php) (30 Questions)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/constructor/java-constructors.php">Constructors</a> (10 Questions)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/static_members/java-static-members.php">Static Members</a> (8 Questions)</b>
+    3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/nested-classes/java-nested-classes.php">Nested Classes</a> (10 Questions)</b>
+    4. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-inheritance.php">Inheritance</a> (10 Questions)</b>
+    5. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-abstract.php">Abstract Classes</a> (12 Questions)</b>
+    6. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-interface.php">Interface</a> (11 Questions)</b>
+    7. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/encapsulation/index.php">Encapsulation</a> (14 Questions)</b>
+    8. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-polymorphism.php">Polymorphism</a> (12 Questions)</b>
+    9. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/oop/index.php">Object-Oriented Programming</a> (30 Questions)</b>
 6. **Exception Handling (7 Questions)**
-    1. **[Handling and Managing](https://www.w3resource.com/java-exercises/exception/index.php) (7 Questions)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/exception/index.php">Handling and Managing</a> (7 Questions)</b>
 7. **Functional Programming (33 Questions)**
-    1. **[Lambda Expression](https://www.w3resource.com/java-exercises/lambda/index.php) (25 Questions)**
-    2. **[Streams](https://www.w3resource.com/java-exercises/stream/index.php) (8 Questions)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/lambda/index.php">Lambda Expression</a> (25 Questions)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/stream/index.php">Streams</a> (8 Questions)</b>
 8. **Multithreading (22 Questions)**
-    1. **[Thread](https://www.w3resource.com/java-exercises/thread/index.php) (7 Questions)**
-    2. **[Multithreading](https://www.w3resource.com/java-exercises/multithreading/index.php) (15 Questions)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/thread/index.php">Thread</a> (7 Questions)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/multithreading/index.php">Multithreading</a> (15 Questions)</b>
 9. **Data Structures (234 Questions)**
-    1. **[Array](https://www.w3resource.com/java-exercises/array/index.php) (79 Questions)**
-    2. **[Stack](https://www.w3resource.com/java-exercises/stack/index.php) (29 Questions)**
-    3. **[Collection](https://www.w3resource.com/java-exercises/collection/index.php) (126 Questions)**
-        1. **[ArrayList](https://www.w3resource.com/java-exercises/collection/array-list.php) (22 Questions)**
-        2. **[LinkedList](https://www.w3resource.com/java-exercises/collection/linked-list.php) (26 Questions)**
-        3. **[HashSet](https://www.w3resource.com/java-exercises/collection/hash-set.php) (12 Questions)**
-        4. **[TreeSet](https://www.w3resource.com/java-exercises/collection/tree-set.php) (16 Questions)**
-        5. **[PriorityQueue](https://www.w3resource.com/java-exercises/collection/priority-queue.php) (12 Questions)**
-        6. **[HashMap](https://www.w3resource.com/java-exercises/collection/hash-map.php) (12 Questions)**
-        7. **[TreeMap](https://www.w3resource.com/java-exercises/collection/tree-map.php) (26 Questions)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/array/index.php">Array</a> (79 Questions)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/stack/index.php">Stack</a> (29 Questions)</b>
+    3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/index.php">Collection</a> (126 Questions)</b>
+        1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/array-list.php">ArrayList</a> (22 Questions)</b>
+        2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/linked-list.php">LinkedList</a> (26 Questions)</b>
+        3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-set.php">HashSet</a> (12 Questions)</b>
+        4. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-set.php">TreeSet</a> (16 Questions)</b>
+        5. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/priority-queue.php">PriorityQueue</a> (12 Questions)</b>
+        6. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-map.php">HashMap</a> (12 Questions)</b>
+        7. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-map.php">TreeMap</a> (26 Questions)</b>
+10. **String and Input and Output (112 Questions)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/string/index.php">String</a> (112 Questions)</b>
 
-### 3. [Codeforces](https://codeforces.com) (273 Questions) 🟩
+### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (273 Questions) 🟩</span>
 
-1. **[Assiut-Sheets](https://codeforces.com/group/MWSDmqGsZm/contests) (273 Questions)**
-    1. **[Sheet 1 "Data type - Conditions"](https://codeforces.com/group/MWSDmqGsZm/contest/219158) (26 Questions)**
-    2. **[Contest 1](https://codeforces.com/group/MWSDmqGsZm/contest/326175) (9 Questions)**
-    3. **[Sheet 2 "Loops"](https://codeforces.com/group/MWSDmqGsZm/contest/219432) (26 Questions)**
-    4. **[Contest 2](https://codeforces.com/group/MWSDmqGsZm/contest/326907) (8 Questions)**
-    5. **[Sheet 3 "Arrays"](https://codeforces.com/group/MWSDmqGsZm/contest/219774) (26 Questions)**
-    6. **[Contest 3.1](https://codeforces.com/group/MWSDmqGsZm/contest/329103) (7 Questions)**
-    7. **[Sheet 4 "Strings"](https://codeforces.com/group/MWSDmqGsZm/contest/219856) (26 Questions)**
+1. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contests">Assiut-Sheets</a> (273 Questions)</b>
+    1. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219158">Sheet 1 "Data type - Conditions"</a> (26 Questions)</b>
+    2. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/326175">Contest 1</a> (9 Questions)</b>
+    3. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219432">Sheet 2 "Loops"</a> (26 Questions)</b>
+    4. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/326907">Contest 2</a> (8 Questions)</b>
+    5. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219774">Sheet 3 "Arrays"</a> (26 Questions)</b>
+    6. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/329103">Contest 3.1</a> (7 Questions)</b>
+    7. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219856">Sheet 4 "Strings"</a> (26 Questions)</b>
         - [2.3.1.7.o Sort String](src/_2_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
           `It can't be submit by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
-    8. **[Sheet 5 "Functions"](https://codeforces.com/group/MWSDmqGsZm/contest/223205) (15 Questions)**
-    9. **[Sheet 6 "Math - Geometry"](https://codeforces.com/group/MWSDmqGsZm/contest/223338) (26 Questions)**
-    10. **[Sheet 7 "Recursion"](https://codeforces.com/group/MWSDmqGsZm/contest/223339) (26 Questions)**
-    11. **[Sheet 8 "General Easy"](https://codeforces.com/group/MWSDmqGsZm/contest/223206) (26 Questions)**
-    12. **[Sheet 9 "General Medium"](https://codeforces.com/group/MWSDmqGsZm/contest/223207) (26 Questions)**
-    13. **[Sheet 10 "General Hard"](https://codeforces.com/group/MWSDmqGsZm/contest/223340) (26 Questions)**
-2. ~~**[Problem-Set](https://codeforces.com/problemset) (0 Questions)**~~
+    8. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223205">Sheet 5 "Functions"</a> (15 Questions)</b>
+    9. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223338">Sheet 6 "Math - Geometry"</a> (26 Questions)</b>
+    10. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223339">Sheet 7 "Recursion"</a> (26 Questions)</b>
+    11. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223206">Sheet 8 "General Easy"</a> (26 Questions)</b>
+    12. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223207">Sheet 9 "General Medium"</a> (26 Questions)</b>
+    13. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223340">Sheet 10 "General Hard"</a> (26 Questions)</b>
+2. ~~<b><a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem-Set</a> (0 Questions)<b/>~~
 
-### 4. [Satr](https://satr.codes) (4 Projects) 🟩
+### <span>4. <a style="color: #e76f00;" href="https://satr.codes">Satr</a> (4 Projects) 🟩</span>
 
-1. **[Basics](https://satr.codes/course/SYJZBDMnFM/view) (1 Project)**
-2. **[Java 101](https://satr.codes/course/DcFViVITbo/view) (1 Project)**
-3. **[Java 102](https://satr.codes/course/oqTQleaQLV/view) (1 Project)**
-4. **[Java 103](https://satr.codes/course/aiZMoXpIya/view) (1 Project)**
+1. <b><a style="color: #e76f00;" href="https://satr.codes/course/SYJZBDMnFM/view">Basics</a> (1 Project)</b>
+2. <b><a style="color: #e76f00;" href="https://satr.codes/course/DcFViVITbo/view">Java 101</a> (1 Project)</b>
+3. <b><a style="color: #e76f00;" href="https://satr.codes/course/oqTQleaQLV/view">Java 102</a> (1 Project)</b>
+4. <b><a style="color: #e76f00;" href="https://satr.codes/course/aiZMoXpIya/view">Java 103</a> (1 Project)</b>
 
-### 5. [CoderHub](https://coderhub.sa) (128 Questions) 🟩
+### <span>5. <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a> (130 Questions) 🟩</span>
 
-1. **[Easy](https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY) (73 Questions)**
-    1. **Shorouk Saeed** **(1 Questions)**
-    2. **Mashari Al-Dosari** **(1 Questions)**
-    3. **CoderHub Team** **(70 Questions)**
-    4. **Ali Al-Damen** **(1 Questions)**
-2. **[Medium](https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM) (42 Questions)**
-    1. **CoderHub Team** **(39 Questions)**
-    2. **Faisal Al-Qahtani** **(1 Questions)**
-    3. **Rashid Al-Anazi** **(1 Questions)**
-    4. **Halah Al-Dekhiel** **(1 Questions)**
-3. **[Hard](https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD) (13 Questions)**
-    1. **CoderHub Team** **(12 Questions)**
-    2. **Rashid Al-Anazi** **(1 Questions)**
+1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges">Questions</a> (128 Questions)</b>
+    1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (73 Questions)</b>
+        1. **Shorouk Saeed** **(1 Questions)**
+        2. **Mashari Al-Dosari** **(1 Questions)**
+        3. **CoderHub Team** **(70 Questions)**
+        4. **Ali Al-Damen** **(1 Questions)**
+    2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (42 Questions)</b>
+        1. **CoderHub Team** **(39 Questions)**
+        2. **Faisal Al-Qahtani** **(1 Questions)**
+        3. **Rashid Al-Anazi** **(1 Questions)**
+        4. **Halah Al-Dekhiel** **(1 Questions)**
+    3. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (13 Questions)</b>
+        1. **CoderHub Team** **(12 Questions)**
+        2. **Rashid Al-Anazi** **(1 Questions)**
+2. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities">Competitions</a> (2 Questions)</b>
+    1. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Questions)</b>
+        1. **Easy (2 Questions)**
 
-### ~~6. [LeetCode](https://leetcode.com) (0 Questions)~~
+### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (0 Questions) 🟥</span>
 
-1. ~~**[Top Interview 150](https://leetcode.com/studyplan/top-interview-150) (0 Questions)**~~
-2. ~~**[Problem-Set](https://leetcode.com/problemset) (0 Questions)**~~
+1. ~~<b><a style="color: #e76f00;" href="https://leetcode.com/studyplan/top-interview-150">Top Interview 150</a> (0 Questions)</b>~~
+2. ~~<b><a style="color: #e76f00;" href="https://leetcode.com/problemset">Problem-Set</a> (0 Questions)</b>~~
 
 ---
 
-## _Resources_
+## _<span style="color: #e76f00;">Resources</span>_
 
-### Learning
+### <span style="color: #e76f00;">Learning</span>
 
-#### Websites
+- <b style="color: #e76f00;">Note:</b> <u style="text-decoration-color: #e76f00;">After learning from the sources, what was explained in the project is explained in my ways not copied mostly</u><b style="color: #e76f00;"> ♥</b>.
 
-- [GeeksForGeeks](https://www.geeksforgeeks.org)
-- [Programiz](https://www.programiz.com)
-- [W3Schools](https://www.w3schools.com)
-- [Youtube](https://www.youtube.com)
-- [Satr](https://satr.codes)
-- [Sanfoundry](https://www.sanfoundry.com)
-- [Javatpoint](https://www.javatpoint.com)
-- [CodeProject](https://www.codeproject.com)
+#### **Websites**
 
-### Solving
+<ul>
+<li><a style="color: #e76f00;" href="https://www.geeksforgeeks.org">GeeksForGeeks</a></li>
+<li><a style="color: #e76f00;" href="https://www.programiz.com">Programiz</a></li>
+<li><a style="color: #e76f00;" href="https://www.w3schools.com">W3Schools</a></li>
+<li><a style="color: #e76f00;" href="https://www.youtube.com">Youtube</a></li>
+<li><a style="color: #e76f00;" href="https://satr.codes">Satr</a></li>
+<li><a style="color: #e76f00;" href="https://www.sanfoundry.com">Sanfoundry</a></li>
+<li><a style="color: #e76f00;" href="https://www.javatpoint.com">Javatpoint</a></li>
+<li><a style="color: #e76f00;" href="https://www.codeproject.com">CodeProject</a></li>
+<li><a style="color: #e76f00;" href="https://harmash.com">Harmash</a></li>
+</ul>
 
-#### Websites
+### <span style="color: #e76f00;">Solving</span>
 
-- [W3Schools](https://www.w3schools.com)
-- [W3Resource](https://www.w3resource.com)
-- [Codeforces](https://codeforces.com)
-- [Satr](https://satr.codes)
-- [CoderHub](https://coderhub.sa)
-- [LeetCode](https://leetcode.com)
+#### **Websites**
+
+<ul>
+<li><a style="color: #e76f00;" href="https://www.w3schools.com">W3Schools</a></li>
+<li><a style="color: #e76f00;" href="https://www.w3resource.com">W3Resource</a></li>
+<li><a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a></li>
+<li><a style="color: #e76f00;" href="https://satr.codes">Satr</a></li>
+<li><a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a></li>
+<li><a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a></li>
+</ul>

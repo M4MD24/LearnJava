@@ -21,6 +21,6 @@ public class TypeConversionAndCastingAndTypePromotion {
         byte byteVariable = 5;
         byte byteVariable2 = 10;
         float floatVariable = byteVariable + byteVariable2; // Type Promotion
-        System.out.println(floatVariable);
+        System.out.print(floatVariable);
     }
 }

@@ -1,0 +1,14 @@
+package _2_solving._2_5_coder_hub._2_5_1_questions._2_5_1_1_easy._2_5_1_1_3_coder_hub_team._2_5_1_1_3_5_name_character_length;
+
+import java.util.Scanner;
+
+public class NameCharacterLengthExample {
+    public static void main(final String[] PARAMETERS) {
+        final Scanner INPUT = new Scanner(System.in);
+        System.out.print(nameCharacterLength(INPUT.nextLine()));
+    }
+
+    private static int nameCharacterLength(final String TEXT) {
+        return TEXT.length();
+    }
+}

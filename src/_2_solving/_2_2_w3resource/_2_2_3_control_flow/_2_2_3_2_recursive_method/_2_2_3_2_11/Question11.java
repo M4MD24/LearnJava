@@ -29,7 +29,7 @@ public class Question11 {
         printGenerateDifferentPermutations(TEXT, 0);
     }
 
-    public static void printGenerateDifferentPermutations(final String TEXT, final int INDEX) {
+    private static void printGenerateDifferentPermutations(final String TEXT, final int INDEX) {
         if (INDEX == TEXT.length())
             System.out.println(TEXT);
         else
@@ -44,7 +44,7 @@ public class Question11 {
                 );
     }
 
-    public static String swap(final String TEXT, final int FIRST_INDEX, final int SECOND_INDEX) {
+    private static String swap(final String TEXT, final int FIRST_INDEX, final int SECOND_INDEX) {
         final char[] CHARACTERS = TEXT.toCharArray();
         final char TEMPORARY_CHARACTER = CHARACTERS[FIRST_INDEX];
         CHARACTERS[FIRST_INDEX] = CHARACTERS[SECOND_INDEX];

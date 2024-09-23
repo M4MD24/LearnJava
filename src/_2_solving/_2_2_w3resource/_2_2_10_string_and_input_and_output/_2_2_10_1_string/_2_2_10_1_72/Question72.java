@@ -1,0 +1,16 @@
+package _2_solving._2_2_w3resource._2_2_10_string_and_input_and_output._2_2_10_1_string._2_2_10_1_72;
+
+/**
+ * <h1>Question:</h1>
+ * <h2>Write a Java program to return true if a given string contains the string 'for', but the middle 'o' also may contain another character.</h2>
+ */
+
+public class Question72 {
+    public static void main(final String[] PARAMETERS) {
+        System.out.print(isContainForWordAndMiddleCharacterAlsoMayContainAnotherCharacter("Nullexiaf#rProgramming"));
+    }
+
+    private static boolean isContainForWordAndMiddleCharacterAlsoMayContainAnotherCharacter(final String TEXT) {
+        return TEXT.matches(".*f.r.*");
+    }
+}

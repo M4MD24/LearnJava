@@ -63,7 +63,7 @@ public class TextColorStringsExample {
         System.out.printf("- Blue  : %s %s Salam %s\n", BLUE_TEXT_COLOR, BLUE_BACKGROUND_TEXT_COLOR, NORMAL_TEXT_COLOR_AND_BACKGROUND);
         System.out.printf("- Purple: %s %s Salam %s\n", PURPLE_TEXT_COLOR, PURPLE_BACKGROUND_TEXT_COLOR, NORMAL_TEXT_COLOR_AND_BACKGROUND);
         System.out.printf("- Cyan  : %s %s Salam %s\n", CYAN_TEXT_COLOR, CYAN_BACKGROUND_TEXT_COLOR, NORMAL_TEXT_COLOR_AND_BACKGROUND);
-        System.out.printf("- White : %s %s Salam %s\n\n", WHITE_TEXT_COLOR, WHITE_BACKGROUND_TEXT_COLOR, NORMAL_TEXT_COLOR_AND_BACKGROUND);
+        System.out.printf("- White : %s %s Salam %s", WHITE_TEXT_COLOR, WHITE_BACKGROUND_TEXT_COLOR, NORMAL_TEXT_COLOR_AND_BACKGROUND);
     }
 
     private static void printTextBackgroundColors() {
@@ -89,6 +89,6 @@ public class TextColorStringsExample {
         System.out.printf("- Blue  : %s Salam %s\n", BLUE_TEXT_COLOR, NORMAL_TEXT_COLOR_AND_BACKGROUND);
         System.out.printf("- Purple: %s Salam %s\n", PURPLE_TEXT_COLOR, NORMAL_TEXT_COLOR_AND_BACKGROUND);
         System.out.printf("- Cyan  : %s Salam %s\n", CYAN_TEXT_COLOR, NORMAL_TEXT_COLOR_AND_BACKGROUND);
-        System.out.printf("- White : %s Salam %s", WHITE_TEXT_COLOR, NORMAL_TEXT_COLOR_AND_BACKGROUND);
+        System.out.printf("- White : %s Salam %s\n\n", WHITE_TEXT_COLOR, NORMAL_TEXT_COLOR_AND_BACKGROUND);
     }
 }
