@@ -46,10 +46,18 @@ class Anonymous {
     }
 }
 
+interface Greeting {
+    void sayHello();
+}
+
 class AnonymousClass {
     public static void main(final String[] PARAMETERS) {
         Anonymous anonymous = new Anonymous();
         anonymous.InnerClass1();
         anonymous.InnerClass2();
+
+//        Another Example
+        final Greeting GREETING = () -> System.out.println("Hello, World!");
+        GREETING.sayHello();
     }
 }

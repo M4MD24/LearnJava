@@ -2,27 +2,24 @@ package _1_learning._1_2_testing;
 
 public class TestingExample {
     public static void main(final String[] PARAMETERS) {
+        System.out.println(new TestingExample().sumTwoNumbers(12, 12));
+        System.out.print(new TestingExample().dayWeek(7));
     }
 
-    int sumTwoNumbers(int number1, int number2) {
-        return number1 + number2;
+    protected int sumTwoNumbers(final int FIRST_NUMBER, final int SECOND_NUMBER) {
+        return FIRST_NUMBER + SECOND_NUMBER;
     }
 
-    String dayWeek(int dayNumber) {
-        while (true) {
-            if (dayNumber != 0) {
-                return switch (dayNumber) {
-                    case 1 -> "Saturday";
-                    case 2 -> "Sunday";
-                    case 3 -> "Monday";
-                    case 4 -> "Tuesday";
-                    case 5 -> "Wednesday";
-                    case 6 -> "Thursday";
-                    case 7 -> "Friday";
-                    default -> "Enter a number between 1:7";
-                };
-            } else break;
-        }
-        return null;
+    protected String dayWeek(final int DAY_NUMBER) {
+        return switch (DAY_NUMBER) {
+            case 1 -> "Saturday";
+            case 2 -> "Sunday";
+            case 3 -> "Monday";
+            case 4 -> "Tuesday";
+            case 5 -> "Wednesday";
+            case 6 -> "Thursday";
+            case 7 -> "Friday";
+            default -> "Enter a number between 1:7";
+        };
     }
 }

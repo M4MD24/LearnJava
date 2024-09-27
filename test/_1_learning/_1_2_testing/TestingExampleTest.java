@@ -8,10 +8,10 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 class TestingExampleTest {
     @Test
     void Main() {
-        TestingExample test = new TestingExample();
-        assertEquals(20, test.sumTwoNumbers(10, 10), "Error Message");
-        assertEquals("Saturday", test.dayWeek(1), "Error Message");
-        System.out.println(test.dayWeek(1));
-        assertNull(test.dayWeek(0));
+        final TestingExample TEST_EXAMPLE = new TestingExample();
+        assertEquals(20, TEST_EXAMPLE.sumTwoNumbers(10, 10), "Error Message!");
+        assertEquals("Saturday", TEST_EXAMPLE.dayWeek(1), "Error Message!");
+        System.out.println(TEST_EXAMPLE.dayWeek(1));
+        assertNull(TEST_EXAMPLE.dayWeek(0));
     }
 }
