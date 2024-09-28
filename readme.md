@@ -111,20 +111,7 @@
 18. **Methods and Functions Types**
 19. **Comment Types**
 
-### 2. [<span style="color: #e76f00;">Testing</span>](src/_1_learning/_1_2_testing)
-
-1. **JUnit 5**
-    1. **Test**
-    2. **(Before / After) Each**
-    3. **(Before / After) All**
-    4. **Parameterized Test**
-    5. **CSV Source**
-2. **Testing**
-    1. **Test**
-        1. **Time Out**
-    2. **Ignore**
-
-### 3. [<span style="color: #e76f00;">Handling</span>](src/_1_learning/_1_3_handling)
+### 2. [<span style="color: #e76f00;">Handling</span>](src/_1_learning/_1_2_handling)
 
 1. **Exceptions Handing**
     1. **Try, Catch, Finally, throw and throws**
@@ -152,7 +139,7 @@
     4. **Keywords**
         1. **Transient**
 
-### 4. [<span style="color: #e76f00;">OOP (Object Oriented Programming)</span>](src/_1_learning/_1_4_object_oriented_programming)
+### 3. [<span style="color: #e76f00;">OOP (Object Oriented Programming)</span>](src/_1_learning/_1_3_object_oriented_programming)
 
 1. **Class**
 2. **Methods**
@@ -183,6 +170,19 @@
 23. **Sealed Class And Interface**
 24. **Local Class**
 25. **Anonymous Inner Class**
+
+### 4. [<span style="color: #e76f00;">Testing</span>](src/_1_learning/_1_4_testing)
+
+1. **JUnit 5**
+    1. **Test**
+    2. **(Before / After) Each**
+    3. **(Before / After) All**
+    4. **Parameterized Test**
+    5. **CSV Source**
+2. **Testing**
+    1. **Test**
+        1. **Time Out**
+    2. **Ignore**
 
 ### 5. [<span style="color: #e76f00;">DS (Data Structures)</span>](src/_1_learning/_1_5_data_structures)
 
