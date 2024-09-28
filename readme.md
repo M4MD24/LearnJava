@@ -15,7 +15,13 @@
   <ul><li><img width="20" src="readme_file_source/icons/monkey_type_icon.svg" alt="Monkey Type Icon" style="vertical-align: middle;"/> <b>Monkey Type</b> <a style="color: limeGreen;" href="https://monkeytype.com/profile/m3md69">@M3MD69</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/s_letter_icon.svg" alt="S Letter" style="vertical-align: middle;"/> <b>Satr</b> <a style="color: limeGreen;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a></li></ul>
 - <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> First person to solve all the problems of Assiut Sheets in codeforces with Java version 8 and 21 on <b style="color: limeGreen;">(22/04/2024)</b></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">First person to solve all the problems</b> of Assiut Sheets in codeforces with Java version 8 and 21 on <b style="color: limeGreen;">(22/04/2024)</b></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">More than 1,400 questions</b> on different concepts have been solved</li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> CodeHub <b style="color: limeGreen;">Ranked 42th</b> Java</li></ul>
+
+## _<span style="color: #32cd32;">For Contact</span>_
+
+- <img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a style="color: limeGreen;" href="https://t.me/M3MD69">@M3MD69</a>
 
 ---
 
@@ -107,6 +113,17 @@
 
 ### 2. [<span style="color: #e76f00;">Testing</span>](src/_1_learning/_1_2_testing)
 
+1. **JUnit 5**
+    1. **Test**
+    2. **(Before / After) Each**
+    3. **(Before / After) All**
+    4. **Parameterized Test**
+    5. **CSV Source**
+2. **Testing**
+    1. **Test**
+        1. **Time Out**
+    2. **Ignore**
+
 ### 3. [<span style="color: #e76f00;">Handling</span>](src/_1_learning/_1_3_handling)
 
 1. **Exceptions Handing**
@@ -118,18 +135,18 @@
 2. **File Handling**
     1. **Input and output Streams (I/O Streams)**
         1. **Input and Output**
-        2. **(Input/Output) Stream**
-        3. **File (Input/Output) Stream**
-        4. **Byte Array (Input/Output) Stream**
-        5. **Object (Input/Output) Stream**
-        6. **Buffered (Input/Output) Stream**
+        2. **(Input / Output) Stream**
+        3. **File (Input / Output) Stream**
+        4. **Byte Array (Input / Output) Stream**
+        5. **Object (Input / Output) Stream**
+        6. **Buffered (Input / Output) Stream**
         7. **Print Stream**
     2. **Reader and Writer**
-        1. **(Reader/Writer)**
-        2. **(Input/Output) Stream (Reader/Writer)**
-        3. **File (Reader/Writer)**
-        4. **Buffered (Reader/Writer)**
-        5. **String (Reader/Writer)**
+        1. **(Reader / Writer)**
+        2. **(Input / Output) Stream (Reader / Writer)**
+        3. **File (Reader / Writer)**
+        4. **Buffered (Reader / Writer)**
+        5. **String (Reader / Writer)**
         6. **Print Writer**
     3. **File**
     4. **Keywords**
