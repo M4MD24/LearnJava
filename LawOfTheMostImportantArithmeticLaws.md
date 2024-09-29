@@ -379,6 +379,13 @@ private static boolean isSameUpToTwoDecimalPlaces() {
 private static long getBinomialCoefficient(final byte FIRST_NUMBER, final byte SECOND_NUMBER) {
     return getFactorial(FIRST_NUMBER) / (getFactorial(SECOND_NUMBER) * getFactorial((byte) (FIRST_NUMBER - SECOND_NUMBER)));
 }
+
+private static long getFactorial(final byte NUMBER) {
+    long multiplication = 1;
+    for (int index = 2; index <= NUMBER; index++)
+        multiplication *= index;
+    return multiplication;
+}
 ```
 
 ### Is Perfect Square

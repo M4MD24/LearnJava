@@ -181,7 +181,6 @@
     5. **CSV Source**
 2. **Testing**
     1. **Test**
-        1. **Time Out**
     2. **Ignore**
 
 ### 5. [<span style="color: #e76f00;">DS (Data Structures)</span>](src/_1_learning/_1_5_data_structures)
@@ -231,8 +230,12 @@
     1. **Linear**
     2. **Binary**
     3. **Interpolation**
-    4. **DFS (Depth First Sort)**
-    5. **BFS (Breadth First Sort)**
+    4. **DFS (Depth First Search)**
+    5. **BFS (Breadth First Search)**
+    6. **Jump**
+    7. **Exponential**
+    8. **Ternary**
+    9. **Saddle Back**
 2. **Sort**
     1. **Bubble**
     2. **Selection**
@@ -244,6 +247,16 @@
     8. **Bucket**
     9. **Heap**
     10. **Shell**
+    11. **Bead**
+    12. **Bogo**
+    13. **Cocktail**
+    14. **Comb**
+    15. **Gnome**
+    16. **Pancake**
+    17. **Permutation**
+    18. **Sleep**
+    19. **Stooge**
+    20. **Tim**
 3. ~~**Greedy**~~
     1. ~~**Ford Fulkerson**~~
     2. ~~**Dijkstra**~~
@@ -300,7 +313,7 @@
 
 ---
 
-## <span style="font-style: italic; color: #e76f00;">2. Solving (1,416)</span>
+## <span style="font-style: italic; color: #e76f00;">2. Solving (1,442)</span>
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and projects</u> <b style="color: #e76f00;">♥</b>.</li>
 
@@ -320,7 +333,7 @@
 
 1. <b><a style="color: #e76f00;" href="https://www.w3schools.com/java">How to</a> (6 Questions)</b>
 
-### <span>2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (1,003 Questions) 🟥<span>
+### <span>2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (1,029 Questions) 🟥<span>
 
 1. **Basics (272 Questions)**
     1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index.php">Part 1</a> (150 Questions)</b>
@@ -372,6 +385,9 @@
 12. **Advanced Concepts (17 Questions)**
     1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/generic/index.php">Generic Methods</a> (7 Questions)</b>
     2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/unittest/index.php">Unit Test</a> (10 Questions)</b>
+13. **Algorithms (26 Questions)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Search</a> (7 Questions)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Sort</a> (19 Questions)</b>
 
 ### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (273 Questions) 🟩</span>
 
@@ -402,7 +418,7 @@
 
 ### <span>5. <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a> (130 Questions) 🟩</span>
 
-1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges">Questions</a> (128 Questions)</b>
+1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (128 Questions)</b>
     1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (73 Questions)</b>
         1. **Shorouk Saeed** **(1 Questions)**
         2. **Mashari Al-Dosari** **(1 Questions)**

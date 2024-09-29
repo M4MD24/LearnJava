@@ -6,11 +6,11 @@ public class BucketExample {
     public static void main(final String[] PARAMETERS) {
         final int[] NUMBERS = {90, 40, 5, 15, 40, 30, 9, 9};
         System.out.println("Original Numbers : " + Arrays.toString(NUMBERS));
-        radixSort(NUMBERS);
+        bucketSort(NUMBERS);
         System.out.print("After Bucket Sort: " + Arrays.toString(NUMBERS));
     }
 
-    private static void radixSort(final int[] NUMBERS) {
+    private static void bucketSort(final int[] NUMBERS) {
         final int MAXIMUM_NUMBER = getMaximumNumber(NUMBERS);
         final int[] NUMBERS_AFTER_BUCKET_SORT = new int[MAXIMUM_NUMBER + 1];
         for (int index = 0; index <= MAXIMUM_NUMBER; index++)
