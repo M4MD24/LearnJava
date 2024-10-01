@@ -1,0 +1,17 @@
+package _2_solving._2_2_w3resource._2_2_14_regular_expression._2_2_14_1_regular_expression._2_2_14_1_6;
+
+/**
+ * <h1>Question:</h1>
+ * <h2>Write a Java program to check if a text contains the character 'g' in a given string.</h2>
+ */
+
+public class Question6 {
+    public static void main(final String[] PARAMETERS) {
+        final String TEXT = "Nullexia For Programming";
+        System.out.print(isContain_g_Letter(TEXT));
+    }
+
+    private static boolean isContain_g_Letter(final String TEXT) {
+        return TEXT.matches(".*g.*");
+    }
+}

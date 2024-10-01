@@ -8,7 +8,7 @@
 
 - <img width="20" src="readme_file_source/icons/n_letter_icon.svg" alt="N Letter" style="vertical-align: middle;"/><b>Name</b> Mohamed Sadawy Thabet <b style="color: limeGreen;">(M3MD69)</b>
 - <img width="20" src="readme_file_source/icons/f_letter_icon.svg" alt="F Letter" style="vertical-align: middle;"/><b>Field</b> Software Engineer <b style="color: limeGreen;">/</b> Native Android Developer
-- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>My Cross Platforms</b>
+- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>Accounts</b>
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a style="color: limeGreen;" href="https://t.me/M3MD69">@M3MD69</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a style="color: limeGreen;" href="https://t.me/Nullexia">@Nullexia</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/g_letter_icon.svg" alt="G Letter" style="vertical-align: middle;"/> <b>Github</b> <a style="color: limeGreen;" href="https://github.com/M3MD69">@M3MD69</a></li></ul>
@@ -313,9 +313,9 @@
 
 ---
 
-## <span style="font-style: italic; color: #e76f00;">2. Solving (1,442)</span>
+## <span style="font-style: italic; color: #e76f00;">2. Solving (1,468)</span>
 
-<li><u style="text-decoration-color: #e76f00;">Solve problems and projects</u> <b style="color: #e76f00;">♥</b>.</li>
+<li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">♥</b>.</li>
 
 #### <p style="color: #e76f00;">Notes</p>
 
@@ -333,7 +333,7 @@
 
 1. <b><a style="color: #e76f00;" href="https://www.w3schools.com/java">How to</a> (6 Questions)</b>
 
-### <span>2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (1,029 Questions) 🟥<span>
+### <span>2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (1,059 Questions) 🟩<span>
 
 1. **Basics (272 Questions)**
     1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index.php">Part 1</a> (150 Questions)</b>
@@ -388,6 +388,8 @@
 13. **Algorithms (26 Questions)**
     1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Search</a> (7 Questions)</b>
     2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Sort</a> (19 Questions)</b>
+14. **Regular Expression (30 Questions)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Questions)</b>
 
 ### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (273 Questions) 🟩</span>
 
@@ -409,7 +411,7 @@
     13. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223340">Sheet 10 "General Hard"</a> (26 Questions)</b>
 2. ~~<b><a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem-Set</a> (0 Questions)<b/>~~
 
-### <span>4. <a style="color: #e76f00;" href="https://satr.codes">Satr</a> (4 Projects) 🟩</span>
+### <span>4. <a style="color: #e76f00;" href="https://satr.codes">Satr</a> (4 Mini Projects) 🟩</span>
 
 1. <b><a style="color: #e76f00;" href="https://satr.codes/course/SYJZBDMnFM/view">Basics</a> (1 Project)</b>
 2. <b><a style="color: #e76f00;" href="https://satr.codes/course/DcFViVITbo/view">Java 101</a> (1 Project)</b>
