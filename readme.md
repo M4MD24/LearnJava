@@ -324,17 +324,6 @@
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">♥</b>.</li>
 
-|                           Name                           | Problems / Mini Projects |
-|:--------------------------------------------------------:|:------------------------:|
-|       [W3Schools](https://www.w3schools.com/java)        |        6 Problems        |
-| [W3Resources](https://www.w3resource.com/java-exercises) |      1,059 Problems      |
-|           [Codeforces](https://codeforces.com)           |       273 Problems       |
-|             [CoderHub](https://coderhub.sa)              |       130 Problems       |
-|                [Satr](https://satr.codes)                |     4 Mini Projects      |
-|             [LeetCode](https://leetcode.com)             |       62 Problems        |
-|    [HackerRank](https://www.hackerrank.com/dashboard)    |        0 Problems        |
-|  [CodeWars](https://www.codewars.com/kata/search/java)   |        0 Problems        |
-
 #### <p style="color: #e76f00;">Notes</p>
 
 <ul>
@@ -456,7 +445,7 @@
     1. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)</b>
         1. **Easy (2 Problems)**
 
-### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (62 Problems, (22 Easy, 34 Medium, 7 Hard)) 🟩</span>
+### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (0 Questions) 🟥</span>
 
 1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (22 Problems)</b>
 2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (34 Problems)</b>
