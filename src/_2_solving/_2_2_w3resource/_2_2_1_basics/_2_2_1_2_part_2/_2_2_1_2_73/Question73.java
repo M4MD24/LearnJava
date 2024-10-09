@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_73;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find the maximum sum of a contiguous subsequence from a given sequence of numbers a1, a2, a3, ... an. A subsequence of one element is also a continuous subsequence.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

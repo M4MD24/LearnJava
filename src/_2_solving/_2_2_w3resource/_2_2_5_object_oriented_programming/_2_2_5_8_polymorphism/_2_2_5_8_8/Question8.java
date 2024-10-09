@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_8_polymorphism._2_2_5_8_8;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a base class Shape with methods draw() and calculateArea(). Create three subclasses: Circle, Square, and Triangle. Override the draw() method in each subclass to draw the respective shape, and override the calculateArea() method to calculate and return the area of each shape.</h2>
  */
 public class Question8 {

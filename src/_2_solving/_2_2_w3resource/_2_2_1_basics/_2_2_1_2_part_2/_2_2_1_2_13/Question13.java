@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_13;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that will accept an integer and convert it into a binary representation. Now count the number of bits equal to zero in this representation.</h2>
  * <br/>
  * <h1>Input Data:</h1>

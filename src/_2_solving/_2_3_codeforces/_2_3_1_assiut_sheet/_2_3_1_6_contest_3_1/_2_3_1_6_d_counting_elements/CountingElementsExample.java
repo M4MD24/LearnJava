@@ -15,7 +15,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * You are given an array a of n integers, count the number of element ai in the array such that ai+1 is also exists in the array a.
  * <br/>

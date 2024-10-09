@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_8_polymorphism._2_2_5_8_4;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class Employee with a method called calculateSalary(). Create two subclasses Manager and Programmer. In each subclass, override the calculateSalary() method to calculate and return the salary based on their specific roles.</h2>
  */
 

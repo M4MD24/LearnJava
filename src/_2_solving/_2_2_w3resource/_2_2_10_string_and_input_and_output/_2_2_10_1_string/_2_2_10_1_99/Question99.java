@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_10_string_and_input_and_output._2_2_10_1
 import java.util.stream.IntStream;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to return an updated string using every character of even position from a given string.</h2>
  */
 

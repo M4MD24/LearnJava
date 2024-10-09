@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two numbers K and S. Determine how many different values of X,Y and Z such that (0≤X,Y,Z≤K) and X+Y+Z=S</h2>
  * <br/>
  * <h1>Note:</h1>

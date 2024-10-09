@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Petya loves lucky numbers. Everybody knows that lucky numbers are positive integers whose decimal representation contains only the lucky digits 4 and 7. For example, numbers 47, 744, 4 are lucky and 5, 17, 467 are not.
  * <br/>

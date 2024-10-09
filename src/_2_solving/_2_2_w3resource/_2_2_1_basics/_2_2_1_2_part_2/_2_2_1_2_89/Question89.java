@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_89;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * A search engine giant such as Google accepts thousands of web pages from around the world and categorizes them, creating a huge database of information. Search engines also analyze search keywords entered by the user and create database queries based on those keywords. In both cases, complicated processing is carried out to realize efficient retrieval, but the basics are all about cutting out words from sentences.
  * <br/>

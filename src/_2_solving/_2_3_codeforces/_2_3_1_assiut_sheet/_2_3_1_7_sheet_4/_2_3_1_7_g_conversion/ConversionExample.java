@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a string S. Print the origin string after replacing the following:</h2>
  * <ul>
  *     <li>Replace every comma character ',' with a space character.</li>

@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given three numbers A, B and Q. Determine the value of the Qth element using the formula below</h2>
  * <br/>
  * <h1>Input:</h1>

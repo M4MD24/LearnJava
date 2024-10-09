@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>You are given N numbers, and you should divide them into consecutive groups of size K, then print the minimum among each group. If the last group is of size < K, print the minimum number found just after the last number received.</h2>
  * <br/>
  * <h1>Input:</h1>

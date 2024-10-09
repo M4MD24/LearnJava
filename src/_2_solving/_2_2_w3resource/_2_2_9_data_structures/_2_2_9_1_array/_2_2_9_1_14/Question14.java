@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.HashSet;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find common elements between two arrays (string values).</h2>
  */
 

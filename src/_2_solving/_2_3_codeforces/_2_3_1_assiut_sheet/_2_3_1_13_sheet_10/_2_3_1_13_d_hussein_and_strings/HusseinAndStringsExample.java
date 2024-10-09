@@ -19,7 +19,7 @@ import java.util.HashSet;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Hussein has two strings A, B he can make only one operation that can swap any two letters in the String A.
  * <br/>

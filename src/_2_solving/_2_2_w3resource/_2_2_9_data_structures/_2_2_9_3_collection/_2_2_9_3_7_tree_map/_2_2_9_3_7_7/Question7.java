@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.TreeMap;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to sort keys in a Tree Map by using a comparator.</h2>
  */
 

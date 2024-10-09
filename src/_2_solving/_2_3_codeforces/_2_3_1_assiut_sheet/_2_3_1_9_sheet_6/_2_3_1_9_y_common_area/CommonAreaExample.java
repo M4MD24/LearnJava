@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given N rectangles, each rectangle will be represented as two points: the lower-left point (x1,y1) and the upper right point (x2,y2). Determine the common area shared between all rectangles.</h2>
  * <br/>
  * <h1>Input:</h1>

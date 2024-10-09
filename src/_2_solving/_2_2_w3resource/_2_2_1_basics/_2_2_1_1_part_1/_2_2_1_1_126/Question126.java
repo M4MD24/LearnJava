@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_126;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to get the in-order traversal of its nodes' values in a binary tree.</h2>
  * <h1>Excepted Output:</h1>
  * <h2>

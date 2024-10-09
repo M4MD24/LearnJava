@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number N and a string S of size N. Determine the maximum possible size of the sub-sequence T derived from S such that no two adjacent characters in T are the same.</h2>
  * <br/>
  * <h1>Note:</h1>

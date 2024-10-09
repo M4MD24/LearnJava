@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_1_array._2_2_9_
 import java.util.HashSet;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find duplicate values in an array of string values.</h2>
  */
 

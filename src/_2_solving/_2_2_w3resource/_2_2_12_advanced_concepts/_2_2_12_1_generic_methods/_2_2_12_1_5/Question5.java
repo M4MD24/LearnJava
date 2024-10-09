@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a generic method that takes two lists of the same type and merges them into a single list. This method alternates the elements of each list.</h2>
  */
 

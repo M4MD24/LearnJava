@@ -2,7 +2,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_3_n
 
 /**
  * <h3>Anonymous Class</h3>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create an interface called Greeting with a method sayHello(). In the main method, create an anonymous class that implements the Greeting interface and override the sayHello() method to print "Hello, World!". Call the sayHello() method.</h2>
  */
 

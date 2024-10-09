@@ -6,7 +6,7 @@ import java.util.Calendar;
 import java.util.TimeZone;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to display system time.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

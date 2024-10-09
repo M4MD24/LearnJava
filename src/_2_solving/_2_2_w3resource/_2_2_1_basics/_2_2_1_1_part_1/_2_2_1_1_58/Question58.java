@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_58;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to capitalize the first letter of each word in a sentence.</h2>
  * <br/>
  * <h1>Input Data:</h1>

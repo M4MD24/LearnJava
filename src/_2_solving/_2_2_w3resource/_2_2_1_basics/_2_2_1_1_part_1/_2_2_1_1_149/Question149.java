@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to check if a given string is a permutation of another given string.</h2>
  * <br/>
  * <h1>Input Data:</h1>

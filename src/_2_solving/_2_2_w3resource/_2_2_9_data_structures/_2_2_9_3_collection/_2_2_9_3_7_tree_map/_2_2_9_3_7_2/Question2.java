@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_3_collection._2
 import java.util.TreeMap;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to copy Tree Map's content to another Tree Map.</h2>
  */
 

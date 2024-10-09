@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Locale;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called "Event" with attributes for event name, date, and location. Create subclasses "Seminar" that add specific attributes like number of speakers for seminars. Implement methods to display event details and check for conflicts in the event schedule.</h2>
  */
 

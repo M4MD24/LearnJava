@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_72;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a string taking the first three characters from a given string. If the string length is less than 3 use "#" as substitute characters.</h2>
  * <br/>
  * <h1>Input Data:</h1>

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.PriorityQueue;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to convert a priority queue to an array containing all its elements.</h2>
  */
 

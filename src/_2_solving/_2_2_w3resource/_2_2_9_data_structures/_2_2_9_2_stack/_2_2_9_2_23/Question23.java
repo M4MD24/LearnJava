@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Stack;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that implements a stack and creates a new stack that contains all elements from two stacks without duplicates.</h2>
  */
 

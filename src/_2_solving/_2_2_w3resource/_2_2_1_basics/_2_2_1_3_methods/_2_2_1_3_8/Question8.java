@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_8;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Write a Java method to compute the future investment value at a given interest rate for a specified number of years.
  * <br/>

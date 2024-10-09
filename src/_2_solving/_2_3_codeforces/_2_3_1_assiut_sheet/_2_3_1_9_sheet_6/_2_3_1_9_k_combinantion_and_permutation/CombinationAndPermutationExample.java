@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two numbers A and B. Print NCR and NPR of A and B.</h2>
  * <br/>
  * <h1>Note:</h1>

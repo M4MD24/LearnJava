@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given 2 numbers A and B. Print three lines that contain the following respectively:</h2>
  * <ul>
  *     <li>summation of all numbers between A and B (inclusive).</li>

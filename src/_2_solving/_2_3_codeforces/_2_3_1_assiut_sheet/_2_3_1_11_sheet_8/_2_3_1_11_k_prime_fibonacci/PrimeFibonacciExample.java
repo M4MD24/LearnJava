@@ -18,7 +18,7 @@ import java.io.OutputStreamWriter;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * This problem is merging between prime and Fibonacci problems, but believe me, you will like it :)
  * <br/>

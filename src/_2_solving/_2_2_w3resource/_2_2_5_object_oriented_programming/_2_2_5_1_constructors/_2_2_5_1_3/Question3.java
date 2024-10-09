@@ -2,7 +2,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_1_c
 
 /**
  * <h3>Constructor Overloading</h3>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called "Book" with instance variables title, author, and price. Implement a default constructor and two parameterized constructors:</h2>
  * <ul>
  *     <li>One constructor takes title and author as parameters.</li>

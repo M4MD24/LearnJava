@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number Q and a string S. If Q is equal to 1 then print S after encrypting it otherwise, print S after decrypting it.</h2>
  *
  * @see _2_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_7_sheet_4._2_3_1_7_w_encrypt_and_decrypt_message.images <h2>(Example and Note) & (Examples)</h2>

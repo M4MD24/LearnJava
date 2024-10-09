@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given three numbers A, B and X. Print the summation of numbers between A and B inclusive that are divisible by X.</h2>
  * <br/>
  * <h1>Input:</h1>

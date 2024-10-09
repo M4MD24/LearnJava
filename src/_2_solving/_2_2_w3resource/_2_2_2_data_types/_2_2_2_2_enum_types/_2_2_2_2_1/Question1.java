@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_2_data_types._2_2_2_2_enum_types._2_2_2_2_1;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create an enum called "DayOfWeek" representing the days of the week.</h2>
  */
 

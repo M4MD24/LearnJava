@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number N. Print the digits of that number from right to left separated by space.</h2>
  * <br/>
  * <h1>Input:</h1>

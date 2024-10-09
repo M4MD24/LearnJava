@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to implement a lambda expression to convert a list of strings to uppercase and lowercase.</h2>
  */
 

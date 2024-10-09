@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two matrices A and B of size R*C. Print the summation of A and B.</h2>
  * <br/>
  * <h1>Note:</h1>

@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_78;
 import java.util.Arrays;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to test that a given array of integers of length 2 contains a 4 or a 7.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

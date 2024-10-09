@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number N and a string S of size N. Print S after sorting it.</h2>
  * <br/>
  * <h1>Note:</h1>

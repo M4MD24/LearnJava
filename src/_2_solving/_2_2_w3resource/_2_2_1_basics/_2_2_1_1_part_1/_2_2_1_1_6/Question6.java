@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_6;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to print the sum (addition), multiply, subtract, divide and remainder of two numbers.</h2>
  * <br/>
  * <h1>Test Data:</h1>

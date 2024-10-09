@@ -5,7 +5,7 @@ import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to define and extract zone offsets.</h2>
  */
 

@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_55;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to check whether an integer is a power of 2 or not using O(1) time.</h2>
  * <br/>
  * <h1>Note:</h1>

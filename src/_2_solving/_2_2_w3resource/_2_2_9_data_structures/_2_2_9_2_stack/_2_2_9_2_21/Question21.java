@@ -4,7 +4,7 @@ import java.util.Set;
 import java.util.Stack;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that implements a stack and find common elements between two stacks.</h2>
  */
 

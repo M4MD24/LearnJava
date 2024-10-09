@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_2_stack._2_2_9_
 import _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_2_stack._2_2_9_2_29.stack_algorithm_with_linked_list_algorithm.StackAlgorithm;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to implement a stack using a linked list.</h2>
  */
 

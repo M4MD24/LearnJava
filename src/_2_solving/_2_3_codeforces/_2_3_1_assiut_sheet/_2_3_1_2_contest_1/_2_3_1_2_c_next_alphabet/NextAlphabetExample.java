@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a lowercase alphabet character. You have to print the next character in the alphabet.</h2>
  * <br/>
  * <h1>Note:</h1>

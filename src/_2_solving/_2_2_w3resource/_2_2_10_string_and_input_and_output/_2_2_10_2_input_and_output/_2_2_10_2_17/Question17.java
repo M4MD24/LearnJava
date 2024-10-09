@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.util.List;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to read the first 3 lines of a file.</h2>
  */
 

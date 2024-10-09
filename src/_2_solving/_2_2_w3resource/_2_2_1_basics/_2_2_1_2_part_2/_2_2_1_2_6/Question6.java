@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_6;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that returns the largest integer but not larger than the base-2 logarithm of a specified integer.</h2>
  * <br/>
  * <h1>Input Data:</h1>

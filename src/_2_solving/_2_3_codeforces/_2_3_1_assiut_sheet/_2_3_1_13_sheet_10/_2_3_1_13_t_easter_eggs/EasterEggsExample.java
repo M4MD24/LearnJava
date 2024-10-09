@@ -18,7 +18,7 @@ import java.io.InputStreamReader;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * The Easter Rabbit laid n eggs in a circle and is about to paint them.
  * <br/>

@@ -2,7 +2,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_3_n
 
 /**
  * <h3>Inner Class Accessing Outer Class Members:</h3>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create an outer class called Library with an instance variable libraryName. Create an inner class Book with a method getLibraryName() that returns the name of the library. Instantiate the Book class and call the getLibraryName() method.</h2>
  */
 

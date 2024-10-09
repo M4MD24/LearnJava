@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._2_2_3_2_5;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java recursive method to calculate the exponentiation of a number (base) raised to a power (exponent).</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

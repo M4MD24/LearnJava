@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.Arrays;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to add one to a positive number represented as an array of digits.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

@@ -21,7 +21,7 @@ import java.util.StringTokenizer;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * One fairy king hated dragons to death. Not only that these monsters burn whole villages to ashes, kidnap princesses and guard treasures that they don't need at all, but they are also mentioned in statements of programming problems very often. To end their tyranny, he decided to recruit an army and destroy these damned creatures once and forever.
  * <br/>

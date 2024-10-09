@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two numbers R and S that donate radius of a circle and side length of a square. Determine which shape holds the other or it's complex to be determined.</h2>
  * <br/>
  * <h1>Input:</h1>

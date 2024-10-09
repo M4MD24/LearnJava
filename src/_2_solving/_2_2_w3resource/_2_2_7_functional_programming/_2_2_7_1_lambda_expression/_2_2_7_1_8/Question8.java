@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_7_functional_programming._2_2_7_1_lambda
 import java.util.function.LongUnaryOperator;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a lambda expression to implement a lambda expression to calculate the factorial of a given number.</h2>
  */
 

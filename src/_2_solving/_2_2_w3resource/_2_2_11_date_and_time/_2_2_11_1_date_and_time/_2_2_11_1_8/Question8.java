@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_11_date_and_time._2_2_11_1_date_and_time
 import java.util.Calendar;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to get the last date of the month.</h2>
  */
 

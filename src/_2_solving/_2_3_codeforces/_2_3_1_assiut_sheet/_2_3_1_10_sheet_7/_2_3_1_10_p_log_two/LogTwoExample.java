@@ -17,7 +17,7 @@ import java.math.BigInteger;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number N. Print ⌊log2(N)⌋.</h2>
  * <br/>
  * <h1>Note:</h1>

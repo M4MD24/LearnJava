@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_130;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find the maximum depth of a given binary tree.
  * Sample Output: The Maximum depth of the binary tree is: 3</h2>
  * <br/>

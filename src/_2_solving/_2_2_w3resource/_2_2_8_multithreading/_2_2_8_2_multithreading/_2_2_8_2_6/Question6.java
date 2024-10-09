@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_8_multithreading._2_2_8_2_multithreading
 import java.util.concurrent.CountDownLatch;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that uses the CountDownLatch class to synchronize the start and finish of multiple threads.</h2>
  */
 

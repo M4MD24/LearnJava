@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.HashMap;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to get a collection view of the values contained in this map.</h2>
  */
 

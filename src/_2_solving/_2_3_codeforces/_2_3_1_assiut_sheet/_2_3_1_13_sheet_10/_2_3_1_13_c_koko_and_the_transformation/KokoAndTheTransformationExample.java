@@ -19,7 +19,7 @@ import java.util.StringTokenizer;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>koko has two arrays a and b, he wants to know if he can transform a to b in a finite number of steps. In each step he can perform one of two operations:</h2>
  * <ul>
  *     <li>Pick two values from a and merge them into one value equal to their sum.</li>

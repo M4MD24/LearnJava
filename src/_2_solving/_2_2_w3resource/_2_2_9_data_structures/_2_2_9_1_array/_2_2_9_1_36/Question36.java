@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_1_array._2_2_9_1_36;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Write a Java program to find all the distinct triplets such that the sum of all the three elements [x, y, z (x ≤ y ≤ z)] equal to a specified number.
  * <br/>

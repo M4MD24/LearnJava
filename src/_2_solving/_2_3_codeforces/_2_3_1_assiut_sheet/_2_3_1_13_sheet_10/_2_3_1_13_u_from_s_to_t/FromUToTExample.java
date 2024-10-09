@@ -18,7 +18,7 @@ import java.io.InputStreamReader;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * You are given three strings s, t and p consisting of lowercase Latin letters. You may perform any number (possibly, zero) operations on these strings.
  * <br/>

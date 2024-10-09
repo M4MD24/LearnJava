@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.stream.Collectors;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to rearrange a string so that the same characters are positioned a distance away.</h2>
  */
 

@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_14_regular_expression._2_2_14_1_regular_expression._2_2_14_1_18;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to validate a personal identification number (PIN). Assume a PIN number is 4, 6 or 8.</h2>
  */
 

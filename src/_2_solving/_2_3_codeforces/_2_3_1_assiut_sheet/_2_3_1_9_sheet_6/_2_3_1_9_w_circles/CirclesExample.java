@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given four cartesian points (X1, Y1), (X2, Y2), (X3, Y3) and (X4, Y4) that donate two endpoints of a diameter of circle A and circle B respectively. Determine whether these two circles intersect or not.</h2>
  * <br/>
  * <h1>Input:</h1>

@@ -2,7 +2,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_2_s
 
 /**
  * <h3>Static Block</h3>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called "Question3" with a static block that initializes a static variable 'initialValue' to 1000. Print the value of 'initialValue' before and after creating an instance of "Question3".</h2>
  */
 

@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_21;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Write a Java program to find any number between 1 and n that can be expressed as the sum of two cubes in two (or more) different ways.
  * <br/>

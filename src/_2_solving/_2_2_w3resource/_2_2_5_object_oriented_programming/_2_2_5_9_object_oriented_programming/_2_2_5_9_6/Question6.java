@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_9_object_oriented_programming._2_2_5_9_6;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called "Employee" with a name, job, and salary attributes, and methods to raise and update salary.</h2>
  */
 

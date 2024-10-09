@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that reads a date (from 2004/1/1 to 2004/12/31) and prints the day of the date. Jan. 1, 2004, was Thursday. Note that 2004 is a leap year.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

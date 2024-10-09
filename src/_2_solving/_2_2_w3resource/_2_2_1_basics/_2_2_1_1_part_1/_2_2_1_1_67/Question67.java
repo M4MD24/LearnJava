@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_67;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to insert a word in the middle of another string. Insert "Tutorial" in the middle of "Java 9.6", so the result will be Java Tutorial 9.6.</h2>
  * <br/>
  * <h1>Expected Output:</h1>

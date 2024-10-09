@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find the difference between the largest integer and the smallest integer. These integers are created by 8 numbers from 0 to 9. The number that can be rearranged starts with 0 as in 00135668.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

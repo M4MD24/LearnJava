@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two strings A and B. Print three lines contain the following:</h2>
  * <ul>
  *     <li>The size of the string A and size of the string B separated by a space</li>

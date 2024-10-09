@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given 3 numbers A, B and C, Print the minimum and the maximum numbers.</h2>
  * <br/>
  * <h1>Input:</h1>

@@ -19,7 +19,7 @@ import java.util.StringTokenizer;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Pop stores some secret information about a farm with n∗m apples represents a rectangle. Each apple has it's own number. The order of apples in the farm is changing. That's why Pop receives the following instructions:</h2>
  * <ul>
  *     <li>The instruction to swap two rows of the farm;</li>

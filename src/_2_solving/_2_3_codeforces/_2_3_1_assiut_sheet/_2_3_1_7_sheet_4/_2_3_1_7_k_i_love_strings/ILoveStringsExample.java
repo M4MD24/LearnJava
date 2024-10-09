@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two strings S and T. Print a new string that contains the following:</h2>
  * <ol>
  *     <li>The first letter of the string S followed by the first letter of the string T.</li>

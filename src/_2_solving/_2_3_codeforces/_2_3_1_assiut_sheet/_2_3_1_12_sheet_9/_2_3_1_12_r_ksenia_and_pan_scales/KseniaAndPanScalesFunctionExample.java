@@ -18,7 +18,7 @@ import java.io.InputStreamReader;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Ksenia has ordinary pan scales and several weights of an equal mass. Ksenia has already put some weights on the scales, while other weights are untouched. Ksenia is now wondering whether it is possible to put all the remaining weights on the scales so that the scales were in equilibrium.
  * <br/>

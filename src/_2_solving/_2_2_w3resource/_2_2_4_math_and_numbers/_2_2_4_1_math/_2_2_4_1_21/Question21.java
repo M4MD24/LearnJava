@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find the number with the maximum number of distinct prime factors in a given range.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

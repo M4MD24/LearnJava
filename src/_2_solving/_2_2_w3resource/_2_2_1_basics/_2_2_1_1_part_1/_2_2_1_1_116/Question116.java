@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_116;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that iterates integers from 1 to 100. For multiples of three print "three" instead of the number and print "five" for five. When the number is divided by three and five, print "three and five".</h2>
  */
 

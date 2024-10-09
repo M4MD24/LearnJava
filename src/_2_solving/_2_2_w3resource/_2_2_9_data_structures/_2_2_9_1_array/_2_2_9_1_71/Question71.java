@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find the largest number from a given list of non-negative integers.</h2>
  * <br/>
  * <h1>Input Data:</h1>

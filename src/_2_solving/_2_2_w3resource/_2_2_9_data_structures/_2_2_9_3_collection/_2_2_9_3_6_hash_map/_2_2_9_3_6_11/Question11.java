@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Set;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to get a set view of the keys contained in this map.</h2>
  */
 

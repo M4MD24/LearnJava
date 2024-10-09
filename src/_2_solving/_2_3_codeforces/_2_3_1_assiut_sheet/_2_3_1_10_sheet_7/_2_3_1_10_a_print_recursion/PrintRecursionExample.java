@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number N. Print "I love Recursion" N times.</h2>
  * <br/>
  * <h1>Note:</h1>

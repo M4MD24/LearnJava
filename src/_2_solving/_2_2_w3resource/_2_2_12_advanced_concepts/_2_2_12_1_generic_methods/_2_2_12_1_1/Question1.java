@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_12_advanced_concepts._2_2_12_1_generic_m
 import java.util.Arrays;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a generic method that takes two arrays of the same type and checks if they have the same elements in the same order.</h2>
  */
 

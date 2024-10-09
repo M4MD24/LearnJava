@@ -4,7 +4,7 @@ import java.time.Duration;
 import java.time.Period;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to define a period of time using date-based values (Period) and a duration of time using time-based values (Duration).</h2>
  */
 

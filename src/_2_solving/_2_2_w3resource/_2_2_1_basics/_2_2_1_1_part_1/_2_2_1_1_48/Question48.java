@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_48;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to print odd numbers from 1 to 99. Prints one number per line.</h2>
  * <br/>
  * <h1>Expected Output:</h1>

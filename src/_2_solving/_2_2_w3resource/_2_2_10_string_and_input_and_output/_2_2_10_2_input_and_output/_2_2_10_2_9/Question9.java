@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to get the file size in bytes, KB, MB.</h2>
  */
 

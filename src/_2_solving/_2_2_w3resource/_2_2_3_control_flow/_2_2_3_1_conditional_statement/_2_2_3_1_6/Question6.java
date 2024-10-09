@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_6;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that reads two floating-point numbers and tests whether they are the same up to three decimal places.</h2>
  * <br/>
  * <h1>Input Data:</h1>

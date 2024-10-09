@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.time.Period;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to compute the difference between two dates (years, months, days).</h2>
  */
 

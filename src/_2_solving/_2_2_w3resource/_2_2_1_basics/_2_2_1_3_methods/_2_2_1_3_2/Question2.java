@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_2;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java method to compute the average of three numbers.</h2>
  * <br/>
  * <h1>Input Data:</h1>

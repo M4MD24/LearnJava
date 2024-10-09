@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a set view of the mappings contained in a map.</h2>
  */
 

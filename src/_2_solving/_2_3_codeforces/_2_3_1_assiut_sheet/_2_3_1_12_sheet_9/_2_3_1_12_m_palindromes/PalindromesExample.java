@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Everybody loves palindromes, but Artur doesn't. He has a string S that consists of lowercase English letters (' a' - ' z').
  * <br/>

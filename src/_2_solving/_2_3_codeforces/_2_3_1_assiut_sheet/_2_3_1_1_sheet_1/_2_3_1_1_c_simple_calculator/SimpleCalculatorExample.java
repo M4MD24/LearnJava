@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two numbers X and Y. Print the summation and multiplication and subtraction of these 2 numbers.</h2>
  * <br/>
  * <h1>Input:</h1>

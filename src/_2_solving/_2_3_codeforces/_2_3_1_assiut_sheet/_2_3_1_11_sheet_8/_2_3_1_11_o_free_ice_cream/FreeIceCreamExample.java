@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * After their adventure with the magic mirror Kay and Gerda have returned home and sometimes give free ice cream to kids in the summer.
  * <br/>

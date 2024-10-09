@@ -15,7 +15,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given three numbers A,B,C. Print these numbers in ascending order followed by a blank line and then the values in the sequence as they were read.</h2>
  * <br/>
  * <h1>Input:</h1>

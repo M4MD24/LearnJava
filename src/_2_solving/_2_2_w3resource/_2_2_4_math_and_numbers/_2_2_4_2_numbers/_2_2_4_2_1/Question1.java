@@ -1,14 +1,14 @@
 package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_1;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Write a Java program to check whether a given number is ugly.
  * <br/>
  * In number system, ugly numbers are positive numbers whose only prime factors are 2, 3 or 5. First 10 ugly numbers are 1, 2, 3, 4, 5, 6, 8, 9, 10, 12. By convention, 1 is included.
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Input Date:</h1>
  * <h2>Input an integer number: 235</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

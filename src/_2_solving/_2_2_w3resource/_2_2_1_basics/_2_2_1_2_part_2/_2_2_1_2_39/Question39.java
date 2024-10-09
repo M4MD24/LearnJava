@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_39;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to two non-negative integers num1 and num2 represented as strings, return the sum of num1 and num2.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_23;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * A fast scheme for evaluating a polynomial such as:
  * <br/>

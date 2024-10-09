@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called "Student" with a name, grade, and courses attributes, and methods to add and remove courses.</h2>
  */
 

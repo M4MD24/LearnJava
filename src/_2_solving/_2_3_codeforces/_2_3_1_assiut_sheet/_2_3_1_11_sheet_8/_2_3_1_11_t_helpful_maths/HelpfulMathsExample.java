@@ -17,7 +17,7 @@ import java.util.Arrays;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Xenia the beginner mathematician is a third year student at elementary school. She is now learning the addition operation.
  * <br/>

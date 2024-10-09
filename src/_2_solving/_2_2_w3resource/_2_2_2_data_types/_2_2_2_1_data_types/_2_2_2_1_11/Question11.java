@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_1_11;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to test whether a given double/float value is a finite floating-point value or not.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

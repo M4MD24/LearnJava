@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>You are given a range represented by two integers L and R, and you should find the sum of the numbers in the range between L and R inclusive.</h2>
  * <br/>
  * <h1>Input:</h1>

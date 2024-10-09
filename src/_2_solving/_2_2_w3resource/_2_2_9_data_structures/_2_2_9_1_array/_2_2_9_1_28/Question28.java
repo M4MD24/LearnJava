@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_1_array._2_2_9_
 import java.util.Arrays;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to get the difference between the largest and smallest values in an array of integers. The array must have a length of at least 1.</h2>
  */
 

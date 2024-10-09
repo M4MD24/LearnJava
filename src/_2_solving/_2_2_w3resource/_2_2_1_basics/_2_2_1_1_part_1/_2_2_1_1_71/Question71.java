@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_71;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create the concatenation of the two strings except removing the first character of each string. The length of the strings must be 1 and above.</h2>
  * <br/>
  * <h1>Input Data:</h1>

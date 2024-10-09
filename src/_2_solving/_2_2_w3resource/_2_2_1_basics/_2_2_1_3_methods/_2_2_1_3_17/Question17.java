@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_17;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java method to count the number of digits in an integer with the value 2. The integer may be assumed to be non-negative.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

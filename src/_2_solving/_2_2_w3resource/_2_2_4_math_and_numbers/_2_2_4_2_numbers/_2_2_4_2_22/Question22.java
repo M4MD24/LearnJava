@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_22;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Write a program to check if a number is a Mersenne number or not.
  * <br/>

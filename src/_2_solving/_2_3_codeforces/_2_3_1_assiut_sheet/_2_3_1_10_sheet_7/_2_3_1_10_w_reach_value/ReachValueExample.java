@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number N. Initially you have a value equal 1 and you can perform one of the following operation any number of times:</h2>
  * <ol>
  *     <li>Multiply your current value by 10.</li>

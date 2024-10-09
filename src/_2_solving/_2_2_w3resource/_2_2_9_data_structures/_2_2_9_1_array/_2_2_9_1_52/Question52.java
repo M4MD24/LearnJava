@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to separate even and odd numbers from a given array of integers. Put all even numbers first, and then odd numbers.</h2>
  */
 

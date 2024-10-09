@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number N and an array A of N numbers. Print the smallest possible result of Ai + Aj + j - i , where 1 ≤ i < j ≤ N.</h2>
  * <br/>
  * <h1>Input:</h1>

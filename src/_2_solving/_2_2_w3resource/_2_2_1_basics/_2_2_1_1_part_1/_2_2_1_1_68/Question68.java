@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_68;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create another string of 4 copies of the last 3 characters of the original string. The original string length must be 3 and above.</h2>
  * <br/>
  * <h1>Input Data:</h1>

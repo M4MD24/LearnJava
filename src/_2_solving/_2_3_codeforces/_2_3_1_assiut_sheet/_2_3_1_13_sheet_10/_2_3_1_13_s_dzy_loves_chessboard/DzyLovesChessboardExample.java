@@ -19,7 +19,7 @@ import java.util.StringTokenizer;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * DZY loves chessboard, and he enjoys playing with it.
  * <br/>

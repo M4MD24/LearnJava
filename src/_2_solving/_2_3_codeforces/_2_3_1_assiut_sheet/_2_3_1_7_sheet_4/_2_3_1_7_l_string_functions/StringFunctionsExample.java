@@ -15,7 +15,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two numbers N, Q and a string S of size N. Followed by Q lines of the following queries:</h2>
  * <ul>
  *     <li><b>pop_back:</b> remove the last character in the string.</li>

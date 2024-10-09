@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_44;
 import java.util.ArrayList;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to determine the all positions of a given number in a given matrix. If the number is not found print ("Number not found!").</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

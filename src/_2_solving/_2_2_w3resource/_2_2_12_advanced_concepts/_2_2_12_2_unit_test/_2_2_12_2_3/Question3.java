@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_12_advanced_concepts._2_2_12_2_unit_test._2_2_12_2_3;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java test case that implements a JUnit test with setup and teardown methods to prepare and clean up resources for multiple test cases.</h2>
  */
 

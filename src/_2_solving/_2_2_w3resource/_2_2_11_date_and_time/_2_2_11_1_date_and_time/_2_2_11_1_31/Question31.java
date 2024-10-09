@@ -5,7 +5,7 @@ import java.time.Duration;
 import java.time.LocalTime;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to compute the difference between two dates in hours, minutes, seconds, milliseconds, and nanoseconds.</h2>
  */
 

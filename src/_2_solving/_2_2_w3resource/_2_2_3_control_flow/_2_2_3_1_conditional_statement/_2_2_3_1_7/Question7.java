@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_stat
 import java.time.YearMonth;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find the number of days in a month.</h2>
  * <br/>
  * <h1>Input Data:</h1>

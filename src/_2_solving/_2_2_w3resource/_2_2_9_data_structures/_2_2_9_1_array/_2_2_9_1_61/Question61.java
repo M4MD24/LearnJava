@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to rearrange a given array of unique elements such that every second element of the array is greater than its left and right elements.</h2>
  * <br/>
  * <h1>Input Data:</h1>

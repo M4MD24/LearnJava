@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two numbers N and M, a 2D array of size N * M and a number X. Determine whether X exists in the 2D array A or not.</h2>
  * <br/>
  * <h1>Input:</h1>

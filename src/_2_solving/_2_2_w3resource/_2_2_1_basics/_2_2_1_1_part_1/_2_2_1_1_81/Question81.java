@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_81;
 import java.util.Arrays;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to swap the first and last elements of an array (length must be at least 1) and create another array.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

@@ -19,7 +19,7 @@ import java.util.StringTokenizer;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Polycarpus has a ribbon, its length is n. He wants to cut the ribbon in a way that fulfils the following two conditions:</h2>
  * <ul>
  *     <li>After the cutting each ribbon piece should have length a, b or c.</li>

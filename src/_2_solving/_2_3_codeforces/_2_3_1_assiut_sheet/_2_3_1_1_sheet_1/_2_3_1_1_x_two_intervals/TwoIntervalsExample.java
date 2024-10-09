@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given the boundaries of 2 intervals. Print the boundaries of their intersection.</h2>
  * <br/>
  * <h1>Input:</h1>

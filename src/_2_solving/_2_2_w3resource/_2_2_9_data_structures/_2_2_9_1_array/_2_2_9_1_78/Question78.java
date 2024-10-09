@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_1_array._2_2_9_
 import java.util.Arrays;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that checks whether an array is negative dominant or not. If the array is negative dominant return true otherwise false.</h2>
  * <br/>
  * <h1>Input Data:</h1>

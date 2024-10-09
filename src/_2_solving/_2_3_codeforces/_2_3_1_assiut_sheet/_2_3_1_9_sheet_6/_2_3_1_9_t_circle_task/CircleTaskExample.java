@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a cartesian point (X,Y) donates a circle center, a number R donates radius of the circle and a number N donates number of points coordinates. For each point determine whether it belongs to the circle or not.</h2>
  * <br/>
  * <h1>Input:</h1>

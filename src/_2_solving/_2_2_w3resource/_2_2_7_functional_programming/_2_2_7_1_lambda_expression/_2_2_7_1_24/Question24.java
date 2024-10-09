@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_7_functional_programming._2_2_7_1_lambda
 import java.util.function.Function;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to implement a lambda expression to find the largest prime factor of a given number.</h2>
  */
 

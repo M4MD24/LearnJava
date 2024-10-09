@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_140;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to merge all overlapping intervals from a given collection of intervals.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

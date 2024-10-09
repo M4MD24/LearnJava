@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two numbers X and Y. Print the sum of all odd numbers between them, excluding X and Y.</h2>
  * <br/>
  * <h1>Input:</h1>

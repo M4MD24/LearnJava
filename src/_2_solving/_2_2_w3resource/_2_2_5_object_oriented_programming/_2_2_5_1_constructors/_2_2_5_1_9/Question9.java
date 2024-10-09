@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * <h3>Constructor with Array Initialization</h3>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called Classroom with instance variables className and students (an array of strings). Implement a parameterized constructor that initializes these variables. Print the values of the variables.</h2>
  */
 

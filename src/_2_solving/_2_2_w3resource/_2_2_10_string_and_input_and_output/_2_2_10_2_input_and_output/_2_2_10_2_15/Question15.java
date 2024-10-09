@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to write and read a plain text file.</h2>
  */
 

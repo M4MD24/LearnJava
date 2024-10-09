@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_56;
 import java.util.zip.CRC32;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>From Wikipedia, A cyclic redundancy check (CRC) is an error-detecting code commonly used in digital networks and storage devices to detect accidental changes to raw data. Blocks of data entering these systems get a short check value attached, based on the remainder of a polynomial division of their contents. On retrieval, the calculation is repeated and, in the event the check values do not match, corrective action can be taken against data corruption. CRCs can be used for error correction.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

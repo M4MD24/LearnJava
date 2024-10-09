@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find the heights of the top three buildings in descending order from eight given buildings.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

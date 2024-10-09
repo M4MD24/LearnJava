@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_32;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to check if two binary trees are identical. Assume that two binary trees have the same structure and every identical position has the same value.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

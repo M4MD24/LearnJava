@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that reads a list of numbers from a file and throws an exception if any of the numbers are positive.</h2>
  */
 

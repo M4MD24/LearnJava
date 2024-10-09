@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number N and an array A of N numbers. Print all array positions that store a number less than or equal to 10 and the number stored in that position.</h2>
  * <br/>
  * <h1>Input:</h1>

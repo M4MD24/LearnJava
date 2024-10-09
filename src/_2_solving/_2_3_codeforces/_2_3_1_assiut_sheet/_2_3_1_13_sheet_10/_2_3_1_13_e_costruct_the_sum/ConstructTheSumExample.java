@@ -19,7 +19,7 @@ import java.util.StringTokenizer;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>You are given two integers n and s. You have to find distinct positive integers. Each of them less than or equal to n and their summation equals to s, or determine that this is impossible.</h2>
  * <br/>
  * <h1>Note:</h1>

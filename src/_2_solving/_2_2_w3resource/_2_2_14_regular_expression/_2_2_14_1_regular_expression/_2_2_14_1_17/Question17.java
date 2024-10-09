@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_14_regular_expression._2_2_14_1_regular_
 import java.math.BigDecimal;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to count the number of decimal places in a given number.</h2>
  */
 

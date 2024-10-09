@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Given a matrix A of size N*M. Print the maximum sum of numbers that can be obtained when you take a path from A1,1 to AN,M
  * <br/>

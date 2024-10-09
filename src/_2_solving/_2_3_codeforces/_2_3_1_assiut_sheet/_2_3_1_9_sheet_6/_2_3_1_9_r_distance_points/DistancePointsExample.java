@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given 2 Cartesian points (X1, Y1) and (X2, Y2). Print the distance between the two points.</h2>
  * <br/>
  * <h1>Input:</h1>

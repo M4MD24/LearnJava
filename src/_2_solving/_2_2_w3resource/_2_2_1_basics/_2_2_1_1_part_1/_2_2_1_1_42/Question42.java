@@ -4,7 +4,7 @@ import java.io.Console;
 import java.util.Arrays;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to input and display your password.</h2>
  * <br/>
  * <h1>Input Data:</h1>

@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to print (dd-MM-yyyy\nHH:mm:ss:SSS) format pattern for date and time.</h2>
  */
 

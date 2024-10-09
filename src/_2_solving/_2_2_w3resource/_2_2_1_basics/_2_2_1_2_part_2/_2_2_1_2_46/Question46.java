@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_46;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a spiral array of n * n sizes from a given integer n.</h2>
  * <br/>
  * <h1>Input Data:</h1>
@@ -30,8 +30,6 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_46;
  */
 
 public class Question46 {
-    private static int rows = 5,
-            columns = rows;
     private static final int[][] MATRIX = {
             {1, 2, 3, 4, 5},
             {16, 17, 18, 19, 6},
@@ -39,6 +37,9 @@ public class Question46 {
             {14, 23, 22, 21, 8},
             {13, 12, 11, 10, 9}
     };
+
+    private static int rows = MATRIX.length,
+            columns = rows;
 
     public static void main(final String[] PARAMETERS) {
         printInputs();

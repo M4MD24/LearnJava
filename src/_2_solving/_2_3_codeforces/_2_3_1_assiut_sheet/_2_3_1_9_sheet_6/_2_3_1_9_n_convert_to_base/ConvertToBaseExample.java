@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given three numbers T, N and X</h2>
  * <ul>
  *     <li>If T = 1 then Convert N from base X to decimal</li>

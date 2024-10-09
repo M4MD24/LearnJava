@@ -2,7 +2,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_3_n
 
 /**
  * <h3>Local Class</h3>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called Car with a method startEngine(). Inside this method, define a local class Engine that has a method run(). The run() method should print "Engine is running". Instantiate and call the run() method from within the startEngine() method.</h2>
  */
 

@@ -16,7 +16,7 @@ import java.util.Set;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * During the last contest, There was a notification saying "2 Problems are added Enjoy" Yasser found that the contestants were angry.
  * <br/>

@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.Stack;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to sort the elements of the stack in descending order.</h2>
  */
 

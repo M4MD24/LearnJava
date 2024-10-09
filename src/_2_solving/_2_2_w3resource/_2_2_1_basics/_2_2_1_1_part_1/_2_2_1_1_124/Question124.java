@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find the index of a value in a sorted array. If the value does not find return the index where it would be if it were inserted in order.</h2>
  * <h1>Example:</h1>
  * <h2>

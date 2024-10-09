@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * A young little boy is feeling boredom and didn't know what to do. by chance, he read on the internet that: drawing helps get rid of boredom. unfortunately, he didn't know how to draw but he is very creative.so he asks you to help him.
  * <br/>

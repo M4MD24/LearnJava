@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given 2 numbers N, M and an array A of N numbers. For every number from 1 to M, print how many times this number appears in this array.</h2>
  * <br/>
  * <h1>Note:</h1>

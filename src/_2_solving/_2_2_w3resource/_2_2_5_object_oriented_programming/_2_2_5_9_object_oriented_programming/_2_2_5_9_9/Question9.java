@@ -6,7 +6,7 @@ import java.util.Calendar;
 import java.util.Locale;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called "Employee" with a name, salary, and hire date attributes, and a method to calculate years of service.</h2>
  */
 

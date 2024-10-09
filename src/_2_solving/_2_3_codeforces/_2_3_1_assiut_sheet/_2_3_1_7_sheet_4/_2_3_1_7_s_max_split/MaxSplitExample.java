@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a balanced string S consists of ['R', 'L'] characters. Split it into maximum number of strings such that the new strings are also balanced.</h2>
  * <br/>
  * <h1>Note:</h1>

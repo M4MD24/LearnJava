@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_1_array._2_2_9_1_46;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to check whether there is a pair with a specified sum in a given sorted and rotated array.</h2>
  */
 

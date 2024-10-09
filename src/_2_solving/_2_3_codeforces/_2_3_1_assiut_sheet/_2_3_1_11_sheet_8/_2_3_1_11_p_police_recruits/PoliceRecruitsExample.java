@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * The police department of your city has just started its journey. Initially, they don’t have any manpower. So, they started hiring new recruits in groups.
  * <br/>

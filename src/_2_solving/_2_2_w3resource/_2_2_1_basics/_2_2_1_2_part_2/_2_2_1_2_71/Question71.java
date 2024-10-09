@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that accepts six numbers as input and sorts them in descending order.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

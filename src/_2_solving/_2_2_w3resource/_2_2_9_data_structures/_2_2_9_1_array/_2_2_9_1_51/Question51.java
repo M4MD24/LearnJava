@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that separates 0s on the left hand side and 1s on the right hand side from a random array of 0s and 1.</h2>
  */
 

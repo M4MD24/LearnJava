@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_13_algorithms._2_2_13_1_search._2_2_13_1_7;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find the row, column position of a specified number (row, column position) in a given 2-dimensional array.</h2>
  */
 

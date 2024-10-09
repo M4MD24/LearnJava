@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.stream.IntStream;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find all triplets equal to a given sum in an unsorted array of integers.</h2>
  * <br/>
  * <h1>Input Data:</h1>

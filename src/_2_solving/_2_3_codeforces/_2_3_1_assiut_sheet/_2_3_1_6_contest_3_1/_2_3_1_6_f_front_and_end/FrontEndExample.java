@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>You are given an array a of n integers, your task is to print the first (front) element then remove it, then print the last(end) element then remove it, and so on until the array becomes empty.</h2>
  * <br/>
  * <h1>Input:</h1>

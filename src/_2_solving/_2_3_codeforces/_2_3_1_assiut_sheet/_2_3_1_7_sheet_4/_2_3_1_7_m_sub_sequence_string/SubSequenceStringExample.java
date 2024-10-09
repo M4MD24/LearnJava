@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given String S. Determine if there is a Subsequence in S that is equal to "hello" or not.</h2>
  * <br/>
  * <h1>Note:</h1>

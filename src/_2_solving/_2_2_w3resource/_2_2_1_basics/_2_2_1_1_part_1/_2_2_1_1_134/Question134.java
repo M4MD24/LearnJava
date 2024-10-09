@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_134;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find distinct ways to climb to the top ((target number) steps to reach the top) of stairs. Each time you climb, you can climb 1 or 2 steps.</h2>
  * <br/>
  * <h1>Input:</h1>

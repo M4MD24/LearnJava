@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_3_collection._2
 import java.util.TreeSet;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to get the element in a tree set which is greater than or equal to the given element.</h2>
  */
 

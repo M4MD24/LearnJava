@@ -7,7 +7,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.ExecutionException;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to demonstrate the usage of the Callable and Future interfaces for executing tasks asynchronously and obtaining their results.</h2>
  */
 

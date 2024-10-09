@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two numbers a and b. You have to answer with "YES" if there is a non-empty interval consisting of numbers from l to r (l,l+1,l+2,...,r) with a odd numbers and b even numbers, or "NO" otherwise.</h2>
  * <br/>
  * <h1>Input:</h1>

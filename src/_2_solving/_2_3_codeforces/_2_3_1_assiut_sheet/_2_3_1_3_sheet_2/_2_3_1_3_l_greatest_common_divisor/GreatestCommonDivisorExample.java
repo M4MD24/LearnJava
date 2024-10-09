@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two numbers A and B. Print the greatest common divisor between (A, B).</h2>
  * <br/>
  * <h1>Input:</h1>

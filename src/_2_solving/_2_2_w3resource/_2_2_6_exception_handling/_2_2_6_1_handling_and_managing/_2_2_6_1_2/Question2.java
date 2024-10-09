@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_6_exception_handling._2_2_6_1_handling_a
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a method that takes an integer as a parameter and throws an exception if the number is odd.</h2>
  */
 

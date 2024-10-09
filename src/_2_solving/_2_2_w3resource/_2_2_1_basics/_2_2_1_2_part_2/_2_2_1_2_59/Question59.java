@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find all unique combinations from a collection of candidate numbers. The sum of the numbers will equal a given target number.</h2>
  * <br/>
  * <h1>Input Data:</h1>

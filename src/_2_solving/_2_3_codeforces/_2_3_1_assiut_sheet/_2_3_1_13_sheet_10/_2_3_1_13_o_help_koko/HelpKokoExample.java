@@ -19,7 +19,7 @@ import java.util.StringTokenizer;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Yesterday morning Koko came back from college not happy because his mentor gave him a problem and he didn't solve it.
  * <br/>

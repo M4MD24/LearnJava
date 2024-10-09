@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Write a Java program to generate a magic square of order n (all row, column, and diagonal sums are equal).
  * <br/>

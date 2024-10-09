@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Given two numbers A,B and a code S consisting of digits (0,1,2,...,9) and a symbol '-'.
  * <br/>

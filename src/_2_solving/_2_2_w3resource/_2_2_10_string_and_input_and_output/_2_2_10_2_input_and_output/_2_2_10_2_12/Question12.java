@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to read a plain text file.</h2>
  */
 

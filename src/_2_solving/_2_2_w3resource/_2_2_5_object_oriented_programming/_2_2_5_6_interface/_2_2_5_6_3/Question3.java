@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_6_interface._2_2_5_6_3;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create an interface Flyable with a method called fly(). Create three classes Spacecraft, Airplane, and Helicopter that implement the Flyable interface. Implement the fly() method for each of the three classes.</h2>
  */
 

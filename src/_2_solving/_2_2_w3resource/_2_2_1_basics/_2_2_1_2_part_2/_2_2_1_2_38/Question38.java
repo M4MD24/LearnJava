@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find all the start indices of a given string's anagrams in another given string.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

@@ -15,7 +15,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number N and two arrays A, B of N numbers. Determine if B is a permutation of A or not.</h2>
  * <br/>
  * <h1>Note:</h1>

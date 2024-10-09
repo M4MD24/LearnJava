@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a rectangle represented by four distinct points: (x1,y1),(x2,y2),(x3,y3) and (x4,y4),With two sides parallel to the Y-axis and the other two parallel to the X-axis and N points, for each point check whether it belongs to the rectangle or not.</h2>
  * <br/>
  * <h1>Input:</h1>

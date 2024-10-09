@@ -15,7 +15,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given an array A of size N. Print the number of distinct numbers in the array.</h2>
  * <br/>
  * <h1>Note:</h1>

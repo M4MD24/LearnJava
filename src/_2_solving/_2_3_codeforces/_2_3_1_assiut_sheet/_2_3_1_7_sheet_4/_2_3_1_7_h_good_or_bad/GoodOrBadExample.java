@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a string S. Determine whether this string is Good or Bad.</h2>
  * <br/>
  * <h1>Note:</h1>

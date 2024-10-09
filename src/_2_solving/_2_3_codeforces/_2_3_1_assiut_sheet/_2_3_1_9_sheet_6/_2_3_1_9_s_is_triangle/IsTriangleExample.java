@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given three numbers A, B and C that donate the lengths of the three sides of a triangle. Determine whether this triangle is valid or not and if it is valid print its area.</h2>
  * <br/>
  * <h1>Input:</h1>

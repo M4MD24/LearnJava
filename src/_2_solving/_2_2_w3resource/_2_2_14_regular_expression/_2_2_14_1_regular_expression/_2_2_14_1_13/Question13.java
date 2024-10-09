@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_14_regular_expression._2_2_14_1_regular_
 import java.util.regex.Pattern;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find the word Python in a given string. If the word Python appears in the string return Java otherwise return C++. Ignore case sensitive.</h2>
  */
 

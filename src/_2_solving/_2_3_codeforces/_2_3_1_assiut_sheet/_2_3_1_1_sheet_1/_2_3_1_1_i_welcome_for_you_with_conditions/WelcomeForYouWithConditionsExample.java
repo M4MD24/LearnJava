@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two numbers A and B. Print "Yes" if A is greater than or equal to B. Otherwise print "No".</h2>
  * <br/>
  * <h1>Input:</h1>

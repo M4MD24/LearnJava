@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given three points on the Cartesian plane. Determine whether a single straight line can pass through these points or not.</h2>
  * <br/>
  * <h1>Input:</h1>

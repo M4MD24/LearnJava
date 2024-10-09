@@ -15,9 +15,10 @@
   <ul><li><img width="20" src="readme_file_source/icons/monkey_type_icon.svg" alt="Monkey Type Icon" style="vertical-align: middle;"/> <b>Monkey Type</b> <a style="color: limeGreen;" href="https://monkeytype.com/profile/m3md69">@M3MD69</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/s_letter_icon.svg" alt="S Letter" style="vertical-align: middle;"/> <b>Satr</b> <a style="color: limeGreen;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a></li></ul>
 - <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Achievements</b>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">First person to solve all the problems</b> of Assiut Sheets in codeforces with Java version 8 and 21 on <b style="color: limeGreen;">(22/04/2024)</b></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">More than 1,400 questions</b> on different concepts have been solved</li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> CodeHub <b style="color: limeGreen;">Ranked 42th</b> Java</li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">First person to solve all the problems</b> of <u style="text-decoration-color: #32cd32;">Assiut Sheets</u> in <u style="text-decoration-color: #32cd32;">codeforces</u> with <u style="text-decoration-color: #32cd32;">Java</u> on <b style="color: limeGreen;">(22/04/2024)</b></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">More than 1,500 problems and mini projects</b> on different concepts have been solved</li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> CodeHub <b style="color: limeGreen;">Ranked 43</b>th, <u style="text-decoration-color: #32cd32;">Java</u></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> LeetCode <b style="color: limeGreen;">Ranked 1,502,356</b>th</li></ul>
 
 ## _<span style="color: #32cd32;">For Contact</span>_
 
@@ -46,7 +47,7 @@
     - Search `/* √` for **<span style="color: #e76f00;">Similar Concepts</span>**
     - Search `/* ■` for **<span style="color: #e76f00;">Tables</span>**
     - Search `// •` for **<span style="color: #e76f00;">Important Things</span>**
-    - Search `<h1>Question` for **<span style="color: #e76f00;">Questions</span>**
+    - Search `<h1>Problem` for **<span style="color: #e76f00;">Problems</span>**
     - Search `// >` for **<span style="color: #e76f00;">Another Solution</span>**
     - Search `[//]: # (Notes)` for **<span style="color: #e76f00;">Important Notes</span>**
 
@@ -266,6 +267,10 @@
 4. **Encryption & Decryption**
     1. **AES (Advanced Encryption Standard)**
     2. **RSA (Rivest-Shamir-Adleman)**
+5. **Dynamic Programming**
+    1. **Kadane**
+6. **Other**
+    1. **Boyer-Moore Voting**
 
 ### 7. [<span style="color: #e76f00;">DSA (Data Structures and Algorithms)</span>](src/_1_learning/_1_7_data_structures_and_algorithms)
 
@@ -295,6 +300,8 @@
 
 ### <span style="font-style: italic; color: #e76f00;">~~8. Database~~</span>
 
+1. ~~**GUID (Globally Unique Identifier)**~~
+
 ### <span style="font-style: italic; color: #e76f00;">~~9. Network~~</span>
 
 ### <span style="font-style: italic; color: #e76f00;">~~10. OOD (Object Oriented Design)~~</span>
@@ -313,14 +320,25 @@
 
 ---
 
-## <span style="font-style: italic; color: #e76f00;">2. Solving (1,468)</span>
+## <span style="font-style: italic; color: #e76f00;">2. Solving (1,530 Problems, 4 Mini Projects)</span>
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">♥</b>.</li>
+
+|                           Name                           | Problems / Mini Projects |
+|:--------------------------------------------------------:|:------------------------:|
+|       [W3Schools](https://www.w3schools.com/java)        |        6 Problems        |
+| [W3Resources](https://www.w3resource.com/java-exercises) |      1,059 Problems      |
+|           [Codeforces](https://codeforces.com)           |       273 Problems       |
+|             [CoderHub](https://coderhub.sa)              |       130 Problems       |
+|                [Satr](https://satr.codes)                |     4 Mini Projects      |
+|             [LeetCode](https://leetcode.com)             |       62 Problems        |
+|    [HackerRank](https://www.hackerrank.com/dashboard)    |        0 Problems        |
+|  [CodeWars](https://www.codewars.com/kata/search/java)   |        0 Problems        |
 
 #### <p style="color: #e76f00;">Notes</p>
 
 <ul>
-<li><u style="text-decoration-color: #e76f00;">There are some questions where the requirements and names have been changed without changing the important programming terms</u> <b style="color: #e76f00;">♥</b>.</li>
+<li><u style="text-decoration-color: #e76f00;">There are some Problems where the requirements and names have been changed without changing the important programming terms</u> <b style="color: #e76f00;">♥</b>.</li>
 <br/>
 <li><b>What does Mean (🟥 & 🟩) ?</b></li>
 <ul>
@@ -329,119 +347,120 @@
 </ul>
 </ul>
 
-### <span>1. <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a> (6 Questions) 🟩<span>
+### <span>1. <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a> (6 Problems) 🟩<span>
 
-1. <b><a style="color: #e76f00;" href="https://www.w3schools.com/java">How to</a> (6 Questions)</b>
+1. <b><a style="color: #e76f00;" href="https://www.w3schools.com/java">How to</a> (6 Problems)</b>
 
-### <span>2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (1,059 Questions) 🟩<span>
+### <span>2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (1,059 Problems) 🟩<span>
 
-1. **Basics (272 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index.php">Part 1</a> (150 Questions)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index1.php">Part 2</a> (99 Questions)</b>
-    3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/method/index.php">Methods</a> (23 Questions)</b>
-2. **Data Types (20 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/datatypes/index.php">Data Types</a> (15 Questions)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/java-enum-types.php">Enum Types</a> (5 Questions)</b>
-3. **Flow Control (47 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/conditional-statement/index.php">Conditional Statement</a> (32 Questions)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/recursive/index.php">Recursive Method</a> (15 Questions)</b>
-4. **Math and Numbers (58 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/math/index.php">Math</a> (29 Questions)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/numbers/index.php">Numbers</a> (29 Questions)</b>
-5. **Object-Oriented Programming (117 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/constructor/java-constructors.php">Constructors</a> (10 Questions)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/static_members/java-static-members.php">Static Members</a> (8 Questions)</b>
-    3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/nested-classes/java-nested-classes.php">Nested Classes</a> (10 Questions)</b>
-    4. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-inheritance.php">Inheritance</a> (10 Questions)</b>
-    5. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-abstract.php">Abstract Classes</a> (12 Questions)</b>
-    6. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-interface.php">Interface</a> (11 Questions)</b>
-    7. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/encapsulation/index.php">Encapsulation</a> (14 Questions)</b>
-    8. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-polymorphism.php">Polymorphism</a> (12 Questions)</b>
-    9. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/oop/index.php">Object-Oriented Programming</a> (30 Questions)</b>
-6. **Exception Handling (7 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/exception/index.php">Handling and Managing</a> (7 Questions)</b>
-7. **Functional Programming (33 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/lambda/index.php">Lambda Expression</a> (25 Questions)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/stream/index.php">Streams</a> (8 Questions)</b>
-8. **Multithreading (22 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/thread/index.php">Thread</a> (7 Questions)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/multithreading/index.php">Multithreading</a> (15 Questions)</b>
-9. **Data Structures (234 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/array/index.php">Array</a> (79 Questions)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/stack/index.php">Stack</a> (29 Questions)</b>
-    3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/index.php">Collection</a> (126 Questions)</b>
-        1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/array-list.php">ArrayList</a> (22 Questions)</b>
-        2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/linked-list.php">LinkedList</a> (26 Questions)</b>
-        3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-set.php">HashSet</a> (12 Questions)</b>
-        4. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-set.php">TreeSet</a> (16 Questions)</b>
-        5. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/priority-queue.php">PriorityQueue</a> (12 Questions)</b>
-        6. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-map.php">HashMap</a> (12 Questions)</b>
-        7. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-map.php">TreeMap</a> (26 Questions)</b>
-10. **String and Input and Output (130 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/string/index.php">String</a> (112 Questions)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/io/index.php">Input and Output</a> (18 Questions)</b>
-11. **Date and Time (46 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/datetime/index.php">Date and Time</a> (46 Questions)</b>
-12. **Advanced Concepts (17 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/generic/index.php">Generic Methods</a> (7 Questions)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/unittest/index.php">Unit Test</a> (10 Questions)</b>
-13. **Algorithms (26 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Search</a> (7 Questions)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Sort</a> (19 Questions)</b>
-14. **Regular Expression (30 Questions)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Questions)</b>
+1. **Basics (272 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index.php">Part 1</a> (150 Problems)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index1.php">Part 2</a> (99 Problems)</b>
+    3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/method/index.php">Methods</a> (23 Problems)</b>
+2. **Data Types (20 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/datatypes/index.php">Data Types</a> (15 Problems)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/java-enum-types.php">Enum Types</a> (5 Problems)</b>
+3. **Flow Control (47 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/conditional-statement/index.php">Conditional Statement</a> (32 Problems)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/recursive/index.php">Recursive Method</a> (15 Problems)</b>
+4. **Math and Numbers (58 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/math/index.php">Math</a> (29 Problems)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/numbers/index.php">Numbers</a> (29 Problems)</b>
+5. **Object-Oriented Programming (117 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/constructor/java-constructors.php">Constructors</a> (10 Problems)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/static_members/java-static-members.php">Static Members</a> (8 Problems)</b>
+    3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/nested-classes/java-nested-classes.php">Nested Classes</a> (10 Problems)</b>
+    4. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-inheritance.php">Inheritance</a> (10 Problems)</b>
+    5. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-abstract.php">Abstract Classes</a> (12 Problems)</b>
+    6. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-interface.php">Interface</a> (11 Problems)</b>
+    7. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/encapsulation/index.php">Encapsulation</a> (14 Problems)</b>
+    8. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-polymorphism.php">Polymorphism</a> (12 Problems)</b>
+    9. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/oop/index.php">Object-Oriented Programming</a> (30 Problems)</b>
+6. **Exception Handling (7 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/exception/index.php">Handling and Managing</a> (7 Problems)</b>
+7. **Functional Programming (33 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/lambda/index.php">Lambda Expression</a> (25 Problems)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/stream/index.php">Streams</a> (8 Problems)</b>
+8. **Multithreading (22 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/thread/index.php">Thread</a> (7 Problems)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/multithreading/index.php">Multithreading</a> (15 Problems)</b>
+9. **Data Structures (234 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/array/index.php">Array</a> (79 Problems)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/stack/index.php">Stack</a> (29 Problems)</b>
+    3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/index.php">Collection</a> (126 Problems)</b>
+        1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/array-list.php">ArrayList</a> (22 Problems)</b>
+        2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/linked-list.php">LinkedList</a> (26 Problems)</b>
+        3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-set.php">HashSet</a> (12 Problems)</b>
+        4. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-set.php">TreeSet</a> (16 Problems)</b>
+        5. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/priority-queue.php">PriorityQueue</a> (12 Problems)</b>
+        6. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-map.php">HashMap</a> (12 Problems)</b>
+        7. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-map.php">TreeMap</a> (26 Problems)</b>
+10. **String and Input and Output (130 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/string/index.php">String</a> (112 Problems)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/io/index.php">Input and Output</a> (18 Problems)</b>
+11. **Date and Time (46 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/datetime/index.php">Date and Time</a> (46 Problems)</b>
+12. **Advanced Concepts (17 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/generic/index.php">Generic Methods</a> (7 Problems)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/unittest/index.php">Unit Test</a> (10 Problems)</b>
+13. **Algorithms (26 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Search</a> (7 Problems)</b>
+    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Sort</a> (19 Problems)</b>
+14. **Regular Expression (30 Problems)**
+    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)</b>
 
-### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (273 Questions) 🟩</span>
+### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (273 Problems) 🟩</span>
 
-1. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contests">Assiut-Sheets</a> (273 Questions)</b>
-    1. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219158">Sheet 1 "Data type - Conditions"</a> (26 Questions)</b>
-    2. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/326175">Contest 1</a> (9 Questions)</b>
-    3. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219432">Sheet 2 "Loops"</a> (26 Questions)</b>
-    4. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/326907">Contest 2</a> (8 Questions)</b>
-    5. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219774">Sheet 3 "Arrays"</a> (26 Questions)</b>
-    6. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/329103">Contest 3.1</a> (7 Questions)</b>
-    7. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219856">Sheet 4 "Strings"</a> (26 Questions)</b>
+1. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contests">Assiut-Sheets</a> (273 Problems)</b>
+    1. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219158">Sheet 1 "Data type - Conditions"</a> (26 Problems)</b>
+    2. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/326175">Contest 1</a> (9 Problems)</b>
+    3. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219432">Sheet 2 "Loops"</a> (26 Problems)</b>
+    4. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/326907">Contest 2</a> (8 Problems)</b>
+    5. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219774">Sheet 3 "Arrays"</a> (26 Problems)</b>
+    6. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/329103">Contest 3.1</a> (7 Problems)</b>
+    7. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219856">Sheet 4 "Strings"</a> (26 Problems)</b>
         - [<span style="color: #e76f00;">2.3.1.7.o Sort String</span>](src/_2_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
           `It can't be submit by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
-    8. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223205">Sheet 5 "Functions"</a> (15 Questions)</b>
-    9. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223338">Sheet 6 "Math - Geometry"</a> (26 Questions)</b>
-    10. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223339">Sheet 7 "Recursion"</a> (26 Questions)</b>
-    11. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223206">Sheet 8 "General Easy"</a> (26 Questions)</b>
-    12. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223207">Sheet 9 "General Medium"</a> (26 Questions)</b>
-    13. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223340">Sheet 10 "General Hard"</a> (26 Questions)</b>
-2. ~~<b><a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem-Set</a> (0 Questions)<b/>~~
+    8. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223205">Sheet 5 "Functions"</a> (15 Problems)</b>
+    9. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223338">Sheet 6 "Math - Geometry"</a> (26 Problems)</b>
+    10. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223339">Sheet 7 "Recursion"</a> (26 Problems)</b>
+    11. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223206">Sheet 8 "General Easy"</a> (26 Problems)</b>
+    12. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223207">Sheet 9 "General Medium"</a> (26 Problems)</b>
+    13. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223340">Sheet 10 "General Hard"</a> (26 Problems)</b>
+2. ~~<b><a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem-Set</a> (0 Problems)<b/>~~
 
 ### <span>4. <a style="color: #e76f00;" href="https://satr.codes">Satr</a> (4 Mini Projects) 🟩</span>
 
-1. <b><a style="color: #e76f00;" href="https://satr.codes/course/SYJZBDMnFM/view">Basics</a> (1 Project)</b>
-2. <b><a style="color: #e76f00;" href="https://satr.codes/course/DcFViVITbo/view">Java 101</a> (1 Project)</b>
-3. <b><a style="color: #e76f00;" href="https://satr.codes/course/oqTQleaQLV/view">Java 102</a> (1 Project)</b>
-4. <b><a style="color: #e76f00;" href="https://satr.codes/course/aiZMoXpIya/view">Java 103</a> (1 Project)</b>
+1. <b><a style="color: #e76f00;" href="https://satr.codes/course/SYJZBDMnFM/view">Basics</a> (1 Mini Project)</b>
+2. <b><a style="color: #e76f00;" href="https://satr.codes/course/DcFViVITbo/view">Java 101</a> (1 Mini Project)</b>
+3. <b><a style="color: #e76f00;" href="https://satr.codes/course/oqTQleaQLV/view">Java 102</a> (1 Mini Project)</b>
+4. <b><a style="color: #e76f00;" href="https://satr.codes/course/aiZMoXpIya/view">Java 103</a> (1 Mini Project)</b>
 
-### <span>5. <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a> (130 Questions) 🟩</span>
+### <span>5. <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a> (130 Problems, (75 Easy, 42 Medium, 13 Hard)) 🟩</span>
 
-1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (128 Questions)</b>
-    1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (73 Questions)</b>
-        1. **Shorouk Saeed** **(1 Questions)**
-        2. **Mashari Al-Dosari** **(1 Questions)**
-        3. **CoderHub Team** **(70 Questions)**
-        4. **Ali Al-Damen** **(1 Questions)**
-    2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (42 Questions)</b>
-        1. **CoderHub Team** **(39 Questions)**
-        2. **Faisal Al-Qahtani** **(1 Questions)**
-        3. **Rashid Al-Anazi** **(1 Questions)**
-        4. **Halah Al-Dekhiel** **(1 Questions)**
-    3. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (13 Questions)</b>
-        1. **CoderHub Team** **(12 Questions)**
-        2. **Rashid Al-Anazi** **(1 Questions)**
-2. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities">Competitions</a> (2 Questions)</b>
-    1. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Questions)</b>
-        1. **Easy (2 Questions)**
+1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (128 Problems)</b>
+    1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (73 Problems)</b>
+        1. **Shorouk Saeed** **(1 Problem)**
+        2. **Mashari Al-Dosari** **(1 Problem)**
+        3. **CoderHub Team** **(70 Problems)**
+        4. **Ali Al-Damen** **(1 Problem)**
+    2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (42 Problems)</b>
+        1. **CoderHub Team** **(39 Problems)**
+        2. **Faisal Al-Qahtani** **(1 Problem)**
+        3. **Rashid Al-Anazi** **(1 Problem)**
+        4. **Halah Al-Dekhiel** **(1 Problem)**
+    3. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (13 Problems)</b>
+        1. **CoderHub Team** **(12 Problems)**
+        2. **Rashid Al-Anazi** **(1 Problem)**
+2. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities">Competitions</a> (2 Problems)</b>
+    1. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)</b>
+        1. **Easy (2 Problems)**
 
-### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (0 Questions) 🟥</span>
+### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (62 Problems, (22 Easy, 34 Medium, 7 Hard)) 🟩</span>
 
-1. ~~<b><a style="color: #e76f00;" href="https://leetcode.com/studyplan/top-interview-150">Top Interview 150</a> (0 Questions)</b>~~
-2. ~~<b><a style="color: #e76f00;" href="https://leetcode.com/problemset">Problem-Set</a> (0 Questions)</b>~~
+1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (22 Problems)</b>
+2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (34 Problems)</b>
+3. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (7 Problems)</b>
 
 ---
 
@@ -464,6 +483,14 @@
 <li><a style="color: #e76f00;" href="https://www.codeproject.com">CodeProject</a></li>
 <li><a style="color: #e76f00;" href="https://harmash.com">Harmash</a></li>
 <li><a style="color: #e76f00;" href="https://junit.org/junit5/docs/current/user-guide">Junit5</a></li>
+<del><li><a style="color: #e76f00;" href="https://goalkicker.com/">Goal Kicker</a></li></del>
+</ul>
+
+#### **Books**
+
+<ul>
+<del><li><a style="color: #e76f00;" href="https://goalkicker.com/JavaBook">Java Notes for Professionals</a></li></del>
+<del><li><a style="color: #e76f00;" href="https://goalkicker.com/AlgorithmsBook">Algorithms Notes for Professionals</a></li></del>
 </ul>
 
 ### <span style="color: #e76f00;">Solving</span>

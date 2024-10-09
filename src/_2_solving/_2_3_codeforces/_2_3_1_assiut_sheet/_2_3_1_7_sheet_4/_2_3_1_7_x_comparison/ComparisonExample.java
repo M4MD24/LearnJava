@@ -17,7 +17,7 @@ import java.util.Arrays;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a string S. Print the smallest string that can be obtained by doing the following operations on the original string only:</h2>
  * <ul>
  *     <li>Split the string into two non empty consecutive strings (for example if you split the string into X and Y so S = X+Y).</li>

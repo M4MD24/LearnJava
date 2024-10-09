@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given three numbers L,R and M. Print the product of all numbers from L to R (inclusive) module M.</h2>
  * <br/>
  * <h1>Input:</h1>

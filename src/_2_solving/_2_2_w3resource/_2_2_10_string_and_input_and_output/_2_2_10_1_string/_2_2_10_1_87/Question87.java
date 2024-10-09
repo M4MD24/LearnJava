@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_10_string_and_input_and_output._2_2_10_1_string._2_2_10_1_87;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to check whether a specified character is happy or not. A character is happy when the same character appears to its left or right in a string.</h2>
  */
 

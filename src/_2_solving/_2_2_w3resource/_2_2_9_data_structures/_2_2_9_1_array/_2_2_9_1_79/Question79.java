@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_9_data_structures._2_2_9_1_array._2_2_9_
 import java.util.Arrays;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that returns the missing letter from an array of increasing letters (upper or lower). Assume there will always be one omission from the array.</h2>
  * <br/>
  * <h1>Input Data:</h1>

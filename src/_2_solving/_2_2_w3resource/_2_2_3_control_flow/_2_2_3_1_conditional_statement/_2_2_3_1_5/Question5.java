@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_5;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that takes a number from the user and generates an integer between 1 and 7. It displays the weekday name.</h2>
  * <br/>
  * <h1>Input Data:</h1>

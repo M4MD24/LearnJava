@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given 3 lines of input described as follow:</h2>
  * <ol>
  *     <li>First line contains a symbol S</li>

@@ -2,7 +2,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_2_s
 
 /**
  * <h3>Static Methods</h3>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called "Question2" with a static method add that takes two integers and returns their sum. Demonstrate the usage of this static method in the main method without creating an instance of "Question2".</h2>
  */
 

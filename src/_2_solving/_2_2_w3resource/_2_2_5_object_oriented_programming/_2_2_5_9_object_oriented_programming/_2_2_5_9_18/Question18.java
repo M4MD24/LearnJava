@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_9_o
 import java.util.ArrayList;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called "Restaurant" with attributes for menu items, prices, and ratings, and methods to add and remove items, and to calculate average rating.</h2>
  */
 

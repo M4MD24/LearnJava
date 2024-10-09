@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Write a Java program to compare two files lexicographically.
  * <br/>

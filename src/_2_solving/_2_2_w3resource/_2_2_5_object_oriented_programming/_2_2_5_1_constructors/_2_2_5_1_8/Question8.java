@@ -2,7 +2,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_1_c
 
 /**
  * <h3>Overloading Constructors with Different Data Types</h3>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called Point with instance variables x and y. Implement overloaded constructors:</h2>
  * <ul>
  *     <li>One constructor takes int parameters.</li>

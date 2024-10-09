@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_7_encapsulation._2_2_5_7_12;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called Account with private instance variables accountNumber, accountHolder, and balance. Provide public getter and setter methods to access and modify these variables. Add a method called deposit() that takes an amount and increases the balance by that amount, and a method called withdraw() that takes an amount and decreases the balance by that amount.</h2>
  */
 

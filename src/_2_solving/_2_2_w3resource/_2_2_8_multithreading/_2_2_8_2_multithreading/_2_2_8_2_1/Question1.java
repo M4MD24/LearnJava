@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_8_multithreading._2_2_8_2_multithreading._2_2_8_2_1;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create and start multiple threads that increment a shared counter variable concurrently.</h2>
  */
 

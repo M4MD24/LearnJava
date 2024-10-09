@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Given a mathematical expression. The expression will be one of the following expressions: A+B=C, A-B=C and A*B=C
  * <br/>

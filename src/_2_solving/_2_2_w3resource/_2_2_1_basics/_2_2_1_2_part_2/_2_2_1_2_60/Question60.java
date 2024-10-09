@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_60;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to match any single character (use ?) or any sequence of characters (use *) including empty. The matching should cover the entire input string.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

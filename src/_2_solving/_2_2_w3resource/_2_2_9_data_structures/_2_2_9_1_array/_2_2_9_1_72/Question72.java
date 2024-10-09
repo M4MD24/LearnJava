@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find and print one continuous sub-array (from a given array of integers) that if you only sort the said sub-array in ascending order then the entire array will be sorted in ascending order.</h2>
  * <br/>
  * <h1>Input Data:</h1>

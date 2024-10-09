@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Let's define f(x) as the number of times at which the integer x can be divided by 2 You are given N numbers, and you should print the maximum f(x) among all these numbers.</h2>
  * <br/>
  * <h1>Input:</h1>

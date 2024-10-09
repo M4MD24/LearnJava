@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find a number that appears only once in a given array of integers. All numbers occur twice.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

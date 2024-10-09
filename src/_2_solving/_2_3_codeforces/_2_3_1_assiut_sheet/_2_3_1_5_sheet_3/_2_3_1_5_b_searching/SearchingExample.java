@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number N and an array A of N numbers. Determine if the number X exists in array A or not and print its position (0-index).</h2>
  * <br/>
  * <h1>Note:</h1>

@@ -17,7 +17,7 @@ import java.math.BigInteger;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number N. Print N + 9999 and N * 9999.</h2>
  * <br/>
  * <h1>Input:</h1>

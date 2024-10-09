@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given an array A of size N. write five functions that do the following:</h2>
  * <ol>
  *     <li>Get the value of the maximum number in the array.</li>

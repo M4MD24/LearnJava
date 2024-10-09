@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a string S. Print S after replacing every sub-string that is equal to "EGYPT" with space.</h2>
  * <br/>
  * <h1>Input:</h1>

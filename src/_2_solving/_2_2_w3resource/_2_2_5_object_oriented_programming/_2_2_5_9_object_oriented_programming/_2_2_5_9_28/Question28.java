@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Locale;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called "Reservation" with attributes for reservation ID, customer name, and date. Create subclasses "ApartmentReservation" and "RailwayReservation" that add specific attributes like room number for hotels and seat number for flights. Implement methods to check reservation status and modify reservation details.</h2>
  */
 

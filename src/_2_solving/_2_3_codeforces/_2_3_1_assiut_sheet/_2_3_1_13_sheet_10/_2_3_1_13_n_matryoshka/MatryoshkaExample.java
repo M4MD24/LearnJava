@@ -19,7 +19,7 @@ import java.util.StringTokenizer;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>the Egyptian football team will be in Russia for the World Cup, of course, they all would like to buy souvenirs for their families. Luckily they met the king of souvenirs of the famous Russian souvenir Matryoshka; the king makes his masterpiece Matryoshka using different kinds of pieces: wooden eyes, wooden mouths, and wooden bodies. He can form a nice Matryoshka using one of the following ways:</h2>
  * <ul>
  *     <li>Two eyes and one body.</li>

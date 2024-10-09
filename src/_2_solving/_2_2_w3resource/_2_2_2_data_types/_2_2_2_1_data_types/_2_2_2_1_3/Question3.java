@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_1_3;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that reads an integer between 0 and 1000 and adds all the digits in the integer.</h2>
  * <br/>
  * <h1>Input Data:</h1>

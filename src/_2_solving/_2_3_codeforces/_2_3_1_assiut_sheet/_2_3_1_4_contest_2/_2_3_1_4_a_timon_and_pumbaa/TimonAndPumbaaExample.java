@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Timon has a candies and his friend, Pumbaa, has b candies, so Pumbaa asked Timon to tell him the value of a−b.
  * <br/>

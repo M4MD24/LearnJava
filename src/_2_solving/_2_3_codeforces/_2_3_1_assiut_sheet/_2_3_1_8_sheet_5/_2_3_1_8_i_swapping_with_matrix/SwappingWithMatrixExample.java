@@ -18,7 +18,7 @@ import java.util.StringTokenizer;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a matrix A of size N∗N. Print the Matrix after doing the following operations:</h2>
  * <ol>
  *     <li>swap row X with row Y.</li>

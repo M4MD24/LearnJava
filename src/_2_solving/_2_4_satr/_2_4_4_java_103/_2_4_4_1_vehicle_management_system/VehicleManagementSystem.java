@@ -11,12 +11,12 @@ import java.util.Scanner;
 public class VehicleManagementSystem {
     private static final Scanner INPUT = new Scanner(System.in);
     private static boolean isOn = true,
-            onUpdateLine = false;
+        onUpdateLine = false;
     private static int choice;
     private static String type;
     private static final String CAR = "Car",
-            MOTORCYCLE = "Motorcycle",
-            TRUCK = "Truck";
+        MOTORCYCLE = "Motorcycle",
+        TRUCK = "Truck";
     private static final GarageManagement GARAGE_MANAGEMENT = new GarageManagement();
 
     public static void main(final String[] PARAMETERS) {

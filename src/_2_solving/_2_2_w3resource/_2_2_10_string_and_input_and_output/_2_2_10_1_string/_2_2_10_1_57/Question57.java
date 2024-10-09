@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_10_string_and_input_and_output._2_2_10_1_string._2_2_10_1_57;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a string from a given string by swapping the last two characters of the given string. The string length must be two or more.</h2>
  */
 

@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given a number N. Print numbers from 1 to N in separate lines.</h2>
  * <br/>
  * <h1>Note:</h1>

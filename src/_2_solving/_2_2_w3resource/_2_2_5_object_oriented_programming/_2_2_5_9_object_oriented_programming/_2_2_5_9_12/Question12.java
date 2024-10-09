@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Locale;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called "Airplane" with a flight number, destination, and departure time attributes, and methods to check flight status and delay.</h2>
  */
 

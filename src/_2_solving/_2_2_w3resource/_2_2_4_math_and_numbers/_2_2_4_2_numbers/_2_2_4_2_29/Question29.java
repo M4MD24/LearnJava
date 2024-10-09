@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2
 import java.util.ArrayList;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to check whether a number is a <a href="https://en.wikipedia.org/wiki/Lucky_number">Lucky number</a> or not.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

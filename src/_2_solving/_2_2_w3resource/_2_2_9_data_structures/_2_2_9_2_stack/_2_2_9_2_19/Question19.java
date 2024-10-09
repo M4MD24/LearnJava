@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Stack;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that implements a stack and checks if the stack is a subset of another stack.</h2>
  */
 

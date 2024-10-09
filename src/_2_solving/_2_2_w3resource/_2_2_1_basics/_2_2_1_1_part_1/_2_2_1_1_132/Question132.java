@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_132;
 import java.util.Arrays;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find the updated length of a given sorted array where duplicate elements appear at most twice.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

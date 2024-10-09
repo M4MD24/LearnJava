@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two arrays A and B of size N. Print a new array C that holds the concatenation of array B followed by array A.</h2>
  * <br/>
  * <h1>Note:</h1>

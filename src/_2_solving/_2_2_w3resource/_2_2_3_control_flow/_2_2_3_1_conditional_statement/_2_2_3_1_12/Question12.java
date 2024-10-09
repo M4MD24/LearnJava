@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statement._2_2_3_1_12;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a program in Java to input 5 numbers from the keyboard and find their sum and average.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

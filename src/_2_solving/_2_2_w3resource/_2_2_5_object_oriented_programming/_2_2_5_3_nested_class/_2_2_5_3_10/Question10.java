@@ -2,7 +2,7 @@ package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_3_n
 
 /**
  * <h3>Static Nested Class and Non-static Methods</h3>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create an outer class called School with a static nested class Student. The Student class should have a non-static method displayStudentInfo() that prints the student's name and grade. Instantiate the Student class from the main method and call the displayStudentInfo() method.</h2>
  */
 

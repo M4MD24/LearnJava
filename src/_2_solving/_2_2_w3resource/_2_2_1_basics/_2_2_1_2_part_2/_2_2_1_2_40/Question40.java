@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find the missing string from two given strings.</h2>
  * <br/>
  * <h1>Excepted Output:</h1>

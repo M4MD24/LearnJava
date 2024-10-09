@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program that reads a file and throws an exception if the file is empty.</h2>
  */
 

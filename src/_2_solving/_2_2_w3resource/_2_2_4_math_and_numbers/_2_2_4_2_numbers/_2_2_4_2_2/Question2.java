@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 import java.util.stream.LongStream;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Write a Java program that categorizes integers between 1 and 10,000 as Abundant, Deficient, and Perfect.
  * <br/>

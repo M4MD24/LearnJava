@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_8_polymorphism._2_2_5_8_5;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a base class Electronic sport with a method called play(). Create three subclasses: Tik Tak Toe, Paper Wordle, Dots and Boxes and Battleship. Override the play() method in each subclass to play a specific statement for each electronic sport.</h2>
  */
 

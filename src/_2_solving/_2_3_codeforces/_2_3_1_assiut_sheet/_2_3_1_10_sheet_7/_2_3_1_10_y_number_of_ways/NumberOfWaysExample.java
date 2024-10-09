@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two numbers S and E where S denotes a start point and E denotes an end point. Determine how many possible ways to reach point E if you can move either 1 step, 2 steps or 3 steps at a time.</h2>
  * <br/>
  * <h1>Note:</h1>

@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two numbers N and M, a 2D array A of size N * M which contains 'x' or '.' only and two numbers X, Y which donates a cell position in A such that X is the row number and Y is the column number. Determine whether all neighbors of the given cell are 'x' or not.</h2>
  * <br/>
  * <h1>Note:</h1>

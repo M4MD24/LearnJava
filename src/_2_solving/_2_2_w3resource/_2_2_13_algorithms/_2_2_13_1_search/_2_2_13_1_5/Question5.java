@@ -3,7 +3,7 @@ package _2_solving._2_2_w3resource._2_2_13_algorithms._2_2_13_1_search._2_2_13_1
 import java.util.Arrays;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to find a specified element in a given sorted array of elements using Exponential search.</h2>
  */
 

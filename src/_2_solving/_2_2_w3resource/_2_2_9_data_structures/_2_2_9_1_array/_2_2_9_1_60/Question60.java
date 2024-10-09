@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to shuffle a given array of integers.</h2>
  * <br/>
  * <h1>Input Data:</h1>

@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_10_string_and_input_and_output._2_2_10_1_string._2_2_10_1_4;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to count Unicode code points in the specified text range of a string.</h2>
  * <br/>
  * <h1>Input:</h1>

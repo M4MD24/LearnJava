@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * In mathematics, the sieve of Eratosthenes is an ancient algorithm for finding all prime numbers up to any given limit.
  * <br/>

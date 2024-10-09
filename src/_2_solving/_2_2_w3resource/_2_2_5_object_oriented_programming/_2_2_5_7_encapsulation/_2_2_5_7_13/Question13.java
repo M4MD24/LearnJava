@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called Quran with private instance variables Surah, Ayah. Provide public getter and setter methods to access and modify these variables.</h2>
  */
 

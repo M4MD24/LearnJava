@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to change priorityQueue to maximum priority queue.</h2>
  */
 

@@ -16,7 +16,7 @@ import java.io.InputStreamReader;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * As it is known Saeed loves palindrome too much. A palindrome is a string that reads the same forwards as backwards.
  * <br/>

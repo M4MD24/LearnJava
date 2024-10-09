@@ -1,7 +1,7 @@
 package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_98;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * From Wikipedia, An abecedarian (or abecedary) is an inscription consisting of the letters of an alphabet, almost always listed in order. Typically, abecedarian (or abecedarian) are practice exercises.
  * <br/>

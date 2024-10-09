@@ -5,7 +5,7 @@ import java.time.Period;
 import java.time.temporal.TemporalAdjusters;
 
 /**
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Write a Java program to get the number of months left in the year.</h2>
  */
 

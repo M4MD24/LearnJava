@@ -15,7 +15,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * Here it is. The Ultimate Question of Competitive Programming, Codeforces, and Everything. And you are here to answer it.
  * <br/>

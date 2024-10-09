@@ -19,7 +19,7 @@ import java.util.StringTokenizer;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>Given two fractions , find the smallest fraction that when divided by each of the two fractions, the result is an integer number.</h2>
  * <br/>
  * <h1>Input:</h1>

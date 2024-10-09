@@ -14,7 +14,7 @@ import java.util.Scanner;
  * output: standard output
  * </h2>
  * <br/>
- * <h1>Question:</h1>
+ * <h1>Problem:</h1>
  * <h2>
  * There will be a launch of a new, powerful and unusual collider very soon, which located along a straight line. n particles will be launched inside it. All of them are located in a straight line and there can not be two or more particles located in the same point. The coordinates of the particles coincide with the distance in meters from the center of the collider, xi is the coordinate of the i-th particle and its position in the collider at the same time. All coordinates of particle positions are even integers.
  * <br/>
