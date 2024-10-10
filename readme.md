@@ -300,7 +300,9 @@
 
 ### <span style="font-style: italic; color: #e76f00;">~~8. Database~~</span>
 
-1. ~~**GUID (Globally Unique Identifier)**~~
+1. ~~**JDBC (Java Database Connectivity)**~~
+
+- ~~**GUID (Globally Unique Identifier)**~~
 
 ### <span style="font-style: italic; color: #e76f00;">~~9. Network~~</span>
 
@@ -320,18 +322,18 @@
 
 ---
 
-## <span style="font-style: italic; color: #e76f00;">2. Solving (1,530 Problems, 4 Mini Projects)</span>
+## <span style="font-style: italic; color: #e76f00;">2. Solving (1,545 Problems, 4 Mini Projects)</span>
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">♥</b>.</li>
 
 |                           Name                           | Problems / Mini Projects |
 |:--------------------------------------------------------:|:------------------------:|
-|       [W3Schools](https://www.w3schools.com/java)        |        6 Problems        |
+|       [W3Schools](https://www.w3schools.com/java)        |       17 Problems        |
 | [W3Resources](https://www.w3resource.com/java-exercises) |      1,059 Problems      |
 |           [Codeforces](https://codeforces.com)           |       273 Problems       |
 |             [CoderHub](https://coderhub.sa)              |       130 Problems       |
 |                [Satr](https://satr.codes)                |     4 Mini Projects      |
-|             [LeetCode](https://leetcode.com)             |       63 Problems        |
+|             [LeetCode](https://leetcode.com)             |       66 Problems        |
 |    [HackerRank](https://www.hackerrank.com/dashboard)    |        0 Problems        |
 |  [CodeWars](https://www.codewars.com/kata/search/java)   |        0 Problems        |
 
@@ -347,9 +349,9 @@
 </ul>
 </ul>
 
-### <span>1. <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a> (6 Problems) 🟩<span>
+### <span>1. <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a> (17 Problems) 🟩<span>
 
-1. <b><a style="color: #e76f00;" href="https://www.w3schools.com/java">How to</a> (6 Problems)</b>
+1. <b><a style="color: #e76f00;" href="https://www.w3schools.com/java">How to</a> (17 Problems)</b>
 
 ### <span>2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (1,059 Problems) 🟩<span>
 
@@ -456,10 +458,10 @@
     1. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)</b>
         1. **Easy (2 Problems)**
 
-### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (63 Problems, (22 Easy, 34 Medium, 7 Hard)) 🟩</span>
+### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (66 Problems, (22 Easy, 37 Medium, 7 Hard)) 🟥</span>
 
 1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (22 Problems)</b>
-2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (34 Problems)</b>
+2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (37 Problems)</b>
 3. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (7 Problems)</b>
 
 ---
