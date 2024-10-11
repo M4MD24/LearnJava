@@ -25,6 +25,12 @@ public class Main {
         isDegenerateBinaryTreeTest();
         isLeftSkewedBinaryTreeTest();
         isRightSkewedBinaryTreeTest();
+        isSymmetricBinaryTreeTest();
+    }
+
+    private static void isSymmetricBinaryTreeTest() {
+        System.out.println("\n■ Is Symmetric Binary Tree: " + BINARY_TREE_1.isSymmetric());
+        BINARY_TREE_1.printTreePreorder("", false);
     }
 
     private static void isRightSkewedBinaryTreeTest() {

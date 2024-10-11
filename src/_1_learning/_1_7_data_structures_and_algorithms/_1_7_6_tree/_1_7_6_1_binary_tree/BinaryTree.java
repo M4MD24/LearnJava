@@ -253,4 +253,18 @@ class BinaryTree<Type extends Comparable<Type>> {
                 return !TOOK_LEFT_PATH && TOOK_RIGHT_PATH;
         }
     }
+
+    boolean isSymmetric() {
+        return root == null || isMirror(root.left, root.right);
+    }
+
+    private boolean isMirror(final Node<Type> FIRST_BRANCH, final Node<Type> SECOND_BRANCH) {
+        return FIRST_BRANCH == null &&
+                SECOND_BRANCH == null ||
+                FIRST_BRANCH != null &&
+                        SECOND_BRANCH != null &&
+                        FIRST_BRANCH.data == SECOND_BRANCH.data &&
+                        isMirror(FIRST_BRANCH.left, SECOND_BRANCH.right) &&
+                        isMirror(FIRST_BRANCH.right, SECOND_BRANCH.left);
+    }
 }

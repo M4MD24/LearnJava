@@ -297,6 +297,7 @@
 8. **Heap**
     1. **Normal Heap**
     2. **Fibonacci Heap**
+9. **LRU Cache**
 
 ### <span style="font-style: italic; color: #e76f00;">~~8. Database~~</span>
 
@@ -322,7 +323,7 @@
 
 ---
 
-## <span style="font-style: italic; color: #e76f00;">2. Solving (1,545 Problems, 4 Mini Projects)</span>
+## <span style="font-style: italic; color: #e76f00;">2. Solving (1,558 Problems, 4 Mini Projects)</span>
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">♥</b>.</li>
 
@@ -333,7 +334,7 @@
 |           [Codeforces](https://codeforces.com)           |       273 Problems       |
 |             [CoderHub](https://coderhub.sa)              |       130 Problems       |
 |                [Satr](https://satr.codes)                |     4 Mini Projects      |
-|             [LeetCode](https://leetcode.com)             |       66 Problems        |
+|             [LeetCode](https://leetcode.com)             |       79 Problems        |
 |    [HackerRank](https://www.hackerrank.com/dashboard)    |        0 Problems        |
 |  [CodeWars](https://www.codewars.com/kata/search/java)   |        0 Problems        |
 
@@ -458,7 +459,7 @@
     1. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)</b>
         1. **Easy (2 Problems)**
 
-### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (66 Problems, (22 Easy, 37 Medium, 7 Hard)) 🟥</span>
+### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (79 Problems, (29 Easy, 43 Medium, 7 Hard)) 🟥</span>
 
 1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (22 Problems)</b>
 2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (37 Problems)</b>
@@ -485,7 +486,7 @@
 <li><a style="color: #e76f00;" href="https://www.codeproject.com">CodeProject</a></li>
 <li><a style="color: #e76f00;" href="https://harmash.com">Harmash</a></li>
 <li><a style="color: #e76f00;" href="https://junit.org/junit5/docs/current/user-guide">Junit5</a></li>
-<del><li><a style="color: #e76f00;" href="https://goalkicker.com/">Goal Kicker</a></li></del>
+<del><li><a style="color: #e76f00;" href="https://goalkicker.com">Goal Kicker</a></li></del>
 </ul>
 
 #### **Books**
