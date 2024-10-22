@@ -1,6 +1,6 @@
 [//]: # (Notes)
 
-# 51 Law of the Most Important Arithmetic Laws
+# 52 Law of the Most Important Arithmetic Laws
 
 ### Is Power of Two
 
@@ -522,5 +522,15 @@ private static double getCircumferenceOfCircle(final double RADIUS) {
 ```java
 private static double getAreaOfCircle(final double RADIUS) {
     return Math.PI * RADIUS * RADIUS;
+}
+```
+
+### Get Factorial Trailing Zeroes
+
+```java
+private static int trailingZeroes(final int NUMBER) {
+    return NUMBER == 0
+            ? 0
+            : NUMBER / 5 + trailingZeroes(NUMBER / 5);
 }
 ```
