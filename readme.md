@@ -17,7 +17,7 @@
   <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">First person to solve all the problems</b> of <u style="text-decoration-color: #32cd32;">Assiut Sheets</u> in <u style="text-decoration-color: #32cd32;">codeforces</u> with <u style="text-decoration-color: #32cd32;">Java</u> on <b style="color: limeGreen;">(22/04/2024)</b></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">More than 1,500 problems and mini projects</b> on different concepts have been solved</li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> CodeHub <b style="color: limeGreen;">Ranked 43</b>th, <u style="text-decoration-color: #32cd32;">Java</u></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> LeetCode <b style="color: limeGreen;">Ranked 984,976</b>th</li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> LeetCode <b style="color: limeGreen;">Ranked 940,041</b>th</li></ul>
 
 ## _<span style="color: #32cd32;">For Contact</span>_
 
@@ -28,7 +28,7 @@
 ## <span style="font-style: italic; color: #e76f00;">About the Project Details</span>
 
 - **Recommended using `Intellij IDEA (Community / Ultimate / EAP)`**
-- **Currently Used `Intellij Idea Community`**
+- **Currently Used `Intellij Idea EAP`**
 - **Project Language is `English` and `some images Arabic`**
 - **Appropriate labels for `variables`, `functions` and `classes`**
 - **Java Version** `23 Oracle OpenJDK Version 23.0.1` - `SDK Default`
@@ -288,6 +288,7 @@
     4. **B Tree**
     5. **B+ Tree**
     6. **Red-Black Tree**
+    7. **Trie (Prefix Tree)**
 7. **Graph**
     1. **Adjacency Matrix**
     2. **Adjacency List**
@@ -302,7 +303,7 @@
 
 1. ~~**JDBC (Java Database Connectivity)**~~
 
-- ~~**GUID (Globally Unique Identifier)**~~
+[//]: # (- ~~**GUID &#40;Globally Unique Identifier&#41;**~~)
 
 ### <span style="font-style: italic; color: #e76f00;">~~9. Network~~</span>
 
@@ -327,7 +328,7 @@
 
 ---
 
-## 2. _<span style="color: #e76f00;">Solving (1,582 Problems, 4 Mini Projects)</span>_
+## 2. _<span style="color: #e76f00;">Solving (1,590 Problems, 4 Mini Projects)</span>_
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">♥</b>.</li>
 
@@ -338,7 +339,7 @@
 |           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |       273 Problems       |
 |             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       130 Problems       |
 |                <a style="color: #e76f00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
-|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       103 Problems       |
+|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       111 Problems       |
 |    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |        0 Problems        |
 |  <a style="color: #e76f00;" href="https://www.codewars.com/kata/search/java">CodeWars</a>   |        0 Problems        |
 
@@ -463,11 +464,11 @@
     1. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)</b>
         1. **Easy (2 Problems)**
 
-### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (102 Problems, (33 Easy, 61 Medium, 9 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
+### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (109 Problems, (33 Easy, 65 Medium, 11 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
 
 1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (33 Problems)</b>
-2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (60 Problems)</b>
-3. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (9 Problems)</b>
+2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (65 Problems)</b>
+3. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (11 Problems)</b>
 
 ---
 
