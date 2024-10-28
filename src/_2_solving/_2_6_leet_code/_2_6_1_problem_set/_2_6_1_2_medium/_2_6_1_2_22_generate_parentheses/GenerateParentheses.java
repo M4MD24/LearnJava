@@ -10,7 +10,7 @@ import java.util.List;
 
 public class GenerateParentheses {
     public static void main(final String[] PARAMETERS) {
-        System.out.print("\u001B[32m" + generateParenthesis(9));
+        System.out.print(generateParenthesis(9));
     }
 
     private static List<String> generateParenthesis(final int NUMBER) {
