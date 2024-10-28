@@ -17,7 +17,7 @@
   <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">First person to solve all the problems</b> of <u style="text-decoration-color: #32cd32;">Assiut Sheets</u> in <u style="text-decoration-color: #32cd32;">codeforces</u> with <u style="text-decoration-color: #32cd32;">Java</u> on <b style="color: limeGreen;">(22/04/2024)</b></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">More than 1,600 problems and mini projects</b> on different concepts have been solved</li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> CodeHub <b style="color: limeGreen;">Ranked 44</b>th, <u style="text-decoration-color: #32cd32;">Java</u></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> LeetCode <b style="color: limeGreen;">Ranked 865,410</b>th</li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> LeetCode <b style="color: limeGreen;">Ranked 828,509</b>th</li></ul>
 
 ## _<span style="color: #32cd32;">For Contact</span>_
 
