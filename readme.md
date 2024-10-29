@@ -27,9 +27,9 @@
 
 ## <span style="font-style: italic; color: #e76f00;">About the Project Details</span>
 
-- **Recommended using `Intellij IDEA (Community / Ultimate / EAP)`**
-- **Currently Used `Intellij Idea EAP`**
-- **Project Language is `English` and `some images Arabic`**
+- **Recommended using `Intellij IDEA (Community / Ultimate / EAP), Aqua, Fleet`**
+- **Currently Used `Aqua`**
+- **Project Language is `English` and `some images and notes Arabic`**
 - **Appropriate labels for `variables`, `functions` and `classes`**
 - **Java Version** `23 Oracle OpenJDK Version 23.0.1` - `SDK Default`
 
@@ -332,7 +332,7 @@
 
 ---
 
-## 2. _<span style="color: #e76f00;">Solving (1,619 Problems, 4 Mini Projects)</span>_
+## 2. _<span style="color: #e76f00;">Solving (1,630 Problems, 4 Mini Projects)</span>_
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">♥</b>.</li>
 
@@ -343,7 +343,7 @@
 |           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |       273 Problems       |
 |             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       130 Problems       |
 |                <a style="color: #e76f00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
-|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       140 Problems       |
+|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       151 Problems       |
 |    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |        0 Problems        |
 |  <a style="color: #e76f00;" href="https://www.codewars.com/kata/search/java">CodeWars</a>   |        0 Problems        |
 
@@ -468,12 +468,12 @@
     1. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)</b>
         1. Easy (2 Problems)
 
-### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (140 Problems, (40 Easy, 84 Medium, 16 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
+### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (151 Problems, (40 Easy, 93 Medium, 18 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://leetcode.com/problemset">Problem Set</a> (140 Problems)
+1. <a style="color: #e76f00;" href="https://leetcode.com/problemset">Problem Set</a> (151 Problems)
     1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (40 Problems)
-    2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (84 Problems)
-    3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (16 Problems)
+    2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (93 Problems)
+    3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (18 Problems)
 
 ---
 

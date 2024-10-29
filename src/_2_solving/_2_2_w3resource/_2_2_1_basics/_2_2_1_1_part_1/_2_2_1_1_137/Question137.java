@@ -23,20 +23,21 @@ package _2_solving._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_137;
  * <h2>Unique paths from top-left corner to bottom-right corner of the said grid (considering some obstacles): 4</h2>
  */
 public class Question137 {
-    public static int possibleUniquePaths(int[][] obstacle_Grid) {
-        final int MAX_HEIGHT = obstacle_Grid.length;
-        if (MAX_HEIGHT == 0) return 0;
-        final int MAX_WIDTH = obstacle_Grid[0].length;
-        if (MAX_WIDTH == 0) return 0;
-
-        int[][] uniquePaths = new int[MAX_HEIGHT + 1][MAX_WIDTH + 1];
-        uniquePaths[MAX_HEIGHT][MAX_WIDTH - 1] = 1;
-
+    public static int possibleUniquePaths(final int[][] OBSTACLE_GRID) {
+        final int MAX_HEIGHT = OBSTACLE_GRID.length;
+        if (MAX_HEIGHT == 0)
+            return 0;
+        final int MAX_WIDTH = OBSTACLE_GRID[0].length;
+        if (MAX_WIDTH == 0)
+            return 0;
+        final int[][] UNIQUE_PATHS = new int[MAX_HEIGHT + 1][MAX_WIDTH + 1];
+        UNIQUE_PATHS[MAX_HEIGHT][MAX_WIDTH - 1] = 1;
         for (int height = MAX_HEIGHT - 1; height >= 0; --height)
             for (int width = MAX_WIDTH - 1; width >= 0; --width)
-                uniquePaths[height][width] = (obstacle_Grid[height][width] == 0) ? uniquePaths[height + 1][width] + uniquePaths[height][width + 1] : 0;
-
-        return uniquePaths[0][0];
+                UNIQUE_PATHS[height][width] = (OBSTACLE_GRID[height][width] == 0)
+                        ? UNIQUE_PATHS[height + 1][width] + UNIQUE_PATHS[height][width + 1]
+                        : 0;
+        return UNIQUE_PATHS[0][0];
     }
 
     public static void main(final String[] PARAMETERS) {
