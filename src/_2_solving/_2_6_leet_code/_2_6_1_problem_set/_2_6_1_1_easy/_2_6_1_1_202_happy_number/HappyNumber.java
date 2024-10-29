@@ -1,7 +1,5 @@
 package _2_solving._2_6_leet_code._2_6_1_problem_set._2_6_1_1_easy._2_6_1_1_202_happy_number;
 
-import java.util.Arrays;
-
 /**
  * <h1>Problem:</h1>
  * <h2>

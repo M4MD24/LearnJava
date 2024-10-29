@@ -17,7 +17,7 @@
   <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">First person to solve all the problems</b> of <u style="text-decoration-color: #32cd32;">Assiut Sheets</u> in <u style="text-decoration-color: #32cd32;">codeforces</u> with <u style="text-decoration-color: #32cd32;">Java</u> on <b style="color: limeGreen;">(22/04/2024)</b></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">More than 1,600 problems and mini projects</b> on different concepts have been solved</li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> CodeHub <b style="color: limeGreen;">Ranked 44</b>th, <u style="text-decoration-color: #32cd32;">Java</u></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> LeetCode <b style="color: limeGreen;">Ranked 828,509</b>th</li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> LeetCode <b style="color: limeGreen;">Ranked 755,049</b>th</li></ul>
 
 ## _<span style="color: #32cd32;">For Contact</span>_
 
@@ -52,7 +52,7 @@
 
 ---
 
-## <span style="font-style: italic; color: #e76f00;">Programming Tips ♥</span>
+## <span style="font-style: italic; color: #e76f00;">Programming Tips</span>
 
 - Learn English
 - Be enthusiastic about everything new
@@ -63,7 +63,7 @@
 
 ## _1. [<span style="color: #e76f00;">Learning</span>](src/_1_learning)_
 
-- <u style="text-decoration-color: #e76f00;">Learn Examples of Concepts</u><b style="color: #e76f00;"> ♥</b>.
+- <u style="text-decoration-color: #e76f00;">Learn Examples of Concepts</u><b style="color: #e76f00;">.</b>
 
 ### _1. [<span style="color: #e76f00;">Basics</span>](src/_1_learning/_1_1_basics)_
 
@@ -110,6 +110,7 @@
 17. **Text Color Strings**
 18. **Methods and Functions Types**
 19. **Comment Types**
+20. **~~Bit Manipulation~~**
 
 ### 2. [<span style="color: #e76f00;">Handling</span>](src/_1_learning/_1_2_handling)
 
@@ -331,7 +332,7 @@
 
 ---
 
-## 2. _<span style="color: #e76f00;">Solving (1,606 Problems, 4 Mini Projects)</span>_
+## 2. _<span style="color: #e76f00;">Solving (1,619 Problems, 4 Mini Projects)</span>_
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">♥</b>.</li>
 
@@ -342,7 +343,7 @@
 |           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |       273 Problems       |
 |             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       130 Problems       |
 |                <a style="color: #e76f00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
-|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       127 Problems       |
+|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       140 Problems       |
 |    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |        0 Problems        |
 |  <a style="color: #e76f00;" href="https://www.codewars.com/kata/search/java">CodeWars</a>   |        0 Problems        |
 
@@ -451,27 +452,28 @@
 
 1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (128 Problems)</b>
     1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (73 Problems)</b>
-        1. **Shorouk Saeed** **(1 Problem)**
-        2. **Mashari Al-Dosari** **(1 Problem)**
-        3. **CoderHub Team** **(70 Problems)**
-        4. **Ali Al-Damen** **(1 Problem)**
+        1. Shorouk Saeed (1 Problem)
+        2. Mashari Al-Dosari (1 Problem)
+        3. CoderHub Team (70 Problems)
+        4. Ali Al-Damen (1 Problem)
     2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (42 Problems)</b>
-        1. **CoderHub Team** **(39 Problems)**
-        2. **Faisal Al-Qahtani** **(1 Problem)**
-        3. **Rashid Al-Anazi** **(1 Problem)**
-        4. **Halah Al-Dekhiel** **(1 Problem)**
+        1. CoderHub Team (39 Problems)
+        2. Faisal Al-Qahtani (1 Problem)
+        3. Rashid Al-Anazi (1 Problem)
+        4. Halah Al-Dekhiel (1 Problem)
     3. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (13 Problems)</b>
-        1. **CoderHub Team** **(12 Problems)**
-        2. **Rashid Al-Anazi** **(1 Problem)**
+        1. CoderHub Team (12 Problems)
+        2. Rashid Al-Anazi (1 Problem)
 2. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities">Competitions</a> (2 Problems)</b>
     1. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)</b>
-        1. **Easy (2 Problems)**
+        1. Easy (2 Problems)
 
-### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (127 Problems, (35 Easy, 79 Medium, 13 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
+### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (140 Problems, (40 Easy, 84 Medium, 16 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
 
-1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (35 Problems)</b>
-2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (79 Problems)</b>
-3. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (13 Problems)</b>
+1. <a style="color: #e76f00;" href="https://leetcode.com/problemset">Problem Set</a> (140 Problems)
+    1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (40 Problems)
+    2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (84 Problems)
+    3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (16 Problems)
 
 ---
 
@@ -479,7 +481,7 @@
 
 ### <span style="color: #e76f00;">Learning</span>
 
-- <b style="color: #e76f00;">Note:</b> <u style="text-decoration-color: #e76f00;">After learning from the sources, what was explained in the project is explained in my ways not copied mostly</u><b style="color: #e76f00;"> ♥</b>.
+- <b style="color: #e76f00;">Note:</b> <u style="text-decoration-color: #e76f00;">After learning from the sources, what was explained in the project is explained in my ways not copied mostly</u><b style="color: #e76f00;">.</b>
 
 #### Websites
 
