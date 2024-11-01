@@ -334,7 +334,7 @@
 
 ## 2. _<span style="color: #e76f00;">Solving (1,630 Problems, 4 Mini Projects)</span>_
 
-<li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">♥</b>.</li>
+<li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">.</b></li>
 
 |                                            Name                                             | Problems / Mini Projects |
 |:-------------------------------------------------------------------------------------------:|:------------------------:|
@@ -350,7 +350,7 @@
 #### <p style="color: #e76f00;">Notes</p>
 
 <ul>
-<li><b><u style="text-decoration-color: #e76f00;">There are some Problems where the requirements and names have been changed without changing the important programming terms</u> <b style="color: #e76f00;">♥</b></b>.</li>
+<li><b><u style="text-decoration-color: #e76f00;">There are some Problems where the requirements and names have been changed without changing the important programming terms</u> <b style="color: #e76f00;">.</b></b></li>
 <br/>
 <li><b>What does Mean (🟥 & 🟩) ?</b></li>
 <ul>
@@ -452,18 +452,8 @@
 
 1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (128 Problems)</b>
     1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (73 Problems)</b>
-        1. Shorouk Saeed (1 Problem)
-        2. Mashari Al-Dosari (1 Problem)
-        3. CoderHub Team (70 Problems)
-        4. Ali Al-Damen (1 Problem)
     2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (42 Problems)</b>
-        1. CoderHub Team (39 Problems)
-        2. Faisal Al-Qahtani (1 Problem)
-        3. Rashid Al-Anazi (1 Problem)
-        4. Halah Al-Dekhiel (1 Problem)
     3. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (13 Problems)</b>
-        1. CoderHub Team (12 Problems)
-        2. Rashid Al-Anazi (1 Problem)
 2. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities">Competitions</a> (2 Problems)</b>
     1. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)</b>
         1. Easy (2 Problems)
