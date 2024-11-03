@@ -1,7 +1,5 @@
 package _2_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_7_sheet_4._2_3_1_7_f_way_too_long_words;
 
-import java.util.Scanner;
-
 /**
  * <h1>F. Way Too Long Words</h1>
  * <h2>
@@ -49,24 +47,8 @@ import java.util.Scanner;
  * </h2>
  */
 
-public class WayTooLongWordsExample {
-    private static final Scanner INPUT = new Scanner(System.in);
-    private static byte countOfTestCases = INPUT.nextByte();
-
+public class WayTooLongWords {
     public static void main(final String[] PARAMETERS) {
-        inputAndPrintValues();
-    }
-
-    private static void inputAndPrintValues() {
-        while (countOfTestCases > 0) {
-            final String TEXT = INPUT.next();
-            if (TEXT.length() < 11) System.out.print(TEXT);
-            else System.out.printf("%c%d%c", TEXT.charAt(0), sumMiddleLetters(TEXT), TEXT.charAt(TEXT.length() - 1));
-            if (countOfTestCases-- > 1) System.out.println();
-        }
-    }
-
-    private static byte sumMiddleLetters(final String TEXT) {
-        return (byte) (TEXT.length() - 2);
+        _2_solving._2_3_codeforces._2_3_2_problem_set._2_3_2_71a_way_too_long_words.WayTooLongWords.main(PARAMETERS);
     }
 }

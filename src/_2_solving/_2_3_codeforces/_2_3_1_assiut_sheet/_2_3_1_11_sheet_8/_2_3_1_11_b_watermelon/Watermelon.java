@@ -1,8 +1,6 @@
 package _2_solving._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_11_sheet_8._2_3_1_11_b_watermelon;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 /**
  * <h1>B. Watermelon</h1>
@@ -32,9 +30,8 @@ import java.io.InputStreamReader;
  * <h2>For example, the boys can divide the watermelon into two parts of 2 and 6 kilos respectively (another variant — two parts of 4 and 4 kilos).</h2>
  */
 
-public class WatermelonExample {
+public class Watermelon {
     public static void main(final String[] PARAMETERS) throws IOException {
-        final byte TARGET_NUMBER = Byte.parseByte(new BufferedReader(new InputStreamReader(System.in)).readLine());
-        System.out.print((TARGET_NUMBER % 2 == 0 && TARGET_NUMBER > 3) ? "YES" : "NO");
+        _2_solving._2_3_codeforces._2_3_2_problem_set._2_3_2_4a_watermelon.Watermelon.main(PARAMETERS);
     }
 }

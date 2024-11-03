@@ -12,12 +12,12 @@
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a style="color: limeGreen;" href="https://t.me/M3MD69">@M3MD69</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a style="color: limeGreen;" href="https://t.me/Nullexia">@Nullexia</a></li></ul>
   <ul><li><img width="20" src="readme_file_source/icons/g_letter_icon.svg" alt="G Letter" style="vertical-align: middle;"/> <b>Github</b> <a style="color: limeGreen;" href="https://github.com/M3MD69">@M3MD69</a></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/monkey_type_icon.svg" alt="Monkey Type Icon" style="vertical-align: middle;"/> <b>Monkey Type</b> <a style="color: limeGreen;" href="https://monkeytype.com/profile/m3md69">@M3MD69</a></li></ul>
-- <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Activities in Java</b>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">First person to solve all the problems</b> of <u style="text-decoration-color: #32cd32;">Assiut Sheets</u> in <u style="text-decoration-color: #32cd32;">codeforces</u> with <u style="text-decoration-color: #32cd32;">Java</u> on <b style="color: limeGreen;">(22/04/2024)</b></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> <b style="color: limeGreen;">More than 1,600 problems and mini projects</b> on different concepts have been solved</li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> CodeHub <b style="color: limeGreen;">Ranked 44</b>th, <u style="text-decoration-color: #32cd32;">Java</u></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> LeetCode <b style="color: limeGreen;">Ranked 755,049</b>th</li></ul>
+- <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Java Ranks</b>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> CodeHub <b style="color: limeGreen;">Ranked 44</b>th <u style="text-decoration-color: #32cd32;">Java</u></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> Codesforces <b style="color: limeGreen;">Ranked 243,030</b>th</li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> HackerRank <b style="color: limeGreen;">Ranked 650,271</b>th <u style="text-decoration-color: #32cd32;">Java</u></li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> LeetCode <b style="color: limeGreen;">Ranked 681,856</b>th</li></ul>
+  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> Codewars <b style="color: limeGreen;">Ranked ?</b>th</li></ul>
 
 ## _<span style="color: #32cd32;">For Contact</span>_
 
@@ -332,7 +332,7 @@
 
 ---
 
-## 2. _<span style="color: #e76f00;">Solving (1,630 Problems, 4 Mini Projects)</span>_
+## 2. _<span style="color: #e76f00;">Solving (1,643 Problems, 4 Mini Projects)</span>_
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">.</b></li>
 
@@ -343,8 +343,8 @@
 |           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |       273 Problems       |
 |             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       130 Problems       |
 |                <a style="color: #e76f00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
-|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       151 Problems       |
-|    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |        0 Problems        |
+|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       154 Problems       |
+|    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |       10 Problems        |
 |  <a style="color: #e76f00;" href="https://www.codewars.com/kata/search/java">CodeWars</a>   |        0 Problems        |
 
 #### <p style="color: #e76f00;">Notes</p>
@@ -421,49 +421,41 @@
 14. **Regular Expression (30 Problems)**
     1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)</b>
 
-### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (273 Problems) 🟩</span> (<a style="color: #e76f00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
+### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (273 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
-1. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contests">Assiut-Sheets</a> (273 Problems)</b>
-    1. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219158">Sheet 1 "Data type - Conditions"</a> (26 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/326175">Contest 1</a> (9 Problems)</b>
-    3. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219432">Sheet 2 "Loops"</a> (26 Problems)</b>
-    4. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/326907">Contest 2</a> (8 Problems)</b>
-    5. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219774">Sheet 3 "Arrays"</a> (26 Problems)</b>
-    6. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/329103">Contest 3.1</a> (7 Problems)</b>
-    7. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219856">Sheet 4 "Strings"</a> (26 Problems)</b>
-        - [<span style="color: #e76f00;">2.3.1.7.o Sort String</span>](src/_2_solving/_2_3_codeforces/_2_3_1_assiut_sheet/_2_3_1_7_sheet_4/_2_3_1_7_o_sort_string/SortStringExample.java)
-          `It can't be submit by Java in codeforces, Because error occurred during initialization of VM Initial heap size set to a larger value than the maximum heap size`
-    8. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223205">Sheet 5 "Functions"</a> (15 Problems)</b>
-    9. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223338">Sheet 6 "Math - Geometry"</a> (26 Problems)</b>
-    10. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223339">Sheet 7 "Recursion"</a> (26 Problems)</b>
-    11. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223206">Sheet 8 "General Easy"</a> (26 Problems)</b>
-    12. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223207">Sheet 9 "General Medium"</a> (26 Problems)</b>
-    13. <b><a style="color: #e76f00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223340">Sheet 10 "General Hard"</a> (26 Problems)</b>
-2. ~~<b><a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem-Set</a> (0 Problems)<b/>~~
+1. <a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem Set</a> (273 Problems)
 
 ### <span>4. <a style="color: #e76f00;" href="https://satr.codes">Satr</a> (4 Mini Projects) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
-1. <b><a style="color: #e76f00;" href="https://satr.codes/course/SYJZBDMnFM/view">Basics</a> (1 Mini Project)</b>
-2. <b><a style="color: #e76f00;" href="https://satr.codes/course/DcFViVITbo/view">Java 101</a> (1 Mini Project)</b>
-3. <b><a style="color: #e76f00;" href="https://satr.codes/course/oqTQleaQLV/view">Java 102</a> (1 Mini Project)</b>
-4. <b><a style="color: #e76f00;" href="https://satr.codes/course/aiZMoXpIya/view">Java 103</a> (1 Mini Project)</b>
+1. <a style="color: #e76f00;" href="https://satr.codes/course/SYJZBDMnFM/view">Basics</a> (1 Mini Project)
+2. <a style="color: #e76f00;" href="https://satr.codes/course/DcFViVITbo/view">Java 101</a> (1 Mini Project)
+3. <a style="color: #e76f00;" href="https://satr.codes/course/oqTQleaQLV/view">Java 102</a> (1 Mini Project)
+4. <a style="color: #e76f00;" href="https://satr.codes/course/aiZMoXpIya/view">Java 103</a> (1 Mini Project)
 
 ### <span>5. <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a> (130 Problems, (75 Easy, 42 Medium, 13 Hard)) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
-1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (128 Problems)</b>
-    1. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (73 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (42 Problems)</b>
-    3. <b><a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (13 Problems)</b>
-2. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities">Competitions</a> (2 Problems)</b>
-    1. <b><a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)</b>
+1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (128 Problems)
+    1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (73 Problems)
+    2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (42 Problems)
+    3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (13 Problems)
+2. <a style="color: #e76f00;" href="https://coderhub.sa/activities">Competitions</a> (2 Problems)
+    1. <a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)
         1. Easy (2 Problems)
 
-### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (151 Problems, (40 Easy, 93 Medium, 18 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
+### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (154 Problems, (43 Easy, 93 Medium, 18 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://leetcode.com/problemset">Problem Set</a> (151 Problems)
-    1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (40 Problems)
+1. <a style="color: #e76f00;" href="https://leetcode.com/problemset">Problem Set</a> (154 Problems)
+    1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (43 Problems)
     2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (93 Problems)
     3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (18 Problems)
+
+### <span>6. <a style="color: #e76f00;" href="https://www.hackerrank.com">HackerRank</a> (10 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://www.hackerrank.com/profile/m3md69">@M3MD69</a>)
+
+1. <a style="color: #e76f00;" href="https://www.hackerrank.com/domains/java">Java</a> (10 Problems)
+2. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Mathematics</a> (0 Problems)~~
+3. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Regex</a> (0 Problems)~~
+4. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Algorithms</a> (0 Problems)~~
+5. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Data Structures</a> (0 Problems)~~
 
 ---
 
