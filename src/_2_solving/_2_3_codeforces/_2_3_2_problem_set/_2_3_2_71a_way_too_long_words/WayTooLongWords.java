@@ -2,7 +2,6 @@ package _2_solving._2_3_codeforces._2_3_2_problem_set._2_3_2_71a_way_too_long_wo
 
 import java.util.Scanner;
 
-
 /**
  * <h1>71A. Way Too Long Words</h1>
  * <h2>

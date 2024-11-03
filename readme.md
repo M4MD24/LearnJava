@@ -331,7 +331,7 @@
 
 ---
 
-## 2. _<span style="color: #e76f00;">Solving (1,655 Problems, 4 Mini Projects)</span>_
+## 2. _<span style="color: #e76f00;">Solving (1,657 Problems, 4 Mini Projects)</span>_
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">.</b></li>
 
@@ -339,7 +339,7 @@
 |:-------------------------------------------------------------------------------------------:|:------------------------:|
 |       <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a>        |       17 Problems        |
 | <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resources</a> |      1,059 Problems      |
-|           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |       273 Problems       |
+|           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |      275  Problems       |
 |             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       130 Problems       |
 |                <a style="color: #e76f00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
 |             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       156 Problems       |
@@ -419,9 +419,9 @@
 14. **Regular Expression (30 Problems)**
     1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)</b>
 
-### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (273 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
+### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (275 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem Set</a> (273 Problems)
+1. <a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem Set</a> (275 Problems)
 
 ### <span>4. <a style="color: #e76f00;" href="https://satr.codes">Satr</a> (4 Mini Projects) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
