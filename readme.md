@@ -9,25 +9,22 @@
 - <img width="20" src="readme_file_source/icons/n_letter_icon.svg" alt="N Letter" style="vertical-align: middle;"/><b>Name</b> <u style="text-decoration-color: #32cd32;">Mohamed Sadawy Thabet</u> <b style="color: limeGreen;">(M3MD69)</b>
 - <img width="20" src="readme_file_source/icons/f_letter_icon.svg" alt="F Letter" style="vertical-align: middle;"/><b>Field</b> <u style="text-decoration-color: #32cd32;">Software Engineer</u> <b style="color: limeGreen;">/</b> <u style="text-decoration-color: #32cd32;">Native Android Developer</u>
 - <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>Accounts</b>
-  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a style="color: limeGreen;" href="https://t.me/M3MD69">@M3MD69</a></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Channel</b> <a style="color: limeGreen;" href="https://t.me/Nullexia">@Nullexia</a></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/g_letter_icon.svg" alt="G Letter" style="vertical-align: middle;"/> <b>Github</b> <a style="color: limeGreen;" href="https://github.com/M3MD69">@M3MD69</a></li></ul>
-- <img width="20" src="readme_file_source/icons/goal_icon.svg" alt="Goal Icon" style="vertical-align: middle;"/> <b>Java Ranks</b>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> CodeHub <b style="color: limeGreen;">Ranked 44</b>th <u style="text-decoration-color: #32cd32;">Java</u></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> Codesforces <b style="color: limeGreen;">Ranked 243,295</b>th</li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> HackerRank <b style="color: limeGreen;">Ranked 293,100</b>th <u style="text-decoration-color: #32cd32;">Java</u></li></ul>
-  <ul><li><img width="20" src="readme_file_source/icons/star_icon.svg" alt="Star Icon" style="vertical-align: middle;"/> LeetCode <b style="color: limeGreen;">Ranked 673,206</b>th</li></ul>
-
-## _<span style="color: #32cd32;">For Contact</span>_
-
-- <img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram</b> <a style="color: limeGreen;" href="https://t.me/M3MD69">@M3MD69</a>
+    <ul>
+        <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Accounts</b></li>
+        <ul>
+            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Private</b> <a style="color: limeGreen;" href="https://t.me/M3MD69">@M3MD69</a></li>
+            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Nullexia For Programming</b> <a style="color: limeGreen;" href="https://t.me/Nullexia">@Nullexia</a></li>
+            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Software Consulting</b> <a style="color: limeGreen;" href="https://t.me/SoftwareConsulting">@SoftwareConsulting</a></li>
+        </ul>
+        <li><img width="20" src="readme_file_source/icons/g_letter_icon.svg" alt="G Letter" style="vertical-align: middle;"/> <b>Github</b> <a style="color: limeGreen;" href="https://github.com/M3MD69">@M3MD69</a></li>
+    </ul>
 
 ---
 
 ## <span style="font-style: italic; color: #e76f00;">About the Project Details</span>
 
 - **Recommended using `Intellij IDEA (Community / Ultimate / EAP), Aqua, Fleet`**
-- **Currently Used `Aqua`**
+- **Currently Used `Intellij Idea Community`**
 - **Project Language is `English` and `some images and notes Arabic`**
 - **Appropriate labels for `variables`, `functions` and `classes`**
 - **Java Version** `23 Oracle OpenJDK Version 23.0.1` - `SDK Default`
@@ -331,7 +328,7 @@
 
 ---
 
-## 2. _<span style="color: #e76f00;">Solving (1,657 Problems, 4 Mini Projects)</span>_
+## 2. _<span style="color: #e76f00;">Solving (1,684 Problems, 4 Mini Projects)</span>_
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">.</b></li>
 
@@ -339,11 +336,11 @@
 |:-------------------------------------------------------------------------------------------:|:------------------------:|
 |       <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a>        |       17 Problems        |
 | <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resources</a> |      1,059 Problems      |
-|           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |      275  Problems       |
+|           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |      279  Problems       |
 |             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       130 Problems       |
 |                <a style="color: #e76f00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
-|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       156 Problems       |
-|    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |       20 Problems        |
+|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       165 Problems       |
+|    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |       34 Problems        |
 
 #### <p style="color: #e76f00;">Notes</p>
 
@@ -419,9 +416,9 @@
 14. **Regular Expression (30 Problems)**
     1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)</b>
 
-### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (275 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
+### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (277 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem Set</a> (275 Problems)
+1. <a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem Set</a> (277 Problems)
 
 ### <span>4. <a style="color: #e76f00;" href="https://satr.codes">Satr</a> (4 Mini Projects) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
@@ -440,16 +437,16 @@
     1. <a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)
         1. Easy (2 Problems)
 
-### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (156 Problems, (45 Easy, 93 Medium, 18 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
+### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (165 Problems, (48 Easy, 99 Medium, 18 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://leetcode.com/problemset">Problem Set</a> (156 Problems)
-    1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (45 Problems)
-    2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (93 Problems)
+1. <a style="color: #e76f00;" href="https://leetcode.com/problemset">Problem Set</a> (165 Problems)
+    1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (48 Problems)
+    2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (99 Problems)
     3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (18 Problems)
 
-### <span>6. <a style="color: #e76f00;" href="https://www.hackerrank.com">HackerRank</a> (20 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://www.hackerrank.com/profile/m3md69">@M3MD69</a>)
+### <span>6. <a style="color: #e76f00;" href="https://www.hackerrank.com">HackerRank</a> (34 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://www.hackerrank.com/profile/m3md69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://www.hackerrank.com/domains/java">Java</a> (20 Problems)
+1. <a style="color: #e76f00;" href="https://www.hackerrank.com/domains/java">Java</a> (34 Problems)
 2. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Mathematics</a> (0 Problems)~~
 3. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Regex</a> (0 Problems)~~
 4. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Algorithms</a> (0 Problems)~~
@@ -497,4 +494,5 @@
 <li><a style="color: #e76f00;" href="https://satr.codes">Satr</a></li>
 <li><a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a></li>
 <li><a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a></li>
+<li><a style="color: #e76f00;" href="https://www.hackerrank.com">LeetCode</a></li>
 </ul>

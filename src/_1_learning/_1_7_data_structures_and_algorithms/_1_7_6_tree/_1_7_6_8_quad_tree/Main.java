@@ -3,7 +3,7 @@ package _1_learning._1_7_data_structures_and_algorithms._1_7_6_tree._1_7_6_8_qua
 import java.util.ArrayList;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(final String[] PARAMETERS) {
         final Rectangle BOUNDARY = new Rectangle(
                 0,
                 0,
