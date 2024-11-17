@@ -48,15 +48,6 @@
 
 ---
 
-## <span style="font-style: italic; color: #e76f00;">Programming Tips</span>
-
-- Learn English
-- Be enthusiastic about everything new
-- Be patient
-- Add your creative touch when learning
-
----
-
 ## _1. [<span style="color: #e76f00;">Learning</span>](src/_1_learning)_
 
 - <u style="text-decoration-color: #e76f00;">Learn Examples of Concepts</u><b style="color: #e76f00;">.</b>
@@ -106,7 +97,8 @@
 17. **Text Color Strings**
 18. **Methods and Functions Types**
 19. **Comment Types**
-20. **~~Bit Manipulation~~**
+20. Bit Manipulation
+21. Varargs
 
 ### 2. [<span style="color: #e76f00;">Handling</span>](src/_1_learning/_1_2_handling)
 
@@ -263,6 +255,8 @@
 4. **Encryption & Decryption**
     1. **AES (Advanced Encryption Standard)**
     2. **RSA (Rivest-Shamir-Adleman)**
+    3. **HSA-256 (Secure Hash Algorithms 256)**
+    4. **MD5 (Message Digest 5)**
 5. **Dynamic Programming**
     1. **Kadane**
 6. **Other**
@@ -299,9 +293,9 @@
 
 ### <span style="font-style: italic; color: #e76f00;">~~8. Database~~</span>
 
-1. ~~**JDBC (Java Database Connectivity)**~~
-
-[//]: # (- ~~**GUID &#40;Globally Unique Identifier&#41;**~~)
+1. ~~**Gson**~~
+2. ~~**JDBC (Java Database Connectivity)**~~
+3. ~~**SQLite**~~
 
 ### <span style="font-style: italic; color: #e76f00;">~~9. Network~~</span>
 
@@ -328,7 +322,7 @@
 
 ---
 
-## 2. _<span style="color: #e76f00;">Solving (1,684 Problems, 4 Mini Projects)</span>_
+## 2. _<span style="color: #e76f00;">Solving (1,723 Problems, 4 Mini Projects)</span>_
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">.</b></li>
 
@@ -336,11 +330,11 @@
 |:-------------------------------------------------------------------------------------------:|:------------------------:|
 |       <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a>        |       17 Problems        |
 | <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resources</a> |      1,059 Problems      |
-|           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |      279  Problems       |
+|           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |       279 Problems       |
 |             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       130 Problems       |
 |                <a style="color: #e76f00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
-|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       165 Problems       |
-|    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |       34 Problems        |
+|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       174 Problems       |
+|    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |       64 Problems        |
 
 #### <p style="color: #e76f00;">Notes</p>
 
@@ -416,9 +410,9 @@
 14. **Regular Expression (30 Problems)**
     1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)</b>
 
-### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (277 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
+### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (279 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem Set</a> (277 Problems)
+1. <a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem Set</a> (279 Problems)
 
 ### <span>4. <a style="color: #e76f00;" href="https://satr.codes">Satr</a> (4 Mini Projects) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
@@ -437,16 +431,16 @@
     1. <a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)
         1. Easy (2 Problems)
 
-### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (165 Problems, (48 Easy, 99 Medium, 18 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
+### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (174 Problems, (48 Easy, 107 Medium, 19 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://leetcode.com/problemset">Problem Set</a> (165 Problems)
+1. <a style="color: #e76f00;" href="https://leetcode.com/problemset">Problem Set</a> (174 Problems)
     1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (48 Problems)
-    2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (99 Problems)
-    3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (18 Problems)
+    2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (107 Problems)
+    3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (19 Problems)
 
-### <span>6. <a style="color: #e76f00;" href="https://www.hackerrank.com">HackerRank</a> (34 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://www.hackerrank.com/profile/m3md69">@M3MD69</a>)
+### <span>6. <a style="color: #e76f00;" href="https://www.hackerrank.com">HackerRank</a> (64 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://www.hackerrank.com/profile/m3md69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://www.hackerrank.com/domains/java">Java</a> (34 Problems)
+1. <a style="color: #e76f00;" href="https://www.hackerrank.com/domains/java">Java</a> (64 Problems)
 2. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Mathematics</a> (0 Problems)~~
 3. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Regex</a> (0 Problems)~~
 4. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Algorithms</a> (0 Problems)~~
@@ -494,5 +488,5 @@
 <li><a style="color: #e76f00;" href="https://satr.codes">Satr</a></li>
 <li><a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a></li>
 <li><a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a></li>
-<li><a style="color: #e76f00;" href="https://www.hackerrank.com">LeetCode</a></li>
+<li><a style="color: #e76f00;" href="https://www.hackerrank.com">HackerRank</a></li>
 </ul>

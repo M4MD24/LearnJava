@@ -1,10 +1,8 @@
 package _2_solving._2_7_hacker_rank._2_7_1_java._2_7_1_13_currency_formatter;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.Locale;
+import java.util.Scanner;
 
 /**
  * @see _2_solving._2_7_hacker_rank._2_7_1_java._2_7_1_13_currency_formatter.files <h2>Question</h2>
@@ -12,14 +10,19 @@ import java.text.DecimalFormat;
 
 public class CurrencyFormatter {
     public static void main(final String[] PARAMETERS) throws Exception {
-        final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
-        final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
-        final double AMOUNT = Double.parseDouble(INPUT.readLine());
-        final String FORMATTED_AMOUNT = new DecimalFormat("#,##0.00").format(AMOUNT);
-        OUTPUT.write(("US: $" + FORMATTED_AMOUNT));
-        OUTPUT.write(("\nIndia: Rs." + FORMATTED_AMOUNT));
-        OUTPUT.write(("\nChina: " + (char) 65509 + FORMATTED_AMOUNT));
-        OUTPUT.write("\nFrance: " + FORMATTED_AMOUNT.replace(",", " ").replace(".", ",") + " " + (char) 8364);
-        OUTPUT.flush();
+        final Scanner INPUT = new Scanner(System.in);
+        final double PAYMENT = INPUT.nextDouble();
+        final Locale US_LOCALE = Locale.US,
+                INDIA_LOCALE = new Locale("en", "IN"),
+                CHINA_LOCALE = Locale.CHINA,
+                FRANCE_LOCALE = Locale.FRANCE;
+        final String US = NumberFormat.getCurrencyInstance(US_LOCALE).format(PAYMENT),
+                INDIA = NumberFormat.getCurrencyInstance(INDIA_LOCALE).format(PAYMENT),
+                CHINA = NumberFormat.getCurrencyInstance(CHINA_LOCALE).format(PAYMENT),
+                FRANCE = NumberFormat.getCurrencyInstance(FRANCE_LOCALE).format(PAYMENT);
+        System.out.println("US: " + US);
+        System.out.println("India: " + INDIA);
+        System.out.println("China: " + CHINA);
+        System.out.print("France: " + FRANCE);
     }
 }
