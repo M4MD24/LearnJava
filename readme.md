@@ -1,22 +1,20 @@
 # <u style="font-style: italic; color: #e76f00;">Learn Java</u>
 
-<img width="160px" src="readme_file_source/icons/java_icon.svg" alt="Java Icon" style="vertical-align: middle;"/>
-
 ---
 
 ## <span style="font-style: italic; color: limeGreen;">About the Project Owner</span>
 
-- <img width="20" src="readme_file_source/icons/n_letter_icon.svg" alt="N Letter" style="vertical-align: middle;"/><b>Name</b> <u style="text-decoration-color: #32cd32;">Mohamed Sadawy Thabet</u> <b style="color: limeGreen;">(M3MD69)</b>
-- <img width="20" src="readme_file_source/icons/f_letter_icon.svg" alt="F Letter" style="vertical-align: middle;"/><b>Field</b> <u style="text-decoration-color: #32cd32;">Software Engineer</u> <b style="color: limeGreen;">/</b> <u style="text-decoration-color: #32cd32;">Native Android Developer</u>
-- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> <b>Accounts</b>
+- <img width="20" src="readme_file_source/icons/n_letter_icon.svg" alt="N Letter" style="vertical-align: middle;"/>Name <u style="text-decoration-color: #32cd32;">Mohamed Sadawy Thabet</u> <span style="color: limeGreen;">(M3MD69)
+- <img width="20" src="readme_file_source/icons/f_letter_icon.svg" alt="F Letter" style="vertical-align: middle;"/>Field <u style="text-decoration-color: #32cd32;">Software Engineer</u> / <u style="text-decoration-color: #32cd32;">Native Android Developer</u>
+- <img width="20" src="readme_file_source/icons/mention_icon.svg" alt="Mention Icon" style="vertical-align: middle;"/> Accounts
     <ul>
-        <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Telegram Accounts</b></li>
+        <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Telegram Accounts</li>
         <ul>
-            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Private</b> <a style="color: limeGreen;" href="https://t.me/M3MD69">@M3MD69</a></li>
-            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Nullexia For Programming</b> <a style="color: limeGreen;" href="https://t.me/Nullexia">@Nullexia</a></li>
-            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> <b>Software Consulting</b> <a style="color: limeGreen;" href="https://t.me/SoftwareConsulting">@SoftwareConsulting</a></li>
+            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Private <a style="color: limeGreen;" href="https://t.me/M3MD69">@M3MD69</a></li>
+            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Nullexia For Programming <a style="color: limeGreen;" href="https://t.me/Nullexia">@Nullexia</a></li>
+            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Software Consulting <a style="color: limeGreen;" href="https://t.me/SoftwareConsulting">@SoftwareConsulting</a></li>
         </ul>
-        <li><img width="20" src="readme_file_source/icons/g_letter_icon.svg" alt="G Letter" style="vertical-align: middle;"/> <b>Github</b> <a style="color: limeGreen;" href="https://github.com/M3MD69">@M3MD69</a></li>
+        <li><img width="20" src="readme_file_source/icons/g_letter_icon.svg" alt="G Letter" style="vertical-align: middle;"/> Github <a style="color: limeGreen;" href="https://github.com/M3MD69">@M3MD69</a></li>
     </ul>
 
 ---
@@ -25,8 +23,6 @@
 
 - **Recommended using `Intellij IDEA (Community / Ultimate / EAP), Aqua, Fleet`**
 - **Currently Used `Intellij Idea Community`**
-- **Project Language is `English` and `some images and notes Arabic`**
-- **Appropriate labels for `variables`, `functions` and `classes`**
 - **Java Version** `23 Oracle OpenJDK Version 23.0.1` - `SDK Default`
 
 ---
@@ -48,248 +44,248 @@
 
 ---
 
-## _1. [<span style="color: #e76f00;">Learning</span>](src/_1_learning)_
+## 1. [<span style="color: #e76f00;">Learning</span>](src/_1_learning)
 
-- <u style="text-decoration-color: #e76f00;">Learn Examples of Concepts</u><b style="color: #e76f00;">.</b>
+- <u style="text-decoration-color: #e76f00;">Learn Examples of Concepts</u><span style="color: #e76f00;">.</span>
 
-### _1. [<span style="color: #e76f00;">Basics</span>](src/_1_learning/_1_1_basics)_
+### 1. [<span style="color: #e76f00;">Basics</span>](src/_1_learning/_1_1_basics)
 
-1. **Variables**
-2. **Data Types**
-3. **Literal**
-4. **Type Conversion, Casting and Type Promotion**
-5. **Operators**
-    1. **Arithmetic Operators**
-    2. **Bitwise Operators**
-    3. **Relational Operators**
-    4. **Logical Operators**
-    5. **Unary Operators**
-    6. **Assignment Operators**
-6. **Scanner and Print**
-7. **Arrays**
-    1. **Array**
-    2. **Multidimensional Array**
-    3. **Copy Array**
-8. **Flow Control**
-    1. **If Statement**
-        1. **If and Else**
-        2. **Ternary Operator**
-    2. **Switch**
-    3. **Loops**
-        1. **Do and While**
-        2. **For**
-        3. **For Each**
-9. **Date and Time**
-10. **keywords**
-    1. **Final**
-    2. **Break**
-    3. **Continue**
-    4. **STR**
-    5. **Volatile**
-11. **Expressions**
-    1. **Lambda Expressions**
-    2. **Regular Expressions**
-12. **Threads**
-13. **Math**
-14. **String Buffer**
-15. **String Builder**
-16. **Escape Sequences**
-17. **Text Color Strings**
-18. **Methods and Functions Types**
-19. **Comment Types**
+1. Variables
+2. Data Types
+3. Literal
+4. Type Conversion, Casting and Type Promotion
+5. Operators
+    1. Arithmetic Operators
+    2. Bitwise Operators
+    3. Relational Operators
+    4. Logical Operators
+    5. Unary Operators
+    6. Assignment Operators
+6. Scanner and Print
+7. Arrays
+    1. Array
+    2. Multidimensional Array
+    3. Copy Array
+8. Flow Control
+    1. If Statement
+        1. If and Else
+        2. Ternary Operator
+    2. Switch
+    3. Loops
+        1. Do and While
+        2. For
+        3. For Each
+9. Date and Time
+10. keywords
+    1. Final
+    2. Break
+    3. Continue
+    4. STR
+    5. Volatile
+11. Expressions
+    1. Lambda Expressions
+    2. Regular Expressions
+12. Threads
+13. Math
+14. String Buffer
+15. String Builder
+16. Escape Sequences
+17. Text Color Strings
+18. Methods and Functions Types
+19. Comment Types
 20. Bit Manipulation
 21. Varargs
 
 ### 2. [<span style="color: #e76f00;">Handling</span>](src/_1_learning/_1_2_handling)
 
-1. **Exceptions Handing**
-    1. **Try, Catch, Finally, throw and throws**
-    2. **Annotation**
-    3. **Logging**
-    4. **Assertion**
+1. Exceptions Handing
+    1. Try, Catch, Finally, throw and throws
+    2. Annotation
+    3. Logging
+    4. Assertion
 
-2. **File Handling**
-    1. **Input and output Streams (I/O Streams)**
-        1. **Input and Output**
-        2. **(Input / Output) Stream**
-        3. **File (Input / Output) Stream**
-        4. **Byte Array (Input / Output) Stream**
-        5. **Object (Input / Output) Stream**
-        6. **Buffered (Input / Output) Stream**
-        7. **Print Stream**
-    2. **Reader and Writer**
-        1. **(Reader / Writer)**
-        2. **(Input / Output) Stream (Reader / Writer)**
-        3. **File (Reader / Writer)**
-        4. **Buffered (Reader / Writer)**
-        5. **String (Reader / Writer)**
-        6. **Print Writer**
-    3. **File**
-    4. **Keywords**
-        1. **Transient**
+2. File Handling
+    1. Input and output Streams (I/O Streams)
+        1. Input and Output
+        2. (Input / Output) Stream
+        3. File (Input / Output) Stream
+        4. Byte Array (Input / Output) Stream
+        5. Object (Input / Output) Stream
+        6. Buffered (Input / Output) Stream
+        7. Print Stream
+    2. Reader and Writer
+        1. (Reader / Writer)
+        2. (Input / Output) Stream (Reader / Writer)
+        3. File (Reader / Writer)
+        4. Buffered (Reader / Writer)
+        5. String (Reader / Writer)
+        6. Print Writer
+    3. File
+    4. Keywords
+        1. Transient
 
 ### 3. [<span style="color: #e76f00;">OOP (Object Oriented Programming)</span>](src/_1_learning/_1_3_object_oriented_programming)
 
-1. **Class**
-2. **Methods**
-    1. **Method**
-    2. **Overloading Method**
-3. **Constructor**
-4. **Getter and Setter**
-5. **Recursion**
-6. **InstanceOf**
-7. **Inheritance**
-8. **Array of Object**
-9. **Polymorphism**
-10. **Encapsulation**
-11. **Data Hiding**
-12. **Nested and Inner Class**
-13. **Anonymous Class**
-14. **Singleton**
-15. **Enum**
-16. **Enum Constructor**
-17. **Reflection**
-18. **Keywords**
-    1. **Abstract, Override and Super**
-    2. **Static**
-19. **Generic Class**
-20. **Wrapper Classes**
-21. **Association**
-22. **Record Class**
-23. **Sealed Class And Interface**
-24. **Local Class**
-25. **Anonymous Inner Class**
+1. Class
+2. Methods
+    1. Method
+    2. Overloading Method
+3. Constructor
+4. Getter and Setter
+5. Recursion
+6. InstanceOf
+7. Inheritance
+8. Array of Object
+9. Polymorphism
+10. Encapsulation
+11. Data Hiding
+12. Nested and Inner Class
+13. Anonymous Class
+14. Singleton
+15. Enum
+16. Enum Constructor
+17. Reflection
+18. Keywords
+    1. Abstract, Override and Super
+    2. Static
+19. Generic Class
+20. Wrapper Classes
+21. Association
+22. Record Class
+23. Sealed Class And Interface
+24. Local Class
+25. Anonymous Inner Class
 
 ### 4. [<span style="color: #e76f00;">Testing</span>](src/_1_learning/_1_4_testing)
 
-1. **JUnit 5**
-    1. **Test**
-    2. **(Before / After) Each**
-    3. **(Before / After) All**
-    4. **Parameterized Test**
-    5. **CSV Source**
-2. **Testing**
-    1. **Test**
-    2. **Ignore**
+1. JUnit 5
+    1. Test
+    2. (Before / After) Each
+    3. (Before / After) All
+    4. Parameterized Test
+    5. CSV Source
+2. Testing
+    1. Test
+    2. Ignore
 
 ### 5. [<span style="color: #e76f00;">DS (Data Structures)</span>](src/_1_learning/_1_5_data_structures)
 
-1. **List**
-    1. **List**
-    2. **List with Others**
-2. **Array List**
-3. **Linked List**
-4. **Vector**
-5. **Stack**
-6. **Queue**
-7. **Priority Queue**
-8. **Deque**
-9. **Array Deque**
-10. **Blocking Queue with Others**
-11. **Array Blocking Queue**
-12. **Linked Blocking Queue**
-13. **Blocking Deque with Others**
-14. **Linked Blocking Deque**
-15. **Map with Others**
-16. **Hash Map**
-17. **Linked Hash Map**
-18. **Weak Hash Map**
-19. **Enum Map**
-20. **Sorted Map with Others**
-21. **Navigable with Others**
-22. **TreeMap**
-23. **ConCurrent Map**
-24. **ConCurrent HashMap**
-25. **Set with Others**
-26. **HashSet**
-27. **Linked Hash Set**
-28. **EnumSet**
-29. **TreeSet**
-30. **SortedSet with Others**
-31. **Navigable with Others**
-32. **Iterator**
-33. **List Iterator**
-34. **Hash Table**
-35. **Dictionary**
-36. **Collection**
+1. List
+    1. List
+    2. List with Others
+2. Array List
+3. Linked List
+4. Vector
+5. Stack
+6. Queue
+7. Priority Queue
+8. Deque
+9. Array Deque
+10. Blocking Queue with Others
+11. Array Blocking Queue
+12. Linked Blocking Queue
+13. Blocking Deque with Others
+14. Linked Blocking Deque
+15. Map with Others
+16. Hash Map
+17. Linked Hash Map
+18. Weak Hash Map
+19. Enum Map
+20. Sorted Map with Others
+21. Navigable with Others
+22. TreeMap
+23. ConCurrent Map
+24. ConCurrent HashMap
+25. Set with Others
+26. HashSet
+27. Linked Hash Set
+28. EnumSet
+29. TreeSet
+30. SortedSet with Others
+31. Navigable with Others
+32. Iterator
+33. List Iterator
+34. Hash Table
+35. Dictionary
+36. Collection
 
 ### 6. [<span style="color: #e76f00;">Algorithms</span>](src/_1_learning/_1_6_algorithms)
 
-1. **Search**
-    1. **Linear**
-    2. **Binary**
-    3. **Interpolation**
-    4. **DFS (Depth First Search)**
-    5. **BFS (Breadth First Search)**
-    6. **Jump**
-    7. **Exponential**
-    8. **Ternary**
-    9. **Saddle Back**
-2. **Sort**
-    1. **Bubble**
-    2. **Selection**
-    3. **Insertion**
-    4. **Quick**
-    5. **Merge**
-    6. **Counting**
-    7. **Radix**
-    8. **Bucket**
-    9. **Heap**
-    10. **Shell**
-    11. **Bead**
-    12. **Bogo**
-    13. **Cocktail**
-    14. **Comb**
-    15. **Gnome**
-    16. **Pancake**
-    17. **Permutation**
-    18. **Sleep**
-    19. **Stooge**
-    20. **Tim**
+1. Search
+    1. Linear
+    2. Binary
+    3. Interpolation
+    4. DFS (Depth First Search)
+    5. BFS (Breadth First Search)
+    6. Jump
+    7. Exponential
+    8. Ternary
+    9. Saddle Back
+2. Sort
+    1. Bubble
+    2. Selection
+    3. Insertion
+    4. Quick
+    5. Merge
+    6. Counting
+    7. Radix
+    8. Bucket
+    9. Heap
+    10. Shell
+    11. Bead
+    12. Bogo
+    13. Cocktail
+    14. Comb
+    15. Gnome
+    16. Pancake
+    17. Permutation
+    18. Sleep
+    19. Stooge
+    20. Tim
 3. ~~**Greedy**~~
     1. ~~**Ford Fulkerson**~~
     2. ~~**Dijkstra**~~
     3. ~~**Kruskal**~~
     4. ~~**Prim**~~
     5. ~~**Huffman**~~
-4. **Encryption & Decryption**
-    1. **AES (Advanced Encryption Standard)**
-    2. **RSA (Rivest-Shamir-Adleman)**
-    3. **HSA-256 (Secure Hash Algorithms 256)**
-    4. **MD5 (Message Digest 5)**
-5. **Dynamic Programming**
-    1. **Kadane**
-6. **Other**
-    1. **Boyer-Moore Voting**
+4. Encryption & Decryption
+    1. AES (Advanced Encryption Standard)
+    2. RSA (Rivest-Shamir-Adleman)
+    3. HSA-256 (Secure Hash Algorithms 256)
+    4. MD5 (Message Digest 5)
+5. Dynamic Programming
+    1. Kadane
+6. Other
+    1. Boyer-Moore Voting
 
 ### 7. [<span style="color: #e76f00;">DSA (Data Structures and Algorithms)</span>](src/_1_learning/_1_7_data_structures_and_algorithms)
 
-1. **Nodes**
-2. **LinkedList**
-    1. **Singly Linked List**
-    2. **Doubly Linked List**
-    3. **Circular Linked List**
-3. **Dynamic Array**
-4. **Stack**
-5. **Queue**
-6. **Tree**
-    1. **Binary Tree**
-    2. **Binary Search Tree**
-    3. **AVL Tree**
-    4. **B Tree**
-    5. **B+ Tree**
-    6. **Red-Black Tree**
-    7. **Trie (Prefix Tree)**
-    8. **Quad Tree**
-7. **Graph**
-    1. **Adjacency Matrix**
-    2. **Adjacency List**
-    3. **Strongly Connected Components**
-    4. **Bellman Ford**
-8. **Heap**
-    1. **Normal Heap**
-    2. **Fibonacci Heap**
-9. **LRU Cache**
+1. Nodes
+2. LinkedList
+    1. Singly Linked List
+    2. Doubly Linked List
+    3. Circular Linked List
+3. Dynamic Array
+4. Stack
+5. Queue
+6. Tree
+    1. Binary Tree
+    2. Binary Search Tree
+    3. AVL Tree
+    4. B Tree
+    5. B+ Tree
+    6. Red-Black Tree
+    7. Trie (Prefix Tree)
+    8. Quad Tree
+7. Graph
+    1. Adjacency Matrix
+    2. Adjacency List
+    3. Strongly Connected Components
+    4. Bellman Ford
+8. Heap
+    1. Normal Heap
+    2. Fibonacci Heap
+9. LRU Cache
 
 ### <span style="font-style: italic; color: #e76f00;">~~8. Database~~</span>
 
@@ -322,9 +318,9 @@
 
 ---
 
-## 2. _<span style="color: #e76f00;">Solving (1,723 Problems, 4 Mini Projects)</span>_
+## 2. <span style="color: #e76f00;">Solving (1,723 Problems, 4 Mini Projects)</span>
 
-<li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <b style="color: #e76f00;">.</b></li>
+<li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <span style="color: #e76f00;">.</span></li>
 
 |                                            Name                                             | Problems / Mini Projects |
 |:-------------------------------------------------------------------------------------------:|:------------------------:|
@@ -339,9 +335,9 @@
 #### <p style="color: #e76f00;">Notes</p>
 
 <ul>
-<li><b><u style="text-decoration-color: #e76f00;">There are some Problems where the requirements and names have been changed without changing the important programming terms</u> <b style="color: #e76f00;">.</b></b></li>
+<li><u style="text-decoration-color: #e76f00;">There are some Problems where the requirements and names have been changed without changing the important programming terms</u> <span style="color: #e76f00;">.</span></li>
 <br/>
-<li><b>What does Mean (🟥 & 🟩) ?</b></li>
+<li>What does Mean (🟥 & 🟩) ?</li>
 <ul>
 <li>🟥: <u style="text-decoration-color: #e76f00;">Not Complete</u></li>
 <li>🟩: <u style="text-decoration-color: #e76f00;">Complete</u></li>
@@ -350,65 +346,65 @@
 
 ### <span>1. <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a> (17 Problems) 🟩<span>
 
-1. <b><a style="color: #e76f00;" href="https://www.w3schools.com/java">How to</a> (17 Problems)</b>
+1. <a style="color: #e76f00;" href="https://www.w3schools.com/java">How to</a> (17 Problems)
 
 ### <span>2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (1,059 Problems) 🟩<span>
 
-1. **Basics (272 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index.php">Part 1</a> (150 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index1.php">Part 2</a> (99 Problems)</b>
-    3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/method/index.php">Methods</a> (23 Problems)</b>
-2. **Data Types (20 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/datatypes/index.php">Data Types</a> (15 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/java-enum-types.php">Enum Types</a> (5 Problems)</b>
-3. **Flow Control (47 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/conditional-statement/index.php">Conditional Statement</a> (32 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/recursive/index.php">Recursive Method</a> (15 Problems)</b>
-4. **Math and Numbers (58 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/math/index.php">Math</a> (29 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/numbers/index.php">Numbers</a> (29 Problems)</b>
-5. **Object-Oriented Programming (117 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/constructor/java-constructors.php">Constructors</a> (10 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/static_members/java-static-members.php">Static Members</a> (8 Problems)</b>
-    3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/nested-classes/java-nested-classes.php">Nested Classes</a> (10 Problems)</b>
-    4. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-inheritance.php">Inheritance</a> (10 Problems)</b>
-    5. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-abstract.php">Abstract Classes</a> (12 Problems)</b>
-    6. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-interface.php">Interface</a> (11 Problems)</b>
-    7. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/encapsulation/index.php">Encapsulation</a> (14 Problems)</b>
-    8. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-polymorphism.php">Polymorphism</a> (12 Problems)</b>
-    9. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/oop/index.php">Object-Oriented Programming</a> (30 Problems)</b>
-6. **Exception Handling (7 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/exception/index.php">Handling and Managing</a> (7 Problems)</b>
-7. **Functional Programming (33 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/lambda/index.php">Lambda Expression</a> (25 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/stream/index.php">Streams</a> (8 Problems)</b>
-8. **Multithreading (22 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/thread/index.php">Thread</a> (7 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/multithreading/index.php">Multithreading</a> (15 Problems)</b>
-9. **Data Structures (234 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/array/index.php">Array</a> (79 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/stack/index.php">Stack</a> (29 Problems)</b>
-    3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/index.php">Collection</a> (126 Problems)</b>
-        1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/array-list.php">ArrayList</a> (22 Problems)</b>
-        2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/linked-list.php">LinkedList</a> (26 Problems)</b>
-        3. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-set.php">HashSet</a> (12 Problems)</b>
-        4. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-set.php">TreeSet</a> (16 Problems)</b>
-        5. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/priority-queue.php">PriorityQueue</a> (12 Problems)</b>
-        6. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-map.php">HashMap</a> (12 Problems)</b>
-        7. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-map.php">TreeMap</a> (26 Problems)</b>
-10. **String and Input and Output (130 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/string/index.php">String</a> (112 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/io/index.php">Input and Output</a> (18 Problems)</b>
-11. **Date and Time (46 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/datetime/index.php">Date and Time</a> (46 Problems)</b>
-12. **Advanced Concepts (17 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/generic/index.php">Generic Methods</a> (7 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/unittest/index.php">Unit Test</a> (10 Problems)</b>
-13. **Algorithms (26 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Search</a> (7 Problems)</b>
-    2. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Sort</a> (19 Problems)</b>
-14. **Regular Expression (30 Problems)**
-    1. <b><a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)</b>
+1. Basics (272 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index.php">Part 1</a> (150 Problems)
+    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index1.php">Part 2</a> (99 Problems)
+    3. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/method/index.php">Methods</a> (23 Problems)
+2. Data Types (20 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/datatypes/index.php">Data Types</a> (15 Problems)
+    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/java-enum-types.php">Enum Types</a> (5 Problems)
+3. Flow Control (47 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/conditional-statement/index.php">Conditional Statement</a> (32 Problems)
+    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/recursive/index.php">Recursive Method</a> (15 Problems)
+4. Math and Numbers (58 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/math/index.php">Math</a> (29 Problems)
+    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/numbers/index.php">Numbers</a> (29 Problems)
+5. Object-Oriented Programming (117 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/constructor/java-constructors.php">Constructors</a> (10 Problems)
+    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/static_members/java-static-members.php">Static Members</a> (8 Problems)
+    3. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/nested-classes/java-nested-classes.php">Nested Classes</a> (10 Problems)
+    4. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-inheritance.php">Inheritance</a> (10 Problems)
+    5. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-abstract.php">Abstract Classes</a> (12 Problems)
+    6. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-interface.php">Interface</a> (11 Problems)
+    7. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/encapsulation/index.php">Encapsulation</a> (14 Problems)
+    8. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-polymorphism.php">Polymorphism</a> (12 Problems)
+    9. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/oop/index.php">Object-Oriented Programming</a> (30 Problems)
+6. Exception Handling (7 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/exception/index.php">Handling and Managing</a> (7 Problems)
+7. Functional Programming (33 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/lambda/index.php">Lambda Expression</a> (25 Problems)
+    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/stream/index.php">Streams</a> (8 Problems)
+8. Multithreading (22 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/thread/index.php">Thread</a> (7 Problems)
+    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/multithreading/index.php">Multithreading</a> (15 Problems)
+9. Data Structures (234 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/array/index.php">Array</a> (79 Problems)
+    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/stack/index.php">Stack</a> (29 Problems)
+    3. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/index.php">Collection</a> (126 Problems)
+        1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/array-list.php">ArrayList</a> (22 Problems)
+        2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/linked-list.php">LinkedList</a> (26 Problems)
+        3. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-set.php">HashSet</a> (12 Problems)
+        4. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-set.php">TreeSet</a> (16 Problems)
+        5. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/priority-queue.php">PriorityQueue</a> (12 Problems)
+        6. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-map.php">HashMap</a> (12 Problems)
+        7. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-map.php">TreeMap</a> (26 Problems)
+10. String and Input and Output (130 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/string/index.php">String</a> (112 Problems)
+    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/io/index.php">Input and Output</a> (18 Problems)
+11. Date and Time (46 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/datetime/index.php">Date and Time</a> (46 Problems)
+12. Advanced Concepts (17 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/generic/index.php">Generic Methods</a> (7 Problems)
+    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/unittest/index.php">Unit Test</a> (10 Problems)
+13. Algorithms (26 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Search</a> (7 Problems)
+    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Sort</a> (19 Problems)
+14. Regular Expression (30 Problems)
+    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)
 
 ### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (279 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
@@ -448,11 +444,11 @@
 
 ---
 
-## _<span style="color: #e76f00;">Resources</span>_
+## <span style="color: #e76f00;">Resources</span>
 
 ### <span style="color: #e76f00;">Learning</span>
 
-- <b style="color: #e76f00;">Note:</b> <u style="text-decoration-color: #e76f00;">After learning from the sources, what was explained in the project is explained in my ways not copied mostly</u><b style="color: #e76f00;">.</b>
+- <span style="color: #e76f00;">Note: </span><u style="text-decoration-color: #e76f00;">After learning from the sources, what was explained in the project is explained in my ways not copied mostly</u><span style="color: #e76f00;">.</span>
 
 #### Websites
 

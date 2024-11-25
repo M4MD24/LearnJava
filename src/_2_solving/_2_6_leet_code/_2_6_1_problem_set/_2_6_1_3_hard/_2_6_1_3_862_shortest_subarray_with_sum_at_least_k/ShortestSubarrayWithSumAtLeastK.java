@@ -19,6 +19,7 @@ public class ShortestSubarrayWithSumAtLeastK {
     }
 
     private static int shortestSubarray(final int[] NUMBERS, final int TARGET_NUMBER) {
+        System.gc();
         final int COUNT_OF_NUMBERS = NUMBERS.length;
         final long[] PREFIX_SUM = new long[COUNT_OF_NUMBERS + 1];
         for (int index = 0; index < COUNT_OF_NUMBERS; index++)
