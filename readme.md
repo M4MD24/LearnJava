@@ -21,8 +21,8 @@
 
 ## <span style="font-style: italic; color: #e76f00;">About the Project Details</span>
 
-- **Recommended using `Intellij IDEA (Community / Ultimate / EAP), Aqua, Fleet`**
-- **Currently Used `Intellij Idea Community`**
+- **Recommended using** `Intellij IDEA (Community / Ultimate / EAP), Aqua, Fleet`
+- **Currently Used** `Intellij Idea Community`
 - **Java Version** `23 Oracle OpenJDK Version 23.0.1` - `SDK Default`
 
 ---
