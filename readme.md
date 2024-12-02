@@ -318,7 +318,7 @@
 
 ---
 
-## 2. <span style="color: #e76f00;">Solving (1,723 Problems, 4 Mini Projects)</span>
+## 2. <span style="color: #e76f00;">Solving (1,727 Problems, 4 Mini Projects)</span>
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <span style="color: #e76f00;">.</span></li>
 
@@ -327,7 +327,7 @@
 |       <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a>        |       17 Problems        |
 | <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resources</a> |      1,059 Problems      |
 |           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |       279 Problems       |
-|             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       130 Problems       |
+|             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       134 Problems       |
 |                <a style="color: #e76f00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
 |             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       174 Problems       |
 |    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |       64 Problems        |
@@ -417,15 +417,19 @@
 3. <a style="color: #e76f00;" href="https://satr.codes/course/oqTQleaQLV/view">Java 102</a> (1 Mini Project)
 4. <a style="color: #e76f00;" href="https://satr.codes/course/aiZMoXpIya/view">Java 103</a> (1 Mini Project)
 
-### <span>5. <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a> (130 Problems, (75 Easy, 42 Medium, 13 Hard)) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
+### <span>5. <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a> (134 Problems, (76 Easy, 43 Medium, 15 Hard)) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (128 Problems)
+1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (129 Problems)
     1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (73 Problems)
     2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (42 Problems)
-    3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (13 Problems)
+    3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (14 Problems)
 2. <a style="color: #e76f00;" href="https://coderhub.sa/activities">Competitions</a> (2 Problems)
     1. <a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)
         1. Easy (2 Problems)
+    2. <a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">CoderHub Hat 24 Third Day</a> (3 Problems)
+        1. Easy (1 Problem)
+        2. Medium (1 Problem)
+        3. Hard (1 Problem)
 
 ### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (174 Problems, (48 Easy, 107 Medium, 19 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
 
