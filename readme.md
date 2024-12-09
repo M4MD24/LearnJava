@@ -44,11 +44,11 @@
 
 ---
 
-## 1. [<span style="color: #e76f00;">Learning</span>](src/_1_learning)
+## 1. [<span style="color: #e76f00;">Learn</span>](src/_1_learn)
 
 - <u style="text-decoration-color: #e76f00;">Learn Examples of Concepts</u><span style="color: #e76f00;">.</span>
 
-### 1. [<span style="color: #e76f00;">Basics</span>](src/_1_learning/_1_1_basics)
+### 1. [<span style="color: #e76f00;">Basics</span>](src/_1_learn/_1_1_basics)
 
 1. Variables
 2. Data Types
@@ -96,7 +96,7 @@
 20. Bit Manipulation
 21. Varargs
 
-### 2. [<span style="color: #e76f00;">Handling</span>](src/_1_learning/_1_2_handling)
+### 2. [<span style="color: #e76f00;">Handling</span>](src/_1_learn/_1_2_handling)
 
 1. Exceptions Handing
     1. Try, Catch, Finally, throw and throws
@@ -124,7 +124,7 @@
     4. Keywords
         1. Transient
 
-### 3. [<span style="color: #e76f00;">OOP (Object Oriented Programming)</span>](src/_1_learning/_1_3_object_oriented_programming)
+### 3. [<span style="color: #e76f00;">OOP (Object Oriented Programming)</span>](src/_1_learn/_1_3_object_oriented_programming)
 
 1. Class
 2. Methods
@@ -156,7 +156,7 @@
 24. Local Class
 25. Anonymous Inner Class
 
-### 4. [<span style="color: #e76f00;">Testing</span>](src/_1_learning/_1_4_testing)
+### 4. [<span style="color: #e76f00;">Testing</span>](src/_1_learn/_1_4_testing)
 
 1. JUnit 5
     1. Test
@@ -168,7 +168,7 @@
     1. Test
     2. Ignore
 
-### 5. [<span style="color: #e76f00;">DS (Data Structures)</span>](src/_1_learning/_1_5_data_structures)
+### 5. [<span style="color: #e76f00;">DS (Data Structures)</span>](src/_1_learn/_1_5_data_structures)
 
 1. List
     1. List
@@ -209,7 +209,7 @@
 35. Dictionary
 36. Collection
 
-### 6. [<span style="color: #e76f00;">Algorithms</span>](src/_1_learning/_1_6_algorithms)
+### 6. [<span style="color: #e76f00;">Algorithms</span>](src/_1_learn/_1_6_algorithms)
 
 1. Search
     1. Linear
@@ -258,7 +258,7 @@
 6. Other
     1. Boyer-Moore Voting
 
-### 7. [<span style="color: #e76f00;">DSA (Data Structures and Algorithms)</span>](src/_1_learning/_1_7_data_structures_and_algorithms)
+### 7. [<span style="color: #e76f00;">DSA (Data Structures and Algorithms)</span>](src/_1_learn/_1_7_data_structures_and_algorithms)
 
 1. Nodes
 2. LinkedList
@@ -318,7 +318,7 @@
 
 ---
 
-## 2. <span style="color: #e76f00;">Solving (1,727 Problems, 4 Mini Projects)</span>
+## 2. <span style="color: #e76f00;">Solve (1,727 Problems, 4 Mini Projects)</span>
 
 <li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <span style="color: #e76f00;">.</span></li>
 

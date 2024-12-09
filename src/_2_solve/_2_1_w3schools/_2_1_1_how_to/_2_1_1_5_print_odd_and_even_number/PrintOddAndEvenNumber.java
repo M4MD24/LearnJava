@@ -1,0 +1,14 @@
+package _2_solve._2_1_w3schools._2_1_1_how_to._2_1_1_5_print_odd_and_even_number;
+
+import java.util.Scanner;
+
+public class PrintOddAndEvenNumber {
+    public static void main(final String[] PARAMETERS) {
+        Scanner input = new Scanner(System.in);
+        while (true) {
+            int number = input.nextInt();
+            if (number % 2 == 0) System.out.println("even");
+            else System.out.println("odd");
+        }
+    }
+}
