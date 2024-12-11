@@ -289,9 +289,11 @@
 
 ### <span style="font-style: italic; color: #e76f00;">~~8. Database~~</span>
 
-1. ~~**Gson**~~
-2. ~~**JDBC (Java Database Connectivity)**~~
-3. ~~**SQLite**~~
+1. Json
+    1. Gson
+    2. ~~Jackson~~
+2. ~~JDBC (Java Database Connectivity)~~
+3. ~~SQLite~~
 
 ### <span style="font-style: italic; color: #e76f00;">~~9. Network~~</span>
 
@@ -468,6 +470,8 @@
 <li><a style="color: #e76f00;" href="https://harmash.com">Harmash</a></li>
 <li><a style="color: #e76f00;" href="https://junit.org/junit5/docs/current/user-guide">Junit5</a></li>
 <del><li><a style="color: #e76f00;" href="https://goalkicker.com">Goal Kicker</a></li></del>
+<li><a style="color: #e76f00;" href="https://github.com/google/gson">Gson Repository</a></li>
+<li><a style="color: #e76f00;" href="https://github.com/FasterXML/jackson">Jackson Repository</a></li>
 </ul>
 
 #### Books
