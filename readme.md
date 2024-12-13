@@ -287,13 +287,15 @@
     2. Fibonacci Heap
 9. LRU Cache
 
-### <span style="font-style: italic; color: #e76f00;">~~8. Database~~</span>
+### <span style="font-style: italic; color: #e76f00;">8. Database</span>
 
 1. Json
     1. Gson
-    2. ~~Jackson~~
-2. ~~JDBC (Java Database Connectivity)~~
-3. ~~SQLite~~
+    2. Jackson
+2. JDBC (Java Database Connectivity)
+    1. MySQL
+    2. PostgreSQL
+    3. SQLite
 
 ### <span style="font-style: italic; color: #e76f00;">~~9. Network~~</span>
 

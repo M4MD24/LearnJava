@@ -15,6 +15,9 @@
     <orderEntry type="library" exported="" scope="TEST" name="junit5" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="testing" level="project" />
     <orderEntry type="library" exported="" name="gson" level="project" />
+    <orderEntry type="library" name="postgresql" level="project" />
+    <orderEntry type="library" name="mysql" level="project" />
     <orderEntry type="library" name="jackson" level="project" />
+    <orderEntry type="library" name="sqlite" level="project" />
   </component>
 </module>

@@ -18,95 +18,146 @@ import java.util.Map;
 
 public class GsonExample {
     private static final Gson GSON = new Gson();
+    private static Map<String, String> map;
 
     public static void main(final String[] PARAMETERS) {
-        // 1. toJson - Convert an object to JSON
-        Map<String, String> exampleMap = new HashMap<>();
-        exampleMap.put("key1", "value1");
-        exampleMap.put("key2", "value2");
-        String jsonString = GSON.toJson(exampleMap);
-        System.out.println("1. toJson:\n" + jsonString + "\n\n");
+        convertObjectToJson();
+        convertJsonToObject();
+        writeJsonToFile();
+        readJsonFromFile();
+        convertObjectToJsonElement();
+        custimzeFieldNaming();
+        getTypeAdapter();
+        createDelegateAdapter();
+        setHTMLExcaping();
+        createCustomGsonBuilder();
+        serializeNullValues();
+        excludeFueldsUsingExcluder();
+    }
 
-        // 2. fromJson - Convert JSON to an object
-        String jsonInput = "{\"key1\":\"value1\",\"key2\":\"value2\"}";
-        Map<String, String> parsedMap = GSON.fromJson(jsonInput, Map.class);
-        System.out.println("2. fromJson:\n" + parsedMap + "\n\n");
+    private static void excludeFueldsUsingExcluder() {
+        System.out.println("12. excluder::");
+        final Gson GSON_WITH_EXCLUDER = new GsonBuilder().
+                excludeFieldsWithoutExposeAnnotation()
+                .create();
+        final ExampleObject EXAMPLE_OBJECT = new ExampleObject("included", "excluded");
+        final String EXCLUDED_JSON = GSON_WITH_EXCLUDER.toJson(EXAMPLE_OBJECT);
+        System.out.print(EXCLUDED_JSON);
+    }
 
-        // 3. newJsonWriter - Write JSON to a file
-        try (JsonWriter writer = GSON.newJsonWriter(new FileWriter("src/_1_learn/_1_8_database/_1_8_1_json/_1_8_1_2_jackson/_1_8_1_1_1_syntax/output.json"))) {
-            writer.beginObject();
-            writer.name("key1").value("value1");
-            writer.name("key2").value("value2");
-            writer.endObject();
-            System.out.println("3. newJsonWriter:\nJSON written to file" + "\n\n");
-        } catch (IOException e) {
-            e.printStackTrace();
+    private static void serializeNullValues() {
+        System.out.println("11. serializeNulls:");
+        final Gson GSON_WITH_NULLS = new GsonBuilder().serializeNulls().create();
+        final Map<String, String> MAP_WITH_NULL = new HashMap<>();
+        MAP_WITH_NULL.put(
+                "key",
+                null
+        );
+        final String NULL_SERIALIZED_JSON = GSON_WITH_NULLS.toJson(MAP_WITH_NULL);
+        System.out.println(NULL_SERIALIZED_JSON + "\n");
+    }
+
+    private static void createCustomGsonBuilder() {
+        System.out.println("10. newBuilder:");
+        final Gson CUSTOM_GSON = GSON.newBuilder().serializeNulls().create();
+        final String CUSTOM_JSON = CUSTOM_GSON.toJson(null);
+        System.out.println(CUSTOM_JSON + "\n");
+    }
+
+    private static void setHTMLExcaping() {
+        System.out.println("9. htmlSafe:");
+        final Gson HTML_SAFE_GSON = new GsonBuilder()
+                .disableHtmlEscaping()
+                .create();
+        final String HTML_JSON = HTML_SAFE_GSON.toJson("<tag>");
+        System.out.println(HTML_JSON + "\n");
+    }
+
+    private static void createDelegateAdapter() {
+        System.out.println("8. getDelegateAdapter:");
+        final TypeAdapter<Map> DELEGATE_ADAPTER = GSON.getDelegateAdapter(
+                GSON.newBuilder()
+                        .create()
+                        .excluder(),
+                TypeToken.get(Map.class)
+        );
+        try {
+            final String DELEGATED_JSON = DELEGATE_ADAPTER.toJson(map);
+            System.out.println(DELEGATED_JSON + "\n");
+        } catch (final Exception EXCEPTION) {
+            EXCEPTION.printStackTrace();
         }
+    }
 
-        // 4. newJsonReader - Read JSON from a file
-        try (JsonReader reader = GSON.newJsonReader(new FileReader("src/_1_learn/_1_8_database/_1_8_1_json/_1_8_1_2_jackson/_1_8_1_1_1_syntax/output.json"))) {
-            reader.beginObject();
-            while (reader.hasNext()) {
-                String name = reader.nextName();
-                String value = reader.nextString();
-                System.out.println("4. newJsonReader:\n" + name + " = " + value + "\n\n");
-            }
-            reader.endObject();
-        } catch (IOException e) {
-            e.printStackTrace();
+    private static void getTypeAdapter() {
+        System.out.println("7. getAdapter:");
+        final TypeAdapter<Map> TYPE_ADAPTER = GSON.getAdapter(Map.class);
+        try {
+            final String ADAPTED_JSON = TYPE_ADAPTER.toJson(map);
+            System.out.println(ADAPTED_JSON + "\n");
+        } catch (final Exception EXCEPTION) {
+            EXCEPTION.printStackTrace();
         }
+    }
 
-        // 5. toJsonTree - Convert an object to a JsonElement
-        JsonElement jsonElement = GSON.toJsonTree(exampleMap);
-        System.out.println("5. toJsonTree:\n" + jsonElement + "\n\n");
-
-        // 6. fieldNamingStrategy - Customize field naming
-        Gson gsonWithNamingStrategy = new GsonBuilder()
+    private static void custimzeFieldNaming() {
+        System.out.println("6. fieldNamingStrategy:");
+        final Gson GSON_WITH_NAMING_STRATEGY = new GsonBuilder()
                 .setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES)
                 .create();
-        String customNamingJson = gsonWithNamingStrategy.toJson(exampleMap);
-        System.out.println("6. fieldNamingStrategy:\n" + customNamingJson + "\n\n");
+        final String CUSTOM_NAMING_JSON = GSON_WITH_NAMING_STRATEGY.toJson(map);
+        System.out.println(CUSTOM_NAMING_JSON + "\n");
+    }
 
-        // 7. getAdapter - Get a TypeAdapter
-        TypeAdapter<Map> adapter = GSON.getAdapter(Map.class);
-        try {
-            String adaptedJson = adapter.toJson(exampleMap);
-            System.out.println("7. getAdapter:\n" + adaptedJson + "\n\n");
-        } catch (Exception e) {
-            e.printStackTrace();
+    private static void convertObjectToJsonElement() {
+        System.out.println("5. toJsonTree:");
+        final JsonElement JSON_ELEMENT = GSON.toJsonTree(map);
+        System.out.println(JSON_ELEMENT + "\n");
+    }
+
+    private static void readJsonFromFile() {
+        System.out.println("4. newJsonReader:");
+        try (final JsonReader JSON_READER = GSON.newJsonReader(new FileReader("src/_1_learn/_1_8_database/_1_8_1_json/_1_8_1_1_gson/output.json"))) {
+            JSON_READER.beginObject();
+            while (JSON_READER.hasNext()) {
+                final String KEY = JSON_READER.nextName(),
+                        VALUE = JSON_READER.nextString();
+                System.out.println(KEY + " = " + VALUE);
+            }
+            JSON_READER.endObject();
+        } catch (final IOException EXCEPTION) {
+            EXCEPTION.printStackTrace();
         }
+        System.out.println();
+    }
 
-        // 8. getDelegateAdapter - Create a delegate adapter
-        TypeAdapter<Map> delegateAdapter = GSON.getDelegateAdapter(GSON.newBuilder().create().excluder(), TypeToken.get(Map.class));
-        try {
-            String delegatedJson = delegateAdapter.toJson(exampleMap);
-            System.out.println("8. getDelegateAdapter:\n" + delegatedJson + "\n\n");
-        } catch (Exception e) {
-            e.printStackTrace();
+    private static void writeJsonToFile() {
+        System.out.println("3. newJsonWriter:");
+        try (final JsonWriter JSON_WRITER = GSON.newJsonWriter(new FileWriter("src/_1_learn/_1_8_database/_1_8_1_json/_1_8_1_1_gson/output.json"))) {
+            JSON_WRITER.beginObject();
+            JSON_WRITER.name("key1").value("value1");
+            JSON_WRITER.name("key2").value("value2");
+            JSON_WRITER.endObject();
+            System.out.println("JSON written to file" + "\n");
+        } catch (final IOException EXCEPTION) {
+            EXCEPTION.printStackTrace();
         }
+    }
 
-        // 9. htmlSafe - Set HTML escaping
-        Gson htmlSafeGson = new GsonBuilder().disableHtmlEscaping().create();
-        String htmlJson = htmlSafeGson.toJson("<tag>");
-        System.out.println("9. htmlSafe:\n" + htmlJson + "\n\n");
+    private static void convertJsonToObject() {
+        System.out.println("2. fromJson:");
+        final String JSON_CONTENT = "{\"key1\":\"value1\",\"key2\":\"value2\"}";
+        map = GSON.fromJson(JSON_CONTENT, Map.class);
+        System.out.println(map + "\n");
+    }
 
-        // 10. newBuilder - Create a custom GsonBuilder
-        Gson customGson = GSON.newBuilder().serializeNulls().create();
-        String customJson = customGson.toJson(null);
-        System.out.println("10. newBuilder:\n" + customJson + "\n\n");
-
-        // 11. serializeNulls - Serialize null values
-        Gson gsonWithNulls = new GsonBuilder().serializeNulls().create();
-        Map<String, String> mapWithNull = new HashMap<>();
-        mapWithNull.put("key", null);
-        String nullSerializedJson = gsonWithNulls.toJson(mapWithNull);
-        System.out.println("11. serializeNulls:\n" + nullSerializedJson + "\n\n");
-
-        // 12. excluder - Exclude fields using Excluder
-        Gson gsonWithExcluder = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();
-        ExampleObject exampleObject = new ExampleObject("included", "excluded");
-        String excludedJson = gsonWithExcluder.toJson(exampleObject);
-        System.out.print("12. excluder:\n" + excludedJson + "\n\n");
+    private static void convertObjectToJson() {
+        System.out.println("1. toJson:");
+        final Map<String, String> MAP = new HashMap<>();
+        MAP.put("key1", "value1");
+        MAP.put("key2", "value2");
+        final String JSON_CONTENT = GSON.toJson(MAP);
+        System.out.println(JSON_CONTENT + "\n");
     }
 
     private static class ExampleObject {
