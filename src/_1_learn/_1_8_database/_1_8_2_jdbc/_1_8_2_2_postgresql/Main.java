@@ -8,7 +8,7 @@ public class Main {
         final DatabaseConnection DATABASE_CONNECTION = new DatabaseConnection(
                 "jdbc:postgresql://localhost:5432/DatabaseExample",
                 "postgres",
-                "Mstx_0952?"
+                "postgres"
         );
         final Connection CONNECTION = DATABASE_CONNECTION.connect();
         final QueryExecutor QUERY_EXECUTOR = new QueryExecutor(CONNECTION);

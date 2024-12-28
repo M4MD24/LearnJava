@@ -24,6 +24,10 @@
 - **Recommended using** `Intellij IDEA (Community / Ultimate / EAP), Aqua, Fleet`
 - **Currently Used** `Intellij Idea Community`
 - **Java Version** `23 Oracle OpenJDK Version 23.0.1` - `SDK Default`
+- **MySQL Version** `8.0.40`
+- **PostgreSQL Version** `17.2`
+- **SQLite Version** `3.47.2`
+- **HSQLDB Version** `2.7.0`
 
 ---
 
@@ -35,12 +39,13 @@
     - Search `. */` for **<span style="color: #e76f00;">Definitions</span>**
     - Search `/* ~` for **<span style="color: #e76f00;">The Difference Between</span>**
     - Search `/* ↓` for **<span style="color: #e76f00;">Examples</span>**
-    - Search `/* √` for **<span style="color: #e76f00;">Similar Concepts</span>**
+    - Search `/* √` for **<span style="color: #e76f00;">Similar Concepts and Definition of Letters</span>**
     - Search `/* ■` for **<span style="color: #e76f00;">Tables</span>**
     - Search `// •` for **<span style="color: #e76f00;">Important Things</span>**
     - Search `<h1>Problem` for **<span style="color: #e76f00;">Problems</span>**
     - Search `// >` for **<span style="color: #e76f00;">Another Solution</span>**
     - Search `[//]: # (Notes)` for **<span style="color: #e76f00;">Important Notes</span>**
+    - Search `[//]: # (Notes How)` for **<span style="color: #e76f00;">Notes How</span>**
 
 ---
 
@@ -207,7 +212,7 @@
 33. List Iterator
 34. Hash Table
 35. Dictionary
-36. Collection
+36. Enumeration
 
 ### 6. [<span style="color: #e76f00;">Algorithms</span>](src/_1_learn/_1_6_algorithms)
 
@@ -296,10 +301,27 @@
     1. MySQL
     2. PostgreSQL
     3. SQLite
+    4. HSQLDB
 
-### <span style="font-style: italic; color: #e76f00;">~~9. Network~~</span>
+### <span style="font-style: italic; color: #e76f00;">9. Network</span>
 
-1. ~~**JWT (Json Web Token)**~~
+1. URI (Uniform Resource Identifier)
+2. URL (Uniform Resource Locator) and URL Connection and HTTP (Hypertext Transfer Protocol) URL Connection and HTTPS (Hypertext Transfer Protocol Secure) URL Connection
+3. Protocol Tester
+4. URL Encoding and URL Decoding
+5. I Net Address
+6. Network Interface
+7. Socket
+8. Protocols
+    1. FTP (File Transfer Protocol)
+        1. Simple
+    2. TCP (Transmission Control Protocol)
+        1. Simple
+        2. Multithreading
+    3. UDP (User Datagram Protocol)
+        1. Simple
+9. RESTful API (Representational State Transfer Application Programming Interface)
+10. JWT (Json Web Token)
 
 ### <span style="font-style: italic; color: #e76f00;">~~10. OOD (Object Oriented Design)~~</span>
 
@@ -474,6 +496,9 @@
 <del><li><a style="color: #e76f00;" href="https://goalkicker.com">Goal Kicker</a></li></del>
 <li><a style="color: #e76f00;" href="https://github.com/google/gson">Gson Repository</a></li>
 <li><a style="color: #e76f00;" href="https://github.com/FasterXML/jackson">Jackson Repository</a></li>
+<li><a style="color: #e76f00;" href="https://github.com/M3MD69/LearnJSON">Learn JSON Repository</a></li>
+<li><a style="color: #e76f00;" href="https://github.com/M3MD69/LearnSQL">Learn SQL Repository</a></li>
+<li><a style="color: #e76f00;" href="https://github.com/jwtk/jjwt">JJWT Repository</a></li>
 </ul>
 
 #### Books

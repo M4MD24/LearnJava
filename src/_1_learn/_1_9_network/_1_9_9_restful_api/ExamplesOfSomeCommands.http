@@ -1,0 +1,20 @@
+### GET Command
+GET http://localhost:1424/home
+
+### POST Command
+POST http://localhost:1424/home
+
+### PUT Command
+PUT http://localhost:1424/home
+
+### DELETE Command
+DELETE http://localhost:1424/home
+
+### PATCH Command
+PATCH http://localhost:1424/home
+
+### HEAD Command
+HEAD http://localhost:1424/home
+
+### OPTION Command
+OPTIONS http://localhost:1424/home

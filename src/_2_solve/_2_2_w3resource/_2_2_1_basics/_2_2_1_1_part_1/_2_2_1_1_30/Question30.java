@@ -14,37 +14,40 @@ import java.util.Scanner;
  */
 
 public class Question30 {
-    public static void main(String args[]) {
-        String hexadecimalNumber;
-        int decimalNumber, i = 1, j;
-        int[] octalNumber = new int[100];
-        Scanner input = new Scanner(System.in);
+    public static void main(final String[] PARAMETERS) {
+        final String hexadecimalNumber;
+        int decimalNumber;
+        int index = 1;
+        int currentIndex;
+        final int[] octalDigits = new int[100];
+        final Scanner INPUT = new Scanner(System.in);
 
         System.out.print("Input a hexadecimal number: ");
-        hexadecimalNumber = input.nextLine();
+        hexadecimalNumber = INPUT.nextLine();
 
-        decimalNumber = hexadecimalToOctal(hexadecimalNumber);
+        decimalNumber = convertHexadecimalToDecimal(hexadecimalNumber);
 
         while (decimalNumber != 0) {
-            octalNumber[i++] = decimalNumber % 8;
+            octalDigits[index++] = decimalNumber % 8;
             decimalNumber /= 8;
         }
 
         System.out.print("Equivalent of octal number is: ");
-        for (j = i - 1; j > 0; j--) System.out.print(octalNumber[j]);
+        for (currentIndex = index - 1; currentIndex > 0; currentIndex--)
+            System.out.print(octalDigits[currentIndex]);
     }
 
-    public static int hexadecimalToOctal(String s) {
-        String digits = "0123456789ABCDEF";
-        s = s.toUpperCase();
-        int val = 0;
+    public static int convertHexadecimalToDecimal(String hexadecimalString) {
+        String hexadecimalDigits = "0123456789ABCDEF";
+        hexadecimalString = hexadecimalString.toUpperCase();
+        int decimalValue = 0;
 
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            int d = digits.indexOf(c);
-            val = 16 * val + d;
+        for (int currentIndex = 0; currentIndex < hexadecimalString.length(); currentIndex++) {
+            char currentCharacter = hexadecimalString.charAt(currentIndex);
+            int digitValue = hexadecimalDigits.indexOf(currentCharacter);
+            decimalValue = 16 * decimalValue + digitValue;
         }
 
-        return val;
+        return decimalValue;
     }
 }

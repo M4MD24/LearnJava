@@ -1,4 +1,4 @@
-package _1_learn._1_8_database._1_8_2_jdbc._1_8_2_3_sqlite;
+package _1_learn._1_8_database._1_8_2_jdbc._1_8_2_4_hsqldb;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

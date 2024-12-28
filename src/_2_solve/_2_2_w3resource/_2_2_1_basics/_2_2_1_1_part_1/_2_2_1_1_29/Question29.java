@@ -15,35 +15,35 @@ import java.util.Scanner;
 
 public class Question29 {
     public static void main(final String[] PARAMETERS) {
-        int i = 1, j;
-        int[] binaryNumber = new int[100];
-        Scanner input = new Scanner(System.in);
+        int binaryIndex = 1,
+                currentIndex;
+        final int[] BINARY_REPRESENTATION = new int[100];
+        Scanner inputScanner = new Scanner(System.in);
 
         System.out.print("Enter Hexadecimal Number: ");
-        String hexadecimalNumber = input.nextLine();
+        final String HEXADECIMAL_NUMBER = inputScanner.nextLine();
 
-        int decimalNumber = hexadecimalToDecimal(hexadecimalNumber);
+        int decimalEquivalent = convertHexadecimalToDecimal(HEXADECIMAL_NUMBER);
 
-        while (decimalNumber != 0) {
-            binaryNumber[i++] = decimalNumber % 2;
-            decimalNumber /= 2;
+        while (decimalEquivalent != 0) {
+            BINARY_REPRESENTATION[binaryIndex++] = decimalEquivalent % 2;
+            decimalEquivalent /= 2;
         }
 
         System.out.print("Equivalent Binary Number is: ");
-        for (j = i - 1; j > 0; j--) System.out.print(binaryNumber[j]);
+        for (currentIndex = binaryIndex - 1; currentIndex > 0; currentIndex--)
+            System.out.print(BINARY_REPRESENTATION[currentIndex]);
     }
 
-    public static int hexadecimalToDecimal(String stringValue) {
-        String digits = "0123456789ABCDEF";
-        stringValue = stringValue.toUpperCase();
-        int val = 0;
-
-        for (int i = 0; i < stringValue.length(); i++) {
-            char c = stringValue.charAt(i);
-            int d = digits.indexOf(c);
-            val = 16 * val + d;
+    public static int convertHexadecimalToDecimal(String hexadecimalValue) {
+        String validHexadecimalDigits = "0123456789ABCDEF";
+        hexadecimalValue = hexadecimalValue.toUpperCase();
+        int decimalResult = 0;
+        for (int characterIndex = 0; characterIndex < hexadecimalValue.length(); characterIndex++) {
+            char currentCharacter = hexadecimalValue.charAt(characterIndex);
+            int digitValue = validHexadecimalDigits.indexOf(currentCharacter);
+            decimalResult = 16 * decimalResult + digitValue;
         }
-
-        return val;
+        return decimalResult;
     }
 }
