@@ -292,7 +292,7 @@
     2. Fibonacci Heap
 9. LRU Cache
 
-### <span style="font-style: italic; color: #e76f00;">8. Database</span>
+### 8. [<span style="color: #e76f00;">Database</span>](src/_1_learn/_1_8_database)
 
 1. Json
     1. Gson
@@ -303,7 +303,7 @@
     3. SQLite
     4. HSQLDB
 
-### <span style="font-style: italic; color: #e76f00;">9. Network</span>
+### 9. [<span style="color: #e76f00;">Network</span>](src/_1_learn/_1_9_network)
 
 1. URI (Uniform Resource Identifier)
 2. URL (Uniform Resource Locator) and URL Connection and HTTP (Hypertext Transfer Protocol) URL Connection and HTTPS (Hypertext Transfer Protocol Secure) URL Connection
@@ -323,7 +323,7 @@
 9. RESTful API (Representational State Transfer Application Programming Interface)
 10. JWT (Json Web Token)
 
-### <span style="font-style: italic; color: #e76f00;">~~10. OOD (Object Oriented Design)~~</span>
+### 10. [<span style="color: #e76f00;">OOD (Object Oriented Design)</span>](src/_1_learn/_1_10_object_oriented_design)
 
 ### <span style="font-style: italic; color: #e76f00;">~~11. Design Patterns~~</span>
 
@@ -499,6 +499,7 @@
 <li><a style="color: #e76f00;" href="https://github.com/M3MD69/LearnJSON">Learn JSON Repository</a></li>
 <li><a style="color: #e76f00;" href="https://github.com/M3MD69/LearnSQL">Learn SQL Repository</a></li>
 <li><a style="color: #e76f00;" href="https://github.com/jwtk/jjwt">JJWT Repository</a></li>
+<li><a style="color: #e76f00;" href="https://github.com/m3md69/">Learn Mermaid</a></li>
 </ul>
 
 #### Books

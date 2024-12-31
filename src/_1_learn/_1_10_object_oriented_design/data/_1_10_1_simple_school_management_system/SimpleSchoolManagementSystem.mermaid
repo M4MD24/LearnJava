@@ -1,0 +1,36 @@
+classDiagram
+    class Student {
+        - name: String
+        - studentId: int
+        + enroll(course: Course): void
+        + drop(course: Course): void
+    }
+
+    class Teacher {
+        - name: String
+        - teacherId: int
+        + assignCourse(course: Course): void
+        + gradeStudent(student: Student, course: Course): void
+    }
+
+    class Course {
+        - courseName: String
+        - courseId: int
+        + addStudent(student: Student): void
+        + removeStudent(student: Student): void
+    }
+
+    class School {
+        - students: List<Student>
+        - teachers: List<Teacher>
+        - courses: List<Course>
+        + registerStudent(student: Student): void
+        + hireTeacher(teacher: Teacher): void
+        + offerCourse(course: Course): void
+    }
+
+    School"1"--"*"Student: enrolls
+    School"1"--"*"Teacher: employs
+    School"1"--"*"Course: offers
+    Student"*"--"*"Course: takes
+    Teacher"*"--"*"Course: teaches
