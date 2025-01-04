@@ -46,7 +46,7 @@ OOD هو خطوة أساسية في دورة حياة تطوير البرمجي�
 
 ## مثال UML باستخدام Mermaid
 
-### 1. [تصميم نظام مكتبة بسيط](data/_1_10_1_simple_school_management_system/SimpleSchoolManagementSystem.mermaid)
+### 1. [تصميم نظام مكتبة بسيط](example/_1_10_1_simple_school_management_system/SimpleSchoolManagementSystem.mermaid)
 
 ---
 

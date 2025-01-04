@@ -26,12 +26,12 @@ public class ArithmeticOperators {
         System.out.println("Modulus = " + (number1 % number2)); //  Modulus
 
 //        Increment
-        System.out.println("Prefix Increment = " + ++number1);
-        System.out.println("Postfix Increment = " + number1++);
+        System.out.println("Prefix Increment = " + ++number1); // Prefix Increment
+        System.out.println("Postfix Increment = " + number1++); // Postfix Increment
 
 //        Decrement
-        System.out.println("Prefix Decrement = " + --number2);
-        System.out.println("Postfix Decrement = " + number2--);
+        System.out.println("Prefix Decrement = " + --number2); // Prefix Decrement
+        System.out.println("Postfix Decrement = " + number2--); // Postfix Decrement
 
         /* The (postfix increment or postfix decrement) is applied after calling the variable! */
         /* ↓ Example

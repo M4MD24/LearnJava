@@ -146,20 +146,19 @@
 11. Data Hiding
 12. Nested and Inner Class
 13. Anonymous Class
-14. Singleton
-15. Enum
-16. Enum Constructor
-17. Reflection
-18. Keywords
+14. Enum
+15. Enum Constructor
+16. Reflection
+17. Keywords
     1. Abstract, Override and Super
     2. Static
-19. Generic Class
-20. Wrapper Classes
-21. Association
-22. Record Class
-23. Sealed Class And Interface
-24. Local Class
-25. Anonymous Inner Class
+18. Generic Class
+19. Wrapper Classes
+20. Association
+21. Record Class
+22. Sealed Class And Interface
+23. Local Class
+24. Anonymous Inner Class
 
 ### 4. [<span style="color: #e76f00;">Testing</span>](src/_1_learn/_1_4_testing)
 
@@ -325,22 +324,50 @@
 
 ### 10. [<span style="color: #e76f00;">OOD (Object Oriented Design)</span>](src/_1_learn/_1_10_object_oriented_design)
 
-### <span style="font-style: italic; color: #e76f00;">~~11. Design Patterns~~</span>
+### 11. [<span style="color: #e76f00;">SOLID Principles</span>](src/_1_learn/_1_11_solid_principles)
 
-- ~~**MVVM (Model View ViewModel)**~~
-- ~~**MVC (Model View Model)**~~
-- ~~**MVP (Model View Presenter)**~~
-- ~~**MVI (Model View Intent)**~~
+- <span style="color: #e76f00;">S</span> = SRP (Single Responsibility Principle)
+- <span style="color: #e76f00;">O</span> = OCP (Open/Closed Principle)
+- <span style="color: #e76f00;">L</span> = LSP (Liskov Substitution Principle)
+- <span style="color: #e76f00;">I</span> = ISP (Interface Segregation Principle)
+- <span style="color: #e76f00;">D</span> = DIP (Dependency Inversion Principle)
 
-### <span style="font-style: italic; color: #e76f00;">~~12. SOLID Principles~~</span>
+### 12. ~~[<span style="color: #e76f00;">Design Patterns</span>](src/_1_learn/_1_12_design_patterns)~~
 
-- **<span style="color: #e76f00;">S</span> = ~~SRP (Single Responsibility Principle)~~**
-- **<span style="color: #e76f00;">O</span> = ~~OCP (Open/Closed Principle)~~**
-- **<span style="color: #e76f00;">L</span> = ~~LSP (Liskov Substitution Principle)~~**
-- **<span style="color: #e76f00;">I</span> = ~~ISP (Interface Segregation Principle)~~**
-- **<span style="color: #e76f00;">D</span> = ~~DIP (Dependency Inversion Principle)~~**
+1. ~~Creational Design Patterns~~
+    1. ~~Singleton Pattern~~
+    2. ~~Factory Method Pattern~~
+    3. ~~Abstract Factory Pattern~~
+    4. ~~Builder Pattern~~
+    5. ~~Prototype Pattern~~
+2. ~~Structural Design Patterns~~
+    1. ~~Adapter Pattern~~
+    2. ~~Bridge Pattern~~
+    3. ~~Composite Pattern~~
+    4. ~~Decorator Pattern~~
+    5. ~~Facade Pattern~~
+    6. ~~Proxy Pattern~~
+    7. ~~Flyweight Pattern~~
+3. ~~Behavioral Design Pattern~~
+    1. ~~Observer Pattern~~
+    2. ~~Strategy Pattern~~
+    3. ~~State Pattern~~
+    4. ~~Command Pattern~~
+    5. ~~Chain of Responsibility~~
+    6. ~~Template Pattern~~
+    7. ~~Interpreter Pattern~~
+    8. ~~Visitor Pattern~~
+    9. ~~Mediator Pattern~~
+    10. ~~Memento Pattern~~
 
-### <span style="font-style: italic; color: #e76f00;">~~13. Best Practices~~</span>
+### 13. ~~[<span style="color: #e76f00;">Architectural Patterns</span>](src/_1_learn/_1_13_architectural_patterns)~~
+
+1. ~~MVVM (Model View ViewModel)~~
+2. ~~MVC (Model View Model)~~
+3. ~~MVP (Model View Presenter)~~
+4. ~~MVI (Model View Intent)~~
+
+### 14. ~~[<span style="color: #e76f00;">Best Practices</span>](src/_1_learn/_1_14_best_practices)~~
 
 ---
 
