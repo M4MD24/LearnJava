@@ -8,19 +8,11 @@ class Main {
         Circle anotherCircle = circle.clone();
 
         System.out.println("Original Circle:");
-        printCircleInformation(circle);
-        System.out.println("=".repeat(20));
-        System.out.println("Copy of Circle:");
-        printCircleInformation(anotherCircle);
-    }
+        circle.printInformation();
 
-    private static void printCircleInformation(final Circle CIRCLE) {
-        System.out.printf("""
-                        Radius: %f
-                        Color: %s
-                        """,
-                CIRCLE.radius,
-                CIRCLE.color
-        );
+        System.out.println("=".repeat(30));
+
+        System.out.println("Copy of Circle:");
+        anotherCircle.printInformation();
     }
 }

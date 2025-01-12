@@ -19,4 +19,16 @@ class Rectangle extends Shape {
     public Rectangle clone() {
         return new Rectangle(this);
     }
+
+    @Override
+    public void printInformation() {
+        super.printInformation();
+        System.out.printf("""
+                        Width: %f
+                        Height: %f
+                        """,
+                width,
+                height
+        );
+    }
 }

@@ -13,4 +13,12 @@ abstract class Shape {
     }
 
     public abstract Shape clone();
+
+    public void printInformation() {
+        System.out.printf("""
+                        Color: %s
+                        """,
+                color
+        );
+    }
 }

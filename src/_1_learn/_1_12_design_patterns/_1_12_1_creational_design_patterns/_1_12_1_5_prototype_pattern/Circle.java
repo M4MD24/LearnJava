@@ -17,4 +17,14 @@ class Circle extends Shape {
     public Circle clone() {
         return new Circle(this);
     }
+
+    @Override
+    public void printInformation() {
+        super.printInformation();
+        System.out.printf("""
+                        Radius: %f
+                        """,
+                radius
+        );
+    }
 }
