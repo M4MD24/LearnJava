@@ -332,14 +332,14 @@
 - <span style="color: #e76f00;">I</span> = ISP (Interface Segregation Principle)
 - <span style="color: #e76f00;">D</span> = DIP (Dependency Inversion Principle)
 
-### 12. ~~[<span style="color: #e76f00;">Design Patterns</span>](src/_1_learn/_1_12_design_patterns)~~
+### 12. [<span style="color: #e76f00;">Design Patterns</span>](src/_1_learn/_1_12_design_patterns)
 
-1. ~~Creational Design Patterns~~
-    1. ~~Singleton Pattern~~
-    2. ~~Factory Method Pattern~~
-    3. ~~Abstract Factory Pattern~~
-    4. ~~Builder Pattern~~
-    5. ~~Prototype Pattern~~
+1. Creational Design Patterns
+    1. Singleton Pattern
+    2. Factory Method Pattern
+    3. Abstract Factory Pattern
+    4. Builder Pattern
+    5. Prototype Pattern
 2. ~~Structural Design Patterns~~
     1. ~~Adapter Pattern~~
     2. ~~Bridge Pattern~~
@@ -348,7 +348,7 @@
     5. ~~Facade Pattern~~
     6. ~~Proxy Pattern~~
     7. ~~Flyweight Pattern~~
-3. ~~Behavioral Design Pattern~~
+3. ~~Behavioral Design Patterns~~
     1. ~~Observer Pattern~~
     2. ~~Strategy Pattern~~
     3. ~~State Pattern~~
@@ -526,7 +526,8 @@
 <li><a style="color: #e76f00;" href="https://github.com/M3MD69/LearnJSON">Learn JSON Repository</a></li>
 <li><a style="color: #e76f00;" href="https://github.com/M3MD69/LearnSQL">Learn SQL Repository</a></li>
 <li><a style="color: #e76f00;" href="https://github.com/jwtk/jjwt">JJWT Repository</a></li>
-<li><a style="color: #e76f00;" href="https://github.com/m3md69/">Learn Mermaid</a></li>
+<li><a style="color: #e76f00;" href="https://github.com/m3md69">Learn Mermaid</a></li>
+<li><a style="color: #e76f00;" href="https://refactoring.guru">Refactoring Guru</a></li>
 </ul>
 
 #### Books

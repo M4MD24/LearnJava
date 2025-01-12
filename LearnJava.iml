@@ -20,6 +20,6 @@
     <orderEntry type="library" exported="" name="jackson" level="project" />
     <orderEntry type="library" exported="" name="sqlite" level="project" />
     <orderEntry type="library" exported="" name="hsqldb" level="project" />
-    <orderEntry type="library" name="jjwt" level="project" />
+    <orderEntry type="library" exported="" name="jjwt" level="project" />
   </component>
 </module>
