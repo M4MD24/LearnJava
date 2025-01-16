@@ -33,7 +33,7 @@
 
 ## <span style="font-style: italic; color: #e76f00;">Tips for search important comments</span>
 
-- For Search in Intellij IDEA `CTRL + Shift + F`
+- For Search in Intellij IDEA `CTRL + Shift + F`, Select (In Project Option), and:
 
     - Search `! */` for **<span style="color: #e76f00;">Advices, Tips and Errors</span>**
     - Search `. */` for **<span style="color: #e76f00;">Definitions</span>**
@@ -340,14 +340,14 @@
     3. Abstract Factory Pattern
     4. Builder Pattern
     5. Prototype Pattern
-2. ~~Structural Design Patterns~~
-    1. ~~Adapter Pattern~~
-    2. ~~Bridge Pattern~~
-    3. ~~Composite Pattern~~
-    4. ~~Decorator Pattern~~
-    5. ~~Facade Pattern~~
-    6. ~~Proxy Pattern~~
-    7. ~~Flyweight Pattern~~
+2. Structural Design Patterns
+    1. Adapter Pattern
+    2. Bridge Pattern
+    3. Composite Pattern
+    4. Decorator Pattern
+    5. Facade Pattern
+    6. Proxy Pattern
+    7. Flyweight Pattern
 3. ~~Behavioral Design Patterns~~
     1. ~~Observer Pattern~~
     2. ~~Strategy Pattern~~

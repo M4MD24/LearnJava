@@ -16,4 +16,3 @@ class Rectangle {
         return width * height;
     }
 }
-

@@ -36,8 +36,7 @@ class Employee {
     }
 }
 
-class GFG {
-
+class AssociationExample {
     public static void main(final String[] PARAMETERS) {
 
         Bank bank = new Bank("ICICI");

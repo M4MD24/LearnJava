@@ -5,4 +5,3 @@ interface Worker {
 
     void eat();
 }
-
