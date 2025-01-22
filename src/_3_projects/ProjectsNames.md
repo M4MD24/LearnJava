@@ -40,9 +40,7 @@
 ## Weather App
 
 - [ ] Display Current Weather
-- [ ] Forecast Weather
 - [ ] Save Favorite Locations
-- [ ] Provide Weather Alerts
 
 ## Expense Tracker
 

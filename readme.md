@@ -246,12 +246,12 @@
     18. Sleep
     19. Stooge
     20. Tim
-3. ~~**Greedy**~~
-    1. ~~**Ford Fulkerson**~~
-    2. ~~**Dijkstra**~~
-    3. ~~**Kruskal**~~
-    4. ~~**Prim**~~
-    5. ~~**Huffman**~~
+3. ~~Greedy~~
+    1. ~~Ford Fulkerson~~
+    2. ~~Dijkstra~~
+    3. ~~Kruskal~~
+    4. ~~Prim~~
+    5. ~~Huffman~~
 4. Encryption & Decryption
     1. AES (Advanced Encryption Standard)
     2. RSA (Rivest-Shamir-Adleman)
@@ -348,17 +348,25 @@
     5. Facade Pattern
     6. Proxy Pattern
     7. Flyweight Pattern
-3. ~~Behavioral Design Patterns~~
-    1. ~~Observer Pattern~~
-    2. ~~Strategy Pattern~~
-    3. ~~State Pattern~~
-    4. ~~Command Pattern~~
-    5. ~~Chain of Responsibility~~
-    6. ~~Template Pattern~~
-    7. ~~Interpreter Pattern~~
-    8. ~~Visitor Pattern~~
-    9. ~~Mediator Pattern~~
-    10. ~~Memento Pattern~~
+3. Behavioral Design Patterns
+    1. Observer Pattern
+    2. Strategy Pattern
+    3. State Pattern
+    4. Command Pattern
+    5. Chain of Responsibility Pattern
+    6. Template Pattern
+    7. Interpreter Pattern
+    8. Visitor Pattern
+    9. Mediator Pattern
+    10. Memento Pattern
+    11. Iterator Pattern
+4. ~~Anti-Patterns~~
+    1. ~~Spaghetti Code Pattern~~
+    2. ~~Golden Hammer Pattern~~
+    3. ~~Boat Anchor Pattern~~
+    4. ~~Dead Code Pattern~~
+    5. ~~Mastermind Class and Object Pattern~~
+    6. ~~Copy and Paste Programming Pattern~~
 
 ### 13. ~~[<span style="color: #e76f00;">Architectural Patterns</span>](src/_1_learn/_1_13_architectural_patterns)~~
 
@@ -494,10 +502,10 @@
 ### <span>6. <a style="color: #e76f00;" href="https://www.hackerrank.com">HackerRank</a> (64 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://www.hackerrank.com/profile/m3md69">@M3MD69</a>)
 
 1. <a style="color: #e76f00;" href="https://www.hackerrank.com/domains/java">Java</a> (64 Problems)
-2. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Mathematics</a> (0 Problems)~~
-3. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Regex</a> (0 Problems)~~
-4. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Algorithms</a> (0 Problems)~~
-5. ~~<a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Data Structures</a> (0 Problems)~~
+2. ~~<a style="color: #e76f00;" href="">Mathematics</a> (0 Problems)~~
+3. ~~<a style="color: #e76f00;" href="">Regex</a> (0 Problems)~~
+4. ~~<a style="color: #e76f00;" href="">Algorithms</a> (0 Problems)~~
+5. ~~<a style="color: #e76f00;" href="">Data Structures</a> (0 Problems)~~
 
 ---
 
@@ -528,6 +536,7 @@
 <li><a style="color: #e76f00;" href="https://github.com/jwtk/jjwt">JJWT Repository</a></li>
 <li><a style="color: #e76f00;" href="https://github.com/m3md69">Learn Mermaid</a></li>
 <li><a style="color: #e76f00;" href="https://refactoring.guru">Refactoring Guru</a></li>
+<li><a style="color: #e76f00;" href="https://sourcemaking.com">Source Making</a></li>
 </ul>
 
 #### Books
