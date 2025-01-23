@@ -360,13 +360,13 @@
     9. Mediator Pattern
     10. Memento Pattern
     11. Iterator Pattern
-4. ~~Anti-Patterns~~
-    1. ~~Spaghetti Code Pattern~~
-    2. ~~Golden Hammer Pattern~~
-    3. ~~Boat Anchor Pattern~~
-    4. ~~Dead Code Pattern~~
-    5. ~~Mastermind Class and Object Pattern~~
-    6. ~~Copy and Paste Programming Pattern~~
+4. Anti-Patterns
+    1. Spaghetti Code Pattern
+    2. Golden Hammer Pattern
+    3. Boat Anchor Pattern
+    4. Dead Code Pattern
+    5. Mastermind Class and Object Pattern
+    6. Copy and Paste Programming Pattern
 
 ### 13. ~~[<span style="color: #e76f00;">Architectural Patterns</span>](src/_1_learn/_1_13_architectural_patterns)~~
 
