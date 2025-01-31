@@ -17,7 +17,7 @@ public class Question6 {
                     45_000)
     };
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         EMPLOYEES[1].updateSalary(40_000);
         EMPLOYEES[1].raiseSalary(1.1);
         for (int index = 0; index < EMPLOYEES.length; index++) {

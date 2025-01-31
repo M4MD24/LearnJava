@@ -15,7 +15,7 @@ package _2_solve._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_1_
  */
 
 public class Question2 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final double INCH_VALUE = 1000;
         System.out.printf("Input a value for inch: %f", INCH_VALUE);
         System.out.printf("%f inch is %f meters", INCH_VALUE, INCH_VALUE * 0.0254);

@@ -18,7 +18,7 @@ package _2_solve._2_2_w3resource._2_2_10_string_and_input_and_output._2_2_10_1_s
  */
 
 public class Question6 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String FIRST_TEXT = "Nullexia 1",
                 SECOND_TEXT = "nullexia 2";
         System.out.print("First text is " + getCompareBetweenTwoTexts(FIRST_TEXT, SECOND_TEXT) + " second text");

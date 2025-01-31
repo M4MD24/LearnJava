@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 
 public class Question1 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final File DIRECTORY = new File("src/_2_solving/_2_2_w3resource/_2_2_10_string_and_input_and_output/_2_2_10_2_input_and_output/_2_2_10_2_1");
         final String[] LIST_OF_FOLDERS_AND_FILES = DIRECTORY.list();
         System.out.print(Arrays.toString(LIST_OF_FOLDERS_AND_FILES));

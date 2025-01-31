@@ -3,7 +3,7 @@ package _1_learn._1_3_object_oriented_programming._1_3_19_wrapper_classes;
 import java.util.Arrays;
 
 public class WrapperObjectExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         /* String Sizes by Some Type! */
         /* String -> String (
          *      If String length = 1

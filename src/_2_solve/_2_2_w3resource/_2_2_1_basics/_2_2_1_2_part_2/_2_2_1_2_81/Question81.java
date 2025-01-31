@@ -21,7 +21,7 @@ import java.util.Collections;
  */
 
 public class Question81 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("Input an integer created by 8 numbers from 0 to 9:");
         final int NUMBER = 56789432;
         System.out.println(NUMBER);

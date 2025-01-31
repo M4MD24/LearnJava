@@ -11,7 +11,7 @@ import java.util.Set;
 public class Question8 {
     private static final HashSet<String> COLORS = new HashSet<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         final Set<String> COLORS_AS_TREE_SET = new HashSet<>(COLORS);
         System.out.print(COLORS_AS_TREE_SET);

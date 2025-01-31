@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class Question142 {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print("First String: ");
         final String STRING_1 = INPUT.nextLine();
         System.out.print("Second String: ");

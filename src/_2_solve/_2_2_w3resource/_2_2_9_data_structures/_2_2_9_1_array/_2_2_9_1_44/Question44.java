@@ -9,7 +9,7 @@ package _2_solve._2_2_w3resource._2_2_9_data_structures._2_2_9_1_array._2_2_9_1_
  */
 
 public class Question44 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {2, 4, 2, 3};
         System.out.print(getCountOfPossibleTriangles(NUMBERS));
     }

@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
  */
 
 public class Question47 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy/MM/dd hh:mm:ss:SSS");
         System.out.printf("Now: %s", simpleDateFormat.format(System.currentTimeMillis()));
     }

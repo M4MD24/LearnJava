@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
  */
 
 public class Question5 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Integer[] FIRST_NUMBERS = {1, 3, 5, 7, 9},
                 SECOND_NUMBERS = {2, 4, 6, 8, 10};
         System.out.print(Arrays.toString(getElementsAfterMerge(FIRST_NUMBERS, SECOND_NUMBERS)));

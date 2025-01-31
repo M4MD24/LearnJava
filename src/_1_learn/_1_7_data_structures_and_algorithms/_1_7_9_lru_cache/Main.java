@@ -1,7 +1,7 @@
 package _1_learn._1_7_data_structures_and_algorithms._1_7_9_lru_cache;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         LRUCacheExample<Integer, Integer> LRU_CACHE = new LRUCacheExample<>(2);
         LRU_CACHE.put(1, 1);       // cache is {1=1}
         LRU_CACHE.put(2, 2);       // cache is {1=1, 2=2}

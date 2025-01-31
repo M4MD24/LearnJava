@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ArrayListLoop {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final ArrayList<Integer> NUMBERS = new ArrayList<>(List.of(1, 5, 2, 3));
         printElements(NUMBERS);
     }

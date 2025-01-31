@@ -8,7 +8,7 @@ import java.util.Stack;
  */
 
 public class Question15 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Stack<Integer> NUMBERS = new Stack<>();
         final int NTH_NUMBER = 4;
         addNumbers(NUMBERS);

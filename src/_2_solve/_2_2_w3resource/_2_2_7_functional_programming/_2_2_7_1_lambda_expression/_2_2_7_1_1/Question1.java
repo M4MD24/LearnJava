@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_7_functional_programming._2_2_7_1_lambda_e
  */
 
 public class Question1 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Calculate SUM_OF_TWO_NUMBERS = Integer::sum;
         System.out.print(SUM_OF_TWO_NUMBERS.sum(1, 5));
     }

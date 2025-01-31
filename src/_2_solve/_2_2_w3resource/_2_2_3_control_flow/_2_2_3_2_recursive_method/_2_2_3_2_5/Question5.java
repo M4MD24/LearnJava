@@ -9,7 +9,7 @@ package _2_solve._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._
  */
 
 public class Question5 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final float BASE = 3.5F;
         final int POWER = 4;
         System.out.printf("%f raised to the power of %d is: %f",

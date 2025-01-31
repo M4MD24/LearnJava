@@ -3,7 +3,7 @@ package _1_learn._1_7_data_structures_and_algorithms._1_7_8_heap._1_7_8_1_normal
 public class Main {
     private static final NormalHeap ELEMENTS = new NormalHeap();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addElements();
 
         System.out.println("All elements:");

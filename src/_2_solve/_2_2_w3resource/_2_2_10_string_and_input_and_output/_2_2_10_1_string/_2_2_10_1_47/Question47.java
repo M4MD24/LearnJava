@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  */
 
 public class Question47 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(rearrangeTextBySpecificDistance(
                 "accessories",
                 4

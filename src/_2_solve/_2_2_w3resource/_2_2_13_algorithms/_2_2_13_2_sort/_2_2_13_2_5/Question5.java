@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question5 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {45, 7, 20, 20, 40, 25, 40, 23, -2};
         System.out.println("Original Numbers: " + Arrays.toString(NUMBERS));
         heapSort(NUMBERS);

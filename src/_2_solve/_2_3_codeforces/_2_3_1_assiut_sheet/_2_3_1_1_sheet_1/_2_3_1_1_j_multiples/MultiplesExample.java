@@ -39,7 +39,7 @@ public class MultiplesExample {
             NUMBER_2 = Long.parseLong(INPUT.next());
     private static final String CONDITION = (NUMBER_1 % NUMBER_2 == 0 || NUMBER_2 % NUMBER_1 == 0) ? "Multiples" : "No Multiples";
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(CONDITION);
     }
 }

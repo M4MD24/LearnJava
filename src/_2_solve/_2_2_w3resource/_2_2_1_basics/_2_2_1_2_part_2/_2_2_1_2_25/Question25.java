@@ -17,7 +17,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_25;
 public class Question25 {
     private static final LinkedList<Integer> ORIGINAL_NODES = new LinkedList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         ORIGINAL_NODES.showAll();
         System.out.println();

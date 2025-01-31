@@ -50,7 +50,7 @@ class AndhraPradesh extends Region {
 }
 
 public class CovariantReturnTypes {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = new Scanner(System.in).nextLine();
         switch (TEXT) {
             case "WestBengal" -> System.out.print(new WestBengal().yourNationalFlower().whatsYourName());

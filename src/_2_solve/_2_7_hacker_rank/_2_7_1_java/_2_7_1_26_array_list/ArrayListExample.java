@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class ArrayListExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         executeQueries(getRows());
     }
 

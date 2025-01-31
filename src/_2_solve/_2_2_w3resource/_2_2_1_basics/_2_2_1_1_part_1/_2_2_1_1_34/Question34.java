@@ -20,7 +20,7 @@ import java.util.Scanner;
  */
 
 public class Question34 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Input the length of a side of the hexagon: ");

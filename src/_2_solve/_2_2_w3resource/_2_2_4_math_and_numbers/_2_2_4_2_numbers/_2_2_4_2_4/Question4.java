@@ -18,7 +18,7 @@ package _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4
  * 8 Kaprekar numbers.
  */
 public class Question4 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("Paprika Numbers less than 1000:");
         printKaprekarNumbers();
     }

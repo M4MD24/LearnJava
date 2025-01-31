@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class CourseSchedule2 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(Arrays.toString(findOrder(
                 4,
                 new int[][]{

@@ -12,7 +12,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_1_con
  */
 
 public class Question8 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         new Point(1, 2).printValues();
         System.out.println("\n");
         new Point(3.456D, 4.567).printValues();

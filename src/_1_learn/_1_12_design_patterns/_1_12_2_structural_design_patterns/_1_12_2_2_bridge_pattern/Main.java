@@ -7,7 +7,7 @@ import _1_learn._1_12_design_patterns._1_12_2_structural_design_patterns._1_12_2
 import _1_learn._1_12_design_patterns._1_12_2_structural_design_patterns._1_12_2_2_bridge_pattern.implementations.VeggiePizza;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Restaurant americanRestaurant = new EgyptianRestaurant(new PepperoniPizza());
         americanRestaurant.deliver();
 

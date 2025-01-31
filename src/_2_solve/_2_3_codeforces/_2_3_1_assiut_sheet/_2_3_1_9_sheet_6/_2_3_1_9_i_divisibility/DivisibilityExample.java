@@ -36,7 +36,7 @@ public class DivisibilityExample {
     private static long number1 = INPUT.nextLong(),
             number2 = INPUT.nextLong();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         if (number1 > number2) swap();
         System.out.print(summationOfAllNumbersFromMinimumNumberToMaximumNumberInclusiveAreDivisibleByTargetNumber(number1, number2, INPUT.nextLong()));
     }

@@ -6,7 +6,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_2_medium._2_6_1_2_92_r
  */
 
 public class ReverseLinkedList2 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final ListNode LIST = new ListNode(1);
         LIST.next = new ListNode(2);
         LIST.next.next = new ListNode(3);

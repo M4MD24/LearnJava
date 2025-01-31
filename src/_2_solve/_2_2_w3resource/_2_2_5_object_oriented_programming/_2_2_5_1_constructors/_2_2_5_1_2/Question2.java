@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_1_con
  */
 
 public class Question2 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         new Dog("Name", "Color").printInformation();
     }
 }

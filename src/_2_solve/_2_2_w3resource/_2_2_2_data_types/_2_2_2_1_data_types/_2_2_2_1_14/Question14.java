@@ -29,7 +29,7 @@ import java.math.BigInteger;
  */
 
 public class Question14 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final BigInteger NUMBER = BigInteger.valueOf(Long.MAX_VALUE);
         System.out.printf("BigInteger value: %d\n", NUMBER);
         System.out.printf("Convert the said BigInteger to an long value: %d\n", NUMBER.longValue());

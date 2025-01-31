@@ -8,7 +8,7 @@ import java.util.Calendar;
  */
 
 public class Question3 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Calendar CALENDAR = Calendar.getInstance();
         printMaximumDate(CALENDAR);
     }

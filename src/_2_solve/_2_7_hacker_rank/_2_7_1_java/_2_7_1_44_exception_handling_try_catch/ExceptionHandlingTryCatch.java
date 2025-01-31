@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 
 public class ExceptionHandlingTryCatch {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         try (final Scanner INPUT = new Scanner(System.in)) {
             System.out.print(INPUT.nextInt() / INPUT.nextInt());
         } catch (InputMismatchException e) {

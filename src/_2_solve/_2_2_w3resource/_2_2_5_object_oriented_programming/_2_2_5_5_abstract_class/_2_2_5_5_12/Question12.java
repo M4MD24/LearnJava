@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_5_abs
  */
 
 public class Question12 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final GeometricShape TRIANGLE = new Triangle(3, 4, 5);
         System.out.printf("■ Triangle:%nPerimeter: %f%nArea: %f",
                 TRIANGLE.perimeter(),

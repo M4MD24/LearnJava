@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_1_con
  */
 
 public class Question10 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Singleton SINGLETON_1 = Singleton.getInstance(),
                 SINGLETON_2 = Singleton.getInstance();
         System.out.print((SINGLETON_1 == SINGLETON_2)

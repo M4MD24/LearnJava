@@ -7,7 +7,7 @@ import _1_learn._1_12_design_patterns._1_12_3_behavioral_design_patterns._1_12_3
 import _1_learn._1_12_design_patterns._1_12_3_behavioral_design_patterns._1_12_3_4_command_pattern.components.RemoteControl;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Light light = new Light();
         Command turnOn = new TurnOnCommand(light);
         Command turnOff = new TurnOffCommand(light);

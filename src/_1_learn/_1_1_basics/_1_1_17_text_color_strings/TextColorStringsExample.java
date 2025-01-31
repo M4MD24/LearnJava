@@ -47,7 +47,7 @@ public class TextColorStringsExample {
             WHITE_BACKGROUND_TEXT_COLOR = "\u001B[47m";
     private static final String NORMAL_TEXT_COLOR_AND_BACKGROUND = "\u001B[0m";
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         printTextColors();
         printTextBackgroundColors();
         printTextBackgroundColorsAndColors();

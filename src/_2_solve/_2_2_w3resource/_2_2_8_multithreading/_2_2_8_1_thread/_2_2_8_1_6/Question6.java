@@ -58,7 +58,7 @@ public class Question6 {
         System.out.println("Crawling completed.");
     }
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String[] SEED_URLS = {
                 "https://m3md69.github.io/NULLEXIA"
         };

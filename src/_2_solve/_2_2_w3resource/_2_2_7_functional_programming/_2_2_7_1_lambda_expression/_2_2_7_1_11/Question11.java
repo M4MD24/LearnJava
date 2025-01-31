@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question11 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<Integer> NUMBERS = Arrays.asList(10, 22, 30, 40, 55);
         final int MAXIMUM_NUMBER_OF_NUMBERS = NUMBERS
                 .stream()

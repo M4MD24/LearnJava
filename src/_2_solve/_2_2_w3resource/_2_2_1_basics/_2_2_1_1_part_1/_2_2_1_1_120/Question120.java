@@ -16,7 +16,7 @@ public class Question120 {
 
     private static boolean status = false;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         displayMatrix();
         System.out.print(searchElement(elementTarget));
     }

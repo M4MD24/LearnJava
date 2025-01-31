@@ -29,7 +29,7 @@ import java.util.Scanner;
  */
 
 public class WinterSaleExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         float DISCOUNT = INPUT.nextInt() * 0.01F,
                 PRICE_AFTER_DISCOUNT = INPUT.nextInt(),

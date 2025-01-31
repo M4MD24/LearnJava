@@ -13,7 +13,7 @@ package _2_solve._2_7_hacker_rank._2_7_1_java._2_7_1_1_welcome_to_java;
  */
 
 public class WelcomeToJava {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print("Hello, World.\nHello, Java.");
     }
 }

@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_10_string_and_input_and_output._2_2_10_1_s
  */
 
 public class Question92 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(getTextAfterRemoveSpecificSubTexts("____Nu__llexia_ __for_ _Pr_og__ra_mm__ing", "_"));
     }
 

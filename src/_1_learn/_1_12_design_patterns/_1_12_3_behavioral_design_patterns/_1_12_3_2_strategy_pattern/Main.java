@@ -5,7 +5,7 @@ import _1_learn._1_12_design_patterns._1_12_3_behavioral_design_patterns._1_12_3
 import _1_learn._1_12_design_patterns._1_12_3_behavioral_design_patterns._1_12_3_2_strategy_pattern.strategy.sort.QuickSortStrategy;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {5, 2, 9, 1, 5};
 
         SortingContext sortingContext = new SortingContext(new BubbleSortStrategy());

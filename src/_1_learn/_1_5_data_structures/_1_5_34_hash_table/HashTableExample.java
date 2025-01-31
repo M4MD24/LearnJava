@@ -5,7 +5,7 @@ import java.util.Hashtable;
 public class HashTableExample {
     static final Hashtable<Integer, String> HASHTABLE = new Hashtable<>(10);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         putTest();
         showAllTest();
     }

@@ -8,7 +8,7 @@ import java.util.concurrent.Exchanger;
  */
 
 public class Question11 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Exchanger<String> EXCHANGER = new Exchanger<>();
         final int LIMIT = 4;
         for (int index = 0; index < LIMIT; index++)

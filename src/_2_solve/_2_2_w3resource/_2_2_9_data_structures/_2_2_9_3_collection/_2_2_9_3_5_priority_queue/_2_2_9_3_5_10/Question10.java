@@ -11,7 +11,7 @@ import java.util.PriorityQueue;
 public class Question10 {
     private static final PriorityQueue<String> COLORS = new PriorityQueue<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         final ArrayList<String> COLORS_AS_ARRAY_LIST = new ArrayList<>(COLORS);
         System.out.print(COLORS_AS_ARRAY_LIST);

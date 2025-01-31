@@ -26,7 +26,7 @@ import java.util.List;
  */
 
 public class SummaryRanges {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {0, 1, 2, 4, 5, 7, 9};
         System.out.print(summaryRanges(NUMBERS));
     }

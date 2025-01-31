@@ -1,7 +1,7 @@
 package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_25_string_length_comparison;
 
 public class StringLengthComparisonExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(getStringLengthComparison(new String[]{"A", "B"}));
         System.out.println(getStringLengthComparison(new String[]{"Khalid", "Sultan", "AlDana", "Johrah", "Ghadah"}));
         System.out.println(getStringLengthComparison(new String[]{"Satr", "CoderHub"}));

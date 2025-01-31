@@ -9,7 +9,7 @@ import java.time.temporal.TemporalAdjusters;
  */
 
 public class Question10 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final LocalDate LOCAL_TODAY = LocalDate.now(),
                 FIRST_DAY_OF_MONTH = LOCAL_TODAY.with(TemporalAdjusters.firstDayOfMonth()),
                 LAST_DAY_OF_MONTH = LOCAL_TODAY.with(TemporalAdjusters.lastDayOfMonth());

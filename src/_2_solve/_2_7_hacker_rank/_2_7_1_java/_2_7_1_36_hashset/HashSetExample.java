@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 
 public class HashSetExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         int countOfElements = INPUT.nextInt();
         final HashSet<String> PAIRS = new HashSet<>();

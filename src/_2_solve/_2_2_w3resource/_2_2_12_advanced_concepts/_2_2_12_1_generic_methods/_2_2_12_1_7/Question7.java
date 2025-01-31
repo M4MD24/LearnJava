@@ -8,7 +8,7 @@ import java.util.Map;
  */
 
 public class Question7 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Map<String, Integer> sampleMap = Map.of(
                 "One", 1,
                 "Two", 2,

@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question26 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 0, 2, 3, 0, 4, 5, 0, 6, 7, 8, 9};
         System.out.println("Original Numbers: " + Arrays.toString(NUMBERS));
         moveAllZerosToEnd(NUMBERS);

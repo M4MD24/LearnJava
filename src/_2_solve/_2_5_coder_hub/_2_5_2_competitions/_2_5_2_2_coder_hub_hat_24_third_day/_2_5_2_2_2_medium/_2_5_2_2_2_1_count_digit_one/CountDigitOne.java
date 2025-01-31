@@ -1,7 +1,7 @@
 package _2_solve._2_5_coder_hub._2_5_2_competitions._2_5_2_2_coder_hub_hat_24_third_day._2_5_2_2_2_medium._2_5_2_2_2_1_count_digit_one;
 
 public class CountDigitOne {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(countDigitOne(13));
         System.out.println(countDigitOne(20));
         System.out.println(countDigitOne(100));

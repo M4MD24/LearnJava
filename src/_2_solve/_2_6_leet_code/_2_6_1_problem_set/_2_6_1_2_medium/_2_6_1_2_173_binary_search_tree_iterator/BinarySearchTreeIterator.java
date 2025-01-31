@@ -19,7 +19,7 @@ import java.util.Stack;
  */
 
 public class BinarySearchTreeIterator {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final TreeNode ROOT = new TreeNode(7);
         ROOT.left = new TreeNode(3);
         ROOT.right = new TreeNode(15);

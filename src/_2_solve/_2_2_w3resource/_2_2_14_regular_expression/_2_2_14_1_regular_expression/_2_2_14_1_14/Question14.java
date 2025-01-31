@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
  */
 
 public class Question14 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "Nullexia For Programming";
         System.out.print(getCountOfVowels(TEXT));
     }

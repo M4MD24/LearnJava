@@ -16,7 +16,7 @@ import java.util.Stack;
  * </ul>
  */
 public class StackExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         stack();
     }
 

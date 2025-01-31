@@ -45,7 +45,7 @@ public class DistinctNumberExample {
     private static final short LENGTH = INPUT.nextShort();
     private static final HashSet<Short> NUMBERS = new HashSet<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         System.out.print(getCountDistinctNumber());
     }

@@ -28,7 +28,7 @@ import java.util.Stack;
  */
 
 public class SimplifyPath {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String PATH = "/home/";
         System.out.print(simplifyPath(PATH));
     }

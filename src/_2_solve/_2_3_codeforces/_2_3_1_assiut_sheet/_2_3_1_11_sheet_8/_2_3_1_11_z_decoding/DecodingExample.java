@@ -66,7 +66,7 @@ public class DecodingExample {
     private static short length = INPUT.nextShort();
     private static final StringBuffer CURRENT_WORD = new StringBuffer(INPUT.next());
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(modifyAndReturnWord());
     }
 

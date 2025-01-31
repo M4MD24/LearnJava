@@ -14,7 +14,7 @@ package _2_solve._2_2_w3resource._2_2_10_string_and_input_and_output._2_2_10_1_s
  */
 
 public class Question2 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "Nullexia";
         final int TARGET_INDEX = 4;
         System.out.print("The character (unicode point) at position " + TARGET_INDEX + ": " + TEXT.codePointAt(TARGET_INDEX));

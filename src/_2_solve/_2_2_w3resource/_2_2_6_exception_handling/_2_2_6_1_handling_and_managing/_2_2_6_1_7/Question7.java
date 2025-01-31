@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 
 public class Question7 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(isContainVowels(new Scanner(System.in).nextLine())
                 ? "The text does contain vowels!"
                 : new NotContainVowelsException("The text doesn't contain vowels!").getMessage()

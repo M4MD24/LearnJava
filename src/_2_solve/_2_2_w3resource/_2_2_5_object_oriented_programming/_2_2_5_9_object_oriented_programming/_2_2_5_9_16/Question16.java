@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_9_obj
  */
 
 public class Question16 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Shape CIRCLE = new Circle(5);
         System.out.println("Circle Perimeter: " + CIRCLE.calculatingPerimeter());
         System.out.println("Circle Area: " + CIRCLE.calculatingArea());

@@ -19,7 +19,7 @@ import java.util.HashSet;
  */
 
 public class Question61 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 2, 4, 9, 5, 3, 8, 7, 10, 12, 14};
         System.out.println("Original Numbers: " + Arrays.toString(NUMBERS));
         System.out.print("Numbers with every second number is greater than its left and right numbers:\n" + Arrays.toString(rearrangeEverySecondNumberIsGreaterThanLeftAndRightNumbersOfUniqueNumbers(NUMBERS)));

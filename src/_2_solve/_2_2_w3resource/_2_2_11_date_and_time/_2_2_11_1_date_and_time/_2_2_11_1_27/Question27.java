@@ -8,7 +8,7 @@ import java.time.LocalTime;
  */
 
 public class Question27 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(getTimeInformation(LocalTime.now()));
     }
 

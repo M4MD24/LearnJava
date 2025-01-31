@@ -14,7 +14,7 @@ import java.util.Arrays;
  */
 
 public class Question77 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, -2, 5, -4, 3, -6};
         System.out.println("Original numbers: " + Arrays.toString(NUMBERS));
         System.out.print("Check the said array of integers alternates between positive and negative values! " + areAlternatesBetweenPositiveAndNegativeNumbers(NUMBERS));

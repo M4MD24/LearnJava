@@ -19,7 +19,7 @@ import java.util.List;
  */
 
 public class CombinationSam {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(combinationSum(
                 new int[]{2, 3, 6, 7},
                 7

@@ -21,7 +21,7 @@ class Bird extends Animal {
 }
 
 public class Inheritance1 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Bird BIRD = new Bird();
         BIRD.walk();
         BIRD.fly();

@@ -27,7 +27,7 @@ import java.util.Scanner;
  */
 
 public class FactorialDigitsExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         final int VALUE = INPUT.nextInt();
         System.out.printf("Number of digits of %d! is %d", VALUE, getFactorialDigitsLength(VALUE));

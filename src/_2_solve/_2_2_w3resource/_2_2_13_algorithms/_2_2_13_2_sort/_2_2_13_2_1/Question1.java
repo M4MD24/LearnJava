@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 
 public class Question1 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         int[] numbers = {5, 2, 8, 1, 9, 4, 10, 6, 3, 7};
         System.out.print(quickSort(numbers, 0, numbers.length - 1));
     }

@@ -12,7 +12,7 @@ import java.util.Arrays;
  */
 
 public class RotateImage {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[][] MATRIX = {
                 {1, 2, 3},
                 {4, 5, 6},

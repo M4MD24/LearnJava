@@ -10,7 +10,7 @@ import java.util.Map;
  */
 
 public class Question34 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "aaaBBB";
         System.out.print(getSecondMostFrequentCharacter(TEXT));
     }

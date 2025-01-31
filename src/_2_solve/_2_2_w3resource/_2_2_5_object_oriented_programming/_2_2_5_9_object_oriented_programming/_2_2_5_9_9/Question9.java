@@ -13,7 +13,7 @@ import java.util.Locale;
 public class Question9 {
     private static final ArrayList<Employee> EMPLOYEES = new ArrayList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addEmployees();
         printEmployees();
     }

@@ -36,7 +36,7 @@ import java.util.Scanner;
 public class FactorialExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final long LENGTH = INPUT.nextLong();
         printFactorialValues(LENGTH);
     }

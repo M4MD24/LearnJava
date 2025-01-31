@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_42_ad
 import java.util.Arrays;
 
 public class AdjustDatesExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(adjustDates(new int[]{1495, 1309, 1240})));
         System.out.println(Arrays.toString(adjustDates(new int[]{2002, 1010, 2011})));
         System.out.println(Arrays.toString(adjustDates(new int[]{2200, 1122, 1100})));

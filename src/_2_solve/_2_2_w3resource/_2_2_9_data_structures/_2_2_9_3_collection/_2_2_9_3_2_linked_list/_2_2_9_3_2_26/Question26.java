@@ -10,7 +10,7 @@ import java.util.LinkedList;
 public class Question26 {
     private static final LinkedList<String> COLORS_CODES = new LinkedList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addFirstColorsCodes();
         System.out.println("Before Replace: " + COLORS_CODES);
         COLORS_CODES.set(1, "#00ff00".toUpperCase());

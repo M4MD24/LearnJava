@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutionException;
  */
 
 public class Question12 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final ExecutorService EXECUTOR_SERVICE = Executors.newFixedThreadPool(5);
         final Callable<String> CALLABLE_TASK = () -> {
             System.out.println("Task started...");

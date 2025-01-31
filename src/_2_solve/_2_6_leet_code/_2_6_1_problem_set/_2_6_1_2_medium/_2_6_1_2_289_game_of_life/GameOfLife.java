@@ -22,7 +22,7 @@ import java.util.Arrays;
  */
 
 public class GameOfLife {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[][] MATRIX = {
                 {0, 1, 0},
                 {0, 0, 1},

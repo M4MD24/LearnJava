@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_36_fl
 import java.util.Arrays;
 
 public class FlipEvenOddExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(arrayRoot(new int[]{73, 221, 52, 214})));
         System.out.println(Arrays.toString(arrayRoot(new int[]{12, 9, 25, 6, 12, 19})));
         System.out.println(Arrays.toString(arrayRoot(new int[]{1, 23, 46, 2, 4})));

@@ -11,7 +11,7 @@ import java.util.Set;
 public class Question11 {
     private static final HashMap<String, String> COLORS = new HashMap<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         final Set<String> COLORS_CODES = COLORS.keySet();
         System.out.print(COLORS_CODES);

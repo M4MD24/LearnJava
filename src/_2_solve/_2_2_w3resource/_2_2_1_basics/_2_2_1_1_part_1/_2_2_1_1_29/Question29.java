@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Question29 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         int binaryIndex = 1,
                 currentIndex;
         final int[] BINARY_REPRESENTATION = new int[100];

@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_20_cu
 import java.util.Arrays;
 
 public class CumulativeSumExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(geCumulativeSum(new int[]{2, 4, 8})));
         System.out.println(Arrays.toString(geCumulativeSum(new int[]{0, 0, 0})));
         System.out.println(Arrays.toString(geCumulativeSum(new int[]{3, 4, 5})));

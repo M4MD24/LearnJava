@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class Question144 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] ORIGINAL_ARRAY = {1, 4, 6, 7, 6, 2};
         int targetValue = 6,
                 newLength = removeOccurrences(ORIGINAL_ARRAY, targetValue);

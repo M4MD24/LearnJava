@@ -27,7 +27,7 @@ class Soccer extends Sports {
 }
 
 public class MethodOverriding {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Sports SPORTS = new Sports();
         final Soccer SOCCER = new Soccer();
         System.out.println(SPORTS.getName());

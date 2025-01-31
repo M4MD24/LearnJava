@@ -22,7 +22,7 @@ import java.util.Arrays;
  */
 
 public class Question56 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {0, 1, 1, 0, 1, 1, 0, 1, 0, 0};
         System.out.println(Arrays.toString(NUMBERS));
         System.out.print(Arrays.toString(getArrangeZerosToLeftSideAndOnesToRightSide(NUMBERS)));

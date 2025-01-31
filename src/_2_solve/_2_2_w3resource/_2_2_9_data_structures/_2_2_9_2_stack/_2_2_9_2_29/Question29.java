@@ -8,7 +8,7 @@ import _2_solve._2_2_w3resource._2_2_9_data_structures._2_2_9_2_stack._2_2_9_2_2
  */
 
 public class Question29 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final StackAlgorithm<Integer> NUMBERS = new StackAlgorithm<>();
 
         System.out.println("Numbers after add numbers:");

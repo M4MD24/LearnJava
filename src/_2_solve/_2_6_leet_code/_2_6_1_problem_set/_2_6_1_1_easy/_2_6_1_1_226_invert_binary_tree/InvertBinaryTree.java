@@ -6,7 +6,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_1_easy._2_6_1_1_226_in
  */
 
 public class InvertBinaryTree {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final TreeNode HEAD_NODE = new TreeNode(1, new TreeNode(2), new TreeNode(3));
         System.out.print(invertTree(HEAD_NODE));
 

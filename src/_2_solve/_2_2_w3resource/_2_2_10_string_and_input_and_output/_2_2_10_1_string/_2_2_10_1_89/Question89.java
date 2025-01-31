@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
  */
 
 public class Question89 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "1 + 2 + 3 = ?";
         System.out.print(getSumOfNumbersAppearInText(TEXT));
     }

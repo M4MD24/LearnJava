@@ -14,7 +14,7 @@ import java.util.Locale;
 public class Question19 {
     private static final Airport AIRPORT = new Airport();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addReservations();
 
         AIRPORT.printAllReservations();

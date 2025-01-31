@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question1 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String[] NUMBERS_WORDS = {"One", "Second", "Third", "Four", "Five"};
         final Integer[] NUMBERS = {1, 2, 3, 4, 5};
         System.out.print(areSameTypeAndElements(NUMBERS_WORDS, NUMBERS));

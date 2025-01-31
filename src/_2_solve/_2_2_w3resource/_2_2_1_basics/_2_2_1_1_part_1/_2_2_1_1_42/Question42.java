@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class Question42 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Console console;
 
         if ((console = System.console()) != null) {

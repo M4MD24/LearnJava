@@ -16,7 +16,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_2_medium._2_6_1_2_208_
  */
 
 public class Implement_Trie_Prefix_Tree {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Trie TRIE = new Trie();
         TRIE.insert("apple");
         System.out.println(TRIE.search("apple"));

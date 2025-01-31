@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Question19 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print("Input the first number: ");
         final String[][] TEXT = new String[][]{new Scanner(System.in).nextLine().split(" +")};
         System.out.printf("Result: %s", reverseText(TEXT));

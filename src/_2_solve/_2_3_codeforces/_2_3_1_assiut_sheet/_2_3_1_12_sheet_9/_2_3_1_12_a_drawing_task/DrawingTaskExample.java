@@ -61,7 +61,7 @@ public class DrawingTaskExample {
     private static byte countOfLines = INPUT.nextByte();
     private static final char[][] MATRIX = new char[ROWS][COLUMNS];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         initializeMatrix();
         inputValues();
         draw();

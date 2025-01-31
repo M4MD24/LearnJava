@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_34_fi
 import java.util.Arrays;
 
 public class FindPrefixExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(findPrefix(new String[]{"Nouf", "Abdullah"}, "Gh")));
         System.out.println(Arrays.toString(findPrefix(new String[]{"Reassemble", "Remainder", "Room", "Receive"}, "re")));
         System.out.println(Arrays.toString(findPrefix(new String[]{"Compared", "Coding", "Career", "Coderhub", "Cold", "Call"}, "co")));

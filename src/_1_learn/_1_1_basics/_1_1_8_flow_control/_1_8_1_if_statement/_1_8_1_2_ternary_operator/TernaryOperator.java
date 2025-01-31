@@ -1,7 +1,7 @@
 package _1_learn._1_1_basics._1_1_8_flow_control._1_8_1_if_statement._1_8_1_2_ternary_operator;
 
 public class TernaryOperator {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         int number = 5;
         int result = 0;
 

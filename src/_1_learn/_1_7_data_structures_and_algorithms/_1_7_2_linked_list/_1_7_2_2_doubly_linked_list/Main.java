@@ -3,7 +3,7 @@ package _1_learn._1_7_data_structures_and_algorithms._1_7_2_linked_list._1_7_2_2
 public class Main {
     private static final DoublyLinkedList<Integer> LINKED_LIST = new DoublyLinkedList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("■ displayAll() Test");
         displayAll();
 

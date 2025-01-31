@@ -3,7 +3,7 @@ package _1_learn._1_7_data_structures_and_algorithms._1_7_8_heap._1_7_8_2_fibona
 public class Main {
     private static final FibonacciHeap ELEMENTS = new FibonacciHeap();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print("After add elements:");
         addElements();
         ELEMENTS.displayElements();

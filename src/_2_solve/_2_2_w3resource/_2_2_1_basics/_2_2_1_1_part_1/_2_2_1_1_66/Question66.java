@@ -9,7 +9,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_66;
  */
 
 public class Question66 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         int sum = 1,
                 counter = 0,
                 number = 0;

@@ -3,7 +3,7 @@ package _1_learn._1_7_data_structures_and_algorithms._1_7_5_circular_queue;
 public class Main {
     private static final CircularQueueExample<Integer> queue = new CircularQueueExample<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         showAllTest();
 
         enQueueTest();

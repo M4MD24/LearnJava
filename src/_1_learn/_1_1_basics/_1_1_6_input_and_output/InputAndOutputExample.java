@@ -3,7 +3,7 @@ package _1_learn._1_1_basics._1_1_6_input_and_output;
 import java.util.Scanner;
 
 public class InputAndOutputExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
 //        Output
         System.out.print("Salam\n"); // It prints string inside the quotes
 

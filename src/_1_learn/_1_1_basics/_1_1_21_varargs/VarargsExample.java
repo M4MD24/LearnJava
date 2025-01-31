@@ -5,7 +5,7 @@ import java.util.Scanner;
 /* Varargs is like a Array ! */
 
 public class VarargsExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         final int FIRST_NUMBER = INPUT.nextInt(),
                 SECOND_NUMBER = INPUT.nextInt(),

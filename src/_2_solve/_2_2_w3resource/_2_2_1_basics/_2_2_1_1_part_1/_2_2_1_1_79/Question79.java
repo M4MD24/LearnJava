@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 
 public class Question79 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] originalArray = {20, 30, 40}, rotatedArray = new int[originalArray.length];
         System.out.println("Original Array: " + Arrays.toString(originalArray));
         for (int index = 0, rotatedIndex = originalArray.length - 1; index < originalArray.length; index++, rotatedIndex--) rotatedArray[index] = originalArray[rotatedIndex];

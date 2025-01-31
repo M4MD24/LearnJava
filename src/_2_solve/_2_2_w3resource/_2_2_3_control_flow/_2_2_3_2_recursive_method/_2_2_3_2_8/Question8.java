@@ -11,7 +11,7 @@ package _2_solve._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._
 public class Question8 {
     private static final int[] NUMBERS = {10, 20, 30, 40, 20, 60, 20, 80};
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int TARGET_NUMBER = 20;
         System.out.printf("The number of occurrences of %d in the array is: %d",
                 TARGET_NUMBER,

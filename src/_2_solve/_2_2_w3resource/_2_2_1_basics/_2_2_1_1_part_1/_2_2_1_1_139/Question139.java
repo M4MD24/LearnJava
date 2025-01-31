@@ -14,7 +14,7 @@ import java.util.Arrays;
  * </h2>
  */
 public class Question139 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] ORIGINAL_ARRAY = {1, 2, 3, -6, 5, 4};
         System.out.println("Original Array: " + Arrays.toString(ORIGINAL_ARRAY));
         System.out.print("Index of the sub-array of the said array where the sum of numbers is zero: " + getIndexSubArraySaidArrayWhereTheSumNumbersIsZero(ORIGINAL_ARRAY));

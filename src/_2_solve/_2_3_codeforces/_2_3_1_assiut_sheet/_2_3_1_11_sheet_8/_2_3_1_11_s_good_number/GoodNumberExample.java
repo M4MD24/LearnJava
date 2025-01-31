@@ -66,7 +66,7 @@ public class GoodNumberExample {
             sumOfGoodNumbers = 0;
     private static final byte TARGET_NUMBER = INPUT.nextByte();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         System.out.print(sumOfGoodNumbers);
     }

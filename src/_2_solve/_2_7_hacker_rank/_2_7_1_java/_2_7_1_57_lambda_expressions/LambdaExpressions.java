@@ -11,7 +11,7 @@ public class LambdaExpressions {
         boolean check(final int NUMBER);
     }
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         final int COUNT_OF_TEST_CASES = INPUT.nextInt();
         final PerformOperation

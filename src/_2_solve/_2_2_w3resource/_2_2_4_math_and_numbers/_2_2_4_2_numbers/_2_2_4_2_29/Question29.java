@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * </h2>
  */
 public class Question29 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int NUMBER = 25;
         System.out.println("Input an integer: " + NUMBER);
         System.out.print("Is Lucky number? " + isLucky(NUMBER));

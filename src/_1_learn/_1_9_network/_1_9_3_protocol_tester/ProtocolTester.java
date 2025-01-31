@@ -4,7 +4,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class ProtocolTester {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String HOST = "m3md69.github.io";
         final String FILE = "index.html";
         printTestCasesForProtocol(

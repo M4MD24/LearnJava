@@ -1,7 +1,7 @@
 package _1_learn._1_1_basics._1_1_2_primitive_data_types;
 
 public class PrimitiveDataTypes {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         /* Primitive Data Types And Sizes! */
         /* Integer -> byte (1 byte),
          *            short (2 bytes),

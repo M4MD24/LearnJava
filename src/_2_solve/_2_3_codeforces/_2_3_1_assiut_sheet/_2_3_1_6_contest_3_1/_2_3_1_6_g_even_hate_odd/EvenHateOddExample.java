@@ -53,7 +53,7 @@ public class EvenHateOddExample {
     private static int length;
     private static int[] numbers;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         byte countOfTestCases = INPUT.nextByte();
         while (countOfTestCases > 0) {
             inputValues();

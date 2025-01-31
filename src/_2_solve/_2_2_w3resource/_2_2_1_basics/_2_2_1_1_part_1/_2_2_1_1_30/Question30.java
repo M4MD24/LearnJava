@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Question30 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String hexadecimalNumber;
         int decimalNumber;
         int index = 1;

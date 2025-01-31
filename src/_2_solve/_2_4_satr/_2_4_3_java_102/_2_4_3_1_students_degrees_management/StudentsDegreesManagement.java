@@ -5,7 +5,7 @@ public class StudentsDegreesManagement {
     private static final String[] STUDENTS_NAMES = new String[LENGTH];
     private static final int[] STUDENTS_DEGREES = new int[LENGTH];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addData();
         displayData();
     }

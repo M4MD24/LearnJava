@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question24 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 2, 3, 4, 6, 7};
         System.out.print(summationFromOneToTargetNumberInclusive(NUMBERS.length + 1) - Arrays.stream(NUMBERS).sum());
     }

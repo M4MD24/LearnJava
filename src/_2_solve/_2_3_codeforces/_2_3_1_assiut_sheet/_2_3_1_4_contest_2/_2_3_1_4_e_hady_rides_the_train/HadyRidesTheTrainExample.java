@@ -44,7 +44,7 @@ public class HadyRidesTheTrainExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static final long SEAT = INPUT.nextLong();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final long row = SEAT / 4,
                 column = (row % 2 == 0) ? SEAT % 4 : 3 - (SEAT % 4);
         System.out.print(row + " " + column);

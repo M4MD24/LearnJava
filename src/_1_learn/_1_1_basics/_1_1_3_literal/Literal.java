@@ -1,7 +1,7 @@
 package _1_learn._1_1_basics._1_1_3_literal;
 
 public class Literal {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         int hexadecimalValue = 0xF; // (F) In Hexadecimal = 15
         long decimalValue = 15L; // (15) In Decimal = 15
         short octaValue = 017; // (17) In Octa = 15

@@ -1,7 +1,7 @@
 package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_27_search;
 
 public class SearchExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(stringCheck("cloud", "u"));
         System.out.println(stringCheck("school", "o"));
         System.out.println(stringCheck("sofa", "k"));

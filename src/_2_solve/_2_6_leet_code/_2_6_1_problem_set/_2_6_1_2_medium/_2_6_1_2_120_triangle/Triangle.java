@@ -13,7 +13,7 @@ import java.util.List;
  */
 
 public class Triangle {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<List<Integer>> TRIANGLE = List.of(
                 List.of(2),
                 List.of(3, 4),

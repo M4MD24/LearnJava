@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_2_sta
  */
 
 public class Question8 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final BankAccount BANK_ACCOUNT = new BankAccount("0987654321", 123.5132F);
         BankAccount.setBankName("Bank Name");
         BankAccount.setInterestRate(5.4F);

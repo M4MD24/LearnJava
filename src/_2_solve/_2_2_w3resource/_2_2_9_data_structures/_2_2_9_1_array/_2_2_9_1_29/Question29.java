@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question29 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {200, 30, 40, 50};
         final int MINIMUM_NUMBER = Arrays.stream(NUMBERS).min().getAsInt(),
                 MAXIMUM_NUMBER = Arrays.stream(NUMBERS).max().getAsInt();

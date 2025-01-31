@@ -10,7 +10,7 @@ import java.util.Locale;
  */
 
 public class Question12 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Airplane AIRPLANE = new Airplane(
                 "M3-999",
                 "Palestine",

@@ -1,7 +1,7 @@
 package _1_learn._1_12_design_patterns._1_12_2_structural_design_patterns._1_12_2_3_composite_pattern;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         FileSystemComponents[] documents = new FileSystemComponents[]{
                 new File("Document1.txt"),
                 new File("Document2.txt"),

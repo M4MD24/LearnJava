@@ -8,7 +8,7 @@ import java.math.BigDecimal;
  */
 
 public class Question17 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final BigDecimal NUMBER = new BigDecimal("123456789.123456789");
         System.out.print(getCountOfDecimalPlaces(NUMBER));
     }
@@ -18,7 +18,7 @@ public class Question17 {
     }
 
 // >
-    /*public static void main(final String[] PARAMETERS) {
+    /*public static void main(final String[] ARGUMENTS) {
         final Number NUMBER = 123456789.123456789;
         System.out.print(getCountOfDecimalPlaces(NUMBER));
     }

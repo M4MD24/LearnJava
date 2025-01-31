@@ -11,7 +11,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_3_hard._2_6_1_3_4_medi
  */
 
 public class MedianOfTwoSortedArrays {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] FIRST_NUMBERS = {1, 2},
                 SECOND_NUMBERS = {3, 4};
         System.out.print(findMedianSortedArrays(FIRST_NUMBERS, SECOND_NUMBERS));

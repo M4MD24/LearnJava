@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_6_int
  */
 
 public class Question6 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Drawable CIRCLE = new Circle();
         CIRCLE.draw();
         final Drawable RECTANGLE = new Rectangle();

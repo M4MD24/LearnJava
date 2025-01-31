@@ -10,7 +10,7 @@ import java.util.TreeSet;
 public class Question5 {
     private static final TreeSet<String> COLORS = new TreeSet<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         System.out.println("First Color: " + COLORS.first());
         System.out.print("Second Color: " + COLORS.last());

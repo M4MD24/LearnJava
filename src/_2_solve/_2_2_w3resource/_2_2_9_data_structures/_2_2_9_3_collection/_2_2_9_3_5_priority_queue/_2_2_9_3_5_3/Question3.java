@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
 public class Question3 {
     private static final PriorityQueue<String> COLORS = new PriorityQueue<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         final PriorityQueue<String> ANOTHER_COLORS = new PriorityQueue<>();
         ANOTHER_COLORS.addAll(COLORS);

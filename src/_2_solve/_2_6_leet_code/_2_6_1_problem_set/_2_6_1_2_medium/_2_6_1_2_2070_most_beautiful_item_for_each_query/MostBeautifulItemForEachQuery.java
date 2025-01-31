@@ -18,7 +18,7 @@ import java.util.TreeMap;
  */
 
 public class MostBeautifulItemForEachQuery {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(Arrays.toString(maximumBeauty(
                 new int[][]{
                         {1, 2},

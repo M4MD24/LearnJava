@@ -18,7 +18,7 @@ import java.time.YearMonth;
  */
 
 public class Question7 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int MONTH = 2,
                 YEAR = 2016;
         System.out.printf("""

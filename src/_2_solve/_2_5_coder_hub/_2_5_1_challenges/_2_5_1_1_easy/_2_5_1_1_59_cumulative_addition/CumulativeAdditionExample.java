@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_59_cumu
 import java.util.Arrays;
 
 public class CumulativeAdditionExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(getCumulativeAdditionNumbersAndCountOfNumbers(new int[]{5, 1, 2, 4, 9, 10, 200})));
         System.out.println(Arrays.toString(getCumulativeAdditionNumbersAndCountOfNumbers(new int[]{500, 123, 52, 123, 22})));
         System.out.println(Arrays.toString(getCumulativeAdditionNumbersAndCountOfNumbers(new int[]{1, 1, 2, 5, 2, 5, 8})));

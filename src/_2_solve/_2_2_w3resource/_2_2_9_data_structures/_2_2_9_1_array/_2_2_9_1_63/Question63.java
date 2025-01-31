@@ -26,7 +26,7 @@ import java.util.Arrays;
  */
 
 public class Question63 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] FIRST_NUMBERS = {1, 2, 3, 4, 5, 6, 7},
                 SECOND_NUMBERS = {0, 1, 2, 3, 4, 5, 6, 7};
         System.out.println("First Numbers: " + Arrays.toString(FIRST_NUMBERS));

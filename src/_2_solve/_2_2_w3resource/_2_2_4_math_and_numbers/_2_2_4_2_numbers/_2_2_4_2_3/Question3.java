@@ -17,7 +17,7 @@ import java.util.Random;
  */
 
 public class Question3 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int STARTING_NUMBER_OF_RANGE = 5,
                 ENDING_NUMBER_OF_RANGE = 25;
         System.out.printf("""

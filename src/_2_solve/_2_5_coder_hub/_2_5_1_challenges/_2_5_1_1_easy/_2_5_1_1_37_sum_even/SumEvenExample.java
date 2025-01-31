@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_37_sum_
 import java.util.Arrays;
 
 public class SumEvenExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(getLastElement(new int[]{11, 0, 5, 22}));
         System.out.println(getLastElement(new int[]{16, 3, 9, 2}));
         System.out.println(getLastElement(new int[]{12, 65, 42}));

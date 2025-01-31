@@ -28,7 +28,7 @@ package _2_solve._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statem
 public class Question25 {
     private static final int TARGET_NUMBER = 7;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.printf("Enter the maximum number of the rhombus pattern: %d\n", TARGET_NUMBER);
         printNumberRhombus();
     }

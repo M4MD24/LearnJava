@@ -6,7 +6,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_1_easy._2_6_1_1_530_mi
  */
 
 public class MinimumAbsoluteDifferenceInBST {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final TreeNode ROOT = new TreeNode(4);
         ROOT.left = new TreeNode(2);
         ROOT.right = new TreeNode(6);

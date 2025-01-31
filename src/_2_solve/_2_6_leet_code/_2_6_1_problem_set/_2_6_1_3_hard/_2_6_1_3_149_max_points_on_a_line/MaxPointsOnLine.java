@@ -8,7 +8,7 @@ import java.util.HashMap;
  */
 
 public class MaxPointsOnLine {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(maxPoints(
                 new int[][]{
                         {1, 1},

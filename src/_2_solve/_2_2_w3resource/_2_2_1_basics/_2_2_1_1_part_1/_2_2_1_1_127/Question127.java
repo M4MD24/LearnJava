@@ -60,7 +60,7 @@ class BinaryTree<Type extends Comparable<Type>> {
 public class Question127 {
     private static final BinaryTree<Integer> BINARY_TREE = new BinaryTree<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         insert();
         preorder();
     }

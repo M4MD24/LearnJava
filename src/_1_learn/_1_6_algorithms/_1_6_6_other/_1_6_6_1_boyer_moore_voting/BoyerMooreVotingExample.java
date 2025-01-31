@@ -1,7 +1,7 @@
 package _1_learn._1_6_algorithms._1_6_6_other._1_6_6_1_boyer_moore_voting;
 
 public class BoyerMooreVotingExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {3, 2, 3};
         System.out.print(boyerMooreVoting(NUMBERS));
     }

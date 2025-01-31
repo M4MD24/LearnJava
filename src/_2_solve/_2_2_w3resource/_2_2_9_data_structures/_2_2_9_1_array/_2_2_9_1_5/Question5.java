@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question5 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         final int SPECIFIC_NUMBER = 5;
         System.out.println(Arrays.stream(NUMBERS).anyMatch(number -> number == SPECIFIC_NUMBER));

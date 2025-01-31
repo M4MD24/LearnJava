@@ -19,7 +19,7 @@ import java.util.Arrays;
  */
 
 public class Question10 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 4, 17, 7, 25, 3, 100};
         System.out.printf("Original Array:\n%s\n", Arrays.toString(NUMBERS));
         Arrays.sort(NUMBERS);

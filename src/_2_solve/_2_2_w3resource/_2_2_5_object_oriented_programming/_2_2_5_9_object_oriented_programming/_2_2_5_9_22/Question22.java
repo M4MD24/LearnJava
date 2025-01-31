@@ -15,7 +15,7 @@ public class Question22 {
     private static final Customer CUSTOMER = new Customer("Someone1", "Example1@Example.Example");
     private static final LoyalCustomer LOYAL_CUSTOMER = new LoyalCustomer("Someone2", "Example2@Example.Example", 50);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         buyItemsForLoyalCustomer();
         LOYAL_CUSTOMER.printCustomerInformation();
 

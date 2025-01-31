@@ -1,7 +1,7 @@
 package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_3_hard._2_5_1_3_13_max_profit;
 
 public class MaxProfitExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(maxProfit(new int[]{3, 3, 5, 0, 0, 3, 1, 4}));
         System.out.println(maxProfit(new int[]{1, 2, 3, 4, 5}));
         System.out.println(maxProfit(new int[]{1, 4, 2, 5}));

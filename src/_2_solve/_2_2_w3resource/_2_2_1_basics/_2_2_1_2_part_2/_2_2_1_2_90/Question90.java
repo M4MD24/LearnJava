@@ -35,7 +35,7 @@ import java.util.ArrayList;
  */
 
 public class Question90 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = """
                 8
                 4,9

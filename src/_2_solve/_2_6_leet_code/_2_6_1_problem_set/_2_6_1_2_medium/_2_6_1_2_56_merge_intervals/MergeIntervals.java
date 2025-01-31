@@ -9,7 +9,7 @@ import java.util.Comparator;
  */
 
 public class MergeIntervals {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[][] INTERVALS = {
             {1, 3},
             {2, 6},

@@ -14,7 +14,7 @@ import java.util.Arrays;
  */
 
 public class Question78 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, -2, -5, -4, 3, -6};
         System.out.println(Arrays.toString(NUMBERS));
         System.out.print("Check Negative Dominance in the said array! " + areNegativeNumbersDominance(NUMBERS));

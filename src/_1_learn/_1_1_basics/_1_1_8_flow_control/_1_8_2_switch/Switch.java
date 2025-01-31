@@ -1,7 +1,7 @@
 package _1_learn._1_1_basics._1_1_8_flow_control._1_8_2_switch;
 
 public class Switch {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         int number = 1;
 
 //        With Shorthand Notation

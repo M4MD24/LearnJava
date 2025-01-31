@@ -12,7 +12,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_4;
  */
 
 public class Question4 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "w3resource";
         System.out.printf("Input the text: %s\n", TEXT);
         System.out.printf("Number of Vowels in the text: %d", getCountOfVowels(TEXT));

@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
  */
 
 public class Question110 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(getCountOfOccurrenceAlphanumericOnlyCharacterMoreThanTwice("Create a Date Calendar"));
     }
 

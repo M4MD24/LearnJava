@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question31 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 2, 3, 10, 10, 6, 7, 10, 8, 9, 0};
         System.out.print(areAllSumOfNumbersEquals30(NUMBERS));
     }

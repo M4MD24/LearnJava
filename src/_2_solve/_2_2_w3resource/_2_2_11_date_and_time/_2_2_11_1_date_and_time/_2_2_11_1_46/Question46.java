@@ -9,7 +9,7 @@ import java.time.temporal.ChronoUnit;
  */
 
 public class Question46 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final LocalDate FIRST_YEAR = LocalDate.of(2003, 1, 1),
                 SECOND_YEAR = LocalDate.of(2005, 1, 1);
         final long DIFFERENCE_DAYS = ChronoUnit.DAYS.between(FIRST_YEAR, SECOND_YEAR);

@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 
 public class Question9 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         new ClassRoom("Name", new String[]{"Mohamed", "Ahmed", "Mahmoud", "Abdelrahman", "Abdallah", "Osman", "Ali"}).printInformation();
     }
 }

@@ -6,7 +6,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_2_medium._2_6_1_2_50_p
  */
 
 public class PowXN {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(myPow(2.0D, 10));
     }
 

@@ -10,7 +10,7 @@ import java.util.LinkedList;
 public class Question18 {
     private static final LinkedList<String> COLORS_CODES = new LinkedList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addFirstColorsCodes();
         final LinkedList<String> ANOTHER_COLORS_CODES = (LinkedList<String>) COLORS_CODES.clone();
         System.out.print(ANOTHER_COLORS_CODES);

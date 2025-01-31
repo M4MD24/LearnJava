@@ -365,17 +365,8 @@
     2. Golden Hammer Pattern
     3. Boat Anchor Pattern
     4. Dead Code Pattern
-    5. Mastermind Class and Object Pattern
+    5. Mastermind Class and Mastermind Object Pattern
     6. Copy and Paste Programming Pattern
-
-### 13. ~~[<span style="color: #e76f00;">Architectural Patterns</span>](src/_1_learn/_1_13_architectural_patterns)~~
-
-1. ~~MVVM (Model View ViewModel)~~
-2. ~~MVC (Model View Model)~~
-3. ~~MVP (Model View Presenter)~~
-4. ~~MVI (Model View Intent)~~
-
-### 14. ~~[<span style="color: #e76f00;">Best Practices</span>](src/_1_learn/_1_14_best_practices)~~
 
 ---
 
@@ -388,7 +379,7 @@
 |       <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a>        |       17 Problems        |
 | <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resources</a> |      1,059 Problems      |
 |           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |       279 Problems       |
-|             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       134 Problems       |
+|             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       135 Problems       |
 |                <a style="color: #e76f00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
 |             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       174 Problems       |
 |    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |       64 Problems        |
@@ -469,7 +460,8 @@
 
 ### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (279 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem Set</a> (279 Problems)
+1. <a style="color: #e76f00;" href="https://codeforces.com/problemset">Assiut Sheets</a> (273 Problems)
+2. <a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem Set</a> (6 Problems)
 
 ### <span>4. <a style="color: #e76f00;" href="https://satr.codes">Satr</a> (4 Mini Projects) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
@@ -478,11 +470,11 @@
 3. <a style="color: #e76f00;" href="https://satr.codes/course/oqTQleaQLV/view">Java 102</a> (1 Mini Project)
 4. <a style="color: #e76f00;" href="https://satr.codes/course/aiZMoXpIya/view">Java 103</a> (1 Mini Project)
 
-### <span>5. <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a> (134 Problems, (76 Easy, 43 Medium, 15 Hard)) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
+### <span>5. <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a> (135 Problems, (76 Easy, 44 Medium, 15 Hard)) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (129 Problems)
+1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (130 Problems)
     1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (73 Problems)
-    2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (42 Problems)
+    2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (43 Problems)
     3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (14 Problems)
 2. <a style="color: #e76f00;" href="https://coderhub.sa/activities">Competitions</a> (2 Problems)
     1. <a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)

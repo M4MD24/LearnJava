@@ -77,7 +77,7 @@ public class FreeIceCreamExample {
             countOfDistressedKids = 0;
     private static long iceCreamPacksAvailable = INPUT.nextLong();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         printReport();
     }

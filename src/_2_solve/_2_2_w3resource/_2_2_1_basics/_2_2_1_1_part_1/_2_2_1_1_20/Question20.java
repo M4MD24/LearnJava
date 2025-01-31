@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Question20 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Scanner input = new Scanner(System.in);
         System.out.print("Input a decimal number: ");
         int number = input.nextInt();

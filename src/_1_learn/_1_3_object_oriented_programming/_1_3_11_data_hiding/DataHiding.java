@@ -13,7 +13,7 @@ class Person {
 }
 
 public class DataHiding {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Person person = new Person();
         person.setAge(20);
         /* Error ! */

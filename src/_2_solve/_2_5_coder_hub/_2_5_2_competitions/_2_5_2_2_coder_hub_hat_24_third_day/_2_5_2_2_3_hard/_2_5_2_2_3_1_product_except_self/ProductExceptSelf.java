@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_2_competitions._2_5_2_2_coder_hub_hat_24_th
 import java.util.Arrays;
 
 public class ProductExceptSelf {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(productExceptSelf(new int[]{1, 2, 3, 4})));
         System.out.println(Arrays.toString(productExceptSelf(new int[]{2, 3, 4, 5})));
         System.out.println(Arrays.toString(productExceptSelf(new int[]{0, 1, 2, 3})));

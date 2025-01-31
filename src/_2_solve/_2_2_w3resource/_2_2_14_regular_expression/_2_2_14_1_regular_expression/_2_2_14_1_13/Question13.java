@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
  */
 
 public class Question13 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "python Programming Language";
         final String SPECIFIC_TEXT = "Python";
         System.out.print(isContainSpecificText(TEXT, SPECIFIC_TEXT));

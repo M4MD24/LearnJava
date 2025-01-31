@@ -13,7 +13,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_66;
  */
 
 public class Question66 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int TARGET_NUMBER = 5;
         System.out.printf("Input the number: %d", TARGET_NUMBER);
         System.out.printf("Number of combinations of four numbers: %d", getCountOfCombinationsOfFourNumbers(TARGET_NUMBER));

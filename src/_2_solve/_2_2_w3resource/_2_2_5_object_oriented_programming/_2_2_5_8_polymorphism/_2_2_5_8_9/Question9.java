@@ -5,7 +5,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_8_pol
  * <h2>Write a Java program to create a base class BankAccount with methods deposit() and withdraw(). Create two subclasses SavingsAccount and CheckingAccount. Override the withdraw() method in each subclass to impose different withdrawal limits and fees.</h2>
  */
 public class Question9 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         bankAccountCommands();
         savingsAccountCommands();
         checkingAccountCommands();

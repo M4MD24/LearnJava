@@ -14,7 +14,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_2_medium._2_6_1_2_11_c
  */
 
 public class ContainerWithMostWater {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 8, 6, 2, 5, 4, 8, 3, 7};
         System.out.print(maxArea(NUMBERS));
     }

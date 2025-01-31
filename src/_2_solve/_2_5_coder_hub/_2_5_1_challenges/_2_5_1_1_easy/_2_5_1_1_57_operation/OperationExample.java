@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_57_oper
 import java.util.Scanner;
 
 public class OperationExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print(operation(INPUT.nextInt(), INPUT.nextInt()));
     }

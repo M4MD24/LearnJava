@@ -12,7 +12,7 @@ import java.util.Set;
 public class Question9 {
     private static final HashMap<String, String> COLORS = new HashMap<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         final Set<Map.Entry<String, String>> COLOR = COLORS.entrySet();
         System.out.print(COLOR);

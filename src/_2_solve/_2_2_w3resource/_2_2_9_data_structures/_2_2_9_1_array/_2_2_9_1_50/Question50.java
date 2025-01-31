@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question50 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {-4, 8, 6, -5, 6, -2, 1, 0, 2, 3, -11, 2};
         System.out.println("Original Numbers: " + Arrays.toString(NUMBERS));
         System.out.print("After Arrangement: " + Arrays.toString(getArrangementMaximumAndMinimumNumbers(NUMBERS)));

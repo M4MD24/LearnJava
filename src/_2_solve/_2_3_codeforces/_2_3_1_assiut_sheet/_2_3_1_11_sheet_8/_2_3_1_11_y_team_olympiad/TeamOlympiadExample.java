@@ -60,7 +60,7 @@ public class TeamOlympiadExample {
             GROUP_TOW = new ArrayList<>(),
             GROUP_THREE = new ArrayList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputStudentsSkills();
         printFewestMembersGroup();
     }

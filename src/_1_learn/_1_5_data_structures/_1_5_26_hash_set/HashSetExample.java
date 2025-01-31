@@ -21,7 +21,7 @@ import java.util.*;
  * </ul>
  */
 public class HashSetExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         hashSet();
     }
 

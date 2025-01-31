@@ -8,7 +8,7 @@ import java.util.TimeZone;
  */
 
 public class Question43 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String[] TIME_ZONE_IDS = TimeZone.getAvailableIDs();
         for (final String TIME_ZONE_ID : TIME_ZONE_IDS)
             if (TIME_ZONE_ID.startsWith("Africa/")) {

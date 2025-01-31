@@ -47,7 +47,7 @@ public class SumOfAMatrixExample {
     private static final byte[][] FIRST_MATRIX = new byte[ROWS][COLUMNS],
             SECOND_MATRIX = new byte[ROWS][COLUMNS];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         printSummationOfMatricesRecursion((byte) 0, (byte) 0);
     }

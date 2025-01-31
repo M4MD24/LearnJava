@@ -13,7 +13,7 @@ public class Question3 {
     private static final int countOfThreads = 3;
     private static final Thread[] THREADS = new Thread[countOfThreads];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         initializeThreads();
         startThreads();
         joinThreads();

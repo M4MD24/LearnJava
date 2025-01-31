@@ -24,7 +24,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_16;
  * </h2>
  */
 public class Question16 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         printAllTwinPrimeNumbersLessThan100();
     }
 

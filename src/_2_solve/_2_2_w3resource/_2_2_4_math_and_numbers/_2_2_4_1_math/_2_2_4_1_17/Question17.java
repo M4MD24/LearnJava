@@ -11,7 +11,7 @@ package _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_
 public class Question17 {
     private static final int[] NUMBERS = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int FROM_THIS_INDEX_NUMBER = 0,
                 TO_THIS_INDEX_NUMBER = 4;
         System.out.printf("Average numbers from %d to %d is: %f",

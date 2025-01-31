@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_12_na
 import java.util.Arrays;
 
 public class NamesSortExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(getNamesAfterSorting(new String[]{"Ahmed Omar", "Yousef Abdullah"}, "ASC")));
         System.out.println(Arrays.toString(getNamesAfterSorting(new String[]{"Mohammed Yahya", "Khaled Bader", "Khaled Bader"}, "DESC")));
         System.out.println(Arrays.toString(getNamesAfterSorting(new String[]{"Khaled Bader"}, "ASC")));

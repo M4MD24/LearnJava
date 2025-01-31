@@ -19,7 +19,7 @@ import java.util.PriorityQueue;
  */
 
 public class FindKPairsWithSmallestSums {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] FIRST_NUMBERS = {1, 7, 11},
                 SECOND_NUMBERS = {2, 4, 6};
         final int COUNT_OF_PAIRS = 3;

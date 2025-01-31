@@ -17,7 +17,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_73;
  */
 
 public class Question73 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int COUNT_OF_NUMBERS = 5;
         System.out.printf("How many numbers %d\n", COUNT_OF_NUMBERS);
         System.out.println("input the integers:");

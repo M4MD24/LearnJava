@@ -22,7 +22,7 @@ import java.util.Scanner;
  */
 
 public class Question77 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.println("Input a text in a line:");
         final String TEXT = INPUT.nextLine();

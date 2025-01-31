@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Question11 {
     private static final ArrayList<String> COLORS_CODES = new ArrayList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColorsCodes();
         System.out.println("Before Reverse: " + COLORS_CODES);
         System.out.print("After Reverse: " + COLORS_CODES.reversed());

@@ -54,7 +54,7 @@ import java.util.Scanner;
 public class PalindromeExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final long NUMBER = INPUT.nextLong();
         System.out.print(isPalindrome(NUMBER));
     }

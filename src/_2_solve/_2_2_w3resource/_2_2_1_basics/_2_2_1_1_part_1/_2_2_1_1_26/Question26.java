@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Question26 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Scanner input = new Scanner(System.in);
         int[] octalNumberValue = {0, 1, 10, 11, 100, 101, 110, 111};
         long octalNumber, tempOctalNumber, binaryNumber, place;

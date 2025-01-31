@@ -63,7 +63,7 @@ import java.util.TreeMap;
  * </ul>
  */
 public class NavigableMapExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         navigableMapTreeMap();
     }
 

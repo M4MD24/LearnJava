@@ -13,7 +13,7 @@ import java.util.HashSet;
  */
 
 public class LongestConsecutiveSequence {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {100, 4, 200, 1, 3, 2};
         System.out.print(longestConsecutive(NUMBERS));
     }

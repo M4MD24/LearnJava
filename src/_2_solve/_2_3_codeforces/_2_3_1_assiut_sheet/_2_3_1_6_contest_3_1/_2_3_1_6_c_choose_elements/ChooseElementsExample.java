@@ -58,7 +58,7 @@ public class ChooseElementsExample {
     private static int TARGET_NUMBER = INPUT.nextInt();
     private static final long[] NUMBERS = new long[LENGTH];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         System.out.print(calculateSumOfLargestElements());
     }

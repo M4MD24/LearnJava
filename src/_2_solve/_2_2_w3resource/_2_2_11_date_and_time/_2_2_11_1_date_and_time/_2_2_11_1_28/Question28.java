@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
  */
 
 public class Question28 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int HOURS_TO_SUBTRACT = 3;
         final int MINUTES_TO_SUBTRACT = 45;
         final LocalDateTime CURRENT_DATE_AND_TIME = LocalDateTime.now();

@@ -13,7 +13,7 @@ package _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_
  */
 
 public class Question18 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int NUMBER = 100;
         System.out.printf("""
                         Input a number:\s%d

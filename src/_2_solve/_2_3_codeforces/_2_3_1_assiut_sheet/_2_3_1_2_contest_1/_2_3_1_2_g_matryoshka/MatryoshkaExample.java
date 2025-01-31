@@ -40,7 +40,7 @@ import java.util.Scanner;
  */
 
 public class MatryoshkaExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         long EYES = INPUT.nextLong(),
                 MOUTHS = INPUT.nextLong(),

@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_71_is_s
 import java.util.Scanner;
 
 public class IsSameExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print(isSame(INPUT.nextLine(), INPUT.nextLine()));
     }

@@ -21,7 +21,7 @@ public class Question78 {
     private static byte countOfCombination,
             targetSum;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         if (inputCountOfCombination()) return;
         if (inputTargetSum()) return;
         System.out.printf("Count of combinations = %d", getCountOfCombinations(0, countOfCombination, targetSum, 0));

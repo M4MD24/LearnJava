@@ -18,7 +18,7 @@ import java.util.Arrays;
  */
 
 public class CountTheNumberOfFairPairs {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(countFairPairs(
                 new int[]{0, 1, 7, 4, 4, 5},
                 3,

@@ -15,7 +15,7 @@ package _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_
  */
 
 public class Question15 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         int first_number = 5,
                 second_number = 25;
         System.out.printf("Input first integer: %d", first_number);

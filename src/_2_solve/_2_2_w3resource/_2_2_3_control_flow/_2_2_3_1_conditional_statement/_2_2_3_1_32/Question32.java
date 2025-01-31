@@ -19,7 +19,7 @@ public class Question32 {
     private static final float FIRST_NUMBER = 1235F,
             SECOND_NUMBER = 2534F;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         printNumbers();
         System.out.print(isSameUpToTwoDecimalPlaces()
                 ? "These numbers are the same."

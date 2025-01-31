@@ -1,7 +1,7 @@
 package _1_learn._1_7_data_structures_and_algorithms._1_7_6_tree._1_7_6_7_trie;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Trie ELEMENTS = new Trie();
 
         ELEMENTS.insert("apple");

@@ -12,7 +12,7 @@ package _1_learn._1_2_handling._1_2_1_exception_handling._1_2_1_1_try_and_catch_
 import java.io.*;
 
 public class TryAndCatchAndFinallyAndThrowAndThrows {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         divideByZero();
         findFile();
     }

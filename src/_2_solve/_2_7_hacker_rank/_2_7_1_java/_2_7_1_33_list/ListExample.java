@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 
 public class ListExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         final List<Integer> NUMBERS = new ArrayList<>();
         final int COUNT_OF_NUMBERS = INPUT.nextInt();

@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class BinaryTreeRightSideView {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final TreeNode ROOT = new TreeNode(1);
         ROOT.left = new TreeNode(2);
         ROOT.right = new TreeNode(3);

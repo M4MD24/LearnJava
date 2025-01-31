@@ -8,7 +8,7 @@ import java.time.Instant;
  */
 
 public class Question20 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Instant CURRENT_DATE = Instant.now();
         System.out.print(CURRENT_DATE);
     }

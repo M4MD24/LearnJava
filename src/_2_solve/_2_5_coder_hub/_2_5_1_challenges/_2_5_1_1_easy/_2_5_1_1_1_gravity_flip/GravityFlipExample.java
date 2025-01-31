@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_1_gravi
 import java.util.Arrays;
 
 public class GravityFlipExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(getGravityFlip(new int[]{3, 2, 1, 2})));
         System.out.println(Arrays.toString(getGravityFlip(new int[]{2, 3, 8})));
         System.out.println(Arrays.toString(getGravityFlip(new int[]{1, 1, 1, 1})));

@@ -1,7 +1,7 @@
 package _1_learn._1_1_basics._1_1_5_operators._1_1_5_4_logical_operators;
 
 public class LogicalOperators {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         /* Logical Operators Types! */
         /* ( && ) Logical AND
          * ( || ) Logical OR

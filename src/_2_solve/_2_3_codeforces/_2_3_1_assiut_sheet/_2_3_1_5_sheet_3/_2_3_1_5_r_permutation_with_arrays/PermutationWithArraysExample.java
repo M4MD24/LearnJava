@@ -52,7 +52,7 @@ public class PermutationWithArraysExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static final short LENGTH = INPUT.nextShort();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] FIRST_NUMBERS = inputValues(),
                 SECOND_NUMBERS = inputValues();
         Arrays.sort(FIRST_NUMBERS);

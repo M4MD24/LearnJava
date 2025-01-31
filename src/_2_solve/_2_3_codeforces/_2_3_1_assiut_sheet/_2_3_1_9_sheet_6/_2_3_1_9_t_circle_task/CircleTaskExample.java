@@ -52,7 +52,7 @@ public class CircleTaskExample {
             RADIUS = INPUT.nextInt();
     private static final byte COUNT_OF_TEST_CASES = INPUT.nextByte();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
     }
 

@@ -30,7 +30,7 @@ import java.util.Scanner;
  */
 
 public class NumberOfWaysExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
     }
 

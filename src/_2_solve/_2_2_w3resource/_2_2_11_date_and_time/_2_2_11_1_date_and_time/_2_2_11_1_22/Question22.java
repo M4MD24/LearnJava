@@ -8,7 +8,7 @@ import java.util.Calendar;
  */
 
 public class Question22 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         printDateBeforeTenDays(Calendar.getInstance());
         printCurrentDate(Calendar.getInstance());
         printDateAfterTenDays(Calendar.getInstance());

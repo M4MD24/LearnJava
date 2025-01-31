@@ -1,7 +1,7 @@
 package _1_learn._1_12_design_patterns._1_12_1_creational_design_patterns._1_12_1_5_prototype_pattern;
 
 class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Circle circle = new Circle();
         circle.radius = 20;
         circle.color = "Red";

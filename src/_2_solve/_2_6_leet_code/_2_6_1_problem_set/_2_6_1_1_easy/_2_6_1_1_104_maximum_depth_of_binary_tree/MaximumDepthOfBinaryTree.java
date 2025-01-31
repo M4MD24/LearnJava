@@ -11,7 +11,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_1_easy._2_6_1_1_104_ma
  */
 
 public class MaximumDepthOfBinaryTree {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final TreeNode ROOT = new TreeNode(3);
         ROOT.left = new TreeNode(9);
         ROOT.right = new TreeNode(20);

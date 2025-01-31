@@ -13,7 +13,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_1_easy._2_6_1_1_190_re
  */
 
 public class ReverseBits {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int BITS = 0b00000010100101000001111010011100;
         System.out.print(reverseBits(BITS));
     }

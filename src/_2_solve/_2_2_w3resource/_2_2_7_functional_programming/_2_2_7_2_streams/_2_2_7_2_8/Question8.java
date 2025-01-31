@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question8 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {10, 5, 20, 8, 15};
         final int SECOND_LARGEST_ELEMENT = Arrays
                 .stream(NUMBERS)

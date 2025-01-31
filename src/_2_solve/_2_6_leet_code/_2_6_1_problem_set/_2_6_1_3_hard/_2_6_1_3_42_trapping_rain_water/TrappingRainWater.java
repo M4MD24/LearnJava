@@ -6,7 +6,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_3_hard._2_6_1_3_42_tra
  */
 
 public class TrappingRainWater {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
         System.out.print(trap(NUMBERS));
     }

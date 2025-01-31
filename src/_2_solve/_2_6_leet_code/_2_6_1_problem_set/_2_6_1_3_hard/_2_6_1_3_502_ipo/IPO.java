@@ -26,7 +26,7 @@ import java.util.PriorityQueue;
  */
 
 public class IPO {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int MAXIMUM_PROJECTS = 2,
                 initialCapital = 0;
         final int[] PROJECT_PROFITS = {1, 2, 3},

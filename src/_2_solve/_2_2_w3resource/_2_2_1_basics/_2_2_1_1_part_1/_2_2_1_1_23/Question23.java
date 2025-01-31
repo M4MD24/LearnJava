@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Question23 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         int[] hexadecimalNumber = new int[1000];
         Scanner input = new Scanner(System.in);
         int i = 1, j = 0, remainder, decimal = 0, binary;

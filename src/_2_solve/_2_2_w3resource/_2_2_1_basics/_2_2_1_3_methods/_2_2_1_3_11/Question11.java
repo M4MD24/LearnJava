@@ -26,7 +26,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_11;
  * </h2>
  */
 public class Question11 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("1. A password must have at least eight characters.");
         System.out.println("2. A password consists of only letters and digits.");
         System.out.println("3. A password must contain at least two digits");

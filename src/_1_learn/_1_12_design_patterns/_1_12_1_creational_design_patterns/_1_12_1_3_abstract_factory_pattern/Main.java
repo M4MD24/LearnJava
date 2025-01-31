@@ -7,7 +7,7 @@ import _1_learn._1_12_design_patterns._1_12_1_creational_design_patterns._1_12_1
 import _1_learn._1_12_design_patterns._1_12_1_creational_design_patterns._1_12_1_3_abstract_factory_pattern.products.pizza.Pizza;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Restaurant orientalRestaurant = new OrientalRestaurant();
         Pizza orientalPizza = orientalRestaurant.makePizza();
         Burger orientalBurger = orientalRestaurant.makeBurger();

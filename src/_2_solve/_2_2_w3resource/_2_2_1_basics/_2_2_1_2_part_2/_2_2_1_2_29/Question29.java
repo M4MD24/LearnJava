@@ -18,7 +18,7 @@ import java.util.Arrays;
 public class Question29 {
     private static int[] numbers = {9, 9, 9, 9};
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.printf("Original array: %s\n", Arrays.toString(numbers));
         addValue(1);
         System.out.printf("Array of digits: %s", Arrays.toString(numbers));

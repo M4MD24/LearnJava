@@ -8,7 +8,7 @@ import java.util.concurrent.locks.StampedLock;
  */
 
 public class Question15 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final SharedResource SHARED_RESOURCE = new SharedResource();
         new Thread(() -> {
             SHARED_RESOURCE.setValue(42);

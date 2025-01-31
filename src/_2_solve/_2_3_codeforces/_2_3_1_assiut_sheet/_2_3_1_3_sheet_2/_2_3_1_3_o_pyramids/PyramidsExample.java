@@ -33,7 +33,7 @@ import java.util.Scanner;
 public class PyramidsExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int TARGET_NUMBER = INPUT.nextInt();
         printPyramidsStarts(TARGET_NUMBER);
     }

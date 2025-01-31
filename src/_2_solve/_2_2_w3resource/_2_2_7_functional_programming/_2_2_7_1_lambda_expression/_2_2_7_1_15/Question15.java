@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question15 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<Integer> NUMBERS = Arrays.asList(10, 20, 33, 40, 55);
         final long SUM_OF_SQUARES_OF_ALL_ODD_NUMBERS = NUMBERS
                 .stream()

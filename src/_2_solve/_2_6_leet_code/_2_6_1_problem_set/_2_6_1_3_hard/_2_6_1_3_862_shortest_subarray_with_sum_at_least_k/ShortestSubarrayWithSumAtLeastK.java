@@ -14,7 +14,7 @@ import java.util.LinkedList;
  */
 
 public class ShortestSubarrayWithSumAtLeastK {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(shortestSubarray(new int[]{1, 2}, 4));
     }
 

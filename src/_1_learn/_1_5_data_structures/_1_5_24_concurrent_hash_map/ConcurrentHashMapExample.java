@@ -36,7 +36,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 
 public class ConcurrentHashMapExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         concurrentHashMap();
     }
 

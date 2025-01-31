@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_3_nes
  */
 
 public class Question6 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int FIRST_NUMBER = 9,
                 SECOND_NUMBER = 6;
         System.out.print("Sum of " + FIRST_NUMBER + " and " + SECOND_NUMBER + " = " + MathUtil.Calculator.add(FIRST_NUMBER, SECOND_NUMBER));

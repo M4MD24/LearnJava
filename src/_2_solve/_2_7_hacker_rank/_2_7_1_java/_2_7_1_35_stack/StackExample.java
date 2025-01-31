@@ -8,7 +8,7 @@ import java.util.Stack;
  */
 
 public class StackExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         while (INPUT.hasNext())
             System.out.println(isBalanced(INPUT.next()));

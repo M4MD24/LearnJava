@@ -16,7 +16,7 @@ import java.util.Arrays;
  */
 
 public class TwoSum {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {2, 7, 11, 15};
         final int TARGET = 9;
         System.out.print(Arrays.toString(twoSum(NUMBERS, TARGET)));

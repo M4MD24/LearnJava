@@ -8,7 +8,7 @@ import java.util.Calendar;
  */
 
 public class Question1 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Calendar CALENDAR = Calendar.getInstance();
         CALENDAR.set(Calendar.YEAR, 2003);
         CALENDAR.set(Calendar.MONTH, 6 - 1);

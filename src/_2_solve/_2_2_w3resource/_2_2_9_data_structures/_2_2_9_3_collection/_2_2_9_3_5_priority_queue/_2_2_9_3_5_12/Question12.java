@@ -11,7 +11,7 @@ import java.util.PriorityQueue;
 public class Question12 {
     private static final PriorityQueue<String> COLORS = new PriorityQueue<>(6, Collections.reverseOrder());
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         String color;
         while ((color = COLORS.poll()) != null)

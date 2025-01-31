@@ -22,7 +22,7 @@ class Checker implements Comparator<Player> {
 }
 
 public class ComparatorExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         final int COUNT_OF_PLAYERS = INPUT.nextInt();
         final Player[] PLAYERS = new Player[COUNT_OF_PLAYERS];

@@ -5,7 +5,7 @@ import _1_learn._1_12_design_patterns._1_12_1_creational_design_patterns._1_12_1
 import _1_learn._1_12_design_patterns._1_12_1_creational_design_patterns._1_12_1_4_builder_pattern.first_example.model.car.Director;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         CarBuilder carBuilder = new CarBuilder();
         carBuilder.id(101)
                 .model("Corolla")

@@ -72,7 +72,7 @@ public class EightNeighborsExample {
             COLUMNS = INPUT.nextByte();
     private static final char[][] NEIGHBORS = new char[ROWS][COLUMNS];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         System.out.print(checkNeighborExists(INPUT.nextByte(), INPUT.nextByte()));
     }

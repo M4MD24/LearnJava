@@ -32,7 +32,7 @@ import java.util.Scanner;
  */
 
 public class Question50 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Scanner input = new Scanner(System.in);
         System.out.print("Input first number: ");
         final int FIRST_NUMBER = input.nextInt();

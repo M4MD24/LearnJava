@@ -17,7 +17,7 @@ import java.util.ArrayList;
  */
 
 public class Question52 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final ArrayList<Integer> NUMBERS = new ArrayList<>();
         final int TARGET_SUM = 6;
         inputNumbers(NUMBERS);

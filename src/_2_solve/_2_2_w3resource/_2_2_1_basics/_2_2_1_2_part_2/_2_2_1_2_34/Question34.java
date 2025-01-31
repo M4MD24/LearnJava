@@ -14,7 +14,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_34;
 public class Question34 {
     private static final BinaryTree<Integer> BINARY_TREE = new BinaryTree<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         System.out.printf("Length of the longest consecutive sequence path: %d", BINARY_TREE.maximumDepth());
     }

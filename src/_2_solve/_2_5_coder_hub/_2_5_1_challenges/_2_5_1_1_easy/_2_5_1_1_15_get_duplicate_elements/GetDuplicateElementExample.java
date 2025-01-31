@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class GetDuplicateElementExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(getDuplicateNumbers(new int[]{2, 3, 2, 3})));
         System.out.println(Arrays.toString(getDuplicateNumbers(new int[]{10, 5, 9, 5})));
         System.out.println(Arrays.toString(getDuplicateNumbers(new int[]{6, 3, 12, 12})));

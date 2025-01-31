@@ -20,7 +20,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_70;
  */
 
 public class Question70 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String FIRST_NUMBER = "25",
                 SECOND_NUMBER = "46";
         System.out.println("Input two integers:");

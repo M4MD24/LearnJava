@@ -28,7 +28,7 @@ import java.util.Arrays;
  */
 
 public class DefuseTheBomb {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(Arrays.toString(decrypt(
                 new int[]{5, 7, 1, 4},
                 3

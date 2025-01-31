@@ -10,7 +10,7 @@ import java.util.TreeSet;
 public class Question11 {
     private static final TreeSet<Integer> NUMBERS = new TreeSet<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addNumbers();
         System.out.print(NUMBERS.floor(20));
     }

@@ -22,7 +22,7 @@ import java.util.Map;
  */
 
 public class LRUCache {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final LRUCache LRU_CACHE = new LRUCache(2);
         LRU_CACHE.put(1, 1);       // cache is {1=1}
         LRU_CACHE.put(2, 2);       // cache is {1=1, 2=2}

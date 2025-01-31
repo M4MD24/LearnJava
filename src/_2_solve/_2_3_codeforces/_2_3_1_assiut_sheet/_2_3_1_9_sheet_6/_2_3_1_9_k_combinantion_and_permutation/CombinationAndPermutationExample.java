@@ -39,7 +39,7 @@ public class CombinationAndPermutationExample {
     private static final byte NUMBER_1 = INPUT.nextByte(),
             NUMBER_2 = INPUT.nextByte();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(getCombination() + " " + getPermutation());
     }
 

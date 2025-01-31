@@ -38,7 +38,7 @@ package _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4
  * @see _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4_2_7.images <h2>Lucas Numbers Spiral</h2>
  */
 public class Question6 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int COUNT_OF_NUMBERS = 10;
         System.out.printf("First %d Lucas a numbers:%n", COUNT_OF_NUMBERS);
         printFirstTenLucasNumbers(COUNT_OF_NUMBERS);

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Question7 {
     private static final Bank BANK_ACCOUNTS = new Bank();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addAccountsInformation();
         BANK_ACCOUNTS.getBankAccount(0).depositMoney(111);
         BANK_ACCOUNTS.getBankAccount(1).withdrawMoney(222);

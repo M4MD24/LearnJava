@@ -8,7 +8,7 @@ import _1_learn._1_12_design_patterns._1_12_3_behavioral_design_patterns._1_12_3
 import java.util.List;
 
 public class Main {
-    public static void main(final String[] parameters) {
+    public static void main(final String[] ARGUMENTS) {
         final List<Element> elements = List.of(
                 new Pen(),
                 new Pencil(),

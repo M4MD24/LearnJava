@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question109 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(getTextAfterReverseAllOddLengthWords("Java Programming Language"));
     }
 

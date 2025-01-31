@@ -47,7 +47,7 @@ public class SortingExample {
     private static final short LENGTH = INPUT.nextShort();
     private static final short[] NUMBERS = new short[LENGTH];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         sortValues();
         printValues();

@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question1 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<Integer> NUMBERS = Arrays.asList(1, 2, 3, 4, 5);
         final double AVERAGE_OF_NUMBERS = NUMBERS
                 .stream()

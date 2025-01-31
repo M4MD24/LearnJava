@@ -27,7 +27,7 @@ import java.util.Scanner;
  */
 
 public class NextAlphabetExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         final char ALPHABET = INPUT.next().charAt(0);
         System.out.print(getNextAlphabet(ALPHABET));

@@ -17,7 +17,7 @@ import java.util.Arrays;
  */
 
 public class Question51 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 3, 2, 4, 5, 5};
         final int TARGET_NUMBER_OF_SUBSETS = 4;
         System.out.printf("Original array: %s\n", Arrays.toString(NUMBERS));

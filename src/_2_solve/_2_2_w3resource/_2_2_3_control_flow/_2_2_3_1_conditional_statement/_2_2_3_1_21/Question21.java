@@ -25,7 +25,7 @@ package _2_solve._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statem
  *       *
  * */
 public class Question21 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND = 7;
         System.out.printf("Input number of rows (half of the diamond): %d\n", NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND);
         printStarsDiamond(NUMBER_OF_ROWS_HALF_OF_THE_DIAMOND);

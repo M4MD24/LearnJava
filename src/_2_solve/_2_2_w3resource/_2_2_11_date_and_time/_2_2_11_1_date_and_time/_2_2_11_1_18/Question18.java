@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_11_date_and_time._2_2_11_1_date_and_time._
  */
 
 public class Question18 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(isLeapYear(2016));
     }
 

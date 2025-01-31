@@ -39,7 +39,7 @@ public class IntOrFloatExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static final float FLOAT_NUMBER = INPUT.nextFloat();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         isIntOrFloat();
     }
 

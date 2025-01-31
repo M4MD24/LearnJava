@@ -47,7 +47,7 @@ public class PalindromeArrayExample {
     private static final int length = INPUT.nextInt();
     private static final int[] NUMBERS = new int[length];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues(0);
         System.out.print((isPalindrome(0, length - 1)) ? "YES" : "NO");
     }

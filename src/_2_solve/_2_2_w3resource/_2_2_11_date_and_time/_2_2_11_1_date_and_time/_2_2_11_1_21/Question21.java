@@ -9,7 +9,7 @@ import java.time.ZoneId;
  */
 
 public class Question21 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         ZoneId.SHORT_IDS.keySet().forEach(
                 zoneKey -> System.out.println(
                         ZoneId.of(ZoneId.SHORT_IDS.get(zoneKey)) +

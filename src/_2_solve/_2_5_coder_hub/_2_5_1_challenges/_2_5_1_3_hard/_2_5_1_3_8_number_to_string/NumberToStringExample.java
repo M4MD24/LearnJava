@@ -8,7 +8,7 @@ public class NumberToStringExample {
 
     private static final String[] TENS = {"", "", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print(getNumberToWords(INPUT.nextInt()));
     }

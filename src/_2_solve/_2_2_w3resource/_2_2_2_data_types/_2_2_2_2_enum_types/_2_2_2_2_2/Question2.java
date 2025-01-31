@@ -15,7 +15,7 @@ enum DayOfWeekend {
 }
 
 public class Question2 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.printf("First day of the weekend: %s\n", DayOfWeekend.Saturday);
         System.out.printf("Second day of the weekend: %s", DayOfWeekend.Sunday);
     }

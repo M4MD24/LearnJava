@@ -10,7 +10,7 @@ import java.util.TreeSet;
 public class Question9 {
     private static final TreeSet<Integer> NUMBERS = new TreeSet<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addNumbers();
         NUMBERS.stream()
                 .filter(number -> number < 7)

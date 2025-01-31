@@ -72,7 +72,7 @@ public class ShaassAndOskolsExample {
     private static final byte COUNT_OF_TOTAL_BIRDS = INPUT.nextByte();
     private static final short[] TOTAL_BIRDS = new short[COUNT_OF_TOTAL_BIRDS];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputTotalBirds();
         killBirds();
         printTotalBirds();

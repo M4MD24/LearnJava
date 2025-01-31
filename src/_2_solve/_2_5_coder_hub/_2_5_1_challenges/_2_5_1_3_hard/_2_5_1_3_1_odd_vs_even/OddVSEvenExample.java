@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class OddVSEvenExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print("num= ");
         final int NUMBER = new Scanner(System.in).nextInt();
         System.out.print(oddsVsEvens(NUMBER));

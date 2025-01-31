@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  */
 
 public class Question8 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final ConcurrentHashMap<String, Integer> CONCURRENT_HASH_MAP = new ConcurrentHashMap<>();
         final ExecutorService executorService = Executors.newFixedThreadPool(10);
 

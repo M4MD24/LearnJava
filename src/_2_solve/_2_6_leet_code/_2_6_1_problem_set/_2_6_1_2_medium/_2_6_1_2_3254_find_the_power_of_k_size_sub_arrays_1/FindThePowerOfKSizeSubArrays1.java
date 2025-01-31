@@ -25,7 +25,7 @@ import java.util.Arrays;
  */
 
 public class FindThePowerOfKSizeSubArrays1 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(Arrays.toString(resultsArray(new int[]{1, 2, 3, 4, 3, 2, 5}, 3)));
     }
 

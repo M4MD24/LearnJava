@@ -58,7 +58,7 @@ class BinaryTree<Type extends Comparable<Type>> {
 public class Question130 {
     private static final BinaryTree<Integer> BINARY_TREE = new BinaryTree<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         insert();
         System.out.print("The Maximum depth of the binary tree is: " + BINARY_TREE.maximumDepth());
     }

@@ -35,7 +35,7 @@ public class Question95 {
     private static Student studentWhoHighestScore,
             studentWhoLowestScore;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print("Input number of students: ");
         final int COUNT_OF_STUDENTS = INPUT.nextInt();
         if (COUNT_OF_STUDENTS > 0) {
@@ -49,7 +49,7 @@ public class Question95 {
                     studentWhoLowestScore.id());
         } else {
             System.out.println("\u001B[31mEnter count of students greater than 1\u001B[0m");
-            Question95.main(PARAMETERS);
+            Question95.main(ARGUMENTS);
         }
     }
 

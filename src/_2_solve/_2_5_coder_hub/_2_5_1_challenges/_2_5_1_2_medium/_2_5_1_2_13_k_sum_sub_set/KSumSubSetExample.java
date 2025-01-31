@@ -1,7 +1,7 @@
 package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_13_k_sum_sub_set;
 
 public class KSumSubSetExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(areThereNumbersEqualTheTargetSum(new int[]{7, 3, 2, 5, 8}, 14));
         System.out.println(areThereNumbersEqualTheTargetSum(new int[]{2, 4, 6, 8}, 11));
         System.out.println(areThereNumbersEqualTheTargetSum(new int[]{7, 5, 3, 1}, 4));

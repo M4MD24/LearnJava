@@ -55,7 +55,7 @@ public class Question5 {
         return tuple;
     }
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<BigInteger> SEED_NUMBERS = new ArrayList<>(),
                 RELATED_NUMBERS = new ArrayList<>(),
                 PALINDROME_NUMBERS = new ArrayList<>();

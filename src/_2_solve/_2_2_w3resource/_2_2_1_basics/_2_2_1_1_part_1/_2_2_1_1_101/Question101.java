@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 
 public class Question101 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Scanner input = new Scanner(System.in);
 
         final int ARRAY_LENGTH = arrayLength(input);

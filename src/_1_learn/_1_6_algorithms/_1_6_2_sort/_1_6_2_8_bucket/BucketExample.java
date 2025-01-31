@@ -3,7 +3,7 @@ package _1_learn._1_6_algorithms._1_6_2_sort._1_6_2_8_bucket;
 import java.util.Arrays;
 
 public class BucketExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {90, 40, 5, 15, 40, 30, 9, 9};
         System.out.println("Original Numbers : " + Arrays.toString(NUMBERS));
         bucketSort(NUMBERS);

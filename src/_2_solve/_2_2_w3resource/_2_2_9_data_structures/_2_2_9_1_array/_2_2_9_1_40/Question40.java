@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question40 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {654, 23, 421, 543, -5, 43, 52, 3, -1, 4, 5, 34, 650, 544, 53, 324};
         System.out.println("Nearest Positive Number to Zero: " + getNearestPositiveNumberToZero(NUMBERS));
         System.out.print("Nearest Negative Number to Zero: " + getNearestNegativeNumberToZero(NUMBERS));

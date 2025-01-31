@@ -9,7 +9,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_42;
  */
 
 public class Question42 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(sortAndSumNumbers(new StringBuffer("AND456HSE8")));
     }
 

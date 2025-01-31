@@ -38,7 +38,7 @@ public class PositionsInArrayExample {
     private static final short LENGTH = INPUT.nextShort();
     private static final int[] NUMBERS = new int[LENGTH];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         printValuesLessThanOrEqualTo10();
     }

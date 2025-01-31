@@ -29,7 +29,7 @@ public class ProductExample {
             number2 = INPUT.nextInt();
     private static final int NUMBER_3 = INPUT.nextInt();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         if (number1 > number2) swap();
         System.out.print(productAndSummationOfAllFromMinimumNumberToMaximumNumberInclusive(number1, number2));
     }

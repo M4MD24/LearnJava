@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_12_advanced_concepts._2_2_12_2_unit_test._
  */
 
 public class Question10 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String FIRST_USER_NAME = "Mohamed",
                 SECOND_USER_NAME = new User("Mohamed").name();
         System.out.print(FIRST_USER_NAME.equals(SECOND_USER_NAME));

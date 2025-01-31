@@ -11,7 +11,7 @@ public class Question13 {
     private static final ArrayList<String> FIRST_COLORS_CODES = new ArrayList<>(),
             SECOND_COLORS_CODES = new ArrayList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addFirstColorsCodes();
         addSecondColorsCodes();
         compareBetweenColorsCodes();

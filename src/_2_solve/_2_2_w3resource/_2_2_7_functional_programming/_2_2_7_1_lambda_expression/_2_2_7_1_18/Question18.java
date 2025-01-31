@@ -8,7 +8,7 @@ import java.util.function.Predicate;
  */
 
 public class Question18 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Predicate<Integer> IS_PERFECT_SQUARE = (NUMBER) -> {
             final double CURRENT_SQUARE = Math.sqrt(NUMBER);
             final long PERFECT_SQUARE = (long) Math.sqrt(NUMBER);

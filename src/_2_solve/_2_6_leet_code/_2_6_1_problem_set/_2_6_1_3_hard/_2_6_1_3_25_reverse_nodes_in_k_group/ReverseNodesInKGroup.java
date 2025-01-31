@@ -14,7 +14,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_3_hard._2_6_1_3_25_rev
  */
 
 public class ReverseNodesInKGroup {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final ListNode HEAD_NODE = new ListNode(1);
         HEAD_NODE.next = new ListNode(2);
         HEAD_NODE.next.next = new ListNode(3);

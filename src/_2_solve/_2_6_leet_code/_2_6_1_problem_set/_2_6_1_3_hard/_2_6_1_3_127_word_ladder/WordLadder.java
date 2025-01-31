@@ -18,7 +18,7 @@ import java.util.Set;
  */
 
 public class WordLadder {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(ladderLength(
                 "hit",
                 "cog",

@@ -9,7 +9,7 @@ import java.util.Random;
  */
 
 public class Question9 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {5, 2, 8, 1, 9, 4, 10, 6, 3, 7};
         System.out.print(BogoSort(NUMBERS));
     }

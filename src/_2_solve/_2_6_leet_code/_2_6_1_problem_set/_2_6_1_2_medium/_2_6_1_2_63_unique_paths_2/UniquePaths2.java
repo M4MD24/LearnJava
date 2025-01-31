@@ -17,7 +17,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_2_medium._2_6_1_2_63_u
  */
 
 public class UniquePaths2 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[][] GRID = {
                 {0, 0, 0},
                 {0, 1, 0},

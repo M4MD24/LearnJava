@@ -59,7 +59,7 @@ public class MultiplicationOfMatricesExample {
 
     private static final int[][] MULTIPLICATION_MATRICES = new int[ROW_1][COLUMN_2];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         calculateMultiplicationMatrices();
         printResultOfMultiplicationMatrices();
     }

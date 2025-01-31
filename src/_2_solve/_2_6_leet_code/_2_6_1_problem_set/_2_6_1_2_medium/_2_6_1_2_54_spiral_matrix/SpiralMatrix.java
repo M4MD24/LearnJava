@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class SpiralMatrix {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[][] MATRIX = {
                 {1, 2, 3, 4},
                 {5, 6, 7, 8},

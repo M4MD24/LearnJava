@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_20_sum_
 import java.util.Arrays;
 
 public class SumTwoSmallestNumbersExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(getSumTwoSmallestNumbers(new int[]{2, 5, 6, 7, 3}));
         System.out.println(getSumTwoSmallestNumbers(new int[]{4, 3, 60, 9}));
         System.out.println(getSumTwoSmallestNumbers(new int[]{50, 1, 1, 4}));

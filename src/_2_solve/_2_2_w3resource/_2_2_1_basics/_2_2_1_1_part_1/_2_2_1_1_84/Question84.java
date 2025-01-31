@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Question84 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Scanner input = new Scanner(System.in);
         while (true) {
             System.out.print("Input text: ");

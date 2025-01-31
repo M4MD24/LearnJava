@@ -27,7 +27,7 @@ import java.util.Scanner;
  */
 
 public class SwapExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         printAfterSwap(INPUT.nextInt(), INPUT.nextInt());
     }

@@ -24,7 +24,7 @@ import java.util.*;
  */
 
 public class LinkedHashSetExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         linkedHashSet();
     }
 

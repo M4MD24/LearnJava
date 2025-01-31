@@ -16,7 +16,7 @@ import java.util.Set;
  */
 
 public class WordSearch2 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final char[][] BOARD = {
                 {'o', 'a', 'a', 'n'},
                 {'e', 't', 'a', 'e'},

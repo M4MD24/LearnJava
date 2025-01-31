@@ -6,7 +6,7 @@ import java.util.Hashtable;
 public class DictionaryExample {
     private static final Dictionary<Integer, String> DAYS_NAMES = new Hashtable<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         afterInsertElements();
         getSize();
         getElement();

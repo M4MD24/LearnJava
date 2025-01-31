@@ -1,7 +1,7 @@
 package _1_learn._1_10_object_oriented_design.example._1_10_1_simple_school_management_system;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final School THE_DILIGENTS = new School();
 
         final Student MAHMOUD = new Student(

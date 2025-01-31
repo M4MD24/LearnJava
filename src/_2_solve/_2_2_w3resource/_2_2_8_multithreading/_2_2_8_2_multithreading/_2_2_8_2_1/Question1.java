@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_8_multithreading._2_2_8_2_multithreading._
  */
 
 public class Question1 extends Thread {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Counter COUNTER = new Counter();
         final int COUNT_OF_THREADS = 6,
                 INCREMENTS_PER_THREAD = 10000;

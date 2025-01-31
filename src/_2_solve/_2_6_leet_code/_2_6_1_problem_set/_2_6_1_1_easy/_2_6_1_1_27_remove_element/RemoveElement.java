@@ -16,7 +16,7 @@ import java.util.Arrays;
  */
 
 public class RemoveElement {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {3,2,2,3};
         final int TARGET_ELEMENT = 2;
         System.out.print(removeElement(NUMBERS, TARGET_ELEMENT));

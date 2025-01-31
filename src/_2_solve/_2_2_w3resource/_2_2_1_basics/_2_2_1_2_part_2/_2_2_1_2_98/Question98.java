@@ -17,7 +17,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_98;
  */
 
 public class Question98 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String WORD = "ABCD";
         System.out.printf("Input a word: %s\n", WORD);
         System.out.printf("Is Abecadrian word?: %b", IsAbecedarianWord(WORD));

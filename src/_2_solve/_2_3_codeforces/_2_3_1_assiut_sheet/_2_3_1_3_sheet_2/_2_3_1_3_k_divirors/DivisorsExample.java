@@ -54,7 +54,7 @@ import java.util.Scanner;
 public class DivisorsExample {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final long TARGET_NUMBER = INPUT.nextLong();
         printDivisorsToNumber(TARGET_NUMBER);
     }

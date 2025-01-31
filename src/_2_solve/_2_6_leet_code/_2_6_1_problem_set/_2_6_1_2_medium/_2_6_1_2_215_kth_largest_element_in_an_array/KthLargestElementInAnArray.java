@@ -14,7 +14,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_2_medium._2_6_1_2_215_
  */
 
 public class KthLargestElementInAnArray {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {3, 2, 1, 5, 6, 4};
         final int TARGET_NUMBER = 2;
         System.out.print(findKthLargest(NUMBERS, TARGET_NUMBER));

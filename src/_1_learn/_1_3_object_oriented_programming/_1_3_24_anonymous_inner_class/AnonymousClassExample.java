@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public class AnonymousClassExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<Integer> NUMBERS = new ArrayList<>() {{
             // Content of Anonymous Inner Class
             add(1);

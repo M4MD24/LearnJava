@@ -44,7 +44,7 @@ public class CalculatorExample {
     private static final long NUMBER_1 = Long.parseLong(ARRAY_TEXT[0]),
             NUMBER_2 = Long.parseLong(ARRAY_TEXT[1]);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         result();
     }
 

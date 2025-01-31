@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_13_algorithms._2_2_13_2_sort._2_2_13_2_17;
  */
 
 public class Question17 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {5, 2, 8, 1, 9, 4, 10, 6, 3, 7};
         sleepSort(NUMBERS);
     }

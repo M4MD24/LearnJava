@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_2_competitions._2_5_2_2_coder_hub_hat_24_th
 import java.util.Arrays;
 
 public class IsPalindromeExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(isPalindrome(new int[]{1, 2, 1}));
     }
 

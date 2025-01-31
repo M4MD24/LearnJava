@@ -18,7 +18,7 @@ import java.util.Map;
  */
 
 public class LetterCombinationsOfPhoneNumber {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(letterCombinations("23456789"));
     }
 

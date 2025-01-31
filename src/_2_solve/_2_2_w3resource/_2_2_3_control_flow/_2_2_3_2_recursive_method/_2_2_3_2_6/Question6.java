@@ -13,7 +13,7 @@ package _2_solve._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._
  */
 
 public class Question6 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "Java, World!";
         System.out.printf("""
                         Original text:\s%s

@@ -17,7 +17,7 @@ package _2_solve._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_1_
  */
 
 public class Question12 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int FIRST_NUMBER = Integer.MIN_VALUE,
                 SECOND_NUMBER = Integer.MAX_VALUE;
         System.out.printf("Signed numbers: %d, %d\n", FIRST_NUMBER, SECOND_NUMBER);

@@ -20,7 +20,7 @@ package _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4
  * </h2>
  */
 public class Question10 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int NUMBER = 7;
         System.out.println("Input a number: " + NUMBER);
         System.out.printf("%sappy Number", isHappyNumber(NUMBER)

@@ -11,7 +11,7 @@ import java.util.Collections;
 public class Question14 {
     private static final ArrayList<String> COLORS_CODES = new ArrayList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColorsCodes();
         System.out.println("Before Swap: " + COLORS_CODES);
         Collections.swap(COLORS_CODES, 1, 3);

@@ -4,7 +4,7 @@ import java.awt.List;
 import java.util.*;
 
 public class ListExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         list();
     }
 

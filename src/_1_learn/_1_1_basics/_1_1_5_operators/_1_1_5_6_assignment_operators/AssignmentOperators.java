@@ -1,7 +1,7 @@
 package _1_learn._1_1_basics._1_1_5_operators._1_1_5_6_assignment_operators;
 
 public class AssignmentOperators {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         /* Assignment Operators Types! */
         /* ( = ) Assignment
          * ( += ) Addition Assignment

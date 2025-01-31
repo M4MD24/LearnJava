@@ -49,7 +49,7 @@ public class ShiftRightExample {
     private static final byte SHIFT_RIGHT_COUNT = (byte) (INPUT.nextByte() % LENGTH);
     private static final int[] NUMBERS = new int[LENGTH];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         printValues();
     }

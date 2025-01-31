@@ -30,7 +30,7 @@ import java.util.Scanner;
  */
 
 public class SimpleCalculatorExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner input = new Scanner(System.in);
         long number1 = Long.parseLong(input.next()),
                 number2 = Long.parseLong(input.next());

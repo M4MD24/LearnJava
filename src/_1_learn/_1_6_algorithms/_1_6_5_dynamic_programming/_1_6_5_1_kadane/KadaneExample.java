@@ -1,7 +1,7 @@
 package _1_learn._1_6_algorithms._1_6_5_dynamic_programming._1_6_5_1_kadane;
 
 public class KadaneExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, -2, 3, 0, 7, 8, 1, 2, -3};
         System.out.print(kadaneAlgorithm(NUMBERS));
     }

@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question3 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {161, 269, 370, 101, 125, 125, 716, 54, 54, 868, 12};
         System.out.println("Original Numbers: " + Arrays.toString(NUMBERS));
         radixSort(NUMBERS);

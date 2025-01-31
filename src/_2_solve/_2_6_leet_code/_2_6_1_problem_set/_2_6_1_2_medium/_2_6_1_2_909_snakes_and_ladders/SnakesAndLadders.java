@@ -37,7 +37,7 @@ import java.util.Queue;
  */
 
 public class SnakesAndLadders {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[][] BOARD = new int[][]{
                 {-1, -1, -1, -1, -1, -1},
                 {-1, -1, -1, -1, -1, -1},

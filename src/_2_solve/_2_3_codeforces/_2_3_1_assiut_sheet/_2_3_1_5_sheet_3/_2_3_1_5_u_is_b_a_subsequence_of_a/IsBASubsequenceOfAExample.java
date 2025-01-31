@@ -71,7 +71,7 @@ public class IsBASubsequenceOfAExample {
     private static final short SEQUENCE_LENGTH = INPUT.nextShort(),
             SUB_SEQUENCE_LENGTH = INPUT.nextShort();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] SEQUENCE = inputValues(SEQUENCE_LENGTH),
                 SUB_SEQUENCE = inputValues(SUB_SEQUENCE_LENGTH);
         System.out.print(isSubSequence(SEQUENCE, SUB_SEQUENCE));

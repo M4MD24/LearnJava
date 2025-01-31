@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_10_string_and_input_and_output._2_2_10_1_s
  */
 
 public class Question111 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(getTextAfterRemoveSpecificSubText("Red Green Blue", "Green"));
     }
 

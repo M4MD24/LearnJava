@@ -16,7 +16,7 @@ import java.util.Collections;
  */
 
 public class Question71 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 20, 3, 0, 40, 6};
         System.out.println(Arrays.toString(NUMBERS));
         printLargestNumberUsingArrayNumbers(NUMBERS);

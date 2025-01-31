@@ -1,7 +1,7 @@
 package _1_learn._1_1_basics._1_1_14_string_buffer;
 
 public class StringBufferExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         StringBuffer one = new StringBuffer("One");
         StringBuffer two = new StringBuffer("Two");
         StringBuffer three = new StringBuffer("Three");

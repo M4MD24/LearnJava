@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_12_advanced_concepts._2_2_12_2_unit_test._
  */
 
 public class Question4 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Calculator CALCULATOR = new Calculator();
         final double FIRST_NUMBER = 5,
                 SECOND_NUMBER = 5;

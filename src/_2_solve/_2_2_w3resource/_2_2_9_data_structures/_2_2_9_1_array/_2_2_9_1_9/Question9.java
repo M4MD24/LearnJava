@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class Question9 {
     private static int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int TARGET_NUMBER = 0,
                 TARGET_POSITION = 2;
         System.out.println("Before Insert: " + Arrays.toString(numbers));

@@ -41,7 +41,7 @@ public class DistancePointsExample {
             LONGITUDE = LONGITUDE_NUMBER_1 - LONGITUDE_NUMBER_2;
     private static final double DISTANCE_POINTS = Math.sqrt((LATITUDE * LATITUDE) + (LONGITUDE * LONGITUDE));
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.printf("%.9f", DISTANCE_POINTS);
     }
 }

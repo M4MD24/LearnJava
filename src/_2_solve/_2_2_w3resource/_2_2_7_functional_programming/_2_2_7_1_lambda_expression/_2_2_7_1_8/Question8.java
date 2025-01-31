@@ -8,7 +8,7 @@ import java.util.function.LongUnaryOperator;
  */
 
 public class Question8 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final LongUnaryOperator NUMBERS = TARGET_NUMBER -> {
             long multiplication = 1;
             for (long index = 2; index <= TARGET_NUMBER; index++)

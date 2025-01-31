@@ -16,7 +16,7 @@ import java.util.Arrays;
  */
 
 public class CoinChange {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] COINS = {1, 2, 5};
         final int AMOUNT = 11;
         System.out.print(coinChange(COINS, AMOUNT));

@@ -22,7 +22,7 @@ import java.util.Arrays;
  */
 
 public class PrimeSubtractionOperation {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(primeSubOperation(new int[]{4, 9, 6, 10}));
     }
 

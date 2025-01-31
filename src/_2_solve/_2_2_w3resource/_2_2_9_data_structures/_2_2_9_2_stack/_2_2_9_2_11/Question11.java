@@ -10,7 +10,7 @@ import java.util.stream.Stream;
  */
 
 public class Question11 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Stack<Integer> NUMBERS = new Stack<>();
         final int TARGET_NUMBER_TO_ROTATE_NUMBERS_TO_RIGHT_DIRECTION = 2;
         addNumbers(NUMBERS);

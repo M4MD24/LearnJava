@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_13_algorithms._2_2_13_1_search._2_2_13_1_3
  */
 
 public class Question3 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         final int TARGET = 10;
         System.out.print(jumpSearch(NUMBERS, TARGET));

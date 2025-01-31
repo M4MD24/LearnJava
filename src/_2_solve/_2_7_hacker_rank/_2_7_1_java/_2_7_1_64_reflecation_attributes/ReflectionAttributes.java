@@ -189,7 +189,7 @@ class Student {
 }
 
 public class ReflectionAttributes {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Class<Student> STUDENT = Student.class;
         final Method[] METHODS = STUDENT.getDeclaredMethods();
         final ArrayList<String> METHOD_LIST = new ArrayList<>();

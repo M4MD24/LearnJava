@@ -11,7 +11,7 @@ import java.util.Stack;
  */
 
 public class BasicCalculator {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "(1+(4+5+2)-3)+(6+8)";
         System.out.print(calculate(TEXT));
     }

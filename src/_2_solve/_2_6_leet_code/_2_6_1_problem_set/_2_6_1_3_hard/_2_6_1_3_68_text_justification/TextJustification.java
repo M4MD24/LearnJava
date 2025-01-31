@@ -26,7 +26,7 @@ import java.util.List;
  */
 
 public class TextJustification {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String[] WORDS = {"This", "is", "an", "example", "of", "text", "justification."};
         final int MAXIMUM_WIDTH = 16;
         System.out.print(fullJustify(WORDS, MAXIMUM_WIDTH));

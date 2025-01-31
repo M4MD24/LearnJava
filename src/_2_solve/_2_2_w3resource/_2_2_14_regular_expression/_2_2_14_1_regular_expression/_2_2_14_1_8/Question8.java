@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_14_regular_expression._2_2_14_1_regular_ex
  */
 
 public class Question8 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "Nullexia_4_Programming";
         System.out.print(isContainLettersAndNumbersOnlyAndUnderscore(TEXT));
     }

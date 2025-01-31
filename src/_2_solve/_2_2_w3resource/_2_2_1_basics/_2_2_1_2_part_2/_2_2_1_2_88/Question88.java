@@ -22,7 +22,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_88;
  */
 
 public class Question88 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("Input the text:");
         final String TEXT = "XY#6Z1#4023";
         System.out.println(TEXT);

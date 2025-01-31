@@ -29,7 +29,7 @@ import java.util.LinkedList;
  */
 
 public class MinimumGeneticMutation {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(minMutation(
                 "AACCGGTT",
                 "AACCGGTA",

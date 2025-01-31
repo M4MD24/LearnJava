@@ -10,7 +10,7 @@ import java.util.PriorityQueue;
 public class Question9 {
     private static final PriorityQueue<String> COLORS = new PriorityQueue<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         System.out.println("Before Remove: " + COLORS);
         System.out.println("Color Removed: " + COLORS.poll());

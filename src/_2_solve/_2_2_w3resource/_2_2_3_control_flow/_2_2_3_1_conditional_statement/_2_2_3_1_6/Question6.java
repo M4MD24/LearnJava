@@ -16,7 +16,7 @@ package _2_solve._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statem
  */
 
 public class Question6 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final float NUMBER = 25.586F,
                 ANOTHER_NUMBER = 25.589F;
         System.out.printf("""

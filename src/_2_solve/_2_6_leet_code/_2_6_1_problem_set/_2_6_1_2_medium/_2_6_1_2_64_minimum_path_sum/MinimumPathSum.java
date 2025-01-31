@@ -11,7 +11,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_2_medium._2_6_1_2_64_m
  */
 
 public class MinimumPathSum {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[][] GRID = {
                 {1, 3, 1},
                 {1, 5, 1},

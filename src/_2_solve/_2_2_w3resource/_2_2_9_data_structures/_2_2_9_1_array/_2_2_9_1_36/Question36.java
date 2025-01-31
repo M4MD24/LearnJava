@@ -12,7 +12,7 @@ package _2_solve._2_2_w3resource._2_2_9_data_structures._2_2_9_1_array._2_2_9_1_
  */
 
 public class Question36 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {-4, -2, 0, 6, 4};
         printDistinctTripletsSumOfAllThreeNumbersWithSameFormat(NUMBERS, 2);
     }

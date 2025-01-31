@@ -19,7 +19,7 @@ import java.util.Map;
  * <li><b>isEmpty()</b> - checks if the Hashmap is empty.</li>
  */
 public class LinkedHashMapExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         linkedHashMap();
     }
 

@@ -17,7 +17,7 @@ import java.util.Arrays;
  */
 
 public class Question131 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] ORIGINAL_ARRAY = {1, 1, 2, 3, 3, 3, 4, 5, 6, 7, 7};
         updatedLengthSortedArrayWhereEachElementAppearsOnlyOnce(ORIGINAL_ARRAY);
     }

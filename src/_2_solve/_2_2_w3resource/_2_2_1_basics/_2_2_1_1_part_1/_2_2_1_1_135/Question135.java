@@ -74,7 +74,7 @@ class LinkedList {
 public class Question135 {
     private static final LinkedList LINKED_LIST = new LinkedList();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         insertion();
         System.out.println("Original List with duplicate elements:");
         LINKED_LIST.showAll();

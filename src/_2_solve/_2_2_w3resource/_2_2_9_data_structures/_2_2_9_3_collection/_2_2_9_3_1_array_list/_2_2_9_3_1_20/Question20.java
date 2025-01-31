@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Question20 {
     private static final ArrayList<String> COLORS_CODES = new ArrayList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColorsCodes();
         COLORS_CODES.ensureCapacity(6);
         COLORS_CODES.add("#0000Ff".toUpperCase());

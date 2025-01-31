@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_7_functional_programming._2_2_7_1_lambda_e
  */
 
 public class Question13 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "Hello Java";
         final TextMethod COUNT_OF_WORDS_OF_TEXT = (WORDS) -> WORDS.split(" +").length;
         System.out.print(COUNT_OF_WORDS_OF_TEXT.countOfWords(TEXT));

@@ -35,7 +35,7 @@ public class SmallestPairExample {
             length;
     private static int[] values;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         while (countOfTestCases-- > 0) {
             inputValues();
             System.out.println(smallestPairSum());

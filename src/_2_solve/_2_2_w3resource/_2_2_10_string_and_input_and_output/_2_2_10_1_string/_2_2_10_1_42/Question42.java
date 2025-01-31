@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question42 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(
                 Arrays.toString(getTextsContainingAllCharactersOfText(
                         new String[]{"Nullexia", "for", "Programming"},

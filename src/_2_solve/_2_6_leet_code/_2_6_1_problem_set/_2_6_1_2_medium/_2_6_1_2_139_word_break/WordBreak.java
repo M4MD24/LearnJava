@@ -15,7 +15,7 @@ import java.util.Set;
  */
 
 public class WordBreak {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "applepenapple";
         final List<String> WORD_DICTIONARY = List.of("apple", "pen");
         System.out.print(wordBreak(TEXT, WORD_DICTIONARY));

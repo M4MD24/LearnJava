@@ -14,7 +14,7 @@ import java.util.List;
  */
 
 public class ThreeSum {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {-1, 0, 1, 2, -1, -4};
         System.out.print(threeSums(NUMBERS));
     }

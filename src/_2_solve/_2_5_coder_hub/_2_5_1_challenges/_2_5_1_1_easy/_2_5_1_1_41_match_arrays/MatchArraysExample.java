@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_41_matc
 import java.util.Arrays;
 
 public class MatchArraysExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(matchArrays(new String[]{"hello", "there", "word2"}, new String[]{"hello", "there", "word2"}));
         System.out.println(matchArrays(new String[]{"hello", "word2"}, new String[]{"hello", "there", "word2"}));
         System.out.println(matchArrays(new String[]{"hello", "there", "word2"}, new String[]{"hello", "word2"}));

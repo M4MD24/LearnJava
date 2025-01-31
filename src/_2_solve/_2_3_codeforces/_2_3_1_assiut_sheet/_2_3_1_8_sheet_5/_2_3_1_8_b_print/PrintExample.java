@@ -30,7 +30,7 @@ import java.util.Scanner;
  */
 
 public class PrintExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         printAllNumbersFrom1ToTargetNumber(new Scanner(System.in).nextShort());
     }
 

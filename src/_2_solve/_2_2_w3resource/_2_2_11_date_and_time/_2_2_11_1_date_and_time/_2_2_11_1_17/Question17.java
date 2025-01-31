@@ -8,7 +8,7 @@ import java.util.Calendar;
  */
 
 public class Question17 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         printDateBeforeOneYear(Calendar.getInstance());
         printCurrentDate(Calendar.getInstance());
         printDateAfterOneYear(Calendar.getInstance());

@@ -12,7 +12,7 @@ package _2_solve._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_1_
  */
 
 public class Question1 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final double FAHRENHEIT_DEGREE = 212;
         System.out.printf("%f° degree fahrenheit is equal to %f° in celsius\n", FAHRENHEIT_DEGREE, getCelsiusDegree(FAHRENHEIT_DEGREE));
     }

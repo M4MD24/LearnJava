@@ -4,7 +4,7 @@ import java.util.Enumeration;
 import java.util.Vector;
 
 public class EnumerationExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Vector<String> ELEMENTS = new Vector<>() {{
             add("Java");
             add("Python");

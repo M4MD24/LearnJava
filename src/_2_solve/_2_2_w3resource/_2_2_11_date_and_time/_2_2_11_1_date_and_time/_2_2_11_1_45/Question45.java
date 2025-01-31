@@ -9,7 +9,7 @@ import java.util.Date;
  */
 
 public class Question45 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(new SimpleDateFormat("dd-MM-yyyy\nHH:mm:ss:SSS").format(new Date()));
     }
 }

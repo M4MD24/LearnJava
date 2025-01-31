@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_88;
  */
 
 public class Question88 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("Current System Environment:\n" + System.getenv());
         System.out.print("\nSystem Properties:\n" + System.getProperties());
     }

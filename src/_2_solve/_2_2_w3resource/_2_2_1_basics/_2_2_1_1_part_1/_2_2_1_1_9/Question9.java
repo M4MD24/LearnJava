@@ -12,7 +12,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_1_part_1._2_2_1_1_9;
  */
 
 public class Question9 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         double resultOfSpecifiedFormula = (25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5);
         System.out.print(resultOfSpecifiedFormula);
     }

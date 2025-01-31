@@ -13,7 +13,7 @@ public class Method {
         System.out.println(addition2Number(NUMBER_1 /* Argument */, NUMBER_2 /* Argument */));
     }
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final float NUMBER_1 = 10, NUMBER_2 = 3;
 
         new Method().printAddition2Number(NUMBER_1 /* Argument */, NUMBER_2 /* Argument */);

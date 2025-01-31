@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_9_data_structures._2_2_9_1_array._2_2_9_1_
  */
 
 public class Question43 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {10, 20, 30, 40, 1, 2};
         final int TARGET_NUMBER = 53;
         printAllCombinationsOfFourNumbersEqualsTargetNumber(NUMBERS, TARGET_NUMBER);

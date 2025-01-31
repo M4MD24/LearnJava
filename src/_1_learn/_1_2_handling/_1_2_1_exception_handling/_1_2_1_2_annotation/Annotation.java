@@ -86,7 +86,7 @@ import java.util.logging.Logger;
 @SuppressWarnings({"warningCategory1", "warningCategory2"})
 public class Annotation {
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         customNotation();
         deprecatedMethod();
         Logger logger = Logger.getLogger(Annotation.class.getName());

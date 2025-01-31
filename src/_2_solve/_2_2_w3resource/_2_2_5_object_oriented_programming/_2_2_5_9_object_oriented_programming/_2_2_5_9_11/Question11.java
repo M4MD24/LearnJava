@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question11 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Library LIBRARY = new Library();
         LIBRARY.addBook("Learn Python Programming");
         LIBRARY.addBook("Web Development with JavaScript and HTML");

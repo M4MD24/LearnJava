@@ -14,7 +14,7 @@ import java.util.PriorityQueue;
  */
 
 public class MergeKSortedLists {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final ListNode[] NODES_LIST = {
                 new ListNode(1, new ListNode(4, new ListNode(5))),
                 new ListNode(1, new ListNode(3, new ListNode(4))),

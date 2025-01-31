@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_32_sum_
 import java.util.Arrays;
 
 public class SumOddExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(getLastElement(new int[]{2, 9, 5, 4, 0}));
         System.out.println(getLastElement(new int[]{3, 12, 6}));
         System.out.println(getLastElement(new int[]{1, 8, 5, 44}));

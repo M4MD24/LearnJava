@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question5 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<String> TEXTS = Arrays.asList("Cat", "Apple", "Bear", "Deer", "Banana");
         final long COUNT_OF_START_WITH_SPECIFIC_LETTER = TEXTS.stream()
                 .filter(TEXT -> TEXT

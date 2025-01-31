@@ -5,7 +5,7 @@ import java.util.concurrent.LinkedBlockingDeque;
 
 /**/
 public class BlockingDequeExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         blockingDeque();
     }
 

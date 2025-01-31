@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
  */
 
 public class Question90 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(areTwoTextsOfFirstAndSecondTargetTextAppearSameCount("redcapmanwithbluecar", "red", "blue"));
     }
 

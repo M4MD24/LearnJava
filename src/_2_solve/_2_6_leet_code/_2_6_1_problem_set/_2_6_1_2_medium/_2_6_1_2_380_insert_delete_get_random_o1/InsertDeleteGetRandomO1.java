@@ -20,7 +20,7 @@ import java.util.*;
  */
 
 public class InsertDeleteGetRandomO1 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final InsertDeleteGetRandomO1 INSERT_DELETE_GET_RANDOM_O1 = new InsertDeleteGetRandomO1();
         INSERT_DELETE_GET_RANDOM_O1.insert(1);
         INSERT_DELETE_GET_RANDOM_O1.insert(2);

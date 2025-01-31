@@ -34,7 +34,7 @@ enum AdditionalNumbers {
  * </ul>
  */
 public class EnumSetExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         enumSet();
     }
 

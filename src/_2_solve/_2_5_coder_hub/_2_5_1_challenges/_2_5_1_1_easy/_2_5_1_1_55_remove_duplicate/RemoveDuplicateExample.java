@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_55_remo
 import java.util.Arrays;
 
 public class RemoveDuplicateExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(getNumbersAfterRemoveDuplicateNumbers(new int[]{7, 8, 9, 7})));
         System.out.println(Arrays.toString(getNumbersAfterRemoveDuplicateNumbers(new int[]{10, -10, -10, 10})));
         System.out.println(Arrays.toString(getNumbersAfterRemoveDuplicateNumbers(new int[]{100, 101, 102, 100})));

@@ -8,7 +8,7 @@ import java.util.Calendar;
  */
 
 public class Question13 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Calendar CALENDAR = Calendar.getInstance();
         System.out.print(CALENDAR.get(Calendar.DAY_OF_WEEK));
     }

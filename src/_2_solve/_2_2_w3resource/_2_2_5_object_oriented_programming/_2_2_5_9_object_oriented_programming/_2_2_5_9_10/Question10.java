@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question10 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Student STUDENT = new Student("Mahmoud", 99.42F);
         STUDENT.addCourse("Java");
         STUDENT.addCourse("Intellij Idea");

@@ -17,7 +17,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_80;
  */
 
 public class Question80 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "python is more popular than java";
         System.out.printf("Input text:\n%s\n", TEXT);
         System.out.printf("Input text:\n%s",

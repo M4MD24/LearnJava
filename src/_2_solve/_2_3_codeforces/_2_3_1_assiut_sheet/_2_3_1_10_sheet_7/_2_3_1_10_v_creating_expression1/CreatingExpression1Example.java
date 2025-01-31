@@ -48,7 +48,7 @@ public class CreatingExpression1Example {
     private static final int REQUIRED_SUM = INPUT.nextInt();
     private static final int[] NUMBERS = new int[LENGTH];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues((byte) 0);
         System.out.print(checkCurrentTotalEqualRequiredSum(NUMBERS[0], (byte) 1) ? "YES" : "NO");
     }

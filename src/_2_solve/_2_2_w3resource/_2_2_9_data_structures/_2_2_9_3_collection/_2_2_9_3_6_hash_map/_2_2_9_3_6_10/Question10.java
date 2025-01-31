@@ -10,7 +10,7 @@ import java.util.HashMap;
 public class Question10 {
     private static final HashMap<String, String> COLORS = new HashMap<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         final String TARGET_COLOR = "#FF0000";
         System.out.print(COLORS.get(TARGET_COLOR));

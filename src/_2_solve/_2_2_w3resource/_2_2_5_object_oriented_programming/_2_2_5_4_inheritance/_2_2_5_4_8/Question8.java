@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_4_inh
  */
 
 public class Question8 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Circle CIRCLE = new Circle(5);
         System.out.printf("■ Circle:%nPerimeter: %f%nArea: %f",
                 CIRCLE.getPerimeter(),

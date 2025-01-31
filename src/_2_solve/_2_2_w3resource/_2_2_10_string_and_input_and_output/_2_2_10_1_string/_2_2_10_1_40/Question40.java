@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question40 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "aaaaaAAAAA12345bbbbbBBBBB";
         final int SPECIFIC_NUMBER = 5;
         System.out.print(Arrays.toString(getSubTextsAfterDivideTextIntoNumberEqualParts(TEXT, SPECIFIC_NUMBER)));

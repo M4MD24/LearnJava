@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_10_su
 import java.util.Arrays;
 
 public class SubArraysExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(getResultOfSubtractBetweenNumbers(new int[]{2, 4, 88}, new int[]{4, 2, 88})));
         System.out.println(Arrays.toString(getResultOfSubtractBetweenNumbers(new int[]{-3, 4, 0}, new int[]{93, 22, 7})));
         System.out.println(Arrays.toString(getResultOfSubtractBetweenNumbers(new int[]{7, 8, 2}, new int[]{4, 5, 1})));

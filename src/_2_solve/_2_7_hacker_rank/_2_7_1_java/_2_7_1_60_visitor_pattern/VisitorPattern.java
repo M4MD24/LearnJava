@@ -200,7 +200,7 @@ public class VisitorPattern {
             ));
     }
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Tree ROOT = solve();
         final SumInLeavesVisitor FIRST_VISITOR = new SumInLeavesVisitor();
         final ProductOfRedNodesVisitor SECOND_VISITOR = new ProductOfRedNodesVisitor();

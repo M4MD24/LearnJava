@@ -11,7 +11,7 @@ public class Question10 {
     private static final HashSet<String> FIRST_COLORS_CODES = new HashSet<>(),
             SECOND_COLORS_CODES = new HashSet<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addFirstColorsCodes();
         addSecondColorsCodes();
         compareBetweenColorsCodes();

@@ -1,7 +1,7 @@
 package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_14_max_element;
 
 public class MaxElementExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(getMaximumNumber(new int[]{1, 2, 3, 4, 5, 1000}));
         System.out.println(getMaximumNumber(new int[]{32, 35, 23, 59, 20, 88}));
         System.out.println(getMaximumNumber(new int[]{-2, -563, -13, -8}));

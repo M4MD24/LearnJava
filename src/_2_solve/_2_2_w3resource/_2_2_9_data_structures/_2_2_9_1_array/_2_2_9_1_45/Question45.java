@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
  */
 
 public class Question45 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 2, 3, 4, 5, 6, 7, 8, 9},
                 ROTATE_NUMBER_CLOCKWISE = rotateNumberClockwise(NUMBERS);
         System.out.print(Arrays.toString(ROTATE_NUMBER_CLOCKWISE));

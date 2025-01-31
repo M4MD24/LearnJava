@@ -30,7 +30,7 @@ package _2_solve._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_1_
  */
 
 public class Question9 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int FIRST_NUMBER = 25,
                 SECOND_NUMBER = 5;
         System.out.printf("Input 1st number: %d\n", FIRST_NUMBER);

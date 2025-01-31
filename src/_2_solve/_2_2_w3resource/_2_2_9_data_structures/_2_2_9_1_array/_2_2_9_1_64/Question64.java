@@ -20,7 +20,7 @@ import java.util.Arrays;
  */
 
 public class Question64 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {4, 5, 9, 5, 6, 10, 11, 9, 6, 4, 5};
         System.out.println("Numbers: " + Arrays.toString(NUMBERS));
         printLongestBiTonicSubArray(NUMBERS);

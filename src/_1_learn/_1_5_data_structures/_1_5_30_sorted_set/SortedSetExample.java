@@ -18,7 +18,7 @@ import java.util.TreeSet;
  * </ul>
  */
 public class SortedSetExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         sortedSetTreeSet();
     }
 

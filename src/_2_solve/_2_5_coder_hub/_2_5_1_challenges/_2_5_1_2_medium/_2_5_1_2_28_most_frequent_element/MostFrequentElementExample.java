@@ -1,7 +1,7 @@
 package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_28_most_frequent_element;
 
 public class MostFrequentElementExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(mostFrequentElement(new int[]{13, 2, 1, 2, 10, 2, 1, 1, 2, 2}));
         System.out.println(mostFrequentElement(new int[]{1, 2, 3, 4, 1, 5, -5, -5, -5, -5, -5, 6}));
         System.out.println(mostFrequentElement(new int[]{1, 2, 3, 3, 3, 3}));

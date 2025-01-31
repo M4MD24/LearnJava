@@ -14,7 +14,7 @@ import java.util.Arrays;
  */
 
 public class MergeSortedArray {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] FIRST_NUMBERS = {1, 2, 3, 0, 0, 0},
                 SECOND_NUMBERS = {2, 5, 6};
         final int FIRST_LENGTH = 3,

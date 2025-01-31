@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question28 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 20, 3, 4, 5, 6, 7, 8, 90};
         System.out.println(Arrays.toString(NUMBERS));
         System.out.print(

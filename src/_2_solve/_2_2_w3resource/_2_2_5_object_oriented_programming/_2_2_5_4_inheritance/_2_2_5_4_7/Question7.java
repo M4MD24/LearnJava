@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_4_inh
  */
 
 public class Question7 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Person PERSON = new Person("Ahmed", "Hamam");
         System.out.printf("■ Person%nFirst Name: %s%nLast Name: %s%n%n",
                 PERSON.getFirstName(),

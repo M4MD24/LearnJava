@@ -11,7 +11,7 @@ import java.util.HashMap;
 public class Question12 {
     private static final HashMap<String, String> COLORS = new HashMap<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         final Collection<String> COLORS_NAMES = COLORS.values();
         System.out.print(COLORS_NAMES);

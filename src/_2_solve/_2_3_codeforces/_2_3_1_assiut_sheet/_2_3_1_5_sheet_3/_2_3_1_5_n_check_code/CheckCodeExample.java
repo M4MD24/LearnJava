@@ -62,7 +62,7 @@ public class CheckCodeExample {
             LENGTH_2 = INPUT.nextByte();
     private static final String CODE = INPUT.next();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         checkCode();
     }
 

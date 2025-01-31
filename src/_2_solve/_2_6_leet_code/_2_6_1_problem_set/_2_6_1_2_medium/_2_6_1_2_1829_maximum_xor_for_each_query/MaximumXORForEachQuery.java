@@ -17,7 +17,7 @@ import java.util.Arrays;
  */
 
 public class MaximumXORForEachQuery {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(Arrays.toString(getMaximumXor(
                 new int[]{2, 3, 4, 7},
                 3

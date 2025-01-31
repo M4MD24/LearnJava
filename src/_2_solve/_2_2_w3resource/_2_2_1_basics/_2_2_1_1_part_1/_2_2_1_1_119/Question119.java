@@ -10,7 +10,7 @@ public class Question119 {
     final static int ELEMENT_TARGET = 7;
     static int index;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         getFirstOccurrence();
     }
 

@@ -22,7 +22,7 @@ import java.util.List;
  */
 
 public class InsertIntervals {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[][] INTERVALS = {
                 {1, 3},
                 {6, 9}

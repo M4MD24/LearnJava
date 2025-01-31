@@ -42,7 +42,7 @@ public class EvenAndOddAndPositiveAndNegativeExample {
             sumPositiveNumbers = 0,
             sumNegativeNumbers = 0;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int LENGTH = INPUT.nextInt();
         enterValues(LENGTH);
         printSumOfEvenAndOddAndPositiveAndNegativeNumbers();

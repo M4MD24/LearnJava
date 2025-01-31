@@ -9,7 +9,7 @@ import java.util.TimeZone;
  */
 
 public class Question5 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Calendar CALENDAR = Calendar.getInstance();
         printTimeInEgypt(CALENDAR);
     }

@@ -16,7 +16,7 @@ package _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4
  * </h2>
  */
 public class Question28 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int NUMBER = 153;
         System.out.println("Input an integers: " + NUMBER);
         System.out.print("Is Armstrong number? " + isArmstrongNumber(NUMBER));

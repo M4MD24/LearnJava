@@ -12,7 +12,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_20;
  * </h2>
  */
 public class Question20 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int NUMBER = 1234;
         System.out.printf("Input an number (positive/negative): %d\n", NUMBER);
         System.out.printf("Extract the first digit from the said number: %d", NUMBER > -1

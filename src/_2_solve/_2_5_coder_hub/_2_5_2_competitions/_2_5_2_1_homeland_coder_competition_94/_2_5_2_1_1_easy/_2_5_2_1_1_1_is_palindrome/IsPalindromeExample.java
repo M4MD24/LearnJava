@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_2_competitions._2_5_2_1_homeland_coder_comp
 import java.util.Scanner;
 
 public class IsPalindromeExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(isPalindrome(new Scanner(System.in).nextLine()));
     }
 

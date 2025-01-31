@@ -10,7 +10,7 @@ import java.util.Locale;
  */
 
 public class Question28 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Reservation RESERVATION = new Reservation("0987654321", "Someone");
         final Reservation.RailwayReservation RAILWAY_RESERVATION = new Reservation.RailwayReservation(8);
         final Reservation.ApartmentReservation APARTMENT_RESERVATION = new Reservation.ApartmentReservation(5);

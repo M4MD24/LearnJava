@@ -34,7 +34,7 @@ class Student {
 }
 
 public class SortExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         int countOfStudents = INPUT.nextInt();
         final List<Student> STUDENTS = new ArrayList<>();

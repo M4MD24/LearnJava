@@ -39,7 +39,7 @@ class AnotherGraph extends Graph {
 public class BreadthFirstExample {
     private static final AnotherGraph ANOTHER_GRAPH = new AnotherGraph(5);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         initializeLast();
         breadthFirstSearchTest();
     }

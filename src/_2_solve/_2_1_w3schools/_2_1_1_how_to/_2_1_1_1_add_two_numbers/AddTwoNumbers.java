@@ -3,7 +3,7 @@ package _2_solve._2_1_w3schools._2_1_1_how_to._2_1_1_1_add_two_numbers;
 import java.util.Scanner;
 
 public class AddTwoNumbers {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         int number1, number2, result;
         Scanner input = new Scanner(System.in);
 

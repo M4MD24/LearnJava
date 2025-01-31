@@ -11,7 +11,7 @@ import java.util.HashSet;
 public class Question7 {
     private static final HashSet<String> COLORS = new HashSet<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         final String[] COLORS_AS_ARRAY = new String[COLORS.size()];
         COLORS.toArray(COLORS_AS_ARRAY);

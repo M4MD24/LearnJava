@@ -8,7 +8,7 @@ import java.util.Stack;
  */
 
 public class Question25 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Stack<Integer> FIRST_NUMBERS = new Stack<>(),
                 SECOND_NUMBERS = new Stack<>();
         addFirstNumbers(FIRST_NUMBERS);

@@ -20,7 +20,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_30;
 public class Question30 {
     private static final LinkedList<Integer> NODES = new LinkedList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         NODES.showAll();
         System.out.println();

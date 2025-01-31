@@ -12,7 +12,7 @@ import java.util.Arrays;
  */
 
 public class HIndex {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {3, 0, 6, 1, 5};
         System.out.print(hIndex(NUMBERS));
     }

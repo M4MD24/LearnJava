@@ -9,7 +9,7 @@ import java.util.HashSet;
  */
 
 public class Question25 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] FIRST_NUMBERS = {2, 4, 8},
                 SECOND_NUMBERS = {2, 3, 4, 8, 10, 16},
                 THIRD_NUMBERS = {4, 8, 14, 40};

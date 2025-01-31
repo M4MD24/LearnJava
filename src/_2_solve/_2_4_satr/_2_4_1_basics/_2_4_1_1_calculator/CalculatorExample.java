@@ -3,7 +3,7 @@ package _2_solve._2_4_satr._2_4_1_basics._2_4_1_1_calculator;
 import java.util.Scanner;
 
 public class CalculatorExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final TwoNumbersAndOperator TWO_NUMBERS_AND_OPERATOR = inputValues();
         System.out.print(calculateArithmeticOperation(TWO_NUMBERS_AND_OPERATOR.firstNumber, TWO_NUMBERS_AND_OPERATOR.mathematicalOperator, TWO_NUMBERS_AND_OPERATOR.secondNumber));
     }

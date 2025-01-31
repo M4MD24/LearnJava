@@ -9,7 +9,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_43;
  */
 
 public class Question43 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int NUMBER = 25;
         System.out.printf("Sum of subsets of %d is %d",
                 NUMBER,

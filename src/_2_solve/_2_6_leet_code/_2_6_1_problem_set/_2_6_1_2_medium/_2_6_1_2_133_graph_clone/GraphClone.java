@@ -27,7 +27,7 @@ import java.util.Map;
  */
 
 public class GraphClone {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Node FIRST_NODE = new Node(1),
                 SECOND_NODE = new Node(2),
                 THIRD_NODE = new Node(3),

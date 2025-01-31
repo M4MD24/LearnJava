@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question11 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         quickSort();
         mergeSort();
     }

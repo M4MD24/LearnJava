@@ -17,7 +17,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_36;
  */
 
 public class Question36 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int NUMBER = 9006;
         System.out.printf("Is %d is Strobogrammatic? %b", NUMBER, isStrobogrammatic(NUMBER));
     }

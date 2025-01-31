@@ -1,7 +1,7 @@
 package _2_solve._2_5_coder_hub._2_5_2_competitions._2_5_2_1_homeland_coder_competition_94._2_5_2_1_1_easy._2_5_2_1_1_2_calculate_average_visitors;
 
 public class CalculateAverageVisitorsExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(calculateAverageVisitors(new int[]{150, 200, 250, 300, 180, 220, 190}));
         System.out.println(calculateAverageVisitors(new int[]{100, 120, 130, 140, 150, 160, 170}));
         System.out.println(calculateAverageVisitors(new int[]{300, 320, 310, 305, 315, 325, 330}));

@@ -12,7 +12,7 @@ import java.util.Arrays;
  */
 
 public class Question53 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {16, 17, 4, 3, 5, 2};
         System.out.println(Arrays.toString(NUMBERS));
         replaceEveryNumbersWithNextGreatestNumbers(NUMBERS);

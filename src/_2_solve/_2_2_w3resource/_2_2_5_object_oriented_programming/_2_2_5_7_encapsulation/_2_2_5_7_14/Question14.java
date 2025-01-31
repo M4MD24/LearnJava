@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_7_enc
  */
 
 public class Question14 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Product PRODUCT = new Product();
         PRODUCT.setProductName("The Name");
         PRODUCT.setProductCode("0987654321");

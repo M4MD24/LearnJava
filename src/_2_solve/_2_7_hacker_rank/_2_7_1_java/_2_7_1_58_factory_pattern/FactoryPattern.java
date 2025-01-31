@@ -33,7 +33,7 @@ class FoodFactory {
 }
 
 public class FactoryPattern {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         final FoodFactory FOOD_FACTORY = new FoodFactory();
         final String ORDER = INPUT.nextLine();

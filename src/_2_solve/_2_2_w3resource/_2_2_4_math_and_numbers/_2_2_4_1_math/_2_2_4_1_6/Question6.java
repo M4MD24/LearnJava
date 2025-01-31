@@ -13,7 +13,7 @@ package _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_
  */
 
 public class Question6 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final long DIGITS = 1287;
         System.out.printf("""
                 Original digits:\s%d

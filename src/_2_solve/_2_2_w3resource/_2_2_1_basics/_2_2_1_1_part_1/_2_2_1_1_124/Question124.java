@@ -18,7 +18,7 @@ public class Question124 {
     private static final int[] numbers = {1, 2, 4, 5, 6};
     private static final Scanner input = new Scanner(System.in);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print("Input target: ");
         final int TARGET = input.nextInt();
 

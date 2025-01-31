@@ -78,7 +78,7 @@ public class FiveInOneExample {
             maximumNumberOfDivisors = 1,
             countOfDivisors = 1;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         printValues();
     }

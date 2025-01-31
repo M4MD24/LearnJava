@@ -18,7 +18,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_19;
  * </h2>
  */
 public class Question19 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int FIRST_NUMBER = 2,
                 SECOND_NUMBER = 8,
                 THIRD_NUMBER = 5;

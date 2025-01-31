@@ -31,7 +31,7 @@ public class Question12 {
             fourthNumber,
             fifthNumber;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("Input the 5 numbers:");
         printNumbers();
         System.out.printf("The sum of five numbers is: %d\n", firstNumber + secondNumber + thirdNumber + fourthNumber + fifthNumber);

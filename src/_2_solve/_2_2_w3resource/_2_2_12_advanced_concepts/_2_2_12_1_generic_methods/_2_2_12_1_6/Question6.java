@@ -10,7 +10,7 @@ import java.util.function.Predicate;
  */
 
 public class Question6 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<Integer> NUMBERS = List.of(1, 2, 3, 4, 5, 6);
         System.out.println(getListAfterFiltering(NUMBERS, number -> number % 2 == 0));
 

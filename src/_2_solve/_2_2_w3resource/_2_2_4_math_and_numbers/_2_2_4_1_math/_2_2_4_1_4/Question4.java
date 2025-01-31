@@ -13,7 +13,7 @@ package _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_
  */
 
 public class Question4 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final double NUMBER = 451.3256531D;
         final int TARGET_DECIMAL_NUMBERS = 4;
         System.out.printf("Rounded up to %d decimal: %" + TARGET_DECIMAL_NUMBERS + ".4f",

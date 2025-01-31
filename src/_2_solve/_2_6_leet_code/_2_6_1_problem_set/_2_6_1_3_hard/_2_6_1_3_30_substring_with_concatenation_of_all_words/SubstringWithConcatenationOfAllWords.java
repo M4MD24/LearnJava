@@ -19,7 +19,7 @@ import java.util.Map;
  */
 
 public class SubstringWithConcatenationOfAllWords {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "barfoothefoobarman";
         final String[] WORDS = {"foo", "bar"};
         System.out.print(findSubstring(TEXT, WORDS));

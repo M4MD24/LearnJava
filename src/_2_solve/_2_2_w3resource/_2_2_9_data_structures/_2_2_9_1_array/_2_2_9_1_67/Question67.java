@@ -22,7 +22,7 @@ import java.util.Arrays;
  */
 
 public class Question67 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] FIRST_NUMBERS = {2, 1, -5, 4, -3, 1, -3, 4, -1},
                 SECOND_NUMBERS = {1, -2, 3, 0, 7, 8, 1, 2, -3};
         System.out.println(Arrays.toString(FIRST_NUMBERS));

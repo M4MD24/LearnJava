@@ -10,7 +10,7 @@ import java.util.HashSet;
 public class Question6 {
     private static final HashSet<String> COLORS = new HashSet<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         final HashSet<String> ANOTHER_COLORS = (HashSet<String>) COLORS.clone();
         System.out.print(ANOTHER_COLORS);

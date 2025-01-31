@@ -29,7 +29,7 @@ public class Question26 {
     private static int countOfSpaces = TARGET_NUMBER - 1;
     private static char currentCharacter;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.printf("Input the target number: %d\n", TARGET_NUMBER);
         printCharacterRhombus();
     }

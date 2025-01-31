@@ -9,7 +9,7 @@ import java.time.Period;
  */
 
 public class Question42 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Period PERIOD = Period.of(
                 2,
                 3,

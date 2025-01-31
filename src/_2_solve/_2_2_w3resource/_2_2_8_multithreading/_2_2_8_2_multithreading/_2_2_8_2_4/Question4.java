@@ -11,7 +11,7 @@ public class Question4 {
     private static final int COUNT_OF_THREADS = 5,
             COUNT_OF_PERMITS = 5;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Semaphore SEMAPHORE = new Semaphore(COUNT_OF_PERMITS);
         final Thread[] THREADS = new Thread[COUNT_OF_THREADS];
         for (int index = 0; index < COUNT_OF_THREADS; index++) {

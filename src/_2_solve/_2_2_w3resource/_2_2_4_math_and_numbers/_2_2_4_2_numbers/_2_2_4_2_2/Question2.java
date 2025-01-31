@@ -50,7 +50,7 @@ public class Question2 {
             perfectNumbers = 0,
             abundantNumbers = 0;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int TARGET_NUMBER = 10_000;
         categorizingNumbersFromOneToTargetNumber(TARGET_NUMBER);
         System.out.printf("""

@@ -23,7 +23,7 @@
 <div dir="ltr">
 
 ```java
-public static void main(final String[] PARAMETERS) {
+public static void main(final String[] ARGUMENTS) {
     int a = 5;      // 0101
     int b = 3;      // 0011
     int result = a & b; // النتيجة تكون 1 (0001)
@@ -40,7 +40,7 @@ public static void main(final String[] PARAMETERS) {
 <div dir="ltr">
 
 ```java
-public static void main(final String[] PARAMETERS) {
+public static void main(final String[] ARGUMENTS) {
     int a = 5;      // 0101
     int b = 3;      // 0011
     int result = a | b; // النتيجة تكون 7 (0111)
@@ -57,7 +57,7 @@ public static void main(final String[] PARAMETERS) {
 <div dir="ltr">
 
 ```java
-public static void main(final String[] PARAMETERS) {
+public static void main(final String[] ARGUMENTS) {
     int a = 5;      // 0101
     int b = 3;      // 0011
     int result = a ^ b; // النتيجة تكون 6 (0110)
@@ -74,7 +74,7 @@ public static void main(final String[] PARAMETERS) {
 <div dir="ltr">
 
 ```java
-public static void main(final String[] PARAMETERS) {
+public static void main(final String[] ARGUMENTS) {
     int a = 5;      // 0101
     int result = ~a; // النتيجة تكون -6 بسبب التمثيل الثنائي في النظام المكمل 2
     System.out.println(result); // Output: -6
@@ -93,7 +93,7 @@ public static void main(final String[] PARAMETERS) {
 <div dir="ltr">
 
 ```java
-public static void main(final String[] PARAMETERS) {
+public static void main(final String[] ARGUMENTS) {
     int a = 5;      // 0101
     int leftShift = a << 1; // الإزاحة لليسار: 10 (1010)
     int rightShift = a >> 1; // الإزاحة لليمين: 2 (0010)

@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question16 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<String> TEXTS = Arrays.asList("Strawberry", "Apple", "Orange", "Banana");
         final boolean CONTAINS_THE_WORD = TEXTS.stream().anyMatch(WORD -> WORD.equals("Apple"));
         System.out.print(CONTAINS_THE_WORD);

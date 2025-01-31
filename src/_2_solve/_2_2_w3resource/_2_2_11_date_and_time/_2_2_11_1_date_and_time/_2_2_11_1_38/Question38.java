@@ -9,7 +9,7 @@ import java.time.temporal.ChronoUnit;
  */
 
 public class Question38 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final LocalDate FIRST_DATE = LocalDate.of(2003, 6, 9),
                 SECOND_DATE = LocalDate.of(2003, 6, 8);
         final long DIFFERENCE_DAYS = ChronoUnit.DAYS.between(FIRST_DATE, SECOND_DATE);

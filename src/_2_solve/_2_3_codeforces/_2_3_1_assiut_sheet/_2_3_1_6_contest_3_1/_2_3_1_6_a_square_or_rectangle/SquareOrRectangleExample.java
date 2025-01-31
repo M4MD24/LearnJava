@@ -38,7 +38,7 @@ import java.util.Scanner;
  */
 
 public class SquareOrRectangleExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         short countOfTestCases = INPUT.nextShort();
         while (countOfTestCases > 0) {

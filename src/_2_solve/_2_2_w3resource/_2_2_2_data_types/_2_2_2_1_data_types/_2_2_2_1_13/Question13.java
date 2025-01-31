@@ -18,7 +18,7 @@ package _2_solve._2_2_w3resource._2_2_2_data_types._2_2_2_1_data_types._2_2_2_1_
  */
 
 public class Question13 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int FIRST_NUMBER = -2365,
                 SECOND_NUMBER = 125;
         System.out.printf("Floor division using '/' operator: %d\n", FIRST_NUMBER / SECOND_NUMBER);

@@ -31,7 +31,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_74;
  */
 
 public class Question74 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int FIRST_CIRCLE_FIRST_CENTER = 5,
                 FIRST_CIRCLE_SECOND_CENTER = 6,
                 FIRST_CIRCLE_RADIUS = 8,

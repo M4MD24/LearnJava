@@ -11,7 +11,7 @@ public class Question3 {
     private static final TreeSet<String> FIRST_COLORS = new TreeSet<>(),
             SECOND_COLORS = new TreeSet<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addFirstColors();
         addSecondColors();
         final TreeSet<String> AFTER_MERGE_COLORS = new TreeSet<>();

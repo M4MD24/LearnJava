@@ -1,9 +1,10 @@
 # Projects Names
 
-## Numeric Systems Calculator
+## [Numeric Systems Calculator](https://github.com/M3MD69/NumericSystemsCalculator)
 
-- [ ] Convert
-- [ ] Arithmetic Operations
+- [X] Convert
+- [X] Arithmetic Operations
+- [X] Convert and Arithmetic Operations
 
 ## CRUDS System
 
@@ -12,55 +13,3 @@
 - [ ] Update
 - [ ] Delete
 - [ ] Search
-
-## Task Management App
-
-- [ ] Add Task
-- [ ] Edit Task
-- [ ] Delete Task
-- [ ] Mark Task as Complete
-- [ ] Set Reminders
-
-## Library Management System
-
-- [ ] Add Books
-- [ ] Issue Books
-- [ ] Return Books
-- [ ] Search for Books
-- [ ] Track Book Availability
-
-## E-commerce Platform
-
-- [ ] Add Products
-- [ ] Manage Inventory
-- [ ] Process Orders
-- [ ] Apply Discounts
-- [ ] Manage User Accounts
-
-## Weather App
-
-- [ ] Display Current Weather
-- [ ] Save Favorite Locations
-
-## Expense Tracker
-
-- [ ] Add Expenses
-- [ ] Categorize Expenses
-- [ ] Generate Reports
-- [ ] Set Monthly Budgets
-- [ ] Track Savings
-
-## Chat Application
-
-- [ ] User Authentication
-- [ ] One-on-One Messaging
-- [ ] Group Chat
-- [ ] Message History
-- [ ] Notifications
-
-## Fitness Tracker
-
-- [ ] Track Workouts
-- [ ] Set Fitness Goals
-- [ ] Log Calories
-- [ ] View Progress Over Time

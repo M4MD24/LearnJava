@@ -11,7 +11,7 @@ import java.io.IOException;
  */
 
 public class Question3 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         readFile(new File("src\\_2_problem_solving\\_2_2_w3resource\\_2_2_6_exception_handling\\_2_2_6_1_handling_and_managing\\_2_2_6_1_3_476/Files/file.txt"));
     }
 

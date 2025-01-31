@@ -51,7 +51,7 @@ interface Greeting {
 }
 
 class AnonymousClass {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Anonymous anonymous = new Anonymous();
         anonymous.InnerClass1();
         anonymous.InnerClass2();

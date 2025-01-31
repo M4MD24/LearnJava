@@ -15,7 +15,7 @@ import java.time.format.DateTimeFormatter;
  */
 
 public class Question24 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final LocalDateTime CURRENT_DATE = LocalDateTime.now();
         final DateTimeFormatter DATE_AND_TIME_FORMATTER = DateTimeFormatter.ofPattern("dd-MM-yyyy\nHH:mm:ss:SSS");
         final String FORMATTED_DATE_AND_TIME = CURRENT_DATE.format(DATE_AND_TIME_FORMATTER);

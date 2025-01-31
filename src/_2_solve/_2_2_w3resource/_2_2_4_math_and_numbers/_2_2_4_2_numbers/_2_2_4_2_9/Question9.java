@@ -44,7 +44,7 @@ package _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_2_numbers._2_2_4
  * </h2>
  */
 public class Question9 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int COUNT_OF_HAPPY_NUMBERS = 10;
         System.out.printf("First %d Happy numbers:%n", COUNT_OF_HAPPY_NUMBERS);
         printHappyNumbers(COUNT_OF_HAPPY_NUMBERS);

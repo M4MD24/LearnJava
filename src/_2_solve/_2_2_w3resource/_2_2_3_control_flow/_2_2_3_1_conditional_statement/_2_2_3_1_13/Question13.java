@@ -20,7 +20,7 @@ package _2_solve._2_2_w3resource._2_2_3_control_flow._2_2_3_1_conditional_statem
  */
 
 public class Question13 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int TARGET_NUMBER = 4;
         System.out.printf("Input number of terms: %d\n", TARGET_NUMBER);
         printCubeNumbersToTargetNumber(TARGET_NUMBER);

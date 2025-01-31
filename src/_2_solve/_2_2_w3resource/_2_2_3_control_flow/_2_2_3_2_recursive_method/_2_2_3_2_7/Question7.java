@@ -9,7 +9,7 @@ package _2_solve._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._
  */
 
 public class Question7 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int FIRST_NUMBER = 16,
                 SECOND_NUMBER = 18;
         System.out.printf("The GCD of %d and %d is %d",

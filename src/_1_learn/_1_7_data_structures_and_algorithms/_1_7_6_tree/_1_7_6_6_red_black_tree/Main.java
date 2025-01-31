@@ -3,7 +3,7 @@ package _1_learn._1_7_data_structures_and_algorithms._1_7_6_tree._1_7_6_6_red_bl
 public class Main {
     private static final RedBlackTree ELEMENTS = new RedBlackTree(3);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addElements();
         System.out.println("After add elements:");
         showElements();

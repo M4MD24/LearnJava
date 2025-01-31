@@ -20,7 +20,7 @@ import java.util.Collections;
  */
 
 public class Question71 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final ArrayList<Integer> NUMBERS = new ArrayList<>();
         inputNumbers(NUMBERS);
         System.out.println("Input six integers:");

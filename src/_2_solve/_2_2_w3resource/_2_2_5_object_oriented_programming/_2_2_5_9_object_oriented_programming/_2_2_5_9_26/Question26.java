@@ -10,7 +10,7 @@ import java.util.Locale;
  */
 
 public class Question26 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Event EVENT_1 = new Seminar("Sohag University", "Egypt, Sohag", 2025, (byte) 6, (byte) 9, (byte) 8, (byte) 30, 5);
         EVENT_1.printInformation();
 

@@ -1,7 +1,7 @@
 package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_72_can_form;
 
 public class CanFormExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(canForm("Hubcoders", "coderhub"));
         System.out.println(canForm("SATR", "satr"));
         System.out.println(canForm("programmer", "programming"));

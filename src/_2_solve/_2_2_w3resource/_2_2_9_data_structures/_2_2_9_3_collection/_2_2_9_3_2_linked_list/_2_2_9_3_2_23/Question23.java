@@ -11,7 +11,7 @@ import java.util.LinkedList;
 public class Question23 {
     private static final LinkedList<String> COLORS_CODES = new LinkedList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addFirstColorsCodes();
         final ArrayList<String> COLORS_CODES_AS_ARRAY_LIST = new ArrayList<>(COLORS_CODES);
         System.out.print(COLORS_CODES_AS_ARRAY_LIST);

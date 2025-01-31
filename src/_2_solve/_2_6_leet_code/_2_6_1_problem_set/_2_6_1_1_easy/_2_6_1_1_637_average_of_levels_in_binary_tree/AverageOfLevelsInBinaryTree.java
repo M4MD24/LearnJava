@@ -12,7 +12,7 @@ import java.util.Queue;
  */
 
 public class AverageOfLevelsInBinaryTree {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final TreeNode ROOT = new TreeNode(3);
         ROOT.left = new TreeNode(9);
         ROOT.right = new TreeNode(20);

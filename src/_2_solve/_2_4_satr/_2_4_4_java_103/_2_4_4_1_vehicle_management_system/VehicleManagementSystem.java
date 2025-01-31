@@ -19,7 +19,7 @@ public class VehicleManagementSystem {
             TRUCK = "Truck";
     private static final GarageManagement GARAGE_MANAGEMENT = new GarageManagement();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         while (isOn) mainMenu();
     }
 

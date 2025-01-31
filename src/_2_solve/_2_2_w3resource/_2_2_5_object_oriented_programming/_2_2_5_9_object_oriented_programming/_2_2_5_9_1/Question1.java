@@ -8,7 +8,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_9_obj
 public class Question1 {
     private static final Person[] PERSONS = {new Person("Mohamed", 21), new Person("Ahmed", 11)};
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         printDetailsOfPersons();
     }
 

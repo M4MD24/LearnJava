@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 
 public class DequeueExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         final int BIT_SET_SIZE = INPUT.nextInt();
         final int COUNT_OF_ELEMENTS_IN_GROUP = INPUT.nextInt();

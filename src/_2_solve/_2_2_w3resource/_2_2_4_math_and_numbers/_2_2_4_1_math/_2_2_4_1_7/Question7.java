@@ -27,7 +27,7 @@ public class Question7 {
         ROMAN_NUMBERS.put('M', 1000);
     }
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String ROMAN_CHARACTERS = "DCCVII";
         System.out.printf("""
                         Roman Numbers:\s%s

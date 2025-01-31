@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_24_dele
 import java.util.Arrays;
 
 public class DeleteElementInArrayExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(deleteNumberByIndex(new int[]{2, 3, 2, 3}, 2)));
         System.out.println(Arrays.toString(deleteNumberByIndex(new int[]{10, 5, 9, 5}, 0)));
         System.out.println(Arrays.toString(deleteNumberByIndex(new int[]{6, 3, 12, 12}, 1)));

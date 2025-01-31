@@ -34,7 +34,7 @@ import java.util.Scanner;
  */
 
 public class GeometryTestExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner scanner = new Scanner(System.in);
         final int RADIUS = scanner.nextInt(),
                 SIDE_LENGTH = scanner.nextInt();

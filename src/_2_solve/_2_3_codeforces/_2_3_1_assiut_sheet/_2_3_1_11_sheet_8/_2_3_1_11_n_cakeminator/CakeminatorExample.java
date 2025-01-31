@@ -36,7 +36,7 @@ public class CakeminatorExample {
             COLUMN = INPUT.nextByte();
     private static final StringBuffer[] CAKE = new StringBuffer[ROW];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         System.out.print(getSumEatenPieces());
     }

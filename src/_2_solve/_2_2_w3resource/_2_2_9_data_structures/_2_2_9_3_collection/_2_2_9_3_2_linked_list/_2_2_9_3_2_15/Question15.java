@@ -11,7 +11,7 @@ import java.util.LinkedList;
 public class Question15 {
     private static final LinkedList<String> COLORS_CODES = new LinkedList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColorsCodes();
         System.out.println("Before Swap: " + COLORS_CODES);
         Collections.swap(COLORS_CODES, 2, 4);

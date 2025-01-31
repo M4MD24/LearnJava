@@ -15,7 +15,7 @@ import java.util.List;
  */
 
 public class Combinations {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(combine(
                 4,
                 2

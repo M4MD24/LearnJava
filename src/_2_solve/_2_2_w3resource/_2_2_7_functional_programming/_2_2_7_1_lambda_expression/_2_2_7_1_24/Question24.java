@@ -8,7 +8,7 @@ import java.util.function.Function;
  */
 
 public class Question24 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Function<Long, Long> LARGEST_PRIME_FACTOR = (NUMBER) -> {
             long factor = 2;
             while (factor * factor <= NUMBER) {

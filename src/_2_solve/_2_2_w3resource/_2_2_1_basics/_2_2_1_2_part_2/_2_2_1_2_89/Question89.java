@@ -24,7 +24,7 @@ import java.util.Scanner;
  */
 
 public class Question89 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.println("Input a sentence (1024 characters. max.)");
         final String TEXT = INPUT.nextLine();
@@ -34,7 +34,7 @@ public class Question89 {
             printWordsFromThreeToSixCharacters(TEXT);
         } else {
             System.out.println("\u001B[31mText characters length Greater than 1024\u001B[0m");
-            Question89.main(PARAMETERS);
+            Question89.main(ARGUMENTS);
         }
     }
 

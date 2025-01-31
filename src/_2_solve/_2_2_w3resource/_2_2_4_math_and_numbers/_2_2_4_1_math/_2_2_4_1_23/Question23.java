@@ -21,7 +21,7 @@ package _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_
  */
 
 public class Question23 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int X_NUMBER = 3;
         System.out.print((float) (((((0) * X_NUMBER + 6) * X_NUMBER + (-4)) * X_NUMBER + 7) * X_NUMBER + (-19)));
     }

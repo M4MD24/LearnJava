@@ -21,7 +21,7 @@ class MyCalculator implements AdvancedArithmetic {
 }
 
 public class Interface {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("I implemented: AdvancedArithmetic");
         System.out.print(new MyCalculator().divisor_sum(new Scanner(System.in).nextInt()));
     }

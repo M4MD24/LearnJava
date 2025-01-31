@@ -103,7 +103,7 @@ public class Question143 {
     private static final LinkedList LINKED_LIST_1 = new LinkedList(),
             LINKED_LIST_2 = new LinkedList();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addition();
         showLinkedList1();
         showLinkedList2();

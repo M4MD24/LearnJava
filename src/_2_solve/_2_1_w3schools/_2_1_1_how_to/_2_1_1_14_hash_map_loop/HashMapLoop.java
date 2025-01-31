@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HashMapLoop {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final HashMap<Integer, String> NUMBERS = new HashMap<>(Map.of(
                 1, "M",
                 3, "H",

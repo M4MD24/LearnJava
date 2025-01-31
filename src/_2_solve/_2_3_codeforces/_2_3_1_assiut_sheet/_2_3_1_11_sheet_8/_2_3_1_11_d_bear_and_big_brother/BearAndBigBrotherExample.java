@@ -55,7 +55,7 @@ public class BearAndBigBrotherExample {
     private static short limakWeight = INPUT.nextByte(),
             bobWeight = INPUT.nextByte();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(gettingYearsInWhichLimakIsHeavierThanBob());
     }
 

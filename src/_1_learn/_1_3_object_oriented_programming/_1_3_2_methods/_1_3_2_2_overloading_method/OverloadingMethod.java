@@ -10,7 +10,7 @@ public class OverloadingMethod {
         System.out.println("Print 3 Numbers: " + num1 + ", " + num2 + ", " + number3);
     }
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         printNumbers(10, 20);
         printNumbers(10, 20, 30);
     }

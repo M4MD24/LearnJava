@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 
 public class Regex2DuplicateWords {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String regex = "\\b(\\w+)(?:\\W+\\1\\b)+";
         Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
         Scanner in = new Scanner(System.in);
@@ -27,7 +27,7 @@ public class Regex2DuplicateWords {
         in.close();
     }
 // >
-    /*public static void main(final String[] PARAMETERS) {
+    /*public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         int countOfTexts = Integer.parseInt(INPUT.nextLine());
         while (countOfTexts-- > 0) {

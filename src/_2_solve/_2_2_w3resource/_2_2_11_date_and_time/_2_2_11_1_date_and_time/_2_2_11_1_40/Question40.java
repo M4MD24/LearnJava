@@ -9,7 +9,7 @@ import java.time.LocalTime;
  */
 
 public class Question40 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("Date: " + LocalDate.now());
         System.out.print("Time: " + LocalTime.now());
     }

@@ -20,7 +20,7 @@ import java.util.Scanner;
  */
 
 public class StringCompresssion3 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(compressText(new Scanner(System.in).nextLine()));
     }
 

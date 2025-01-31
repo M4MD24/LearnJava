@@ -10,7 +10,7 @@ import java.util.TreeMap;
 public class Question11 {
     private static final TreeMap<Integer, String> COLORS = new TreeMap<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         System.out.print(COLORS.floorEntry(3));
     }

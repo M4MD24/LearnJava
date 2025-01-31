@@ -22,7 +22,7 @@ class Singleton {
 }
 
 public class SingletonExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         final Singleton SINGLETON = Singleton.getSingleInstance();
         SINGLETON.TEXT = INPUT.nextLine();

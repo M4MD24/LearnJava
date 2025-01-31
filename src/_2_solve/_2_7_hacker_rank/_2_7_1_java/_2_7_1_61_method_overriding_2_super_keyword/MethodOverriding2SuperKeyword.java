@@ -22,7 +22,7 @@ class Motorcycle extends Cycle {
 }
 
 public class MethodOverriding2SuperKeyword {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Motorcycle MOTORCYCLE = new Motorcycle();
         MOTORCYCLE.printInfo();
         System.out.println();

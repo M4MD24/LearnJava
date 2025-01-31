@@ -1,6 +1,8 @@
 package _2_solve._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_11_sheet_8._2_3_1_11_b_watermelon;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * <h1>B. Watermelon</h1>
@@ -32,6 +34,7 @@ import java.io.IOException;
 
 public class Watermelon {
     public static void main(final String[] PARAMETERS) throws IOException {
-        _2_solve._2_3_codeforces._2_3_2_problem_set._2_3_2_4a_watermelon.Watermelon.main(PARAMETERS);
+        final byte TARGET_NUMBER = Byte.parseByte(new BufferedReader(new InputStreamReader(System.in)).readLine());
+        System.out.print((TARGET_NUMBER % 2 == 0 && TARGET_NUMBER > 3) ? "YES" : "NO");
     }
 }

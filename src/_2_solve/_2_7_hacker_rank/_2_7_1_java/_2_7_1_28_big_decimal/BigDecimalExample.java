@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 
 public class BigDecimalExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         final int COUNT_OF_NUMBERS = INPUT.nextInt();
         INPUT.nextLine();

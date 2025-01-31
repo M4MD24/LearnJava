@@ -69,7 +69,7 @@ public class KnapsackExample {
     private static final short[] VALUES = new short[COUNT_OF_TEST_CASES];
     private static final byte MAXIMUM_WEIGHT_TO_STORAGE = INPUT.nextByte();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues((byte) 0);
         System.out.print(getMaximumPossibleSumOfValues(COUNT_OF_TEST_CASES, MAXIMUM_WEIGHT_TO_STORAGE));
     }

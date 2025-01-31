@@ -17,7 +17,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_7;
  * 2501  2625  2752  2882  3015  3151  3290  3432  3577  3725
  * */
 public class Question7 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int COUNT_OF_PENTAGONAL_NUMBERS = 50;
         System.out.printf("The first %d pentagonal numbers are:\n", COUNT_OF_PENTAGONAL_NUMBERS);
         displayPentagonalNumbers(50);

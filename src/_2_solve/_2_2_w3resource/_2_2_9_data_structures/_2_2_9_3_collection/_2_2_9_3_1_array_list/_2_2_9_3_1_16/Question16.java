@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Question16 {
     private static final ArrayList<String> COLORS_CODES = new ArrayList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addFirstColorsCodes();
         final ArrayList<String> ANOTHER_COLORS_CODES = (ArrayList<String>) COLORS_CODES.clone();
         System.out.print(ANOTHER_COLORS_CODES);

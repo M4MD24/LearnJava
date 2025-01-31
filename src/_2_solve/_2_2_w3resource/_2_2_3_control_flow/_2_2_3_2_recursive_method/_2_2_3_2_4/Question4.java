@@ -9,7 +9,7 @@ package _2_solve._2_2_w3resource._2_2_3_control_flow._2_2_3_2_recursive_method._
  */
 
 public class Question4 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String WORD = "madam";
         System.out.printf("%s is a palindrome: %b",
                 WORD,

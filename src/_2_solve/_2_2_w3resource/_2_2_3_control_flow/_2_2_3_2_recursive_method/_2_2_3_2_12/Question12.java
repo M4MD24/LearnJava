@@ -16,7 +16,7 @@ public class Question12 {
     private static final int[] NUMBERS = {34, 45, 34, 23, 56, 62, 27, 55};
     private static int maximumNumber = NUMBERS[0];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print("Original numbers: [");
         printNumbers(NUMBERS, 0);
         System.out.printf("The maximum number in the numbers is: %d", maximumNumber);

@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question32 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 2, 3, 10, 10, 77, 7, 10, 8, 65, 0};
         System.out.print(areNumbersContain65and77(NUMBERS));
     }

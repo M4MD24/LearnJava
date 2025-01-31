@@ -28,7 +28,7 @@ import java.util.Set;
  */
 
 public class EvaluateDivision {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<List<String>> EQUATIONS = new ArrayList<>() {{
             add(List.of("a", "b"));
             add(List.of("b", "c"));

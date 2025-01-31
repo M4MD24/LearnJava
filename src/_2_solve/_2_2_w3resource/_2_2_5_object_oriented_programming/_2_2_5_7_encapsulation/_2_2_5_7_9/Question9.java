@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_7_enc
  */
 
 public class Question9 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final SmartPhone BOOK = new SmartPhone();
         BOOK.setBrand("The Brand");
         BOOK.setModel("The Model");

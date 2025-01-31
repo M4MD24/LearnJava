@@ -16,7 +16,7 @@ import java.util.Arrays;
  */
 
 public class BestTimeToBuyAndSellStock4 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(maxProfit(
                 2,
                 new int[]{3, 2, 6, 5, 0, 3}

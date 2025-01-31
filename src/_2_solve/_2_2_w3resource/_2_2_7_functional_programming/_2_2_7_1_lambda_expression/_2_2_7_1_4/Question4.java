@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question4 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<Integer> NUMBERS = Arrays.asList(11, 20, 33, 40, 55);
 
         final List<Integer> ODD_NUMBERS = NUMBERS.stream().filter(NUMBER -> NUMBER % 2 != 0).toList(),

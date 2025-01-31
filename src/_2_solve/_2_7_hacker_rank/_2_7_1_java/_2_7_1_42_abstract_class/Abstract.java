@@ -23,7 +23,7 @@ class MyBook extends Book {
 }
 
 public class Abstract {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final MyBook MY_BOOK = new MyBook();
         MY_BOOK.setTitle(new Scanner(System.in).nextLine());
         System.out.println("The title is: " + MY_BOOK.getTitle());

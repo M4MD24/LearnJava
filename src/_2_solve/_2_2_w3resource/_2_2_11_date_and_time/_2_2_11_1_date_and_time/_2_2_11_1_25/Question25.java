@@ -8,7 +8,7 @@ import java.time.Year;
  */
 
 public class Question25 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(getYearInformation(Year.now()));
     }
 

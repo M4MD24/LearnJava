@@ -73,7 +73,7 @@ public class IntervalExample {
             {75, 100}
     };
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         printCorrectInterval();
     }
 

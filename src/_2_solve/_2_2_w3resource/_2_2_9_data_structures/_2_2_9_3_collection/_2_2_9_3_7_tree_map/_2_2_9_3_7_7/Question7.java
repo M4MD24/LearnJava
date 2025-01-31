@@ -11,7 +11,7 @@ import java.util.TreeMap;
 public class Question7 {
     private static final TreeMap<String, String> COLORS = new TreeMap<>(Comparator.reverseOrder());
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColors();
         System.out.println(COLORS);
     }

@@ -10,7 +10,7 @@ import java.time.LocalTime;
  */
 
 public class Question41 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final LocalDate CURRENT_DATE = LocalDate.now();
         final LocalTime CURRENT_TIME = LocalTime.now();
         final LocalDateTime CURRENT_DATE_AND_TIME = LocalDateTime.of(CURRENT_DATE, CURRENT_TIME);

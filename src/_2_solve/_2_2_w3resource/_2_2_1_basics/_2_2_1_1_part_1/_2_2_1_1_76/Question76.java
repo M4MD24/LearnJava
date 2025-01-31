@@ -47,7 +47,7 @@ import java.util.Scanner;
  */
 
 public class Question76 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Scanner input = new Scanner(System.in);
         int[] firstNumbers,
                 secondNumbers;

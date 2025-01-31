@@ -44,7 +44,7 @@ public class Question69 {
             FIRST_POINT = 5,
             SECOND_POINT = 6;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("input longitude and latitude coordinates first point:");
         System.out.printf("%d %d\n",
                 LATITUDE_COORDINATES_FIRST_POINT,

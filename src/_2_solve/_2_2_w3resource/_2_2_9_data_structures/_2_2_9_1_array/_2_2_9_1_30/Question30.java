@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question30 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 2, 3, 0, 4, 5, 6, 7, 8, 9, 0};
         System.out.println(Arrays.toString(NUMBERS));
         System.out.print(checkNumbersAreWithoutZeroAndNegativeOne(NUMBERS));

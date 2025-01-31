@@ -15,7 +15,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_63;
  */
 
 public class Question63 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("Input sides of triangle:");
         final int FIRST_SIDE = 5,
                 SECOND_SIDE = 12,

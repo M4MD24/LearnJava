@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 
 public class Question25 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Scanner input = new Scanner(System.in);
         long octalNumber, decimalNumber = 0;
         int i = 0;

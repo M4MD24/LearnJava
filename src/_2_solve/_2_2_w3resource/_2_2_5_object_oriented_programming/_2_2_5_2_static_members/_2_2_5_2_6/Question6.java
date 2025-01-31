@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_5_object_oriented_programming._2_2_5_2_sta
  */
 
 public class Question6 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(IDGenerator.generateID());
         System.out.println(IDGenerator.generateID());
         System.out.println(IDGenerator.generateID());

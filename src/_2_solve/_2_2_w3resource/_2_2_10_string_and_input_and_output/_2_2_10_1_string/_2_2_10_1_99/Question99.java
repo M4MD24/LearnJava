@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
  */
 
 public class Question99 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(getTextAfterRemoveOddPosition("N_u_l_l_e_x_i_a"));
     }
 

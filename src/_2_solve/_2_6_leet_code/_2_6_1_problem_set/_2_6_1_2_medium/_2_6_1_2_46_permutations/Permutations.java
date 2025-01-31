@@ -13,7 +13,7 @@ import java.util.List;
  */
 
 public class Permutations {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(permute(new int[]{1, 2, 3}));
     }
 

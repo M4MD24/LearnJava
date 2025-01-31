@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_31_get_
 import java.util.Arrays;
 
 public class LastElementExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(getLastElement(new int[]{1, 2, 4, 5}, new int[]{3, 4, 7, 11}));
         System.out.println(getLastElement(new int[]{0}, new int[]{0}));
         System.out.println(getLastElement(new int[]{90, 95}, new int[]{90, 95}));

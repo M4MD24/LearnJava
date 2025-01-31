@@ -14,7 +14,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_3_methods._2_2_1_3_14;
  * </h2>
  */
 public class Question14 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int COUNT_OF_SIDES = 5,
                 SIDE = 6;
         System.out.printf("Input the number of sides: %d\n", COUNT_OF_SIDES);

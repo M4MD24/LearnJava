@@ -17,7 +17,7 @@ import java.util.Arrays;
  */
 
 public class Question53 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {4, 2, 3, 3, 7, 2, 4};
         final int SUB_ARRAY_NUMBER = 3;
         System.out.printf("Original array: %s", Arrays.toString(NUMBERS));

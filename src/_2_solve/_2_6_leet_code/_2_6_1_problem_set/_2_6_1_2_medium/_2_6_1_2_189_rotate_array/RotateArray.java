@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class RotateArray {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 2, 3, 4, 5, 6, 7};
         final int COUNT_OF_STEPS = 3;
         rotateArray(NUMBERS, COUNT_OF_STEPS);

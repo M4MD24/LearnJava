@@ -14,7 +14,7 @@ public class Question2 {
     private static final Thread PRODUCER_THREAD = new Thread(new Producer()),
             CONSUMER_THREAD = new Thread(new Consumer());
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         runThreads();
     }
 

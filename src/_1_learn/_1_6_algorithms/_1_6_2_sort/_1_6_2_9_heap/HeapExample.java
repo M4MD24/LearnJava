@@ -3,7 +3,7 @@ package _1_learn._1_6_algorithms._1_6_2_sort._1_6_2_9_heap;
 import java.util.Arrays;
 
 public class HeapExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {45, 7, 20, 20, 40, 25, 40, 23, -2};
         System.out.println("Original Numbers: " + Arrays.toString(NUMBERS));
         heapSort(NUMBERS);

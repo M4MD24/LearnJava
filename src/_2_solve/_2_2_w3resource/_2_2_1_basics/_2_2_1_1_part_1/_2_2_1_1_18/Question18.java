@@ -18,7 +18,7 @@ import java.util.Scanner;
  */
 
 public class Question18 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         long multiply = 0;
         int digit, factor = 1;
         Scanner input = new Scanner(System.in);

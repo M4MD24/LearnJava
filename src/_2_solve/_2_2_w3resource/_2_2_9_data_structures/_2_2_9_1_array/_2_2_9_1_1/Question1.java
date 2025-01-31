@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question1 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         forNumbers();
         System.out.println();
         forProgrammingLanguages();

@@ -10,7 +10,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_1_easy._2_6_1_1_125_va
  */
 
 public class ValidPalindrome {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "A man, a plan, a canal: Panama";
         System.out.print(isPalindrome(TEXT));
     }

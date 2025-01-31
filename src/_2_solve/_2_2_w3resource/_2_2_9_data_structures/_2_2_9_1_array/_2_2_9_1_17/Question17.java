@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question17 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 2, 3, 456, 4, 5, 6, 7, 20, 9, 0};
         System.out.print(Arrays
                 .stream(NUMBERS)

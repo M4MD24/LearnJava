@@ -1,7 +1,7 @@
 package _1_learn._1_6_algorithms._1_6_4_encryption_and_decryption._1_6_4_4_message_digest_5;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final MessageDigest5 MS5_ENCRYPTION = new MessageDigest5();
         System.out.println("■ MS5");
 

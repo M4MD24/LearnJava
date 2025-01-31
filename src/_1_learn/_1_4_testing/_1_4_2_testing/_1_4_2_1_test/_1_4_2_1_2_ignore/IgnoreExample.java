@@ -1,7 +1,7 @@
 package _1_learn._1_4_testing._1_4_2_testing._1_4_2_1_test._1_4_2_1_2_ignore;
 
 public class IgnoreExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Calculator CALCULATOR = new Calculator();
         final double FIRST_NUMBER = 5,
                 SECOND_NUMBER = 5;

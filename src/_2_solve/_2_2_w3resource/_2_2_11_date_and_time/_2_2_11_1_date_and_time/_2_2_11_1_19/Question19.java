@@ -9,7 +9,7 @@ import java.time.Period;
  */
 
 public class Question19 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final LocalDate CURRENT_DATE = LocalDate.now(),
                 ANOTHER_DATE = LocalDate.of(2003, 6, 9);
         final Period DIFFERENCE_BETWEEN_CURRENT_DATE_AND_ANOTHER_DATE = Period.between(CURRENT_DATE, ANOTHER_DATE);

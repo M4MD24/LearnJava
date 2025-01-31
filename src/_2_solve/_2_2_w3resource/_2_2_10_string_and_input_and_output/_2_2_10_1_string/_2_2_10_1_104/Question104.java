@@ -9,7 +9,7 @@ import java.util.Comparator;
  */
 
 public class Question104 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String[] COLORS = {"Black", "Crimson", "Burgundy", "Deep Pink", "Gold", "Lime Green", "Deep Sky Blue"};
         System.out.println("Original Elements: " + Arrays.toString(COLORS));
         printElementsAfterAscendingAndDescendingSort(COLORS);

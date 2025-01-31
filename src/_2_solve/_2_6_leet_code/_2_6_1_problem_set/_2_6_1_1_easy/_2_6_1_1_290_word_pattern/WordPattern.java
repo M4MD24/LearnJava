@@ -18,7 +18,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_1_easy._2_6_1_1_290_wo
  */
 
 public class WordPattern {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(wordPattern(
                 "abba",
                 "apple orange orange apple"

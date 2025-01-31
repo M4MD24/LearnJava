@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 public class Question9 {
     final static int LIMIT = 4;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final ConcurrentLinkedQueue<String> CONCURRENT_LINKED_QUEUE = new ConcurrentLinkedQueue<>();
 
         Thread producerThread1 = new Thread(new Producer(CONCURRENT_LINKED_QUEUE, "Producer-1", LIMIT));

@@ -78,7 +78,7 @@ import java.util.*;
  */
 
 public class ListWithOthers {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         listArrayList();
         listLinkedList();
         listStack();

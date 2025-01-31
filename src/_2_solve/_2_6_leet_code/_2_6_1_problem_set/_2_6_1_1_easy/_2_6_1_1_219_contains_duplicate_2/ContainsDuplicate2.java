@@ -9,7 +9,7 @@ import java.util.Map;
  */
 
 public class ContainsDuplicate2 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 2, 3, 1, 2, 3};
         final int TARGET = 2;
         System.out.print(containsNearbyDuplicate(NUMBERS, TARGET));

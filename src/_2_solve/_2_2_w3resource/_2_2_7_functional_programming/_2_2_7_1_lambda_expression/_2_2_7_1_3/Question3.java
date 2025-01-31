@@ -9,7 +9,7 @@ import java.util.List;
  */
 
 public class Question3 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<String> TEXTS = Arrays.asList("Hello", "World", "Java", "Lambda", "Expression");
 
         final List<String> UPPERCASE_TEXTS = TEXTS.stream().map(String::toUpperCase).toList(),

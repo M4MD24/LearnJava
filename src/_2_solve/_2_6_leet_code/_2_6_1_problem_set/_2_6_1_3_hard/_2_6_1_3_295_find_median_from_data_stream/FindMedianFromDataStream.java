@@ -22,7 +22,7 @@ import java.util.PriorityQueue;
  */
 
 public class FindMedianFromDataStream {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         FindMedianFromDataStream medianFinder = new FindMedianFromDataStream();
         medianFinder.addNum(1);
         medianFinder.addNum(2);

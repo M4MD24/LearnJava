@@ -1,7 +1,7 @@
 package _1_learn._1_4_testing._1_4_1_junit_5._1_4_1_4_parameterized_and_csv_source_test;
 
 public class ParameterizedAndCSVSourceExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Calculator CALCULATOR = new Calculator();
         final double FIRST_NUMBER = 5,
                 SECOND_NUMBER = 5;

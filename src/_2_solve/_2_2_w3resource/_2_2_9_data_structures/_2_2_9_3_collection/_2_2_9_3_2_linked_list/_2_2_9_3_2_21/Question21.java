@@ -10,7 +10,7 @@ import java.util.LinkedList;
 public class Question21 {
     private static final LinkedList<String> COLORS_CODES = new LinkedList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addFirstColorsCodes();
         final String LAST_COLOR_CODE = COLORS_CODES.peekLast();
         System.out.println("Last Color Code: " + LAST_COLOR_CODE);

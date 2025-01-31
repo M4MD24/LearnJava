@@ -11,7 +11,7 @@ public class Question24 {
     private static final LinkedList<String> FIRST_COLORS_CODES = new LinkedList<>(),
             SECOND_COLORS_CODES = new LinkedList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addFirstColorsCodes();
         addSecondColorsCodes();
         compareBetweenColorsCodes();

@@ -19,7 +19,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * </ul>
  */
 public class ConcurrentMapExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         concurrentMap();
     }
 

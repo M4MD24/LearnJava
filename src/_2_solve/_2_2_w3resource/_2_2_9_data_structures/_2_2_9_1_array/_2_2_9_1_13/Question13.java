@@ -8,7 +8,7 @@ import java.util.HashSet;
  */
 
 public class Question13 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String[] PROGRAMMING_LANGUAGES = new String[]{
                 "Java",
                 "Kotlin",

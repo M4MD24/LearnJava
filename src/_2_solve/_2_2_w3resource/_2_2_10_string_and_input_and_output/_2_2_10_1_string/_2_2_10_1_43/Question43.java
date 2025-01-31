@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  */
 
 public class Question43 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "aAAaaAA";
         System.out.print(getMaximumOccursCharacters(TEXT));
     }

@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_14_regular_expression._2_2_14_1_regular_ex
  */
 
 public class Question27 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "Java";
         System.out.print(getTextAfterAddDashSymbolBeforeAndAfterEveryVowel(TEXT));
     }

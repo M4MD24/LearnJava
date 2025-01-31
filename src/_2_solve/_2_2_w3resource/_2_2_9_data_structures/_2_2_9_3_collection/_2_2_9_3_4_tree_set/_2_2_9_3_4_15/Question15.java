@@ -10,7 +10,7 @@ import java.util.TreeSet;
 public class Question15 {
     private static final TreeSet<Integer> NUMBERS = new TreeSet<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addNumbers();
         System.out.println("Before Remove: " + NUMBERS);
         System.out.println("First Number: " + NUMBERS.pollLast());

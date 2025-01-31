@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
  */
 
 public class Question48 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(remove_B_And_AC_Letters("Nullbacbexia"));
     }
 

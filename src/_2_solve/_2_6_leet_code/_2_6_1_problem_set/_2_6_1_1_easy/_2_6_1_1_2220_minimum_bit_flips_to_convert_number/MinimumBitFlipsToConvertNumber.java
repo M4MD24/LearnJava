@@ -12,7 +12,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_1_easy._2_6_1_1_2220_m
  */
 
 public class MinimumBitFlipsToConvertNumber {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(minimumBitFlip(10, 7));
     }
 

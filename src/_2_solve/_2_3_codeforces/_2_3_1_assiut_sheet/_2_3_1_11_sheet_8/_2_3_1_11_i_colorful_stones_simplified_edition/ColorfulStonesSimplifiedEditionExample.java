@@ -56,7 +56,7 @@ import java.util.Scanner;
  */
 
 public class ColorfulStonesSimplifiedEditionExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print(placeStone(new StringBuffer(INPUT.nextLine()),
                 new StringBuffer(INPUT.nextLine())));

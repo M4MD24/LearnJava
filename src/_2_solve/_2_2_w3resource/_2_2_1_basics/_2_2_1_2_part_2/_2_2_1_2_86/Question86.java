@@ -18,7 +18,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_86;
  */
 
 public class Question86 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("Input some text and numeric values:");
         final String TEXT = "5 apple and 10 orange are rotten in the basket";
         System.out.println(TEXT);

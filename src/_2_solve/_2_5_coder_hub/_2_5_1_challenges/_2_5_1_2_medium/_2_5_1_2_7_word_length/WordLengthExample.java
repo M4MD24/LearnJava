@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_7_wor
 import java.util.Arrays;
 
 public class WordLengthExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(getWordsLength(new String[]{"Code", "hub"})));
         System.out.println(Arrays.toString(getWordsLength(new String[]{"dropbox", "google", "page"})));
         System.out.println(Arrays.toString(getWordsLength(new String[]{"java", "Islam", "javascript", "python"})));

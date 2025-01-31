@@ -24,7 +24,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_7;
  */
 
 public class Question7 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.printf("Result: %d\n", getGreatestCommonDivisor(48, 24));
         System.out.printf("Result: %d", getGreatestCommonDivisor(125463, 9658));
     }

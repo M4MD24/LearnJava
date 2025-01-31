@@ -21,7 +21,7 @@ import java.util.EnumMap;
 enum Countries {EG, KW, JP, SA, AF, PS}
 
 public class EnumMapExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         enumMap();
     }
 

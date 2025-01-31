@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class PostfixExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print("Text: ");
         final String TEXT = INPUT.nextLine();

@@ -26,7 +26,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_93;
  */
 
 public class Question93 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String WORDS_AND_PAGE_NUMBERS = """
                 apple 5
                 banana 6""";

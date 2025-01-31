@@ -6,7 +6,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_2_medium._2_6_1_2_53_m
  */
 
 public class MaximumSubArray {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {5, 4, -1, 7, 8};
         System.out.print(maxSubArray(NUMBERS));
     }

@@ -10,7 +10,7 @@ import java.util.List;
  */
 
 public class Question7 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final List<Integer> NUMBERS = Arrays.asList(10, 22, 40, 22, 55, 30),
                 REMOVED_DUPLICATED_NUMBERS = new ArrayList<>();
         NUMBERS

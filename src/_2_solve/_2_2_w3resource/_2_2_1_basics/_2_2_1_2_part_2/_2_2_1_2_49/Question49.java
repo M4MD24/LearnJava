@@ -22,7 +22,7 @@ public class Question49 {
     private static final String[] STRINGS = {"red black black red", "red black black green", "red black black red", "red red red red"},
             PATTERNS = {"xyyx", "xyyx", "xxxx", "xxxx"};
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         for (int index = 0; index < STRINGS.length; index++)
             System.out.printf("Is the \"%s\" and \"%s\" matched? %b\n",
                     STRINGS[index],

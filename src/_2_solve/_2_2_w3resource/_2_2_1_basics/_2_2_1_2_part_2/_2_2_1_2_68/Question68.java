@@ -18,7 +18,7 @@ package _2_solve._2_2_w3resource._2_2_1_basics._2_2_1_2_part_2._2_2_1_2_68;
  */
 
 public class Question68 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int FIRST_FIRST_COORDINATE = 5,
                 FIRST_SECOND_COORDINATE = 6,
                 SECOND_FIRST_COORDINATE = 4,

@@ -24,7 +24,7 @@ public class AbstractAndOverrideAndSuper extends Persons { // Subclass
         System.out.println("■ Display Managers Details\n");
     }
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         AbstractAndOverrideAndSuper abstractAndOverrideAndSuper = new AbstractAndOverrideAndSuper();
         abstractAndOverrideAndSuper.displayManagersDetails();
         abstractAndOverrideAndSuper.displayEmployeesDetails("Mohamed", 20);

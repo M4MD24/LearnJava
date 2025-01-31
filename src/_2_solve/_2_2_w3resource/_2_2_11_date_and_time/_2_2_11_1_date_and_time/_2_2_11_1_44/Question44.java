@@ -10,7 +10,7 @@ import java.time.ZonedDateTime;
  */
 
 public class Question44 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final ZoneOffset ZONE_OFFSET = ZoneOffset.ofHoursMinutes(
                 0,
                 0

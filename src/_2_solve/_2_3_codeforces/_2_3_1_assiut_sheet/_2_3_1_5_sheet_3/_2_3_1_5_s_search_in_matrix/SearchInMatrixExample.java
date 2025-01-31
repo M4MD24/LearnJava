@@ -50,7 +50,7 @@ public class SearchInMatrixExample {
             COLUMNS = INPUT.nextByte();
     private static final int[][] NUMBERS = new int[ROWS][COLUMNS];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
         System.out.println(isContain(INPUT.nextInt()));
     }

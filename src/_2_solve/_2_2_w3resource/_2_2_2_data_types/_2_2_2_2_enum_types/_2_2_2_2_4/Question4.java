@@ -13,7 +13,7 @@ enum Direction {
 }
 
 public class Question4 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.printf("Top: %s\n", Direction.North);
         System.out.printf("Right: %s\n", Direction.East);
         System.out.printf("Left: %s\n", Direction.West);

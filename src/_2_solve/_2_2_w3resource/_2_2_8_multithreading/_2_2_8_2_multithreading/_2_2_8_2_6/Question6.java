@@ -12,7 +12,7 @@ public class Question6 {
     private static final CountDownLatch START_LATCH = new CountDownLatch(1),
             FINISH_LATCH = new CountDownLatch(COUNT_OF_THREADS);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Thread[] THREADS = new Thread[COUNT_OF_THREADS];
         for (int indexOfThreads = 0; indexOfThreads < COUNT_OF_THREADS; indexOfThreads++) {
             THREADS[indexOfThreads] = new Thread(new Worker());

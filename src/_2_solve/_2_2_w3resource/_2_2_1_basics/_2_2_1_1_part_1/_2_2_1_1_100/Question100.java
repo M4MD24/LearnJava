@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question100 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
 
         final int[] FIRST_ARRAY = {10, 11, 10, 20, 43, 20, 50};
         final int[] SECOND_ARRAY = {10, 13, 11, 20, 44, 30, 50};

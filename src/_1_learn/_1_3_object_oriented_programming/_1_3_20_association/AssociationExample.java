@@ -37,7 +37,7 @@ class Employee {
 }
 
 class AssociationExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
 
         Bank bank = new Bank("ICICI");
         Employee emp = new Employee("Ridhi");

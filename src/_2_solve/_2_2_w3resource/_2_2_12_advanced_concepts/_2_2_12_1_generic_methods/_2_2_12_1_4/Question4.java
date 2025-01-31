@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
  */
 
 public class Question4 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Integer[] NUMBERS = {1, 2, 3, 4, 5};
         System.out.print(Arrays.toString(getElementsAfterReversed(NUMBERS)));
     }

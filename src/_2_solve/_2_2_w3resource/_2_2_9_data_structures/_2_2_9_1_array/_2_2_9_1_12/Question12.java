@@ -8,7 +8,7 @@ import java.util.HashSet;
  */
 
 public class Question12 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] NUMBERS = {1, 2, 5, 3, 4, 4, 0, 5, 6, 7, 8, 9, 0};
         printDuplicatedNumbers(NUMBERS);
     }

@@ -50,7 +50,7 @@ public class PanoramixSPredictionExample {
             SECOND_NUMBER = INPUT.nextByte();
     private static final byte NEXT_PRIME = nextPrime();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(NEXT_PRIME == SECOND_NUMBER
                 ? "YES"
                 : "NO");

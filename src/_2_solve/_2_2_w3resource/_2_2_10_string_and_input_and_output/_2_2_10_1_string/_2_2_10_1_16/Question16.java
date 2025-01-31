@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_10_string_and_input_and_output._2_2_10_1_s
  */
 
 public class Question16 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "Nullexia";
         final byte[] TEXT_AS_BYTES = TEXT.getBytes();
         System.out.print(new String(TEXT_AS_BYTES));

@@ -27,7 +27,7 @@ import java.util.stream.IntStream;
  */
 
 public class Question72 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] FIRST_NUMBERS = {1, 2, 3, 0, 4, 6},
                 SECOND_NUMBERS = {1, 3, 2, 7, 5, 6, 4, 8};
         printTestOfContinuousSubArrayWithSpecifiedCondition(FIRST_NUMBERS);

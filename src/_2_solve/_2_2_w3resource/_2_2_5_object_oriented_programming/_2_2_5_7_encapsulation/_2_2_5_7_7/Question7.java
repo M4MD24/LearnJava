@@ -11,7 +11,7 @@ import java.util.List;
 public class Question7 {
     private static final Student STUDENT = new Student();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addDataStudent();
         getInformationStudent();
     }

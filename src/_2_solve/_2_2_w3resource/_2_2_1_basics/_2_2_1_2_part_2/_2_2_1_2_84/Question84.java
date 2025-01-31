@@ -23,7 +23,7 @@ import java.util.Scanner;
  */
 
 public class Question84 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print("Input count of straight lines: ");
         final int COUNT_OF_STRAIGHT_LINES = INPUT.nextInt();

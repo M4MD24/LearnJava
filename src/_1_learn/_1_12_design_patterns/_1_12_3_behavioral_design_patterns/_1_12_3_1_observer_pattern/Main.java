@@ -1,7 +1,7 @@
 package _1_learn._1_12_design_patterns._1_12_3_behavioral_design_patterns._1_12_3_1_observer_pattern;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         WeatherStation station = new WeatherStation();
         
         ObserverService phoneDisplay = new WeatherDisplay("Phone Display");

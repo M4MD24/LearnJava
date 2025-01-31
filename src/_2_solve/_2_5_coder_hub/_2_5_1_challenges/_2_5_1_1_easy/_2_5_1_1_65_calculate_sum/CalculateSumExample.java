@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_65_calc
 import java.util.Arrays;
 
 public class CalculateSumExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(getCumulativeAdditionNumbersAndCountOfNumbers(new int[]{1, 2, 3, 4}));
         System.out.println(getCumulativeAdditionNumbersAndCountOfNumbers(new int[]{0, 7, 12, 67}));
         System.out.println(getCumulativeAdditionNumbersAndCountOfNumbers(new int[]{23, 43, 27, 87, 67}));

@@ -1,7 +1,7 @@
 package _1_learn._1_12_design_patterns._1_12_2_structural_design_patterns._1_12_2_4_decorator_pattern;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         CoffeeService coffee = new PlainCoffee();
         System.out.println("Description: " + coffee.getDescription());
         System.out.println("Cost: £" + coffee.getCost());

@@ -11,7 +11,7 @@ public class Question8 {
     private static final TreeSet<String> FIRST_COLORS_CODES = new TreeSet<>(),
             SECOND_COLORS_CODES = new TreeSet<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addFirstColorsCodes();
         addSecondColorsCodes();
         compareBetweenColorsCodes();

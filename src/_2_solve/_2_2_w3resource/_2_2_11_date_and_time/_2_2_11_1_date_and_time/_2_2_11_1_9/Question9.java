@@ -10,7 +10,7 @@ import java.time.temporal.TemporalAdjusters;
  */
 
 public class Question9 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final LocalDate LOCAL_TODAY = LocalDate.now(),
                 FIRST_DAY_OF_WEEK = LOCAL_TODAY.with(TemporalAdjusters.previousOrSame(DayOfWeek.SATURDAY)),
                 LAST_DAY_OF_WEEK = LOCAL_TODAY.with(TemporalAdjusters.nextOrSame(DayOfWeek.FRIDAY));

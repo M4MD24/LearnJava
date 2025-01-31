@@ -41,7 +41,7 @@ public class ThreeNumbers {
     private static final int FIRST_NUMBER = INPUT.nextInt(),
             SECOND_NUMBER = INPUT.nextInt();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         printCountValidCombinations();
     }
 

@@ -1,7 +1,7 @@
 package _1_learn._1_1_basics._1_1_13_math;
 
 public class MathExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(".max()   : " + Math.max(1, 2));
         System.out.println(".min()   : " + Math.min(1, 2));
         System.out.println(".sqrt()  : " + Math.sqrt(4));

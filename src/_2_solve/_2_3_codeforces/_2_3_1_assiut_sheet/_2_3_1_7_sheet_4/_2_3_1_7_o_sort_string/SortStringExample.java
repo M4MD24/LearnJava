@@ -45,7 +45,7 @@ public class SortStringExample {
     private static final String TEXT = INPUT.next();
     private static final byte[] SORTED_TEXT_CHARACTER = new byte[26];
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         sortCharacters();
         printValues();
     }

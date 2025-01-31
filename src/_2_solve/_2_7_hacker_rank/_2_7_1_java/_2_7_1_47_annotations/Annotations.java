@@ -38,7 +38,7 @@ class FamilyMember {
 }
 
 public class Annotations {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         int countOfTestCases = Integer.parseInt(INPUT.nextLine());
         while (countOfTestCases-- > 0) {

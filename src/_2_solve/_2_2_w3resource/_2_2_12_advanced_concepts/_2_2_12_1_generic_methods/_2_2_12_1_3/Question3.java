@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question3 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Integer[] NUMBERS = {1, 2, 3, 4, 5};
         System.out.print(getIndexOfElement(NUMBERS, 3));
     }

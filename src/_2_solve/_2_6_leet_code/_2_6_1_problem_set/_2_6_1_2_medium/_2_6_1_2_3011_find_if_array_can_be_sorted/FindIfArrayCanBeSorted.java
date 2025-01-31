@@ -18,7 +18,7 @@ import java.util.Arrays;
  */
 
 public class FindIfArrayCanBeSorted {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(canSortArray(new int[]{8, 4, 2, 30, 15}));
     }
 

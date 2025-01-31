@@ -22,7 +22,7 @@ import java.util.Arrays;
  */
 
 public class Question73 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] FIRST_NUMBER = {3, 5, 6, 9, 8, 7},
                 SECOND_NUMBERS = {5, 0, 1, 2, 3, 4, -2};
         printTestOfNewSortingArrayWithSpecifiedCondition(FIRST_NUMBER);

@@ -10,7 +10,7 @@ import java.util.LinkedList;
 public class Question22 {
     private static final LinkedList<String> COLORS_CODES = new LinkedList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addFirstColorsCodes();
         System.out.print(COLORS_CODES.contains("#ffffff".toUpperCase()));
     }

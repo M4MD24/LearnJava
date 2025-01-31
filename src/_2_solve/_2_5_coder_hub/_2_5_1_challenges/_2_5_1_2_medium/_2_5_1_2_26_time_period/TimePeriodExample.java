@@ -1,7 +1,7 @@
 package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_26_time_period;
 
 public class TimePeriodExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.print(getStringLengthComparison("2022-01-02T00:00:00", "2022-01-12T00:00:00"));
     }
 

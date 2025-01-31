@@ -57,7 +57,7 @@ class Priorities {
 }
 
 public class PriorityQueueExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         final int COUNT_OF_ELEMENTS = Integer.parseInt(INPUT.nextLine());
         final List<String> EVENTS = new ArrayList<>();

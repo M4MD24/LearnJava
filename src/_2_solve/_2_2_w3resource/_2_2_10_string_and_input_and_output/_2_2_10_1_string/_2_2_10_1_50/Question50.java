@@ -8,7 +8,7 @@ import java.util.Arrays;
  */
 
 public class Question50 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(getLexicographicRank("1234567891"));
     }
 

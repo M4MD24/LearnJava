@@ -3,7 +3,7 @@ package _1_learn._1_7_data_structures_and_algorithms._1_7_6_tree._1_7_6_3_avl_tr
 public class Main {
     private static final AVLTree ELEMENTS = new AVLTree();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addElements();
         inorderTraversalTest();
         preorderTraversalTest();

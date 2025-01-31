@@ -53,7 +53,7 @@ public class CapitalOrSmallOrDigitExample {
             CONDITION_ALPHA = LETTER > 64 && LETTER < 123;
     private static String result = "";
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         if (CONDITION_DIGIT) result = IS_DIGIT;
         else if (CONDITION_ALPHA) {
             result = ALPHA_WORD + "\n";

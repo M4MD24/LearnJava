@@ -12,7 +12,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_1_easy._2_6_1_1_21_mer
  */
 
 public class MergeTwoSortedLists {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final ListNode FIRST_LIST = new ListNode(1);
         FIRST_LIST.next = new ListNode(2);
         FIRST_LIST.next.next = new ListNode(4);

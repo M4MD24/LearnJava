@@ -10,7 +10,7 @@ import java.time.temporal.TemporalAdjusters;
  */
 
 public class Question23 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final LocalDate CURRENT_DATE = LocalDate.now();
         final LocalDate LAST_DAY_OF_YEAR = CURRENT_DATE.with(TemporalAdjusters.lastDayOfYear());
         final Period MONTHS_REMAINING_IN_YEAR = CURRENT_DATE.until(LAST_DAY_OF_YEAR);

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         List<Employee> employees = new ArrayList<>();
         employees.add(new Employee("Ahmed", 50_000));
         employees.add(new Employee("Mahmoud", 60_000));

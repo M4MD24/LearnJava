@@ -12,7 +12,7 @@ import java.util.Arrays;
  */
 
 public class SetMatrixZeroes {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[][] MATRIX = {
                 {1, 2, 0},
                 {4, 5, 6},

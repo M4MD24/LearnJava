@@ -25,7 +25,7 @@ import java.util.stream.IntStream;
  */
 
 public class Question58 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int[] FIRST_NUMBERS = {1, 5, 6, 7, 8, 10},
                 SECOND_NUMBERS = {2, 4, 9};
         printNumbers(FIRST_NUMBERS, SECOND_NUMBERS);

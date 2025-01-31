@@ -3,7 +3,7 @@ package _1_learn._1_7_data_structures_and_algorithms._1_7_7_graph._1_7_7_4_bellm
 public class Main {
     private static final BellmanFord ELEMENTS = new BellmanFord(5, 8);
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addEdges();
         ELEMENTS.showAllElements();
     }

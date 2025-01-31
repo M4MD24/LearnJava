@@ -41,7 +41,7 @@ public class Question46 {
     private static int rows = MATRIX.length,
             columns = rows;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         printInputs();
         printOutputs();
     }

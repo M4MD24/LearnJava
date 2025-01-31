@@ -30,7 +30,7 @@ import java.util.Scanner;
  */
 
 public class Question36 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Input the latitude of coordinate 1: ");

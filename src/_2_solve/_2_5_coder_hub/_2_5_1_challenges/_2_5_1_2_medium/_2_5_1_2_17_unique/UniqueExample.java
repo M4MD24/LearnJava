@@ -3,7 +3,7 @@ package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_2_medium._2_5_1_2_17_un
 import java.util.Arrays;
 
 public class UniqueExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(Arrays.toString(getMaximumUnique(new int[]{1, 1, 1, 2, 1, 1})));
         System.out.println(Arrays.toString(getMaximumUnique(new int[]{3, -4, 3, 3, 3})));
         System.out.println(Arrays.toString(getMaximumUnique(new int[]{2, 4, -2})));

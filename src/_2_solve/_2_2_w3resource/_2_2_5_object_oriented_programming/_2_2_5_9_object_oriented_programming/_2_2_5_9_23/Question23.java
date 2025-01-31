@@ -10,7 +10,7 @@ import java.util.Locale;
  */
 
 public class Question23 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Course COURSE = new OnlineCourse(
                 "Learn Java",
                 "Mohamed Sadawy",

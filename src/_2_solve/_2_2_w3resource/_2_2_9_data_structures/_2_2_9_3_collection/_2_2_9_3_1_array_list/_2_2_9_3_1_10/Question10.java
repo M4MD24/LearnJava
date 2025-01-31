@@ -11,7 +11,7 @@ import java.util.Collections;
 public class Question10 {
     private static final ArrayList<String> COLORS_CODES = new ArrayList<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addColorsCodes();
         System.out.println("Before Shuffle: " + COLORS_CODES);
         Collections.shuffle(COLORS_CODES);

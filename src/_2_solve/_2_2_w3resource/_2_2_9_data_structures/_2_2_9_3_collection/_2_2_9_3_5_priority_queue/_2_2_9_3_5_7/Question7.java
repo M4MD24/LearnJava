@@ -11,7 +11,7 @@ public class Question7 {
     private static final PriorityQueue<String> FIRST_COLORS_CODES = new PriorityQueue<>(),
             SECOND_COLORS_CODES = new PriorityQueue<>();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         addFirstColorsCodes();
         addSecondColorsCodes();
         compareBetweenColorsCodes();

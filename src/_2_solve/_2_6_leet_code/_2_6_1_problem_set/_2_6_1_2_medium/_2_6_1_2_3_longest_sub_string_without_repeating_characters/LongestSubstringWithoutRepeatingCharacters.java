@@ -6,7 +6,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_2_medium._2_6_1_2_3_lo
  */
 
 public class LongestSubstringWithoutRepeatingCharacters {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final String TEXT = "au";
         System.out.print(lengthOfLongestSubstring(TEXT));
     }

@@ -3,7 +3,7 @@ package _2_solve._2_1_w3schools._2_1_1_how_to._2_1_1_4_area_of_rectangle;
 import java.util.Scanner;
 
 public class AreaOfRectangleExample {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter width and length to calculate area of rectangle:\nEnter Length = ");

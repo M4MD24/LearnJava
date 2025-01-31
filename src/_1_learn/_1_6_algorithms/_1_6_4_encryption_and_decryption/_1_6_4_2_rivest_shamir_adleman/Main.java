@@ -1,7 +1,7 @@
 package _1_learn._1_6_algorithms._1_6_4_encryption_and_decryption._1_6_4_2_rivest_shamir_adleman;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final RivestShamirAdleman RSA_ENCRYPTION = new RivestShamirAdleman();
         System.out.println("■ RSA");
 

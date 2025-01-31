@@ -34,7 +34,7 @@ import java.util.Scanner;
  */
 
 public class Question83 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print("Input an even number: ");
         final int TARGET_SUM = INPUT.nextInt();
@@ -43,11 +43,11 @@ public class Question83 {
                 System.out.printf("Count of two combinations: %d", getCountOfTwoCombinations(TARGET_SUM));
             else {
                 System.out.println("\u001B[31mEnter even number\u001B[m");
-                Question83.main(PARAMETERS);
+                Question83.main(ARGUMENTS);
             }
         } catch (Exception IGNORED) {
             System.out.println("\u001B[31mEnter even number");
-            Question83.main(PARAMETERS);
+            Question83.main(ARGUMENTS);
         }
     }
 

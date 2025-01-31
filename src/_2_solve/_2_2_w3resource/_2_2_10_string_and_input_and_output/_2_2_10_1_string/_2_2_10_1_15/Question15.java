@@ -21,7 +21,7 @@ import java.util.Calendar;
 public class Question15 {
     private static final Calendar TIME_NOW = Calendar.getInstance();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.format("""
                         Hijri    : %s
                         Gregorian: %02d, %02d (%s), %d

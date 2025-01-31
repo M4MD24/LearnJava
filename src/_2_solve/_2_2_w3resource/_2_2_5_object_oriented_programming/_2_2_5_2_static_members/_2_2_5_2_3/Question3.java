@@ -14,7 +14,7 @@ public class Question3 {
         System.out.println("Static block = " + initialValue);
     }
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println("Before = " + initialValue);
         final Question3 INITIALIZER = new Question3();
         System.out.print("After = " + initialValue);

@@ -114,7 +114,7 @@ class Solution2 {
 }
 
 public class Question121 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         Solution1.mainMethod();
         Solution2.mainMethod();
     }

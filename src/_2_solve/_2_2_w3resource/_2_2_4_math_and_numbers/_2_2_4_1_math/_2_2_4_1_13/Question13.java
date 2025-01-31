@@ -15,7 +15,7 @@ package _2_solve._2_2_w3resource._2_2_4_math_and_numbers._2_2_4_1_math._2_2_4_1_
  */
 
 public class Question13 {
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         final int DECIMAL_NUMBER = 8,
                 BINARY_NUMBER = Integer.parseInt(Integer.toBinaryString(DECIMAL_NUMBER));
         System.out.printf("""

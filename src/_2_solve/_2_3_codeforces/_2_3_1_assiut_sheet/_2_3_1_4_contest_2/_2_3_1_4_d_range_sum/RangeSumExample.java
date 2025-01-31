@@ -45,7 +45,7 @@ public class RangeSumExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static long length = INPUT.nextInt();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
     }
 

@@ -49,7 +49,7 @@ public class NTimesExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static byte countOfTestCases = INPUT.nextByte();
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         inputValues();
     }
 

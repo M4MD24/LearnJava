@@ -20,7 +20,7 @@ public class GsonExample {
     private static final Gson GSON = new Gson();
     private static Map<String, String> map;
 
-    public static void main(final String[] PARAMETERS) {
+    public static void main(final String[] ARGUMENTS) {
         convertObjectToJson();
         convertJsonToObject();
         writeJsonToFile();
