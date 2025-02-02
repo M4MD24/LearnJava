@@ -11,7 +11,7 @@ public class UnaryOperators {
          * ( ! ) Logical NOT
          * */
 
-        int intVariable = 0;
+        int intVariable = 1;
         System.out.println(+intVariable); // Unary plus
         System.out.println(-intVariable); // Unary minus
         System.out.println(++intVariable); // Increment
