@@ -75,7 +75,7 @@ public class AssignmentOperators {
 
         /* Left Shift Assignment: Shifts the bits of 'leftShiftAssignment' to the left by 'number' positions and assigns the result to 'leftShiftAssignment'. */
         int leftShiftAssignment = 10;
-        leftShiftAssignment >>= number; // Left Shift Assignment ( leftShiftAssignment = leftShiftAssignment << number )
-        System.out.println("Left Shift Assignment = " + leftShiftAssignment);
+        leftShiftAssignment <<= number; // Left Shift Assignment ( leftShiftAssignment = leftShiftAssignment << number )
+        System.out.print("Left Shift Assignment = " + leftShiftAssignment);
     }
 }

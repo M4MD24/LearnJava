@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class AllSameCaseExample {
     public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
-        System.out.print(concatTexts(INPUT.nextLine(), INPUT.nextLine()));
+        System.out.print(allSameCase(INPUT.nextLine()));
     }
 
-    private static String concatTexts(final String FIRST_TEXT, final String SECOND_TEXT) {
-        return FIRST_TEXT + ' ' + SECOND_TEXT;
+    private static boolean allSameCase(final String TEXT) {
+        return TEXT.equals(TEXT.toLowerCase()) || TEXT.equals(TEXT.toUpperCase());
     }
 }

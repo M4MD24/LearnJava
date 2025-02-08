@@ -21,6 +21,6 @@ public class StringBufferExample {
         one.ensureCapacity(100);
         System.out.println(".ensureCapacity() after: " + one.capacity());
 
-        System.out.println(".reverse()             : " + one.reverse());
+        System.out.print(".reverse()             : " + one.reverse());
     }
 }

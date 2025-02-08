@@ -8,7 +8,9 @@ public class DecimalPlacesExample {
         System.out.print(decimalPlaces(INPUT.nextLine()));
     }
 
-    private static double decimalPlaces(final String PERCENTAGE) {
-        return Double.parseDouble(PERCENTAGE.replace("%", "")) / 100;
+    private static int decimalPlaces(final String NUMBER) {
+        return NUMBER.contains(".")
+                ? NUMBER.length() - NUMBER.indexOf('.') - 1
+                : 0;
     }
 }

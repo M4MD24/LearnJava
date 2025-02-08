@@ -46,7 +46,7 @@ public class BufferedAndReaderAndWriterExample {
 
     private static void bufferedReader() throws IOException {
         char[] array = new char[Character.MAX_VALUE];
-        FileReader file = new FileReader("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_4_buffered_reader_and_writer/BufferedReaderAndWriter.txt");
+        FileReader file = new FileReader("src/_1_learn/_1_2_handling/_1_2_2_file_handling/_1_2_2_2_reader_and_writer/_1_2_2_2_4_buffered_reader_and_writer/BufferedReaderAndWriter.txt");
         BufferedReader input = new BufferedReader(file);
 
         System.out.println(".ready(): " + file.ready());
@@ -60,7 +60,7 @@ public class BufferedAndReaderAndWriterExample {
 
     private static void bufferedWriter() throws IOException {
         String data = "Buffered Reader And Writer";
-        FileWriter file = new FileWriter("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_4_buffered_reader_and_writer/BufferedReaderAndWriter.txt");
+        FileWriter file = new FileWriter("src/_1_learn/_1_2_handling/_1_2_2_file_handling/_1_2_2_2_reader_and_writer/_1_2_2_2_4_buffered_reader_and_writer/BufferedReaderAndWriter.txt");
         BufferedWriter out = new BufferedWriter(file);
 
         out.write(data);

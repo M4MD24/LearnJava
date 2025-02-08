@@ -9,6 +9,6 @@ public class ExponentCubeExample {
     }
 
     private static int exponentCube(final int NUMBER) {
-        return (int) Math.pow(NUMBER, 3);
+        return NUMBER * NUMBER * NUMBER;
     }
 }

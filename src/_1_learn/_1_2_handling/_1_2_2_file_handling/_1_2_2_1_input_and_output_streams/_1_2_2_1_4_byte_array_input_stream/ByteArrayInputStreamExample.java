@@ -55,7 +55,7 @@ public class ByteArrayInputStreamExample {
     private static void byteArrayInputStream() throws IOException {
         byte[] array = {1, 2, 3, 4, 5, 6};
         ByteArrayInputStream input = new ByteArrayInputStream(array);
-        for (int i = 0; i < array.length; ++i) {
+        for (int index = 0; index < array.length; ++index) {
             int data = input.read();
             System.out.print(data + " ");
         }

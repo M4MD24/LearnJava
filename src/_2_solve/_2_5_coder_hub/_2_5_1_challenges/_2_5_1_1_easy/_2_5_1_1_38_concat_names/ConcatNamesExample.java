@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class ConcatNamesExample {
     public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
-        System.out.print(areAllSameCase(INPUT.nextLine()));
+        System.out.print(concatTexts(INPUT.nextLine(), INPUT.nextLine()));
     }
 
-    private static boolean areAllSameCase(final String TEXT) {
-        return TEXT.equals(TEXT.toLowerCase()) || TEXT.equals(TEXT.toUpperCase());
+    private static String concatTexts(final String FIRST_TEXT, final String SECOND_TEXT) {
+        return FIRST_TEXT + ' ' + SECOND_TEXT;
     }
 }

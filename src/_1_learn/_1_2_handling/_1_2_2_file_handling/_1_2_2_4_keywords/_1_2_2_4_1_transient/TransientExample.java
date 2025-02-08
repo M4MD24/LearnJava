@@ -20,12 +20,12 @@ public class TransientExample implements Serializable {
     public static void main(final String[] PARAMETERS) throws Exception {
         // serialization
         final TransientExample INPUT = new TransientExample();
-        final FileOutputStream FILE_OUTPUT_STREAM = new FileOutputStream("src\\1_learning\\1_3_handling\\1_3_2_file_handling\\1_3_2_4_keywords\\File.txt");
+        final FileOutputStream FILE_OUTPUT_STREAM = new FileOutputStream("src/_1_learn/_1_2_handling/_1_2_2_file_handling/_1_2_2_4_keywords/_1_2_2_4_1_transient/File.txt");
         final ObjectOutputStream OBJECT_OUTPUT_STREAM = new ObjectOutputStream(FILE_OUTPUT_STREAM);
         OBJECT_OUTPUT_STREAM.writeObject(INPUT);
 
         // de-serialization
-        final FileInputStream FILE_INPUT_STREAM = new FileInputStream("src\\1_learning\\1_3_handling\\1_3_2_file_handling\\1_3_2_4_keywords\\File.txt");
+        final FileInputStream FILE_INPUT_STREAM = new FileInputStream("src/_1_learn/_1_2_handling/_1_2_2_file_handling/_1_2_2_4_keywords/_1_2_2_4_1_transient/File.txt");
         final ObjectInputStream OBJECT_INPUT_STREAM = new ObjectInputStream(FILE_INPUT_STREAM);
         final TransientExample OUTPUT = (TransientExample) OBJECT_INPUT_STREAM.readObject();
 

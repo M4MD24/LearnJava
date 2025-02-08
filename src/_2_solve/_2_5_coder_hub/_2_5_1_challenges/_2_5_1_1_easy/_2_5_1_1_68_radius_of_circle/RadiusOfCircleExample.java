@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class RadiusOfCircleExample {
     public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
-        System.out.print(getCircumferenceOfCircle(INPUT.nextDouble()));
+        System.out.print(getRadiusOfCircle(INPUT.nextDouble()));
     }
 
-    private static double getCircumferenceOfCircle(final double CIRCUMFERENCE) {
-        return 2 * Math.PI * CIRCUMFERENCE;
+    private static double getRadiusOfCircle(final double CIRCUMFERENCE) {
+        final double PI = 3.14;
+        return CIRCUMFERENCE / (2 * PI);
     }
 }

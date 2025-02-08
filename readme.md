@@ -86,7 +86,6 @@
     2. Break
     3. Continue
     4. STR
-    5. Volatile
 11. Expressions
     1. Lambda Expressions
     2. Regular Expressions
@@ -131,34 +130,35 @@
 
 ### 3. [<span style="color: #e76f00;">OOP (Object Oriented Programming)</span>](src/_1_learn/_1_3_object_oriented_programming)
 
-1. Class
-2. Methods
-    1. Method
-    2. Overloading Method
+1. Class and Object
+2. Overloading Method
 3. Constructor
 4. Getter and Setter
 5. Recursion
 6. InstanceOf
 7. Inheritance
 8. Array of Object
-9. Polymorphism
-10. Encapsulation
-11. Data Hiding
-12. Nested and Inner Class
-13. Anonymous Class
-14. Enum
-15. Enum Constructor
-16. Reflection
-17. Keywords
+9. Abstraction
+10. Polymorphism
+11. Encapsulation
+12. Data Hiding
+13. Interface
+14. Nested and Inner Class
+15. Anonymous Class
+16. Enum
+17. Enum Constructor
+18. Reflection
+19. Keywords
     1. Abstract, Override and Super
     2. Static
-18. Generic Class
-19. Wrapper Classes
-20. Association
-21. Record Class
-22. Sealed Class And Interface
-23. Local Class
-24. Anonymous Inner Class
+    3. Volatile
+20. Generic Class
+21. Wrapper Classes
+22. Association
+23. Record Class
+24. Sealed Class And Interface
+25. Local Class
+26. Anonymous Inner Class
 
 ### 4. [<span style="color: #e76f00;">Testing</span>](src/_1_learn/_1_4_testing)
 
@@ -372,14 +372,14 @@
 
 ## 2. <span style="color: #e76f00;">Solve (1,727 Problems, 4 Mini Projects)</span>
 
-<li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u> <span style="color: #e76f00;">.</span></li>
+<li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u><span style="color: #e76f00;">.</span></li>
 
 |                                            Name                                             | Problems / Mini Projects |
 |:-------------------------------------------------------------------------------------------:|:------------------------:|
 |       <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a>        |       17 Problems        |
 | <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resources</a> |      1,059 Problems      |
 |           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |       279 Problems       |
-|             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       135 Problems       |
+|             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       136 Problems       |
 |                <a style="color: #e76f00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
 |             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       174 Problems       |
 |    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |       64 Problems        |
@@ -470,10 +470,10 @@
 3. <a style="color: #e76f00;" href="https://satr.codes/course/oqTQleaQLV/view">Java 102</a> (1 Mini Project)
 4. <a style="color: #e76f00;" href="https://satr.codes/course/aiZMoXpIya/view">Java 103</a> (1 Mini Project)
 
-### <span>5. <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a> (135 Problems, (76 Easy, 44 Medium, 15 Hard)) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
+### <span>5. <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a> (136 Problems, (77 Easy, 44 Medium, 15 Hard)) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (130 Problems)
-    1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (73 Problems)
+1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (131 Problems)
+    1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (74 Problems)
     2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (43 Problems)
     3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (14 Problems)
 2. <a style="color: #e76f00;" href="https://coderhub.sa/activities">Competitions</a> (2 Problems)

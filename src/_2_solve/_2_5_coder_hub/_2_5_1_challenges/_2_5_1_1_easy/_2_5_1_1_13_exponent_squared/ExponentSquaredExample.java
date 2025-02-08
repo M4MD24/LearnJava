@@ -9,6 +9,6 @@ public class ExponentSquaredExample {
     }
 
     private static int exponentSquared(final int NUMBER) {
-        return (int) Math.pow(NUMBER, 2);
+        return NUMBER * NUMBER;
     }
 }

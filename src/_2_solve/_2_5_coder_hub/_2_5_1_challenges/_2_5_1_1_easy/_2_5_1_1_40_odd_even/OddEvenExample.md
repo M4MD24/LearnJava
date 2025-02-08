@@ -1,11 +1,11 @@
-# <div dir="rtl">التحقق من الحروف</div>
+# <div dir="rtl">عدد زوجي أم فردي</div>
 
 ## <div dir="rtl">السؤال</div>
 
 <ul dir="rtl">
 <li>
 <b>
-قم بكتابة دالة function تستقبل نص من نوع string ، تقوم الدالة function بالتأكد من الكلمة المدخلة هل جميع أحرفها نفس الحالة (Case sensitivity) أم لا . ثم تقوم الدالة بإرجاع النتيجة من نوع boolean.
+قم بكتابة دالة function تستقبل عدد من نوع integer، تقوم الدالة function بإرجاع قيمة من نوع string توضّح ما إذا كان العدد زوجي أو فردي
 </b>
 </li>
 </ul>
@@ -19,13 +19,13 @@
 #### <div dir="rtl">المُدخلات</div>
 
 ```text
-word = hello
+number = 5
 ```
 
 #### <div dir="rtl">المُخرجات</div>
 
 ```text
-true
+فردي
 ```
 
 ### <div dir="rtl">اختبار 2</div>
@@ -33,13 +33,13 @@ true
 #### <div dir="rtl">المُدخلات</div>
 
 ```text
-word = Hello
+number = 1
 ```
 
 #### <div dir="rtl">المُخرجات</div>
 
 ```text
-false
+فردي
 ```
 
 ### <div dir="rtl">اختبار 3</div>
@@ -47,13 +47,13 @@ false
 #### <div dir="rtl">المُدخلات</div>
 
 ```text
-word = HI
+number = 2
 ```
 
 #### <div dir="rtl">المُخرجات</div>
 
 ```text
-true
+زوجي
 ```
 
 ### <div dir="rtl">اختبار 4</div>
@@ -61,11 +61,11 @@ true
 #### <div dir="rtl">المُدخلات</div>
 
 ```text
-word = a
+number = 4
 ```
 
 #### <div dir="rtl">المُخرجات</div>
 
 ```text
-true
+زوجي
 ```

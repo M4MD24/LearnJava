@@ -23,12 +23,16 @@ public class GetPrimesBetweenExample {
     }
 
     private static boolean isPrime(final int NUMBER) {
-        if (NUMBER == 0 || NUMBER == 1) return false;
-        else if (NUMBER == 2 || NUMBER == 3) return true;
-        else if (NUMBER % 2 == 0 || NUMBER % 3 == 0) return false;
+        if (NUMBER < 2)
+            return false;
+        else if (NUMBER == 2 || NUMBER == 3)
+            return true;
+        else if (NUMBER % 2 == 0 || NUMBER % 3 == 0)
+            return false;
         else {
             for (int index = 5; index * index <= NUMBER; index += 2)
-                if (NUMBER % index == 0 || (NUMBER % (index + 2)) == 0) return false;
+                if (NUMBER % index == 0 || (NUMBER % (index + 2)) == 0)
+                    return false;
             return true;
         }
     }

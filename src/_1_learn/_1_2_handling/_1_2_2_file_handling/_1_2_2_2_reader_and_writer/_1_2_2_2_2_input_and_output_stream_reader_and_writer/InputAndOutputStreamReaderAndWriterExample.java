@@ -49,7 +49,7 @@ public class InputAndOutputStreamReaderAndWriterExample {
 
     private static void inputStreamReader() throws IOException {
         char[] array = new char[Character.MAX_VALUE];
-        FileInputStream file = new FileInputStream("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_2_input_and_output_stream_reader_and_writer/InputAndOutputStreamReaderAndWriter.txt");
+        FileInputStream file = new FileInputStream("src/_1_learn/_1_2_handling/_1_2_2_file_handling/_1_2_2_2_reader_and_writer/_1_2_2_2_2_input_and_output_stream_reader_and_writer/InputAndOutputStreamReaderAndWriter.txt");
         InputStreamReader input1 = new InputStreamReader(file, StandardCharsets.US_ASCII);
         InputStreamReader input2 = new InputStreamReader(file, Charset.forName("UTF-32"));
 
@@ -66,7 +66,7 @@ public class InputAndOutputStreamReaderAndWriterExample {
 
     private static void outputStreamWriter() throws IOException {
         String data = "Input And Output Stream Reader And Writer";
-        FileOutputStream file = new FileOutputStream("src/_1_learn/_1_3_handling/_1_3_2_file_handling/_1_3_2_2_reader_and_writer/_1_3_2_2_2_input_and_output_stream_reader_and_writer/InputAndOutputStreamReaderAndWriter.txt");
+        FileOutputStream file = new FileOutputStream("src/_1_learn/_1_2_handling/_1_2_2_file_handling/_1_2_2_2_reader_and_writer/_1_2_2_2_2_input_and_output_stream_reader_and_writer/InputAndOutputStreamReaderAndWriter.txt");
         OutputStreamWriter output = new OutputStreamWriter(file);
 
         output.write(data);

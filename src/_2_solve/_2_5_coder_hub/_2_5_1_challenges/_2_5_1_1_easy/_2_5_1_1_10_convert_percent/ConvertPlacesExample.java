@@ -8,9 +8,7 @@ public class ConvertPlacesExample {
         System.out.print(convertPercent(INPUT.nextLine()));
     }
 
-    private static int convertPercent(final String NUMBER) {
-        return NUMBER.contains(".")
-                ? NUMBER.length() - NUMBER.indexOf('.') - 1
-                : 0;
+    private static double convertPercent(final String PERCENTAGE) {
+        return Double.parseDouble(PERCENTAGE.replace("%", "")) / 100;
     }
 }

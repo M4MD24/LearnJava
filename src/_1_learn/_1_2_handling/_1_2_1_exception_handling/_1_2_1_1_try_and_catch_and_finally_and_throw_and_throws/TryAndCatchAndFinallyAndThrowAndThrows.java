@@ -13,40 +13,43 @@ import java.io.*;
 
 public class TryAndCatchAndFinallyAndThrowAndThrows {
     public static void main(final String[] ARGUMENTS) {
-        divideByZero();
-        findFile();
+        try {
+            divideByZero();
+        } catch (ArithmeticException e) {
+            System.out.println("Exception in main: " + e.getMessage());
+        }
+
+        try {
+            findFile();
+        } catch (IOException e) {
+            System.out.println("Exception in main: " + e.getMessage());
+        }
     }
 
     static void divideByZero() {
+        int divideByZero = 0;
         try {
-            int divideByZero = 5 / 0;
+            divideByZero = 5 / 0;
             System.out.println("try");
-        } catch (ArithmeticException e) { /* you can use more (catch) ! */
-            System.out.println("catch: " + e.getMessage());
-        } catch (Exception ee) {
-            System.out.println("catch: " + ee.getMessage());
+        } catch (ArithmeticException e) {
+            throw new ArithmeticException("Trying to divide by 0");
         } finally {
-            System.out.println("finally");
+            System.out.println(divideByZero);
         }
     }
 
-    static void findFile() {
+    static void findFile() throws IOException {
         try {
             fetchPathFile();
+        } catch (FileNotFoundException e) {
             throw new IOException("Unable to read file");
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        } finally {
-            throwDivideByZero();
         }
-    }
-
-    static void throwDivideByZero() {
-        throw new ArithmeticException("Trying to divide by 0");
     }
 
     static void fetchPathFile() throws IOException {
-        File newFile = new File("src/_1_learn/_1_2_handling/_1_2_1_exception_handling/_1_2_1_1_try_and_catch_and_finally_and_throw_and_throws/example.txt");
-        FileInputStream stream = new FileInputStream(newFile);
+        File newFile = new File("src\\_1_learn\\_1_2_handling\\_1_2_1_exception_handling\\_1_2_1_1_try_and_catch_and_finally_and_throw_and_throws\\example.txt");
+        try (final FileInputStream STREAM = new FileInputStream(newFile)) {
+            System.out.println("File found and opened successfully.");
+        }
     }
 }

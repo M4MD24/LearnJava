@@ -10,7 +10,7 @@ public class IsSameExample {
 
     private static String isSame(final String FIRST_TEXT, final String SECOND_TEXT) {
         return FIRST_TEXT.equals(SECOND_TEXT)
-                ? "متشابهين"
-                : "غير متشابهين";
+                ? "متشابهتين"
+                : "غير متشابهتين";
     }
 }
