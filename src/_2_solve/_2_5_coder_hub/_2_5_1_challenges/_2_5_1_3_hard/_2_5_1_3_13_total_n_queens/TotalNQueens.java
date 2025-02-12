@@ -1,4 +1,4 @@
-package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_3_hard._2_5_1_3_14_total_n_queens;
+package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_3_hard._2_5_1_3_13_total_n_queens;
 
 public class TotalNQueens {
     public static void main(final String[] ARGUMENTS) {

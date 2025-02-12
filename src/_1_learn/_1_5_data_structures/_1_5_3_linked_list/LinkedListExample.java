@@ -130,6 +130,6 @@ public class LinkedListExample {
         System.out.println(".offerFirst() after          : " + number);
 
         number.offerLast(30);
-        System.out.println(".offerLast() after           : " + number + "\n");
+        System.out.print(".offerLast() after           : " + number);
     }
 }

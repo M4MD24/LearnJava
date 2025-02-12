@@ -1,4 +1,4 @@
-# <u style="font-style: italic; color: #e76f00;">Learn Java</u>
+# <u style="font-style: italic; color: #E76F00;">Learn Java</u>
 
 ---
 
@@ -19,7 +19,7 @@
 
 ---
 
-## <span style="font-style: italic; color: #e76f00;">About the Project Details</span>
+## <span style="font-style: italic; color: #E76F00;">About the Project Details</span>
 
 - **Recommended using** `Intellij IDEA (Community / Ultimate / EAP), Aqua, Fleet`
 - **Currently Used** `Intellij Idea Community`
@@ -31,29 +31,29 @@
 
 ---
 
-## <span style="font-style: italic; color: #e76f00;">Tips for search important comments</span>
+## <span style="font-style: italic; color: #E76F00;">Tips for search important comments</span>
 
 - For Search in Intellij IDEA `CTRL + Shift + F`, Select (In Project Option), and:
 
-    - Search `! */` for **<span style="color: #e76f00;">Advices, Tips and Errors</span>**
-    - Search `. */` for **<span style="color: #e76f00;">Definitions</span>**
-    - Search `/* ~` for **<span style="color: #e76f00;">The Difference Between</span>**
-    - Search `/* ↓` for **<span style="color: #e76f00;">Examples</span>**
-    - Search `/* √` for **<span style="color: #e76f00;">Similar Concepts and Definition of Letters</span>**
-    - Search `/* ■` for **<span style="color: #e76f00;">Tables</span>**
-    - Search `// •` for **<span style="color: #e76f00;">Important Things</span>**
-    - Search `<h1>Problem` for **<span style="color: #e76f00;">Problems</span>**
-    - Search `// >` for **<span style="color: #e76f00;">Another Solution</span>**
-    - Search `[//]: # (Notes)` for **<span style="color: #e76f00;">Important Notes</span>**
-    - Search `[//]: # (Notes How)` for **<span style="color: #e76f00;">Notes How</span>**
+    - Search `! */` for **<span style="color: #E76F00;">Advices, Tips and Errors</span>**
+    - Search `. */` for **<span style="color: #E76F00;">Definitions</span>**
+    - Search `/* ~` for **<span style="color: #E76F00;">The Difference Between</span>**
+    - Search `/* ↓` for **<span style="color: #E76F00;">Examples</span>**
+    - Search `/* √` for **<span style="color: #E76F00;">Similar Concepts and Definition of Letters</span>**
+    - Search `/* ■` for **<span style="color: #E76F00;">Tables</span>**
+    - Search `// •` for **<span style="color: #E76F00;">Important Things</span>**
+    - Search `<h1>Problem` for **<span style="color: #E76F00;">Problems</span>**
+    - Search `// >` for **<span style="color: #E76F00;">Another Solution</span>**
+    - Search `[//]: # (Notes)` for **<span style="color: #E76F00;">Important Notes</span>**
+    - Search `[//]: # (Notes How)` for **<span style="color: #E76F00;">Notes How</span>**
 
 ---
 
-## 1. [<span style="color: #e76f00;">Learn</span>](src/_1_learn)
+## 1. [<span style="color: #E76F00;">Learn</span>](src/_1_learn)
 
-- <u style="text-decoration-color: #e76f00;">Learn Examples of Concepts</u><span style="color: #e76f00;">.</span>
+- <u style="text-decoration-color: #E76F00;">Learn Examples of Concepts</u><span style="color: #E76F00;">.</span>
 
-### 1. [<span style="color: #e76f00;">Basics</span>](src/_1_learn/_1_1_basics)
+### 1. [<span style="color: #E76F00;">Basics</span>](src/_1_learn/_1_1_basics)
 
 1. Variables
 2. Data Types
@@ -100,7 +100,7 @@
 20. Bit Manipulation
 21. Varargs
 
-### 2. [<span style="color: #e76f00;">Handling</span>](src/_1_learn/_1_2_handling)
+### 2. [<span style="color: #E76F00;">Handling</span>](src/_1_learn/_1_2_handling)
 
 1. Exceptions Handing
     1. Try, Catch, Finally, throw and throws
@@ -128,7 +128,7 @@
     4. Keywords
         1. Transient
 
-### 3. [<span style="color: #e76f00;">OOP (Object Oriented Programming)</span>](src/_1_learn/_1_3_object_oriented_programming)
+### 3. [<span style="color: #E76F00;">OOP (Object Oriented Programming)</span>](src/_1_learn/_1_3_object_oriented_programming)
 
 1. Class and Object
 2. Overloading Method
@@ -160,7 +160,7 @@
 25. Local Class
 26. Anonymous Inner Class
 
-### 4. [<span style="color: #e76f00;">Testing</span>](src/_1_learn/_1_4_testing)
+### 4. [<span style="color: #E76F00;">Testing</span>](src/_1_learn/_1_4_testing)
 
 1. JUnit 5
     1. Test
@@ -172,7 +172,7 @@
     1. Test
     2. Ignore
 
-### 5. [<span style="color: #e76f00;">DS (Data Structures)</span>](src/_1_learn/_1_5_data_structures)
+### 5. [<span style="color: #E76F00;">DS (Data Structures)</span>](src/_1_learn/_1_5_data_structures)
 
 1. List
     1. List
@@ -191,7 +191,7 @@
 13. Blocking Deque with Others
 14. Linked Blocking Deque
 15. Map with Others
-16. Hash Map
+16. HashMap
 17. Linked Hash Map
 18. Weak Hash Map
 19. Enum Map
@@ -212,8 +212,9 @@
 34. Hash Table
 35. Dictionary
 36. Enumeration
+37. Array Deque
 
-### 6. [<span style="color: #e76f00;">Algorithms</span>](src/_1_learn/_1_6_algorithms)
+### 6. [<span style="color: #E76F00;">Algorithms</span>](src/_1_learn/_1_6_algorithms)
 
 1. Search
     1. Linear
@@ -262,7 +263,7 @@
 6. Other
     1. Boyer-Moore Voting
 
-### 7. [<span style="color: #e76f00;">DSA (Data Structures and Algorithms)</span>](src/_1_learn/_1_7_data_structures_and_algorithms)
+### 7. [<span style="color: #E76F00;">DSA (Data Structures and Algorithms)</span>](src/_1_learn/_1_7_data_structures_and_algorithms)
 
 1. Nodes
 2. LinkedList
@@ -291,7 +292,7 @@
     2. Fibonacci Heap
 9. LRU Cache
 
-### 8. [<span style="color: #e76f00;">Database</span>](src/_1_learn/_1_8_database)
+### 8. [<span style="color: #E76F00;">Database</span>](src/_1_learn/_1_8_database)
 
 1. Json
     1. Gson
@@ -302,7 +303,7 @@
     3. SQLite
     4. HSQLDB
 
-### 9. [<span style="color: #e76f00;">Network</span>](src/_1_learn/_1_9_network)
+### 9. [<span style="color: #E76F00;">Network</span>](src/_1_learn/_1_9_network)
 
 1. URI (Uniform Resource Identifier)
 2. URL (Uniform Resource Locator) and URL Connection and HTTP (Hypertext Transfer Protocol) URL Connection and HTTPS (Hypertext Transfer Protocol Secure) URL Connection
@@ -322,17 +323,17 @@
 9. RESTful API (Representational State Transfer Application Programming Interface)
 10. JWT (Json Web Token)
 
-### 10. [<span style="color: #e76f00;">OOD (Object Oriented Design)</span>](src/_1_learn/_1_10_object_oriented_design)
+### 10. [<span style="color: #E76F00;">OOD (Object Oriented Design)</span>](src/_1_learn/_1_10_object_oriented_design)
 
-### 11. [<span style="color: #e76f00;">SOLID Principles</span>](src/_1_learn/_1_11_solid_principles)
+### 11. [<span style="color: #E76F00;">SOLID Principles</span>](src/_1_learn/_1_11_solid_principles)
 
-- <span style="color: #e76f00;">S</span> = SRP (Single Responsibility Principle)
-- <span style="color: #e76f00;">O</span> = OCP (Open/Closed Principle)
-- <span style="color: #e76f00;">L</span> = LSP (Liskov Substitution Principle)
-- <span style="color: #e76f00;">I</span> = ISP (Interface Segregation Principle)
-- <span style="color: #e76f00;">D</span> = DIP (Dependency Inversion Principle)
+- <span style="color: #E76F00;">S</span> = SRP (Single Responsibility Principle)
+- <span style="color: #E76F00;">O</span> = OCP (Open/Closed Principle)
+- <span style="color: #E76F00;">L</span> = LSP (Liskov Substitution Principle)
+- <span style="color: #E76F00;">I</span> = ISP (Interface Segregation Principle)
+- <span style="color: #E76F00;">D</span> = DIP (Dependency Inversion Principle)
 
-### 12. [<span style="color: #e76f00;">Design Patterns</span>](src/_1_learn/_1_12_design_patterns)
+### 12. [<span style="color: #E76F00;">Design Patterns</span>](src/_1_learn/_1_12_design_patterns)
 
 1. Creational Design Patterns
     1. Singleton Pattern
@@ -370,184 +371,188 @@
 
 ---
 
-## 2. <span style="color: #e76f00;">Solve (1,727 Problems, 4 Mini Projects)</span>
+## 2. <span style="color: #E76F00;">Solve (1,727 Problems, 4 Mini Projects)</span>
 
-<li><u style="text-decoration-color: #e76f00;">Solve problems and mini projects</u><span style="color: #e76f00;">.</span></li>
+<li><u style="text-decoration-color: #E76F00;">Solve problems and mini projects</u><span style="color: #E76F00;">.</span></li>
 
 |                                            Name                                             | Problems / Mini Projects |
 |:-------------------------------------------------------------------------------------------:|:------------------------:|
-|       <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a>        |       17 Problems        |
-| <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resources</a> |      1,059 Problems      |
-|           <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a>           |       279 Problems       |
-|             <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a>              |       136 Problems       |
-|                <a style="color: #e76f00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
-|             <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a>             |       174 Problems       |
-|    <a style="color: #e76f00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |       64 Problems        |
+|       <a style="color: #E76F00;" href="https://www.w3schools.com/java">W3Schools</a>        |       17 Problems        |
+| <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises">W3Resources</a> |      1,059 Problems      |
+|           <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a>           |       279 Problems       |
+|             <a style="color: #E76F00;" href="https://coderhub.sa">CoderHub</a>              |       136 Problems       |
+|                <a style="color: #E76F00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
+|             <a style="color: #E76F00;" href="https://leetcode.com">LeetCode</a>             |       174 Problems       |
+|    <a style="color: #E76F00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |       64 Problems        |
 
-#### <p style="color: #e76f00;">Notes</p>
+#### <p style="color: #E76F00;">Notes</p>
 
 <ul>
-<li><u style="text-decoration-color: #e76f00;">There are some Problems where the requirements and names have been changed without changing the important programming terms</u> <span style="color: #e76f00;">.</span></li>
+<li><u style="text-decoration-color: #E76F00;">There are some Problems where the requirements and names have been changed without changing the important programming terms</u> <span style="color: #E76F00;">.</span></li>
 <br/>
 <li>What does Mean (🟥 & 🟩) ?</li>
 <ul>
-<li>🟥: <u style="text-decoration-color: #e76f00;">Not Complete</u></li>
-<li>🟩: <u style="text-decoration-color: #e76f00;">Complete</u></li>
+<li>🟥: <u style="text-decoration-color: #E76F00;">Not Complete</u></li>
+<li>🟩: <u style="text-decoration-color: #E76F00;">Complete</u></li>
 </ul>
 </ul>
 
-### <span>1. <a style="color: #e76f00;" href="https://www.w3schools.com/java">W3Schools</a> (17 Problems) 🟩<span>
+### <span>1. <a style="color: #E76F00;" href="https://www.w3schools.com/java">W3Schools</a> (17 Problems) 🟩<span>
 
-1. <a style="color: #e76f00;" href="https://www.w3schools.com/java">How to</a> (17 Problems)
+1. <a style="color: #E76F00;" href="https://www.w3schools.com/java">How to</a> (17 Problems)
 
-### <span>2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (1,059 Problems) 🟩<span>
+### <span>2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (1,059 Problems) 🟩<span>
 
 1. Basics (272 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index.php">Part 1</a> (150 Problems)
-    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/basic/index1.php">Part 2</a> (99 Problems)
-    3. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/method/index.php">Methods</a> (23 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/basic/index.php">Part 1</a> (150 Problems)
+    2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/basic/index1.php">Part 2</a> (99 Problems)
+    3. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/method/index.php">Methods</a> (23 Problems)
 2. Data Types (20 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/datatypes/index.php">Data Types</a> (15 Problems)
-    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/java-enum-types.php">Enum Types</a> (5 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/datatypes/index.php">Data Types</a> (15 Problems)
+    2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/java-enum-types.php">Enum Types</a> (5 Problems)
 3. Flow Control (47 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/conditional-statement/index.php">Conditional Statement</a> (32 Problems)
-    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/recursive/index.php">Recursive Method</a> (15 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/conditional-statement/index.php">Conditional Statement</a> (32 Problems)
+    2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/recursive/index.php">Recursive Method</a> (15 Problems)
 4. Math and Numbers (58 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/math/index.php">Math</a> (29 Problems)
-    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/numbers/index.php">Numbers</a> (29 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/math/index.php">Math</a> (29 Problems)
+    2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/numbers/index.php">Numbers</a> (29 Problems)
 5. Object-Oriented Programming (117 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/constructor/java-constructors.php">Constructors</a> (10 Problems)
-    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/static_members/java-static-members.php">Static Members</a> (8 Problems)
-    3. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/nested-classes/java-nested-classes.php">Nested Classes</a> (10 Problems)
-    4. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-inheritance.php">Inheritance</a> (10 Problems)
-    5. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-abstract.php">Abstract Classes</a> (12 Problems)
-    6. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-interface.php">Interface</a> (11 Problems)
-    7. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/encapsulation/index.php">Encapsulation</a> (14 Problems)
-    8. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/index-polymorphism.php">Polymorphism</a> (12 Problems)
-    9. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/oop/index.php">Object-Oriented Programming</a> (30 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/constructor/java-constructors.php">Constructors</a> (10 Problems)
+    2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/static_members/java-static-members.php">Static Members</a> (8 Problems)
+    3. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/nested-classes/java-nested-classes.php">Nested Classes</a> (10 Problems)
+    4. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/index-inheritance.php">Inheritance</a> (10 Problems)
+    5. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/index-abstract.php">Abstract Classes</a> (12 Problems)
+    6. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/index-interface.php">Interface</a> (11 Problems)
+    7. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/encapsulation/index.php">Encapsulation</a> (14 Problems)
+    8. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/index-polymorphism.php">Polymorphism</a> (12 Problems)
+    9. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/oop/index.php">Object-Oriented Programming</a> (30 Problems)
 6. Exception Handling (7 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/exception/index.php">Handling and Managing</a> (7 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/exception/index.php">Handling and Managing</a> (7 Problems)
 7. Functional Programming (33 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/lambda/index.php">Lambda Expression</a> (25 Problems)
-    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/stream/index.php">Streams</a> (8 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/lambda/index.php">Lambda Expression</a> (25 Problems)
+    2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/stream/index.php">Streams</a> (8 Problems)
 8. Multithreading (22 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/thread/index.php">Thread</a> (7 Problems)
-    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/multithreading/index.php">Multithreading</a> (15 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/thread/index.php">Thread</a> (7 Problems)
+    2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/multithreading/index.php">Multithreading</a> (15 Problems)
 9. Data Structures (234 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/array/index.php">Array</a> (79 Problems)
-    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/stack/index.php">Stack</a> (29 Problems)
-    3. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/index.php">Collection</a> (126 Problems)
-        1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/array-list.php">ArrayList</a> (22 Problems)
-        2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/linked-list.php">LinkedList</a> (26 Problems)
-        3. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-set.php">HashSet</a> (12 Problems)
-        4. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-set.php">TreeSet</a> (16 Problems)
-        5. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/priority-queue.php">PriorityQueue</a> (12 Problems)
-        6. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/hash-map.php">HashMap</a> (12 Problems)
-        7. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/collection/tree-map.php">TreeMap</a> (26 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/array/index.php">Array</a> (79 Problems)
+    2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/stack/index.php">Stack</a> (29 Problems)
+    3. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/collection/index.php">Collection</a> (126 Problems)
+        1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/collection/array-list.php">ArrayList</a> (22 Problems)
+        2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/collection/linked-list.php">LinkedList</a> (26 Problems)
+        3. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/collection/hash-set.php">HashSet</a> (12 Problems)
+        4. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/collection/tree-set.php">TreeSet</a> (16 Problems)
+        5. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/collection/priority-queue.php">PriorityQueue</a> (12 Problems)
+        6. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/collection/hash-map.php">HashMap</a> (12 Problems)
+        7. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/collection/tree-map.php">TreeMap</a> (26 Problems)
 10. String and Input and Output (130 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/string/index.php">String</a> (112 Problems)
-    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/io/index.php">Input and Output</a> (18 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/string/index.php">String</a> (112 Problems)
+    2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/io/index.php">Input and Output</a> (18 Problems)
 11. Date and Time (46 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/datetime/index.php">Date and Time</a> (46 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/datetime/index.php">Date and Time</a> (46 Problems)
 12. Advanced Concepts (17 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/generic/index.php">Generic Methods</a> (7 Problems)
-    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/unittest/index.php">Unit Test</a> (10 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/generic/index.php">Generic Methods</a> (7 Problems)
+    2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/unittest/index.php">Unit Test</a> (10 Problems)
 13. Algorithms (26 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Search</a> (7 Problems)
-    2. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/search/index.php">Sort</a> (19 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/search/index.php">Search</a> (7 Problems)
+    2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/search/index.php">Sort</a> (19 Problems)
 14. Regular Expression (30 Problems)
-    1. <a style="color: #e76f00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)
+    1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)
 
-### <span>3. <a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a> (279 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
+### <span>3. <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a> (279 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://codeforces.com/problemset">Assiut Sheets</a> (273 Problems)
-2. <a style="color: #e76f00;" href="https://codeforces.com/problemset">Problem Set</a> (6 Problems)
+1. <a style="color: #E76F00;" href="https://codeforces.com/problemset">Assiut Sheets</a> (273 Problems)
+2. <a style="color: #E76F00;" href="https://codeforces.com/problemset">Problem Set</a> (6 Problems)
 
-### <span>4. <a style="color: #e76f00;" href="https://satr.codes">Satr</a> (4 Mini Projects) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
+### <span>4. <a style="color: #E76F00;" href="https://satr.codes">Satr</a> (4 Mini Projects) 🟩</span> (<a style="color: #E76F00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://satr.codes/course/SYJZBDMnFM/view">Basics</a> (1 Mini Project)
-2. <a style="color: #e76f00;" href="https://satr.codes/course/DcFViVITbo/view">Java 101</a> (1 Mini Project)
-3. <a style="color: #e76f00;" href="https://satr.codes/course/oqTQleaQLV/view">Java 102</a> (1 Mini Project)
-4. <a style="color: #e76f00;" href="https://satr.codes/course/aiZMoXpIya/view">Java 103</a> (1 Mini Project)
+1. <a style="color: #E76F00;" href="https://satr.codes/course/SYJZBDMnFM/view">Basics</a> (1 Mini Project)
+2. <a style="color: #E76F00;" href="https://satr.codes/course/DcFViVITbo/view">Java 101</a> (1 Mini Project)
+3. <a style="color: #E76F00;" href="https://satr.codes/course/oqTQleaQLV/view">Java 102</a> (1 Mini Project)
+4. <a style="color: #E76F00;" href="https://satr.codes/course/aiZMoXpIya/view">Java 103</a> (1 Mini Project)
 
-### <span>5. <a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a> (136 Problems, (77 Easy, 44 Medium, 15 Hard)) 🟩</span> (<a style="color: #e76f00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
+### <span>5. <a style="color: #E76F00;" href="https://coderhub.sa">CoderHub</a> (137 Problems, (77 Easy, 46 Medium, 14 Hard)) 🟩</span> (<a style="color: #E76F00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges">Challenges</a> (131 Problems)
-    1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (74 Problems)
-    2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (43 Problems)
-    3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (14 Problems)
-2. <a style="color: #e76f00;" href="https://coderhub.sa/activities">Competitions</a> (2 Problems)
-    1. <a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)
+1. <a style="color: #E76F00;" href="https://coderhub.sa/challenges">Challenges</a> (131 Problems)
+    1. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (74 Problems)
+    2. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (44 Problems)
+    3. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (13 Problems)
+2. <a style="color: #E76F00;" href="https://coderhub.sa/activities">Competitions</a> (6 Problems)
+    1. <a style="color: #E76F00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)
         1. Easy (2 Problems)
-    2. <a style="color: #e76f00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">CoderHub Hat 24 Third Day</a> (3 Problems)
+    2. <a style="color: #E76F00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">CoderHub Hat 24 Third Day</a> (3 Problems)
         1. Easy (1 Problem)
         2. Medium (1 Problem)
         3. Hard (1 Problem)
+    3. <a style="color: #E76F00;" href="https://coderhub.sa/activities/4c0842ab-2921-4e6b-a8e2-0fd4af54c7b6/view">Leap 25 / Day 1 General Trip</a> (1 Problem)
+        1. Medium (1 Problem)
+    4. <a style="color: #E76F00;" href="https://coderhub.sa/activities/7a1f503c-e624-4b48-8989-05df055546c7/view">Leap 25 / Day 2 General Trip</a> (1 Problem)
+        1. Medium (1 Problem)
 
-### <span>6. <a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a> (174 Problems, (48 Easy, 107 Medium, 19 Hard)) 🟥</span> (<a style="color: #e76f00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
+### <span>6. <a style="color: #E76F00;" href="https://leetcode.com">LeetCode</a> (174 Problems, (48 Easy, 107 Medium, 19 Hard)) 🟥</span> (<a style="color: #E76F00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://leetcode.com/problemset">Problem Set</a> (174 Problems)
-    1. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (48 Problems)
-    2. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (107 Problems)
-    3. <a style="color: #e76f00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (19 Problems)
+1. <a style="color: #E76F00;" href="https://leetcode.com/problemset">Problem Set</a> (174 Problems)
+    1. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (48 Problems)
+    2. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (107 Problems)
+    3. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (19 Problems)
 
-### <span>6. <a style="color: #e76f00;" href="https://www.hackerrank.com">HackerRank</a> (64 Problems) 🟥</span> (<a style="color: #e76f00;" href="https://www.hackerrank.com/profile/m3md69">@M3MD69</a>)
+### <span>6. <a style="color: #E76F00;" href="https://www.hackerrank.com">HackerRank</a> (64 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://www.hackerrank.com/profile/m3md69">@M3MD69</a>)
 
-1. <a style="color: #e76f00;" href="https://www.hackerrank.com/domains/java">Java</a> (64 Problems)
-2. ~~<a style="color: #e76f00;" href="">Mathematics</a> (0 Problems)~~
-3. ~~<a style="color: #e76f00;" href="">Regex</a> (0 Problems)~~
-4. ~~<a style="color: #e76f00;" href="">Algorithms</a> (0 Problems)~~
-5. ~~<a style="color: #e76f00;" href="">Data Structures</a> (0 Problems)~~
+1. <a style="color: #E76F00;" href="https://www.hackerrank.com/domains/java">Java</a> (64 Problems)
+2. ~~<a style="color: #E76F00;" href="">Mathematics</a> (0 Problems)~~
+3. ~~<a style="color: #E76F00;" href="">Regex</a> (0 Problems)~~
+4. ~~<a style="color: #E76F00;" href="">Algorithms</a> (0 Problems)~~
+5. ~~<a style="color: #E76F00;" href="">Data Structures</a> (0 Problems)~~
 
 ---
 
-## <span style="color: #e76f00;">Resources</span>
+## <span style="color: #E76F00;">Resources</span>
 
-### <span style="color: #e76f00;">Learning</span>
+### <span style="color: #E76F00;">Learning</span>
 
-- <span style="color: #e76f00;">Note: </span><u style="text-decoration-color: #e76f00;">After learning from the sources, what was explained in the project is explained in my ways not copied mostly</u><span style="color: #e76f00;">.</span>
+- <span style="color: #E76F00;">Note: </span><u style="text-decoration-color: #E76F00;">After learning from the sources, what was explained in the project is explained in my ways not copied mostly</u><span style="color: #E76F00;">.</span>
 
 #### Websites
 
 <ul>
-<li><a style="color: #e76f00;" href="https://www.geeksforgeeks.org">GeeksForGeeks</a></li>
-<li><a style="color: #e76f00;" href="https://www.programiz.com">Programiz</a></li>
-<li><a style="color: #e76f00;" href="https://www.w3schools.com">W3Schools</a></li>
-<li><a style="color: #e76f00;" href="https://www.youtube.com">Youtube</a></li>
-<li><a style="color: #e76f00;" href="https://satr.codes">Satr</a></li>
-<li><a style="color: #e76f00;" href="https://www.sanfoundry.com">Sanfoundry</a></li>
-<li><a style="color: #e76f00;" href="https://www.javatpoint.com">Javatpoint</a></li>
-<li><a style="color: #e76f00;" href="https://www.codeproject.com">CodeProject</a></li>
-<li><a style="color: #e76f00;" href="https://harmash.com">Harmash</a></li>
-<li><a style="color: #e76f00;" href="https://junit.org/junit5/docs/current/user-guide">Junit5</a></li>
-<del><li><a style="color: #e76f00;" href="https://goalkicker.com">Goal Kicker</a></li></del>
-<li><a style="color: #e76f00;" href="https://github.com/google/gson">Gson Repository</a></li>
-<li><a style="color: #e76f00;" href="https://github.com/FasterXML/jackson">Jackson Repository</a></li>
-<li><a style="color: #e76f00;" href="https://github.com/M3MD69/LearnJSON">Learn JSON Repository</a></li>
-<li><a style="color: #e76f00;" href="https://github.com/M3MD69/LearnSQL">Learn SQL Repository</a></li>
-<li><a style="color: #e76f00;" href="https://github.com/jwtk/jjwt">JJWT Repository</a></li>
-<li><a style="color: #e76f00;" href="https://github.com/m3md69">Learn Mermaid</a></li>
-<li><a style="color: #e76f00;" href="https://refactoring.guru">Refactoring Guru</a></li>
-<li><a style="color: #e76f00;" href="https://sourcemaking.com">Source Making</a></li>
+<li><a style="color: #E76F00;" href="https://www.geeksforgeeks.org">GeeksForGeeks</a></li>
+<li><a style="color: #E76F00;" href="https://www.programiz.com">Programiz</a></li>
+<li><a style="color: #E76F00;" href="https://www.w3schools.com">W3Schools</a></li>
+<li><a style="color: #E76F00;" href="https://www.youtube.com">Youtube</a></li>
+<li><a style="color: #E76F00;" href="https://satr.codes">Satr</a></li>
+<li><a style="color: #E76F00;" href="https://www.sanfoundry.com">Sanfoundry</a></li>
+<li><a style="color: #E76F00;" href="https://www.javatpoint.com">Javatpoint</a></li>
+<li><a style="color: #E76F00;" href="https://www.codeproject.com">CodeProject</a></li>
+<li><a style="color: #E76F00;" href="https://harmash.com">Harmash</a></li>
+<li><a style="color: #E76F00;" href="https://junit.org/junit5/docs/current/user-guide">Junit5</a></li>
+<del><li><a style="color: #E76F00;" href="https://goalkicker.com">Goal Kicker</a></li></del>
+<li><a style="color: #E76F00;" href="https://github.com/google/gson">Gson Repository</a></li>
+<li><a style="color: #E76F00;" href="https://github.com/FasterXML/jackson">Jackson Repository</a></li>
+<li><a style="color: #E76F00;" href="https://github.com/M3MD69/LearnJSON">Learn JSON Repository</a></li>
+<li><a style="color: #E76F00;" href="https://github.com/M3MD69/LearnSQL">Learn SQL Repository</a></li>
+<li><a style="color: #E76F00;" href="https://github.com/jwtk/jjwt">JJWT Repository</a></li>
+<li><a style="color: #E76F00;" href="https://github.com/m3md69">Learn Mermaid</a></li>
+<li><a style="color: #E76F00;" href="https://refactoring.guru">Refactoring Guru</a></li>
+<li><a style="color: #E76F00;" href="https://sourcemaking.com">Source Making</a></li>
 </ul>
 
 #### Books
 
 <ul>
-<del><li><a style="color: #e76f00;" href="https://goalkicker.com/JavaBook">Java Notes for Professionals</a></li></del>
-<del><li><a style="color: #e76f00;" href="https://goalkicker.com/AlgorithmsBook">Algorithms Notes for Professionals</a></li></del>
+<del><li><a style="color: #E76F00;" href="https://goalkicker.com/JavaBook">Java Notes for Professionals</a></li></del>
+<del><li><a style="color: #E76F00;" href="https://goalkicker.com/AlgorithmsBook">Algorithms Notes for Professionals</a></li></del>
 </ul>
 
-### <span style="color: #e76f00;">Solving</span>
+### <span style="color: #E76F00;">Solving</span>
 
 #### Websites
 
 <ul>
-<li><a style="color: #e76f00;" href="https://www.w3schools.com">W3Schools</a></li>
-<li><a style="color: #e76f00;" href="https://www.w3resource.com">W3Resource</a></li>
-<li><a style="color: #e76f00;" href="https://codeforces.com">Codeforces</a></li>
-<li><a style="color: #e76f00;" href="https://satr.codes">Satr</a></li>
-<li><a style="color: #e76f00;" href="https://coderhub.sa">CoderHub</a></li>
-<li><a style="color: #e76f00;" href="https://leetcode.com">LeetCode</a></li>
-<li><a style="color: #e76f00;" href="https://www.hackerrank.com">HackerRank</a></li>
+<li><a style="color: #E76F00;" href="https://www.w3schools.com">W3Schools</a></li>
+<li><a style="color: #E76F00;" href="https://www.w3resource.com">W3Resource</a></li>
+<li><a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a></li>
+<li><a style="color: #E76F00;" href="https://satr.codes">Satr</a></li>
+<li><a style="color: #E76F00;" href="https://coderhub.sa">CoderHub</a></li>
+<li><a style="color: #E76F00;" href="https://leetcode.com">LeetCode</a></li>
+<li><a style="color: #E76F00;" href="https://www.hackerrank.com">HackerRank</a></li>
 </ul>

@@ -22,12 +22,3 @@ public class NumberToStringExample {
                                         "");
     }
 }
-/*
-999
-NUMBER == 0     -> X
-NUMBER < 20     -> X
-NUMBER < 100    -> √
-0.9
-NUMBER % 10 > 0 -|(9 > 0)|-> √
-
-*/

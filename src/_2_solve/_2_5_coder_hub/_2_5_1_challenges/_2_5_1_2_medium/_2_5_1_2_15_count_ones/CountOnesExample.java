@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class CountOnesExample {
     public static void main(final String[] ARGUMENTS) {
         final Scanner INPUT = new Scanner(System.in);
-        System.out.print(getSumOfDigitsOfOne(INPUT.nextInt()));
+        System.out.print(countOfOnes(INPUT.nextInt()));
     }
 
-    private static int getSumOfDigitsOfOne(final int NUMBER) {
-        int sumOfDigitsOfOne = 0;
+    private static int countOfOnes(final int NUMBER) {
+        int countOfOnes = 0;
         final String NUMBER_AFTER_CONVERTED_TO_BINARY = Integer.toBinaryString(NUMBER);
         for (int index = 0; index < NUMBER_AFTER_CONVERTED_TO_BINARY.length(); index++)
             if (NUMBER_AFTER_CONVERTED_TO_BINARY.charAt(index) - '0' == 1)
-                sumOfDigitsOfOne++;
-        return sumOfDigitsOfOne;
+                countOfOnes++;
+        return countOfOnes;
     }
 }
