@@ -488,6 +488,8 @@
         1. Medium (1 Problem)
     4. <a style="color: #E76F00;" href="https://coderhub.sa/activities/7a1f503c-e624-4b48-8989-05df055546c7/view">Leap 25 / Day 2 General Trip</a> (1 Problem)
         1. Medium (1 Problem)
+    5. <a style="color: #E76F00;" href="https://coderhub.sa/activities/286d456b-d5e9-4c1e-96c0-64e4af596bc9/view">Leap 25 / Day 2 General Trip</a> (1 Problem)
+        1. Medium (1 Problem)
 
 ### <span>6. <a style="color: #E76F00;" href="https://leetcode.com">LeetCode</a> (174 Problems, (48 Easy, 107 Medium, 19 Hard)) 🟥</span> (<a style="color: #E76F00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
 
