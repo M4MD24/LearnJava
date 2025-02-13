@@ -401,9 +401,9 @@
 
 1. <a style="color: #E76F00;" href="https://www.w3schools.com/java">How to</a> (17 Problems)
 
-### <span>2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises">W3Resource</a> (1,059 Problems) 🟩<span>
+### <span>2. <a style="color: #E76F00;" href="https://www.w3resource.com">W3Resource</a> (1,059 Problems) 🟩<span>
 
-1. Java Exercises
+1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises">Java Exercises</a> (1,059 Problems)
     1. Basics (272 Problems)
         1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/basic/index.php">Part 1</a> (150 Problems)
         2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/basic/index1.php">Part 2</a> (99 Problems)
@@ -462,8 +462,8 @@
 
 ### <span>3. <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a> (279 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
-1. <a style="color: #E76F00;" href="https://codeforces.com/problemset">Assiut Sheets</a> (273 Problems)
-2. <a style="color: #E76F00;" href="https://codeforces.com/problemset">Problem Set</a> (6 Problems)
+1. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contests">Assiut Sheets</a> (273 Problems)
+2. <a style="color: #E76F00;" href="https://codeforces.com/problemset">Problem Set</a> (279 Problems)
 
 ### <span>4. <a style="color: #E76F00;" href="https://satr.codes">Satr</a> (4 Mini Projects) 🟩</span> (<a style="color: #E76F00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
@@ -489,7 +489,7 @@
         1. Medium (1 Problem)
     4. <a style="color: #E76F00;" href="https://coderhub.sa/activities/7a1f503c-e624-4b48-8989-05df055546c7/view">Leap 25 / Day 2 General Trip</a> (1 Problem)
         1. Medium (1 Problem)
-    5. <a style="color: #E76F00;" href="https://coderhub.sa/activities/286d456b-d5e9-4c1e-96c0-64e4af596bc9/view">Leap 25 / Day 2 General Trip</a> (1 Problem)
+    5. <a style="color: #E76F00;" href="https://coderhub.sa/activities/286d456b-d5e9-4c1e-96c0-64e4af596bc9/view">Leap 25 / Day 3 General Trip</a> (1 Problem)
         1. Medium (1 Problem)
 
 ### <span>6. <a style="color: #E76F00;" href="https://leetcode.com">LeetCode</a> (174 Problems, (48 Easy, 107 Medium, 19 Hard)) 🟥</span> (<a style="color: #E76F00;" href="https://leetcode.com/u/M3MD69">@M3MD69</a>)
