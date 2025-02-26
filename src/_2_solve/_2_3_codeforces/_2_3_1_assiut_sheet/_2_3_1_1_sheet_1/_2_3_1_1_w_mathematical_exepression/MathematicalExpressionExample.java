@@ -48,10 +48,10 @@ public class MathematicalExpressionExample {
         final int SECOND_NUMBER = Integer.parseInt(INPUT.next());
         INPUT.next();
         final int MANUAL_RESULT = Integer.parseInt(INPUT.next());
-        System.out.print(compareToNumbers(FIRST_NUMBER, ARITHMETIC_OPERATOR, SECOND_NUMBER, MANUAL_RESULT));
+        System.out.print(isCorrectMathematicalExpression(FIRST_NUMBER, ARITHMETIC_OPERATOR, SECOND_NUMBER, MANUAL_RESULT));
     }
 
-    private static String compareToNumbers(final int FIRST_NUMBER, final String ARITHMETIC_OPERATOR, final int SECOND_NUMBER, int MANUAL_RESULT) {
+    private static String isCorrectMathematicalExpression(final int FIRST_NUMBER, final String ARITHMETIC_OPERATOR, final int SECOND_NUMBER, int MANUAL_RESULT) {
         switch (ARITHMETIC_OPERATOR) {
             case "+" -> {
                 int RESULT = FIRST_NUMBER + SECOND_NUMBER;

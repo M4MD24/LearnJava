@@ -26,7 +26,7 @@ class Course {
 }
 
 public class AssociationExample {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGUMENTS) {
         Student student1 = new Student("Mohamed");
         Student student2 = new Student("Ahmed");
         Student student3 = new Student("Mahmoud");
