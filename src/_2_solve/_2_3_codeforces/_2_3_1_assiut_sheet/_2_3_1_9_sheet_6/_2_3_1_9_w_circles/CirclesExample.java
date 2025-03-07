@@ -39,13 +39,13 @@ import java.util.Scanner;
 public class CirclesExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static final int FIRST_POINT_FIRST_CIRCLE = INPUT.nextInt(),
-            FIRST_POINT_SECOND_LINE = INPUT.nextInt(),
+            FIRST_POINT_SECOND_CIRCLE = INPUT.nextInt(),
             SECOND_POINT_FIRST_CIRCLE = INPUT.nextInt(),
-            SECOND_POINT_SECOND_LINE = INPUT.nextInt(),
+            SECOND_POINT_SECOND_CIRCLE = INPUT.nextInt(),
             THIRD_POINT_FIRST_CIRCLE = INPUT.nextInt(),
-            THIRD_POINT_SECOND_LINE = INPUT.nextInt(),
+            THIRD_POINT_SECOND_CIRCLE = INPUT.nextInt(),
             FOURTH_POINT_FIRST_CIRCLE = INPUT.nextInt(),
-            FOURTH_POINT_SECOND_LINE = INPUT.nextInt();
+            FOURTH_POINT_SECOND_CIRCLE = INPUT.nextInt();
 
     public static void main(final String[] ARGUMENTS) {
         System.out.print((isCirclesIntersect()) ? "NO" : "YES");
@@ -53,13 +53,13 @@ public class CirclesExample {
 
     private static boolean isCirclesIntersect() {
         final float FIRST_MIDDLE_POINT_FIRST_CIRCLE = (FIRST_POINT_FIRST_CIRCLE + SECOND_POINT_FIRST_CIRCLE) / 2F,
-                FIRST_MIDDLE_POINT_SECOND_CIRCLE = (FIRST_POINT_SECOND_LINE + SECOND_POINT_SECOND_LINE) / 2F,
+                FIRST_MIDDLE_POINT_SECOND_CIRCLE = (FIRST_POINT_SECOND_CIRCLE + SECOND_POINT_SECOND_CIRCLE) / 2F,
                 SECOND_MIDDLE_POINT_FIRST_CIRCLE = (THIRD_POINT_FIRST_CIRCLE + FOURTH_POINT_FIRST_CIRCLE) / 2F,
-                SECOND_MIDDLE_POINT_SECOND_CIRCLE = (THIRD_POINT_SECOND_LINE + FOURTH_POINT_SECOND_LINE) / 2F,
+                SECOND_MIDDLE_POINT_SECOND_CIRCLE = (THIRD_POINT_SECOND_CIRCLE + FOURTH_POINT_SECOND_CIRCLE) / 2F,
                 RADIUS_FIRST_CIRCLE = (float) (Math.sqrt(Math.pow(FIRST_POINT_FIRST_CIRCLE - SECOND_POINT_FIRST_CIRCLE, 2) +
-                        Math.pow(FIRST_POINT_SECOND_LINE - SECOND_POINT_SECOND_LINE, 2)) / 2),
+                        Math.pow(FIRST_POINT_SECOND_CIRCLE - SECOND_POINT_SECOND_CIRCLE, 2)) / 2),
                 RADIUS_SECOND_CIRCLE = (float) (Math.sqrt(Math.pow(THIRD_POINT_FIRST_CIRCLE - FOURTH_POINT_FIRST_CIRCLE, 2) +
-                        Math.pow(THIRD_POINT_SECOND_LINE - FOURTH_POINT_SECOND_LINE, 2)) / 2),
+                        Math.pow(THIRD_POINT_SECOND_CIRCLE - FOURTH_POINT_SECOND_CIRCLE, 2)) / 2),
                 DISTANCE = (float) Math.sqrt(Math.pow(FIRST_MIDDLE_POINT_FIRST_CIRCLE - SECOND_MIDDLE_POINT_FIRST_CIRCLE, 2) +
                         Math.pow(FIRST_MIDDLE_POINT_SECOND_CIRCLE - SECOND_MIDDLE_POINT_SECOND_CIRCLE, 2)),
                 SUM_OF_RADIUS = RADIUS_FIRST_CIRCLE + RADIUS_SECOND_CIRCLE;
