@@ -1,4 +1,4 @@
-package _2_solve._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_10_sheet_7._2_3_1_10_c_print_from_targe_number_to_one;
+package _2_solve._2_3_codeforces._2_3_1_assiut_sheet._2_3_1_10_sheet_7._2_3_1_10_c_print_from_target_number_to_one;
 
 import java.io.BufferedReader;
 import java.io.IOException;
