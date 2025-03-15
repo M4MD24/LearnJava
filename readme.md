@@ -474,9 +474,9 @@
 
 ### <span>5. <a style="color: #E76F00;" href="https://coderhub.sa">CoderHub</a> (145 Problems, (79 Easy, 51 Medium, 15 Hard)) 🟩</span> (<a style="color: #E76F00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
-1. <a style="color: #E76F00;" href="https://coderhub.sa/challenges">Challenges</a> (138 Problems)
+1. <a style="color: #E76F00;" href="https://coderhub.sa/challenges">Challenges</a> (137 Problems)
     1. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (76 Problems)
-    2. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (48 Problems)
+    2. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (47 Problems)
     3. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (14 Problems)
 2. <a style="color: #E76F00;" href="https://coderhub.sa/activities">Competitions</a> (8 Problems)
     1. <a style="color: #E76F00;" href="https://coderhub.sa/activities/60993369-cd21-40c1-814e-9c20423d853d/view">Homeland Coder Competition 94</a> (2 Problems)
