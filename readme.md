@@ -463,7 +463,7 @@
 ### <span>3. <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a> (278 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
 1. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contests">Assiut Sheets</a> (272 Problems)
-2. <a style="color: #E76F00;" href="https://codeforces.com/problemset">Problem Set</a> (- Problems)
+2. <a style="color: #E76F00;" href="https://codeforces.com/problemset">Problem Set</a> (6 Problems)
 
 ### <span>4. <a style="color: #E76F00;" href="https://satr.codes">Satr</a> (4 Mini Projects) 🟩</span> (<a style="color: #E76F00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
