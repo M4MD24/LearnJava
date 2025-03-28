@@ -1,11 +1,11 @@
-package _2_solve._2_3_codeforces._2_3_2_problem_set._2_3_2_4a_watermelon;
+package _2_solve._2_3_codeforces._2_3_2_problem_set._2_3_2_1_main._2_3_2_1_1_watermelon;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * <h1>4A. Watermelon</h1>
+ * <h1>B. Watermelon</h1>
  * <h2>
  * time limit per test: 1 second
  * <br/>

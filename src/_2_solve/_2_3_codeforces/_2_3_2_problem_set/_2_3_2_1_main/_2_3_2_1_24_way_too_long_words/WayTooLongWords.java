@@ -1,4 +1,4 @@
-package _2_solve._2_3_codeforces._2_3_2_problem_set._2_3_2_71a_way_too_long_words;
+package _2_solve._2_3_codeforces._2_3_2_problem_set._2_3_2_1_main._2_3_2_1_24_way_too_long_words;
 
 import java.util.Scanner;
 
