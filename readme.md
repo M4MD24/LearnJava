@@ -371,7 +371,7 @@
 
 ---
 
-## 2. <span style="color: #E76F00;">Solve (1,733 Problems, 4 Mini Projects)</span>
+## 2. <span style="color: #E76F00;">Solve (1,732 Problems, 4 Mini Projects)</span>
 
 <li><u style="text-decoration-color: #E76F00;">Solve problems and mini projects</u><span style="color: #E76F00;">.</span></li>
 
@@ -379,7 +379,7 @@
 |:-------------------------------------------------------------------------------------------:|:------------------------:|
 |       <a style="color: #E76F00;" href="https://www.w3schools.com/java">W3Schools</a>        |       17 Problems        |
 | <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises">W3Resources</a> |      1,059 Problems      |
-|           <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a>           |       274 Problems       |
+|           <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a>           |       273 Problems       |
 |             <a style="color: #E76F00;" href="https://coderhub.sa">CoderHub</a>              |       145 Problems       |
 |                <a style="color: #E76F00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
 |             <a style="color: #E76F00;" href="https://leetcode.com">LeetCode</a>             |       174 Problems       |
@@ -459,6 +459,28 @@
         2. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/search/index.php">Sort</a> (19 Problems)
     14. Regular Expression (30 Problems)
         1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)
+
+### <span>2. <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a> (273 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
+
+1. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contests">Assiut Sheets</a> (248 Problems)
+    1. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219158">Sheet 1 "Data Types - Conditions"</a> (26 Problems)
+    2. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/326175">Contest 1</a> (9 Problems)
+    3. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219432">Sheet 2 "Loops"</a> (26 Problems)
+    4. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/326907">Contest 2</a> (8 Problems)
+    5. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219774">Sheet 3 "Arrays"</a> (26 Problems)
+    6. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/329103">Contest 3.1</a> (7 Problems)
+    7. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219856">Sheet 4 "Strings"</a> (26 Problems)
+        - <span style="color: #E76F00;">Errors:</span>
+            - <span style="color: #E76F00;">O. Sorting String:</span> <u style="text-decoration-color: #E76F00;">Error occurred during initialization of VM, Initial heap size set to a larger value than the maximum heap size</u>
+    8. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223205">Sheet 5 "Functions"</a> (15 Problems)
+    9. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223338">Sheet 6 "Math - Geometry"</a> (26 Problems)
+    10. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223339">Sheet 7 "Recursion"</a> (26 Problems)
+    11. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223206">Sheet 8 "Easy"</a> (16 Problems)
+    12. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223207">Sheet 9 "Medium"</a> (17 Problems)
+    13. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223340">Sheet 10 "Hard"</a> (18 Problems)
+2. <span style="color: #E76F00;">Problem Set</span> (27 Problems)
+    1. <a style="color: #E76F00;" href="https://codeforces.com/problemset">MAIN</a> (27 Problems)
+    2. ~~<a style="color: #E76F00;" href="https://codeforces.com/problemsets/acmsguru">ACMSGURU</a> (0 Problems)~~
 
 ### <span>3. <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a> (274 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
