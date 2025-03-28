@@ -14,7 +14,7 @@ public class EndOfFile {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
     private static final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputValues();
         OUTPUT.flush();
     }

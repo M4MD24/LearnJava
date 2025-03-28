@@ -63,7 +63,7 @@ import java.util.logging.Logger;
  *   <li>
  *     {@code @Target}:
  *     <p>
- *     This annotation is used to specify where the annotation can be applied. It can be applied to types (classes, interfaces), fields, methods, parameters, and other program elements.
+ *     This annotation is used to specify where the annotation can be applied. It can be applied to types (classes, interfaces), fields, methods, ARGUMENTS, and other program elements.
  *     </p>
  *   </li>
  *   <li>

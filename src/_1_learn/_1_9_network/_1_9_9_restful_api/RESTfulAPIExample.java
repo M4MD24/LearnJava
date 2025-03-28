@@ -10,7 +10,7 @@ import java.net.InetSocketAddress;
 import java.util.concurrent.Executors;
 
 public class RESTfulAPIExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final HttpServer HTTP_SERVER = HttpServer.create(
                 new InetSocketAddress(
                         "localhost",

@@ -70,7 +70,7 @@ public class SwappingWithMatrixExample {
 
     private static final short[][] MATRIX_ARRAY = new short[TWO_DIMENSIONAL_LENGTH][TWO_DIMENSIONAL_LENGTH];
 
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         inputValues();
         swapRows();
         printValues();

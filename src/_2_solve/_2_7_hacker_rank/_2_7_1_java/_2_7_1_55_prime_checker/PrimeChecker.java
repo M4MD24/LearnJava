@@ -38,7 +38,7 @@ class Prime {
 }
 
 public class PrimeChecker {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         final int[] inputs = new int[5];
         for (int index = 0; index < 5; index++)

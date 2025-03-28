@@ -81,7 +81,7 @@ import java.util.HashSet;
 public class HelpVasilisaTheWiseTwoExample {
     private static byte sumOfFirstRow, sumOfSecondRow, sumOfFirstColumn, sumOfSecondColumn, sumOfFirstDiagonal, sumOfSecondDiagonal;
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         inputValues();
         OUTPUT.write(String.valueOf(getGemsNumbers(sumOfFirstRow, sumOfSecondRow, sumOfFirstColumn, sumOfSecondColumn, sumOfFirstDiagonal, sumOfSecondDiagonal)));

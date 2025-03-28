@@ -43,7 +43,7 @@ import java.io.StringWriter;
  */
 
 public class StringReaderAndWriter {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         stringWriter();
         stringReader();
     }

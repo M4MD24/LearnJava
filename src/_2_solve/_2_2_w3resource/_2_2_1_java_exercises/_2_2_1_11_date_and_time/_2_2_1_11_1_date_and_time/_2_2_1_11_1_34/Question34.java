@@ -9,7 +9,7 @@ import java.util.Calendar;
  */
 
 public class Question34 {
-    public static void main(final String[] PARAMETERS) throws ParseException {
+    public static void main(final String[] ARGUMENTS) throws ParseException {
         final Calendar CALENDAR = Calendar.getInstance();
         CALENDAR.set(Calendar.HOUR_OF_DAY, 0);
         CALENDAR.set(Calendar.MINUTE, 0);

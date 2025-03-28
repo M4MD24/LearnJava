@@ -12,7 +12,7 @@ import java.time.temporal.TemporalAdjusters;
  */
 
 public class Question33 {
-    public static void main(final String[] PARAMETERS) throws ParseException {
+    public static void main(final String[] ARGUMENTS) throws ParseException {
         final LocalDate CURRENT_DATE = LocalDate.now(),
                 PREVIOUS_FRIDAY = CURRENT_DATE.with(TemporalAdjusters.previous(DayOfWeek.FRIDAY)),
                 NEXT_FRIDAY = CURRENT_DATE.with(TemporalAdjusters.next(DayOfWeek.FRIDAY));

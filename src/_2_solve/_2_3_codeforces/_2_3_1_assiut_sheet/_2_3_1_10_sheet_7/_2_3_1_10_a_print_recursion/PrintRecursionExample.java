@@ -35,7 +35,7 @@ import java.io.InputStreamReader;
  */
 
 public class PrintRecursionExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         System.out.print(returnILoveRecursionRecursion(Byte.parseByte(new BufferedReader(new InputStreamReader(System.in)).readLine())));
     }
 

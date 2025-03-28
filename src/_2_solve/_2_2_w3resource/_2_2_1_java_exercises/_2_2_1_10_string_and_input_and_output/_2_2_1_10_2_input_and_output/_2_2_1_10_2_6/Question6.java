@@ -16,7 +16,7 @@ import java.io.IOException;
  */
 
 public class Question6 {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final File FIRST_FILE = new File("src/_2_solving/_2_2_w3resource/_2_2_10_string_and_input_and_output/_2_2_10_2_input_and_output/_2_2_10_2_6/files/FirstParagraph.txt"),
                 SECOND_FILE = new File("src/_2_solving/_2_2_w3resource/_2_2_10_string_and_input_and_output/_2_2_10_2_input_and_output/_2_2_10_2_6/files/SecondParagraph.txt");
         System.out.print(getTextFromFile(FIRST_FILE).compareTo(getTextFromFile(SECOND_FILE)));

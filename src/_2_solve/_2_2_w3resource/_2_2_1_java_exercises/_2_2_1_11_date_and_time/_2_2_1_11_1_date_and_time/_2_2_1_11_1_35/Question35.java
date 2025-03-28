@@ -10,7 +10,7 @@ import java.util.Date;
  */
 
 public class Question35 {
-    public static void main(final String[] PARAMETERS) throws ParseException {
+    public static void main(final String[] ARGUMENTS) throws ParseException {
         final String DATE_AND_TIME = "09-06-2003\n00:00:00:000";
         final Date DATE = new SimpleDateFormat("dd-MM-yyyy\nHH:mm:ss:SSS").parse(DATE_AND_TIME);
         final String DATE_AND_TIME_AFTER_PARSE = new SimpleDateFormat("dd-MM-yyyy\nHH:mm:ss:SSS").format(DATE);

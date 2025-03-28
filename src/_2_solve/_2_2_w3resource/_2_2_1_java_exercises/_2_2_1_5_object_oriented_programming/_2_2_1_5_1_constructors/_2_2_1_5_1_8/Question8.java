@@ -5,8 +5,8 @@ package _2_solve._2_2_w3resource._2_2_1_java_exercises._2_2_1_5_object_oriented_
  * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called Point with instance variables x and y. Implement overloaded constructors:</h2>
  * <ul>
- *     <li>One constructor takes int parameters.</li>
- *     <li>Another constructor takes double parameters.</li>
+ *     <li>One constructor takes int ARGUMENTS.</li>
+ *     <li>Another constructor takes double ARGUMENTS.</li>
  *     <li>Print the values of the variables for each constructor.</li>
  * </ul>
  */

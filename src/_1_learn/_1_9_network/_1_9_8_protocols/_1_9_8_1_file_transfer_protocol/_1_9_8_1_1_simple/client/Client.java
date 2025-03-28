@@ -8,7 +8,7 @@ import java.io.OutputStream;
 import java.net.Socket;
 
 public class Client {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final Socket SOCKET = new Socket(
                 "localhost",
                 1424

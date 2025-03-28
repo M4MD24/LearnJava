@@ -46,7 +46,7 @@ public class MountainSceneryExample {
     private static byte countOfMountainsToModified;
     private static byte[] mountains;
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputMountains();
         modifyMountains();
         OUTPUT.flush();

@@ -34,7 +34,7 @@ import java.io.InputStreamReader;
  */
 
 public class CombinationExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputAndPrintValues();
     }
 

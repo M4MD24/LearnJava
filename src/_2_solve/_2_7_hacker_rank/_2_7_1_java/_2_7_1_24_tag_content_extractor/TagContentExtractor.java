@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
  */
 
 public class TagContentExtractor {
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         final int COUNT_OF_TEST_CASES = Integer.parseInt(INPUT.readLine());

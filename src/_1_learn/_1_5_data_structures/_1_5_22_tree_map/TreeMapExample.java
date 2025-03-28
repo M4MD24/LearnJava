@@ -50,7 +50,7 @@ import java.util.TreeMap;
  *     <li><b>subMap(k1, bV1, k2, bV2)</b>
  *         <br/>
  *         <p>The subMap() method returns all the entries associated with keys between k1 and k2 including the entry of k1.</p>
- *         <p>The bV1 and bV2 are optional boolean parameters. The default value of bV1 is true and the default value of bV2 is false.</p>
+ *         <p>The bV1 and bV2 are optional boolean ARGUMENTS. The default value of bV1 is true and the default value of bV2 is false.</p>
  *         <p>If false is passed as bV1, the method returns all the entries associated with keys between k1 and k2 without including the entry of k1.</p>
  *         <p>If true is passed as bV2, the method returns all the entries associated with keys between k1 and k2 including the entry of k2.</p>
  *     </li>

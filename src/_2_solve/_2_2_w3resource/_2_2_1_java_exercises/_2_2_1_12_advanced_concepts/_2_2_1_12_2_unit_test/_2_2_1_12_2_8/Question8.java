@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
  */
 
 public class Question8 {
-    public static void main(final String[] PARAMETERS) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+    public static void main(final String[] ARGUMENTS) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         final Calculator CALCULATOR = new Calculator();
         final Method ADDITION = Calculator.class.getDeclaredMethod(
                 "addition",

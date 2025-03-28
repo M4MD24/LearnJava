@@ -47,7 +47,7 @@ public class ConstructTheSumExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
     private static final StringBuffer OUTPUT = new StringBuffer();
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         int length = Integer.parseInt(INPUT.readLine());
         while (length > 0) {
             inputValues();

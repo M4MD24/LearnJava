@@ -10,7 +10,7 @@ import java.time.LocalTime;
  */
 
 public class Question31 {
-    public static void main(final String[] PARAMETERS) throws ParseException {
+    public static void main(final String[] ARGUMENTS) throws ParseException {
         final LocalTime CURRENT_TIME = LocalTime.now();
         final LocalTime ANOTHER_TIME = LocalTime.of(
                 9,

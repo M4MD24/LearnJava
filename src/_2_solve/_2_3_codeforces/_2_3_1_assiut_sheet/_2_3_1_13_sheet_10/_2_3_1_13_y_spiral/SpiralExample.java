@@ -51,7 +51,7 @@ public class SpiralExample {
             columns;
     private static long[][] matrix;
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputMatrixAsSpiralSort();
         printSpiralOrder();
     }

@@ -31,7 +31,7 @@ import java.io.InputStreamReader;
 // ITALYKOREA  ALGERIA Z
 
 public class ReplaceWordExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         replacingEverySubStringThatEqualEgypt(new StringBuffer(INPUT.readLine()));
     }

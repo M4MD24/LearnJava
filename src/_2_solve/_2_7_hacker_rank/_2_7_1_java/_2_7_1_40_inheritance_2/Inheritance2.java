@@ -14,7 +14,7 @@ class Adder extends Arithmetic {
 }
 
 public class Inheritance2 {
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         final Adder ADDER = new Adder();
         System.out.println("My superclass is: " + ADDER.getClass().getSuperclass().getSimpleName());
         System.out.print(ADDER.add(20, 22) + " " + ADDER.add(7, 6) + " " + ADDER.add(10, 10));

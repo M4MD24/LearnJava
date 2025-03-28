@@ -64,7 +64,7 @@ public class HelpKokoExample {
     private static long[] numbers;
     private static byte[] operationsNumbers;
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputValues();
         printResultOfCalculateOperations();
     }

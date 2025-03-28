@@ -20,7 +20,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  *     <li><b>getOrDefault()</b> - Returns the value associated with the specified key. Returns the specified default value if the key is not found.</li>
  *     <li><b>remove(key)</b> - returns and removes the entry associated with the specified key from the map</li>
  *     <li><b>remove(key, value)</b> - removes the entry from the map only if the specified key mapped to the specified value and return a boolean value</li>
- *     <li><b>forEach()</b> - iterates over our entries and executes the specified function It includes two parameters.</li>
+ *     <li><b>forEach()</b> - iterates over our entries and executes the specified function It includes two ARGUMENTS.</li>
  *     <li><b>forEachEntry()</b> - executes the specified function for each entry</li>
  *     <li><b>forEachKey()</b> - executes the specified function for each key</li>
  *     <li><b>forEachValue()</b> - executes the specified function for each value</li>

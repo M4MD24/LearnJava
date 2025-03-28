@@ -13,7 +13,7 @@ public class IntToString {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
     private static final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
 
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         inputValues();
         OUTPUT.flush();
     }

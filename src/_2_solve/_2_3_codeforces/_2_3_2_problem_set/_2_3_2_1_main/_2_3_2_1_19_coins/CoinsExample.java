@@ -30,7 +30,7 @@ public class CoinsExample {
     private static final Map<Byte, Character> COINS = new HashMap<>();
     private static boolean areCoinsSame = false;
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputCoins();
         printCoinsAfterSort();
     }

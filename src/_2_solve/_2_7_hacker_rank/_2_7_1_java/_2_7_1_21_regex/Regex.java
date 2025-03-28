@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 
 public class Regex {
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         int count = 0,

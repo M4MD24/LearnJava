@@ -56,7 +56,7 @@ public class StrangeAdditionExample {
     private static final List<Byte> VASYA_NUMBERS = new ArrayList<>();
     private static boolean gotNumberWithDigitZero = false;
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputNumbers();
         printVasyaNumbers();
     }

@@ -69,7 +69,7 @@ class IntervalLinkedList {
 public class Question140 {
     private static final IntervalLinkedList interval = new IntervalLinkedList();
 
-    public static void main(final String[] PARAMETERS) throws java.lang.Exception {
+    public static void main(final String[] ARGUMENTS) throws java.lang.Exception {
         addIntervals();
         displayAll();
     }

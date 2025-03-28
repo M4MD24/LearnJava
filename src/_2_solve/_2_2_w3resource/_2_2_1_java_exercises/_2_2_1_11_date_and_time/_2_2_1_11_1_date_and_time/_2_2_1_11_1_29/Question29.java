@@ -10,7 +10,7 @@ import java.util.Date;
  */
 
 public class Question29 {
-    public static void main(final String[] PARAMETERS) throws ParseException {
+    public static void main(final String[] ARGUMENTS) throws ParseException {
         final String DATE_STRING = "2003-06-09";
         final SimpleDateFormat SIMPLE_DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd");
         final Date DATE = SIMPLE_DATE_FORMAT.parse(DATE_STRING);

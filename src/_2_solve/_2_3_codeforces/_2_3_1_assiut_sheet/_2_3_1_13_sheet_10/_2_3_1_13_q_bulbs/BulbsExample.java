@@ -78,7 +78,7 @@ public class BulbsExample {
     private static int countOfBulbs;
     private static int[] bulbs;
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         inputValues();
         OUTPUT.write(String.valueOf(getCountOfTimesAllBulbsAreOn()));

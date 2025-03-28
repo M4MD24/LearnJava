@@ -31,7 +31,7 @@ import java.io.PrintWriter;
  */
 
 public class PrintWriterExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         printWriter();
     }
 

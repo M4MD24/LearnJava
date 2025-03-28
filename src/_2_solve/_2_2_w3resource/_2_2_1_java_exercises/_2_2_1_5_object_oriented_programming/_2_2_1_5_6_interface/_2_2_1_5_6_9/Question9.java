@@ -10,7 +10,7 @@ import java.io.IOException;
  */
 
 public class Question9 {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final Searchable DOCUMENT = new Document();
         System.out.println("Document contains keyword? " + DOCUMENT.search("Lorem"));
 

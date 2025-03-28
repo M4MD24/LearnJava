@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) throws SQLException {
+    public static void main(final String[] ARGUMENTS) throws SQLException {
         final DatabaseConnection DATABASE_CONNECTION = new DatabaseConnection(
                 "jdbc:mysql://127.0.0.1:3306",
                 "root",

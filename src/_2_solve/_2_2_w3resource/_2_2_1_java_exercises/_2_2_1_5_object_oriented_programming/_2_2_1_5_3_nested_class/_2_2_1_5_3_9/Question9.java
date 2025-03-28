@@ -3,7 +3,7 @@ package _2_solve._2_2_w3resource._2_2_1_java_exercises._2_2_1_5_object_oriented_
 /**
  * <h3>Inner Class with Constructor</h3>
  * <h1>Problem:</h1>
- * <h2>Write a Java program to create an outer class called Person with an inner class Address. The Address class should have a constructor that takes parameters city and state. Create an instance of Address from the Person class and print the address details.</h2>
+ * <h2>Write a Java program to create an outer class called Person with an inner class Address. The Address class should have a constructor that takes ARGUMENTS city and state. Create an instance of Address from the Person class and print the address details.</h2>
  */
 
 public class Question9 {

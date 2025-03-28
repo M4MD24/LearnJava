@@ -22,7 +22,7 @@ import java.util.TreeSet;
  *     </li>
  *     <li><b>subSet(e1, bv1, e2, bv2)</b>
  *         <p> - The subSet() method returns all the elements between e1 and e2 including e1.</p>
- *         <p> - The bv1 and bv2 are optional parameters. The default value of bv1 is true, and the default value of bv2 is false.</p>
+ *         <p> - The bv1 and bv2 are optional ARGUMENTS. The default value of bv1 is true, and the default value of bv2 is false.</p>
  *         <p> - If false is passed as bv1, the method returns all the elements between e1 and e2 without including e1.</p>
  *         <p> - If true is passed as bv2, the method returns all the elements between e1 and e2, including e1.</p>
  *     </li>

@@ -42,7 +42,7 @@ import java.io.IOException;
  */
 
 public class FileReaderAndWriterExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         fileWriter();
         fileReader();
     }

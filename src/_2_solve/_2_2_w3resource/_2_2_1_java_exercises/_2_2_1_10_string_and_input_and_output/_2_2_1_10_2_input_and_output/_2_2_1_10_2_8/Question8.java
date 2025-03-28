@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
  */
 
 public class Question8 {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final BufferedReader CONSOLE_INPUT = new BufferedReader(new InputStreamReader(System.in));
         System.out.print(CONSOLE_INPUT.readLine());
     }

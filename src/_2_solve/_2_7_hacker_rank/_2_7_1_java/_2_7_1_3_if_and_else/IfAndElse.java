@@ -33,7 +33,7 @@ import java.io.BufferedWriter;
  */
 
 public class IfAndElse {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         final int NUMBER = Integer.parseInt(INPUT.readLine());

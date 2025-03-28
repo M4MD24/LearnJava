@@ -3,7 +3,7 @@ package _2_solve._2_2_w3resource._2_2_1_java_exercises._2_2_1_5_object_oriented_
 /**
  * <h3>Parameterized Constructor</h3>
  * <h1>Problem:</h1>
- * <h2>Write a Java program to create a class called Dog with instance variables name and color. Implement a parameterized constructor that takes name and color as parameters and initializes the instance variables. Print the values of the variables.</h2>
+ * <h2>Write a Java program to create a class called Dog with instance variables name and color. Implement a parameterized constructor that takes name and color as ARGUMENTS and initializes the instance variables. Print the values of the variables.</h2>
  */
 
 public class Question2 {

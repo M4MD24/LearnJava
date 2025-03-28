@@ -6,7 +6,7 @@ package _2_solve._2_2_w3resource._2_2_1_java_exercises._2_2_1_12_advanced_concep
  */
 
 public class Question9 {
-    public static void main(final String[] PARAMETERS) throws InterruptedException {
+    public static void main(final String[] ARGUMENTS) throws InterruptedException {
         final Runnable TASK = () -> System.out.println(Singleton.getInstance());
         final Thread[] THREADS = new Thread[10];
         for (int index = 0; index < 10; index++) {

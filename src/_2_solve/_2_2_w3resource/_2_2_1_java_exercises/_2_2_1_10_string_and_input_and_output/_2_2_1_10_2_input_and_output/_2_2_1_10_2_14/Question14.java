@@ -11,7 +11,7 @@ import java.util.List;
  */
 
 public class Question14 {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final File FILE = new File("src/_2_solving/_2_2_w3resource/_2_2_10_string_and_input_and_output/_2_2_10_2_input_and_output/_2_2_10_2_14/files/Paragraph.txt");
         final String TEXT_OF_FILE = getTextFromFile(FILE);
         System.out.print(TEXT_OF_FILE);

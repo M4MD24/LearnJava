@@ -8,7 +8,7 @@ import java.net.URLConnection;
 import java.util.Date;
 
 public class URLAndURLConnectionAndHTTPURLConnectionAndHTTPSURLConnectionExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         printURLConnectionInformation(new URL("https://m3md69.github.io/NULLEXIA"));
     }
 

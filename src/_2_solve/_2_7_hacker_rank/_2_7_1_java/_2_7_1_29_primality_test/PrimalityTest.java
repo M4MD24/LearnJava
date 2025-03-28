@@ -10,7 +10,7 @@ import java.math.BigInteger;
  */
 
 public class PrimalityTest {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         System.out.print(new BigInteger(new BufferedReader(new InputStreamReader(System.in)).readLine()).isProbablePrime(10) ? "prime" : "not prime");
     }
 }

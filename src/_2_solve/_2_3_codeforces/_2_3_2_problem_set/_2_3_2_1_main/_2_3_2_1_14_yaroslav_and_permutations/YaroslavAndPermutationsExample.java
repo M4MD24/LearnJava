@@ -69,7 +69,7 @@ public class YaroslavAndPermutationsExample {
     private static byte countOfNumbers;
     private static short[] numbers;
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputNumbers();
         OUTPUT.write(isMatchesYaroslavCriteria() ? "YES" : "NO");
         OUTPUT.flush();

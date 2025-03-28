@@ -4,7 +4,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class ServerMain {
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         final int PORT = 1424;
         final ServerSocket SERVER_SOCKET = new ServerSocket(PORT);
         System.out.println("Port " + PORT + " is Open.");

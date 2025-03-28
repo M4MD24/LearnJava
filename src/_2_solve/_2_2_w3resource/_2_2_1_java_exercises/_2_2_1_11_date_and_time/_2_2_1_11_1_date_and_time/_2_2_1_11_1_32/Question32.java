@@ -10,7 +10,7 @@ import java.time.Period;
  */
 
 public class Question32 {
-    public static void main(final String[] PARAMETERS) throws ParseException {
+    public static void main(final String[] ARGUMENTS) throws ParseException {
         final LocalDate CURRENT_DATE = LocalDate.now(),
                 ANOTHER_DATE = LocalDate.of(
                         2003,

@@ -55,7 +55,7 @@ public class SerejaAndDimaExample {
     private static short countOfCards = INPUT.nextShort();
     private static final short[] CARDS_NUMBERS = new short[countOfCards];
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputValues();
         takeCardsSerejaAndDima();
         OUTPUT.flush();

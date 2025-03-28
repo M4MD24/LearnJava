@@ -5,8 +5,8 @@ package _2_solve._2_2_w3resource._2_2_1_java_exercises._2_2_1_5_object_oriented_
  * <h1>Problem:</h1>
  * <h2>Write a Java program to create a class called "Book" with instance variables title, author, and price. Implement a default constructor and two parameterized constructors:</h2>
  * <ul>
- *     <li>One constructor takes title and author as parameters.</li>
- *     <li>The other constructor takes title, author, and price as parameters.</li>
+ *     <li>One constructor takes title and author as ARGUMENTS.</li>
+ *     <li>The other constructor takes title, author, and price as ARGUMENTS.</li>
  *     <li>Print the values of the variables for each constructor.</li>
  * </ul>
  */

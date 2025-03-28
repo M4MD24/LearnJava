@@ -6,7 +6,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 public class URIExample {
-    public static void main(final String[] PARAMETERS) throws MalformedURLException, URISyntaxException {
+    public static void main(final String[] ARGUMENTS) throws MalformedURLException, URISyntaxException {
         printURIFromFile();
         printURIInformation();
     }

@@ -6,7 +6,7 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
 public class URLEncodingAndURLDecodingExample {
-    public static void main(final String[] PARAMETERS) throws UnsupportedEncodingException {
+    public static void main(final String[] ARGUMENTS) throws UnsupportedEncodingException {
         final String URL_TEXT = "https://m3md69.github.io/NULLEXIA";
         final String URL_AFTER_ENCOING = URLEncoder.encode(
                 URL_TEXT,
