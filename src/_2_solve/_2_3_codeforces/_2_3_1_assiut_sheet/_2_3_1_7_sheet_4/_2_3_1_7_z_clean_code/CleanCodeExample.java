@@ -23,7 +23,7 @@ public class CleanCodeExample {
     private static final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
     private static final StringBuilder TEXT = new StringBuilder();
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputValues();
         System.out.println(TEXT);
     }

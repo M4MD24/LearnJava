@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.Enumeration;
 
 public class NetworkInterfaceExample {
-    public static void main(final String[] PARAMETERS) throws SocketException {
+    public static void main(final String[] ARGUMENTS) throws SocketException {
         printNetworkInterfacesElements();
         printLineBreak();
     }

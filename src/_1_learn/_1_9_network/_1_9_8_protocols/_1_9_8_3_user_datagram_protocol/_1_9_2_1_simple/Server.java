@@ -6,7 +6,7 @@ import java.net.InetAddress;
 import java.util.Scanner;
 
 public class Server {
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         final DatagramSocket DATAGRAM_SOCKET = new DatagramSocket(1424);
         final Scanner INPUT = new Scanner(System.in);
 

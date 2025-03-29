@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 
 public class CurrencyFormatter {
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         final Scanner INPUT = new Scanner(System.in);
         final double PAYMENT = INPUT.nextDouble();
         final Locale US_LOCALE = Locale.US,

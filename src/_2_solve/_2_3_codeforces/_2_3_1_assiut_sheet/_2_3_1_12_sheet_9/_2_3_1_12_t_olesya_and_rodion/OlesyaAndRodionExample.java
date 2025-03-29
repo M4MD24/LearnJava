@@ -34,7 +34,7 @@ import java.util.StringTokenizer;
  */
 
 public class OlesyaAndRodionExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final StringTokenizer INPUT = new StringTokenizer(new BufferedReader(new InputStreamReader(System.in)).readLine());
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         OUTPUT.write(calculateAndReturnAppropriateNumberForMuhammadAndAhmed(Byte.parseByte(INPUT.nextToken()), Byte.parseByte(INPUT.nextToken())));

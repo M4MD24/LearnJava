@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 public class JacksonExample {
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         convertObjectToJson();
         convertJsonToObject();
         writeJsonToFile();

@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 public class SocketExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final String HOST_TEXT = "www.jetbrains.com";
         final int PORT = 80; // 80 = HTTP Port
         try (

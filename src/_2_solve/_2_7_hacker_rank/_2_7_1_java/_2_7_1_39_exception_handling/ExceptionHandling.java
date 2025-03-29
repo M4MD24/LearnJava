@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 
 public class ExceptionHandling {
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         final Scanner INPUT = new Scanner(System.in);
         System.out.print(power(INPUT.nextInt(), INPUT.nextInt()));
     }

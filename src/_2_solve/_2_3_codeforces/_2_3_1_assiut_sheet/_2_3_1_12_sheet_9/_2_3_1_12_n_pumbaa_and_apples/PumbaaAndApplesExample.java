@@ -103,7 +103,7 @@ public class PumbaaAndApplesExample {
     private static int countOfOperations;
     private static int[][] farm;
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputApplesNumbers();
         printFinalResultOfApplesArrangement();
     }

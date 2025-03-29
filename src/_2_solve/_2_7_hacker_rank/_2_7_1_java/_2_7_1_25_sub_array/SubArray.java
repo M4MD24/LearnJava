@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class SubArray {
     private static final Scanner INPUT = new Scanner(System.in);
 
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         final int[] NUMBERS = getNumbers(INPUT.nextInt());
         OUTPUT.write(String.valueOf(getCountOFNegativeSubArrays(NUMBERS)));

@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
  */
 
 public class OneDimensionalArrayPart2 {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         final int QUERIES = Integer.parseInt(INPUT.readLine().trim());
         for (int query = 0; query < QUERIES; query++) {

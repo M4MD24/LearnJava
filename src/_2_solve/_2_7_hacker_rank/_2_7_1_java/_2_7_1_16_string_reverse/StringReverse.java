@@ -10,7 +10,7 @@ import java.io.OutputStreamWriter;
  */
 
 public class StringReverse {
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         OUTPUT.write(isPalindromeNumber(INPUT.readLine()) ? "Yes" : "No");

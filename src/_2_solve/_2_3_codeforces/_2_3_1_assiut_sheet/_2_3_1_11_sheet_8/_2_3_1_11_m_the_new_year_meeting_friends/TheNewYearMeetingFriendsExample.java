@@ -41,7 +41,7 @@ public class TheNewYearMeetingFriendsExample {
     private static final Scanner INPUT = new Scanner(System.in);
     private static final SortedSet<Byte> FRIENDS = new TreeSet<>();
 
-    public static void main(final String[] PARAMETERS){
+    public static void main(final String[] ARGUMENTS){
         inputValues();
         printTargetPoint();
     }

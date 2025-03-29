@@ -20,7 +20,7 @@ import java.io.InputStreamReader;
  * <h2>Given a string S that represents a URL request. Print five lines contains the following format: "X: Y" where X is the parameter and Y is the parameter value.</h2>
  * <br/>
  * <h1>Note:</h1>
- * <h2>The parameters of the URL: username, pwd, profile, role and key.</h2>
+ * <h2>The ARGUMENTS of the URL: username, pwd, profile, role and key.</h2>
  * <br/>
  * <h1>Input:</h1>
  * <h2>http://www.cleartrip.com/signin/service?username=test&pwd=test&profile=developer&role=ELITE&key=manager</h2>
@@ -39,7 +39,7 @@ import java.io.InputStreamReader;
  */
 
 public class URLExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         getURLInformation(new StringBuffer(INPUT.readLine()));
     }

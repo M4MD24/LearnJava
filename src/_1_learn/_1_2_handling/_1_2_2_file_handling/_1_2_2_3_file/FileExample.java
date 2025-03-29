@@ -44,7 +44,7 @@ import java.io.IOException;
  */
 
 public class FileExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         file();
     }
 

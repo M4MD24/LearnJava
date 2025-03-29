@@ -6,7 +6,7 @@ import java.net.UnknownHostException;
 import java.util.Arrays;
 
 public class INetAddressExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         printInformationFromGlobalHostIP();
         printLineBreak();
 

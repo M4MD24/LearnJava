@@ -3,7 +3,7 @@ package _1_learn._1_6_algorithms._1_6_4_encryption_and_decryption._1_6_4_3_secur
 import java.security.NoSuchAlgorithmException;
 
 public class Main {
-    public static void main(final String[] PARAMETERS) throws NoSuchAlgorithmException {
+    public static void main(final String[] ARGUMENTS) throws NoSuchAlgorithmException {
         final SecureHashAlgorithm256 HSA_256_ENCRYPTION = new SecureHashAlgorithm256();
         System.out.println("■ SHA-256");
 

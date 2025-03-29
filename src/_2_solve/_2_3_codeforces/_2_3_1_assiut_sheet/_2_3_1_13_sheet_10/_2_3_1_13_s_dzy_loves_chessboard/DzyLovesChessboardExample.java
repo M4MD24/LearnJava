@@ -85,7 +85,7 @@ public class DzyLovesChessboardExample {
     private static byte rows, columns;
     private static StringBuffer[] chessboard;
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputValues();
         printChessboardPrintThatDzyLoved();
     }

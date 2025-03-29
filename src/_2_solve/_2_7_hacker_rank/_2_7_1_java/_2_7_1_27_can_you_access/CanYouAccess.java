@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 
 public class CanYouAccess {
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         final int NUMBER = new Scanner(System.in).nextInt();
         System.out.println(NUMBER + (new Inner.Private().powerof2(NUMBER) ? " is power of 2" : " is not a power of 2"));
         System.out.println("An instance of class: Solution.Inner.Private has been created");

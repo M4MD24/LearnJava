@@ -37,7 +37,7 @@ import java.util.TreeMap;
  *         <br/>
  *         <p>The subMap() method returns all the entries associated with keys between k1 and k2 including the entry associated with k1.</p>
  *         <br/>
- *         <p>The bv1 and bv2 are optional parameters. The default value of bv1 is true and the default value of bv2 is false.</p>
+ *         <p>The bv1 and bv2 are optional ARGUMENTS. The default value of bv1 is true and the default value of bv2 is false.</p>
  *         <br/>
  *         <p>If false is passed as bv1, the method returns all the entries associated with keys between k1 and k2, without including the entry associated with k1.</p>
  *         <br/>

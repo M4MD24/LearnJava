@@ -8,7 +8,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Client {
-    public static void main(final String[] PARAMETERS) throws Exception {
+    public static void main(final String[] ARGUMENTS) throws Exception {
         try {
             final Socket SOCKET = new Socket(
                     "localhost",

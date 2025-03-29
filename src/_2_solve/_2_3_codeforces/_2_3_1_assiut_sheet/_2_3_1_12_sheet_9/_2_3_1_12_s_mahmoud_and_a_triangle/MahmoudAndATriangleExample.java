@@ -53,7 +53,7 @@ public class MahmoudAndATriangleExample {
     private static int countOfLinesLengths;
     private static int[] linesLengths;
 
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         inputLines();
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         OUTPUT.write(isNonDegenerateTriangle() ? "YES" : "NO");

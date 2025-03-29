@@ -30,7 +30,7 @@ import java.io.InputStreamReader;
  */
 
 public class ArpaSHardExamAndMehrdadSNaiveCheatExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         System.out.print(returnLastDigitOfStaticNumber(Integer.parseInt(new BufferedReader(new InputStreamReader(System.in)).readLine())));
     }
 

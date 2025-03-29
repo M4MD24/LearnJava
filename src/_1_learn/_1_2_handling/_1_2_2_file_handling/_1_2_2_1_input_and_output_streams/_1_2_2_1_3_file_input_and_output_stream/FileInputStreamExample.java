@@ -45,7 +45,7 @@ import java.io.IOException;
  * </ul>
  */
 public class FileInputStreamExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         fileOutputStream();
         fileInputStream();
     }

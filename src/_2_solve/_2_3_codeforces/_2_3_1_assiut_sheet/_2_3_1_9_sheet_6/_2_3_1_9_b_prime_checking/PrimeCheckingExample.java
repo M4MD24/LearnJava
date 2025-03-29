@@ -36,7 +36,7 @@ import java.io.InputStreamReader;
  */
 
 public class PrimeCheckingExample {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         System.out.print(isPrime(Long.parseLong(new BufferedReader(new InputStreamReader(System.in)).readLine())));
     }
 

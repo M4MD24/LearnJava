@@ -30,7 +30,7 @@ import java.io.InputStreamReader;
  */
 
 public class StdinAndStdout1 {
-    public static void main(final String[] PARAMETERS) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         final int FIRST_NUMBER = Integer.parseInt(INPUT.readLine()),
                 SECOND_NUMBER = Integer.parseInt(INPUT.readLine()),

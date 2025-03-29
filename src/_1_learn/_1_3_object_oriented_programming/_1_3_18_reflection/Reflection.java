@@ -42,7 +42,7 @@ class Animal {
 }
 
 public class Reflection {
-    public static void main(final String[] PARAMETERS) throws ClassNotFoundException {
+    public static void main(final String[] ARGUMENTS) throws ClassNotFoundException {
         getClassNameWithMultipleExamples();
         getClassProperties();
         getMethodsProperties();
@@ -127,8 +127,8 @@ public class Reflection {
             String modifierCondition = (modifier.isEmpty()) ? "package private" : modifier;
             System.out.println("Constructor Access Modifier: " + modifierCondition);
 
-            // get number of parameters
-            System.out.println("Constructor Parameters: " + constructor.getParameterCount());
+            // get number of ARGUMENTS
+            System.out.println("Constructor ARGUMENTS: " + constructor.getParameterCount());
         }
     }
 
@@ -149,7 +149,7 @@ public class Reflection {
             String modifierCondition = (modifier.isEmpty()) ? "package private" : modifier;
             System.out.println("Class Access Modifier: " + modifierCondition);
 
-            // get number of parameters
+            // get number of ARGUMENTS
             System.out.println("Class Superclass: " + c.getSuperclass().getName());
         }
     }
