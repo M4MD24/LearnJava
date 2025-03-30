@@ -1,4 +1,4 @@
-package _2_solve._2_3_codeforces._2_3_2_problem_set._2_3_2_1_main._2_3_2_1_25_next_round;
+package _2_solve._2_3_codeforces._2_3_2_problem_set._2_3_2_1_main._2_3_2_1_26_next_round;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
