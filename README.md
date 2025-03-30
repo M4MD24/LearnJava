@@ -460,7 +460,7 @@
     14. Regular Expression (30 Problems)
         1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)
 
-### <span>2. <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a> (273 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
+### <span>2. <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a> (272 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
 1. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contests">Assiut Sheets</a> (248 Problems)
     1. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219158">Sheet 1 "Data Types - Conditions"</a> (26 Problems)
@@ -479,13 +479,8 @@
     12. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223207">Sheet 9 "Medium"</a> (17 Problems)
     13. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/223340">Sheet 10 "Hard"</a> (18 Problems)
 2. <span style="color: #E76F00;">Problem Set</span> (27 Problems)
-    1. <a style="color: #E76F00;" href="https://codeforces.com/problemset">MAIN</a> (27 Problems)
+    1. <a style="color: #E76F00;" href="https://codeforces.com/problemset">MAIN</a> (26 Problems)
     2. ~~<a style="color: #E76F00;" href="https://codeforces.com/problemsets/acmsguru">ACMSGURU</a> (0 Problems)~~
-
-### <span>3. <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a> (273 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
-
-1. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contests">Assiut Sheets</a> (268 Problems)
-2. <a style="color: #E76F00;" href="https://codeforces.com/problemset">Problem Set</a> (5 Problems)
 
 ### <span>4. <a style="color: #E76F00;" href="https://satr.codes">Satr</a> (4 Mini Projects) 🟩</span> (<a style="color: #E76F00;" href="https://profile.satr.codes/m3md69/public/overview">@M3MD69</a>)
 
