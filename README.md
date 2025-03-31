@@ -554,6 +554,7 @@
 <li><a style="color: #E76F00;" href="https://github.com/m3md69">Learn Mermaid</a></li>
 <li><a style="color: #E76F00;" href="https://refactoring.guru">Refactoring Guru</a></li>
 <li><a style="color: #E76F00;" href="https://sourcemaking.com">Source Making</a></li>
+<li><a style="color: #E76F00;" href="https://www.edraak.org/explore/">Edraak</a></li>
 </ul>
 
 #### Books
