@@ -5,25 +5,25 @@ public class FindDonationTargetDay {
         System.out.println(
                 calculateFastingHours(
                         new double[]{50.0, 25.0, 30.0, 20.0},
-                        3.0
+                        100.0
                 )
         );
         System.out.println(
                 calculateFastingHours(
                         new double[]{10.0, 15.0, 20.0},
-                        -1.
+                        50.0
                 )
         );
         System.out.println(
                 calculateFastingHours(
                         new double[]{20.0, 20.0, 20.0, 20.0, 20.0},
-                        5.0
+                        80.0
                 )
         );
         System.out.print(
                 calculateFastingHours(
                         new double[]{100.0},
-                        1.0
+                        10.0
                 )
         );
     }
