@@ -56,7 +56,7 @@ public class BinarySearchTree<Type extends Comparable<Type>> {
 
     private void printTreePreorderRecursion(Node<Type> root, String prefix, boolean isLeft) {
         if (root != null) {
-            System.out.println(prefix + (isLeft ? "├─── " : "└─── ") + root.data);
+            System.out.println(prefix + "└─── " + root.data);
             printTreePreorderRecursion(root.left, prefix + (isLeft ? "│    " : "     "), true);
             printTreePreorderRecursion(root.right, prefix + (isLeft ? "│    " : "     "), false);
         }
