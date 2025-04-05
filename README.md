@@ -460,7 +460,7 @@
     14. Regular Expression (30 Problems)
         1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)
 
-### <span>2. <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a> (272 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
+### <span>3. <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a> (272 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
 1. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contests">Assiut Sheets</a> (248 Problems)
     1. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219158">Sheet 1 "Data Types - Conditions"</a> (26 Problems)
@@ -516,7 +516,7 @@
     2. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (107 Problems)
     3. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (19 Problems)
 
-### <span>6. <a style="color: #E76F00;" href="https://www.hackerrank.com">HackerRank</a> (64 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://www.hackerrank.com/profile/m3md69">@M3MD69</a>)
+### <span>7. <a style="color: #E76F00;" href="https://www.hackerrank.com">HackerRank</a> (64 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://www.hackerrank.com/profile/m3md69">@M3MD69</a>)
 
 1. <a style="color: #E76F00;" href="https://www.hackerrank.com/domains/java">Java</a> (64 Problems)
 2. ~~<a style="color: #E76F00;" href="">Mathematics</a> (0 Problems)~~
@@ -555,6 +555,7 @@
 <li><a style="color: #E76F00;" href="https://refactoring.guru">Refactoring Guru</a></li>
 <li><a style="color: #E76F00;" href="https://sourcemaking.com">Source Making</a></li>
 <li><a style="color: #E76F00;" href="https://www.edraak.org/explore/">Edraak</a></li>
+<li><a style="color: #E76F00;" href="https://hyperskill.org">HyperSkill</a></li>
 </ul>
 
 #### Books
