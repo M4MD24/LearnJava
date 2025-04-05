@@ -10,9 +10,16 @@ class BinaryTree<Type extends Comparable<Type>> {
     }
 
     private Node<Type> insertRecursion(Node<Type> root, Type data) {
-        if (root == null) root = new Node<>(data);
-        else if (data.compareTo(root.data) < 0) root.left = insertRecursion(root.left, data);
-        else if (data.compareTo(root.data) >= 0) root.right = insertRecursion(root.right, data);
+        if (root == null)
+            root = new Node<>(data);
+        else {
+            if (root.left == null)
+                root.left = new Node<>(data);
+            else if (root.right == null)
+                root.right = new Node<>(data);
+            else
+                root.left = insertRecursion(root.left, data);
+        }
         return root;
     }
 
