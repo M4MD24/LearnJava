@@ -23,7 +23,7 @@
 
 - **Recommended using** `Intellij IDEA (Community / Ultimate / EAP), Aqua, Fleet`
 - **Currently Used** `Intellij Idea Community`
-- **Java Version** `23 Oracle OpenJDK Version 23.0.1` - `SDK Default`
+- **Java Version** `24 Oracle OpenJDK Version 24` - `SDK Default`
 - **MySQL Version** `8.0.40`
 - **PostgreSQL Version** `17.2`
 - **SQLite Version** `3.47.2`
