@@ -19,8 +19,8 @@ class Folder implements FileSystemComponents {
         this.name = name;
     }
 
-    public void addComponent(FileSystemComponents... component) {
-        components.addAll(List.of(component));
+    public void addComponent(FileSystemComponents... components) {
+        this.components.addAll(List.of(components));
     }
 
     @Override

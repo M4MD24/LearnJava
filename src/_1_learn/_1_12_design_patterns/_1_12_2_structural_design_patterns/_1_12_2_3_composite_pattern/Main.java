@@ -24,14 +24,14 @@ public class Main {
         Folder folderOfImages = new Folder("My Images");
         folderOfImages.addComponent(images);
 
-        Folder folderOfVidoes = new Folder("My Videos");
-        folderOfVidoes.addComponent(videos);
+        Folder folderOfVideos = new Folder("My Videos");
+        folderOfVideos.addComponent(videos);
 
         Folder mainFolder = new Folder("Main Folder");
         mainFolder.addComponent(
                 folderOfDocuments,
                 folderOfImages,
-                folderOfVidoes
+                folderOfVideos
         );
 
         mainFolder.showDetails();
