@@ -10,11 +10,11 @@
     <ul>
         <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Telegram Accounts</li>
         <ul>
-            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Private <a style="color: limeGreen;" href="https://t.me/M3MD69">@M3MD69</a></li>
+            <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Private <a style="color: limeGreen;" href="https://t.me/M4MD24">@M4MD24</a></li>
             <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Nullexia For Programming <a style="color: limeGreen;" href="https://t.me/Nullexia">@Nullexia</a></li>
             <li><img width="20" src="readme_file_source/icons/telegram_icon.svg" alt="Telegram Icon" style="vertical-align: middle;"/> Software Consulting <a style="color: limeGreen;" href="https://t.me/SoftwareConsulting">@SoftwareConsulting</a></li>
         </ul>
-        <li><img width="20" src="readme_file_source/icons/g_letter_icon.svg" alt="G Letter" style="vertical-align: middle;"/> Github <a style="color: limeGreen;" href="https://github.com/M3MD69">@M3MD69</a></li>
+        <li><img width="20" src="readme_file_source/icons/g_letter_icon.svg" alt="G Letter" style="vertical-align: middle;"/> Github <a style="color: limeGreen;" href="https://github.com/M4MD24">@M4MD24</a></li>
     </ul>
 
 ---
@@ -548,10 +548,10 @@
 <del><li><a style="color: #E76F00;" href="https://goalkicker.com">Goal Kicker</a></li></del>
 <li><a style="color: #E76F00;" href="https://github.com/google/gson">Gson Repository</a></li>
 <li><a style="color: #E76F00;" href="https://github.com/FasterXML/jackson">Jackson Repository</a></li>
-<li><a style="color: #E76F00;" href="https://github.com/M3MD69/LearnJSON">Learn JSON Repository</a></li>
-<li><a style="color: #E76F00;" href="https://github.com/M3MD69/LearnSQL">Learn SQL Repository</a></li>
+<li><a style="color: #E76F00;" href="https://github.com/M4MD24/LearnJSON">Learn JSON Repository</a></li>
+<li><a style="color: #E76F00;" href="https://github.com/M4MD24/LearnSQL">Learn SQL Repository</a></li>
 <li><a style="color: #E76F00;" href="https://github.com/jwtk/jjwt">JJWT Repository</a></li>
-<li><a style="color: #E76F00;" href="https://github.com/m3md69">Learn Mermaid</a></li>
+<li><a style="color: #E76F00;" href="https://github.com/M4MD24/LearnMermaid">Learn Mermaid</a></li>
 <li><a style="color: #E76F00;" href="https://refactoring.guru">Refactoring Guru</a></li>
 <li><a style="color: #E76F00;" href="https://sourcemaking.com">Source Making</a></li>
 <li><a style="color: #E76F00;" href="https://www.edraak.org/explore/">Edraak</a></li>
