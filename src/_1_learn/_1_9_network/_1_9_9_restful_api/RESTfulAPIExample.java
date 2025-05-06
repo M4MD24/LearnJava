@@ -79,14 +79,14 @@ public class RESTfulAPIExample {
                     TEXT_OF_RESPONSE = "OPTIONS request received!";
                     EXCHANGE.getResponseHeaders().add(
                             "Allow",
-                            "GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, M3MD69"
+                            "GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, M4MD24"
                     );
                     EXCHANGE.sendResponseHeaders(
                             200,
                             TEXT_OF_RESPONSE.length()
                     );
                     break;
-                case "M3MD69":
+                case "M4MD24":
                     TEXT_OF_RESPONSE = "CUSTOM request received!";
                     EXCHANGE.sendResponseHeaders(
                             200,
