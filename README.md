@@ -371,7 +371,7 @@
 
 ---
 
-## 2. <span style="color: #E76F00;">Solve (1,739 Problems, 4 Mini Projects)</span>
+## 2. <span style="color: #E76F00;">Solve (1,745 Problems, 4 Mini Projects)</span>
 
 <li><u style="text-decoration-color: #E76F00;">Solve problems and mini projects</u><span style="color: #E76F00;">.</span></li>
 
@@ -379,8 +379,8 @@
 |:-------------------------------------------------------------------------------------------:|:------------------------:|
 |       <a style="color: #E76F00;" href="https://www.w3schools.com/java">W3Schools</a>        |       17 Problems        |
 | <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises">W3Resources</a> |      1,059 Problems      |
-|           <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a>           |       273 Problems       |
-|             <a style="color: #E76F00;" href="https://coderhub.sa">CoderHub</a>              |       152 Problems       |
+|           <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a>           |       274 Problems       |
+|             <a style="color: #E76F00;" href="https://coderhub.sa">CoderHub</a>              |       153 Problems       |
 |                <a style="color: #E76F00;" href="https://satr.codes">Satr</a>                |     4 Mini Projects      |
 |             <a style="color: #E76F00;" href="https://leetcode.com">LeetCode</a>             |       174 Problems       |
 |    <a style="color: #E76F00;" href="https://www.hackerrank.com/dashboard">HackerRank</a>    |       64 Problems        |
@@ -460,7 +460,7 @@
     14. Regular Expression (30 Problems)
         1. <a style="color: #E76F00;" href="https://www.w3resource.com/java-exercises/re/index.php">Regular Expression</a> (30 Problems)
 
-### <span>3. <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a> (272 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
+### <span>3. <a style="color: #E76F00;" href="https://codeforces.com">Codeforces</a> (274 Problems) 🟥</span> (<a style="color: #E76F00;" href="https://codeforces.com/profile/M3MD69">@M3MD69</a>)
 
 1. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contests">Assiut Sheets</a> (248 Problems)
     1. <a style="color: #E76F00;" href="https://codeforces.com/group/MWSDmqGsZm/contest/219158">Sheet 1 "Data Types - Conditions"</a> (26 Problems)
