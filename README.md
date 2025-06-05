@@ -23,7 +23,7 @@
 
 - **Recommended using** `Intellij IDEA (Community / Ultimate / EAP), Aqua, Fleet`
 - **Currently Used** `Intellij Idea Community`
-- **Java Version** `24 Oracle OpenJDK Version 24` - `SDK Default`
+- **Java Version** `24 Oracle OpenJDK Version 24.0.1` - `SDK Default`
 - **MySQL Version** `8.0.40`
 - **PostgreSQL Version** `17.2`
 - **SQLite Version** `3.47.2`
@@ -371,7 +371,7 @@
 
 ---
 
-## 2. <span style="color: #E76F00;">Solve (1,736 Problems, 4 Mini Projects)</span>
+## 2. <span style="color: #E76F00;">Solve (1,740 Problems, 4 Mini Projects)</span>
 
 <li><u style="text-decoration-color: #E76F00;">Solve problems and mini projects</u><span style="color: #E76F00;">.</span></li>
 
