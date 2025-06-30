@@ -1,4 +1,4 @@
-package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_3_hard._2_5_1_3_16_distribute_sacrifice_shares;
+package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_3_hard._2_5_1_3_17_distribute_sacrifice_shares;
 
 import java.util.Arrays;
 
