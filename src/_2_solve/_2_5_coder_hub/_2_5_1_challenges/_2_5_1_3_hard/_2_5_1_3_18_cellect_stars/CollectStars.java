@@ -50,13 +50,13 @@ public class CollectStars {
         while (!IS_REACHABLE[bestSum])
             bestSum--;
 
-        final List<Integer> COLLECT_EDBRIGHTNESS_VALUES = new ArrayList<>();
+        final List<Integer> COLLECTED_BRIGHTNESS_VALUES = new ArrayList<>();
         while (bestSum > 0) {
-            COLLECT_EDBRIGHTNESS_VALUES.add(bestSum - PREVIOUS_SUM_STEP[bestSum]);
+            COLLECTED_BRIGHTNESS_VALUES.add(bestSum - PREVIOUS_SUM_STEP[bestSum]);
             bestSum = PREVIOUS_SUM_STEP[bestSum];
         }
 
-        return COLLECT_EDBRIGHTNESS_VALUES.stream()
+        return COLLECTED_BRIGHTNESS_VALUES.stream()
                                           .mapToInt(Integer::intValue)
                                           .toArray();
     }
