@@ -1,4 +1,4 @@
-# <div dir="rtl">نصيب أضحية العيد</div>
+# <div dir="rtl">جمع النجوم البراقة</div>
 
 ## <div dir="rtl">السؤال</div>
 
