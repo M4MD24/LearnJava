@@ -22,7 +22,7 @@ public class RemoveRepeatedWords {
 
         WORDS_AFTER_REMOVE_REPEATED_WORDS.append(WORDS[0]);
 
-        for (int index = 1; index < WORDS.length; index++)
+        for (byte index = 1; index < WORDS.length; index++)
             if (!WORDS[index].equalsIgnoreCase(WORDS[index - 1]))
                 WORDS_AFTER_REMOVE_REPEATED_WORDS.append(" ")
                                                  .append(WORDS[index]);
