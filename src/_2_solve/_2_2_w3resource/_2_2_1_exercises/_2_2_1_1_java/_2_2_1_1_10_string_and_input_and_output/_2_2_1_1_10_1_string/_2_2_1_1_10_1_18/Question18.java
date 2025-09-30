@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question18 {
     public static void main(final String[] ARGUMENTS) {
-        final String TEXT = "Nullexia";
+        final String TEXT = "Barmajaa";
         final int HASH_CODE = TEXT.hashCode();
         System.out.print(TEXT + " = " + HASH_CODE);
     }

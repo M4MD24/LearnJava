@@ -6,9 +6,9 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
  * <br/>
  * <h1>Input:</h1>
  * <h2>
- * First Text: Nullexia 1
+ * First Text: Barmajaa 1
  * <br/>
- * Second Text: nullexia 2
+ * Second Text: Barmajaa 2
  * </h2>
  * <br/>
  * <h1>Expected Output:</h1>
@@ -19,8 +19,8 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question6 {
     public static void main(final String[] ARGUMENTS) {
-        final String FIRST_TEXT = "Nullexia 1",
-                SECOND_TEXT = "nullexia 2";
+        final String FIRST_TEXT = "Barmajaa 1",
+                SECOND_TEXT = "Barmajaa 2";
         System.out.print("First text is " + getCompareBetweenTwoTexts(FIRST_TEXT, SECOND_TEXT) + " second text");
     }
 

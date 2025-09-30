@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question73 {
     public static void main(final String[] ARGUMENTS) {
-        System.out.print(isSpecificSubStringAppearsBeforeDot("Nullexia-for-.-Programming", "for"));
+        System.out.print(isSpecificSubStringAppearsBeforeDot("Hadeeth-.Barmajaa", "ee"));
     }
 
     private static boolean isSpecificSubStringAppearsBeforeDot(final String TEXT, final String SPECIFIC_SUB_STRING) {

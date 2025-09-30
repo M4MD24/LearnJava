@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question54 {
     public static void main(final String[] ARGUMENTS) {
-        System.out.print(getSmallestSubStringContainingAllCharactersFromTargetTextInSourceText("Nullexia for Programming", "NP"));
+        System.out.print(getSmallestSubStringContainingAllCharactersFromTargetTextInSourceText("Barmajaa", "Bm"));
     }
 
     private static String getSmallestSubStringContainingAllCharactersFromTargetTextInSourceText(final String SOURCE_TEXT, final String TARGET_TEXT) {

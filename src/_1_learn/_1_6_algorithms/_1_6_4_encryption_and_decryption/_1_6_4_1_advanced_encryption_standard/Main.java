@@ -5,7 +5,7 @@ public class Main {
         final AdvancedEncryptionStandard AES_ENCRYPTION = new AdvancedEncryptionStandard();
         System.out.println("■ AES");
 
-        final String ORIGINAL_TEXT = "Nullexia For Programming";
+        final String ORIGINAL_TEXT = "Barmajaa";
         System.out.println("Original Text: " + ORIGINAL_TEXT);
 
         final String ENCRYPTED_TEXT = AES_ENCRYPTION.encrypt(ORIGINAL_TEXT);

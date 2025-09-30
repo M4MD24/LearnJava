@@ -7,8 +7,8 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_14_regu
 
 public class Question9 {
     public static void main(final String[] ARGUMENTS) {
-        final String TEXT = "123NullexiaForProgramming";
-        final int SPECIFIC_NUMBER = 123;
+        final String TEXT            = "123Barmajaa";
+        final int    SPECIFIC_NUMBER = 123;
         System.out.print(isContainSpecificNumber(TEXT, SPECIFIC_NUMBER));
     }
 

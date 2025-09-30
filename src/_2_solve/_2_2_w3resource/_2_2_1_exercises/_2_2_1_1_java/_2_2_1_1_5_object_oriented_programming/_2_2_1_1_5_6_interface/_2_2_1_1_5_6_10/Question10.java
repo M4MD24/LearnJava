@@ -24,7 +24,7 @@ public class Question10 {
         final RSA RSA_ENCRYPTION = new RSA();
         System.out.println("\n■ RSA");
 
-        final String ORIGINAL_TEXT = "Nullexia For Programming";
+        final String ORIGINAL_TEXT = "Barmajaa";
         System.out.println("Original Text: " + ORIGINAL_TEXT);
 
         final String ENCRYPTED_TEXT = RSA_ENCRYPTION.encrypt(ORIGINAL_TEXT);
@@ -38,7 +38,7 @@ public class Question10 {
         final AES AES_ENCRYPTION = new AES();
         System.out.println("■ AES");
 
-        final String ORIGINAL_TEXT = "Nullexia For Programming";
+        final String ORIGINAL_TEXT = "Barmajaa";
         System.out.println("Original Text: " + ORIGINAL_TEXT);
 
         final String ENCRYPTED_TEXT = AES_ENCRYPTION.encrypt(ORIGINAL_TEXT);

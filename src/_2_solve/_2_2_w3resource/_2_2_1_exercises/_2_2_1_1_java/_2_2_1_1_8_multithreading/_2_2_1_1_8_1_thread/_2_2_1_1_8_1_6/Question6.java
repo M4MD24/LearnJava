@@ -60,7 +60,7 @@ public class Question6 {
 
     public static void main(final String[] ARGUMENTS) {
         final String[] SEED_URLS = {
-                "https://github.com/Nullexia-for-Programming/NULLEXIA"
+                "https://github.com/Barmajaa/Barmajaa"
         };
         startCrawling(SEED_URLS);
     }

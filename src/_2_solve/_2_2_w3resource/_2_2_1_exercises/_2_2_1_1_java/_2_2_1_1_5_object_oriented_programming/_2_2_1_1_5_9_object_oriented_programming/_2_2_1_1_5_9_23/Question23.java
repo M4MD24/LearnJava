@@ -15,7 +15,7 @@ public class Question23 {
                 "Learn Java",
                 "Mohamed Sadawy",
                 123,
-                "Telegram: Nullexia For Programming",
+                "Telegram: Barmajaa",
                 (byte) 3,
                 (byte) 24,
                 (byte) 45

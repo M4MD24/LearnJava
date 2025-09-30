@@ -7,13 +7,13 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question69 {
     public static void main(final String[] ARGUMENTS) {
-        System.out.print(getTextBetweenToastWord("toastNullexiatoastForProgramming"));
+        System.out.print(getTextBetweenToastWord("toastBarmajaatoast", "toast"));
     }
 
-    private static String getTextBetweenToastWord(final String TEXT) {
+    private static String getTextBetweenToastWord(final String TEXT, final String TARGET_TEXT) {
         return TEXT.substring(
-                TEXT.indexOf("toast") + 5,
-                TEXT.lastIndexOf("toast")
+                TEXT.indexOf(TARGET_TEXT) + TARGET_TEXT.length(),
+                TEXT.lastIndexOf(TARGET_TEXT)
         );
     }
 }

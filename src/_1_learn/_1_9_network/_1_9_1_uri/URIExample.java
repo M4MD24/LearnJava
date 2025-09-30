@@ -12,7 +12,7 @@ public class URIExample {
     }
 
     private static void printURIInformation() throws URISyntaxException {
-        final URI URI_EXAMPLE = new URI("https://github.com/Nullexia-for-Programming/NULLEXIA");
+        final URI URI_EXAMPLE = new URI("https://github.com/Barmajaa/Barmajaa");
         System.out.printf("""
                         Authority: %s
                         Fragment: %s

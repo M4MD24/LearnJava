@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 
 public class Question108 {
     public static void main(final String[] ARGUMENTS) {
-        System.out.print(areContainConsecutiveCharacters("Nullexia"));
+        System.out.print(areContainConsecutiveCharacters("Barmajaa"));
     }
 
     private static boolean areContainConsecutiveCharacters(final String TEXT) {

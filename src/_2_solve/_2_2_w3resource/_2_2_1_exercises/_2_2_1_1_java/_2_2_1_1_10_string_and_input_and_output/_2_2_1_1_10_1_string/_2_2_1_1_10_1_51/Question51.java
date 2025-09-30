@@ -9,7 +9,7 @@ import java.util.LinkedHashMap;
 
 public class Question51 {
     public static void main(final String[] ARGUMENTS) {
-        System.out.print(getAllCountOfRepeatedCharacters("Nullexia for Programming"));
+        System.out.print(getAllCountOfRepeatedCharacters("Barmajaa"));
     }
 
     private static LinkedHashMap<Character, Integer> getAllCountOfRepeatedCharacters(final String TEXT) {

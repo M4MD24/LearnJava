@@ -11,22 +11,22 @@ public class Question42 {
     public static void main(final String[] ARGUMENTS) {
         System.out.print(
                 Arrays.toString(getTextsContainingAllCharactersOfText(
-                        new String[]{"Nullexia", "for", "Programming"},
-                        "orrr"
+                        new String[] {"Hadeeth", "Barmajaa"},
+                        "errr"
                 ))
         );
     }
 
     private static String[] getTextsContainingAllCharactersOfText(final String[] TEXTS, final String TEXT) {
         return Arrays.stream(TEXTS)
-                .filter(
-                        text -> text.chars()
-                                .anyMatch(
-                                        currentCharacter -> TEXT.chars()
-                                                .anyMatch(
-                                                        anotherCharacter -> currentCharacter == anotherCharacter
-                                                )
-                                )
-                ).toArray(String[]::new);
+                     .filter(
+                             text -> text.chars()
+                                         .anyMatch(
+                                                 currentCharacter -> TEXT.chars()
+                                                                         .anyMatch(
+                                                                                 anotherCharacter -> currentCharacter == anotherCharacter
+                                                                         )
+                                         )
+                     ).toArray(String[]::new);
     }
 }

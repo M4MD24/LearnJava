@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question25 {
     public static void main(final String[] ARGUMENTS) {
-        final String FIRST_TEXT = "Nullexia-for-Programming";
+        final String FIRST_TEXT = "Hadeeth-Barmajaa";
         System.out.println("Before Replace: " + FIRST_TEXT);
         System.out.print("After Replace : " + FIRST_TEXT.replaceAll("-+", " "));
     }

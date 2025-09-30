@@ -7,8 +7,8 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question10 {
     public static void main(final String[] ARGUMENTS) {
-        final String FIRST_TEXT = "Nullexia 1";
-        final StringBuffer SECOND_TEXT = new StringBuffer("Nullexia 2");
+        final String FIRST_TEXT = "Barmajaa 1";
+        final StringBuffer SECOND_TEXT = new StringBuffer("Barmajaa 2");
         System.out.print(FIRST_TEXT.contentEquals(SECOND_TEXT));
     }
 }

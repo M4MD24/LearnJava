@@ -5,7 +5,7 @@ public class Main {
         final MessageDigest5 MS5_ENCRYPTION = new MessageDigest5();
         System.out.println("■ MS5");
 
-        final String ORIGINAL_TEXT = "Nullexia For Programming";
+        final String ORIGINAL_TEXT = "Barmajaa";
         System.out.println("Original Text: " + ORIGINAL_TEXT);
 
         final String ENCRYPTED_TEXT = MS5_ENCRYPTION.encrypt(ORIGINAL_TEXT);

@@ -5,7 +5,7 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
  * <h2>Write a Java program to count Unicode code points in the specified text range of a string.</h2>
  * <br/>
  * <h1>Input:</h1>
- * <h2>Nullexia</h2>
+ * <h2>Barmajaa</h2>
  * <br/>
  * <h1>Expected Output:</h1>
  * <h2>
@@ -15,7 +15,7 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question4 {
     public static void main(final String[] ARGUMENTS) {
-        final String TEXT = "Nullexia";
+        final String TEXT = "Barmajaa";
         final int START_INDEX_TARGET = 2,
                 END_INDEX_TARGET = 4;
         System.out.print("Codepoint count from " + START_INDEX_TARGET + " to " + END_INDEX_TARGET + ": " + TEXT.codePointCount(START_INDEX_TARGET, END_INDEX_TARGET));

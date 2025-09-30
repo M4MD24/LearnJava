@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question24 {
     public static void main(final String[] ARGUMENTS) {
-        final String FIRST_TEXT = "_".repeat(10) + "Nullexia" + "_".repeat(10);
+        final String FIRST_TEXT = "_".repeat(10) + "Barmajaa" + "_".repeat(10);
         System.out.println("Before Replace: " + FIRST_TEXT);
         System.out.print("After Replace : " + FIRST_TEXT.replace("_", ""));
     }

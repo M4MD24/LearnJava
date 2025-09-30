@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 
 public class Question14 {
     public static void main(final String[] ARGUMENTS) {
-        final String TEXT = "Nullexia For Programming";
+        final String TEXT = "Barmajaa";
         System.out.print(getCountOfVowels(TEXT));
     }
 

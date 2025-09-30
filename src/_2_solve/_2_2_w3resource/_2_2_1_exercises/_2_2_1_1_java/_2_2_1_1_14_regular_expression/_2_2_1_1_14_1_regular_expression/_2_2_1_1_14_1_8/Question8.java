@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_14_regu
 
 public class Question8 {
     public static void main(final String[] ARGUMENTS) {
-        final String TEXT = "Nullexia_4_Programming";
+        final String TEXT = "Hadeeth_4_Barmajaa";
         System.out.print(isContainLettersAndNumbersOnlyAndUnderscore(TEXT));
     }
 

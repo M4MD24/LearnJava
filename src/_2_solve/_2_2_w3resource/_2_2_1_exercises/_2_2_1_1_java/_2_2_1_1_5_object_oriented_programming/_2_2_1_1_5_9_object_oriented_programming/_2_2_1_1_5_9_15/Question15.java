@@ -7,55 +7,78 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_5_objec
 
 public class Question15 {
     public static void main(final String[] ARGUMENTS) {
-        printNullexia();
-        printFor();
-        printProgramming();
+        printBarmajaa();
     }
 
-    private static void printProgramming() {
-        System.out.printf("%s%s%s%s%s%s%s%s%s%s%s",
-                KeyCharacters.P,
-                KeyCharacters.r,
-                KeyCharacters.o,
-                KeyCharacters.g,
-                KeyCharacters.r,
+    private static void printBarmajaa() {
+        System.out.printf(
+                "%s%s%s%s%s%s%s%s",
+                KeyCharacters.B,
                 KeyCharacters.a,
-                KeyCharacters.m,
-                KeyCharacters.m,
-                KeyCharacters.i,
-                KeyCharacters.n,
-                KeyCharacters.g
-        );
-    }
-
-    private static void printFor() {
-        System.out.printf("%s%s%s%s",
-                KeyCharacters.F,
-                KeyCharacters.o,
                 KeyCharacters.r,
-                KeyCharacters.SPACE.getCharacter()
-        );
-    }
-
-    private static void printNullexia() {
-        System.out.printf("%s%s%s%s%s%s%s%s%s",
-                KeyCharacters.N,
-                KeyCharacters.u,
-                KeyCharacters.l,
-                KeyCharacters.l,
-                KeyCharacters.e,
-                KeyCharacters.x,
-                KeyCharacters.i,
+                KeyCharacters.m,
                 KeyCharacters.a,
-                KeyCharacters.SPACE.getCharacter()
+                KeyCharacters.j,
+                KeyCharacters.a,
+                KeyCharacters.a
         );
     }
 }
 
 enum KeyCharacters {
-    a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z,
+    a,
+    b,
+    c,
+    d,
+    e,
+    f,
+    g,
+    h,
+    i,
+    j,
+    k,
+    l,
+    m,
+    n,
+    o,
+    p,
+    q,
+    r,
+    s,
+    t,
+    u,
+    v,
+    w,
+    x,
+    y,
+    z,
     SPACE,
-    A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z;
+    A,
+    B,
+    C,
+    D,
+    E,
+    F,
+    G,
+    H,
+    I,
+    J,
+    K,
+    L,
+    M,
+    N,
+    O,
+    P,
+    Q,
+    R,
+    S,
+    T,
+    U,
+    V,
+    W,
+    X,
+    Y,
+    Z;
 
     String getCharacter() {
         if (this == SPACE)

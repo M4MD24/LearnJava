@@ -7,11 +7,11 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_14_regu
 
 public class Question6 {
     public static void main(final String[] ARGUMENTS) {
-        final String TEXT = "Nullexia For Programming";
+        final String TEXT = "Barmajaa";
         System.out.print(isContain_g_Letter(TEXT));
     }
 
     private static boolean isContain_g_Letter(final String TEXT) {
-        return TEXT.matches(".*g.*");
+        return TEXT.matches(".*m.*");
     }
 }

@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class URLAndURLConnectionAndHTTPURLConnectionAndHTTPSURLConnectionExample {
     public static void main(final String[] ARGUMENTS) throws IOException {
-        printURLConnectionInformation(new URL("https://github.com/Nullexia-for-Programming/NULLEXIA"));
+        printURLConnectionInformation(new URL("https://github.com/Barmajaa/Barmajaa"));
     }
 
     private static void printURLConnectionInformation(final URL UNIFORM_RESOURCE_LOCATOR) throws IOException {

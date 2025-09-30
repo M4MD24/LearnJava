@@ -11,11 +11,11 @@ import java.util.Scanner;
  * </h2>
  * <br/>
  * <h1>Input Data:</h1>
- * <h2>Input text: Nullexia</h2>
+ * <h2>Input text: Barmajaa</h2>
  * <br/>
  * <h1>Excepted Output:</h1>
  * <h2>
- * Original String: Nullexia
+ * Original String: Barmajaa
  * <br/>
  * First unique character of the above: 0
  * </h2>

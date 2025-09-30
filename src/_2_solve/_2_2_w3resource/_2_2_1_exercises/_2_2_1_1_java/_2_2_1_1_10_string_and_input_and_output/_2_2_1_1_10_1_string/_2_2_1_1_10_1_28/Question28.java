@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question28 {
     public static void main(final String[] ARGUMENTS) {
-        final String TEXT = "Nullexia for Programming";
+        final String TEXT = "Barmajaa";
         final char[] TEXT_AS_CHARACTERS = TEXT.toCharArray();
         System.out.print(TEXT_AS_CHARACTERS);
     }

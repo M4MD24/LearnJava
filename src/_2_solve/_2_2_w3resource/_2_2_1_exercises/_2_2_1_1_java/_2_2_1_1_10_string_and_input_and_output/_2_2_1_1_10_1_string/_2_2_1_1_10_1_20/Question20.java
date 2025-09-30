@@ -7,10 +7,8 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question20 {
     public static void main(final String[] ARGUMENTS) {
-        String FIRST_TEXT = "Nullexia for Programming",
-                SECOND_TEXT = "Nullexia" +
-                        " for " +
-                        "Programming";
+        String FIRST_TEXT = "Barmajaa",
+                SECOND_TEXT = "Barmajaa";
         String THIRD_TEXT = SECOND_TEXT.intern();
         System.out.println(FIRST_TEXT == SECOND_TEXT);
         System.out.print(FIRST_TEXT == THIRD_TEXT);

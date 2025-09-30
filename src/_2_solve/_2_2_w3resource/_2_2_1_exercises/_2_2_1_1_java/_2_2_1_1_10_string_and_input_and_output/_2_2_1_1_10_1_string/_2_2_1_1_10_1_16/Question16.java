@@ -7,7 +7,7 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question16 {
     public static void main(final String[] ARGUMENTS) {
-        final String TEXT = "Nullexia";
+        final String TEXT = "Barmajaa";
         final byte[] TEXT_AS_BYTES = TEXT.getBytes();
         System.out.print(new String(TEXT_AS_BYTES));
     }

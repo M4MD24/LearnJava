@@ -15,7 +15,7 @@ package _2_solve._2_6_leet_code._2_6_1_problem_set._2_6_1_1_easy._2_6_1_1_58_len
 
 public class LengthOfLastWord {
     public static void main(final String[] ARGUMENTS) {
-        final String TEXT = "Nullexia For Programming";
+        final String TEXT = "Hadeeth Barmajaa";
         System.out.print(lengthOfLastWord(TEXT));
     }
 

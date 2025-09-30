@@ -7,11 +7,11 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question21 {
     public static void main(final String[] ARGUMENTS) {
-        final String TEXT = "Nullexia";
-        printAllCharactersPositions(TEXT);
+        final String TEXT = "Barmajaa";
+        printAllLastCharacterPositions(TEXT);
     }
 
-    private static void printAllCharactersPositions(final String TEXT) {
+    private static void printAllLastCharacterPositions(final String TEXT) {
         System.out.printf("""
                         a  | b  | c  | d  | e  | f  | g
                         %2d | %2d | %2d | %2d | %2d | %2d | %2d

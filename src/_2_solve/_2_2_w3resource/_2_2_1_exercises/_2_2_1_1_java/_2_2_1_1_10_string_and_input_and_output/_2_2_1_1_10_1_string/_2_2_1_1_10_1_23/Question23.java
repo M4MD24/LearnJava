@@ -7,8 +7,8 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question23 {
     public static void main(final String[] ARGUMENTS) {
-        final String FIRST_TEXT = "Nullexia",
-                SECOND_TEXT = "_Nullexia";
+        final String FIRST_TEXT = "Barmajaa",
+                SECOND_TEXT = "_Barmajaa";
         System.out.print(FIRST_TEXT.regionMatches(4, SECOND_TEXT, 5, 4));
     }
 }

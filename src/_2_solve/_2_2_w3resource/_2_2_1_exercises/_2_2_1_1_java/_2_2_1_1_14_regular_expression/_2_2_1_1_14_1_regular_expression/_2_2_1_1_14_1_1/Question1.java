@@ -7,11 +7,11 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_14_regu
 
 public class Question1 {
     public static void main(final String[] ARGUMENTS) {
-        final String TEXT = "Nullexia4Programming";
-        System.out.print(isContainLettersAndNumbersOnly(TEXT));
+        final String TEXT = "Barmjaa2";
+        System.out.print(isContainLettersOrNumbersOnly(TEXT));
     }
 
-    private static boolean isContainLettersAndNumbersOnly(final String TEXT) {
+    private static boolean isContainLettersOrNumbersOnly(final String TEXT) {
         return TEXT.matches("[a-zA-Z0-9]+");
     }
 }

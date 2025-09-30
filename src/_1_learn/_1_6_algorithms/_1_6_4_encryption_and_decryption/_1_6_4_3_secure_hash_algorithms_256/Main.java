@@ -7,7 +7,7 @@ public class Main {
         final SecureHashAlgorithm256 HSA_256_ENCRYPTION = new SecureHashAlgorithm256();
         System.out.println("■ SHA-256");
 
-        final String ORIGINAL_TEXT = "Nullexia For Programming";
+        final String ORIGINAL_TEXT = "Barmajaa";
         System.out.println("Original Text: " + ORIGINAL_TEXT);
 
         final String ENCRYPTED_TEXT = HSA_256_ENCRYPTION.encrypt(ORIGINAL_TEXT);

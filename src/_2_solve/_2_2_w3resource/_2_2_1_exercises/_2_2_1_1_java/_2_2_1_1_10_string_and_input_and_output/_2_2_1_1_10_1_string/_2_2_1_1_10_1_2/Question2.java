@@ -5,7 +5,7 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
  * <h2>Write a Java program to get the character (Unicode code point) at the given index within the string.</h2>
  * <br/>
  * <h1>Input:</h1>
- * <h2>Nullexia</h2>
+ * <h2>Barmajaa</h2>
  * <br/>
  * <h1>Expected Output:</h1>
  * <h2>
@@ -15,7 +15,7 @@ package _2_solve._2_2_w3resource._2_2_1_exercises._2_2_1_1_java._2_2_1_1_10_stri
 
 public class Question2 {
     public static void main(final String[] ARGUMENTS) {
-        final String TEXT = "Nullexia";
+        final String TEXT = "Barmajaa";
         final int TARGET_INDEX = 4;
         System.out.print("The character (unicode point) at position " + TARGET_INDEX + ": " + TEXT.codePointAt(TARGET_INDEX));
     }
