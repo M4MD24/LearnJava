@@ -1,7 +1,7 @@
 package _2_solve._2_5_coder_hub._2_5_1_challenges._2_5_1_1_easy._2_5_1_1_80_can_jump;
 
 public class CanJump {
-    public static void main(String[] args) {
+    public static void main(final String[] ARGUMENTS) {
         System.out.println(canJump(new int[] {2, 3, 1, 1, 4}));
         System.out.println(canJump(new int[] {3, 2, 1, 0, 4}));
         System.out.println(canJump(new int[] {0}));

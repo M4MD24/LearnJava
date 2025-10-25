@@ -50,7 +50,7 @@ import java.io.OutputStreamWriter;
  */
 
 public class NextRound {
-    public static void main(String[] args) throws IOException {
+    public static void main(final String[] ARGUMENTS) throws IOException {
         final BufferedReader INPUT = new BufferedReader(new InputStreamReader(System.in));
         final BufferedWriter OUTPUT = new BufferedWriter(new OutputStreamWriter(System.out));
         final String[] FIRST_LINE = INPUT.readLine().split(" ");

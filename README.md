@@ -489,12 +489,12 @@
 3. <a style="color: #E76F00;" href="https://satr.codes/course/oqTQleaQLV/view">Java 102</a> (1 Mini Project)
 4. <a style="color: #E76F00;" href="https://satr.codes/course/aiZMoXpIya/view">Java 103</a> (1 Mini Project)
 
-### <span>5. <a style="color: #E76F00;" href="https://coderhub.sa">CoderHub</a> (154 Problems) 🟩</span> (<a style="color: #E76F00;" href="https://profile.satr.codes/M4MD24/public/overview">@M4MD24</a>)
+### <span>5. <a style="color: #E76F00;" href="https://coderhub.sa">CoderHub</a> (155 Problems) 🟩</span> (<a style="color: #E76F00;" href="https://profile.satr.codes/M4MD24/public/overview">@M4MD24</a>)
 
 1. <a style="color: #E76F00;" href="https://coderhub.sa/challenges">Challenges</a>
     1. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=EASY">Easy</a> (80 Problems)
     2. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=MEDIUM">Medium</a> (54 Problems)
-    3. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (20 Problems)
+    3. <a style="color: #E76F00;" href="https://coderhub.sa/challenges?solvedFilter=ALL&level=HARD">Hard</a> (21 Problems)
 
 ### <span>6. <a style="color: #E76F00;" href="https://leetcode.com">LeetCode</a> (174 Problems, (48 Easy, 107 Medium, 19 Hard)) 🟥</span> (<a style="color: #E76F00;" href="https://leetcode.com/u/M4MD24">@M4MD24</a>)
 
